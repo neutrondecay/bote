@@ -128,3 +128,7 @@ liege="k_bulgaria"
 {
 holder=467524 #Liudovik
 }
+1356.1.1=
+{
+holder=0
+}

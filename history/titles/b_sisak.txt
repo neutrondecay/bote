@@ -1,0 +1,7 @@
+﻿1379.1.1={
+	liege=c_zagreb
+	holder=854900 # Paul Horvat Bishop of Zagreb
+}
+1386.1.1={
+        holder=0
+}

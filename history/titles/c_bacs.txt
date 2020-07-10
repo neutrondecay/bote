@@ -74,3 +74,7 @@ liege="d_pecs"
 {
 holder=470151
 }
+1351.1.1=
+{
+holder=93784 # Péter Kõszegi
+}

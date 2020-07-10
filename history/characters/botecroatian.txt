@@ -141,3 +141,19 @@
 		death = yes
 	}
 }
+854900 = {
+	name = "Pavao" # Paul Horvat Bishop of Zagreb
+	dynasty = 350027
+	culture = croatian
+	religion = catholic
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1394.8.14 = {
+		death = {
+		    death_reason=death_execution
+			killer=802512 # Sigismund of Hungary
+		}
+	}
+}

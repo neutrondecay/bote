@@ -111,3 +111,12 @@ holder=93796
 {
 holder=470212
 }
+1349.1.1={
+	holder=854136 # László II Debreceni
+}
+1364.1.1={
+	holder=854137 # János Debreceni
+}
+1380.1.1={
+	holder=854138 # Lásló III Debreceni
+}

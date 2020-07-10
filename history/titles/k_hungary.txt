@@ -57,8 +57,8 @@
 	holder=146140
 }
 797.1.1 = {
-	name = KINGDOM_PANNONIA
-	adjective = KINGDOM_PANNONIA_ADJ
+	name = KINGDOM_HUNGARY
+	adjective = KINGDOM_HUNGARY_ADJ
 	effect = { reset_coa = THIS }
 	set_global_flag = avar_khaganate_renamed
 }
@@ -70,10 +70,6 @@
 }
 835.1.1 = {
 	holder=0
-}
-895.1.1 = {
-	reset_name = yes
-	reset_adjective = yes
 }
 907.1.1={
 	effect = { insert_title_history = k_magyar }

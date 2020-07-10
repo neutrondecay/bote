@@ -98,12 +98,14 @@ holder=468510
 {
 holder=468500
 }
-1355.12.20={
-	holder = 800550
+1350.1.1={
+	holder=800529 # Vukasin of Serbia
 }
-1371.1.1 = {
-	holder = 800551
+1371.9.26={
+	holder=800530 # Marko of Serbia
+	liege=k_ottoman
 }
-1382.1.1 = {
-	liege = k_ottoman
+1395.5.17={
+	holder=855600 # Prince Suleyman
+	liege=d_rumelia
 }

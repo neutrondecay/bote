@@ -61,4 +61,20 @@
 1335.1.1={
 	liege="k_eretnid"
 }
-
+1340.1.1 = {
+	holder=476500
+	liege = "k_ottoman"
+}
+1361.1.1 = {
+	holder = 476502
+}
+1350.1.1 = {
+	holder = 34261
+}
+1380.1.1 = {
+	holder = 801118
+	liege = d_erzincan
+}
+1403.1.1 = {
+	holder = 801120
+}

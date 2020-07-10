@@ -688,3 +688,73 @@
 	religion = orthodox
 	culture = russian
 }
+350014 = {
+	name = "Dragas"
+	religion = orthodox
+	culture = serbian
+}
+350015 = {
+	name = "Terterids"
+	religion = orthodox
+	culture = bulgarian
+}
+350016 = {
+	name = "Lala"
+	religion = sunni
+	culture = turkish
+}
+350017 = {
+	name = "Candarli"
+	religion = sunni
+	culture = turkish
+}
+350018 = {
+	name = "Sirokai"
+	religion = catholic
+	culture = hungarian
+}
+350019 = {
+	name = "Csor"
+	religion = catholic
+	culture = hungarian
+}
+350020 = {
+	name = "Kont"
+	religion = catholic
+	culture = hungarian
+}
+350021 = {
+	name = "Losonci"
+	religion = catholic
+	culture = hungarian
+}
+350022 = {
+	name = "Bebek"
+	religion = catholic
+	culture = hungarian
+}
+350023 = {
+	name = "Ostoja"
+	religion = catholic
+	culture = polish
+}
+350024 = {
+	name = "Lackfi"
+	religion = catholic
+	culture = hungarian
+}
+350025 = {
+	name = "Szentgyörgyi"
+	religion = catholic
+	culture = hungarian
+}
+350026 = {
+	name = "Huniade"
+	religion = catholic
+	culture = romanian
+}
+350027 = {
+	name = "Horvat"
+	religion = catholic
+	culture = croatian
+}

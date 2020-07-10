@@ -3622,7 +3622,7 @@ name = "Giovanni"
 		death=yes
 	}
 }
-800527 = {
+801202 = {
 	name = "Antonio"
 	dynasty=7250 #Tocco
 	religion="catholic"
@@ -3680,7 +3680,7 @@ name = "Giovanni"
 	}
 }
 ###
-800791 = {
+801203 = {
 	name="Gian"
 	dynasty=13029
 	religion="catholic"
@@ -3693,12 +3693,12 @@ name = "Giovanni"
 		death=yes
 	}
 }
-800792 = {
+801204 = {
 	name="Francesco"
 	dynasty=13029
 	religion="catholic"
 	culture="italian"
-	father = 800791
+	father = 801203
 	
 	1310.1.1 = {
 		birth=yes

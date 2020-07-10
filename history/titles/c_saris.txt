@@ -69,3 +69,19 @@ holder = 93763
 {
 	holder = 93744
 }
+1342.1.1={
+	holder = 93745 # Miklos Drugeth
+	liege=k_hungary
+}	
+1355.1.1={
+	holder = 93748 # János Drugeth de Gerena
+}
+1374.1.1={
+	holder = 854121 # Miklós Drugeth de Gerena
+}
+1380.1.1={
+	holder = 854122 # László Drugeth de Gerena
+}	
+1398.1.1={
+	holder = 854123 # János IV Drugeth de Hommona
+}			

@@ -95,3 +95,23 @@ holder=468550 #Ivan
 {
 holder=467500 #Ivan Aleksandr
 }
+1331.11.3=
+{
+holder=468500
+}
+1355.12.20={
+	holder=468501 # Uros V of Serbia
+}
+1360.1.1={
+	holder=855108 # Despot Dejan Dejanovic
+}
+1366.1.1={
+	holder=855103 # Jovan Dejanovic
+}
+1378.1.1={
+	holder=855102 # Konstantin Dejanovic
+	liege=k_ottoman
+}
+1395.5.17={
+	holder=855610 # Candarli Ali Pasha
+}

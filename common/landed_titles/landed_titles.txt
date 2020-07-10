@@ -8724,6 +8724,10 @@ e_byzantium = {
 		
 		culture = bulgarian
 		
+		title = TSAR
+		title_female = TSARINA
+		title_prefix = TSARDOM
+		
 		capital = 499 # Tyrnovo
 		
 		orthodox = 300 # Crusade target weight
@@ -28696,6 +28700,10 @@ e_carpathia = {
 			color2={ 255 255 255 }
 			
 			capital = 519 # Feher
+			
+			title = VOIVODE
+			title_female = PRINCESS
+			title_prefix = VOIVODESHIP
 			
 			c_szekelyfold = {
 				color={ 237 54 54 }

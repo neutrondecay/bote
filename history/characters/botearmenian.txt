@@ -1,0 +1,13 @@
+801179 = { 
+	name="Varazdat"
+	dynasty=1029023
+	religion="miaphysite"
+	culture="armenian"
+	father=248136
+	1330.1.1={
+		birth=yes
+	}
+	1390.1.1={
+		death=yes
+	}
+}

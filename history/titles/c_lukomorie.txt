@@ -108,4 +108,6 @@ liege="e_golden_horde"
 {
 	holder=125514
 }
-
+1340.1.1 = {
+	holder = 801195
+}

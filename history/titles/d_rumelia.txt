@@ -1,0 +1,7 @@
+1382.1.1={
+	holder=855608 # Lala Sahin Pasha
+	liege=k_ottoman
+}
+1388.1.1={
+	holder=855600 # Prince Suleyman
+}

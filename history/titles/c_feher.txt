@@ -87,3 +87,48 @@ holder=93754
 {
 holder=470040
 }
+1342.1.1 = {
+    holder = 854100 # Miklós Sirokay
+}
+1344.1.1 = {
+    holder = 800579 # István Lackfi
+}
+1350.1.1 = {
+    holder = 854101 # Tamás Csór
+}
+1351.1.1 = {
+    holder = 854102 # Miklós Kont
+}
+1356.1.1 = {
+    holder = 854104 # András Lackfi
+}
+1359.10.1 = {
+    holder = 854105 # Denis Lackfi
+}
+1367.1.1 = {
+    holder = 854106 # Miklós Lackfi
+}
+1368.1.1 = {
+    holder = 854107 # Imre Lackfi
+}
+1372.1.1 = {
+    holder = 854108 # István Lackfi
+}
+1376.1.1 = {
+    holder = 854109 # László Losonci
+}
+1385.1.1 = {
+    holder = 854108 # István Lackfi
+}
+1386.1.1 = {
+    holder = 854109 # László Losonci
+}
+1392.1.1 = {
+    holder = 854110 # Imre Bebek
+}
+1393.1.1 = {
+    holder = 854111 # Frank Szécsényi
+}
+1395.1.1 = {
+    holder = 854300 # Stibor Ostoja
+}

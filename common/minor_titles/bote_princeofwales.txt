@@ -1,0 +1,25 @@
+bote_princeofwales = {
+	dignity = 3
+	grant_limit = 1
+	opinion_effect = 10
+	short_name = yes
+	realm_in_name = no
+	show_as_title = no
+	
+	monthly_prestige = 0.005
+	allowed_to_grant = {
+		has_landed_title=k_england
+	}
+	allowed_to_hold = {
+		is_female=no
+		FROM = { has_landed_title = k_england }
+		is_primary_heir=yes
+		is_child_of=FROM
+	}
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}

@@ -171,7 +171,23 @@ holder=31193 #Todor I
 {
 holder=31195 #Georgi II
 }
-1322.8.1=
+1320.1.1=
 {
-holder=467521 #Ivan Stefan
+holder=850314 #Balik Terterid
+}
+1347.1.1={
+	holder=850312 # Dobrotitsa Terterid
+}
+1385.1.1={
+	holder=850313 # Ivanko Terterid
+}
+1389.1.1={
+	holder = 0
+}
+1392.1.1={
+	holder=850313 # Ivanko Terterid
+	liege=k_ottoman
+}
+1399.1.1={
+	holder=0
 }

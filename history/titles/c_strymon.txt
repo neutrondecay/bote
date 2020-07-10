@@ -97,3 +97,14 @@ holder=468550 #Ivan
 {
 holder=467500 #Ivan Aleksandr
 }
+1371.2.17={
+	holder=850301 # Ivan Shishman of Tarnovo
+}
+1382.1.1={
+	holder=855608 # Lala Sahin Pasha
+	liege=d_rumelia
+}
+1388.1.1={
+	holder=855610 # Candarli Ali Pasha
+	liege=k_ottoman
+}

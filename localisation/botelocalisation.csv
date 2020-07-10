@@ -23,7 +23,11 @@ e_serbia_adj;Serbian;;;;;;;;x
 k_muscovy;Muscovy;;;;;;;;x
 k_muscovy_adj;Muscovite;;;;;;;;x
 d_realnovgorodseversky;Novgorod-Seversky;;;;;;;;x
-d_realnovgorodseversky_adj;Novgorod-Seversky;;;;;;;;x
+k_vidin;Vidin;;;;;;;;x
+k_vidin_adj;Vidinite;;;;;;;;x
+k_tarnovo;Tarnovo;;;;;;;;x
+d_rumelia;Rumelia;;;;;;;;x
+d_rumelia_adj;Rumelian;;;;;;;;x
 #Patrician Houses
 b_di_ancona;House di Ancona;;;;;;;;x
 b_medici;House de' Medici;;;;;;;;x
@@ -37,6 +41,20 @@ GRAND_DUKE;Grand Duke;;;;;;;;x
 GRAND_DUCHESS;Grand Duchess;;;;;;;;x
 REPUBLIC;Republic of;;;;;;;;x
 title_queen_mother_russian;Princess Mother;;;;;;;;;;;;;x
+title_queen_mother_lithuanian;Princess Mother;;;;;;;;;;;;;x
+TSARDOM;Tsardom of;;;;;;;;x
+TSAR;Tsar;;;;;;;;x
+TSARINA;Tsarina;;;;;;;;x
+KINGDOM_HUNGARY;Hungary;;;;;;;;x
+KINGDOM_HUNGARY_ADJ;Hungarian;;;;;;;;x
+VOIVODE;Voivode;;;;;;;;x
+VOIVODESHIP;Voivodeship of;;;;;;;;x
+bote_princeofwales;Prince of Wales;;;;;;;;;;;;;x
+bote_princeofwales_desc;The heir apparent to the Kingdom of England.;;;;;;;;;;;;;x
+bote_dauphinoffrance;Dauphin of France;;;;;;;;;;;;;x
+bote_dauphinoffrance_desc;The heir apparent to the Kingdom of France.;;;;;;;;;;;;;x
+bote_palatineofhungary;Palatine of Hungary;;;;;;;;;;;;;x
+bote_palatineofhungary_desc;The King of Hungary's right hand man on earthly affairs.;;;;;;;;;;;;;x
 #Bloodlines
 welshbloodofowain;Welsh Blood of [This.GetName];;;;;;;;x
 welshbloodofowain_desc;[This.GetName] successfully freed Wales from the tyranny of English rule in a spectacular display of valour and courage;;;;;;;;x

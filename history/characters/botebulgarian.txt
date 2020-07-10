@@ -1,0 +1,263 @@
+850300 = {
+	name = "Sarah"
+
+	culture = bulgarian
+	religion = jewish
+
+	1330.1.1 = {
+		birth = yes
+	}
+	1347.1.1 = {
+	    add_spouse = 467500 # Ivan Alexander of Bulgaria
+		religion = orthodox
+		name="Teodora"
+	}
+	1388.1.1 = {
+		death = yes
+	}
+}
+850301 = {
+	name = "Ivan Shishman"
+	dynasty = 41
+
+	culture = bulgarian
+	religion = orthodox
+
+	father=467500 # Ivan Alexander of Bulgaria
+	mother=850300 # Sarah-Teodora
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1370.1.1 = {
+	    add_spouse = 850309 # Kira Maria
+    }
+	1386.1.1 = {
+	    add_spouse = 855100 # Dragana of Serbia
+    }
+	1395.6.3 = {
+		death = {
+		    death_reason = death_execution
+			killer = 800460 # Sultan Bayezid
+		}
+	}
+}
+850302 = {
+	name = "Keratsa"
+	female=yes
+	dynasty = 41
+
+	culture = bulgarian
+	religion = orthodox
+
+	father=467500 # Ivan Alexander of Bulgaria
+	mother=850300 # Sarah-Teodora
+	
+	1348.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+850303 = {
+	name = "Ivan Asen"
+	dynasty = 41
+
+	culture = bulgarian
+	religion = orthodox
+
+	father=467500 # Ivan Alexander of Bulgaria
+	mother=850300 # Sarah-Teodora
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1388.1.1 = {
+		death = yes
+	}
+}
+850304 = {
+	name = "Debislava"
+	female=yes
+	dynasty = 41
+
+	culture = bulgarian
+	religion = orthodox
+
+	father=467500 # Ivan Alexander of Bulgaria
+	mother=850300 # Sarah-Teodora
+	
+	1353.1.1 = {
+		birth = yes
+	}
+}
+850305 = {
+	name = "Vasilisa"
+	female=yes
+	dynasty = 41
+
+	culture = bulgarian
+	religion = orthodox
+
+	father=467500 # Ivan Alexander of Bulgaria
+	mother=850300 # Sarah-Teodora
+	
+	1355.1.1 = {
+		birth = yes
+	}
+}
+850306 = {
+	name = "Alexander"
+	dynasty = 41
+
+	culture = bulgarian
+	religion = orthodox
+
+	father=850301 # Ivan Shishman of Tarnovo
+    mother=850309 # Kira Maria
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+	    religion = sunni
+		name="Iskender"
+	}
+	1418.1.1 = {
+		death = yes
+	}
+}
+850307 = {
+	name = "Frujin"
+	dynasty = 41
+
+	culture = bulgarian
+	religion = orthodox
+
+	father=850301 # Ivan Shishman of Tarnovo
+    mother=855100 # Dragana of Serbia
+	
+	1387.1.1 = {
+		birth = yes
+	}
+	1460.1.1 = {
+		death = yes
+	}
+}
+850308 = {
+	name = "Joseph"
+	dynasty = 41
+
+	culture = bulgarian
+	religion = orthodox
+    trait=bastard
+	trait=scholarly_theologian
+	trait=monk
+	father=850301 # Ivan Shishman of Tarnovo
+	
+	1366.1.1 = {
+		birth = yes
+	}
+	1439.6.10 = {
+		death = yes
+	}
+}
+850309 = {
+	name = "Kira Maria"
+	female=yes
+
+	culture = bulgarian
+	religion = orthodox
+	
+	1351.1.1 = {
+		birth = yes
+	}
+	1381.1.1 = {
+		death = yes
+	}
+}
+850310 = {
+	name = "Konstantin"
+	dynasty = 41
+
+	culture = bulgarian
+	religion = orthodox
+
+	father=467511 # Ivan Sratzimir of Vidin
+	mother=855101 # Anna of Wallachia
+	
+	1369.1.1 = {
+		birth = yes
+	}
+	1422.9.17 = {
+		death = yes
+	}
+}
+850311 = {
+	name = "Dorothea"
+	female=yes
+	dynasty = 41
+
+	culture = bulgarian
+	religion = orthodox
+
+	father=467511 # Ivan Sratzimir of Vidin
+	mother=855101 # Anna of Wallachia
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1374.12.1 = {
+	    add_spouse = 800556 # Tvrtko I of Bosnia
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+850312 = {
+	name = "Dobrotitsa"
+	dynasty = 350015
+
+	culture = bulgarian
+	religion = orthodox
+	
+	father=850314 # Balik of Karvuna
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		death = yes
+	}
+}
+850313 = {
+	name = "Ivanko"
+	dynasty = 350015
+
+	culture = bulgarian
+	religion = orthodox
+	
+	father=850312 # Dobrotitsa of Karvuna
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+850314 = {
+	name = "Balik"
+	dynasty = 350015
+
+	culture = bulgarian
+	religion = orthodox
+	
+	1300.1.1 = {
+		birth = yes
+	}
+	1347.1.1 = {
+		death = yes
+	}
+}

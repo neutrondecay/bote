@@ -94,3 +94,11 @@ holder=470099
 {
 holder=470101
 }
+1360.1.1=
+{
+holder=93650 # János Viczay
+}
+1394.1.1=
+{
+holder=854190 # George Viczay
+}

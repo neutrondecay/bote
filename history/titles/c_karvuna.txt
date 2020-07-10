@@ -116,7 +116,25 @@ holder=31193 #Todor I
 {
 holder=31195 #Georgi II
 }
-1322.8.1=
+1320.1.1=
 {
-holder=467521 #Ivan Stefan
+holder=850314 #Balik Terterid
+}
+1347.1.1={
+	holder=850312 # Dobrotitsa Terterid
+}
+1385.1.1={
+	holder=850313 # Ivanko Terterid
+}
+1389.1.1={
+	holder = 830000 # Mircea of Wallachia
+	liege = "k_dacia"
+}
+1392.1.1={
+	holder=850313 # Ivanko Terterid
+	liege=d_karvuna
+}
+1399.1.1={
+	holder=855600 # Prince Suleyman
+	liege=d_rumelia
 }

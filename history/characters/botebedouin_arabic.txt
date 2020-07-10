@@ -25,7 +25,7 @@
 		death = yes
 	}
 }
-801053 = {
+801198 = {
 	name = "Izz ad-Din Abd al-Aziz"
 	dynasty = 3000113
 	culture = bedouin_arabic

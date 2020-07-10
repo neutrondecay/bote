@@ -128,4 +128,14 @@ holder=468510
 {
 holder=468500
 }
-
+1355.12.20={
+	holder=468501 # Uros V of Serbia
+}
+1371.12.3={
+	holder=800554 # Lazar
+	liege=0
+}
+1389.1.1={
+	holder=855610 # Candarli Ali Pasha
+	liege=k_ottoman
+}

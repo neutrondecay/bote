@@ -86,7 +86,7 @@ k_muscovy = {
 	color2={ 255 100 125 }
 		
 	culture = russian
-	capital = c_moskva
+	capital = 575
 	title = GRAND_DUKE
 	title_female = GRAND_DUCHESS
 	title_prefix = GRAND_DUCHY
@@ -103,7 +103,7 @@ d_black_guard = {
 	color = { 20 20 20 }
 	color2 = { 50 50 150 }
 	
-	capital = c_dauphine_viennois
+	capital = 228
 	
 	mercenary = yes
 	
@@ -141,7 +141,7 @@ d_swabian_league = {
 	color = { 250 120 120 }
 	color2 = { 200 100 130 }
 	
-	capital = c_osterreich
+	capital = 449
 	
 	mercenary = yes
 	
@@ -199,5 +199,37 @@ d_realnovgorodseversky = {
 	color2={ 255 100 125 }
 		
 	culture = russian
-	capital = c_novgorod_seversky
+	capital = 567
+}
+k_vidin = {
+	color={ 103 14 0 }
+	
+	color2={ 255 100 125 }
+			
+	title = TSAR
+	title_female = TSARINA
+	title_prefix = TSARDOM
+	
+	culture = bulgarian
+	capital = c_vidin
+}
+k_tarnovo = {
+	color={ 103 14 0 }
+	
+	color2={ 255 100 125 }
+			
+	title = TSAR
+	title_female = TSARINA
+	title_prefix = TSARDOM
+	
+	culture = bulgarian
+	capital = c_tyrnovo
+}
+d_rumelia = {
+	color={ 208 184 124 }
+	
+	color2={ 255 100 125 }
+	
+	culture = turkish
+	capital = c_serdica
 }

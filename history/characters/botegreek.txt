@@ -370,3 +370,35 @@
 		death=yes
 	}
 }
+801157 = {
+	name="Helena"
+	dynasty=634
+	religion="orthodox"
+	culture="greek"
+	female = yes
+	father=465800
+	mother=465514
+	
+	1333.1.2={
+		birth=yes
+	}
+	1366.1.1={
+		death=yes
+	}
+}
+801174 = {
+	name="Euphemia"
+	dynasty=634
+	religion="orthodox"
+	culture="greek"
+	female = yes
+	father=801111
+	mother=801112
+	
+	1368.2.5={
+		birth=yes
+	}
+	1407.3.20={
+		death=yes
+	}
+}

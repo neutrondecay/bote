@@ -71,3 +71,10 @@ holder = 93762
 {
 	holder = 93744
 }
+1342.1.1={
+	holder = 93746 # János II Drugeth de Hommona
+	liege=k_hungary
+}
+1361.1.1={
+	holder = 854123 # János IV Drugeth de Hommona
+}

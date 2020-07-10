@@ -94,5 +94,13 @@ holder=93672
 }
 1332.1.1=
 {
-holder=93673
+holder=854234 # Dénes Csanád
+}
+1340.1.1=
+{
+holder=854227 # Pál Csanád
+}
+1350.1.1=
+{
+holder=854228 # Péter Csanád
 }

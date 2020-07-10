@@ -1,5 +1,5 @@
-800449 = { #Despot Ugljeöa Mrnjavcevic
-	name = "Ugljeöa"
+800449 = { #Despot Uglje≈°a Mrnjavcevic
+	name = "Uglje≈°a"
 	dynasty = 18001
 	culture = serbian
 	religion = orthodox
@@ -24,7 +24,7 @@
 		death = yes
 	} 
 }
-800455 = {
+801205 = {
 	name="Jovan"
 	dynasty=184
 	religion="orthodox"
@@ -67,7 +67,7 @@
 	}
 }
 800529 = { #Vukasin of Serbia
-	name = "Vukaöin"
+	name = "Vuka≈°in"
 	dynasty = 3000053
 	culture = serbian
 	religion = orthodox
@@ -94,7 +94,7 @@
 	}
 }
 800531 = {
-	name = "Balöa" #Balsic
+	name = "Bal≈°a" #Balsic
 	dynasty = 3000054
 	culture = serbian
 	religion = orthodox
@@ -107,7 +107,7 @@
 	}
 }
 800532 = {
-	name = "–urad" #I Balsic
+	name = "√êurad" #I Balsic
 	dynasty = 3000054
 	culture = serbian
 	religion = orthodox
@@ -124,7 +124,7 @@
 	}
 }
 800533 = {
-	name = "Balöa" #II Balsic
+	name = "Bal≈°a" #II Balsic
 	dynasty = 3000054
 	culture = serbian
 	religion = orthodox
@@ -158,7 +158,7 @@
 	}
 }
 800535 = {
-	name = "–urad" #II Balsic
+	name = "√êurad" #II Balsic
 	dynasty = 3000054
 	culture = serbian
 	religion = catholic
@@ -172,7 +172,7 @@
 	}
 }
 800536 = {
-	name = "Balöa" #III Balsic
+	name = "Bal≈°a" #III Balsic
 	dynasty = 3000054
 	culture = serbian
 	religion = catholic
@@ -200,7 +200,7 @@
 	}
 }
 800553 = {
-	name = "–urad"
+	name = "√êurad"
 	dynasty = 18003
 	culture = serbian
 	religion = orthodox
@@ -224,7 +224,10 @@
 		birth = yes
 	}
 	1389.6.15 = {
-		death = yes
+		death = {
+		    death_reason = death_battle
+			killer = 476502 # Sultan Murad I
+		}
 	}
 }
 800555 = {
@@ -233,6 +236,7 @@
 	culture = serbian
 	religion = catholic
 	father = 800554
+	mother=34098
 	
 	1377.1.1 = {
 		birth = yes
@@ -285,6 +289,235 @@
 		birth=yes
 	}
 	1450.3.23 = {
+		death = yes
+	}
+}
+855100 = {
+	name = "Dragana"
+	female=yes
+	dynasty = 3000056
+	culture = serbian
+	religion = orthodox
+	father = 800554
+	mother=34098
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1396.1.1 = {
+		death = yes
+	}
+}
+855113 = {
+	name = "Olivera"
+	female=yes
+	dynasty = 3000056
+	culture = serbian
+	religion = orthodox
+	father = 800554
+	mother=34098
+	
+	1372.1.1 = {
+		birth = yes
+	}
+	1389.1.1 = {
+	    add_spouse=800460 # Sultan Bayezid I
+	}
+	1445.1.1 = {
+		death = yes
+	}
+}
+855114 = {
+	name = "Theodora"
+	female=yes
+	dynasty = 3000056
+	culture = serbian
+	religion = orthodox
+	father = 800554
+	mother=34098
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1387.1.1 = {
+	    add_spouse=800585 # Mikl√≥s II Garai of Slavonia
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+###Vojinovic family
+800560 = {
+	name = "Nikola"
+	dynasty = 3000058
+	culture = serbian
+	religion = orthodox
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1389.10.10 = {
+		death = yes
+	}
+}
+###Dejanovic family
+855108 = {
+	name = "Dejan"
+	dynasty = 350014
+	culture = serbian
+	religion = orthodox
+	
+	1315.1.1 = {
+		birth = yes
+	}
+	1347.1.1 = {
+	    add_spouse=468504 # Theodora Nemanjic
+	}
+	1366.1.1 = {
+		death = yes
+	}
+}
+855102 = {
+	name = "Konstantin"
+	dynasty = 350014
+	culture = serbian
+	religion = orthodox
+	father=855108 # Despot Dejan Dejanovic
+	mother=468504 # Theodora Nemanjic
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1395.5.17 = {
+		death = {
+		    death_reason = death_battle
+			killer = 830000 # Mircea of Wallachia
+		}
+	}
+}
+855103 = {
+	name = "Jovan"
+	dynasty = 350014
+	culture = serbian
+	religion = orthodox
+	father=855108 # Despot Dejan Dejanovic
+	mother=468504 # Theodora Nemanjic
+	
+	1349.1.1 = {
+		birth = yes
+	}
+	1378.1.1 = {
+		death = yes
+	}
+}
+855105 = {
+	name = "Theodora"
+	female=yes
+	dynasty = 350014
+	culture = serbian
+	religion = orthodox
+	father=855108 # Despot Dejan Dejanovic
+	mother=468504 # Theodora Nemanjic
+	
+	1347.12.1 = {
+		birth = yes
+	}
+	1371.1.1 = {
+		add_spouse=800532 # Durad I Balsic of Zeta
+	}
+}
+855106 = {
+	name = "Konstantin"
+	dynasty = 3000054
+	culture = serbian
+	religion = orthodox
+	father=800532 # Durad I Balsic of Zeta
+	mother=855105 # Theodora Dejanovic
+	
+	1372.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+855107 = {
+	name = "Helena"
+	female=yes
+	dynasty = 350014
+	culture = serbian
+	religion = orthodox
+	
+	father=855102 # Konstantin Dejanovic
+	
+	1372.1.1 = {
+		birth = yes
+	}
+	1392.1.1 = {
+	    add_spouse=800452 # Manuel II Palaiologos of Byzantium
+    }
+	1450.3.23 = {
+		death = yes
+	}
+}
+855109 = {
+	name = "Mrnjava"
+	dynasty = 3000053
+	culture = serbian
+	religion = orthodox
+	
+	1280.1.1 = {
+		birth = yes
+	}
+	1330.1.1 = {
+		death = yes
+	}
+}
+855110 = {
+	name = "Jovan Ugljesa"
+	dynasty = 3000053
+	culture = serbian
+	religion = orthodox
+	
+	father=855109 # Mrnjava Mrnjavcevic
+	
+	1321.1.1 = {
+		birth = yes
+	}
+	1371.9.26 = {
+		death = {
+		    death_reason = death_battle
+		}
+	}
+}
+855111 = {
+	name = "Andrijas"
+	dynasty = 3000053
+	culture = serbian
+	religion = orthodox
+	father = 800529 # Vukasin Mrnjavcevic
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1395.5.17 = {
+		death = {
+		    death_reason = death_battle
+			killer = 830000 # Mircea of Wallachia
+		}
+	}
+}
+855112 = {
+	name = "Dmitar"
+	dynasty = 3000053
+	culture = serbian
+	religion = orthodox
+	father = 800529 # Vukasin Mrnjavcevic
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1409.1.1 = {
 		death = yes
 	}
 }

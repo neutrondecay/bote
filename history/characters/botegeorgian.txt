@@ -1,0 +1,202 @@
+801155 = {
+	name="Bagrat"
+	dynasty=507
+	religion="orthodox"
+	culture="georgian"
+	father=466503
+	trait = just
+	trait = skilled_tactician
+	
+	1345.1.2={
+		birth=yes
+	}
+	1365.1.1 = {
+		add_spouse = 801157
+	}
+	1367.1.1 = {
+		add_spouse = 801113
+	}
+	1393.1.1={
+		give_nickname = nick_the_great
+		death = yes
+	}
+}
+801156 = {
+	name="Giorgi"
+	dynasty=507
+	religion="orthodox"
+	culture="georgian"
+	father = 801155
+	mother = 801157
+	
+	1365.1.2={
+		birth=yes
+	}
+	1407.1.1={
+		death = yes
+	}
+}
+801158 = {
+	name="Konstantine"
+	dynasty=507
+	religion="orthodox"
+	culture="georgian"
+	father = 801155
+	mother = 801113
+	
+	1369.1.2={
+		birth=yes
+	}
+	1412.1.1={
+		death = yes
+	}
+}
+801159 = {
+	name="Davit"
+	dynasty=507
+	religion="orthodox"
+	culture="georgian"
+	father = 801155
+	mother = 801113
+	
+	1371.1.2={
+		birth=yes
+	}
+	1412.1.1={
+		death = yes
+	}
+}
+801160 = {
+	name="Tamar"
+	dynasty=507
+	religion="orthodox"
+	culture="georgian"
+	female = yes
+	father = 801155
+	mother = 801113
+	
+	1375.1.2={
+		birth=yes
+	}
+	1412.1.1={
+		death = yes
+	}
+}
+801161 = {
+	name="Ulumpia"
+	dynasty=507
+	religion="orthodox"
+	culture="georgian"
+	female = yes
+	father = 801155
+	mother = 801113
+	
+	1378.1.2={
+		birth=yes
+	}
+	1412.1.1={
+		death = yes
+	}
+}
+###Kings of Imereti
+801188 = {
+	name="Konstantine"
+	dynasty=507
+	religion="orthodox"
+	culture="georgian"
+	father=466519
+	1271.1.2={
+		birth=yes
+	}
+	1329.1.2={
+		death=yes
+	}
+}
+801189 = {
+	name="Alek'sandre"
+	dynasty=507
+	religion="orthodox"
+	culture="georgian"
+	father=466520
+	1359.1.2={
+		birth=yes
+	}
+	1378.1.1 = {
+		add_spouse = 801190
+	}
+	1389.1.1={
+		death=yes
+	}
+}
+801190 = {
+	name="Ana"
+	religion="orthodox"
+	culture="georgian"
+	
+	1361.1.2={
+		birth=yes
+	}
+	1396.1.1={
+		death=yes
+	}
+}
+801191 = {
+	name="Demetre"
+	dynasty=507
+	religion="orthodox"
+	culture="georgian"
+	father = 801189
+	mother = 801190
+	1381.1.2={
+		birth=yes
+	}
+	1455.1.1={
+		death=yes
+	}
+}
+801192 = {
+	name="Tamar"
+	dynasty=507
+	religion="orthodox"
+	culture="georgian"
+	female = yes
+	father = 801189
+	mother = 801190
+	1385.1.2={
+		birth=yes
+	}
+	1441.1.1={
+		death=yes
+	}
+}
+801193 = {
+	name="Giorgi"
+	dynasty=507
+	religion="orthodox"
+	culture="georgian"
+	father=466520
+	1362.1.2={
+		birth=yes
+	}
+	1392.1.1={
+		death=yes
+	}
+}
+###
+801194 = {
+	name="Ivane"
+	dynasty=42
+	religion="orthodox"
+	culture="georgian"
+	trait = ambitious
+	trait = diligent
+	trait = envious
+	
+	father=466755
+	1370.1.2={
+		birth=yes
+	}
+	1444.1.1={
+		death=yes
+	}
+}

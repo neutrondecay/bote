@@ -101,3 +101,12 @@ holder=470060
 {
 holder=470062
 }
+1358.1.1={
+	holder=470065 # Domokos Varday
+}
+1386.1.1={
+	holder=854117 # Sigismund Varday
+}
+1398.1.1={
+	holder=854119 # Mihaly Varday
+}

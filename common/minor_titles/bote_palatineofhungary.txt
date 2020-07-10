@@ -1,0 +1,32 @@
+bote_palatineofhungary = {
+	dignity = 3
+	grant_limit = 1
+	opinion_effect = 30
+	short_name = yes
+	realm_in_name = no
+	show_as_title = no
+	
+	monthly_prestige = 0.05
+	allowed_to_grant = {
+		has_landed_title=k_hungary
+	}
+	allowed_to_hold = {
+		is_female=no
+		OR = {
+			has_landed_title=d_transylvania
+			has_landed_title=d_slavonia
+			has_landed_title=d_pest
+			has_landed_title=d_pecs
+			has_landed_title=d_esztergom
+			has_landed_title=d_nyitra
+			has_landed_title=d_ungvar
+			has_landed_title=d_temes
+		}
+	}
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}

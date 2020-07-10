@@ -81,3 +81,315 @@
 		death=yes
 	}
 }
+801131 = {
+	name="Bakr"
+	dynasty=101732
+	religion="sunni"
+	culture="maghreb_arabic"
+	trait = sickly
+	father=33011
+	
+	1355.1.1 = {
+		birth=yes
+	}
+	1359.6.6 = {
+		death=yes
+	}
+}
+801132 = {
+	name="Tashfin" 
+	dynasty=7277
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=33052
+	1351.1.1 = {
+		birth=yes
+	}
+	1393.1.1 = {
+		death=yes
+	}
+}
+801133 = {
+	name="Thabid" 
+	dynasty=7277
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801132
+	1370.1.1 = {
+		birth=yes
+	}
+	1393.6.24 = {
+		death=yes
+	}
+}
+801134 = {
+	name="Hadjdjadj" 
+	dynasty=7277
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801132
+	
+	1372.1.1 = {
+		birth=yes
+	}
+	1394.11.30 = {
+		death=yes
+	}
+}
+801135 = {
+	name="Zayyan" 
+	dynasty=7277
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801132
+	
+	1374.1.1 = {
+		birth=yes
+	}
+	1401.11.30 = {
+		death=yes
+	}
+}
+801136 = {
+	name="Muh" 
+	dynasty=7277
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801132
+	
+	1376.1.1 = {
+		birth=yes
+	}
+	1401.11.30 = {
+		death=yes
+	}
+}
+801137 = {
+	name="Abdallah" 
+	dynasty=7277
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801132
+	
+	1378.1.1 = {
+		birth=yes
+	}
+	1411.11.30 = {
+		death=yes
+	}
+}
+801138 = {
+	name="Muh"
+	dynasty=1027001
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=155103
+	
+	1342.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+801139 = {
+	name="Khalaf"
+	dynasty=1027001
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=155103
+	
+	1364.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+801140 = {
+	name="Rahman"
+	dynasty=101732
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=33011
+	1315.1.1 = {
+		birth=yes
+	}
+	1342.1.1 = {
+		death=yes
+	}
+}
+801141 = {
+	name="Muhammed"
+	dynasty=101732
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801140
+	
+	1338.1.1 = {
+		birth=yes
+	}
+	1366.1.1 = {
+		death=yes
+	}
+}
+801142 = {
+	name="Abd-al-Aziz"
+	dynasty=101732
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=33004
+	
+	1349.1.1 = {
+		birth = yes
+	}
+	1372.1.1 = {
+		death = yes
+	}
+}
+801143 = {
+	name="Muhammed"
+	dynasty=101732
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801142
+	
+	1368.1.1 = {
+		birth = yes
+	}
+	1374.1.1 = {
+		death = yes
+	}
+}
+801144 = {
+	name="Ahmed"
+	dynasty=101732
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=33009
+	1355.1.1 = {
+		birth=yes
+	}
+	1393.1.1 = {
+		death=yes
+	}
+}
+801145 = {
+	name="Abd-al-Aziz"
+	dynasty=101732
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801144
+	1375.1.1 = {
+		birth=yes
+	}
+	1396.1.1 = {
+		death=yes
+	}
+}
+801146 = {
+	name="Abdullah"
+	dynasty=101732
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801144
+	1378.1.1 = {
+		birth=yes
+	}
+	1398.1.1 = {
+		death=yes
+	}
+}
+801147 = {
+	name="Uthman"
+	dynasty=101732
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801144
+	1383.1.1 = {
+		birth=yes
+	}
+	1420.1.1 = {
+		death=yes
+	}
+}
+801148 = {
+	name="Khazrun"
+	dynasty=1027019
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=155169
+	
+	1334.1.1 = {
+		birth=yes
+	}
+	1389.1.1 = {
+		death=yes
+	}
+}
+801149 = {
+	name="Khazrun"
+	dynasty=1027019
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801148
+	
+	1377.1.1 = {
+		birth=yes
+	}
+	1453.1.1 = {
+		death=yes
+	}
+}
+801150 = {
+	name="Abd-al-Rahman"
+	religion="sunni"
+	culture="maghreb_arabic"
+	
+	1345.1.1 = {
+		birth=yes
+	}
+	1382.1.1 = {
+		death=yes
+	}
+}
+801151 = {
+	name="Hafs-Umar"
+	religion="sunni"
+	culture="maghreb_arabic"
+	
+	1356.1.1 = {
+		birth=yes
+	}
+	1444.1.1 = {
+		death=yes
+	}
+}
+801153 = {
+	name="Biyu"
+	dynasty=1030010
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=161093
+	
+	1349.1.1={
+		birth=yes
+	}
+	
+	1402.1.1={
+		death=yes
+	}
+}
+801154 = {
+	name="Titañe"
+	dynasty=100848
+	religion="west_african_pagan"
+	culture="maghreb_arabic"
+	father=73655
+	1355.1.1 = {
+		birth=yes
+	}
+	1405.1.1 = {
+		death=yes
+	}
+}

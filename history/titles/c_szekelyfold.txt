@@ -99,4 +99,12 @@ holder = 470200
 {
 holder=470202
 }
-
+1351.1.1={
+	holder=854112 # Ladislaus Bathory
+}
+1379.1.1={
+	holder=854113 # George Bathory
+}
+1380.1.1={
+	holder=854167 # János Bathory
+}

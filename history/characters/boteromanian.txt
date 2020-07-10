@@ -179,3 +179,40 @@
 		birth = yes
 	}
 }
+855101 = {
+	name = "Anna"
+	female=yes
+	dynasty = 764
+	culture = romanian
+	religion = catholic
+	father = 475553 # Nicholas Alexander of Wallachia
+	1335.1.1 = {
+		birth = yes
+	}
+	1356.1.1 = {
+	    add_spouse = 467511 # Ivan Sratzimir of Vidin
+		religion = orthodox
+	}
+}
+855201 = {
+	name = "Voicu"
+	dynasty = 350026
+	culture = romanian
+	religion = catholic
+    martial=12
+	trait=tough_soldier
+	trait=brave
+	trait=zealous
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		effect = {
+		    force_host=802512 # Sigismund of Hungary
+		}
+	}
+	1419.2.12 = {
+	    death=yes
+	}
+}

@@ -64,3 +64,15 @@ liege="d_ungvar"
 {
 	holder=470070
 }
+1349.1.1=
+{
+	holder=470075 # István Meggyesi
+}
+1373.1.1=
+{
+	holder=854175 # Simon Meggyesi
+}
+1375.10.20=
+{
+	holder=854176 # János Meggyesi
+}

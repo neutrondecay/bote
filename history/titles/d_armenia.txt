@@ -125,3 +125,10 @@
 1247.1.1={
 	holder = 0
 }
+1378.1.1 = {
+	holder = 801173
+	liege = 0
+}
+1395.1.1 = {
+	liege = e_mongol_empire
+}

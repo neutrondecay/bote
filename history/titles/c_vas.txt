@@ -82,3 +82,7 @@ liege="d_pecs"
 {
 	holder=470122
 }
+1360.1.1=
+{
+	holder=854195 # Miklós Kanizsai
+}

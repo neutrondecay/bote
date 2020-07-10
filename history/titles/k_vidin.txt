@@ -1,0 +1,6 @@
+1371.2.17={
+	holder=467511 # Ivan Sratzimir of Vidin
+}
+1395.6.1={
+	holder=0
+}

@@ -73,3 +73,12 @@ holder = 93723
 {
 holder = 93726
 }
+1356.1.1={
+	liege=k_hungary
+}
+1358.1.1={
+	holder = 93731 # Balász Balassa
+}
+1388.1.1={
+	holder = 854143 # Miklós Balászfi Balassa
+}

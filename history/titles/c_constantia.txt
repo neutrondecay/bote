@@ -108,9 +108,15 @@ holder=31193 #Todor I
 {
 holder=31195 #Georgi II
 }
-1322.8.1=
+1320.1.1=
 {
-holder=467522 #Shishman
+holder=850314 #Balik Terterid
+}
+1347.1.1={
+	holder=850312 # Dobrotitsa Terterid
+}
+1385.1.1={
+	holder=850313 # Ivanko Terterid
 }
 1386.9.23 = {
 	holder = 830000

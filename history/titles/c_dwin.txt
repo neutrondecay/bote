@@ -159,3 +159,10 @@ holder=41508
 1310.1.11={
 	holder = 248136
 }
+1338.1.1 = {
+	holder = 801179
+}
+1378.1.1 = {
+	holder = 801173
+	liege = e_mongol_empire
+}

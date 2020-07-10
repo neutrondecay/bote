@@ -54,7 +54,7 @@
 		death = yes
 	}
 }
-800834 = { #Incognitus Bua Sphata
+801199 = { #Incognitus Bua Sphata
 	name = "Oudeis"
 	dynasty = 15002
 	culture = arberian

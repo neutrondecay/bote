@@ -74,3 +74,12 @@ holder = 93704
 {
 holder = 93707
 }
+1356.1.1={
+	liege=k_hungary
+}
+1359.1.1={
+	holder=93710 # László Dombai Csák
+}
+1398.1.1={
+	holder=854153 # Frank Dombai Csák
+}

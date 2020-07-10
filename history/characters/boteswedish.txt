@@ -556,7 +556,7 @@
 		death = yes
 	}
 }
-800880 = {
+801206 = {
 	name = "Ingegärd"
 	dynasty = 144
 	culture = swedish
@@ -568,9 +568,6 @@
 	1353.1.1 = {
 		birth = yes
 	}
-	# 1352.1.1 = {
-		# add_spouse = 800879
-	# }
 	1388.7.17 = {
 		death = yes
 	}
@@ -619,7 +616,7 @@
 		death = yes
 	}
 }
-800879 = {
+801207 = {
 	name="Jon"
 	dynasty=121
 	religion="catholic"

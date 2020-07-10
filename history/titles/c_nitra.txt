@@ -105,3 +105,19 @@ holder = 93687
 {
 holder = 93713
 }
+1356.1.1={
+holder=469510
+liege=k_hungary
+}
+1376.1.2={
+holder=820033
+}
+1385.12.31={
+holder=800179
+}
+1386.2.24={
+holder=820033
+}
+1392.1.1={
+holder=854300 # Stibor Ostoja of Transylvania
+}

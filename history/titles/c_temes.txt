@@ -95,6 +95,14 @@ holder=470132
 {
 holder=470135
 }
+1355.1.1=
+{
+holder=854251 # Lõrinc Telegdi
+}
+1377.1.1=
+{
+holder=854252 # Péter Telegdi
+}
 1386.9.23 = {
 	holder = 830005
 	liege = "k_dacia"

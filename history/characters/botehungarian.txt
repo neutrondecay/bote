@@ -1,9 +1,10 @@
 #Lackfi dynasty
 800579 = {
-	name = "Stjepan"
-	dynasty = 100465
+	name = "István"
+	dynasty = 350024
 	culture = croatian
 	religion = catholic
+	father=854103 # Lack Herman
 	
 	1305.1.1 = {
 		birth = yes
@@ -101,9 +102,15 @@
 	dynasty = 19025
 	culture = hungarian
 	religion = catholic
+	father=854270 # Miklós I Garai
 	
 	1367.10.1 = {
 		birth = yes
+	}
+	1400.1.1 = {
+	    effect = {
+		    give_minor_title=bote_palatineofhungary
+		}
 	}
 	1433.12.1 = {
 		death = yes
@@ -185,5 +192,2575 @@
 	}
 	1376.1.1 = {
 		add_spouse = 830000
+	}
+}
+854100 = {
+	name = "Miklós" # Sikorai
+	dynasty=350018
+	culture = hungarian
+	religion = catholic
+	
+	1300.1.1 = {
+		birth = yes
+	}
+	1358.1.1 = {
+		death = yes
+	}
+}
+854101 = {
+	name = "Tamás" # Csór
+	dynasty=350019
+	culture = hungarian
+	religion = catholic
+	
+	1310.1.1 = {
+		birth = yes
+	}
+	1358.1.1 = {
+		death = yes
+	}
+}
+854102 = {
+	name = "Miklós" # Kont
+	dynasty=350020
+	culture = hungarian
+	religion = catholic
+	
+	1327.1.1 = {
+		birth = yes
+	}
+	1367.4.16 = {
+		death = yes
+	}
+}
+854103 = {
+	name = "Lack" # Herman
+	dynasty=350024
+	culture = hungarian
+	religion = catholic
+	
+	1280.1.1 = {
+		birth = yes
+	}
+	1359.1.1 = {
+		death = yes
+	}
+}
+854104 = {
+	name = "András"
+	dynasty=350024
+	culture = hungarian
+	religion = catholic
+	father=854103 # Lack Herman
+	
+	1310.1.1 = {
+		birth = yes
+	}
+	1359.10.1 = {
+		death = yes
+	}
+}
+854105 = {
+	name = "Denis"
+	dynasty=350024
+	culture = hungarian
+	religion = catholic
+	father=800579 # Stephen Lackfi
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1367.1.1 = {
+		death = yes
+	}
+}
+854106 = {
+	name = "Miklós"
+	dynasty=350024
+	culture = hungarian
+	religion = catholic
+	father=800579 # Stephen Lackfi
+	
+	1332.1.1 = {
+		birth = yes
+	}
+	1368.1.1 = {
+		death = yes
+	}
+}
+854107 = {
+	name = "Imre"
+	dynasty=350024
+	culture = hungarian
+	religion = catholic
+	father=800579 # Stephen Lackfi
+	
+	1335.1.1 = {
+		birth = yes
+	}
+	1372.1.1 = {
+		death = yes
+	}
+}
+854108 = {
+	name = "István"
+	dynasty=350024
+	culture = hungarian
+	religion = catholic
+	father=800579 # Stephen Lackfi
+	
+	1337.1.1 = {
+		birth = yes
+	}
+	1397.2.27 = {
+		death = {
+		    death_reason = death_murder
+			killer = 802512 # Sigismund of Luxembourg
+		}
+	}
+}
+854109 = {
+	name = "László"
+	dynasty=350021
+	culture = hungarian
+	religion = catholic
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1392.1.1 = {
+		death = yes
+	}
+}
+854110 = {
+	name = "Imre" # Bebek
+	dynasty=350022
+	culture = hungarian
+	religion = catholic
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+854111 = {
+	name = "Frank"
+	dynasty=19043
+	culture = hungarian
+	religion = catholic
+	father=470043 # Kónya Szécsényi
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1408.1.1 = {
+		death = yes
+	}
+}
+854112 = {
+	name = "László"
+	dynasty=19062
+	culture = hungarian
+	religion = catholic
+	father=470202 # János Bathory
+	
+	1335.1.1 = {
+		birth = yes
+	}
+	1379.1.1 = {
+		death = yes
+	}
+}
+854113 = {
+	name = "György"
+	dynasty=19062
+	culture = hungarian
+	religion = catholic
+	father=854112 # László Bathory
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
+854114 = {
+	name = "Szaniszló"
+	dynasty=19062
+	culture = hungarian
+	religion = catholic
+	father=854112 # László Bathory
+	
+	1357.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+854115 = {
+	name = "Erzsébet"
+	female=yes
+	dynasty=19062
+	culture = hungarian
+	religion = catholic
+	father=854112 # László Bathory
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+854116 = {
+	name = "Antal"
+	dynasty=19062
+	culture = hungarian
+	religion = catholic
+	father=854113 # George Bathory
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1415.1.1 = {
+		death = yes
+	}
+}
+854117 = {
+	name = "Zsigmond"
+	dynasty=19056
+	culture = hungarian
+	religion = catholic
+	father=470065 # Domokos Varday
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		death = yes
+	}
+}
+854118 = {
+	name = "Katalin"
+	female=yes
+	dynasty=19056
+	culture = hungarian
+	religion = catholic
+	father=854117 # Zsigmond Varday
+	
+	1397.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+854119 = {
+	name = "Mihaly"
+	dynasty=19056
+	culture = hungarian
+	religion = catholic
+	father=470065 # Domokos Varday
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1428.1.1 = {
+		death = yes
+	}
+}
+854120 = {
+	name = "Miklós"
+	dynasty=19056
+	culture = hungarian
+	religion = catholic
+	father=470065 # Domokos Varday
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1461.1.1 = {
+		death = yes
+	}
+}
+854121 = {
+	name = "Miklós"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=93748 # János III Drugeth de Gerena
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
+854122 = {
+	name = "László"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=93748 # János III Drugeth de Gerena
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		death = yes
+	}
+}
+854123 = {
+	name = "János"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=93746 # János II Drugeth de Hommona
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+854124 = {
+	name = "István"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=854123 # János IV Drugeth de Hommona
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+854125 = {
+	name = "János"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=854123 # János IV Drugeth de Hommona
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1415.1.1 = {
+		death = yes
+	}
+}
+854126 = {
+	name = "Fülöp"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=854123 # János IV Drugeth de Hommona
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1418.1.1 = {
+		death = yes
+	}
+}
+854127 = {
+	name = "Markéta"
+	female=yes
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=854123 # János IV Drugeth de Hommona
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854128 = {
+	name = "Anna"
+	female=yes
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=854123 # János IV Drugeth de Hommona
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854129 = {
+	name = "Hedvika"
+	female=yes
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=854123 # János IV Drugeth de Hommona
+	
+	1383.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+854130 = {
+	name = "Miklós"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=93746 # János II Drugeth de Hommona
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+854131 = {
+	name = "Bertalan"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=854130 # Miklós II Drugeth de Hommona
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+854132 = {
+	name = "Zsigmond"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=854130 # Miklós II Drugeth de Hommona
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1434.1.1 = {
+		death = yes
+	}
+}
+854133 = {
+	name = "István"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=854130 # Miklós II Drugeth de Hommona
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1466.1.1 = {
+		death = yes
+	}
+}
+854134 = {
+	name = "Paska"
+	female=yes
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=93748 # János Drugeth de Gerena
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1427.1.1 = {
+		death = yes
+	}
+}
+854135 = {
+	name = "Maria"
+	female=yes
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=93748 # János Drugeth de Gerena
+	
+	1373.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+	    effect = {
+		    c_4431 = {
+			    dynasty=350025 # disconnected member from the Szentgyorgyi family
+			}
+		}
+	}
+	1436.1.1 = {
+		death = yes
+	}
+}
+854136 = {
+	name = "László"
+	dynasty=19014
+	culture = hungarian
+	religion = catholic
+	father=470216 # Pál Debreceni
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1350.1.1 = {
+	    effect_even_if_dead = {
+		    c_470210 = {
+			    set_name="Dózsa" # Debreceni ancestor incorrectly named Benedek
+			}
+		}
+	}
+	1364.1.1 = {
+		death = yes
+	}
+}
+854137 = {
+	name = "János"
+	dynasty=19014
+	culture = hungarian
+	religion = catholic
+	father=854136 # László II Debreceni
+	
+	1347.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
+854138 = {
+	name = "László"
+	dynasty=19014
+	culture = hungarian
+	religion = catholic
+	father=854137 # János Debreceni
+	
+	1366.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+854139 = {
+	name = "Zsófia"
+	female=yes
+	dynasty=19014
+	culture = hungarian
+	religion = catholic
+	father=854138 # László IV Debreceni
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1429.1.1 = {
+		death = yes
+	}
+}
+854140 = {
+	name = "Katalin"
+	female=yes
+	dynasty=19014
+	culture = hungarian
+	religion = catholic
+	father=854138 # László IV Debreceni
+	
+	1395.1.1 = {
+		birth = yes
+	}
+	1459.1.1 = {
+		death = yes
+	}
+}
+854141 = {
+	name = "István"
+	dynasty=19014
+	culture = hungarian
+	religion = catholic
+	father=470212 # Jakab II Debreceni
+	
+	1343.1.1 = {
+		birth = yes
+	}
+	1389.1.1 = {
+		death = yes
+	}
+}
+854142 = {
+	name = "Ilona"
+	female=yes
+	dynasty=19014
+	culture = hungarian
+	religion = catholic
+	father=470212 # Jakab II Debreceni
+	
+	1388.1.1 = {
+		birth = yes
+	}
+	1429.1.1 = {
+		death = yes
+	}
+}
+854143 = {
+	name = "Miklós"
+	dynasty=19060
+	culture = hungarian
+	religion = catholic
+	father=93731 # Balázs Balassa
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+854144 = {
+	name = "Kelemen"
+	dynasty=19060
+	culture = hungarian
+	religion = catholic
+	father=854143 # Miklós Balassa de Gyarmat
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1428.1.1 = {
+		death = yes
+	}
+}
+854145 = {
+	name = "Mihaly"
+	dynasty=19060
+	culture = hungarian
+	religion = catholic
+	father=854143 # Miklós Balassa de Gyarmat
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1428.1.1 = {
+		death = yes
+	}
+}
+854146 = {
+	name = "István"
+	dynasty=19060
+	culture = hungarian
+	religion = catholic
+	father=854143 # Miklós Balassa de Gyarmat
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1446.1.1 = {
+		death = yes
+	}
+}
+854147 = {
+	name = "György"
+	dynasty=19060
+	culture = hungarian
+	religion = catholic
+	father=854143 # Miklós Balassa de Gyarmat
+	
+	1395.1.1 = {
+		birth = yes
+	}
+	1446.1.1 = {
+		death = yes
+	}
+}
+854148 = {
+	name = "Frank"
+	dynasty=19060
+	culture = hungarian
+	religion = catholic
+	father=93730 # László Balassa de Gyarmat
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1374.1.1 = {
+		death = yes
+	}
+}
+854149 = {
+	name = "Miklós"
+	dynasty=19060
+	culture = hungarian
+	religion = catholic
+	father=93730 # László Balassa de Gyarmat
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1374.1.1 = {
+		death = yes
+	}
+}
+854150 = {
+	name = "Margit"
+	female=yes
+	dynasty=19060
+	culture = hungarian
+	religion = catholic
+	father=93731 # Balázs Balassa
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1416.1.1 = {
+		death = yes
+	}
+}
+854151 = {
+	name = "Miklós"
+	dynasty=19060
+	culture = hungarian
+	religion = catholic
+	father=93728 # György Balassa de Gyarmat
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1372.1.1 = {
+		death = yes
+	}
+}
+854152 = {
+	name = "Péter"
+	dynasty=19060
+	culture = hungarian
+	religion = catholic
+	father=93728 # György Balassa de Gyarmat
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1375.1.1 = {
+		death = yes
+	}
+}
+854153 = {
+	name = "Frank"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=93710 # László Csák Dombai
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+854154 = {
+	name = "Jeronima"
+	female=yes
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=93710 # László Csák Dombai
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1442.1.1 = {
+		death = yes
+	}
+}
+854155 = {
+	name = "Domokos"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=93693 # János Csák de Mihály
+	
+	1300.1.1 = {
+		birth = yes
+	}
+	1363.1.1 = {
+		death = yes
+	}
+}
+854156 = {
+	name = "János"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=854155 # Domokos Csák de Mihály
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+854157 = {
+	name = "Ugrin"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=854155 # Domokos Csák de Mihály
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1426.1.1 = {
+		death = yes
+	}
+}
+854158 = {
+	name = "László"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=854155 # Domokos Csák de Mihály
+	
+	1362.1.1 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+854159 = {
+	name = "Pál"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=93693 # János Csák de Mihály
+	
+	1315.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+854160 = {
+	name = "Péter"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=854159 # Pál Csák de Mihály
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1444.1.1 = {
+		death = yes
+	}
+}
+854161 = {
+	name = "Jakab"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=854159 # Pál Csák de Mihály
+	
+	1372.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+854162 = {
+	name = "Ferenc"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=854159 # Pál Csák de Mihály
+	
+	1369.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+854163 = {
+	name = "László"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=854162 # Ferenc Csák de Mihály
+	
+	1397.1.1 = {
+		birth = yes
+	}
+	1449.1.1 = {
+		death = yes
+	}
+}
+854164 = {
+	name = "István"
+	dynasty=19062
+	culture = hungarian
+	religion = catholic
+	father=854114 # Szaniszló Bathory
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1353.1.1 = {
+		death = yes
+	}
+}
+854165 = {
+	name = "Zsófia"
+	female=yes
+	dynasty=19062
+	culture = hungarian
+	religion = catholic
+	father=854114 # Szaniszló Bathory
+	
+	1381.1.1 = {
+		birth = yes
+	}
+}
+854166 = {
+	name = "Anna"
+	female=yes
+	dynasty=19062
+	culture = hungarian
+	religion = catholic
+	father=854112 # László Bathory
+	
+	1378.1.1 = {
+		birth = yes
+	}
+}
+854167 = {
+	name = "János"
+	dynasty=19062
+	culture = hungarian
+	religion = catholic
+	father=854113 # George Bathory
+	
+	1374.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854168 = {
+	name = "Barnabas"
+	dynasty=19062
+	culture = hungarian
+	religion = catholic
+	father=854113 # George Bathory
+	
+	1376.1.1 = {
+		birth = yes
+	}
+	1428.1.1 = {
+		death = yes
+	}
+}
+854169 = {
+	name = "István"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=93746 # János II Drugeth de Hommona
+	
+	1347.1.1 = {
+		birth = yes
+	}
+	1364.1.1 = {
+		death = yes
+	}
+}
+854170 = {
+	name = "Ferenc"
+	dynasty=12002
+	culture = hungarian
+	religion = catholic
+	father=93746 # János II Drugeth de Hommona
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1387.1.1 = {
+		death = yes
+	}
+}
+854171 = {
+	name = "Péter"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=470160 # István Csák-Sternberka
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1375.1.1 = {
+	    add_spouse=802507 # Anna de Luxembourg sister of Jobst of Moravia
+	}
+	1397.1.1 = {
+		death = yes
+	}
+}
+854172 = {
+	name = "Albert"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=470160 # István Csák-Sternberka
+	trait=monk
+	
+	1332.1.1 = {
+		birth = yes
+	}
+	1380.1.14 = {
+		death = yes
+	}
+}
+854173 = {
+	name = "Zdenek"
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=470160 # István Csák-Sternberka
+	
+	1333.1.1 = {
+		birth = yes
+	}
+	1359.1.1 = {
+		death = yes
+	}
+}
+854174 = {
+	name = "Katalin"
+	female=yes
+	dynasty=19010
+	culture = hungarian
+	religion = catholic
+	father=854173 # Zdenek Csák-Sternberka
+	
+	1358.1.1 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+854175 = {
+	name = "Simon"
+	dynasty=19057
+	culture = hungarian
+	religion = catholic
+	father=470076 # Moricz Meggyesi
+	
+	1320.1.1 = {
+		birth = yes
+	}
+	1375.10.20 = {
+		death = yes
+	}
+}
+854176 = {
+	name = "János"
+	dynasty=19057
+	culture = hungarian
+	religion = catholic
+	father=854175 # Simon Meggyesi
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+854177 = {
+	name = "István"
+	dynasty=19057
+	culture = hungarian
+	religion = catholic
+	father=854175 # Simon Meggyesi
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+854178 = {
+	name = "Miklós"
+	dynasty=19057
+	culture = hungarian
+	religion = catholic
+	father=854176 # János Meggyesi
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1425.1.1 = {
+		death = yes
+	}
+}
+854179 = {
+	name = "Simon"
+	dynasty=19057
+	culture = hungarian
+	religion = catholic
+	father=854176 # János Meggyesi
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1433.1.1 = {
+		death = yes
+	}
+}
+854180 = {
+	name = "Tamás"
+	dynasty=19061
+	culture = hungarian
+	religion = catholic
+	father=854260 # Péter Szentgyörgyi
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1367.1.1 = {
+	    effect_even_if_dead = {
+		    c_854260 = {
+			    death=1367.1.1
+			}
+		}
+    }		
+	1403.1.1 = {
+		death = yes
+	}
+}
+854181 = {
+	name = "János"
+	dynasty=19061
+	culture = hungarian
+	religion = catholic
+	father=854260 # Péter Szentgyörgyi
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+854182 = {
+	name = "Tamás"
+	dynasty=19061
+	culture = hungarian
+	religion = catholic
+	father=854181 # János Szentgyörgyi
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}
+854183 = {
+	name = "Hedvig"
+	female=yes
+	dynasty=19061
+	culture = hungarian
+	religion = catholic
+	father=854182 # Tamás Szentgyörgyi the Younger
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1414.1.1 = {
+		death = yes
+	}
+}
+854184 = {
+	name = "Szibilla"
+	female=yes
+	dynasty=19061
+	culture = hungarian
+	religion = catholic
+	father=854180 # Tamás Szentgyörgyi the Elder
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}
+854185 = {
+	name = "Marton"
+	dynasty=19061
+	culture = hungarian
+	religion = catholic
+	father=854182 # Tamás Szentgyörgyi the Younger
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+854186 = {
+	name = "Eberhard"
+	dynasty=19061
+	culture = hungarian
+	religion = catholic
+	father=854182 # Tamás Szentgyörgyi the Younger
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1427.1.1 = {
+		death = yes
+	}
+}
+854187 = {
+	name = "János"
+	dynasty=19056
+	culture = hungarian
+	religion = catholic
+	father=854119 # Mihaly Varday
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+854188 = {
+	name = "Pelbárt"
+	dynasty=19056
+	culture = hungarian
+	religion = catholic
+	father=470065 # Domokos Varday
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1437.1.1 = {
+		death = yes
+	}
+}
+854189 = {
+	name = "Dorottya"
+	female=yes
+	dynasty=19056
+	culture = hungarian
+	religion = catholic
+	father=470065 # Domokos Varday
+	
+	1379.1.1 = {
+		birth = yes
+	}
+	1446.1.1 = {
+		death = yes
+	}
+}
+854190 = {
+	name = "György"
+	dynasty=19059
+	culture = hungarian
+	religion = catholic
+	father=93650 # Tamás Viczay
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1464.1.1 = {
+		death = yes
+	}
+}
+854191 = {
+	name = "Jakab"
+	dynasty=19059
+	culture = hungarian
+	religion = catholic
+	father=470105 # Péter Viczay
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1377.1.1 = {
+		death = yes
+	}
+}
+854192 = {
+	name = "Imre"
+	dynasty=19059
+	culture = hungarian
+	religion = catholic
+	father=854191 # Jakab Viczay
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1418.1.1 = {
+		death = yes
+	}
+}
+854193 = {
+	name = "Mihaly"
+	dynasty=19059
+	culture = hungarian
+	religion = catholic
+	father=470105 # Péter Viczay
+	
+	1335.1.1 = {
+		birth = yes
+	}
+	1370.1.1 = {
+		death = yes
+	}
+}
+854194 = {
+	name = "János"
+	dynasty=19059
+	culture = hungarian
+	religion = catholic
+	father=854192 # Imre Viczay
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+854195 = {
+	name = "Miklós"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=470122 # János Kanizsai
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+854196 = {
+	name = "János"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=854195 # Miklós Kanizsai
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1429.2.13 = {
+		death = yes
+	}
+}
+854197 = {
+	name = "István"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=854195 # Miklós Kanizsai
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1411.1.11 = {
+		death = yes
+	}
+}
+854198 = {
+	name = "Lõrinc"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=470122 # János Kanizsai
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1376.1.1 = {
+		death = yes
+	}
+}
+854199 = {
+	name = "János"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=470122 # János Kanizsai
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1418.6.25 = {
+		death = yes
+	}
+}
+854200 = {
+	name = "István"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=470122 # János Kanizsai
+	
+	1359.1.1 = {
+		birth = yes
+	}
+	1429.4.4 = {
+		death = yes
+	}
+}
+854201 = {
+	name = "László"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=854200 # István Kanizsai
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1434.4.26 = {
+		death = yes
+	}
+}
+854202 = {
+	name = "László"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=470119 # Mihaly Kanizsai
+	
+	1320.1.1 = {
+		birth = yes
+	}
+	1376.1.1 = {
+		death = yes
+	}
+}
+854203 = {
+	name = "János"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=854202 # László Kanizsai
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+854204 = {
+	name = "László"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=854203 # János Kanizsai
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+854205 = {
+	name = "György"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=854202 # László Kanizsai
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+854206 = {
+	name = "István"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=854202 # László Kanizsai
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+854207 = {
+	name = "Kónya"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=470119 # Mihaly Kanizsai
+	
+	1325.1.1 = {
+		birth = yes
+	}
+	1376.1.1 = {
+		death = yes
+	}
+}
+854208 = {
+	name = "Mihaly"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=470119 # Mihaly Kanizsai
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1376.1.1 = {
+		death = yes
+	}
+}
+854209 = {
+	name = "László"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=854208 # Mihaly Kanizsai
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854210 = {
+	name = "János"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=854209 # László Kanizsai
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}
+854211 = {
+	name = "Ilko"
+	dynasty=19054
+	culture = hungarian
+	religion = catholic
+	father=854209 # László Kanizsai
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}
+854212 = {
+	name = "László" # his father needs effect on death
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=854235 # Demeter Osli de Asszonyfalva
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+854213 = {
+	name = "János"
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=854235 # Demeter Osli de Asszonyfalva
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+854214 = {
+	name = "Zsuzsanna"
+	female=yes
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=854235 # Demeter Osli de Asszonyfalva
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1436.1.1 = {
+		death = yes
+	}
+}
+854215 = {
+	name = "Benedek"
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=854235 # Demeter Osli de Asszonyfalva
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1437.1.1 = {
+		death = yes
+	}
+}
+854216 = {
+	name = "Imre"
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=854235 # Demeter Osli de Asszonyfalva
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+854217 = {
+	name = "Margit"
+	female=yes
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=470115 # Miklós Osli de Asszonyfalva
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1389.1.1 = {
+		death = yes
+	}
+}
+854218 = {
+	name = "Klára"
+	female=yes
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=470115 # Miklós Osli de Asszonyfalva
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1389.1.1 = {
+		death = yes
+	}
+}
+854219 = {
+	name = "Katalin"
+	female=yes
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=470115 # Miklós Osli de Asszonyfalva
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1408.1.1 = {
+		death = yes
+	}
+}
+854220 = {
+	name = "Ferenc"
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=470116 # János Osli de Asszonyfalva
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1431.1.1 = {
+		death = yes
+	}
+}
+854221 = {
+	name = "János"
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=470111 # János Osli de Asszonyfalva
+	
+	1339.1.1 = {
+		birth = yes
+	}
+	1396.6.22 = {
+		death = yes
+	}
+}
+854222 = {
+	name = "Gergely"
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=854221 # János Osli de Asszonyfalva
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1431.12.29 = {
+		death = yes
+	}
+}
+854223 = {
+	name = "László"
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=854221 # János Osli de Asszonyfalva
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1409.1.1 = {
+		death = yes
+	}
+}
+854224 = {
+	name = "Zsigmond"
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=854221 # János Osli de Asszonyfalva
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+854225 = {
+	name = "Anna"
+	female=yes
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=854221 # János Osli de Asszonyfalva
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1433.1.1 = {
+		death = yes
+	}
+}
+854226 = {
+	name = "Apollina"
+	female=yes
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=854221 # János Osli de Asszonyfalva
+	
+	1390.1.1 = {
+		birth = yes
+	}
+}
+854227 = {
+	name = "Pál"
+	dynasty=101566
+	culture = hungarian
+	religion = catholic
+	father=93672 # Pál Makófalvi Csanád
+	
+	1290.1.1 = {
+		birth = yes
+	}
+	1265.1.1 = {
+	    effect_even_if_dead = {
+		    c_93673 = {
+			    dynasty=350025 # duplicated character assigned to random dynasty
+				set_father=0
+			}
+		}
+	}
+	1350.1.1 = {
+		death = yes
+	}
+}
+854228 = {
+	name = "Péter"
+	dynasty=101566
+	culture = hungarian
+	religion = catholic
+	father=854227 # Pál Csanád
+	
+	1349.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854229 = {
+	name = "Benedek"
+	dynasty=101566
+	culture = hungarian
+	religion = catholic
+	father=854228 # Péter Csanád
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1433.1.1 = {
+		death = yes
+	}
+}
+854230 = {
+	name = "Péter"
+	dynasty=101566
+	culture = hungarian
+	religion = catholic
+	father=93672 # Pál Makófalvi Csanád
+	
+	1300.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {
+		death = yes
+	}
+}
+854231 = {
+	name = "Tamás"
+	dynasty=101566
+	culture = hungarian
+	religion = catholic
+	father=93672 # Pál Makófalvi Csanád
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854232 = {
+	name = "András"
+	dynasty=101566
+	culture = hungarian
+	religion = catholic
+	father=93672 # Pál Makófalvi Csanád
+	
+	1357.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854233 = {
+	name = "János"
+	dynasty=101566
+	culture = hungarian
+	religion = catholic
+	father=93672 # Pál Makófalvi Csanád
+	
+	1359.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854234 = {
+	name = "Dénes"
+	dynasty=101566
+	culture = hungarian
+	religion = catholic
+	father=93672 # Pál Makófalvi Csanád
+	
+	1285.1.1 = {
+		birth = yes
+	}
+	1340.1.1 = {
+		death = yes
+	}
+}
+854235 = {
+	name = "Demeter"
+	dynasty=19058
+	culture = hungarian
+	religion = catholic
+	father=470113 # Domokos Osli de Asszonyfalva
+	
+	1327.1.1 = {
+		birth = yes
+	}
+	1320.2.1 = {
+	    effect_even_if_dead = {
+		    c_470114 = {
+			    dynasty=350025 # duplicated character assigned to random dynasty
+				set_father=0
+			}
+		}
+	}
+	1397.1.1 = {
+		death = yes
+	}
+}
+854236 = {
+	name = "Miklós"
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93784 # Péter Kõszegi the Younger
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1377.1.1 = {
+		death = yes
+	}
+}
+854237 = {
+	name = "László"
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93784 # Péter Kõszegi the Younger
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1426.1.1 = {
+		death = yes
+	}
+}
+854238 = {
+	name = "István"
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93784 # Péter Kõszegi the Younger
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1437.1.1 = {
+		death = yes
+	}
+}
+854239 = {
+	name = "János"
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93782 # Henrik Kõszegi
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1416.1.1 = {
+		death = yes
+	}
+}
+854240 = {
+	name = "Miklós"
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93782 # Henrik Kõszegi
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+854241 = {
+	name = "László"
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=854239 # János Kõszegi
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1443.1.1 = {
+		death = yes
+	}
+}
+854242 = {
+	name = "Péter"
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=854239 # János Kõszegi
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+854243 = {
+	name = "Katalin"
+	female=yes
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=854239 # János Kõszegi
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854244 = {
+	name = "László"
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93775 # László Kõszegi
+	
+	1335.1.1 = {
+		birth = yes
+	}
+	1397.1.1 = {
+		death = yes
+	}
+}
+854245 = {
+	name = "János"
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93775 # László Kõszegi
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+854246 = {
+	name = "Magdolna"
+	female=yes
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93778 # András Kakas Kõszegi
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+854247 = {
+	name = "Margit"
+	female=yes
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93778 # András Kakas Kõszegi
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1449.1.1 = {
+		death = yes
+	}
+}
+854248 = {
+	name = "Katalin"
+	female=yes
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93778 # András Kakas Kõszegi
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1449.1.1 = {
+		death = yes
+	}
+}
+854249 = {
+	name = "Zsófia"
+	female=yes
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93778 # András Kakas Kõszegi
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1449.1.1 = {
+		death = yes
+	}
+}
+854250 = {
+	name = "Anna"
+	female=yes
+	dynasty=19032
+	culture = hungarian
+	religion = catholic
+	father=93778 # András Kakas Kõszegi
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1449.1.1 = {
+		death = yes
+	}
+}
+854251 = {
+	name = "Lõrinc"
+	dynasty=19045
+	culture = hungarian
+	religion = catholic
+	father=470135 # János Telegdi
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1377.1.1 = {
+		death = yes
+	}
+}
+854252 = {
+	name = "Péter"
+	dynasty=19045
+	culture = hungarian
+	religion = catholic
+	father=470136 # Tamás Telegdi
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		death = yes
+	}
+}
+854253 = {
+	name = "Péter"
+	dynasty=19045
+	culture = hungarian
+	religion = catholic
+	father=470139 # György Telegdi
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1393.1.1 = {
+		death = yes
+	}
+}
+854254 = {
+	name = "András" # his father should die in 1390
+	dynasty=19045
+	culture = hungarian
+	religion = catholic
+	father=854259 # Miklós Telegdi
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1388.1.1 = {
+		death = yes
+	}
+}
+854255 = {
+	name = "János"
+	dynasty=19045
+	culture = hungarian
+	religion = catholic
+	father=854259 # Miklós Telegdi
+	
+	1356.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854256 = {
+	name = "Katalin"
+	female=yes
+	dynasty=19045
+	culture = hungarian
+	religion = catholic
+	father=854259 # Miklós Telegdi
+	
+	1375.1.1 = {
+		birth = yes
+	}
+}
+854257 = {
+	name = "Fruzsina"
+	female=yes
+	dynasty=19045
+	culture = hungarian
+	religion = catholic
+	father=854259 # Miklós Telegdi
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}
+854258 = {
+	name = "László"
+	dynasty=19045
+	culture = hungarian
+	religion = catholic
+	father=854255 # János Telegdi
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854259 = {
+	name="Miklós"
+	dynasty=19045
+	martial=2
+	diplomacy=6
+	intrigue=4
+	stewardship=5
+	religion="catholic"
+	culture="hungarian"
+	trait="lustful"
+	trait="diligent"
+	trait="thrifty_clerk"
+	father=470132
+	1322.1.2 = {
+		birth="1322.1.2"
+	}
+	1322.1.2 = {
+		effect_even_if_dead = {
+		    c_470140 = {
+			    dynasty=350025 # duplicated character assigned to random dynasty
+				set_father=0
+			}
+		}
+	}
+	1390.1.1 = {
+		death=yes
+	}
+}
+854260 = {
+	name="Péter"
+	dynasty=19061
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="hungarian"
+	trait="craven"
+	trait="temperate"
+	trait="elusive_shadow"
+	father=470190
+	1280.1.1 = {
+		birth="1280.1.1"
+	}
+	1280.1.1 = {
+		effect_even_if_dead = {
+		    c_470191 = {
+			    dynasty=350025 # duplicated character assigned to random dynasty
+				set_father=0
+			}
+		}
+	}
+	1327.1.2 = {
+		effect = {
+		    c_470191 = {
+			    remove_spouse=470194 # preventing bigamy
+			}
+		}
+	}
+	1328.1.1 = {
+		add_spouse=470194
+	}
+	1367.1.1 = {
+		death=yes
+	}
+}
+854261 = {
+	name = "László"
+	dynasty=19043
+	culture = hungarian
+	religion = catholic
+	father=854111 # Frank Szécsényi
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1413.1.1 = {
+		death = yes
+	}
+}
+854262 = {
+	name = "Erzsébet"
+	female=yes
+	dynasty=19043
+	culture = hungarian
+	religion = catholic
+	father=854111 # László Szécsényi
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}
+854263 = {
+	name = "Dorottya"
+	female=yes
+	dynasty=19043
+	culture = hungarian
+	religion = catholic
+	father=854111 # László Szécsényi
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1434.1.1 = {
+		death = yes
+	}
+}
+854264 = {
+	name = "Katalin"
+	female=yes
+	dynasty=19043
+	culture = hungarian
+	religion = catholic
+	father=854111 # László Szécsényi
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1413.1.1 = {
+		death = yes
+	}
+}
+854265 = {
+	name = "Miklós"
+	dynasty=19043
+	culture = hungarian
+	religion = catholic
+	father=470043 # Kónya Szécsényi
+	
+	1342.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		death = yes
+	}
+}
+854266 = {
+	name = "Simon"
+	dynasty=19043
+	culture = hungarian
+	religion = catholic
+	father=470043 # Kónya Szécsényi
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1412.1.1 = {
+		death = yes
+	}
+}
+854267 = {
+	name = "Miklós"
+	dynasty=19043
+	culture = hungarian
+	religion = catholic
+	father=470043 # Simon Szécsényi
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1438.1.19 = {
+		death = yes
+	}
+}
+854268 = {
+	name = "Tamás"
+	dynasty=19043
+	culture = hungarian
+	religion = catholic
+	father=470043 # Simon Szécsényi
+	
+	1372.1.1 = {
+		birth = yes
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}
+854269 = {
+	name = "Dorottya"
+	female=yes
+	dynasty=19043
+	culture = hungarian
+	religion = catholic
+	father=470043 # Simon Szécsényi
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1419.1.1 = {
+		death = yes
+	}
+}
+854270 = {
+	name = "Miklós"
+	dynasty = 19025
+	culture = hungarian
+	religion = catholic
+		
+	1325.1.1 = {
+		birth = yes
+	}
+	1386.7.25 = {
+		death = {
+		    death_reason=death_execution_beheading
+			killer=854900 # Paul Horvat Bishop of Zagreb
+		}
+	}
+}
+854271 = {
+	name = "János"
+	dynasty = 19025
+	culture = hungarian
+	religion = catholic
+	father=854270 # Miklós I Garai
+	
+	1371.1.1 = {
+		birth = yes
+	}
+	1428.4.9 = {
+		death = yes
+	}
+}
+854272 = {
+	name = "Ilona"
+	female=yes
+	dynasty = 19025
+	culture = hungarian
+	religion = catholic
+	father=854270 # Miklós I Garai
+	
+	1374.1.1 = {
+		birth = yes
+	}
+	1439.1.1 = {
+		death = yes
+	}
+}
+854273 = {
+	name = "Dorottya"
+	female=yes
+	dynasty = 19025
+	culture = hungarian
+	religion = catholic
+	father=854270 # Miklós I Garai
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1425.4.21 = {
+		death = yes
+	}
+}
+854274 = {
+	name = "Erzsébet"
+	female=yes
+	dynasty = 19025
+	culture = hungarian
+	religion = catholic
+	father=854270 # Miklós I Garai
+	
+	1376.1.1 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+854275 = {
+	name = "Miklós"
+	dynasty = 19025
+	culture = hungarian
+	religion = catholic
+	father=800585 # Miklós II Garai
+	mother=855114 # Theodora Lazarevic
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1436.6.4 = {
+		death = yes
 	}
 }

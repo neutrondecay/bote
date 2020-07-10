@@ -634,58 +634,404 @@
 		death=yes
 	}
 }
-# 801118 = { I literally made them twice... bruh
-	# name="Eretna"
-	# dynasty=3000119
-	# religion="sunni"
-	# culture="turkish"
+###White Sheep Confederacy
+801173 = {
+	name = "Kara"
+	dynasty = 3000117
+	culture = turkish
+	religion = sunni
 	
-	# 1296.1.1 = {
-		# birth = yes
-	# }
-	# 1352.1.1 = {
-		# death = yes
-	# }
-# }
-# 801119 = {
-	# name="Mehmed"
-	# dynasty=3000119
-	# religion="sunni"
-	# culture="turkish"
-	# father = 801118
+	1356.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		add_spouse = 801174
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+801175 = {
+	name = "Yakub"
+	dynasty = 3000117
+	culture = turkish
+	religion = sunni
+	father = 801173
+	mother = 801174
+	1386.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+801176 = {
+	name = "Hamza"
+	dynasty = 3000117
+	culture = turkish
+	religion = sunni
+	father = 801173
+	mother = 801174
+	1389.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+801177 = {
+	name = "Mahmut"
+	dynasty = 3000117
+	culture = turkish
+	religion = sunni
+	father = 801173
+	mother = 801174
+	1395.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+801178 = {
+	name = "Ali"
+	dynasty = 3000117
+	culture = turkish
+	religion = sunni
+	father = 801173
+	mother = 801174
+	1399.7.1 = {
+		birth = yes
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+###Black Sheep Confederacy
+801180 = {
+	name = "Bayram"
+	dynasty = 3000118
+	culture = turkish
+	religion = shiite
+	father = 801181
+	1320.10.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
+801181 = {
+	name = "Mansur"
+	dynasty = 3000118
+	culture = turkish
+	religion = shiite
 	
-	# 1320.1.1 = {
-		# birth = yes
-	# }
-	# 1366.1.1 = {
-		# death = yes
-	# }
-# }
-# 801120 = {
-	# name="Ali"
-	# dynasty=3000119
-	# religion="sunni"
-	# culture="turkish"
-	# father = 801119
+	1296.1.1 = {
+		birth = yes
+	}
+	1351.1.1 = {
+		death = yes
+	}
+}
+801182 = {
+	name = "Dursun"
+	dynasty = 3000118
+	culture = turkish
+	religion = shiite
+	father = 801181
+	1322.10.1 = {
+		birth = yes
+	}
+	1374.1.1 = {
+		death = yes
+	}
+}
+801183 = {
+	name = "Mahmut"
+	dynasty = 3000118
+	culture = turkish
+	religion = shiite
+	father = 801182
+	1342.10.1 = {
+		birth = yes
+	}
+	1389.4.1 = {
+		death = yes
+	}
+}
+801184 = {
+	name = "Baram"
+	dynasty = 3000118
+	culture = turkish
+	religion = shiite
+	father = 801183
+	1362.10.1 = {
+		birth = yes
+	}
+	1389.4.1 = {
+		death = yes
+	}
+}
+801185 = {
+	name = "Yusuf"
+	dynasty = 3000118
+	culture = turkish
+	religion = shiite
+	father = 801183
+	1365.1.1 = {
+		birth = yes
+	}
+	1420.11.17 = {
+		death = yes
+	}
+}
+801208 = {
+	name = "Misr"
+	dynasty = 3000118
+	culture = turkish
+	religion = shiite
+	father = 801183
+	1369.1.1 = {
+		birth = yes
+	}
+	1394.1.7 = {
+		death = yes
+	}
+}
+801209 = {
+	name = "Ali"
+	dynasty = 3000118
+	culture = turkish
+	religion = shiite
+	father = 801208
+	1385.1.1 = {
+		birth = yes
+	}
+	1401.1.7 = {
+		death = yes
+	}
+}
+801186 = {
+	name = "Zeynal"
+	dynasty = 3000118
+	culture = turkish
+	religion = shiite
+	father = 801184
+	1386.1.1 = {
+		birth = yes
+	}
+	1401.1.7 = {
+		death = yes
+	}
+}
+801187 = {
+	name = "Kazan"
+	dynasty = 3000118
+	culture = turkish
+	religion = shiite
+	father = 801184
+	1389.1.1 = {
+		birth = yes
+	}
+	1401.1.7 = {
+		death = yes
+	}
+}
+855600 = {
+	name = "Suleyman"
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
 	
-	# 1353.1.1 = {
-		# birth = yes
-	# }
-	# 1380.8.1 = {
-		# death = yes
-	# }
-# }
-# 801121 = {
-	# name="Mehmed"
-	# dynasty=3000119
-	# religion="sunni"
-	# culture="turkish"
-	# father = 801120
+	father=800460 # Sultan Bayezid I
 	
-	# 1373.1.1 = {
-		# birth = yes
-	# }
-	# 1390.8.1 = {
-		# death = yes
-	# }
-# }
+	1377.1.1={
+		birth=yes
+	}
+	1411.2.17={
+		death=yes
+	}
+}
+855601 = {
+	name = "Musa"
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	
+	father=800460 # Sultan Bayezid I
+	mother=855611 # Devletshah Germiyan
+	
+	1388.1.1={
+		birth=yes
+	}
+	1413.7.5={
+		death=yes
+	}
+}
+855602 = {
+	name = "Isa"
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	
+	father=800460 # Sultan Bayezid I
+	mother=855611 # Devletshah Germiyan
+	
+	1380.1.1={
+		birth=yes
+	}
+	1406.1.1={
+		death=yes
+	}
+}
+855603 = {
+	name = "Mehmed" # Sultan Mehmed I
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	
+	father=800460 # Sultan Bayezid I
+	mother=855612 # Devlet
+	
+	1389.1.1={
+		birth=yes
+	}
+	1421.5.26={
+		death=yes
+	}
+}
+855604 = {
+	name = "Mustafa"
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	
+	father=800460 # Sultan Bayezid I
+	mother=855611 # Devletshah Germiyan
+	
+	1393.1.1={
+		birth=yes
+	}
+	1422.5.1={
+		death=yes
+	}
+}
+855605 = {
+	name = "Ertrugul"
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	
+	father=800460 # Sultan Bayezid I
+	
+	1378.1.1={
+		birth=yes
+	}
+	1392.7.1={
+		death=yes
+	}
+}
+855606 = {
+	name = "Fatima"
+	female=yes
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	
+	father=800460 # Sultan Bayezid I
+	
+	1385.1.1={
+		birth=yes
+	}
+}
+855607 = {
+	name = "Pasha Melek"
+	female=yes
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	
+	father=800460 # Sultan Bayezid I
+	
+	1390.1.1={
+		birth=yes
+	}
+}
+855608 = {
+	name = "Sahin" # Lala Sahin Pasha
+	dynasty=350016
+	religion="sunni"
+	culture="turkish"
+	
+	1330.1.1={
+		birth=yes
+	}
+	1388.1.1={
+		death=yes
+	}
+}
+855609 = {
+	name = "Halil Hayreddin" # Candarli Pasha
+	dynasty=350017
+	religion="sunni"
+	culture="turkish"
+	
+	1330.1.1={
+		birth=yes
+	}
+	1387.1.22={
+		death=yes
+	}
+}
+855610 = {
+	name = "Ali" # Candarli Pasha
+	dynasty=350017
+	religion="sunni"
+	culture="turkish"
+	diplomacy=14
+	trait=grey_eminence
+	father=855609 # Kara Halil Hayreddin Pasha
+	
+	1350.1.1={
+		birth=yes
+	}
+	1406.12.18={
+		death=yes
+	}
+}
+855611 = {
+	name = "Devletshah"
+	female=yes
+	dynasty=12104
+	religion="sunni"
+	culture="turkish"
+	
+	father=71869 # Suleyman of Germiyan
+	
+	1355.1.1={
+		birth=yes
+	}
+	1378.1.1 = {
+	    add_spouse = 800460 # Sultan Bayezid I
+	}
+	1414.1.1 = {
+	    death = yes
+	}
+}
+855612 = {
+	name = "Devlet"
+	female=yes
+	religion="sunni"
+	culture="turkish"
+	
+	1361.1.1={
+		birth=yes
+	}
+	1387.1.1 = {
+	    add_spouse = 800460 # Sultan Bayezid I
+	}
+	1414.1.23 = {
+	    death = yes
+	}
+}

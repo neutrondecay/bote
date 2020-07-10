@@ -188,3 +188,7 @@ holder=468550 #Ivan
 {
 holder=467500 #Ivan Aleksandr
 }
+1371.2.17=
+{
+holder=0
+}

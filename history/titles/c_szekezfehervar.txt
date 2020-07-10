@@ -73,5 +73,9 @@ liege="d_pecs"
 }
 1335.1.2=
 {
-	holder=470114
+	holder=854235
+}
+1370.1.1=
+{
+	holder=854212 # László Osli de Asszonyfalva
 }
