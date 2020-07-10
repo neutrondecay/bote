@@ -1,0 +1,346 @@
+800307 = { #Constance, daughter of Peter IV of Aragon
+	name="Constanza" 
+	dynasty=100204
+	religion="catholic"
+	culture="catalan"
+	female = yes
+	father=460500
+	1343.4.8={
+		birth=yes
+	}
+	1363.7.18={
+		death=yes
+	}
+}
+800316 = { #Martin, son of Peter IV of Aragon
+	name="Martí" 
+	dynasty=100204
+	religion="catholic"
+	culture="catalan"
+	father=460500
+	1374.10.26={
+		birth=yes
+	}
+	1409.7.25={
+		death=yes
+	}
+}
+800397 = { #Joan, son of Peter IV of Aragon
+	name="Joan" 
+	dynasty=100204
+	religion="catholic"
+	culture="catalan"
+	father=460500
+	1350.12.27={
+		birth=yes
+	}
+	1396.5.19={
+		death=yes
+	}
+}
+#Wife of Giovanni II of Monferrato
+800363 = {
+	name="Elisabet"
+	dynasty=100204
+	female=yes
+	religion="catholic"
+	culture="catalan"
+	father=460620
+	trait="bastard"
+	1337.10.1={
+		birth=yes
+	}
+	1355.1.1 = {
+		add_spouse = 465523
+	}
+	1406.1.1={
+		death=yes
+	}
+}
+#(Mostly) fictional leaders of the Catalan + Navarrese Company
+800462 = {
+	name = "Berenguer"
+	culture = catalan
+	religion = catholic
+	trait= tough_soldier
+	1299.1.1 = {
+		birth = yes
+	}
+	1351.1.1 = {
+		death = yes
+	}
+}
+800463 = {
+	name = "Alfons"
+	culture = catalan
+	religion = catholic
+	trait = skilled_tactician
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
+800464 = {
+	name = "Pere"
+	culture = catalan
+	religion = catholic
+	trait = skilled_tactician
+	
+	1362.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+800465 = {
+	name = "Juan"
+	dynasty = 3000045
+	culture = catalan
+	religion = catholic
+	
+	trait = skilled_tactician
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1381.1.1 = {
+		death = yes
+	}
+}
+800466 = {
+	name = "Pedro"
+	dynasty = 3000045
+	culture = catalan
+	religion = catholic
+	
+	trait = skilled_tactician
+	
+	1353.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+800493 = {
+	name="Joan"
+	dynasty=100204
+	religion="catholic"
+	culture="catalan"
+	father=460580
+	mother=461715
+	female = yes
+	1338.1.1={
+		birth=yes
+	}
+	1373.1.1 = {
+		add_spouse = 800495
+	}
+	1398.1.1={
+		death=yes
+	}
+}
+800494 = {
+	name="Joan" #II of Empuries
+	dynasty=100204
+	religion="catholic"
+	culture="catalan"
+	father=800493
+	mother=800495
+	1374.1.1={
+		birth=yes
+	}
+	1401.1.1={
+		death=yes
+	}
+}
+800495 = { #Joana, daughter of Peter IV of Aragon
+	name="Joana" 
+	dynasty=100204
+	religion="catholic"
+	culture="catalan"
+	female = yes
+	father=460500
+	1344.11.7={
+		birth=yes
+	}
+	1385.1.17={
+		death=yes
+	}
+}
+800616 = {
+	name = "Eleanor"
+	dynasty = 100204
+	culture = catalan
+	religion = catholic
+	female = yes
+	father = 460500
+	
+	1358.2.20 = {
+		birth = yes
+	}
+	1375.6.18 = {
+		add_spouse = 800615
+	}
+	1382.8.13 = {
+		death = yes
+	}
+}
+800834 = {
+	name="Pere" #Pere III of Empuries
+	dynasty=100204
+	religion="catholic"
+	culture="catalan"
+	father=800493
+	mother=800495
+	1376.1.1={
+		birth=yes
+	}
+	1401.1.1={
+		death=yes
+	}
+}
+800498 = {
+	name = "Pere"
+	dynasty=100204
+	religion="catholic"
+	culture="catalan"
+	father = 460520
+	mother = 800497
+	
+	1340.9.10 = {
+		birth = yes
+		effect = {
+			c_460520 = {
+				dynasty = 100204
+			}
+		}
+	}
+	1376.1.1 = {
+		add_spouse = 800364
+	}
+	1408.6.1 = {
+		death = yes
+	}
+}
+800499 = {
+	name = "Jaume" #II  of Urgell
+	dynasty=100204
+	religion="catholic"
+	culture="catalan"
+	father = 800498
+	mother = 800364
+	
+	1380.5.22 = {
+		birth = yes
+	}
+	1433.6.1 = {
+		death = yes
+	}
+}
+800500 = {
+	name = "Joan"
+	dynasty = 8762
+	culture = catalan
+	religion = catholic
+	father = 460011
+	trait = legit_bastard
+	
+	1322.11.1 = {
+		birth = yes
+	}
+	1369.12.20 = {
+		death = yes
+	}
+}
+800501 = {
+	name = "Pedro"
+	dynasty = 3000049
+	culture = catalan
+	religion = catholic
+	
+	1300.3.4 = {
+		birth = yes
+	}
+	1330.1.1 = {
+		add_spouse = 800502
+	}
+	1364.1.1 = {
+		death = yes
+	}
+}
+800502 = { #Violant de Boil
+	name = "Violant"
+	dynasty = 3000050
+	culture = catalan
+	religion = catholic
+	female = yes
+	
+	1310.12.3 = {
+		birth = yes
+	}
+	1389.1.1 = {
+		death = yes
+	}
+}
+800503 = {
+	name = "Pedro"
+	dynasty = 3000049
+	culture = catalan
+	religion = catholic
+	father = 800501
+	mother = 800502
+	1348.9.26 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+800764 = {
+	name = "Inês"
+	dynasty = 7024
+	culture = catalan
+	religion = catholic
+	female = yes
+	
+	1325.1.1 = {
+		birth = yes
+	}
+	1340.1.1 = {
+		add_spouse = 459554
+	}
+	1366.1.1 = {
+		death = yes
+	}
+}
+8001004 = { #Grandmaster of the Knights Hospitaliers
+	name = "Raimundo"
+	dynasty = 3000103
+	culture = catalan
+	religion = catholic
+	
+	1305.1.1 = {
+		birth = yes
+	}
+	1374.4.10 = {
+		death = yes
+	}
+}
+8001006 = { #Grandmaster of the Knights Hospitaliers
+	name = "Juan"
+	dynasty = 3000105
+	culture = catalan
+	religion = catholic
+	
+	1310.1.1 = {
+		birth = yes
+	}
+	1396.5.26 = {
+		death = yes
+	}
+}

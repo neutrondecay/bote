@@ -1,0 +1,3 @@
+bote_nick_the_elder = {}
+bote_nick_nevsky = {}
+bote_nick_donskoy = {}

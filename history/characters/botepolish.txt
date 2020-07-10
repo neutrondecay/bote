@@ -1,0 +1,1088 @@
+## Anjou - Jagiellon ##
+
+820100 = { #
+	name = "Hedwige" #Saint Jadwiga
+	dynasty = 81 #Capetian House of Anjou
+	female=yes
+
+	culture = frankish
+	religion = catholic
+
+	father=469510 # Louis I of Hungary
+	mother=829100 # Elizabeth of Bosnia
+
+	1373.10.3 = {
+		birth = yes
+	}
+	1384.1.1 = {
+		culture=polish
+		name="Jadwiga"
+		}
+	1399.7.19 = {
+		death = yes
+	}
+}
+
+820101 = { #
+	name = "Elzbieta" #Elizabeth Bonifacia
+	dynasty =3200006 #Jagiellon
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	mother=820100
+	father=820010
+
+	1399.6.2 = {
+		birth = yes
+	}
+	1399.7.13 = {
+		death = yes
+	}
+}
+
+### Piast ###
+
+820102 = { #
+	name = "Henryk" #Henry of Opole
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471720
+	mother=471721
+
+	1338.8.18 = {
+		birth = yes
+	}
+	1365.10.25 = {
+		death = yes
+	}
+}
+
+820103 = { #
+	name = "Kunegunda" # nun
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471720
+	mother=471721
+
+	1340.1.1 = {
+		birth = yes
+	}
+	1356.1.1 = {add_trait=nun}
+	1372.1.1 = {
+		death = yes
+	}
+}
+
+820104 = { #
+	name = "Agnieszka" # nun
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471720
+	mother=471721
+
+	1341.1.1 = {
+		birth = yes
+	}
+	1388.1.1 = {add_trait=nun}
+	1391.1.1 = {
+		death = yes
+	}
+}
+
+820105 = { #
+	name = "Elzbieta" # nun
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471720
+	mother=471721
+
+	1342.1.1 = {
+		birth = yes
+	}
+	1358.1.1 = {add_trait=nun}
+	1383.1.1 = {
+		death = yes
+	}
+}
+
+820106 = { #
+	name = "Anna" # nun
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471720
+	mother=471721
+
+	1348.1.1 = {
+		birth = yes
+	}
+	1364.1.1 = {add_trait=nun}
+	1412.1.1 = {
+		death = yes
+	}
+}
+
+820107 = { #
+	name = "Jan" # Bishop
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471726
+
+	1360.1.1 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+
+820108 = { #
+	name = "Boleslaw" # 
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471726
+
+	1363.1.1 = {
+		birth = yes
+	}
+	1437.1.1 = {
+		death = yes
+	}
+}
+
+820109 = { #
+	name = "Henryk" # 
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471726
+
+	1374.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+
+820110 = { #
+	name = "Bernard" # 
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471726
+
+	1378.1.1 = {
+		birth = yes
+	}
+	1455.1.1 = {
+		death = yes
+	}
+}
+
+820111 = { #
+	name = "Anna" # 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471726
+
+	1377.1.1 = {
+		birth = yes
+	}
+	1393.1.1 = {add_trait=nun}
+	1455.1.1 = {
+		death = yes
+	}
+}
+
+820112 = { #
+	name = "Kinga" # 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471725
+
+	1355.1.1 = {
+		birth = yes
+	}
+	1371.1.1 = {add_trait=nun}
+	1380.1.1 = {
+		death = yes
+	}
+}
+
+820113 = { #
+	name = "Elzbieta" # 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471725
+
+	1360.1.1 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+
+820114 = { #
+	name = "Katarzyna" # 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471725
+
+	1367.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+
+820115 = { #
+	name = "Jadwiga" # 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471725
+
+	1376.1.1 = {
+		birth = yes
+	}
+	1392.1.1 = {
+		death = yes
+	}
+}
+
+820116 = { #
+	name = "Eufemia" # 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471725
+
+	1379.1.1 = {
+		birth = yes
+	}
+	1408.1.1 = {
+		death = yes
+	}
+}
+820118 = { #
+	name = "Ruprecht" # Duke of Legnica
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471737
+	mother=125949
+
+	1347.3.27 = {
+		birth = yes
+	}
+	1372.1.1 = {add_spouse=820127}
+	1409.1.1 = {
+		death = yes
+	}
+}
+
+820119 = { #
+	name = "Waclaw" # Bishop
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471737
+	mother=125949
+
+	1348.1.1 = {
+		birth = yes
+	}
+	1419.12.10 = {
+		death = yes
+	}
+}
+
+820120 = { #
+	name = "Barbara" # Duchess of Saxe-Wittenberg
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=820118 
+	mother=820127 
+
+	1384.1.1 = {
+		birth = yes
+	}
+	1436.1.1 = {
+		death = yes
+	}
+}
+
+820121 = { #
+	name = "Jadwiga" #
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=820118 
+	mother=820127 
+
+	1382.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {add_trait=nun}
+	1411.1.1 = {
+		death = yes
+	}
+}
+
+820122 = { #
+	name = "Boleslaw" # 
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471737	
+	mother=125949
+
+	1349.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+
+820123 = { #
+	name = "Jadwiga" # Duchess of Zagan-Glogow
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471737
+	mother=125949
+
+	1351.1.1 = {
+		birth = yes
+	}
+	1409.1.1 = {
+		death = yes
+	}
+}
+
+820124 = { #
+	name = "Henryk" # 
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471737
+	mother=125949
+
+	1355.1.1 = {
+		birth = yes
+	}
+	1398.12.12 = {
+		death = yes
+	}
+}
+
+820125 = { #
+	name = "Henryk" # 
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=125915
+
+	1344.1.1 = {
+		birth = yes
+	}
+	1393.1.1 = {
+		death = yes
+	}
+}
+820126 = { #
+	name = "Anna" # 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=125915
+
+	1349.1.1 = {
+		birth = yes
+	}
+	1361.1.1 = {add_spouse=96054}
+	1405.1.1 = {
+		death = yes
+	}
+}
+
+820127 = { #
+	name = "Jadwiga" # Queen of Poland and Duchess of Legnica 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=125915
+
+	1351.1.1 = {
+		birth = yes
+	}
+	1363.1.1 = {add_spouse=471500} # Casimir the Great
+	1390.3.27 = {
+		death = yes
+	}
+}
+
+820128 = { #
+	name = "Henryk" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=125915
+
+	1350.1.1 = {
+		birth = yes
+	}
+	1395.12.24 = {
+		death = yes
+	}
+}
+820129 = { #
+	name = "Henryk" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=125915
+
+	1357.1.1 = {
+		birth = yes
+	}
+	1397.3.14 = {
+		death = yes
+	}
+}
+
+820130 = { #
+	name = "Anna" # 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471500
+	mother=820127
+
+	1366.1.1 = {
+		birth = yes
+	}
+	1422.6.9 = {
+		death = yes
+	}
+}
+820131 = { #
+	name = "Kunegunda" # 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471500
+	mother=820127
+
+	1367.1.1 = {
+		birth = yes
+	}
+	1370.1.1 = {
+		death = yes
+	}
+}
+820132 = { #
+	name = "Jadwiga" # 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471500
+	mother=820127
+
+	1368.1.1 = {
+		birth = yes
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}
+820133 = { #
+	name = "Jan" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=820129
+
+	1385.1.1 = {
+		birth = yes
+	}
+	1439.1.1 = {
+		death = yes
+	}
+}
+820134 = { #
+	name = "Henryk" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=820129
+
+	1389.1.1 = {
+		birth = yes
+	}
+	1467.1.1 = {
+		death = yes
+	}
+}
+820135 = { #
+	name = "Henryk" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=820129
+
+	1390.1.1 = {
+		birth = yes
+	}
+	1423.1.1 = {
+		death = yes
+	}
+}
+820136 = { #
+	name = "Waclaw" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=820129
+
+	1391.1.1 = {
+		birth = yes
+	}
+	1431.1.1 = {
+		death = yes
+	}
+}
+820137 = { #
+	name = "Anna" #
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=820129
+
+	1397.1.1 = {
+		birth = yes
+	}
+	1426.1.1 = {
+		death = yes
+	}
+}
+820138 = { #
+	name = "Przemyslaw" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471743
+
+	1362.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+820139 = { #
+	name = "Boleslaw" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471743
+
+	1363.1.1 = {
+		birth = yes
+	}
+	1431.1.1 = {
+		death = yes
+	}
+}
+820140 = { #
+	name = "Malgorzata" #
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471743
+
+	1365.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {employer=800000}
+	1413.1.1 = {
+		death = yes
+	}
+}
+820141 = { #
+	name = "Anna" #
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471743
+
+	1373.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+820142 = { #
+	name = "Kazimierz" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=820138 
+	mother=820143
+
+	1396.1.1 = {
+		birth = yes
+	}
+	1434.1.1 = {
+		death = yes
+	}
+}
+820143 = { #
+	name = "Jadwiga" # Unknown wife
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	1376.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {add_spouse=820138} 
+	1423.1.1 = {
+		death = yes
+	}
+}
+820145 = { #
+	name = "Janusz" # Duke of Warsaw
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471518
+	mother=471525
+
+	1347.1.1 = {
+		birth = yes
+	}
+	1371.1.1 = {add_spouse=820016}
+	1429.1.1 = {
+		death = yes
+	}
+}
+820146 = { #
+	name = "Eufemia" #
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471518
+	mother=471525
+
+	1345.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+820147 = { #
+	name = "Anna" #
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471518
+	mother=471525
+
+	1346.1.1 = {
+		birth = yes
+	}
+	1362.1.1 = {add_trait=nun}
+	1403.1.1 = {
+		death = yes
+	}
+}
+820148 = { #
+	name = "Malgorzata" #
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=471518
+	mother=471525
+
+	1356.1.1 = {
+		birth = yes
+	}
+	1396.1.1 = {
+		death = yes
+	}
+}
+820149 = { #
+	name = "Siemowit" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471518
+	mother=471525
+
+	1356.1.1 = {
+		birth = yes
+	}
+	1387.1.1 = {add_spouse=820015} # Alexandra of Lithuania
+	1426.1.1 = {
+		death = yes
+	}
+}
+820150 = { #
+	name = "Henryk" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=471518
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1393.1.1 = {
+		death = yes
+	}
+}
+820151 = { #
+	name = "Siemowit" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=820149
+	mother=820015
+
+	1389.1.1 = {
+		birth = yes
+	}
+	1442.1.1 = {
+		death = yes
+	}
+}
+820152 = { #
+	name = "Jadwiga" #
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=820149
+	mother=820015
+
+	1392.1.1 = {
+		birth = yes
+	}
+	1439.1.1 = {
+		death = yes
+	}
+}
+820153 = { #
+	name = "Cymbarka" #
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=820149
+	mother=820015
+
+	1394.1.1 = {
+		birth = yes
+	}
+	1429.1.1 = {
+		death = yes
+	}
+}
+820154 = { #
+	name = "Eufemia" #
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=820149
+	mother=820015
+
+	1395.1.1 = {
+		birth = yes
+	}
+	1447.1.1 = {
+		death = yes
+	}
+}
+820155 = { #
+	name = "Amelia" #
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=820149
+	mother=820015
+
+	1397.1.1 = {
+		birth = yes
+	}
+	1434.1.1 = {
+		death = yes
+	}
+}
+820156 = { #
+	name = "Aleksander" #
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=820149
+	mother=820015
+
+	1400.1.1 = {
+		birth = yes
+	}
+	1444.1.1 = {
+		death = yes
+	}
+}
+820170 = { #
+	name = "Olga" # 
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=820145
+	mother=820016
+
+	1373.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+820171 = { 
+	name = "Janusz" # 
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=820145
+	mother=820016
+
+	1376.1.1 = {
+		birth = yes
+	}
+	1422.1.1 = {
+		death = yes
+	}
+}
+820173 = { #
+	name = "Boleslaw" # 
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=820145
+	mother=820016
+
+	1385.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+820174 = { #
+	name = "Konrad" # 
+	dynasty = 699
+
+	culture = polish
+	religion = catholic
+
+	father=820145
+	mother=820016
+
+	1400.1.1 = {
+		birth = yes
+	}
+	1412.1.1 = {
+		death = yes
+	}
+}
+###
+820117 = { #
+	name = "Piotr" # 
+
+	culture = polish
+	religion = catholic
+
+	1354.1.1 = {
+		birth = yes
+	}
+	1414.1.1 = {
+		death = yes
+	}
+}
+820175 = { #
+	name = "Anna" #Holy Roman Empress
+	dynasty = 699
+	female=yes
+
+	culture = polish
+	religion = catholic
+
+	father=125938 #Henry of Swidnica
+	mother=469515 #Catherine of Hungary
+
+	1339.1.1 = {
+		birth = yes
+	}
+	1353.5.27 = {add_spouse=462614} 
+	1362.7.11 = {
+		death = yes
+	}
+}

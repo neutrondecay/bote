@@ -1,0 +1,10 @@
+# Bishop of Beauvais
+741.1.1={
+	liege="c_clermont"
+}
+1063.1.1={
+	holder=142 #Robert I Courteheuse
+}
+1358.1.1={
+	holder=802138
+}

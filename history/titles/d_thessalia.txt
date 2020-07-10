@@ -1,0 +1,10 @@
+751.1.1={
+	holder=145816
+}
+789.1.1={
+	holder=0
+}
+1393.1.1 = { #Ottoman conquest
+	holder = 800460
+	liege = k_ottoman
+}

@@ -1,0 +1,164 @@
+800100 = { #King of Airgíalla (Count of Oriel)
+	name = "Pilib"
+	dynasty = 9201
+	culture = irish
+	religion = catholic
+	father = 83013
+	
+	1345.11.01 = {
+		birth = yes
+	}
+}
+800101 = { #King of Tír Eóghain (Count of Tyrone)
+	name = "Niall" #Niall Óg 
+	dynasty = 9202
+	culture = irish
+	religion = catholic
+	father = 83105
+	
+	1343.4.30 = {
+		birth= yes
+	}
+}
+#King of Tir Chonaill -- besteht schon!
+800102 = { #King of Bréifne
+	name = "Tigernán"
+	dynasty=101675
+	culture = irish
+	religion = catholic
+	
+	1345.12.10 = {
+		birth = yes
+	}
+	1418.1.1 = {
+		death = yes
+	}
+}
+800103 = {
+	name = "Ruaidhrí" #King of Muaidhe
+	dynasty = 1062203
+	culture = irish
+	religion = catholic
+	
+	1352.10.10 = {
+		birth = yes
+	}
+	
+}
+800104 = { #King of Ui Maine
+	name = "Maelsechlainn"
+	dynasty = 1062201
+	culture = irish
+	religion = catholic
+	
+	1341.3.1 = {
+		birth = yes
+	}
+}
+800105 = { #King of Connacht
+	name = "Cathal"
+	dynasty = 201
+	culture = irish
+	religion = catholic
+	
+	1354.1.13 = {
+		birth = yes
+	}
+}
+800107 = { #King of Desmond
+	name = "Tadhg"
+	dynasty = 197
+	culture = irish
+	religion = catholic
+	
+	1345.7.14 = {
+		birth = yes
+	}
+}
+800109 = { #King of Leinster
+	name = "Art"
+	dynasty = 9209
+	culture = irish
+	religion = catholic
+	martial = 12
+	trait = skilled_tactician
+	trait = ambitious
+	trait = proud
+	trait = wroth
+	trait = deceitful
+	
+	1357.3.19 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		add_spouse = 800110
+	}
+}
+800110 = { #Elizabeth Calf, wife of King of Leinster
+	name = "Elizabeth"
+	dynasty = 3000009
+	culture = english
+	religion = catholic
+	female = yes
+	1358.1.28 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		add_claim = c_kildare
+	}
+}
+800111 = { #Leinster's son
+	name = "Diarmait"
+	dynasty = 9209
+	culture = irish
+	religion = catholic
+	father = 800109
+	mother = 800110
+	
+	1391.1.4 = {
+		birth = yes
+	}
+	1417.1.1 = {
+		death = yes
+	}
+}
+800112 = { #Leinster's 2nd son
+	name = "Donnchadh"
+	dynasty = 9209
+	culture = irish
+	religion = catholic
+	father = 800109
+	mother = 800110
+	
+	1392.3.6 = {
+		birth = yes
+	}
+	1455.1.1 = {
+		death = yes
+	}
+}
+800113 = { #Leinster's 3rd son
+	name = "Gerlad"
+	dynasty = 9209
+	culture = irish
+	religion = catholic
+	father = 800109
+	mother = 800110
+	
+	1397.9.1 = {
+		birth = yes
+	}
+	1431.1.1 = {
+		death = yes
+	}
+}
+800114 = { #King of Thomond + Iarmond
+	name = "Brian"
+	dynasty = 695
+	culture = irish
+	religion = catholic
+	
+	1335.10.09 = {
+		birth = yes
+	}
+}

@@ -1,0 +1,189 @@
+#Lackfi dynasty
+800579 = {
+	name = "Stjepan"
+	dynasty = 100465
+	culture = croatian
+	religion = catholic
+	
+	1305.1.1 = {
+		birth = yes
+	}
+	1353.1.1 = {
+		death = yes
+	}
+}
+#Szecsi dynasty
+800580 = {
+	name = "Miklós"
+	dynasty = 3000061
+	culture = hungarian
+	religion = catholic
+	
+	1320.1.1 = {
+		birth = yes
+	}
+	1387.7.1 = {
+		death = yes
+	}
+}
+#Bubek
+800581 = {
+	name = "Emerik"
+	dynasty = 3000062
+	culture = hungarian
+	religion = catholic
+	
+	1310.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+800614 = {
+	name = "Detrik"
+	dynasty = 3000062
+	culture = hungarian
+	religion = catholic
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+#Lucenca
+800582 = {
+	name = "Ladislav"
+	dynasty = 3000063
+	culture = hungarian
+	religion = catholic
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+800583 = {
+	name = "Dionizij"
+	dynasty = 3000063
+	culture = hungarian
+	religion = catholic
+	father = 800582
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+#János
+800584 = {
+	name = "Horváti"
+	dynasty = 3000064
+	culture = hungarian
+	religion = catholic
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1404.8.15 = {
+		death = yes
+	}
+}
+#Garai
+800585 = {
+	name = "Miklós"
+	dynasty = 19025
+	culture = hungarian
+	religion = catholic
+	
+	1367.10.1 = {
+		birth = yes
+	}
+	1433.12.1 = {
+		death = yes
+	}
+}
+#Hahot
+800593 = {
+	name = "Miklós"
+	dynasty = 3000065
+	culture = hungarian
+	religion = catholic
+	
+	1290.1.1 = {
+		birth = yes
+	}
+	1359.1.1 = {
+		death = yes
+	}
+}
+#Blagai
+800613 = {
+	name = "János"
+	dynasty = 19007
+	culture = hungarian
+	religion = catholic
+	father = 32652
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+	
+}
+#Gacs
+800796 = { #Peter Gacs
+	name = "Péter"
+	dynasty = 3000080
+	culture = hungarian
+	religion = catholic
+	diplomacy = 5
+	martial = 8
+	stewardship = 2
+	intrigue = 1
+	learning = 10
+	trait = ambitious
+	trait = proud
+	trait = depressed
+	trait = sturdy
+	trait = gamer
+	trait = envious
+	trait = arbitrary
+	trait = aggressive_leader
+	trait = crusader
+	trait = familial_kinslayer
+	trait = naive_appeaser
+	disallow_random_traits = yes
+	historical = yes
+	easter_egg = yes
+	
+	1380.5.13 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		employer = 802512
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+830007 = { #Mara/Wife of Mircea the Elder
+	name = "Mara"
+	culture = hungarian
+	religion = catholic
+	female = yes
+	1360.1.1 = {
+		birth = yes
+	}
+	1376.1.1 = {
+		add_spouse = 830000
+	}
+}

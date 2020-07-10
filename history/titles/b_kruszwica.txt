@@ -1,0 +1,5 @@
+# b_kruszwica
+1398.1.1 = {
+	liege = "c_kujawy"
+	holder = 820107
+}

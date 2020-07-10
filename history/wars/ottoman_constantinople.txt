@@ -1,0 +1,17 @@
+name = "Ottoman Conquest of Constantinople"
+
+casus_belli = {
+	actor = 800460
+	recipient = 800452
+	casus_belli=muslim_county_conquest
+	landed_title=c_byzantion
+	date=1392.1.1
+}
+1392.1.1 = {
+	add_attacker = 800460
+	add_defender = 800452
+}
+1402.7.20 = {
+	rem_attacker = 800460
+	rem_defender = 800452
+}

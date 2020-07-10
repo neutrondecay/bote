@@ -1,0 +1,264 @@
+800556 = {
+	name="Tvrtko"
+	dynasty=34
+	religion="catholic"
+	culture="bosnian"
+	father=468805
+	
+	1338.1.1={
+		birth=yes
+	}
+	1391.3.10={
+		death=yes
+	}
+}
+800557 = {
+	name="Dabiša"
+	dynasty=34
+	religion="catholic"
+	culture="bosnian"
+	father=468805
+	trait = bastard
+	1340.1.1={
+		birth=yes
+	}
+	1391.1.1 = {
+		add_spouse = 800559
+	}
+	1395.9.8={
+		death=yes
+	}
+}
+800558 = {
+	name="Ostoja"
+	dynasty=34
+	religion="catholic"
+	culture="bosnian"
+	father=800556
+	trait = bastard
+	
+	1370.4.16={
+		birth=yes
+	}
+	1418.9.30={
+		death=yes
+	}
+}
+800559 = { #Jelena Gruba, Queen (Consort) of Bosnia
+	name = "Jelena"
+	dynasty = 3000057
+	culture = bosnian
+	religion = catholic
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1399.5.12 = {
+		death = yes
+	}
+}
+#Kosaca family
+800561 = {
+	name = "Vuk"
+	dynasty = 18008
+	culture = bosnian
+	religion = orthodox
+	
+	1317.1.1 = {
+		birth = yes
+	}
+	1359.4.12 = {
+		death = yes
+	}
+}
+800562 = { #Vlatko, Grand Duke of Bosnia
+	name = "Vlatko"
+	dynasty = 18008
+	culture = bosnian
+	religion = orthodox
+	father = 800561
+	1345.1.1 = {
+		birth = yes
+	}
+	1392.5.20 = {
+		death = yes
+	}
+}
+800563 = { #Hrana, Grand Duke of Bosnia
+	name = "Hrana"
+	dynasty = 18008
+	culture = bosnian
+	religion = orthodox
+	father = 800561
+	
+	1348.1.1 = {
+		birth = yes
+	}
+	1380.8.31 = {
+		death = yes
+	}
+}
+800564 = { #Sandalj, Grand Duke of Bosnia
+	name = "Sandalj"
+	dynasty = 18008
+	culture = bosnian
+	religion = orthodox
+	father = 800563
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1435.3.15 = {
+		death = yes
+	}
+}
+800565 = { #Vuk
+	name = "Vuk"
+	dynasty = 18008
+	culture = bosnian
+	religion = orthodox
+	father = 800563
+	
+	1372.1.1 = {
+		birth = yes
+	}
+	1435.3.15 = {
+		death = yes
+	}
+}
+800566 = { #Vukac
+	name = "Vuk"
+	dynasty = 18008
+	culture = bosnian
+	religion = orthodox
+	father = 800563
+	
+	1374.3.31 = {
+		birth = yes
+	}
+	1432.1.15 = {
+		death = yes
+	}
+}
+###Ivahnic family
+800569 = {
+	name = "Tvrtko"
+	dynasty = 3000060
+	culture = bosnian
+	religion = catholic
+	
+	1320.1.1 = {
+		birth = yes
+	}
+	1377.1.1 = {
+		death = yes
+	}
+}
+800570 = {
+	name = "Vlatko"
+	dynasty = 3000060
+	culture = bosnian
+	religion = catholic
+	father = 800569
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+800829 = {
+	name = "Vucihna"
+	dynasty = 3000060
+	culture = bosnian
+	religion = catholic
+	father = 800570
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+800827 = {
+	name="Hrvoje"
+	dynasty=18006
+	religion="bogomilist"
+	culture="bosnian"
+	father=260480
+	1340.1.1={
+		birth=yes
+	}
+	1378.4.10 = {
+		effect = {
+			c_260480 = { #Father dies
+				death = yes
+			}
+		}
+	}
+	1416.1.1 = {
+		death = yes
+	}
+}
+800828 = {
+	name="Vuk"
+	dynasty=18006
+	religion="bogomilist"
+	culture="bosnian"
+	father=260480
+	1342.1.1={
+		birth=yes
+	}
+	1389.1.1 = {
+		death = yes
+	}
+}
+800574 = {
+	name="Dragiša"
+	dynasty=18006
+	religion="bogomilist"
+	culture="bosnian"
+	father=260480
+	1345.1.1={
+		birth=yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+800830 = {
+	name="Vojislav"
+	dynasty=18006
+	religion="bogomilist"
+	culture="bosnian"
+	father=260480
+	1349.1.1={
+		birth=yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+829100 = {
+	name="Elizabeta"
+	dynasty=34
+	female = yes
+
+	religion="catholic"
+	culture="bosnian"
+
+	father=468800	
+	mother=471538
+	
+	1339.1.1={
+		birth=yes
+	}
+	1353.6.20 = {
+		add_spouse = 469510
+	}
+	1387.1.2={
+		death=yes
+	}
+}

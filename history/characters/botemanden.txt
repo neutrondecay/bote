@@ -1,0 +1,205 @@
+## Keita ##
+829600 = { #Musa II
+	name="Musa" 
+	dynasty=1030002
+
+	religion="sunni"
+	culture="manden"
+
+	father=161039
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1387.1.1 = {
+		death = yes
+	}
+}
+
+829601 = { #Maghan II
+	name="Maghan" 
+	dynasty=1030002
+
+	religion="sunni"
+	culture="manden"
+
+	father=161039
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1389.1.1 = {
+		death = yes
+	}
+}
+
+829602 = { #Mahmud I / Maghan III
+	name="Mahmud" 
+	dynasty=1030002
+
+	religion="sunni"
+	culture="manden"
+
+	father=161039
+	
+	1354.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		  effect = {
+        c_829602 = {
+            capital = b_tirakka
+        }
+    }
+}
+	1400.1.2 = {
+		death = yes
+	}
+}
+
+829603 = { #Musa III
+	name="Musa" 
+	dynasty=1030002
+
+	religion="sunni"
+	culture="manden"
+
+	father=829602 # Mahmud I
+	
+	1378.1.1 = {
+		birth = yes
+	}
+	1440.1.2 = {
+		death = yes
+	}
+}
+
+829604 = { #Ouali II 
+	name="Ouali" 
+	dynasty=1030002
+
+	religion="sunni"
+	culture="manden"
+
+	father=829602 # Mahmud I
+	
+	1381.1.1 = {
+		birth = yes
+	}
+	1460.1.2 = {
+		death = yes
+	}
+}
+
+### Kone ### 
+
+829605 = { #Kaya
+	name="Kaya" 
+	dynasty=1060018
+
+	religion="west_african_pagan"
+	culture="manden"
+
+	father=251109 
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1401.1.2 = {
+		death = yes
+	}
+}
+
+### Gurmanche ###
+
+829607 = { # Labi Diebo
+	name="Labi Diebo" 
+	dynasty=1030013
+
+	religion="west_african_pagan"
+	culture="manden"
+
+	father = 161144
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+
+829608 = { # Tenin
+	name="Tenin" 
+	dynasty=1030013
+
+	religion="west_african_pagan"
+	culture="manden"
+
+	father = 829607
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1425.1.1 = {
+		death = yes
+	}
+}
+
+
+829609 = { # Tokurma
+	name="Tokurma" 
+	dynasty=1030013
+
+	religion="west_african_pagan"
+	culture="manden"
+
+	father = 829608
+	
+	1399.1.1 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		death = yes
+	}
+}
+
+
+######
+
+
+829615 = { # King of Kano
+	name="Yaji" 
+	dynasty=1030017
+
+	religion="sunni"
+	culture="manden"
+
+	father = 161140
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		death = yes
+	}
+}
+
+
+
+829616 = { # King of Kano
+	name="Bugaya" 
+	dynasty=1030017
+
+	religion="sunni"
+	culture="manden"
+
+	father = 161140
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}

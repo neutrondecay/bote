@@ -1,0 +1,71 @@
+#Bahri Sultans of Egypt
+801047 = {
+	name="al-Mansur Muhammad"
+	dynasty=762
+	religion="sunni"
+	culture="egyptian_arabic"
+	
+	father=485007
+	1347.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		death = yes
+	}
+}
+801048 = {
+	name="al-Amjad Husayn"
+	dynasty=762
+	religion="sunni"
+	culture="egyptian_arabic"
+	
+	father=485000
+	1340.1.1 = {
+		birth = yes
+	}
+	1363.1.1 = {
+		death = yes
+	}
+}
+801049 = {
+	name="al-Ashraf Sha'ban"
+	dynasty=762
+	religion="sunni"
+	culture="egyptian_arabic"
+	
+	father=801048
+	1353.1.1 = {
+		birth = yes
+	}
+	1377.3.15 = {
+		death = yes
+	}
+}
+801050 = {
+	name="al-Mansur Ali"
+	dynasty=762
+	religion="sunni"
+	culture="egyptian_arabic"
+	
+	father=801049
+	1368.1.1 = {
+		birth = yes
+	}
+	1381.4.19 = {
+		death = yes
+	}
+}
+801051 = {
+	name="as-Salih Hajji"
+	dynasty=762
+	religion="sunni"
+	culture="egyptian_arabic"
+	
+	father=801050
+	1372.1.1 = {
+		birth = yes
+	}
+	1412.2.4 = {
+		death = yes
+	}
+}

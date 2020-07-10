@@ -1,0 +1,19 @@
+1302.8.31={
+	holder=461710 #Charles II
+	pentarch=b_roma
+	effect={
+		insert_title_history=k_sicily
+	}
+}
+1309.5.5={
+	holder=461700 #Robert I
+}
+1343.1.20 = {
+	holder = 461703 #Joanna I
+}
+1382.5.12 = {
+	holder = 800179 #Charles III
+}
+1386.2.24 = {
+	holder = 800184 #Ladislaus I
+}

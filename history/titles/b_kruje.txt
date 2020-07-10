@@ -1,0 +1,4 @@
+1392.12.1 = {
+	holder = 800544
+	liege = k_ottoman
+}

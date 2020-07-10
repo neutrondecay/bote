@@ -1,0 +1,69 @@
+### Songhay ###
+
+829610 = { # "Mar-Fay-Kuli-Jimu"
+	name="Mar Fay Kuli Jimu" 
+	dynasty=1030007
+
+	religion="sunni"
+	culture="soninke"
+
+	father = 161075
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1372.1.1 = {
+		death = yes
+	}
+}
+
+829611 = { # "Mar-Arkana"
+	name="Mar Arkana" 
+	dynasty=1030007
+
+	religion="sunni"
+	culture="soninke"
+
+	father = 161075
+	
+	1342.1.1 = {
+		birth = yes
+	}
+	1375.1.1 = {
+		death = yes
+	}
+}
+
+829612 = { # "Mar Arandan"
+	name="Mar Arandan" 
+	dynasty=1030007
+
+	religion="sunni"
+	culture="soninke"
+
+	father = 161075
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+829613 = { # "Sulayman Dama Dandi"
+	name="Sulayman Dama Dandi" 
+	dynasty=1030007
+
+	religion="sunni"
+	culture="soninke"
+
+	father = 829613
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+

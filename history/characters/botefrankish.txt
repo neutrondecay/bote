@@ -1,0 +1,4750 @@
+800175 = { #Isabelle de Valois
+	name = "Isabelle"
+	dynasty = 101
+	culture = frankish
+	religion = catholic
+	female = yes
+
+	father=802014 #Charles VI of France
+	mother=802624 #Isabeau of Bavaria
+	
+	1389.11.9 = {
+		birth = yes
+	}
+}
+800177 = { #Margaret of Sanseverino, wife of Louis ^
+	name = "Marguerite"
+	dynasty = 101843
+	culture = frankish
+	religion = catholic
+	female = yes
+	
+	1324.3.20 = {
+		birth = yes
+	}
+	1343.1.1= {
+		add_spouse = 461719
+	}
+	1370.9.3 = {
+		death = yes
+	}
+}
+800178 = { #Louis, son of Louis and Margaret
+	name = "Louis"
+	dynasty = 81
+	culture = frankish
+	religion = catholic
+	
+	father = 461719
+	mother = 800177
+	trait = sickly
+	
+	1344.4.19 = {
+		birth = yes
+	}
+	1345.10.1 = {
+		death = yes
+	}
+}
+800179 = {#Charles III of Naples, son of Louis and Margaret
+	name = "Charles"
+	dynasty = 81
+	culture = frankish
+	religion = catholic
+	
+	father = 461719
+	mother = 800177
+	
+	1345.10.2 = {
+		birth = yes
+	}
+	1370.1.24 = {
+		add_spouse = 800180
+	}
+	1386.2.24 = {
+		death = yes
+	}
+}
+800180 = { #Wife of Charles III
+	name = "Marguerite"
+	dynasty = 81
+	culture = frankish
+	religion = catholic
+	female = yes
+	father = 461723
+	
+	1347.7.28 = {
+		birth = yes
+	}
+	1412.08.6 = {
+		death = yes
+	}
+}
+800181 = { #Agnes, daughter of Louis and Margaret
+	name = "Agnès"
+	dynasty = 81
+	culture = frankish
+	religion = catholic
+	female = yes
+	father = 461719
+	mother = 800177
+	
+	trait = sickly
+	
+	1347.8.9 = {
+		birth = yes
+	}
+	1348.1.13 = {
+		death = yes
+	}
+}
+800182 = { #Mary of Durazzo, daughter of Charles III of Naples
+	name = "Marie"
+	dynasty = 81
+	culture = frankish
+	religion = catholic
+	female = yes
+	father = 800179
+	mother = 800180
+	trait = sickly
+	trait = legit_bastard
+	1369.12.14 = {
+		birth = yes
+	}
+	1371.7.7 = {
+		death = yes
+	}
+}
+800183 = { #Joanna II of Naples, daughter of Charles III
+	name = "Jeanne"
+	dynasty = 81
+	culture = frankish
+	religion = catholic
+	female = yes
+	father = 800179
+	mother = 800180
+	
+	1373.6.23 = {
+		birth = yes
+	}
+	1436.2.2 = {
+		death = yes
+	}
+}
+800184 = { #Ladislaus I of Naples, son of Charles III
+	name = "Ladislas"
+	dynasty = 81
+	culture = frankish
+	religion = catholic
+	father = 800179
+	mother = 800180
+	diplomacy = 10
+	martial = 10
+	intrigue = 10
+	
+	trait = greedy
+	trait = ambitious
+	trait = intricate_webweaver
+	trait = wroth
+	trait = cynical
+	
+	1377.2.11 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		add_spouse = 800186
+	}
+	1392.1.1 = {
+		remove_spouse = 800186
+	}
+	1414.8.6 = {
+		death = yes
+	}
+}
+800302 = { #Reynold of Durazzo, "Prince of Capua", son of Ladislaus I
+	name = "Reynold"
+	dynasty = 81 
+	culture = frankish
+	religion = catholic
+	father = 800184
+
+	trait = legit_bastard
+	
+	1396.2.19 = {
+		birth = yes
+	}
+}
+800246 = { #Mary of Durazzo, daughter of Ladislaus II
+	name = "Marie"
+	dynasty = 81 
+	culture = frankish
+	religion = catholic
+	father = 800184
+	female = yes
+	trait = bastard
+	trait = sickly 
+	1398.2.19 = {
+		birth = yes
+	}
+}
+800206 = { #Peter of Enghien, Count of Lecce 1380-84
+	name = "Pierre"
+	dynasty = 12235
+	religion = catholic
+	culture = frankish
+	
+	father = 73299
+	
+	1345.8.1 = {
+		birth = yes
+	}
+	1384.1.1 = {
+		death = yes
+	}
+}
+800207 = { #Marie of Enghien, Countess of Lecce 1384-93
+	name = "Marie"
+	dynasty = 12235
+	religion = catholic
+	culture = frankish
+	female = yes
+	father = 73299
+	
+	1367.2.11 = {
+		birth = yes
+	}
+}
+800213 = { #Margaret, Countess of Brienne and Conversano (Barion), Dame of Enghien
+	name = "Marguerite"
+	dynasty = 12235
+	religion="catholic"
+	culture="frankish"
+	female = yes
+	father = 73301
+	mother = 800212
+	
+	1365.7.14 = {
+		birth = yes
+	}
+	1387.1.1 = {
+		add_spouse = 800218
+	}
+}
+800214 = { #Yolanda of Barion
+	name = "Yolande"
+	dynasty = 12235
+	religion="catholic"
+	culture="frankish"
+	female = yes
+	father = 73301
+	mother = 800212
+	
+	1368.2.21 = {
+		birth = yes
+	}
+}
+800215 = { #Isabella of Barion
+	name = "Isabelle"
+	dynasty = 12235
+	religion = catholic
+	culture = frankish
+	female = yes
+	father = 73301
+	mother = 800212
+	
+	1373.6.29 = {
+		birth = yes
+	}
+}
+800216 = { #Louis' only son, Antoine, died aged 16
+	name = "Antoine"
+	dynasty = 12235
+	religion = catholic
+	culture = frankish
+	father = 73301
+	mother = 800212
+	
+	1367.11.30 = {
+		birth = yes
+	}
+	1384.3.21 = {
+		death = yes
+	}
+}
+800217 = { #Helena of Barion
+	name = "Hélène"
+	dynasty = 12235
+	religion = catholic
+	culture = frankish
+	female = yes
+	father = 73301
+	mother = 800212
+	
+	1376.5.7 = {
+		birth = yes
+	}
+}
+
+800218 = { #John of Luxembourg
+	name = "Jean"
+#	dynasty = 3000017
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	father = 860010 # Guy I
+	mother = 860001 # Mahaut de Chatillon	
+	1370.3.3 = {
+		birth = yes
+	}
+	1397.6.28 = {
+		death = yes
+	}
+}
+800219 = { #Peter I of Luxembourg, son of Margaret and Jean
+	name = "Pierre"
+#	dynasty = 3000017
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	mother = 800213
+	father = 800218
+	
+	1390.11.3 = {
+		birth = yes
+	}
+}
+800220 = { #John II of Luxembourg, son of Margaret and Jean
+	name = "Jean"
+#	dynasty = 3000017
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	mother = 800213
+	father = 800218
+	
+	1392.1.31 = {
+		birth = yes
+	}
+}
+800221 = { #Louis of Luxembourg, son of Margaret and Jean
+	name = "Louis"
+#	dynasty = 3000017
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	mother = 800213
+	father = 800218
+	
+	1394.4.15 = {
+		birth = yes
+	}
+}
+800222 = { #Catherine of Luxembourg, daughter of Margaret and Jean
+	name = "Catherine"
+#	dynasty = 3000017
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	female = yes
+	mother = 800213
+	father = 800218
+	
+	1393.2.3 = {
+		birth = yes
+	}
+}
+800223 = { #Jeanne of Luxembourg, daughter of Margaret and Jean
+	name = "Jeanne"
+#	dynasty = 3000017
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	female = yes
+	mother = 800213
+	father = 800218
+	
+	1396.7.25 = {
+		birth = yes
+	}
+}
+800224 = { #Raymond III of Baux (Count of Foggia)
+	name="Raymond" 
+	dynasty=5117
+	religion="catholic"
+	culture="frankish"
+	father=32530
+	mother=32780
+	1332.4.5 = {
+		birth = yes
+	}
+	
+	1372.7.1 = {
+		death = yes
+	}
+}
+800225 = { #Alix of Baux (Countess of Foggia in 1400)
+	name="Alix" 
+	dynasty=5117
+	religion="catholic"
+	culture="frankish"
+	female = yes
+	father=32530
+	mother=32780
+	1367.3.20 = {
+		birth = yes
+	}
+}
+800226 = { #John of Baux (Count of Foggia)
+	name="Jean" 
+	dynasty=5117
+	religion="catholic"
+	culture="frankish"
+	father=32530
+	mother=32780
+	1340.8.19 = {
+		birth = yes
+	}
+	1375.12.1 = {
+		death = yes
+	}
+}
+#French Avignon Popes
+800227 = { #Pierre Roger de Beaufort, Pope Clement VI
+	name = "Clemens"
+	dynasty = 5011
+	culture = frankish
+	religion = catholic
+	father = 800231
+	1291.4.12 = {
+		birth = yes
+	}
+	1352.12.6 = {
+		death = yes
+	}
+}
+800228 = { #Étienne Aubert, Pope Innocentius VI
+	name = "Innocentius"
+	dynasty = 3000018
+	culture = frankish
+	religion = catholic
+	
+	1282.7.18 = {
+		birth = yes
+	}
+	1362.9.12 = {
+		death = yes
+	}
+}
+800229 = { #Guilaume de Grimoard, Pope Urbanus V
+	name = "Urbanus"
+	dynasty = 3000019
+	culture = frankish
+	religion = catholic
+	
+	1310.3.8 = {
+		birth = yes
+	}
+	1370.12.19 = {
+		death = yes
+	}
+}
+800230 = { #Pierre Roger de Beaufort, Pope Gregorius XI
+	name = "Gregorius"
+	dynasty = 5011
+	culture = frankish
+	religion = catholic
+	father = 800232
+	1329.1.28 = {
+		birth = yes
+	}
+	1378.3.27 = {
+		death = yes
+	}
+}
+#Beaufort Pope Family
+800231 = { #Guillaume Rogier de Beaufort
+	name = "Guillaume"
+	dynasty = 5011
+	culture = frankish
+	religion = catholic
+	
+	1265.2.6 = {
+		birth = yes
+	}
+	1338.6.23 = {
+		death = yes
+	}
+}
+800232 = { #Guillaume Roger de Beaufort
+	name = "Guillaume"
+	dynasty = 5011
+	culture = frankish
+	religion = catholic
+	father = 800231
+	
+	1289.7.16 = {
+		birth = yes
+	}
+	1355.12.3 = {
+		death = yes
+	}
+}
+800341 = { #Bertrand du Pouget, ruler of Bologna
+	name = "Bertrand"
+	culture = frankish
+	religion = catholic
+	
+	1280.1.1 = {
+		birth = yes
+	}
+	1352.2.3 = {
+		death = yes
+	}
+}
+800366 = {
+	name="Philippe"
+	dynasty=240
+	religion="catholic"
+	culture="frankish"
+	father=462690
+	1340.1.18 = {
+		birth=yes
+	}
+	1368.1.20 = {
+		death=yes
+	}
+}
+800367 = {
+	name="Amédée"
+	dynasty=240
+	religion="catholic"
+	culture="frankish"
+	father=462690
+	1363.8.20 = {
+		birth=yes
+	}
+	1402.5.7 = {
+		death=yes
+	}
+}
+800368 = {
+	name="Catherine" 
+	dynasty=100239
+	religion="catholic"
+	culture="frankish"
+	female = yes
+	father=32754
+	mother=32756
+	1350.12.3 = {
+		birth=yes
+	}
+	1380.1.1 = {
+		add_spouse = 800367
+	}
+	1407.8.31 = {
+		death=yes
+	}
+}
+800369 = {
+	name="Louis"
+	dynasty=240
+	religion="catholic"
+	culture="frankish"
+	father=462690
+	1364.3.20 = {
+		birth=yes
+	}
+	1418.12.11 = {
+		death=yes
+	}
+}
+800497 = { #Cécile de Comminges
+	name = "Cécile"
+	dynasty = 3000048
+	culture = frankish
+	religion = catholic
+	female = yes
+	1321.1.1 = {
+		birth = yes
+	}
+	1336.1.1 = {
+		add_spouse = 460520
+	}
+	1384.6.16 = {
+		death = yes
+	}
+}
+800537 = { #Louis, Duc de Durrazzo
+	name = "Louis"
+	dynasty = 353
+	culture = frankish
+	religion = catholic
+	father = 461723
+	1341.2.13 = {
+		birth = yes
+	}
+	1376.1.1 = {
+		death = yes
+	}
+}
+800538 = { #Joanna, Duchess de Durrazzo
+	name = "Jeanne"
+	dynasty = 353
+	culture = frankish
+	religion = catholic
+	female = yes
+	father = 461723
+	1344.5.26 = {
+		birth = yes
+	}
+	1387.7.20 = {
+		death = yes
+	}
+}
+800539 = { #Agnes
+	name = "Agnès"
+	dynasty = 353
+	culture = frankish
+	religion = catholic
+	female = yes
+	father = 461723
+	1345.4.25 = {
+		birth = yes
+	}
+	1383.2.10 = {
+		death = yes
+	}
+}
+800540 = { #Clementia
+	name = "Clémence"
+	dynasty = 353
+	culture = frankish
+	religion = catholic
+	female = yes
+	father = 461723
+	1346.8.1 = {
+		birth = yes
+	}
+	1363.1.15 = {
+		death = yes
+	}
+}
+800779 = {
+	name = "Anne"
+	dynasty = 3000079
+	culture = frankish
+	religion = catholic
+	female = yes
+	
+	1367.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+###Grandmasters of the Knights Hospitaliers
+801001 = {
+	name = "Dieudonné"
+	dynasty = 3000100
+	culture = frankish
+	religion = catholic
+	
+	1288.1.1 = {
+		birth = yes
+	}
+	1353.1.1 = {
+		death = yes
+	}
+}
+801002 = {
+	name = "Pierre"
+	dynasty = 3000101
+	culture = frankish
+	religion = catholic
+	
+	1302.1.1 = {
+		birth = yes
+	}
+	1355.8.24 = {
+		death = yes
+	}
+}
+801005 = { #Grandmaster of the Knights Hospitaliers
+	name = "Robert"
+	dynasty = 3000102
+	culture = frankish
+	religion = catholic
+	
+	1305.1.1 = {
+		birth = yes
+	}
+	1377.7.29 = {
+		death = yes
+	}
+}
+801007 = { #Grandmaster of the Knights Hospitaliers
+	name = "Philibert"
+	dynasty = 3000106
+	culture = frankish
+	religion = catholic
+	
+	1351.1.1 = {
+		birth = yes
+	}
+	1421.5.29 = {
+		death = yes
+	}
+}
+801033 = {
+	name = "Leo"
+	dynasty = 93
+	culture = frankish
+	religion = catholic
+	father = 461921
+	mother = 461922
+	
+	1342.1.1 = {
+		birth = yes
+	}
+	1393.11.29 = {
+		death = yes
+	}
+}
+### House de Valois ##
+
+802000 = {
+	name="Jeanne" # Joan of France (1351-1371)
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455500 # Philippe VI of France
+	mother=455814 # Blanche of Navarra 
+
+	1351.5.1 = {
+		birth=yes
+	}
+	1371.9.16 = {
+		death=yes
+	}
+}
+
+802001 = {
+	name="Charles" # Charles V of France
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455502 # Jean II of France
+	mother=462600 # Bonne of Luxembourg
+
+	add_trait="genius"
+	add_trait="weak"
+
+	1338.1.21 = {
+		birth=yes
+	}
+	1350.4.8 = { add_spouse=802010 } # Joanna of Bourbon
+	1380.9.16 = {
+		death=yes
+	}
+}
+
+802002 = {
+	name="Louis" # Louis I, Duke of Anjou.  Ruler of d_anjou, d_provence, c_anjou, c_maine, c_forcalquier, c_provence, c_poitiers, c_tours, c_saumur, c_perche
+	dynasty=3200001
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455502 # Jean II of France
+	mother=462600 # Bonne of Luxembourg
+
+	1339.7.23 = {
+		birth=yes
+	}
+	1360.7.9 = {add_spouse=802028} #Marie of Blois
+	1384.9.20 = {
+		death=yes
+	}
+}
+
+802003 = {
+	name="Jean" # John I, Duke of Berry
+	dynasty=3200000 #Valois-Berry
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455502 # Jean II of France
+	mother=462600 # Bonne of Luxembourg
+
+	1340.11.30 = {
+		birth=yes
+	}
+	1360.1.1 = {add_spouse=802032} #Joanna of Armagnac 
+	1416.6.15 = {
+		death=yes
+	}
+}
+
+802004 = {
+	name="Philippe" # Philip II, Duke of Burgundy
+	dynasty=3000016
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455502 # Jean II of France
+	mother=462600 # Bonne of Luxembourg
+
+	1342.1.17 = {
+		birth=yes
+	}
+	1369.1.1 = {add_spouse=802040} #Marguerite III of Flanders
+	1404.4.27 = {
+		death=yes
+	}
+}
+
+802005 = {
+	name="Jeanne" # Joan of Valois, Queen of Navarre
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455502 # Jean II of France
+	mother=462600 # Bonne of Luxembourg
+
+	1343.6.24 = {
+		birth=yes
+	}
+	1352.1.1 = {add_spouse = 455813 } # Charles II of Navarre
+	1373.11.3 = {
+		death=yes
+	}
+}
+
+802006 = {
+	name="Marie" # Marie of France, Duchess of Bar
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455502 # Jean II of France
+	mother=462600 # Bonne of Luxembourg
+
+	1344.9.12 = {
+		birth=yes
+	}
+	1404.10.1 = {
+		death=yes
+	}
+}
+
+802007 = {
+	name="Agnès" # died young
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455502 # Jean II of France
+	mother=462600 # Bonne of Luxembourg
+
+	1345.9.1 = {
+		birth=yes
+	}
+	1349.1.1 = {
+		death=yes
+	}
+}
+
+802008 = {
+	name="Marguerite" # died young
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455502 # Jean II of France
+	mother=462600 # Bonne of Luxembourg
+
+	1347.1.1 = {
+		birth=yes
+	}
+	1352.1.1 = {
+		death=yes
+	}
+}
+
+802009 = {
+	name="Isabelle" # Isabelle, Countess of Vertus 
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455502 # Jean II of France
+	mother=462600 # Bonne of Luxembourg
+
+	1347.1.1 = {
+		birth=yes
+	}
+	1373.9.11 = {
+		death=yes
+	}
+}
+
+802011 = {
+	name="Jeanne" # died young
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802001 # Charles V of France
+	mother=802010 # Joanna of Bourbon
+
+	1357.9.1 = {
+		birth=yes
+	}
+	1360.10.21 = {
+		death=yes
+	}
+}
+
+802012 = {
+	name="Bonne" # died young
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802001 # Charles V of France
+	mother=802010 # Joanna of Bourbon
+
+	1358.7.1 = {
+		birth=yes
+	}
+	1360.12.7 = {
+		death=yes
+	}
+}
+
+802013 = {
+	name="Jean" # died young
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802001 # Charles V of France
+	mother=802010 # Joanna of Bourbon
+
+	1366.6.6 = {
+		birth=yes
+	}
+	1366.12.21 = {
+		death=yes
+	}
+}
+
+802014 = {
+	name="Charles" # Charles VI of France. King in 1400. Owns k_france, d_champagne, d_normandy, c_arques, c_ile_de_france, c_brie, c_senlis, c_sens, c_troyes, c_vexin
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802001 # Charles V of France
+	mother=802010 # Joanna of Bourbon
+
+	add_trait=lunatic
+
+	1368.12.3 = {
+		birth=yes
+	}
+	1385.7.17 = {add_spouse = 802624}
+	1390.1.1 = {give_nickname = nick_the_mad}
+	1422.10.22 = {
+		death=yes
+	}
+}
+
+802015 = {
+	name="Marie" # died young
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802001 # Charles V of France
+	mother=802010 # Joanna of Bourbon
+
+	1370.2.27 = {
+		birth=yes
+	}
+	1377.6.1 = {
+		death=yes
+	}
+}
+
+802016 = {
+	name="Louis" # Louis I, Duke of Orleans
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802001 # Charles V of France
+	mother=802010 # Joanna of Bourbon
+
+	1372.3.13 = {
+		birth=yes
+	}
+	1389.1.1 = {add_spouse = 800269} #Valentina Visconti
+	1407.11.23 = {
+		death=yes
+	}
+}
+
+802017 = {
+	name="Isabelle" # died young
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802001 # Charles V of France
+	mother=802010 # Joanna of Bourbon
+
+	1373.7.24 = {
+		birth=yes
+	}
+	1377.2.13 = {
+		death=yes
+	}
+}
+
+802018 = {
+	name="Jean" # died young
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802001 # Charles V of France
+	mother=802010 # Joanna of Bourbon
+
+	1374.6.1 = {
+		birth=yes
+	}
+	1376.1.1 = {
+		death=yes
+	}
+}
+
+802019 = {
+	name="Catherine" # Catherine of Valois (1378-1388)
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802001 # Charles V of France
+	mother=802010 # Joanna of Bourbon
+
+	1378.2.4 = {
+		birth=yes
+	}
+	1388.11.1 = {
+		death=yes
+	}
+}
+
+802020 = {
+	name="Charles" # died young
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802014 # Charles VI of France
+	mother=802624 
+
+	1386.9.25 = {
+		birth=yes
+	}
+	1386.12.28 = {
+		death=yes
+	}
+}
+
+802021 = {
+	name="Jeanne" # died young
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802014 # Charles VI of France
+	mother=802624 
+
+	1388.6.14 = {
+		birth=yes
+	}
+	1390.1.1 = {
+		death=yes
+	}
+}
+
+802022 = {
+	name="Jeanne" # Joan of France, Duchess of Brittany
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802014 # Charles VI of France
+	mother=802624 
+
+	1391.1.24 = {
+		birth=yes
+	}
+	1433.9.27 = {
+		death=yes
+	}
+}
+
+802023 = {
+	name="Charles" # died young
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802014 # Charles VI of France
+	mother=802624 
+
+	1392.2.6 = {
+		birth=yes
+	}
+	1401.1.23 = {
+		death=yes
+	}
+}
+
+802024 = {
+	name="Marie" # abbess
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802014 # Charles VI of France
+	mother=802624 
+
+	1393.8.22 = {
+		birth=yes
+	}
+	1397.9.8 = {add_trait=nun}
+	1438.8.19 = {
+		death=yes
+	}
+}
+
+802025 = {
+	name="Michelle" # Duchess of Burgundy
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802014 # Charles VI of France
+	mother=802624 
+
+	1395.1.11 = {
+		birth=yes
+	}
+	1422.7.8 = {
+		death=yes
+	}
+}
+
+802026 = {
+	name="Louis" # Dauphin
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802014 # Charles VI of France
+	mother=802624 
+
+	1397.1.22 = {
+		birth=yes
+	}
+	1415.12.18 = {
+		death=yes
+	}
+}
+
+802027 = {
+	name="Jean" # Dauphin
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802014 # Charles VI of France
+	mother=802624
+
+	1398.8.31 = {
+		birth=yes
+	}
+	1417.4.5 = {
+		death=yes
+	}
+}
+
+### House of Valois-Anjou ###
+802029 = {
+	name="Marie" # 
+	dynasty=3200001
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802002 #Louis I, Duke of Anjou
+	mother=802028 #Marie of Blois
+
+	1370.1.1 = {
+		birth=yes
+	}
+	1383.1.1 = {
+		death=yes
+	}
+}
+
+802030 = {
+	name="Louis" # Louis II of Anjou. Ruler in 1400. Ruler of d_anjou, d_provence, c_anjou, c_maine, c_forcalquier, c_provence, c_poitiers, c_tourraine, c_saumur, c_perche
+	dynasty=3200001
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802002 #Louis I, Duke of Anjou
+	mother=802028 #Marie of Blois
+
+	1377.10.5 = {
+		birth=yes
+	}
+	1417.4.29 = {
+		death=yes
+	}
+}
+
+802031 = {
+	name="Charles" # Prince of Taranto, Count of Roucy, Étampes, and Gien. Ruler of c_taranto (until 1399). Ruler of b_etampes, c_reims, c_sancerre 
+	dynasty=3200001
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802002 #Louis I, Duke of Anjou
+	mother=802028 #Marie of Blois
+
+	1380.1.1 = {
+		birth=yes
+	}
+	1404.1.1 = {
+		death=yes
+	}
+}
+
+### House of Valois-Berry ###
+802033 = {
+	name="Bonne" # heir of John of Berry
+	dynasty=3200000
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802003 # John, Duke of Berry
+	mother=802032 # Joanna of Armagnac
+
+	1362.1.1 = {
+		birth=yes
+	}
+	1435.12.30 = {
+		death=yes
+	}
+}
+802034 = {
+	name="Charles" # Count of Montpensier
+	dynasty=3200000
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802003 # John, Duke of Berry
+	mother=802032 # Joanna of Armagnac
+
+	1371.1.1 = {
+		birth=yes
+	}
+	1383.1.1 = {
+		death=yes
+	}
+}
+802035 = {
+	name="Jeanne" # 
+	dynasty=3200000
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802003 # John, Duke of Berry
+	mother=802032 # Joanna of Armagnac
+
+	1373.1.1 = {
+		birth=yes
+	}
+	1375.1.1 = {
+		death=yes
+	}
+}
+802036 = {
+	name="Béatrix" 
+	dynasty=3200000
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802003 # John, Duke of Berry
+	mother=802032 # Joanna of Armagnac
+
+	1374.1.1 = {
+		birth=yes
+	}
+	1374.4.1 = {
+		death=yes
+	}
+}
+802037 = {
+	name="Marie" #Duchess of Auvergne
+	dynasty=3200000
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802003 # John, Duke of Berry
+	mother=802032 # Joanna of Armagnac
+
+	1375.1.1 = {
+		birth=yes
+	}
+	1434.6.1 = {
+		death=yes
+	}
+}
+802038 = {
+	name="Jean" #Count of Montpensier
+	dynasty=3200000
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802003 # John, Duke of Berry
+	mother=802032 # Joanna of Armagnac
+
+	1375.1.1 = {
+		birth=yes
+	}
+	1401.1.1 = {
+		death=yes
+	}
+}
+802039 = {
+	name="Louis" # Died young
+	dynasty=3200000
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802003 # John, Duke of Berry
+	mother=802032 # Joanna of Armagnac
+
+	1364.1.1 = {
+		birth=yes
+	}
+	1383.1.1 = {
+		death=yes
+	}
+}
+### House of Valois-Bourgogne ###
+802041 = {
+	name="Jean" # John the Fearless
+	dynasty=3000016
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802004 # Philip the Bold
+	mother=802040 # Margaret III of Flanders
+
+	1371.5.28 = {
+		birth=yes
+	}
+	1385.1.1 = {add_spouse = 802643}
+	1419.9.10 = {
+		death=yes
+	}
+}
+802042 = {
+	name="Charles" # died young
+	dynasty=3000016
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802004 # Philip the Bold
+	mother=802040 # Margaret III of Flanders
+
+	1372.1.1 = {
+		birth=yes
+	}
+	1373.1.1 = {
+		death=yes
+	}
+}
+802043 = {
+	name="Marguerite" # Duchess of Bavaria
+	dynasty=3000016
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802004 # Philip the Bold
+	mother=802040 # Margaret III of Flanders
+
+	1374.10.1 = {
+		birth=yes
+	}
+	1385.1.1 = {add_spouse = 802644}
+	1441.3.8 = {
+		death=yes
+	}
+}
+802043 = {
+	name="Marguerite" # Duchess of Bavaria
+	dynasty=3000016
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802004 # Philip the Bold
+	mother=802040 # Margaret III of Flanders
+
+	1374.10.1 = {
+		birth=yes
+	}
+	1441.3.8 = {
+		death=yes
+	}
+}
+802044 = {
+	name="Louis" # died young
+	dynasty=3000016
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802004 # Philip the Bold
+	mother=802040 # Margaret III of Flanders
+
+	1377.1.1 = {
+		birth=yes
+	}
+	1378.1.1 = {
+		death=yes
+	}
+}
+802045 = {
+	name="Catherine" # Duchess of Further Austria
+	dynasty=3000016
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802004 # Philip the Bold
+	mother=802040 # Margaret III of Flanders
+
+	1378.4.1 = {
+		birth=yes
+	}
+	1425.1.24 = {
+		death=yes
+	}
+}
+802046 = {
+	name="Bonne" #
+	dynasty=3000016
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802004 # Philip the Bold
+	mother=802040 # Margaret III of Flanders
+
+	1379.1.1 = {
+		birth=yes
+	}
+	1399.1.1 = {
+		death=yes
+	}
+}
+802047 = {
+	name="Marie" #
+	dynasty=3000016
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802004 # Philip the Bold
+	mother=802040 # Margaret III of Flanders
+
+	1380.9.1 = {
+		birth=yes
+	}
+	1422.10.2 = {
+		death=yes
+	}
+}
+802048 = {
+	name="Antoine" #
+	dynasty=3000016
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802004 # Philip the Bold
+	mother=802040 # Margaret III of Flanders
+
+	1384.4.1 = {
+		birth=yes
+	}
+	1415.10.25 = {
+		death=yes
+	}
+}
+802049 = {
+	name="Philippe" #
+	dynasty=3000016
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802004 # Philip the Bold
+	mother=802040 # Margaret III of Flanders
+
+	1389.1.1 = {
+		birth=yes
+	}
+	1415.10.25 = {
+		death=yes
+	}
+}
+802050 = {
+	name="Catherine" # 
+	dynasty=3000016
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802041 #John the Fearless
+	mother=802643 #Margaret of Bavaria
+
+	1391.1.1 = {
+		birth=yes
+	}
+	1414.1.1 = {
+		death=yes
+	}
+}
+802051 = {
+	name="Marie" # Duchess of Cleves
+	dynasty=3000016
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802041 #John the Fearless
+	mother=802643 #Margaret of Bavaria
+
+	1393.1.1 = {
+		birth=yes
+	}
+	1463.10.30 = {
+		death=yes
+	}
+}
+802052 = {
+	name="Marguerite" # Dauphine
+	dynasty=3000016
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802041 #John the Fearless
+	mother=802643 #Margaret of Bavaria
+
+	1393.12.1 = {
+		birth=yes
+	}
+	1442.2.1 = {
+		death=yes
+	}
+}
+802053 = {
+	name="Philippe" # heir
+	dynasty=3000016
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802041 #John the Fearless
+	mother=802643 #Margaret of Bavaria
+
+	add_trait=lustful
+
+	1396.7.31 = {
+		birth=yes
+	}
+	1467.6.15 = {
+		death=yes
+	}
+}
+802054 = {
+	name="Jeanne" # died young
+	dynasty=3000016
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802041 #John the Fearless
+	mother=802643 #Margaret of Bavaria
+
+	1399.1.1 = {
+		birth=yes
+	}
+	1402.1.1 = {
+		death=yes
+	}
+}
+### House of Valois-Orleans ###
+802055 = {
+	name="Louis" # died young
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802016 # Louis I, Duke of Orleans
+	mother=800269 #Valentina Visconti
+
+	1391.5.26 = {
+		birth=yes
+	}
+	1395.9.1 = {
+		death=yes
+	}
+}
+802056 = {
+	name="Jean" # died young
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802016 # Louis I, Duke of Orleans
+	mother=800269 #Valentina Visconti
+
+	1393.9.1 = {
+		birth=yes
+	}
+	1393.10.1 = {
+		death=yes
+	}
+}
+802057 = {
+	name="Charles" # future Duke of Orleans
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802016 # Louis I, Duke of Orleans
+	mother=800269 #Valentina Visconti
+
+	1394.11.24 = {
+		birth=yes
+	}
+	1465.1.4 = {
+		death=yes
+	}
+}
+802058 = {
+	name="Philippe" # future Count of Vertus
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802016 # Louis I, Duke of Orleans
+	mother=800269 #Valentina Visconti
+
+	1396.7.21 = {
+		birth=yes
+	}
+	1420.9.1 = {
+		death=yes
+	}
+}
+802059 = {
+	name="Jean" # future Count of Angouleme
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802016 # Louis I, Duke of Orleans
+	mother=800269 #Valentina Visconti
+
+	1399.6.24 = {
+		birth=yes
+	}
+	1467.4.30 = {
+		death=yes
+	}
+}
+
+### House of Chatillon ###
+802028 = {
+	name="Marie" # Duchess of Anjou
+	dynasty=23113
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455784 # Charles, Duke of Brittany
+	mother=455753 # Joanna, Duchess of Brittany
+
+	1340.1.1 = {
+		birth=yes
+	}
+	1404.1.1 = {
+		death=yes
+	}
+}
+802060 = {
+	name="Jean" # Count of Penthievre
+	dynasty=23113
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455784 # Charles, Duke of Brittany
+	mother=455753 # Joanna, Duchess of Brittany
+
+	1340.2.5 = {
+		birth=yes
+	}
+	1387.1.1 = {add_spouse=802064}
+	1404.1.16 = {
+		death=yes
+	}
+}
+802061 = {
+	name="Guy" # unknown
+	dynasty=23113
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455784 # Charles, Duke of Brittany
+	mother=455753 # Joanna, Duchess of Brittany
+
+	1342.1.1 = {
+		birth=yes
+	}
+	1404.1.1 = {
+		death=yes
+	}
+}
+
+802062 = {
+	name="Henri" # unknown
+	dynasty=23113
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455784 # Charles, Duke of Brittany
+	mother=455753 # Joanna, Duchess of Brittany
+
+	1347.1.1 = {
+		birth=yes
+	}
+	1400.1.1 = {
+		death=yes
+	}
+}
+
+802063 = {
+	name="Marguerite" # married Carlos de la Cerda
+	dynasty=23113
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455784 # Charles, Duke of Brittany
+	mother=455753 # Joanna, Duchess of Brittany
+
+	1339.1.1 = {
+		birth=yes
+	}
+	1402.1.1 = {
+		death=yes
+	}
+}
+
+802064 = {
+	name="Marguerite" # Countess of Penthievre
+	dynasty=3000100
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	1367.1.1 = {
+		birth=yes
+	}
+	1402.1.1 = {
+		death=yes
+	}
+}
+
+802065 = {
+	name="Olivier" # Count of Penthievre
+	dynasty=23113
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802060 # John I, Count of Penthievre
+	mother=802064 # Marguerite de Clisson
+
+	1387.1.1 = {
+		birth=yes
+	}
+	1433.9.28 = {
+		death=yes
+	}
+}
+
+802067 = {
+	name="Charles" # Baron of Avaugour
+	dynasty=23113
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802060 # John I, Count of Penthievre
+	mother=802064 # Marguerite de Clisson
+
+	1391.1.1 = {
+		birth=yes
+	}
+	1450.1.1 = {
+		death=yes
+	}
+}
+
+802068 = {
+	name="Guillaume" # Viscount of Limoges
+	dynasty=23113
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802060 # John I, Count of Penthievre
+	mother=802064 # Marguerite de Clisson
+
+	1395.1.1 = {
+		birth=yes
+	}
+	1455.1.1 = {
+		death=yes
+	}
+}
+
+802069 = {
+	name="Jeanne" # Lady of Belleville and Montaigu
+	dynasty=23113
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802060 # John I, Count of Penthievre
+	mother=802064 # Marguerite de Clisson
+
+	1397.1.1 = {
+		birth=yes
+	}
+	1460.1.1 = {
+		death=yes
+	}
+}
+
+802070 = {
+	name="Marguerite" # wife of Guillaume de Fayel
+	dynasty=23113
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802060 # John I, Count of Penthievre
+	mother=802064 # Marguerite de Clisson
+
+	1399.1.1 = {
+		birth=yes
+	}
+	1460.1.1 = {
+		death=yes
+	}
+}
+
+802130 = {
+	name="Louis" # Louis II of Blois and Soissons
+	dynasty=23113
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455783 # Louis II of Blois
+	mother=91193 # Jeanne of Avesnes
+
+	1341.1.1 = {
+		birth=yes
+	}
+	1372.1.1 = {
+		death=yes
+	}
+}
+
+802131 = {
+	name="Jean" # John II of Blois and Soissons
+	dynasty=23113
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455783 # Louis II of Blois
+	mother=91193 # Jeanne of Avesnes
+
+	1342.1.1 = {
+		birth=yes
+	}
+	1381.1.1 = {
+		death=yes
+	}
+}
+802132 = {
+	name="Guy" # Guy II of Blois
+	dynasty=23113
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455783 # Louis II of Blois
+	mother=91193 # Jeanne of Avesnes
+
+	1342.1.1 = {
+		birth=yes
+	}
+	1397.1.1 = {
+		death=yes
+	}
+}
+802133 = {
+	name="Louis" # Count of Dunois
+	dynasty=23113
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802132 # Guy II of Blois
+
+	1362.1.1 = {
+		birth=yes
+	}
+	1391.1.1 = {
+		death=yes
+	}
+}
+### House de Bourbon ###
+
+802010 = {
+	name="Jeanne" # Joanna of Bourbon, Queen of France
+	dynasty=329
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455651 # Peter I, Duke of Bourbon
+	mother=455506 # Isabella of Valois, Duchess of Bourbon
+
+	1338.2.3 = {
+		birth=yes
+	}
+	1378.2.6 = {
+		death=yes
+	}
+}
+802082 = {
+	name="Blanche" # Queen of Castile
+	dynasty=329
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455651 # Peter I, Duke of Bourbon
+	mother=455506 # Isabella of Valois, Duchess of Bourbon
+
+	1339.1.1 = {
+		birth=yes
+	}
+	1361.1.1 = {
+		death=yes #poisoned
+	}
+}
+
+802083 = {
+	name="Bonne" # Countess of Savoy
+	dynasty=329
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455651 # Peter I, Duke of Bourbon
+	mother=455506 # Isabella of Valois, Duchess of Bourbon
+
+	1341.1.1 = {
+		birth=yes
+	}
+	1355.1.1 = {add_spouse=462155}
+	1402.1.19 = {
+		death=yes
+	}
+}
+802084 = {
+	name="Catherine" #
+	dynasty=329
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455651 # Peter I, Duke of Bourbon
+	mother=455506 # Isabella of Valois, Duchess of Bourbon
+
+	1342.1.1 = {
+		birth=yes
+	}
+	1427.1.1 = {
+		death=yes
+	}
+}
+802085 = {
+	name="Marguerite" #
+	dynasty=329
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455651 # Peter I, Duke of Bourbon
+	mother=455506 # Isabella of Valois, Duchess of Bourbon
+
+	1344.1.1 = {
+		birth=yes
+	}
+	1416.1.1 = {
+		death=yes
+	}
+}
+802086 = {
+	name="Isabelle" #
+	dynasty=329
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455651 # Peter I, Duke of Bourbon
+	mother=455506 # Isabella of Valois, Duchess of Bourbon
+
+	1345.1.1 = {
+		birth=yes
+	}
+	1401.1.1 = {
+		death=yes
+	}
+}
+802087 = {
+	name="Marie" #
+	dynasty=329
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455651 # Peter I, Duke of Bourbon
+	mother=455506 # Isabella of Valois, Duchess of Bourbon
+
+	1347.1.1 = {
+		birth=yes
+	}
+	1363.1.1 = {add_trait=nun}
+	1401.1.1 = {
+		death=yes
+	}
+}
+
+802088 = {
+	name="Catherine" # died young
+	dynasty=329
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802105  #Louis II of Bourbon
+	mother=802238
+
+	1378.1.1 = {
+		birth=yes
+	}
+	1381.1.1 = {
+		death=yes
+	}
+}
+
+802089 = {
+	name="Jean" # Duke of Bourbon
+	dynasty=329
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802105 #Louis II of Bourbon
+	mother=802238
+
+	1381.1.1 = {
+		birth=yes
+	}
+	1400.1.1 = {add_spouse=802037}
+	1434.1.1 = {
+		death=yes
+	}
+}
+
+802090 = {
+	name="Louis" # Sieur de Beaujeu
+	dynasty=329
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802105  #Louis II of Bourbon
+	mother=802238
+
+	1388.1.1 = {
+		birth=yes
+	}
+	1404.1.1 = {
+		death=yes
+	}
+}
+
+802091 = {
+	name="Isabelle" # 
+	dynasty=329
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802105  #Louis II of Bourbon
+	mother=802238
+
+	1384.1.1 = {
+		birth=yes
+	}
+	1451.1.1 = {
+		death=yes
+	}
+}
+
+802105 = {
+	name="Louis" # Louis II, Duke of Bourbon
+	dynasty=329
+	martial=5
+	diplomacy=7
+	intrigue=7
+	stewardship=4
+	add_trait="lunatic"
+	religion="catholic"
+	culture="frankish"
+	father=455651
+	mother=455506
+	1337.2.4 = {
+		birth=yes
+	}
+	1370.1.1 = {give_nickname=nick_the_good}
+	1375.1.1 = {add_spouse=802238} # Anne of Auvergne
+	1410.8.10 = {
+		death=yes
+	}
+}
+
+### House de Dampierre ###
+802040 = {
+	name="Marguerite" #
+	dynasty=92
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455712 # Louis II of Flanders
+	mother=487050 # Margaret of Brabant
+
+	1350.4.13 = {
+		birth=yes
+	}
+	1405.3.16 = {
+		death=yes
+	}
+}
+
+### House de Dreux ### 
+
+802071 = {
+	name="Jean" # John IV, Duke of Brittany
+	dynasty=3200002
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455755
+	mother=455714
+
+	1339.9.1 = {
+		birth=yes
+	}
+	1386.1.1 = {add_spouse=800004}
+	1399.11.1 = {
+		death=yes
+	}
+}
+802072 = {
+	name="Jean" # John V, Duke of Brittany
+	dynasty=3200002
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802071
+	mother=800004
+
+	1389.12.24 = {
+		birth=yes
+	}
+	1442.8.29 = {
+		death=yes
+	}
+}
+802073 = {
+	name="Jeanne" # Joan of Brittany, Baroness of Drayton
+	dynasty=3200002
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455755
+	mother=455714
+
+	1341.1.1 = {
+		birth=yes
+	}
+	1402.11.8 = {
+		death=yes
+	}
+}
+802074 = {
+	name="Jeanne" # died young
+	dynasty=3200002
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802071
+	mother=800004
+
+	1387.8.12 = {
+		birth=yes
+	}
+	1388.12.7 = {
+		death=yes
+	}
+}
+802075 = {
+	name="Isabelle" # died young
+	dynasty=3200002
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802071
+	mother=800004
+
+	1388.10.1 = {
+		birth=yes
+	}
+	1388.12.1 = {
+		death=yes
+	}
+}
+802076 = {
+	name="Marie" # Lady of La Guerche
+	dynasty=3200002
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802071
+	mother=800004
+
+	1391.2.18 = {
+		birth=yes
+	}
+	1446.12.18 = {
+		death=yes
+	}
+}
+802077 = {
+	name="Marguerite" # Lady of Guillac
+	dynasty=3200002
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802071
+	mother=800004
+
+	1392.1.1 = {
+		birth=yes
+	}
+	1428.4.13 = {
+		death=yes
+	}
+}
+802078 = {
+	name="Arthur" # Duke of Brittany
+	dynasty=3200002
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802071
+	mother=800004
+
+	1393.8.24 = {
+		birth=yes
+	}
+	1458.12.26 = {
+		death=yes
+	}
+}
+802079 = {
+	name="Gilles" # Lord of Chantocé and Ingrande
+	dynasty=3200002
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802071
+	mother=800004
+
+	1394.1.1 = {
+		birth=yes
+	}
+	1412.7.19 = {
+		death=yes
+	}
+}
+802080 = {
+	name="Richard" # Count of Benon, Etampes, and Mantes
+	dynasty=3200002
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802071
+	mother=800004
+
+	1395.1.1 = {
+		birth=yes
+	}
+	1438.6.2 = {
+		death=yes
+	}
+}
+802081 = {
+	name="Blanche" # Countess of Armagnac
+	dynasty=3200002
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802071
+	mother=800004
+
+	1397.1.1 = {
+		birth=yes
+	}
+	1419.1.1 = {
+		death=yes
+	}
+}
+
+## House of Évreux ##
+802092 = {
+	name="Marie" # 
+	dynasty=353
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455813 # Charles II of Navarre
+	mother=802005 # Joan of France
+
+	1360.1.1 = {
+		birth=yes
+	}
+	1401.1.1 = {
+		death=yes
+	}
+}
+802093 = {
+	name="Charles" # Charles III of Navarre
+	dynasty=353
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455813 # Charles II of Navarre
+	mother=802005 # Joan of France
+
+	1361.1.1 = {
+		birth=yes
+	}
+	1425.1.1 = {
+		death=yes
+	}
+}
+802094 = {
+	name="Pierre" # Count of Mortain
+	dynasty=353
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455813 # Charles II of Navarre
+	mother=802005 # Joan of France
+
+	1366.3.31 = {
+		birth=yes
+	}
+	1412.1.1 = {
+		death=yes
+	}
+}
+802095 = {
+	name="Philippe" # died young
+	dynasty=353
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455813 # Charles II of Navarre
+	mother=802005 # Joan of France
+
+	1367.1.1 = {
+		birth=yes
+	}
+	1368.1.1 = {
+		death=yes
+	}
+}
+802096 = {
+	name="Blanche" # died young
+	dynasty=353
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455813 # Charles II of Navarre
+	mother=802005 # Joan of France
+
+	1372.1.1 = {
+		birth=yes
+	}
+	1385.1.1 = {
+		death=yes
+	}
+}
+800004 = { #Henry's 2nd wife
+	name = "Jeanne"
+	dynasty = 353
+	culture = frankish
+	religion = catholic
+	female = yes
+	father=455813 # Charles II of Navarre
+	mother=802005 # Joan of France
+	1368.01.01 ={
+		birth = yes
+	}
+	1437.06.10 = {
+		death = yes
+	}
+}
+802097 = {
+	name="Jeanne" # Countess of Foix
+	dynasty=353
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802093 #Charles III of Navarre
+
+	1382.1.1 = {
+		birth=yes
+	}
+	1413.1.1 = {
+		death=yes
+	}
+}
+802098 = {
+	name="Marie" # 
+	dynasty=353
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802093 #Charles III of Navarre
+
+	1383.1.1 = {
+		birth=yes
+	}
+	1425.1.1 = {
+		death=yes
+	}
+}
+802099 = {
+	name="Blanche" # Queen of Aragon and Navarre
+	dynasty=353
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802093 #Charles III of Navarre
+
+	1385.1.1 = {
+		birth=yes
+	}
+	1441.1.1 = {
+		death=yes
+	}
+}
+802100 = {
+	name="Isabelle" # Countess of Armagnac
+	dynasty=353
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802093 #Charles III of Navarre
+
+	1395.1.1 = {
+		birth=yes
+	}
+	1435.1.1 = {
+		death=yes
+	}
+}
+802101 = {
+	name="Béatrix" # Countess of La Marche
+	dynasty=353
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802093 #Charles III of Navarre
+
+	1392.1.1 = {
+		birth=yes
+	}
+	1412.1.1 = {
+		death=yes
+	}
+}
+802102 = {
+	name="Marguerite" #
+	dynasty=353
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802093 #Charles III of Navarre
+
+	1390.1.1 = {
+		birth=yes
+	}
+	1403.1.1 = {
+		death=yes
+	}
+}
+802103 = {
+	name="Charles" # Prince of Viana
+	dynasty=353
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802093 #Charles III of Navarre
+
+	1397.1.1 = {
+		birth=yes
+	}
+	1402.1.1 = {
+		death=yes
+	}
+}
+### House of Amboise ### 102011
+802104 = {
+	name="Pierre" # Viscount of Thouars
+	dynasty=102011
+	
+	religion="catholic"
+	culture="frankish"
+
+	mother=455936
+
+	1364.1.1 = {
+		birth=yes
+	}
+	1402.1.1 = {
+		death=yes
+	}
+}
+### House of Bourbon-La Marche ###
+802106 = {
+	name="Isabelle" # Countess of Vendome
+	dynasty=100146
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455656 # James I, Count of La Marche
+	mother=455705 # Jeanne of Chatillon
+
+	1340.1.1 = {
+		birth=yes
+	}
+	1371.1.1 = {
+		death=yes
+	}
+}
+802107 = {
+	name="Pierre" # Count of La Marche
+	dynasty=100146
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455656 # James I, Count of La Marche
+	mother=455705 # Jeanne of Chatillon
+
+	1342.1.1 = {
+		birth=yes
+	}
+	1362.1.1 = {
+		death=yes
+	}
+}
+802108 = {
+	name="Jean" # Count of La Marche
+	dynasty=100146
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455656 # James I, Count of La Marche
+	mother=455705 # Jeanne of Chatillon
+
+	1344.1.1 = {
+		birth=yes
+	}
+	1364.1.1 = {add_spouse=802172}
+	1393.1.1 = {
+		death=yes
+	}
+}
+802109 = {
+	name="Jacques" # Baron de Thury
+	dynasty=100146
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455656 # James I, Count of La Marche
+	mother=455705 # Jeanne of Chatillon
+
+	1346.1.1 = {
+		birth=yes
+	}
+	1417.1.1 = {
+		death=yes
+	}
+}
+802110 = {
+	name="Jacques" # Count of La Marche
+	dynasty=100146
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802108 # John I, Count of La Marche
+	mother=802172 # Catherine of Vendome
+
+	1370.1.1 = {
+		birth=yes
+	}
+	1438.1.1 = {
+		death=yes
+	}
+}
+802111 = {
+	name="Isabelle" # nun
+	dynasty=100146
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802108 # John I, Count of La Marche
+	mother=802172 # Catherine of Vendome
+
+	1373.1.1 = {
+		birth=yes
+	}
+	1389.1.1 = {add_trait=nun}
+	1420.1.1 = {
+		death=yes
+	}
+}
+802112 = {
+	name="Louis" # Count of Vendome
+	dynasty=100146
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802108 # John I, Count of La Marche
+	mother=802172 # Catherine of Vendome
+
+	1376.1.1 = {
+		birth=yes
+	}
+	1446.1.1 = {
+		death=yes
+	}
+}
+802113 = {
+	name="Jean" # Lord of Carency
+	dynasty=100146
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802108 # John I, Count of La Marche
+	mother=802172 # Catherine of Vendome
+
+	1376.1.1 = {
+		birth=yes
+	}
+	1446.1.1 = {
+		death=yes
+	}
+}
+802114 = {
+	name="Anne" # 
+	dynasty=100146
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802108 # John I, Count of La Marche
+	mother=802172 # Catherine of Vendome
+
+	1380.1.1 = {
+		birth=yes
+	}
+	1408.1.1 = {
+		death=yes
+	}
+}
+802800 = {
+	name="Marie" # Lady of Brehencourt
+	dynasty=100146
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802108 # John I, Count of La Marche
+	mother=802172 # Catherine of Vendome
+
+	1380.1.1 = {
+		birth=yes
+	}
+	1464.1.1 = {
+		death=yes
+	}
+}
+802180 = {
+	name="Charlotte" # Queen of Cyprus
+	dynasty=100146
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802108 # John I, Count of La Marche
+	mother=802172 # Catherine of Vendome
+
+	1388.1.1 = {
+		birth=yes
+	}
+	1422.1.15 = {
+		death=yes
+	}
+}
+
+### House of Savoy ###
+802115 = {
+	name="Amédée" # Amadeus VII of Savoy
+	dynasty=240
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=462155 # Amadeus VI 
+	mother=802083 # Bonne of Bourbon
+
+	1360.3.1 = {
+		birth=yes
+	}
+	1385.1.1 = {add_spouse=802033} # Bonne of Berry
+	1391.11.1 = {
+		death=yes
+	}
+}
+802116 = {
+	name="Amédée" # Amadeus VIII of Savoy
+	dynasty=240
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802115 # Amadeus VII
+	mother=802033 # Bonne of Berry
+
+	1383.9.4 = {
+		birth=yes
+	}
+	1451.1.7 = {
+		death=yes
+	}
+}
+802117 = {
+	name="Bonne" # 
+	dynasty=240
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802115 # Amadeus VII
+	mother=802033 # Bonne of Berry
+
+	1385.1.1 = {
+		birth=yes
+	}
+	1432.1.1 = {
+		death=yes
+	}
+}
+802118 = {
+	name="Jeanne" # 
+	dynasty=240
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802115 # Amadeus VII
+	mother=802033 # Bonne of Berry
+
+	1383.1.1 = {
+		birth=yes
+	}
+	1460.1.1 = {
+		death=yes
+	}
+}
+
+### Bishops of Agen ###
+802205 = {
+	name="Simon" # 
+	
+	religion="catholic"
+	culture="frankish"
+
+	1359.1.1 = {
+		birth=yes
+	}
+	1423.1.1 = {
+		death=yes
+	}
+}
+
+### House of Artois ###
+802119 = {
+	name="Jeanne" # Countess of Dreux
+	dynasty=100
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455520 # John of Artois
+	mother=802125 # Isabeau of Melun
+
+	1353.1.1 = {
+		birth=yes
+	}
+	1420.1.1 = {
+		death=yes
+	}
+}
+802120 = {
+	name="Jean" # Lord of Peronne
+	dynasty=100
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455520 # John of Artois
+	mother=802125 # Isabeau of Melun
+
+	1355.1.1 = {
+		birth=yes
+	}
+	1363.1.1 = {
+		death=yes
+	}
+}
+802121 = {
+	name="Robert" # Count of Eu
+	dynasty=100
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455520 # John of Artois
+	mother=802125 # Isabeau of Melun
+
+	1356.1.1 = {
+		birth=yes
+	}
+	1387.1.1 = {
+		death=yes
+	}
+}
+802122 = {
+	name="Philippe" # Count of Eu
+	dynasty=100
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455520 # John of Artois
+	mother=802125 # Isabeau of Melun
+	1357.1.1 = {
+		birth=yes
+	}
+	1393.1.1 = {add_spouse=802037} # Marie of Berry
+	1397.1.1 = {
+		death=yes
+	}
+}
+802123 = {
+	name="Charles" #
+	dynasty=100
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455520 # John of Artois
+	mother=802125 # Isabeau of Melun
+
+	1359.1.1 = {
+		birth=yes
+	}
+	1368.1.1 = {
+		death=yes
+	}
+}
+802124 = {
+	name="Isabeau" #
+	dynasty=100
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455520 # John of Artois
+	mother=802125 # Isabeau of Melun
+
+	1361.1.1 = {
+		birth=yes
+	}
+	1379.1.1 = {
+		death=yes
+	}
+}
+802125 = {
+	name="Isabeau" #
+	dynasty=5071 #de Melun
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	1328.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {add_spouse=455520} #Jean of Artois, Count of Eu
+	1389.1.1 = {
+		death=yes
+	}
+}
+802126 = {
+	name="Philippe" # 
+	dynasty=100
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802122 # Philip of Artois
+	mother=802037 # Marie of Berry
+
+	1393.1.1 = {
+		birth=yes
+	}
+	1397.1.1 = {
+		death=yes
+	}
+}
+802127 = {
+	name="Charles" # Count of Eu
+	dynasty=100
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802122 # Philip of Artois
+	mother=802037 # Marie of Berry
+
+	1394.1.1 = {
+		birth=yes
+	}
+	1472.1.1 = {
+		death=yes
+	}
+}
+802128 = {
+	name="Bonne" # Countess of Nevers
+	dynasty=100
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802122 # Philip of Artois
+	mother=802037 # Marie of Berry
+
+	1396.1.1 = {
+		birth=yes
+	}
+	1425.1.1 = {
+		death=yes
+	}
+}
+802129 = {
+	name="Catherine" # 
+	dynasty=100
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802122 # Philip of Artois
+	mother=802037 # Marie of Berry
+
+	1397.1.1 = {
+		birth=yes
+	}
+	1422.1.1 = {
+		death=yes
+	}
+}
+### House de Coucy ###
+802134 = {
+	name="Enguerrand" # Count of Soissons, Lord of Coucy and Earl of Bedford
+	dynasty=5081
+	
+	religion="catholic"
+	culture="frankish"
+	
+	father=454980 # Enguerrand VI of
+	mother=462031 # Catherine of Austria
+
+	1340.1.1 = {
+		birth=yes
+	}
+	1365.1.1 = {add_spouse=454502} # Isabella Plantagenet
+	1385.1.1 = {add_spouse=802680} # Isabelle of Lorraine
+	1397.1.1 = {
+		death=yes
+	}
+}
+802135 = {
+	name="Marie" # Countess of Soissons
+	dynasty=5081
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802134
+	mother=454502
+
+	1366.1.1 = {
+		birth=yes
+	}
+	1405.1.1 = {
+		death=yes
+	}
+}
+802136 = {
+	name="Philippa" # Countess of Oxford
+	dynasty=5081
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802134
+	mother=454502
+
+	1367.1.1 = {
+		birth=yes
+	}
+	1411.1.1 = {
+		death=yes
+	}
+}
+802137 = {
+	name="Isabelle" # Countess of Nevers
+	dynasty=5081
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802134
+	mother=802680
+
+	1386.1.1 = {
+		birth=yes
+	}
+	1411.1.1 = {
+		death=yes
+	}
+}
+
+### Counts of Alencon ###
+
+802138 = {
+	name="Philippe" # Bishop of Beauvais
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455513
+	mother=457560
+
+	1338.1.1 = {
+		birth=yes
+	}
+	1397.1.1 = {
+		death=yes
+	}
+}
+802139 = {
+	name="Pierre" # Count of Alencon
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455513
+	mother=457560
+
+	1340.1.1 = {
+		birth=yes
+	}
+	1404.1.1 = {
+		death=yes
+	}
+}
+802140 = {
+	name="Isabelle" # Nun
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455513
+	mother=457560
+
+	1342.1.1 = {
+		birth=yes
+	}	
+	1358.1.1 = {add_trait=nun}
+	1379.1.1 = {
+		death=yes
+	}
+}
+802141 = {
+	name="Robert" # Count of Perche
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=455513
+	mother=457560
+
+	1344.1.1 = {
+		birth=yes
+	}	
+	1377.1.1 = {
+		death=yes
+	}
+}
+802142 = {
+	name="Marie" #
+	dynasty=82
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	1352.1.1 = {
+		birth=yes
+	}
+	1371.1.1 = {add_spouse=802139}
+	1425.1.1 = {
+		death=yes
+	}
+}
+802143 = {
+	name="Marie" #
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802139 #Peter II 
+	mother=802142
+
+	1373.1.1 = {
+		birth=yes
+	}
+	1417.1.1 = {
+		death=yes
+	}
+}
+802144 = {
+	name="Pierre" #
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802139 #Peter II 
+	mother=802142
+
+	1374.1.1 = {
+		birth=yes
+	}
+	1375.1.1 = {
+		death=yes
+	}
+}
+802145 = {
+	name="Pierre" #
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802139 #Peter II 
+	mother=802142
+
+	1374.1.1 = {
+		birth=yes
+	}
+	1375.1.1 = {
+		death=yes
+	}
+}
+802146 = {
+	name="Jean" #
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802139 #Peter II 
+	mother=802142
+
+	1375.1.1 = {
+		birth=yes
+	}
+	1376.1.1 = {
+		death=yes
+	}
+}
+802147 = {
+	name="Marie" #
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802139 #Peter II 
+	mother=802142
+
+	1377.1.1 = {
+		birth=yes
+	}
+	1378.1.1 = {
+		death=yes
+	}
+}
+802148 = {
+	name="Jeanne" #
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802139 #Peter II 
+	mother=802142
+
+	1378.1.1 = {
+		birth=yes
+	}
+	1403.1.1 = {
+		death=yes
+	}
+}
+802149 = {
+	name="Catherine" #
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802139 #Peter II 
+	mother=802142
+
+	1380.1.1 = {
+		birth=yes
+	}
+	1462.1.1 = {
+		death=yes
+	}
+}
+802150 = {
+	name="Marguerite" #
+	dynasty=101
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802139 #Peter II 
+	mother=802142
+
+	1383.1.1 = {
+		birth=yes
+	}
+	1399.1.1 = {add_trait=nun}
+	1401.1.1 = {
+		death=yes
+	}
+}
+802151 = {
+	name="Jean" #
+	dynasty=101
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802139 #Peter II 
+	mother=802142
+
+	1385.1.1 = {
+		birth=yes
+	}
+	1396.1.1 = {add_spouse=302076} # Marie of Brittany
+	1415.1.1 = {
+		death=yes
+	}
+}
+
+## Bishop of Reims ###
+802170 = {
+	name="Guy" #
+	
+	religion="catholic"
+	culture="frankish"
+
+	1360.1.1 = {
+		birth=yes
+	}
+	1409.1.1 = {
+		death=yes
+	}
+}
+
+## House of Montoire ###
+802171 = {
+	name="Bouchard" #
+	dynasty = 101861 # Montoire
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 455012
+
+	1352.1.1 = {
+		birth=yes
+	}
+	1371.1.1 = {
+		death=yes
+	}
+}
+802172 = {
+	name="Catherine" #
+	dynasty = 101861 # Montoire
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 455012
+
+	1354.1.1 = {
+		birth=yes
+	}
+	1412.1.1 = {
+		death=yes
+	}
+}
+802173 = {
+	name="Jeanne" #
+	dynasty = 101861 # Montoire
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802171
+
+	1370.1.1 = {
+		birth=yes
+	}
+	1372.1.1 = {
+		death=yes
+	}
+}
+
+### Count of Bar ###
+
+802300 = {
+	name="Robert" # Count of Bar
+	dynasty = 88 #Scarponnis
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 455760
+	mother= 455766
+
+	1344.1.1 = {
+		birth=yes
+	}
+	1364.1.1 = {add_spouse = 802006}
+	1411.1.1 = {
+		death=yes
+	}
+}
+
+802301 = {
+	name="Yolande" # Queen of Aragon
+	dynasty = 88 #Scarponnis
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802300 #Robert, Duke of Bar
+	mother= 802006 #Marie of Valois
+
+	1365.1.1 = {
+		birth=yes
+	}
+	1431.1.1 = {
+		death=yes
+	}
+}
+802302 = {
+	name="Henri" # Marquis
+	dynasty = 88 #Scarponnis
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802300 #Robert, Duke of Bar
+	mother= 802006 #Marie of Valois
+
+	1362.1.1 = {
+		birth=yes
+	}
+	1384.1.1 = {add_spouse = 802135 } # Marie de Coucy
+	1397.1.1 = {
+		death=yes
+	}
+}
+
+802303 = {
+	name="Philippe" #
+	dynasty = 88 #Scarponnis
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802300 #Robert, Duke of Bar
+	mother= 802006 #Marie of Valois
+
+	1372.1.1 = {
+		birth=yes
+	}
+	1396.1.1 = {
+		death=yes
+	}
+}
+
+802304 = {
+	name="Charles" #
+	dynasty = 88 #Scarponnis
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802300 #Robert, Duke of Bar
+	mother= 802006 #Marie of Valois
+
+	1373.1.1 = {
+		birth=yes
+	}
+	1392.1.1 = {
+		death=yes
+	}
+}
+
+802305 = {
+	name="Marie" #
+	dynasty = 88 #Scarponnis
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802300 #Robert, Duke of Bar
+	mother= 802006 #Marie of Valois
+
+	1374.1.1 = {
+		birth=yes
+	}
+	1420.1.1 = {
+		death=yes
+	}
+}
+
+802306 = {
+	name="Édouard" #
+	dynasty = 88 #Scarponnis
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802300 #Robert, Duke of Bar
+	mother= 802006 #Marie of Valois
+
+	1377.1.1 = {
+		birth=yes
+	}
+	1415.1.1 = {
+		death=yes
+	}
+}
+
+802307 = {
+	name="Louis" # Bishop of Verdun
+	dynasty = 88 #Scarponnis
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802300 #Robert, Duke of Bar
+	mother= 802006 #Marie of Valois
+
+	1375.1.1 = {
+		birth=yes
+	}
+	1430.1.1 = {
+		death=yes
+	}
+}
+
+802308 = {
+	name="Yolande" # Duchess of Julich
+	dynasty = 88 #Scarponnis
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802300 #Robert, Duke of Bar
+	mother= 802006 #Marie of Valois
+
+	1381.1.1 = {
+		birth=yes
+	}
+	1421.1.1 = {
+		death=yes
+	}
+}
+
+802309 = {
+	name="Jean" # seigneur de Puisaye
+	dynasty = 88 #Scarponnis
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802300 #Robert, Duke of Bar
+	mother= 802006 #Marie of Valois
+
+	1380.1.1 = {
+		birth=yes
+	}
+	1415.1.1 = {
+		death=yes
+	}
+}
+
+802310 = {
+	name="Bonne" # Countess of Ligny and Saint-Pol
+	dynasty = 88 #Scarponnis
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802300 #Robert, Duke of Bar
+	mother= 802006 #Marie of Valois
+
+	1382.1.1 = {
+		birth=yes
+	}
+	1436.1.1 = {
+		death=yes
+	}
+}
+
+802311 = {
+	name="Jeanne" # Marquise of Montferrat
+	dynasty = 88 #Scarponnis
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802300 #Robert, Duke of Bar
+	mother= 802006 #Marie of Valois
+
+	1376.1.1 = {
+		birth=yes
+	}
+	1402.1.1 = {
+		death=yes
+	}
+}
+
+802312 = {
+	name="Enguerrand" # 
+	dynasty = 88 #Scarponnis
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802302 #Henry of Bar
+	mother= 802135 #Marie de Coucy
+
+	1385.1.1 = {
+		birth=yes
+	}
+	1400.1.1 = {
+		death=yes
+	}
+}
+
+802313 = {
+	name="Robert" # Count of Soissons
+	dynasty = 88 #Scarponnis
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 802302 #Henry of Bar
+	mother= 802135 #Marie de Coucy
+
+	1390.1.1 = {
+		birth=yes
+	}
+	1415.1.1 = {
+		death=yes
+	}
+}
+
+### House of Blois ###
+802314 = {
+	name="Marguerite" # Countess of Sancerre. Owns c_bourges
+	dynasty = 721 # Blois
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 161424
+
+	1355.1.1 = {
+		birth=yes
+	}
+	1418.1.1 = {
+		death=yes
+	}
+}
+
+802315 = {
+	name="Jeanne" # 
+	dynasty = 721 # Blois
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father= 161424
+
+	1360.1.1 = {
+		birth=yes
+	}
+	1398.1.1 = {
+		death=yes
+	}
+}
+
+### House of Thoire ###
+802316 = {
+	name="Umbert" # 
+	dynasty = 8695 # de Thoire
+	
+	religion="catholic"
+	culture="frankish"
+
+	mother=802317
+
+	1360.1.1 = {
+		birth=yes
+	}
+	1400.1.1 = {
+		death=yes
+	}
+}
+
+802318 = {
+	name="Eudes" # 
+	dynasty = 8695 # de Thoire
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=802316
+
+	1380.1.1 = {
+		birth=yes
+	}
+	1424.1.1 = {
+		death=yes
+	}
+}
+
+### House of Geneva ###
+802317 = {
+	name="Marie" # 
+	dynasty = 100239 # de Geneve
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=32754
+	mother=32756
+
+	1340.1.1 = {
+		birth=yes
+	}
+	1394.1.1 = {
+		death=yes
+	}
+}
+
+### Bishop of Nice ###
+
+802320 = {
+	name="Jean" # 
+	
+	religion="catholic"
+	culture="frankish"
+
+	1344.1.1 = {
+		birth=yes
+	}
+	1400.6.1 = {
+		death=yes
+	}
+}
+
+### Bishop of Valais ###
+
+802321 = {
+	name="Aymon" # 
+	
+	religion="catholic"
+	culture="frankish"
+
+	1359.1.1 = {
+		birth=yes
+	}
+	1404.1.1 = {
+		death=yes
+	}
+}
+
+### King of Cyprus ###
+
+### Bishop of Valais ###
+
+802322 = {
+	name="Pierre" # 
+	dynasty=93
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=461910 # Peter I of Cyprus
+	mother=460573 # Eleanor of Aragon
+
+	add_trait=gluttonous
+	add_trait=is_fat
+
+	1357.1.1 = {
+		birth=yes
+	}
+	1382.10.13 = {
+		death=yes
+	}
+}
+
+802323 = {
+	name="Marie" # 
+	dynasty=93
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=461910 # Peter I of Cyprus
+	mother=460573 # Eleanor of Aragon
+
+	1360.1.1 = {
+		birth=yes
+	}
+	1397.1.1 = {
+		death=yes
+	}
+}
+
+802324 = {
+	name="Échive" # 
+	dynasty=93
+	female=yes
+	
+	religion="catholic"
+	culture="frankish"
+
+	father=461910 # Peter I of Cyprus
+	mother=460573 # Eleanor of Aragon
+
+	1362.1.1 = {
+		birth=yes
+	}
+	1369.1.1 = {
+		death=yes
+	}
+}
+
+802326 = {
+	name="Héloise" # Queen of Cyprus
+	dynasty=650
+	female=yes
+
+	religion="catholic"
+	culture="frankish"
+
+	1353.1.1 = {
+		birth=yes
+	}
+	1365.1.1 = {add_spouse=461912} # James I of Cyprus
+	1421.1.1 = {
+		death=yes
+	}
+}
+
+802327 = {
+	name="Janus" # King of Cyprus
+	dynasty=93
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1375.1.1 = {
+		birth=yes
+	}
+	1432.1.1 = {
+		death=yes
+	}
+}
+
+802329 = {
+	name="Philippe" # Constable of Cyprus
+	dynasty=93
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1376.1.1 = {
+		birth=yes
+	}
+	1450.1.1 = {
+		death=yes
+	}
+}
+802330 = {
+	name="Henri" # titular Prince of Galilee
+	dynasty=93
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1377.1.1 = {
+		birth=yes
+	}
+	1426.1.1 = {
+		death=yes
+	}
+}
+
+802331 = {
+	name="Eudes" # Seneschal of Jerusalem
+	dynasty=93
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1378.1.1 = {
+		birth=yes
+	}
+	1421.1.1 = {
+		death=yes
+	}
+}
+
+802332 = {
+	name="Hughes" # Regent of Cyprus
+	dynasty=93
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1379.1.1 = {
+		birth=yes
+	}
+	1442.1.1 = {
+		death=yes
+	}
+}
+
+
+802333 = {
+	name="Guy" # 
+	dynasty=93
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1380.1.1 = {
+		birth=yes
+	}
+	1398.1.1 = {
+		death=yes
+	}
+}
+
+802334 = {
+	name="Marie" # 
+	dynasty=93
+	female=yes
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1381.1.1 = {
+		birth=yes
+	}
+	1404.1.1 = {
+		death=yes
+	}
+}
+
+802335 = {
+	name="Agnès" # 
+	dynasty=93
+	female=yes
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1382.1.1 = {
+		birth=yes
+	}
+	1398.1.1 = {add_trait=nun}
+	1459.1.1 = {
+		death=yes
+	}
+}
+
+802336 = {
+	name="Jacqueline" # 
+	dynasty=93
+	female=yes
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1383.1.1 = {
+		birth=yes
+	}
+	1399.1.1 = {
+		death=yes
+	}
+}
+
+802337 = {
+	name="Échive" # 
+	dynasty=93
+	female=yes
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1384.1.1 = {
+		birth=yes
+	}
+	1406.1.1 = {
+		death=yes
+	}
+}
+
+802338 = {
+	name="Agnès" # 
+	dynasty=93
+	female=yes
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1385.1.1 = {
+		birth=yes
+	}
+	1400.1.1 = {add_trait=nun}
+	1459.1.1 = {
+		death=yes
+	}
+}
+
+802339 = {
+	name="Isabelle" # 
+	dynasty=93
+	female=yes
+
+	religion="catholic"
+	culture="frankish"
+
+	father=461912
+	mother=802326
+
+	1386.1.1 = {
+		birth=yes
+	}
+	1415.1.1 = {
+		death=yes
+	}
+}
+
+### Courtiers ###
+820001 = { #Christine de Pizan's husband
+	name = "Étienne"
+	dynasty = 3200004
+
+	culture = frankish
+	religion = catholic
+
+	1360.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {add_spouse=820000} #Christine de Pizan
+	1389.1.1 = {
+		death = yes
+	}
+}
+820002 = { #
+	name = "Jean"
+	dynasty = 3200004
+
+	culture = frankish
+	religion = catholic
+
+	mother=820000
+	father=820001
+
+	1381.1.1 = {
+		birth = yes
+	}
+	1400.1.1={
+		employer=802014
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+820003 = { #
+	name = "Marie"
+	dynasty = 3200004
+	female=yes
+
+	culture = frankish
+	religion = catholic
+
+	mother=820000
+	father=820001
+
+	1382.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {add_trait=nun}
+	1400.1.1={
+		employer=802014
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+820004 = { #
+	name = "Étienne"
+	dynasty = 3200004
+
+	culture = frankish
+	religion = catholic
+
+	mother=820000
+	father=820001
+
+	1383.1.1 = {
+		birth = yes
+	}
+	1400.1.1={
+		employer=802014
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+## d'Anjou ##
+820033 = { #
+	name = "Marie"
+	female = yes
+	dynasty = 81
+
+	culture = frankish
+	religion = catholic
+
+	father=469510 # Louis I of Hungary
+
+	1371.1.1 = {
+		birth = yes
+	}
+	1395.5.17 = {
+		death = yes
+	}
+}
+820021 = { #
+	name = "Catherine"
+	female = yes
+	dynasty = 81
+
+	culture = frankish
+	religion = catholic
+
+	father=469510 # Louis I of Hungary
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1378.5.1 = {
+		death = yes
+	}
+}
+## Chatenois ##
+802677 = {
+	name = "Jean" # Duke of Lorraine
+	dynasty = 667 # Chatenois
+
+	culture = frankish
+	religion = catholic
+	
+	father = 129014 
+	mother = 455785 # Marie de Blois
+
+	1346.1.1 = {
+		birth = yes
+	}
+	1390.9.28 = {
+		death = yes
+	}
+}
+802678 = {
+	name = "Charles" # Duke of Lorraine
+	dynasty = 667 # Chatenois
+
+	culture = frankish
+	religion = catholic
+	
+	father = 802677
+
+	1365.9.11 = {
+		birth = yes
+	}
+	1394.1.1 = {add_spouse = 802603} #Margaret of the Palatinate
+	1431.2.25 = {
+		death = yes
+	}
+}
+802679 = {
+	name = "Ferry" # 
+	dynasty = 667 # Chatenois
+
+	culture = frankish
+	religion = catholic
+	
+	father = 802677
+
+	1371.1.1 = {
+		birth = yes
+	}
+	1392.1.1 = {add_spouse = 802683}
+	1415.10.25 = {
+		death = yes
+	}
+}
+802680 = {
+	name = "Isabelle" # 
+	dynasty = 667 # Chatenois
+	female = yes
+
+	culture = frankish
+	religion = catholic
+	
+	father = 802677
+
+	1369.1.1 = {
+		birth = yes
+	}
+	1423.1.1 = {
+		death = yes
+	}
+}
+
+802681 = {
+	name = "Élisabeth" # 
+	dynasty = 667 # Chatenois
+	female = yes
+
+	culture = frankish
+	religion = catholic
+	
+	father = 802679
+	mother = 802683
+
+	1395.1.1 = {
+		birth = yes
+	}
+	1456.1.17 = {
+		death = yes
+	}
+}
+802682 = {
+	name = "Antoine" # 
+	dynasty = 667 # Chatenois
+
+	culture = frankish
+	religion = catholic
+	
+	father = 802679
+	mother= 802683
+
+	1400.1.1 = {
+		birth = yes
+	}
+	1458.3.22 = {
+		death = yes
+	}
+}
+802683 = {
+	name = "Marguerite" # 
+	dynasty = 667 # Chatenois
+	female = yes
+
+	culture = frankish
+	religion = catholic
+	
+	father = 462632 
+
+	1354.1.1 = {
+		birth = yes
+	}
+	1418.1.1 = {
+		death = yes
+	}
+}
+802684 = {
+	name = "Isabelle" # 
+	dynasty = 667 # Chatenois
+	female = yes
+
+	culture = frankish
+	religion = catholic
+	
+	father = 802678
+	mother = 802603
+
+	1400.1.1 = {
+		birth = yes
+	}
+	1453.2.28 = {
+		death = yes
+	}
+}
+## Bishop of Metz ##
+802685 = {
+	name = "Raoul" # 
+	dynasty = 5081 # de Coucy
+
+	culture = frankish
+	religion = catholic
+
+	father=802686
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1425.2.28 = {
+		death = yes
+	}
+}
+802686 = {
+	name = "Raoul" # 
+	dynasty = 5081 # de Coucy
+
+	culture = frankish
+	religion = catholic
+
+	father = 454990
+	mother = 455790
+
+	1325.1.1 = {
+		birth = yes
+	}
+	1389.1.1 = {
+		death = yes
+	}
+}
+# Luxembourg-Ligny branch
+#
+860001 = {  #
+	name = Mahaut #
+	dynasty = 23113 # Chatillon
+	culture = frankish
+	religion = catholic
+	father = 161363
+	1335.1.1 = { birth = yes }
+	1373.1.1 = { death = yes }
+}
+860002 = {
+	name = Waleran # I of Ligny
+	dynasty = 61 # Luxembourg
+	culture = german
+	religion = catholic
+	father = 462604 # Heinrich of Luxembourg
+	mother = 7571 # Marguerite of Bar
+	1239.1.1 = {
+		effect = { 
+			c_462603 = {
+				add_spouse = 7571
+			}
+		}
+	}
+	1240.1.1 = {
+		effect_even_if_dead = {
+			c_460603 = {
+				set_mother = 7571
+			}
+		}
+	}
+	1243.1.1 = { birth = yes } # estimate
+	1250.1.1 = {
+		effect_even_if_dead = {
+			c_31119 = {
+				set_mother = 7571
+			}
+		}
+	}
+	1281.1.1 = { culture = frankish }
+	1288.6.5 = {
+		death = {
+			death_reason = death_battle
+			killer = 487040 # Jan I of Brabant
+		}
+	}
+}
+860003 = {
+	name = Henri # of Ligny
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	father = 860002 # Waleran I of Ligny
+	1273.1.1 = { birth = yes }
+	1303.1.1 = { death = yes }
+}
+860004 = {
+	name = Waleran # II of Ligny
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	father = 860002 # Waleran I of Ligny
+	1275.1.1 = { birth = yes }
+	1354.1.1 = { death = yes }
+}
+860005 = {
+	name = Jean # I of Ligny
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	father = 860004 # Waleran II of Ligny
+	1313.1.1 = { birth = yes }
+	1364.5.17 = { death = yes }
+}
+# Detour for Jean I's wife's family
+
+860006 = {
+	name = Guy
+	dynasty = 92 # Dampierre
+	culture = frankish
+	religion = catholic
+	father = 138428 # Guillaume 'sans-terre'
+	1287.1.1 = { birth = yes }
+	1345.4.30 = { death = yes }
+}
+860007 = {
+	name = Alix
+	female = yes
+	dynasty = 92 # Dampierre
+	culture = frankish
+	religion = catholic
+	father = 860006 # Guy de Dampierre
+	1317.1.1 = { birth = yes }
+	1330.7.10 = { add_spouse = 860005 } # Jean I de Luxembourg-Ligny
+	1346.5.4 = { death = yes }
+}
+860008 = {
+	name = Beatrice
+	female = yes
+	dynasty = 23113 # Chatillon
+	culture = frankish
+	religion = catholic
+	father = 455787
+	mother = 455788
+	1297.1.1 = { birth = yes }
+	1351.1.1 = { death = yes }
+}
+860009 = {
+	name = Jean
+	dynasty = 92 # Dampierre
+	culture = frankish
+	religion = catholic
+	father = 138428 # Guillaume 'sans-terre'
+	1286.1.1 = { birth = yes }
+	1315.1.1 = { add_spouse = 860008 } # Beatrice de Chatillon
+	1325.5.2 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+# Back to the Ligny line
+860010 = {
+	name = Guy # I de Ligny
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	father = 860005 # Jean I de Luxembourg-Ligny
+	mother = 860007 # Alix de Dampierre
+	1332.1.1 = { birth = yes ]
+	1350.12.8 = { add_spouse = 860001 } # Mahaut de Chatillon
+	1371.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+860011 = {
+	name = Waleran # III
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	father = 860010 # Guy I
+	mother = 860001 # Mahaut de Chatillon
+	1355.1.1 = { birth = yes }
+	1400.6.2 = { add_spouse = 802310 }
+	1415.4.12 = { death = yes }
+}
+860012 = {
+	name = Maud
+	dynasty = 4035 # de Holland
+	female = yes
+	culture = english
+	religion = catholic
+	father = 454576 # Thomas Holland, 1st Earl of Kent
+	mother = 454515 # The Fair Maid of Kent
+	1340.1.1 = {
+		effect = { 
+			c_454515 = {
+				add_spouse = 454576
+			}
+		}
+	}
+	1359.1.1 = { birth = yes }
+	1379.7.18 = { add_spouse = 860011 }
+	1391.1.1 = { death = yes }
+}
+860013 = {
+	name = Jeanne
+	female = yes 
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	father = 860011 # Waleran III
+	mother = 860012 # Maud Holland
+	1381.1.1 = { birth = yes }
+	1407.8.12 = { death = yes }
+}
+860014 = {
+	name = Marguerite
+	female = yes
+	dynasty = 61 # Luxembourg
+	culture = frankish
+	religion = catholic
+	father = 860010 # Guy I
+	mother = 860001 # Mahaut de Chatillon
+	1359.1.1 = { birth = yes }
+	1377.1.1 = { add_spouse = 800206 }
+	1415.4.12 = { death = yes }
+}

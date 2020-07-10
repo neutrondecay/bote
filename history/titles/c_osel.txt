@@ -1,0 +1,82 @@
+763.1.1={
+	holder=256013
+}
+867.1.1={
+	holder=256014
+}
+936.1.1 = {
+	holder = 260756
+}
+1066.1.1={
+	holder=256015
+}
+1090.5.8={
+	holder = 256016
+}
+1108.9.14={
+	holder=256017
+}
+1145.8.12={
+	holder=256018
+}
+1158.2.15={
+	holder=256019
+}
+1200.4.14={
+	holder=256020
+}
+1228.1.1=
+{
+liege="d_livonian_order"
+}
+
+1228.1.1=
+{
+holder=30436 #Gottfried von Naumburg
+}
+1234.1.1=
+{
+holder=30437 #Heinrich von Ösel
+}
+1236.9.22=
+{
+liege="k_teutonic_state"
+}
+1260.1.1=
+{
+holder=30438 #Hermann von Buxthoeven
+}
+1285.1.1=
+{
+holder=30439 #Heinrich II von Osel
+}
+1294.1.1=
+{
+holder=30440 #Konrad von Osel
+}
+1307.1.1=
+{
+holder=30441 #Hartung von Osel
+}
+1321.1.1=
+{
+holder=30442 #Jakob von Osel
+}
+1341.10.1={
+	holder=810018 #Ludolf König von Wattzau
+}
+1345.1.1={
+	holder=810019 #Heinrich Dusemer
+}
+1351.1.1={
+	holder=810020 #Winrich von Kniprode
+}
+1382.6.24={
+	holder=810021 #Konrad Zöllner von Rotenstein
+}
+1390.8.20={
+	holder=810022 #Konrad von Wallenrode
+}
+1393.7.23={
+	holder=810023 #Konrad von Jungingen
+}

@@ -1,0 +1,83 @@
+800685 = { #Caliph of Ifriqiya
+	name="Ahmad" 
+	dynasty=7276
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=33036
+	
+	1339.1.1 = {
+		birth = yes
+	}
+	1394.7.6 = {
+		death = yes
+	}
+}
+800686 = { #Daughter of Caliph of Ifriqiya
+	name="Jadiya" 
+	dynasty=7276
+	religion="sunni"
+	culture="maghreb_arabic"
+	female = yes
+	father=800685
+	
+	1359.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+801126 = { #Caliph of Ifriqiya
+	name="Abd-al-Aziz" 
+	dynasty=7276
+	religion="sunni"
+	culture="maghreb_arabic"
+	#female = yes
+	father=800685
+	
+	1361.1.1 = {
+		birth = yes
+	}
+	1434.1.1 = {
+		death = yes
+	}
+}
+801127 = {
+	name="Ali"
+	dynasty=1027012
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=155107
+	1310.1.1 = {
+		birth=yes
+	}
+	1374.1.1 = {
+		death=yes
+	}
+}
+801128 = {
+	name="Duwud"
+	dynasty=1027012
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=801127
+	1363.1.1 = {
+		birth=yes
+	}
+	1420.1.1 = {
+		death=yes
+	}
+}
+801130 = {
+	name="Yahya"
+	dynasty=1027021
+	religion="sunni"
+	culture="maghreb_arabic"
+	father=155239
+	1345.1.1 = {
+		birth=yes
+	}
+	1401.1.1 = {
+		death=yes
+	}
+}

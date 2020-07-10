@@ -1,0 +1,310 @@
+####################
+#####  Gryfita  ####
+####################
+
+820500 = { #
+	name = "Kazimierz" #Casimir IV, Duke of Pomerania
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=471655 #Bogislaw V
+	mother=471504 #Elizabeth of Poland
+
+	1351.1.1 = {
+		birth = yes
+	}
+	1377.2.1 = {
+		death = yes
+	}
+}
+820501 = { #
+	name = "Izabela" #
+	dynasty = 177 #
+	female=yes
+
+	culture = pommeranian
+	religion = catholic
+
+	father=471655 #Bogislaw V
+	mother=471504 #Elizabeth of Poland
+
+	1347.1.1 = {
+		birth = yes
+	}
+	1363.1.1 = {add_spouse = 462614} #Karl IV
+	1393.4.15 = {
+		death = yes
+	}
+}
+820502 = { #
+	name = "Wartislaw" #
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=471655 #Bogislaw V
+	mother=802521 #Adelheid of Brunswick-Grubenhagen
+
+	1363.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {add_spouse = 802534} #Maria of Mecklenburg
+	1394.1.1 = {
+		death = yes
+	}
+}
+820503 = { #
+	name = "Bogislaw" #
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=471655 #Bogislaw V
+	mother=802521 #Adelheid of Brunswick-Grubenhagen
+
+	1364.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {add_spouse=802560} #Sophia of Holstein
+	1418.2.11 = {
+		death = yes
+	}
+}
+820504 = { #
+	name = "Barnim" #
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=471655 #Bogislaw V
+	mother=802521 #Adelheid of Brunswick-Grubenhagen
+
+	1369.1.1 = {
+		birth = yes
+	}
+	1402.5.16 = {
+		death = yes
+	}
+}
+820505 = { #
+	name = "Malgorzata" # Duchess of Austria
+	dynasty = 177 #
+	female=yes
+
+	culture = pommeranian
+	religion = catholic
+
+	father=471655 #Bogislaw V
+	mother=802521 #Adelheid of Brunswick-Grubenhagen
+
+	1366.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+820506 = { #
+	name = "Bogislaw" # King of Norway, Denmark, and Sweden
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=820502 #Wartislaw of Pomerania
+	mother=802534
+
+	1381.1.1 = {
+		birth = yes
+	}
+	1389.9.8 = {
+		name = "Erik"
+	}
+	1459.9.24 = {
+		death = yes
+	}
+}
+820508 = { #
+	name = "Katarina" # 
+	dynasty = 177 #
+	female=yes
+
+	culture = pommeranian
+	religion = catholic
+
+	father=820502 #Wartislaw of Pomerania
+	mother=802534
+
+	1390.1.1 = {
+		birth = yes
+	}
+	1426.3.4 = {
+		death = yes
+	}
+}
+
+820507 = { #
+	name = "Wartislaw" # Duke of Pomerania
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=471653
+
+	1345.1.1 = {
+		birth = yes
+	}
+	1394.6.13 = {
+		death = yes
+	}
+}
+
+820509 = { #
+	name = "Barnim" # Duke of Pomerania
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=820507 
+
+	1365.1.1 = {
+		birth = yes
+	}
+	1389.1.1 = {add_spouse = 802660} # Veronika von Hohenzollern
+	1405.9.22 = {
+		death = yes
+	}
+}
+
+820510 = { #
+	name = "Wartislaw" # Duke of Pomerania
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=820507 
+
+	1373.1.1 = {
+		birth = yes
+	}
+	1415.8.23 = {
+		death = yes
+	}
+}
+
+820511 = { #
+	name = "Wartislaw" # 
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=820510 
+
+	1398.1.1 = {
+		birth = yes
+	}
+	1414.1.1 = {
+		death = yes
+	}
+}
+
+820512 = { #
+	name = "Zofia" #
+	dynasty = 177 #
+	female=yes
+
+	culture = pommeranian
+	religion = catholic
+
+	father=820507 
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+
+
+820513 = { #
+	name = "Bogislaw" # Duke of Pomerania
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=471653
+
+	1350.1.1 = {
+		birth = yes
+	}
+	1389.1.1 = {add_spouse = 802674}
+	1393.1.1 = {
+		death = yes
+	}
+}
+
+820514 = { #
+	name = "Izabela" #
+	dynasty = 177 #
+	female=yes
+
+	culture = pommeranian
+	religion = catholic
+
+	father=471653
+
+	1355.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+
+
+820515 = { #
+	name = "Barnim" # Duke of Pomerania
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=820509
+	mother=802660 
+
+	1390.1.1 = {
+		birth = yes
+	}
+	1450.9.22 = {
+		death = yes
+	}
+}
+
+820516 = { #
+	name = "Wartislaw" # Duke of Pomerania
+	dynasty = 177 #
+
+	culture = pommeranian
+	religion = catholic
+
+	father=820509
+	mother=802660
+
+	1400.1.1 = {
+		birth = yes
+	}
+	1457.4.17 = {
+		death = yes
+	}
+}

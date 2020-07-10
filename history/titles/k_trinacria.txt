@@ -1,0 +1,25 @@
+1282.3.20={
+	holder=460590
+	law=succ_primogeniture
+	effect={
+		insert_title_history=k_sicily
+	}
+}
+1285.11.11={
+	holder=460560
+}
+1302.8.1={
+	holder=461500
+}
+1337.6.24={
+	holder = 461502
+}
+1342.8.15 = {
+	holder = 461503
+}
+1355.1.1 = {
+	holder = 800305
+}
+1377.1.27 = {
+	holder = 800306
+}

@@ -1,0 +1,8 @@
+936.1.1 = {
+	historical_nomad = yes
+	holder = 260695
+	liege = k_pechenegs
+}
+1400.1.1 = {
+	holder = 0
+}

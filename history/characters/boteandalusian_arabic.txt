@@ -1,0 +1,133 @@
+800680 = {
+	name="Muhammad"
+	dynasty=101904
+	religion="sunni"
+	culture="andalusian_arabic"
+	father=487000
+	
+	1338.1.4 = {
+		birth = yes
+	}
+	1391.1.16 ={
+		death = yes
+	}
+}
+800681 = {
+	name="Isma'il"
+	dynasty=101904
+	religion="sunni"
+	culture="andalusian_arabic"
+	father=487000
+	
+	1338.10.2 = {
+		birth = yes
+	}
+	1360.6.24 ={
+		death = yes
+	}
+}
+800682= {
+	name="Yusuf"
+	dynasty=101904
+	religion="sunni"
+	culture="andalusian_arabic"
+	father=800680
+	
+	1358.1.1 = {
+		birth = yes
+	}
+	1378.5.11 = {
+		add_spouse = 800686
+	}
+	1392.10.3 ={
+		death = yes
+	}
+}
+800683= {
+	name="Yusuf"
+	dynasty=101904
+	religion="sunni"
+	culture="andalusian_arabic"
+	father=800682
+	
+	1376.1.1 = {
+		birth = yes
+	}
+	1417.11.9 ={
+		death = yes
+	}
+}
+800684= {
+	name="Muhammad"
+	dynasty=101904
+	religion="sunni"
+	culture="andalusian_arabic"
+	father=800682
+	
+	1377.1.1 = {
+		birth = yes
+	}
+	1408.5.13 ={
+		death = yes
+	}
+}
+800687= {
+	name="Isma'il"
+	dynasty=101904
+	religion="sunni"
+	culture="andalusian_arabic"
+	father= 800682
+	mother = 800686
+	
+	1379.1.1 = {
+		birth = yes
+	}
+	1450.5.13 ={
+		death = yes
+	}
+}
+800688= {
+	name="Ali"
+	dynasty=101904
+	religion="sunni"
+	culture="andalusian_arabic"
+	father=800682
+	mother = 800686
+	
+	1382.1.1 = {
+		birth = yes
+	}
+	1450.5.13 ={
+		death = yes
+	}
+}
+800832= {
+	name="Ahmad"
+	dynasty=101904
+	religion="sunni"
+	culture="andalusian_arabic"
+	father=800682
+	mother = 800686
+	
+	1383.6.1 = {
+		birth = yes
+	}
+	1450.5.13 ={
+		death = yes
+	}
+}
+801129 = {
+	name="Ahmad"
+	dynasty=101904
+	religion="sunni"
+	culture="andalusian_arabic"
+	father=800682
+	mother = 800686
+	
+	1383.6.1 = {
+		birth = yes
+	}
+	1450.5.13 ={
+		death = yes
+	}
+}

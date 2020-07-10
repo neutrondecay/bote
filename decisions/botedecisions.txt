@@ -1,0 +1,23 @@
+decisions = {
+	
+	welsh_independence = {
+		ai = no
+		potential = {
+			character = 800075
+		}
+		effect = {
+			k_england = {
+				holder_scope = {
+					ROOT = {
+						war = {
+							target = PREV
+							casus_belli = owains_war
+						}
+					}
+				}
+			}
+			
+		}
+	}
+	
+}

@@ -1,0 +1,691 @@
+###Ottoman Dynasty
+800458 = { #Yahsi Ottoman
+	name="Yahsi"
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	female = yes
+	
+	father=476502
+	
+	1345.1.1={
+		birth=yes
+	}
+	1389.6.15={
+		death=yes
+	}
+}
+800459 = { #Savci Bey Ottoman
+	name="Savci"
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	trait = blinded
+	
+	father=476502
+	
+	1348.1.1={
+		birth=yes
+	}
+	1374.1.1={
+		death=yes
+	}
+}
+800460 = { #Sultan Bayezid I
+	name = "Bayezid"
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	diplomacy = 4
+	martial = 7
+	stewardship = 3
+	learning = 6
+	trait = skilled_tactician
+	trait = hedonist
+	trait = gluttonous
+	trait = drunkard
+	trait = lustful
+	trait = ambitious
+	trait = aggressive_leader
+	trait = wroth
+	disallow_random_traits = yes
+	father=476502
+	
+	1354.5.10={
+		birth=yes
+	}
+	1380.1.1 = {
+		give_nickname = the_thunderbolt
+	}
+	1394.1.1 = {
+		raise_levies = {
+			location = 496
+			force_mult = 1
+		}
+	}
+	1402.7.20 = {
+		raise_levies = {
+			dismiss = yes
+			location = 496
+			force_mult = 1
+		}
+	}
+	1403.3.8={
+		death=yes
+	}
+}
+800461 = { #Yakub Ottoman
+	name="Yakub"
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	
+	father=476502
+	
+	1356.3.11={
+		birth=yes
+	}
+	1389.6.15={
+		death=yes
+	}
+}
+800487 = { #Ibrahim Ottoman
+	name="Ibrahim"
+	dynasty=7
+	religion="sunni"
+	culture="turkish"
+	
+	father=476502
+	
+	1359.8.20={
+		birth=yes
+	}
+	1400.1.3={
+		death=yes
+	}
+}
+800797 = { #Fictional ruler of c_abydos
+	name="Isma'il"
+	dynasty=7300
+	religion="sunni"
+	culture="turkish"
+	father=34231
+	
+	1360.1.1={
+		birth=yes
+	}
+	1401.1.1={
+		death=yes
+	}
+}
+801017 = {
+	name="Isa"
+	dynasty=12107
+	religion="sunni"
+	culture="turkish"
+	father=71890
+	1350.1.1={
+		birth = yes
+	}
+	1410.1.1={
+		death = yes
+	}
+}
+801018 = {
+	name="Ahmed"
+	dynasty=12106
+	religion="sunni"
+	culture="turkish"
+	father=71893
+	1338.1.1={
+		birth = yes
+	}
+	1391.7.1={
+		death = yes
+	}
+}
+801019 = { #Fictional ruler of Sardis and Laodikeia
+	name="Mehmed"
+	dynasty=7375
+	religion="sunni"
+	culture="turkish"
+	father=93532
+	
+	1355.1.1={
+		birth = yes
+	}
+	1420.1.1={
+		death = yes
+	}
+}
+801020 = {
+	name="Yakub"
+	dynasty=12104
+	religion="sunni"
+	culture="turkish"
+	father=71869
+	
+	1354.1.1={
+		birth=yes
+	}
+	1405.1.1={
+		death=yes
+	}
+}
+801021 = {
+	name="Khidr"
+	dynasty=12104
+	religion="sunni"
+	culture="turkish"
+	father=71869
+	
+	1356.1.1={
+		birth=yes
+	}
+	1405.1.1={
+		death=yes
+	}
+}
+801022 = {
+	name="Khidr"
+	dynasty=12104
+	religion="sunni"
+	culture="turkish"
+	father=71869
+	
+	1357.1.1={
+		birth=yes
+	}
+	1405.1.1={
+		death=yes
+	}
+}
+801023 = {
+	name="Mubariz"
+	dynasty=12109
+	religion="sunni"
+	culture="turkish"
+	father=476400
+	
+	1340.1.1={
+		birth = yes
+	}
+	1380.1.1={
+		death = yes
+	}
+}
+801024 = {
+	name="Osman"
+	dynasty=12109
+	religion="sunni"
+	culture="turkish"
+	father=801023
+	
+	1360.1.1={
+		birth = yes
+	}
+	1421.1.1={
+		death = yes
+	}
+}
+#Karmanid Dynasty
+801025 = {
+	name = "Mahmut"
+	dynasty = 3000110
+	culture = turkish
+	religion = sunni
+	
+	1255.1.1 = {
+		birth = yes
+	}
+	1340.1.1 = {
+		death = yes
+	}
+}
+801026 = {
+	name = "Musa"
+	dynasty = 3000110
+	culture = turkish
+	religion = sunni
+	father = 801025
+	1290.1.1 = {
+		birth = yes
+	}
+	1356.1.1 = {
+		death = yes
+	}
+}
+801027 = {
+	name = "Ibrahim"
+	dynasty = 3000110
+	culture = turkish
+	religion = sunni
+	father = 801025
+	
+	1293.1.1 = {
+		birth = yes
+	}
+	1343.1.1 = {
+		death = yes
+	}
+}
+801028 = {
+	name = "Halil"
+	dynasty = 3000110
+	culture = turkish
+	religion = sunni
+	father = 801025
+	
+	1295.1.1 = {
+		birth = yes
+	}
+	1340.1.1 = {
+		death = yes
+	}
+}
+801029 = {
+	name = "Ahmet"
+	dynasty = 3000110
+	culture = turkish
+	religion = sunni
+	father = 801027
+	
+	1310.1.1 = {
+		birth = yes
+	}
+	1350.1.1 = {
+		death = yes
+	}
+}
+801030 = {
+	name = "Semseddin"
+	dynasty = 3000110
+	culture = turkish
+	religion = sunni
+	father = 801027
+	
+	1313.1.1 = {
+		birth = yes
+	}
+	1352.1.1 = {
+		death = yes
+	}
+}
+801031 = {
+	name = "Süleyman"
+	dynasty = 3000110
+	culture = turkish
+	religion = sunni
+	father = 801028
+	
+	1316.1.1 = {
+		birth = yes
+	}
+	1361.1.1 = {
+		death = yes
+	}
+}
+801032 = {
+	name = "Süleyman"
+	dynasty = 3000110
+	culture = turkish
+	religion = sunni
+	father = 801028
+	
+	1319.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+###Ramadanid
+801034 = {
+	name = "Ramazan"
+	dynasty = 3000111
+	culture = turkish
+	religion = sunni
+	
+	1303.5.15 = {
+		birth = yes
+	}
+	1378.6.14 = {
+		death = yes
+	}
+}
+801035 = {
+	name = "Ibrahim"
+	dynasty = 3000111
+	culture = turkish
+	religion = sunni
+	father = 801034
+	
+	1324.9.30 = {
+		birth = yes
+	}
+	1383.4.7 = {
+		death = yes
+	}
+}
+801036 = {
+	name = "Ahmed"
+	dynasty = 3000111
+	culture = turkish
+	religion = sunni
+	father = 801034
+	
+	1339.9.30 = {
+		birth = yes
+	}
+	1416.4.7 = {
+		death = yes
+	}
+}
+801037 = {
+	name = "Ibrahim"
+	dynasty = 3000111
+	culture = turkish
+	religion = sunni
+	father = 801036
+	
+	1370.7.20 = {
+		birth = yes
+	}
+	1418.4.7 = {
+		death = yes
+	}
+}
+801038 = {
+	name = "Hamza"
+	dynasty = 3000111
+	culture = turkish
+	religion = sunni
+	father = 801036
+	
+	1373.7.20 = {
+		birth = yes
+	}
+	1429.4.7 = {
+		death = yes
+	}
+}
+801039 = {
+	name = "Mehmed"
+	dynasty = 3000111
+	culture = turkish
+	religion = sunni
+	father = 801036
+	
+	1390.7.20 = {
+		birth = yes
+	}
+	1452.4.7 = {
+		death = yes
+	}
+}
+###Dulkadir dynasty
+801040 = {
+	name="Shaban"
+	dynasty=7362
+	religion="sunni"
+	culture="turkish"
+	father=93418
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		death = yes
+	}
+}
+801041 = {
+	name="Sadaka"
+	dynasty=7362
+	religion="sunni"
+	culture="turkish"
+	father=93418
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+801042 = {
+	name="Nasireddin"
+	dynasty=7362
+	religion="sunni"
+	culture="turkish"
+	father=801041
+	
+	1372.1.1 = {
+		birth = yes
+	}
+	1442.1.1 = {
+		death = yes
+	}
+}
+801043 = {
+	name="Ali"
+	dynasty=12103
+	religion="sunni"
+	culture="turkish"
+	father=71865
+	1353.1.1=	{
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
+801044 = {
+	name="Ali"
+	dynasty=12103
+	religion="sunni"
+	culture="turkish"
+	father=801043
+	
+	1373.1.1=	{
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+801045 = {
+	name="Kadi"
+	dynasty=3000112
+	religion="sunni"
+	culture="turkish"
+	
+	1345.1.8 = {
+		birth = yes
+	}
+	1398.1.8 = {
+		death = yes
+	}
+}
+801046 = {
+	name="Zayn"
+	dynasty=3000112
+	religion="sunni"
+	culture="turkish"
+	father = 801045
+	
+	1370.1.8 = {
+		birth = yes
+	}
+	1403.1.8 = {
+		death = yes
+	}
+}
+801118 = {
+	name = "Mutaharten"
+	dynasty=3000119
+	religion="sunni"
+	culture="turkish"
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1403.1.1 = {
+		death = yes
+	}
+}
+801119 = {
+	name = "Mehmed"
+	dynasty=3000119
+	religion="sunni"
+	culture="turkish"
+	father = 801118
+	1360.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+801120 = {
+	name = "Hasan"
+	dynasty=3000119
+	religion="sunni"
+	culture="turkish"
+	father = 801119
+	1380.1.1 = {
+		birth = yes
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+801121 = {
+	name="Yusuf"
+	dynasty=20089
+	religion="sunni"
+	culture="turkish"
+	
+	father=476351
+	
+	1320.1.1={
+		birth=yes
+	}
+	1346.1.1={
+		death=yes
+	}
+}
+801122 = {
+	name="Adil"
+	dynasty=20089
+	religion="sunni"
+	culture="turkish"
+	
+	father=801121
+	
+	1322.1.1={
+		birth=yes
+	}
+	1361.1.1={
+		death=yes
+	}
+}
+801123 = {
+	name="Bayezid"
+	dynasty=20089
+	religion="sunni"
+	culture="turkish"
+	
+	father=801122
+	
+	1347.1.1={
+		birth=yes
+	}
+	1385.1.1={
+		death=yes
+	}
+}
+801124 = {
+	name="Süleyman"
+	dynasty=20089
+	religion="sunni"
+	culture="turkish"
+	
+	father=801123
+	
+	1365.1.1={
+		birth=yes
+	}
+	1392.1.1={
+		death=yes
+	}
+}
+801125 = {
+	name="Isfendiyar"
+	dynasty=20089
+	religion="sunni"
+	culture="turkish"
+	
+	father=801123
+	
+	1381.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
+# 801118 = { I literally made them twice... bruh
+	# name="Eretna"
+	# dynasty=3000119
+	# religion="sunni"
+	# culture="turkish"
+	
+	# 1296.1.1 = {
+		# birth = yes
+	# }
+	# 1352.1.1 = {
+		# death = yes
+	# }
+# }
+# 801119 = {
+	# name="Mehmed"
+	# dynasty=3000119
+	# religion="sunni"
+	# culture="turkish"
+	# father = 801118
+	
+	# 1320.1.1 = {
+		# birth = yes
+	# }
+	# 1366.1.1 = {
+		# death = yes
+	# }
+# }
+# 801120 = {
+	# name="Ali"
+	# dynasty=3000119
+	# religion="sunni"
+	# culture="turkish"
+	# father = 801119
+	
+	# 1353.1.1 = {
+		# birth = yes
+	# }
+	# 1380.8.1 = {
+		# death = yes
+	# }
+# }
+# 801121 = {
+	# name="Mehmed"
+	# dynasty=3000119
+	# religion="sunni"
+	# culture="turkish"
+	# father = 801120
+	
+	# 1373.1.1 = {
+		# birth = yes
+	# }
+	# 1390.8.1 = {
+		# death = yes
+	# }
+# }

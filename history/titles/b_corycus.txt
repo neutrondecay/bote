@@ -1,0 +1,13 @@
+1361.1.1={
+	holder=461910 # Peter I of Cyprus
+	liege=k_cyprus
+}
+1369.1.1={
+	holder=802322 # Peter II of Cyprus
+}
+1382.10.13={
+	holder= 461912 #James I of Cyprus
+}
+1398.10.9={
+	holder= 802327 # Janus of Cyprus
+}

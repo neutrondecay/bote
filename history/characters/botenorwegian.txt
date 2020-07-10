@@ -1,0 +1,770 @@
+###Raud
+800862 = {
+	name = "Jon"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	
+	1248.1.1 = {
+		birth = yes
+	}
+	1312.7.1 = {
+		death = yes
+		effect_even_if_dead = {
+			c_450752 = { #Ragnhild exists in vanilla
+				set_father = 800862
+			}
+		}
+	}
+}
+800863 = {
+	name = "Tore"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	father = 800862
+	
+	1275.1.1 = {
+		birth = yes
+	}
+	1310.7.1 = {
+		death = yes
+	}
+}
+800864 = {
+	name = "Hafthor"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	father = 800862
+	
+	1277.1.1 = {
+		birth = yes
+	}
+	1302.1.3={ = {
+		effect_even_if_dead = {
+			c_450662 = {
+				remove_spouse = 450661
+			}
+		}
+		add_spouse = 450662
+	}
+	1319.4.20 = {
+		death = yes
+	}
+}
+800865 = {
+	name = "Ivar"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	father = 800862
+	
+	1278.1.1 = {
+		birth = yes
+	}
+	1309.11.10 = {
+		death = yes
+	}
+}
+800866 = {
+	name = "Jon"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	father = 800864
+	mother = 450662
+	1312.1.1 = {
+		birth = yes
+	}
+	1312.1.3 = {
+		effect_even_if_dead = { #Rewriting vanilla characters
+			c_450660 = {
+				set_mother = 0
+			}
+			c_450670 = {
+				set_mother = 0
+			}
+		}
+	}
+	1330.1.1 = {
+		add_spouse = 450640
+	}
+	1393.2.4 = {
+		death = yes
+	}
+}
+800905 = {
+	name = "Sigurd"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	father = 800864
+	mother = 450662
+	
+	1315.1.1 = {
+		birth = yes
+	}
+	1337.1.1 = {
+		add_spouse = 450790
+	}
+	1392.5.4 = {
+		death = yes
+	}
+}
+800907 = {
+	name = "Agnes"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	female = yes
+	father = 800905
+	mother = 450790
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1404.5.4 = {
+		death = yes
+	}
+}
+800908 = {
+	name = "Ingebørg"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	female = yes
+	father = 800905
+	mother = 450790
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1363.5.4 = {
+		death = yes
+	}
+}
+800909 = {
+	name = "Dag"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	#female = yes
+	father = 800905
+	mother = 450790
+	
+	1337.12.13 = {
+		birth = yes
+	}
+	1400.5.4 = {
+		death = yes
+	}
+}
+800912 = {
+	name = "Astrid"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	female = yes
+	father = 800909
+	trait = legit_bastard
+	1352.12.13 = {
+		birth = yes
+	}
+	1400.5.4 = {
+		death = yes
+	}
+}
+800913 = {
+	name = "Håkon"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	#female = yes
+	mother = 800912
+	trait = legit_bastard
+	
+	1375.12.13 = {
+		birth = yes
+	}
+	1450.5.4 = {
+		death = yes
+	}
+}
+800910 = {
+	name = "Håkon"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	#female = yes
+	father = 800905
+	mother = 450790
+	
+	1354.1.1 = {
+		birth = yes
+	}
+	1378.1.1 = {
+		add_spouse = 800914
+	}
+	1407.5.4 = {
+		death = yes
+	}
+}
+800914 = {
+	name = "Sigrid"
+	dynasty = 2021
+	culture = norwegian
+	religion = catholic
+	female = yes
+	1365.1.1 = {
+		birth = yes
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+800915 = {
+	name = "Ingebørg"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	female = yes
+	father = 800910
+	mother = 800914
+	
+	1381.1.1 = {
+		birth = yes
+	}
+	1417.5.4 = {
+		death = yes
+	}
+}
+800911 = {
+	name = "Cecilia"
+	dynasty = 132
+	culture = norwegian
+	religion = catholic
+	female = yes
+	father = 800905
+	mother = 450790
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1363.10.24 = {
+		death = yes
+	}
+}
+800867 = {
+	name="Gudlaug"
+	dynasty = 150
+	female = yes
+	religion="catholic"
+	culture="norwegian"
+	mother=450640
+	trait = bastard
+	1336.1.2={
+		birth=yes
+	}
+	1380.1.2={
+		death=yes
+	}
+}
+800868 = {
+	name="Haakon"
+	dynasty = 132
+	religion="catholic"
+	culture="norwegian"
+	father = 800866
+	mother = 450640
+	
+	1338.1.2={
+		birth=yes
+	}
+	1391.1.2={
+		death=yes
+	}
+}
+800869 = {
+	name="Ivar"
+	dynasty = 132
+	religion="catholic"
+	culture="norwegian"
+	father = 800866
+	mother = 450640
+	
+	1332.1.2={
+		birth=yes
+	}
+	1391.1.2={
+		death=yes
+	}
+}
+800870 = {
+	name="Brynjulf"
+	dynasty = 132
+	religion="catholic"
+	culture="norwegian"
+	father = 800866
+	mother = 450640
+	
+	1358.1.2 = {
+		birth = yes
+	}
+	1422.3.7 = {
+		death = yes
+	}
+}
+800871 = {
+	name="Ulv"
+	dynasty = 132
+	religion="catholic"
+	culture="norwegian"
+	father = 800866
+	mother = 450640
+	
+	1369.1.2 = {
+		birth = yes
+	}
+	1415.3.7 = {
+		death = yes
+	}
+}
+800872 = {
+	name="Cecilia"
+	dynasty = 132
+	religion="catholic"
+	culture="norwegian"
+	female = yes
+	father = 800866
+	mother = 450640
+	
+	1371.1.2 = {
+		birth = yes
+	}
+	1411.3.7 = {
+		death = yes
+	}
+}
+800873 = {
+	name="Snefrid"
+	dynasty = 132
+	religion="catholic"
+	culture="norwegian"
+	female = yes
+	father = 800868
+	mother = 800874
+	
+	1370.1.2={
+		birth=yes
+	}
+	1389.1.1 = {
+		birth = yes
+	}
+	1404.1.2={
+		death=yes
+	}
+}
+800874 = {
+	name="Margrethe"
+	dynasty = 3000085
+	religion="catholic"
+	culture="norwegian"
+	female = yes
+	
+	1341.1.2={
+		birth=yes
+	}
+	1365.1.1 = {
+		add_spouse = 800868
+	}
+	1425.1.2={
+		death=yes
+	}
+}
+800875 = {
+	name = "Kønike"
+	dynasty = 3000086
+	culture = norwegian
+	religion = catholic
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1392.1.1 = {
+		death = yes
+	}
+}
+800876 = {
+	name = "Gotskalk"
+	dynasty = 3000086
+	culture = norwegian
+	religion = catholic
+	father = 800875
+	mother = 800874
+	
+	1390.10.31 = {
+		birth = yes
+	}
+	1457.1.1 = {
+		death = yes
+	}
+}
+800877 = {
+	name = "Ragnvald"
+	dynasty = 3000086
+	culture = norwegian
+	religion = catholic
+	father = 800875
+	mother = 800874
+	
+	1391.12.20 = {
+		birth = yes
+	}
+	1460.1.1 = {
+		death = yes
+	}
+}
+800916 = { #Fictional ruler of Romerike
+	name = "Gotskalk"
+	dynasty = 1062035
+	religion = catholic
+	culture = norwegian
+	father = 280009
+	
+	1331.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+###Rova
+800917 = {
+	name="Kristina"
+	female = yes
+	dynasty=134
+	religion="catholic"
+	culture="norwegian"
+	father=450740
+	mother=450741
+	
+	1332.1.2={
+		birth = yes
+	}
+	1350.1.1 = {
+		add_spouse = 800918
+	}
+	1375.1.2={
+		death = yes
+	}
+}
+###Giske
+800934 = {
+	name="Gyrid"
+	female = yes
+	dynasty=129
+	religion="catholic"
+	culture="norwegian"
+	father=450780
+	mother=450783
+	1337.1.2={
+		birth = yes
+	}
+	1385.1.2={
+		death = yes
+	}
+}
+###Rømer
+800935 = {
+	name = "Otte"
+	dynasty = 2044
+	culture = norwegian
+	religion = catholic
+	
+	1334.1.1 = {
+		birth = yes
+	}
+	1355.1.1 = {
+		add_spouse = 450788
+	}
+	1409.8.14 = {
+		death = yes
+	}
+}
+800936 = {
+	name = "Svale"
+	dynasty = 2044
+	culture = norwegian
+	religion = catholic
+	father = 800935
+	mother = 450788
+	1363.1.1 = {
+		birth = yes
+	}
+	1409.8.14 = {
+		death = yes
+	}
+}
+###Fictional rulers of Gudbrandsdalen
+800937 = {
+	name = "Ragnvald"
+	dynasty = 1062038
+	culture = norwegian
+	religion = catholic
+	father = 280017
+	
+	1310.11.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+800938 = {
+	name = "Arne"
+	dynasty = 1062038
+	culture = norwegian
+	religion = catholic
+	father = 800937
+	
+	1360.11.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+800939 = {
+	name="Hallsten"
+	# AKA: Hallsten Torleifsson
+	dynasty=127
+
+	religion="catholic"
+	culture="norwegian"
+	trait="patient"
+	trait="cynical"
+	trait="martial_cleric"
+	father=450801
+	mother=450802
+	1272.1.2={
+		birth="1272.1.2"
+	}
+	1297.1.2={
+		add_spouse = 450812
+	}
+	1345.1.1={
+		death="1345.1.1"
+	}
+}
+###
+800940 = {
+	name = "Astrid"
+	culture = norwegian
+	religion = catholic
+	female = yes
+	
+	1320.1.1 = {
+		birth = yes
+	}
+	1340.1.1 = {
+		add_spouse = 450807
+	}
+	1363.1.1 = {
+		death = yes
+	}
+}
+###Skanke dynasty
+800941 = {
+	name="Johan"
+	dynasty=127
+	religion="catholic"
+	culture="norwegian"
+	father=450807
+	mother=800940
+	1343.1.2={
+		birth=yes
+	}
+	1370.1.1 = {
+		add_spouse = 800945
+	}
+	1410.1.2={
+		death=yes
+	}
+}
+800946 = {
+	name="Per"
+	dynasty=127
+	religion="catholic"
+	culture="norwegian"
+	father=800941
+	mother=800945
+	1371.1.2={
+		birth=yes
+	}
+	1435.1.2={
+		death=yes
+	}
+}
+800947 = {
+	name="Anders"
+	dynasty=127
+	religion="catholic"
+	culture="norwegian"
+	father=800941
+	mother=800945
+	1372.1.2={
+		birth=yes
+	}
+	1435.1.2={
+		death=yes
+	}
+}
+800948 = {
+	name="Margit"
+	dynasty=127
+	religion="catholic"
+	culture="norwegian"
+	female = yes
+	father=800941
+	mother=800945
+	1378.1.2={
+		birth=yes
+	}
+	1435.1.2={
+		death=yes
+	}
+}
+800949 = {
+	name="Olof"
+	dynasty=127
+	religion="catholic"
+	culture="norwegian"
+	#female = yes
+	father=800941
+	mother=800945
+	1387.1.2={
+		birth=yes
+	}
+	1435.1.2={
+		death=yes
+	}
+}
+800942 = {
+	name="Karl"
+	dynasty=127
+	religion="catholic"
+	culture="norwegian"
+	father=450807
+	mother=800940
+	trait = twin
+	1360.1.2={
+		birth=yes
+	}
+	1430.1.2={
+		death=yes
+	}
+}
+800943 = {
+	name="Önd"
+	dynasty=127
+	religion="catholic"
+	culture="norwegian"
+	father=450807
+	mother=800940
+	trait = twin
+	1360.1.2={
+		birth=yes
+	}
+	1397.1.2={
+		death=yes
+	}
+}
+800944 = {
+	name="Ture"
+	dynasty=127
+	religion="catholic"
+	culture="norwegian"
+	father=450807
+	mother=800940
+	
+	1362.1.2={
+		birth=yes
+	}
+	1402.1.2={
+		death=yes
+	}
+}
+800945 = {
+	name = "Redgerd"
+	dynasty = 3000094
+	culture = norwegian
+	religion = catholic
+	female = yes
+	1345.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+800950 = {
+	name="Ragnhild"
+	religion="catholic"
+	culture="norwegian"
+	female = yes
+	
+	1312.1.2={
+		birth=yes
+	}
+	1340.1.1 = {
+		add_spouse = 450803
+	}
+	1375.1.2={
+		death=yes
+	}
+}
+800951 = {
+	name="Magnus"
+	dynasty=127
+	religion="catholic"
+	culture="norwegian"
+	father=450803
+	mother=800950
+	1349.1.2={
+		birth=yes
+	}
+	1430.1.2={
+		death=yes
+	}
+}
+800952 = {
+	name="Kristina"
+	religion="catholic"
+	culture="norwegian"
+	female = yes
+	
+	1350.1.2={
+		birth=yes
+	}
+	1370.1.1 = {
+		add_spouse = 800951
+	}
+	1375.1.2={
+		death=yes
+	}
+}
+800953 = {
+	name="Nils"
+	dynasty=127
+	religion="catholic"
+	culture="norwegian"
+	father=800951
+	mother=800952
+	1395.1.2={
+		birth=yes
+	}
+	1480.1.2={
+		death=yes
+	}
+}

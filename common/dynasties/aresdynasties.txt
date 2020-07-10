@@ -1,0 +1,82 @@
+310001 = {
+	name = "Valois-Burgundy"
+	religion = "catholic"
+}
+
+310002={
+	name="König von Wattzau"
+	religion="catholic"
+	culture="german"
+}
+
+310003={
+	name="Dusemer von Arffberg"
+	religion="catholic"
+	culture="german"
+}
+
+310004={
+	name="von Kniprode"
+	religion="catholic"
+	culture="german"
+}
+
+310005={
+	name="Zöllner von Rotenstein"
+	religion="catholic"
+	culture="german"
+}
+
+310006={
+	name="von Wallenrode"
+	religion="catholic"
+	culture="german"
+}
+
+310007={
+	name="von Jungingen"
+	religion="catholic"
+	culture="german"
+}
+
+310008={
+	name="von Dolen"
+	religion="catholic"
+	culture="german"
+}
+
+310009={
+	name="von Vyffhusen"
+	religion="catholic"
+	culture="german"
+}
+310010={
+	name="Blomberg"
+	religion="catholic"
+	culture="german"
+}
+310011={
+	name="von Sinten"
+	religion="catholic"
+	culture="german"
+}
+310012={
+	name="von Wallenrodt"
+	religion="catholic"
+	culture="german"
+}
+310013={
+	name="Viffhusen"
+	religion="catholic"
+	culture="german"
+}
+310014={
+	name="von Velde"
+	religion="catholic"
+	culture="german"
+}
+310015={
+	name="Damerow"
+	religion="catholic"
+	culture="german"
+}

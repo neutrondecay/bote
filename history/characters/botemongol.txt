@@ -1,0 +1,15 @@
+855200 = {
+	name = "Solkhomir"
+	dynasty = 350013
+
+	culture = mongol
+	religion = sunni
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1372.1.1 = {
+	    religion = orthodox
+		name="Ivan"
+	}
+}

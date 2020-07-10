@@ -1,0 +1,181 @@
+830000 = { #Mircea 'the Elder'
+	name = "Mircea"
+	dynasty = 764
+	culture = romanian
+	religion = orthodox
+	trait = brilliant_strategist
+	trait = narrow_flank_leader 
+	trait = ambitious
+	trait = brave
+	trait = zealous
+	martial = 15
+	diplomacy = 5
+	intrigue = 7
+	stewardship = 10
+	learning = 5
+	historical = yes
+	father = 475556
+	dna = aaccimcadav
+	1355.1.1 = {
+		birth = yes
+		give_nickname = bote_nick_the_elder
+	}
+	1418.1.31 = {
+		death = yes
+	}
+}
+830001 = { #Vlad Dracul/Son of Mircea
+	name = "Vlad"
+	dynasty = 764
+	culture = romanian
+	religion = orthodox
+	historical = yes
+	father = 830000
+	trait = bastard 
+	1398.1.1 = {
+		birth = yes
+	}
+	1447.12.1 = {
+		death = yes
+	}
+}
+830002 = { #Mihail/Son of Mircea
+	name = "Mihail"
+	dynasty = 764
+	culture = romanian
+	religion = orthodox
+	historical = yes
+	father = 830000
+	mother = 830007
+	1394.1.1 = {
+		birth = yes
+	}
+	1420.8.1 = {
+		death = yes
+	}
+}
+830003 = { #Radu Empty-Head/Son of Mircea
+	name = "Radu"
+	dynasty = 764
+	culture = romanian
+	religion = orthodox
+	historical = yes
+	father = 830000
+	trait = bastard 
+	1392.1.1 = {
+		birth = yes
+	}
+	1420.8.1 = {
+		death = yes
+	}
+}
+830004 = { #Alexandru Aldea/Son of Mircea
+	name = "Alexandru Aldea"
+	dynasty = 764
+	culture = romanian
+	religion = orthodox
+	historical = yes
+	father = 830000
+	trait = bastard 
+	1390.1.1 = {
+		birth = yes
+	}
+	1436.6.25 = {
+		death = yes
+	}
+}
+830005 = { #Dan/Vassal of Mircea
+	name = "Dan"
+	culture = romanian
+	religion = orthodox
+	1370.1.1 = {
+		birth = yes
+	}
+}
+830006 = { #Brata/Vassal of Mircea
+	name = "Brata"
+	culture = romanian
+	religion = orthodox
+	1375.1.1 = {
+		birth = yes
+	}
+}
+830008 = { #Roman/Father of Alexander
+	name = "Roman"
+	dynasty = 330001
+	culture = romanian
+	religion = orthodox
+	historical = yes
+	1340.1.1 = {
+		birth = yes
+	}
+	1400.6.1 = {
+		death = yes
+	}
+}
+830009 = { #Stefan/Son of Roman
+	name = "Stefan"
+	dynasty = 330001
+	culture = romanian
+	religion = orthodox
+	historical = yes
+	father = 830008
+	1364.1.1 = {
+		birth = yes
+	}
+	1399.6.25 = {
+		death = yes
+	}
+}
+830010 = { #Alexandru The Good
+	name = "Alexandru"
+	dynasty = 330001
+	culture = romanian
+	religion = orthodox
+	trait = grey_eminence
+	trait = administrator
+	trait = just
+	martial = 7
+	diplomacy = 10
+	intrigue = 7
+	stewardship = 15
+	learning = 5
+	historical = yes
+	father = 830004
+	1370.1.1 = {
+		birth = yes
+	}
+	1423.1.31 = {
+		death = yes
+	}
+}
+830011 = { #Iuga/Son of Roman
+	name = "Iuga"
+	dynasty = 330001
+	culture = romanian
+	religion = orthodox
+	historical = yes
+	father = 830008
+	1366.1.1 = {
+		birth = yes
+	}
+	1400.7.19 = {
+		death = yes
+	}
+}
+830012 = { #Ilie/Vassal of Alexandru
+	name = "Ilie"
+	culture = romanian
+	religion = orthodox
+	1380.1.1 = {
+		birth = yes
+	}
+}
+830013 = { #Vasile/Vassal of Alexandru
+	name = "Vasile"
+	culture = romanian
+	religion = orthodox
+	1375.1.1 = {
+		birth = yes
+	}
+}

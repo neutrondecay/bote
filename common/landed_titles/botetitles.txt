@@ -1,0 +1,203 @@
+#Patrician families
+#Ancona
+b_di_ancona = {
+	culture = italian
+	religion = catholic
+}
+#Florence
+b_albizzi = {
+	culture = italian
+	religion = catholic
+}
+b_medici = {
+	culture = italian
+	religion = catholic
+}
+b_pazzi = {
+	culture = italian
+	religion = catholic
+}
+b_strozzi = {
+	culture = italian
+	religion = catholic
+}
+b_pucci = {
+	culture = italian
+	religion = catholic
+}
+#Genoa
+b_adorno = {
+	culture = italian
+	religion = catholic
+}
+#Venice
+b_venier = {
+	culture = italian
+	religion = catholic
+}
+b_steno = {
+	culture = italian
+	religion = catholic
+}
+b_mocenigo = {
+	culture = italian
+	religion = catholic
+}
+b_foscari = {
+	culture = italian
+	religion = catholic
+}
+b_gradenigo = {
+	culture = italian
+	religion = catholic
+}
+#Ragusa
+b_bobali = {
+	culture = italian
+	religion = catholic
+}
+#Titular titles
+d_firenze = {
+	color = { 255 100 180 }
+	capital = 235
+	culture = italian
+	religion = catholic
+	title = FLORENCE_RULER
+}
+d_arborea = {
+	color = { 255 255 200 }
+	capital = 325
+	culture = italian
+	religion = catholic
+	title = count_sardinian
+	title_female = count_female_sardinian
+	title_prefix = county_of_sardinian
+}
+e_serbia = {
+	color={ 173 98 61 }
+	
+	color2={ 255 220 220 }
+		
+	culture = serbian
+}
+k_muscovy = {
+	color={ 235 100 200 }
+	
+	color2={ 255 100 125 }
+		
+	culture = russian
+	capital = c_moskva
+	title = GRAND_DUKE
+	title_female = GRAND_DUCHESS
+	title_prefix = GRAND_DUCHY
+	
+	german = "Moskau"
+	roman = "Moscovia"
+	french = "Moscou"
+	castillan = "Moscú"
+	greek = "Moschovia"
+	italian = "Mosca"
+}
+#Mercenary Companies
+d_black_guard = {
+	color = { 20 20 20 }
+	color2 = { 50 50 150 }
+	
+	capital = c_dauphine_viennois
+	
+	mercenary = yes
+	
+	allow = {
+		trigger = {
+			OR = {
+				e_hre = {
+					AND = {
+						has_holder = yes
+						holder_scope = {
+							NOT = {
+								war_with = ROOT
+							}
+						}
+					}
+				}
+				e_hre = {
+					has_holder = no
+				}
+			}
+			religion_group = christian
+		}
+	}
+	title = OBRISTFELDHAUPTMANN
+	
+	landless = yes
+	
+	primary = yes
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = landsknecht_band_composition
+}
+d_swabian_league = {
+	color = { 250 120 120 }
+	color2 = { 200 100 130 }
+	
+	capital = c_osterreich
+	
+	mercenary = yes
+	
+	allow = {
+		trigger = {
+			OR = {
+				e_hre = {
+					AND = {
+						has_holder = yes
+						holder_scope = {
+							NOT = {
+								war_with = ROOT
+							}
+						}
+					}
+				}
+				e_hre = {
+					has_holder = no
+				}
+			}
+			religion_group = christian
+		}
+	}
+	title = OBRISTFELDHAUPTMANN
+	
+	landless = yes
+	
+	primary = yes
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = landsknecht_band_composition
+}
+#Event titles
+k_principality_wales = {
+	color = { 200 225 200 }
+	capital = 64
+	culture = welsh
+	catholic = 300
+	welsh = "Brythoniaid"
+	pictish = "Brythoniaid"
+	breton = "Kembre"
+	irish = "Bhreatain Bheag"
+	roman = "Demetia"
+}
+d_erzincan = {
+	color = {250 131 144}
+	capital = 702
+	culture = turkish
+	religion = sunni
+}
+d_realnovgorodseversky = {
+	color={ 153 204 0 }
+	
+	color2={ 255 100 125 }
+		
+	culture = russian
+	capital = c_novgorod_seversky
+}

@@ -1,0 +1,43 @@
+800894 = {
+	name="Viggu"
+	# AKA: Baeivi
+	dynasty=100279
+	religion="finnish_pagan"
+	culture="lappish"
+	father = 486000
+	
+	1340.1.1={
+		birth=yes
+	}
+	1402.1.1={
+		death=yes
+	}
+}
+800966 = {
+	name="Sunna"
+	dynasty=100386
+	religion="finnish_pagan"
+	culture="lappish"
+	father = 486010
+	
+	1345.1.1={
+		birth=yes
+	}
+	1401.1.1={
+		death=yes
+	}
+}
+800967 = {
+	name="Bæivi"
+	dynasty=100386
+	religion="finnish_pagan"
+	culture="lappish"
+	father = 800966
+	
+	1375.1.1={
+		birth=yes
+	}
+	1451.1.1={
+		death = yes
+	}
+}

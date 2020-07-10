@@ -1,0 +1,143 @@
+###Subic dynasty
+800576 = { #Pavao IV. Subic
+	name = "Pavao"
+	dynasty = 18005
+	culture = croatian
+	religion = catholic
+	father = 32627
+	
+	1375.10.20 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+800577 = { #Elizabeta Subic
+	name = "Elizabeta"
+	dynasty = 18005
+	culture = croatian
+	religion = catholic
+	father = 470011
+	
+	1355.8.9 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+800578 = { #Pavao Subic
+	name = "Pavao"
+	dynasty = 18005
+	culture = croatian
+	religion = catholic
+	father = 470011
+	
+	1357.11.16 = {
+		birth = yes
+	}
+	1414.8.1 = {
+		death = yes
+	}
+}
+###Frankopan dynasty 
+800586 = { #Fridrik III Frankopan
+	name = "Fridrik"
+	dynasty = 19024
+	culture = croatian
+	religion = catholic
+	father = 470021
+	
+	1308.1.1 = {
+		birth = yes
+	}
+	1333.1.1 = {
+		death = yes
+	}
+}
+800587 = { #Dujam III Frankopan
+	name = "Dujam"
+	dynasty = 19024
+	culture = croatian
+	religion = catholic
+	father = 800586
+	
+	1323.1.1 = {
+		birth = yes
+	}
+	1348.1.1 = {
+		death = yes
+	}
+}
+800588 = { #Bartul V Frankopan
+	name = "Bartul"
+	dynasty = 19024
+	culture = croatian
+	religion = catholic
+	father = 800586
+	
+	1327.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {
+		death = yes
+	}
+}
+800589 = { #Ivan IV Frankopan
+	name = "Ivan"
+	dynasty = 19024
+	culture = croatian
+	religion = catholic
+	father = 800588
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1393.11.29 = {
+		death = yes
+	}
+}
+800590 = { #Stjepan I Frankopan
+	name = "Stjepan"
+	dynasty = 19024
+	culture = croatian
+	religion = catholic
+	father = 800588
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1390.10.9 = {
+		death = yes
+	}
+}
+800591 = { #Margit Frankopan
+	name = "Margit"
+	dynasty = 19024
+	culture = croatian
+	religion = catholic
+	female = yes
+	father = 800588
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
+800592 = { #Nikola IV Frankopan
+	name = "Nikola"
+	dynasty = 19024
+	culture = croatian
+	religion = catholic
+	father = 800589
+	
+	1390.2.17 = {
+		birth = yes
+	}
+	1432.6.26 = {
+		death = yes
+	}
+}

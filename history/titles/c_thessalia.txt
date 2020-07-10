@@ -1,0 +1,113 @@
+751.1.1={
+	holder=145816
+	liege = "d_thessalia"
+}
+789.1.1={
+	liege = "0"
+}
+843.1.1=
+{
+	liege="d_epirus"
+}
+865.1.1={
+	holder=145186
+}
+936.1.1 = {
+	liege = d_athens
+	holder = 260681
+}
+1060.1.1={
+	liege="d_athens"
+	holder=41308
+}
+1079.1.1={
+	holder = 1742
+}
+1118.8.15={
+	holder = 223023
+}
+1143.4.8={
+	holder = 215530
+}
+1180.9.24={
+	holder = 215531
+}
+1183.9.24={
+	holder = 215529
+}
+1185.9.12={
+	holder = 215503
+}
+1187.1.1={
+	holder=215016
+}
+1200.1.1={
+	holder = 215503
+}
+1204.8.1={
+	holder=31499 #Uberto di Briandate
+}
+1209.1.2={
+	holder=205528 #Eustache van Vlaanderen
+}
+1215.1.1={
+	liege="d_epirus"
+	holder=215514
+}
+1224.1.1={
+	liege="d_thessalonika"
+}
+1230.3.9={
+	holder=215516
+}
+1237.1.1={
+	holder=125711
+}
+1239.1.1={
+	holder=215516
+}
+1241.1.1={
+	liege="d_epirus"
+	holder=125715
+}
+1268.1.1={
+	holder=125734
+}
+1289.1.1={
+	holder=125735
+}
+1303.1.1={
+	holder=125736
+}
+1318.1.1={
+	liege="d_thessalonika"
+	holder=465210
+}
+1320.1.1={
+	holder=465212
+}
+1346.1.1 = {
+	holder = 465564
+}
+1348.1.1 = {
+	holder = 800454
+}
+1356.1.1 = {
+	holder = 31443
+}
+1359.7.1 = {
+	holder = 468502
+}
+1370.1.1 = {
+	holder = 800455
+}
+1373.1.1 = {
+	holder = 800456
+}
+1390.1.1 = {
+	holder = 800457
+}
+1393.1.1 = { #Ottoman conquest
+	holder = 800460
+	liege = d_thessalia
+}

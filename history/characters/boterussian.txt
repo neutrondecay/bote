@@ -1,0 +1,1280 @@
+800968 = {
+	name="Grigorii"
+	religion="orthodox"
+	culture="russian"
+	father = 472301
+	
+	1344.1.1={
+		birth=yes
+	}
+	1390.1.1={
+		death=yes
+	}
+}
+800969 = {
+	name="Grigorii"
+	religion="orthodox"
+	culture="russian"
+	father = 800968
+	
+	1377.1.1={
+		birth=yes
+	}
+	1453.1.1={
+		death=yes
+	}
+}
+800970 = {
+	name="Dmitry"
+	dynasty=100404
+	religion="orthodox"
+	culture="russian"
+	father = 472000
+	
+	1340.1.1={
+		birth=yes
+	}
+	1420.1.1={
+		death=yes
+	}
+}
+800971 = {
+	name="Andrei"
+	dynasty=100404
+	religion="orthodox"
+	culture="russian"
+	father = 800970
+	
+	1389.12.1={
+		birth=yes
+	}
+	1420.1.1={
+		death=yes
+	}
+}
+800972 = {
+	name="Eustaphy"
+	dynasty=3000097
+	religion="orthodox"
+	culture="russian"
+	
+	1296.4.1={
+		birth=yes
+	}
+	1360.1.1={
+		death=yes
+	}
+}
+800973 = {
+	name="Alexandr"
+	dynasty=3000098
+	religion="orthodox"
+	culture="russian"
+	
+	1320.4.1={
+		birth=yes
+	}
+	1401.1.1={
+		death=yes
+	}
+}
+800974 = {
+	name="Matvei"
+	dynasty=3000099
+	religion="orthodox"
+	culture="russian"
+	
+	1350.4.1={
+		birth=yes
+	}
+	1401.1.1={
+		death=yes
+	}
+}
+###Rurik
+800975 = { 
+	name = "Vasily"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+	
+	father=820601
+	mother=850027
+	
+	1371.12.30 = {
+		birth = yes
+	}
+	1391.1.9 = {
+		add_spouse = 820013 # Sofija of Lithuania
+	}
+	1425.2.27 = {
+		death = yes
+	}
+}
+800985 = { 
+	name = "Andrei"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=820601
+	mother=850027
+	
+	1382.8.14 = {
+		birth = yes
+	}
+	1432.7.9 = {
+		death = yes
+	}
+}
+800976 = {
+	name="Ivan"
+	dynasty=705
+	religion="orthodox"
+	culture="russian"
+	father=472874
+	
+	1357.1.2={
+		birth = yes
+	}
+	1377.1.1 = {
+		add_spouse = 800977
+	}
+	1425.5.22={
+		death = yes
+	}
+}
+800978 = {
+	name="Ivan"
+	dynasty=705
+	religion="orthodox"
+	culture="russian"
+	father = 800976
+	mother = 800977
+	1378.1.2={
+		birth = yes
+	}
+	1425.5.22={
+		death = yes
+	}
+}
+800979 = {
+	name="Alexandr"
+	dynasty=705
+	religion="orthodox"
+	culture="russian"
+	father = 800976
+	mother = 800977
+	
+	1379.1.2={
+		birth = yes
+	}
+	1425.10.25={
+		death = yes
+	}
+}
+800980 = {
+	name="Yuri"
+	dynasty=705
+	religion="orthodox"
+	culture="russian"
+	father = 800976
+	mother = 800977
+	
+	1381.1.2={
+		birth = yes
+	}
+	1425.10.25={
+		death = yes
+	}
+}
+800981 = {
+	name="Vasiliy"
+	dynasty=705
+	religion="orthodox"
+	culture="russian"
+	father=472790
+	mother = 472858
+	
+	1339.1.2={
+		birth = yes
+	}
+	1380.1.2= {
+		death = yes
+	}
+}
+800982 = {
+	name="Gleb"
+	dynasty=705
+	religion="orthodox"
+	culture="russian"
+	father=472790
+	mother = 472858
+	
+	1340.1.2={
+		birth = yes
+	}
+	1383.1.2 = {
+		death = yes
+	}
+}
+800983 = {
+	name="Romanov"
+	dynasty=705
+	religion="orthodox"
+	culture="russian"
+	father=472790
+	mother = 472858
+	
+	1342.1.2={
+		birth = yes
+	}
+	1399.1.2 = {
+		death = yes
+	}
+}
+800984 = {
+	name="Ivan"
+	dynasty=705
+	religion="orthodox"
+	culture="russian"
+	father=800981
+	
+	1360.1.2={
+		birth = yes
+	}
+	1426.1.2= {
+		death = yes
+	}
+}
+###
+820600 = { #
+	name = "Anastasia"
+	dynasty = 705
+	female=yes
+
+	culture = russian
+	religion = orthodox
+
+	father=472625 # Oleg II of Ryazan
+
+	1373.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+
+820601 = { #
+	name = "Dmitry"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+    give_nickname=bote_nick_donskoy
+	father=472855 #Ivan the Fair
+	mother=850041 # Alexandra Velyaminov
+
+	1350.10.12 = {
+		birth = yes
+	}
+	1389.5.19 = {
+		death = yes
+	}
+}
+
+820602 = { #
+	name = "Maria" #Maria Dmitriyevna
+	dynasty = 705
+	female=yes
+
+	culture = russian
+	religion = orthodox
+
+	father=820601
+	mother=850027
+
+	1376.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+850010 = {
+	name = "Pyotr"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=820601 # Dmitry Donskoy
+	mother=850027
+
+	1385.1.1 = {
+		birth = yes
+	}
+	1428.1.1 = {
+		death = yes
+	}
+}
+850011 = {
+	name = "Yuri"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=820601 # Dmitry Donskoy
+	mother=850027
+
+	1374.11.26 = {
+		birth = yes
+	}
+	1434.6.5 = {
+		death = yes
+	}
+}
+850012 = {
+	name = "Vasily"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472874 # Mikhail of Tver
+
+	1364.1.1 = {
+		birth = yes
+	}
+	1426.1.1 = {
+		death = yes
+	}
+}
+850013 = {
+	name = "Feodor"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472874 # Mikhail of Tver
+
+	1368.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+850014 = {
+	name = "Ivan"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472875 # Vsevolod of Tver
+
+	1361.1.1 = {
+		birth = yes
+	}
+	1402.3.27 = {
+		death = yes
+	}
+}
+850015 = {
+	name = "Mikhail"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472502 # Alexandr of Smolensk
+
+	1296.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {
+		death = yes
+	}
+}
+850016 = {
+	name = "Roman"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850015 # Mikhail of Smolensk
+
+	1355.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+850017 = {
+	name = "Yuri"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472508 # Sviastolav II of Smolensk
+
+	1353.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		add_claim = d_smolensk
+	}
+	1407.9.14 = {
+		death = yes
+	}
+}
+850018 = {
+	name = "Dmitry"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472830 # Ivan Fedorovich of Galich-Mersky
+
+	1325.1.1 = {
+		birth = yes
+	}
+	1363.1.1 = {
+		death = yes
+	}
+}
+850019 = {
+	name = "Alexander"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=125063 # Simeon Mikhailovich Glukhovsky
+
+	1270.1.1 = {
+		birth = yes
+	}
+	1326.1.1 = {
+		death = {
+		    death_reason = death_execution
+			killer = 480000 # Khan Uzbek
+		}
+	}
+}
+850020 = {
+	name = "Simeon"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850019 # Alexander Semenovich Novosilsky
+
+	1290.1.1 = {
+		birth = yes
+	}
+	1345.1.1 = {
+		death = yes
+	}
+}
+850021 = {
+	name = "Roman"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850020 # Semyon Alexandrovich Novosilsky
+
+	1340.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+850022 = {
+	name = "Vladimir"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472634 # Yaroslav Alexandrovich of Pronsk
+
+	1337.1.1 = {
+		birth = yes
+	}
+	1372.1.1 = {
+		death = yes
+	}
+}
+850023 = {
+	name = "Daniil"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850022 # previous
+
+	1353.1.1 = {
+		birth = yes
+	}
+	1378.1.1 = {
+		death = yes
+	}
+}
+850024 = {
+	name = "Ivan"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850022 # previous
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+850025 = {
+	name = "Dmitriy"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472505 # Roman Glebovich
+
+	1290.1.1 = {
+		birth = yes
+	}
+	1356.1.1 = {
+		death = yes
+	}
+}
+850026 = {
+	name = "Vasily"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472918 # Dmitri Konstantinovich of Suzdal
+
+	1350.1.1 = {
+		birth = yes
+	}
+	1392.1.1 = {
+		effect = {
+		    add_claim = c_suzdal
+		    add_claim = c_nizhny_novgorod
+		}
+	}
+	1403.1.1 = {
+		death = yes
+	}
+}
+850027 = {
+	name = "Eudoxia"
+	female=yes
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472918 # Dmitri Konstantinovich of Suzdal
+
+	1353.1.1 = {
+		birth = yes
+	}
+	1366.1.1 = {
+		add_spouse=820601 # Dmitriy Donskoy
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}
+850028 = {
+	name = "Konstantin"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=820601 # Dmitry Donskoy
+	mother=850027
+
+	1389.5.14 = {
+		birth = yes
+	}
+	1433.1.1 = {
+		death = yes
+	}
+}
+850029 = {
+	name = "Ivan"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=820601 # Dmitry Donskoy
+	mother=850027
+	trait=monk
+
+	1380.1.1 = {
+		birth = yes
+	}
+	1393.7.29 = {
+		death = yes
+	}
+}
+850030 = {
+	name = "Daniil"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=820601 # Dmitry Donskoy
+	mother=850027
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1379.9.15 = {
+		death = yes
+	}
+}
+850031 = {
+	name = "Sofia"
+	female=yes
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=820601 # Dmitry Donskoy
+	mother=850027
+
+	1372.1.1 = {
+		birth = yes
+	}
+	1387.1.1 = {
+		add_spouse=850032 # Feodor of Ryazan
+	}
+	1427.1.1 = {
+		death = yes
+	}
+}
+850032 = {
+	name = "Feodor"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472625 # Oleg Ivanovich of Ryazan
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1427.1.1 = {
+		death = yes
+	}
+}
+850033 = {
+	name = "Vasily"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850032 # Feodor of Ryazan
+	mother=850031 # Sofia Dmitriyevna
+
+	1390.1.1 = {
+		birth = yes
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}
+850034 = {
+	name = "Ivan"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850032 # Feodor of Ryazan
+	mother=850031 # Sofia Dmitriyevna
+
+	1392.1.1 = {
+		birth = yes
+	}
+	1456.1.1 = {
+		death = yes
+	}
+}
+850035 = {
+	name = "Vasilisa"
+	female=yes
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850032 # Feodor of Ryazan
+	mother=850031 # Sofia Dmitriyevna
+
+	1387.1.1 = {
+		birth = yes
+	}
+}
+850036 = {
+	name = "Anastasia"
+	female=yes
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=820601 # Dmitry Donskoy
+	mother=850027
+
+	1377.1.1 = {
+		birth = yes
+	}
+	1397.9.23 = {
+		add_spouse=850014 # Ivan of Pskov
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+850037 = {
+	name = "Anna"
+	female=yes
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=820601 # Dmitry Donskoy
+	mother=850027
+
+	1387.1.8 = {
+		birth = yes
+	}
+}
+850038 = {
+	name = "Yuri"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=800975 # Vasily I of Moscow
+	mother=820013 # Sofija of Lithuania
+
+	1395.5.18 = {
+		birth = yes
+	}
+	1400.11.30 = {
+		death = yes
+	}
+}
+850039 = {
+	name = "Ivan"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=800975 # Vasily I of Moscow
+	mother=820013 # Sofija of Lithuania
+
+	1397.1.15 = {
+		birth = yes
+	}
+	1417.7.20 = {
+		death = yes
+	}
+}
+850040 = {
+	name = "Anastasia"
+	female=yes
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850017 # Yuri of Smolensk
+
+	1385.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		effect = {
+			add_betrothal = 850011 # Yuri of Galich-Mersky
+		}
+	}
+	1422.7.11 = {
+		death = yes
+	}
+}
+850041 = {
+	name = "Alexandra"
+	female=yes
+	dynasty = 350012
+
+	culture = russian
+	religion = orthodox
+
+	1334.1.1 = {
+		birth = yes
+	}
+	1353.1.1 = {
+		add_spouse=472855 # Ivan II of Moscow
+	}
+	1364.12.26 = {
+		death = yes
+	}
+}
+850042 = {
+	name = "Ivan"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472855 # Ivan II of Moscow
+	mother=850041 # Alexandra Velyaminov
+	
+	1354.1.1 = {
+		birth = yes
+	}
+	1364.10.23= {
+		death = yes
+	}
+}
+850043 = {
+	name = "Konstantin"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472851 # Simeon of Moscow
+	mother=472852 # Anastasia of Lithuania
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1340.12.1= {
+		death = yes
+	}
+}
+850044 = {
+	name = "Daniil"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472851 # Simeon of Moscow
+	mother=472878 # Maria Alexandrovna of Tver
+	
+	1347.12.15 = {
+		birth = yes
+	}
+	1348.1.1= {
+		death = yes
+	}
+}
+850045 = {
+	name = "Mikhail"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472851 # Simeon of Moscow
+	mother=472878 # Maria Alexandrovna of Tver
+	
+	1348.1.1 = {
+		birth = yes
+	}
+	1348.12.1= {
+		death = yes
+	}
+}
+850046 = {
+	name = "Ivan"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472851 # Simeon of Moscow
+	mother=472878 # Maria Alexandrovna of Tver
+	
+	1349.1.1 = {
+		birth = yes
+	}
+	1353.3.1= {
+		death = yes
+	}
+}
+850047 = {
+	name = "Simeon"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472851 # Simeon of Moscow
+	mother=472878 # Maria Alexandrovna of Tver
+	
+	1352.2.3 = {
+		birth = yes
+	}
+	1353.3.1= {
+		death = yes
+	}
+}
+850048 = {
+	name = "Rodoslav"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472625 # Oleg Ivanovich of Ryazan
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1407.11.14= {
+		death = yes
+	}
+}
+850049 = {
+	name = "Anastasia"
+	female=yes
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472520 # Ivan II of Ryazan
+	
+	1353.1.1 = {
+		birth = yes
+	}
+	1372.1.1= {
+		add_spouse=855200 # Solkhomir
+	}
+}
+850050 = {
+	name = "Grigory"
+	dynasty = 350013
+
+	culture = russian
+	religion = orthodox
+
+	father=855200 # Solkhomir
+	mother=850049 # Anastasia Ivanovna of Ryazan
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1440.1.1= {
+		death=yes
+	}
+}
+850051 = {
+	name = "Yuri"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472634 # Yaroslav-Dmitry of Ryazan
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1354.1.1= {
+		death=yes
+	}
+}
+850052 = {
+	name = "Feodor"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850024 # Ivan Vladimirovich of Ryazan
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1475.1.1= {
+		death=yes
+	}
+}
+850053 = {
+	name = "Vasily"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850021 # Roman Semenovich of Novosil
+	
+	1395.1.1 = {
+		birth = yes
+	}
+}
+850054 = {
+	name = "Lev"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850021 # Roman Semenovich of Novosil
+	
+	1399.1.1 = {
+		birth = yes
+	}
+}
+850055 = {
+	name = "Gleb"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472508 # Svyatoslav Ivanovich of Smolensk
+	
+	1353.1.1 = {
+		birth = yes
+	}
+	1399.8.12= {
+		death = {
+		    death_reason=death_battle
+		}
+	}
+}
+850056 = {
+	name = "Feodor"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472640 # Mikhail Davidovich of Molozh
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1408.1.1= {
+		death = yes
+	}
+}
+850057 = {
+	name = "Anna"
+	female=yes
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850056 # Feodor Mikhailovich of Molozh
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1397.1.1 = {
+	    add_spouse = 800979 # Alexander Ivanovich of Tver
+	}
+}
+850058 = {
+	name = "Yuri"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=800979 # Alexander Ivanovich of Tver
+	mother=850057 # Anna Fedorovna of Molozh
+	
+	1400.1.1 = {
+		birth = yes
+	}
+	1425.11.26 = {
+	    death = yes
+	}
+}
+850059 = {
+	name = "Boris"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=800979 # Alexander Ivanovich of Tver
+	mother=850057 # Anna Fedorovna of Molozh
+	
+	1398.1.1 = {
+		birth = yes
+	}
+	1461.1.1 = {
+	    death = yes
+	}
+}
+850060 = {
+	name = "Agrippina"
+	female=yes
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472508 # Svyatoslav Ivanovich of Smolensk
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1365.1.1 = {
+	    add_spouse = 855006 # Ivan Olshanski of Kiev
+	}
+	1380.1.1 = {
+	    death = yes
+	}
+}
+850062 = {
+	name = "Dmitriy"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850055 # Gleb Svyatoslavovich of Smolensk
+	
+	1370.1.1 = {
+		birth = yes
+	}
+}
+850063 = {
+	name = "Ivan"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850055 # Gleb Svyatoslavovich of Smolensk
+	
+	1375.1.1 = {
+		birth = yes
+	}
+}
+850064 = {
+	name = "Alexander"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472508 # Svyatoslav Ivanovich of Smolensk
+	
+	1358.1.1 = {
+		birth = yes
+	}
+	1408.1.1 = {
+	    death = yes
+	}
+}
+850065 = {
+	name = "Ivan"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472508 # Svyatoslav Ivanovich of Smolensk
+	
+	1364.1.1 = {
+		birth = yes
+	}
+	1403.1.1 = {
+	    death = yes
+	}
+}
+850066 = {
+	name = "Semyon"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850016 # Roman Mikhailovich of Chernigov and Bryansk
+
+	1375.1.1 = {
+		birth = yes
+	}
+}
+850067 = {
+	name = "Olga"
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=850016 # Roman Mikhailovich of Chernigov and Bryansk
+
+	1380.1.1 = {
+		birth = yes
+	}
+}
+850068 = {
+	name = "Agafya"
+	female=yes
+	dynasty = 705
+
+	culture = russian
+	religion = orthodox
+
+	father=472800 # Konstantin Vasilyevich of Rostov
+	mother=472801 # Maria Ivanovna of Moscow
+
+	1328.1.1 = {
+		birth = yes
+	}
+	1349.1.1 = {
+	    add_spouse=473510 # Dmitriy or Liubartas of Volhynia
+	}
+	1386.1.1 = {
+		death = yes
+	}
+}

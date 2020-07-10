@@ -1,0 +1,3228 @@
+800185 = { #Manfredi Chiaramonte, father-in-law to Charles III of Naples. Count of Modica (c_siracusa) and Malta 
+	name = "Manfredi"
+	dynasty = 65
+	culture = italian
+	religion = catholic
+	father = 71755
+	1318.2.4 = {
+		birth = yes
+	}
+	1391.11.1 = {
+		death = yes
+	}
+	
+}
+800186 = { #Constanza Chiarmonte, wife of Charles III of Naples
+	name = "Constanza"
+	dynasty = 65
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800185
+	1377.8.13 = {
+		birth = yes
+	}
+	1423.1.1 = {
+		death = yes
+	}
+}
+800188 = { #Count Guglielmo Ruffo of Sinopolis (Reggio)
+	name = "Guglielmo"
+	dynasty = 13077
+	culture = italian
+	religion = catholic
+	
+	1369.10.13 = {
+		birth = yes
+	}
+	1426.1.1 = {
+		death = yes
+	}
+}
+800189 = { #Count Carlo Ruffo of Montalto (Cosenza)
+	name = "Carlo"
+	dynasty = 13077
+	culture = italian
+	religion = catholic
+	father = 32583
+	1305.6.7 = {
+		birth = yes
+	}
+	1375.10.31 = {
+		death = yes
+	}
+}
+800190 = { #Count Antonio Ruffo of Montalto (Cosenza)
+	name = "Antonio"
+	dynasty = 13077
+	culture = italian
+	religion = catholic
+	father = 800189
+	
+	1350.3.11 = {
+		birth = yes
+	}
+	1386.1.1 = {
+		add_spouse = 800191
+	}
+}
+800191 = { #Random Italian wife for Antonio ^
+	name = "Gloriana"
+	dynasty = 0
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	1369.2.12 = {
+		birth = yes
+	}
+}
+800192 = { #Random son for Antonio ^
+	name = "Tommaso"
+	dynasty = 13077
+	culture = italian
+	religion = catholic
+	father = 800190
+	mother = 800191
+	
+	1390.3.4 = {
+		birth = yes
+	}
+}
+800195 = { #Gentile Orsini
+	name = "Gentile"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	
+	father = 31433
+	mother = 31445
+	
+	1200.5.14 = {
+		birth = yes
+	}
+	1246.10.9 = {
+		death = yes
+	}
+}
+800196 = { #Bertoldo Orsini
+	name = "Bertoldo"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	
+	father = 800195
+	
+	1219.8.22 = {
+		birth = yes
+	}
+	1317.3.17 = {
+		death = yes
+	}
+}
+800197 = { #Gentile II Orsini
+	name = "Gentile"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	
+	father = 800196
+	
+	1245.2.28 = {
+		birth = yes
+	}
+	1323.12.10 = {
+		death = yes
+	}
+}
+800198 = { #Romano Orsini
+	name = "Romano"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	
+	father = 800197
+	
+	1273.2.28 = {
+		birth = yes
+	}
+	1326.1.19 = {
+		death = yes
+	}
+}
+800199 = { #Roberto Orsini
+	name = "Roberto"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	
+	father = 800198
+	
+	1295.10.2 = {
+		birth = yes
+	}
+	1345.6.18 = {
+		death = yes
+	}
+}
+800200 = { #Nicola Orsini, Count of Soleto
+	name = "Nicola"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	
+	father = 800199
+	
+	1331.8.27 = {
+		birth = yes
+	}
+	1399.2.14 = {
+		death = yes
+	}
+}
+800201 = { #Roberto Orsini
+	name = "Roberto"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	
+	father = 800200
+	
+	1360.7.23 = {
+		birth = yes
+	}
+	1403.6.18 = {
+		death = yes
+	}
+}
+800202 = { #Raimondo Orsini, Lord of Taranto
+	name = "Raimondo"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	
+	father = 800200
+	
+	1362.9.29 = {
+		birth = yes
+	}
+	1384.11.3 = {
+		add_spouse = 800207
+	}
+	1406.4.28 = {
+		death = yes
+	}
+}
+800203 = { #Beatrice Della Ratta
+	name = "Beatrice"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	father = 800200
+	
+	1352.1.18 = {
+		birth = yes
+	}
+}
+800204 = { #Justine Sueva Orsini
+	name = "Justine"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	father = 800200
+	
+	1365.5.8 = {
+		birth = yes
+	}
+}
+800205 = { #Caterina Orsini
+	name = "Caterina"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	father = 800200
+	
+	1370.3.30 = {
+		birth = yes
+	}
+}
+800208 = { #Giovanni Antonio, later Prince of Taranto, Duke of Bari, Count of Lecce, Acerra, Soleto, Conversano, 1443 count of Matera, 1453 Ugento
+	name = "Giovanni"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	
+	father = 800202
+	mother = 800207
+	
+	1386.6.19 = {
+		birth = yes
+	}
+}
+800209 = { #Maria del Balzo Orsini
+	name = "Maria"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800202
+	mother = 800207
+	
+	1389.1.3 = {
+		birth = yes
+	}
+}
+800210 = { #Caterina del Balzo Orsini
+	name = "Caterina"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800202
+	mother = 800207
+	
+	1390.8.27 = {
+		birth = yes
+	}
+}
+800211 = { #Gabriele del Balzo Orsini, Count of Ugento 1434, Duke of Venosa 1441, Count of Lecce
+	name = "Gabriele"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	father = 800202
+	mother = 800207
+	
+	1395.4.11 = {
+		birth = yes
+	}
+}
+800212 = { #Giovanna de Sanseverino
+	name = "Giovanna"
+	dynasty = 3000021
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800239
+	1344.2.12 = {
+		birth = yes
+	}
+	1362.1.1 = {
+		add_spouse = 73301 #Louis of Barion
+	}
+	1398.8.15 = {
+		death = yes
+	}
+}
+#Italian Popes
+800245 = { #Bartolomeo Prignano, Pope Urbanus VI
+	name = "Urbanus"
+	dynasty = 3000020
+	culture = italian
+	religion = catholic
+	
+	1318.7.10 = {
+		birth = yes
+	}
+	1389.10.15 = {
+		death = yes
+	}
+}
+800234 = { #Bonifatius IX
+	name = "Bonifatius"
+	dynasty = 13062
+	culture = italian
+	religion = catholic
+	
+	1350.11.12 = {
+		birth = yes
+	}
+	1404.10.1 = {
+		death = yes
+	}
+}
+800235 = { #Cola di Rienzo, Rector of Rome
+	name = "Nicola"
+	dynasty = 0
+	culture = italian
+	religion = catholic
+	
+	1313.3.31 = {
+		birth = yes
+	}
+	1354.10.8 = {
+		death = yes
+	}
+}
+800236= { #Roberto Orsini, Count of Nola (Orvieto) 
+	name = "Roberto"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	
+	father = 70867
+	
+	1360.4.29 = {
+		birth = yes
+	}
+	1378.1.1 = {
+		add_spouse = 800237
+	}
+	1400.10.8 = {
+		death = yes
+	}
+}
+800237 = { #Margherita Sanseverino, wife of Roberto Orsini
+	name = "Margherita"
+	dynasty = 3000021
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800244
+	1359.7.20 = {
+		birth = yes
+	}
+}
+800238 = { #Pirro Orsini, son of Roberto Orsini
+	name = "Pirro"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	father = 800236
+	mother = 800237
+	
+	1380.11.17 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+800239 = { #Antonio Sanseverino, father of Margherita Sanseverino
+	name = "Antonio"
+	dynasty = 3000021
+	culture = italian
+	religion = catholic
+	father = 800240
+	1326.5.6 = {
+		birth = yes
+	}
+	1384.8.9 = {
+		death = yes
+	}
+}
+800240 = { #Tommaso III Sanseverino
+	name = "Tommaso"
+	dynasty = 3000021
+	culture = italian
+	religion = catholic
+	father = 800241
+	1310.12.19 = {
+		birth = yes
+	}
+	1358.3.19 = {
+		death = yes
+	}
+}
+800241 = { #Enrico Sanseverino
+	name = "Enrico"
+	dynasty = 3000021
+	culture = italian
+	religion = catholic
+	father = 800242
+	1268.1.8 = {
+		birth = yes
+	}
+	1317.5.10 = {
+		death = yes
+	}
+}
+800242 = { #Tommaso II Sanseverino
+	name = "Tommaso"
+	dynasty = 3000021
+	culture = italian
+	religion = catholic
+	
+	1250.1.2 = {
+		birth = yes
+	}
+	1324.6.10 = {
+		death = yes
+	}
+}
+800243 = { #Giacomo Sanseverino
+	name = "Giacomo"
+	dynasty = 3000021
+	culture = italian
+	religion = catholic
+	father = 800242
+	1271.12.18 = {
+		birth = yes
+	}
+	1348.5.20 = {
+		death = yes
+	}
+}
+800244 = { #Ruggero Sanseverino
+	name = "Ruggero"
+	dynasty = 3000021
+	culture = italian
+	religion = catholic
+	father = 800243
+	1311.4.4 = {
+		birth = yes
+	}
+	1362.7.21 = {
+		death = yes
+	}
+}
+800248 = { #Venceslao Sanseverino, Duke of Amalfi
+	name = "Venceslao"
+	dynasty = 3000021
+	culture = italian
+	religion = catholic
+	father = 800244
+	1355.1.22 = {
+		birth = yes
+	}
+}
+800249 = { #Margherita di Sangineto, wife of Venceslao
+	name = "Margherita"
+	dynasty = 3000022
+	culture = italian
+	religion = catholic
+	
+	1360.12.4 = {
+		birth = yes
+	}
+	1430.5.9 = {
+		death = yes
+	}
+}
+800250 = { #Ruggero Sanseverino
+	name = "Ruggero"
+	dynasty = 3000021
+	culture = italian
+	religion = catholic
+	father = 800248
+	1376.12.4 = {
+		birth = yes
+	}
+	1430.11.18 = {
+		death = yes
+	}
+}
+800251 = { #Guido Orsini, Count of Pitigliano (Orbetello)
+	name = "Guido"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	father = 800198
+	
+	1305.1.16 = {
+		birth = yes
+	}
+	1348.10.1 = {
+		death = yes
+	}
+}
+800252 = { #Aldobrandino Orsini, Count of Pitigliano (Orbetello)
+	name = "Aldobrandino"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	father = 800251
+	
+	1328.5.1 = {
+		birth = yes
+	}
+	1350.1.1 = {
+		add_spouse = 800253
+	}
+	1384.5.14 = {
+		death = yes
+	}
+}
+800253 = { #Marsobilia Caetani, wife of Aldobrandino
+	name = "Marsobilia"
+	dynasty=622 #Caetani
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=167470
+	1320.8.19 = {
+		birth=yes
+	}
+	1380.4.3 = {
+		death=yes
+	}
+}
+800254 = { #Bertoldo Orsini, Count of Pitigliano (Orbetello)
+	name = "Bertoldo"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	father = 800252
+	mother = 800253
+	1358.7.18 = {
+		birth = yes
+	}
+	1420.12.14 = {
+		death = yes
+	}
+}
+800255 = { #Guido Orsini
+	name = "Guido"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	father = 800252
+	mother = 800253
+	1370.3.26 = {
+		birth = yes
+	}
+	1410.10.16 = {
+		death = yes
+	}
+}
+800256 = { #Isabella Orsini
+	name = "Isabella"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800252
+	mother = 800253
+	1374.9.16 = {
+		birth = yes
+	}
+	1410.10.16 = {
+		death = yes
+	}
+}
+800257 = { #Jacopo Orsini
+	name = "Jacopo"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	father = 800252
+	mother = 800253
+	1368.3.26 = {
+		birth = yes
+	}
+	1410.10.16 = {
+		death = yes
+	}
+}
+800258 = { #Constanza Orsini, wife of Ugolino Trinci, Lord of Foligno (Count of Spoleto)
+	name = "Constanza"
+	dynasty = 7215
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800252
+	mother = 800253
+	1355.3.16 = {
+		birth = yes
+	}
+	1410.10.16 = {
+		death = yes
+	}
+}
+#Trinci Family
+800259 = { #Ugolino II Trinci, Lord of Foligno (Count of Spoleto)
+	name = "Ugolino"
+	dynasty = 3000023
+	culture = italian
+	religion = catholic
+	
+	1300.5.17 = {
+		birth = yes
+	}
+	1353.10.8 = {
+		death = yes
+	}
+}
+800260 = { #Trincia II Trinci, Lord of Foligno (Count of Spoleto)
+	name = "Trincia"
+	dynasty = 3000023
+	culture = italian
+	religion = catholic
+	father = 800259
+	1320.2.26 = {
+		birth = yes
+	}
+	1377.9.18 = {
+		death = yes
+	}
+}
+800261 = { #Corrado II Trinci, Lord of Foligno (Count of Spoleto)
+	name = "Corrado"
+	dynasty = 3000023
+	culture = italian
+	religion = catholic
+	father = 800259
+	1323.7.20 = {
+		birth = yes
+	}
+	1386.3.24 = {
+		death = yes
+	}
+}
+800262 = { #Ugolino III Trinci, Lord of Foligno (Count of Spoleto)
+	name = "Ugolino"
+	dynasty = 3000023
+	culture = italian
+	religion = catholic
+	father = 800260
+	1343.7.20 = {
+		birth = yes
+	}
+	1370.5.5 = {
+		add_spouse = 800258
+	}
+	1415.3.24 = {
+		death = yes
+	}
+}
+#Visconti Family, Duke of Milan, Lord (Count) of Perugia
+800263 = { #Gian Galeazzo Visconti
+	name = "Gian"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	trait="tough_soldier"
+	father=463151
+	mother = 462156
+	1351.1.1 = { #Parents married
+		effect = {
+			c_463151 = {
+				add_spouse = 462156
+			}
+		}
+	}
+	1351.10.16 = {
+		birth = yes
+	}
+	1360.1.1 = {
+		add_spouse = 802009
+	}
+	1380.1.1 = {
+		add_spouse = 800268
+	}
+	1402.9.3 = {
+		death = yes
+	}
+}
+800264 = { #Beatrice Visconti
+	name = "Beatrice"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=463151
+	mother = 462156
+	trait = legit_bastard
+	1350.3.1 = {
+		birth = yes
+	}
+	
+	1410.4.30 = {
+		death = yes
+	}
+}
+800265 = { #Maria Visconti
+	name = "Maria"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=463151
+	mother = 462156
+	1352.11.17 = {
+		birth = yes
+	}
+	
+	1410.4.30 = {
+		death = yes
+	}
+}
+800266 = { #Violante Visconti
+	name = "Violante"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=463151
+	mother = 462156
+	1353.8.23 = {
+		birth = yes
+	}
+	1386.11.30 = {
+		death = yes
+	}
+}
+800267 = { #Cesare Visconti
+	name = "Cesare"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	father=463151
+	mother = 462156
+	1355.2.15 = {
+		birth = yes
+	}
+	1400.10.22 = {
+		death = yes
+	}
+}
+800298 = {
+	name="Bernabo"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	father=463146
+	1323.1.1 = {
+		birth=yes
+	}
+	1385.12.19 = {
+		death=yes
+	}
+}
+800268 = { #Wife of Gian Galeazzo Visconti
+	name="Caterina"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=800298
+	1361.1.1 = {
+		birth=yes
+	}
+	1404.10.17 = {
+		death=yes
+	}
+}
+800269 = { #Valentina Visconti
+	name = "Valentina"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=800263 
+	mother = 802009 #Countess of Vertus
+	1371.4.1 = {
+		birth=yes
+	}
+	1408.8.8 = {
+		death=yes
+	}
+}
+800270 = { #Gian Maria Visconti
+	name = "Gian"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	father=800263 
+	mother = 800268
+	1388.9.7 = {
+		birth=yes
+	}
+	1412.5.16 = {
+		death=yes
+	}
+}
+800272 = { #Filippo Maria Visconti
+	name = "Filippo"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	father=800263 
+	mother = 800268
+	1392.9.3 = {
+		birth=yes
+	}
+	1447.8.13 = {
+		death=yes
+	}
+}
+800273 = { #Gabriele Maria Visconti
+	name = "Gabriele"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	father=800263 
+	mother = 800268
+	1394.4.30 = {
+		birth=yes
+	}
+	1468.10.29 = {
+		death=yes
+	}
+}
+800274 = { #Antonio Maria Visconti
+	name = "Antonio"
+	dynasty=234
+	religion="catholic"
+	culture="italian"
+	father=800263 
+	mother = 800268
+	1396.1.31 = {
+		birth=yes
+	}
+	1460.6.21 = {
+		death=yes
+	}
+}
+#Fictional characters to lead Republic of Ancona
+800304 = {
+	name = "Romano"
+	dynasty = 100350
+	culture = italian
+	religion = catholic
+	1300.5.20 = {
+		birth = yes
+	}
+	1362.9.12 = {
+		death = yes
+	}
+}
+800275 = {
+	name = "Roberto"
+	dynasty = 100350
+	culture = italian
+	religion = catholic
+	father = 800304
+	1350.3.18 = {
+		birth = yes
+	}
+	1400.7.1 = {
+		death = yes
+	}
+}
+800303 = {
+	name = "Gian"
+	dynasty = 100350
+	culture = italian
+	religion = catholic
+	father = 800275
+	1383.5.20 = {
+		birth = yes
+	}
+	1442.1.1 = {
+		death = yes
+	}
+}
+800276 = { #Antonio II da Montefeltro, Count of Urbino
+	name = "Antonio"
+	dynasty = 13068
+	religion="catholic"
+	culture="italian"
+	father=73590
+	mother = 800277
+	1348.7.18={
+		birth=yes
+	}
+	1365.1.1 = {
+		add_spouse = 800278
+	}
+	1404.1.1={
+		death=yes
+	}
+}
+800277 = { #Antonio's mother
+	name = "Teodora"
+	dynasty=13052
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 70820
+	
+	1330.10.7 = {
+		birth = yes
+	}
+	1348.4.20 = {
+		add_spouse = 73590
+	}
+	1365.1.1 = {
+		death = yes
+	}
+}
+800278 = { #Antonio's wife
+	name = "Agnesina"
+	dynasty = 3000024
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	1339.3.14 = {
+		birth = yes
+	}
+	1416.5.16 = {
+		death = yes
+	}
+}
+800279 = { #Guidantonio I da Montefeltro, Count of Urbino (to be)
+	name = "Guidantonio"
+	dynasty = 13068
+	religion="catholic"
+	culture="italian"
+	father=800276
+	mother = 800278
+	
+	1377.6.30={
+		birth= yes
+	}
+	1443.2.22 = {
+		death = yes
+	}
+}
+800280 = { #Battista Malatesta da Montefeltro
+	name = "Battista"
+	dynasty = 13068
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=800276
+	mother = 800278
+	
+	1384.5.21={
+		birth= yes
+	}
+	1448.8.3 = {
+		death = yes
+	}
+}
+800281 = { #Anna da Montefeltro
+	name = "Anna"
+	dynasty = 13068
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=800276
+	mother = 800278
+	
+	1385.12.7={
+		birth= yes
+	}
+	1398.1.5 = {
+		death = yes
+	}
+}
+800282 = { #Gentile da Montefeltro
+	name = "Gentile"
+	dynasty = 13068
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=800276
+	mother = 800278
+	
+	1388.6.26={
+		birth= yes
+	}
+	1454.1.3 = {
+		death = yes
+	}
+}
+800283 = { #Carlo Malatesta, Lord of Rimini
+	name="Carlo"
+	dynasty=13059
+	religion="catholic"
+	culture="italian"
+	father=73603
+	mother=800301
+	1368.6.3={
+		birth=yes
+	}
+	1429.9.13={
+		death=yes
+	}
+}
+800284 = { #Obizzo da Polenta, Lord (Count) of Ravenna
+	name = "Obizzo"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	father=73555
+	mother = 800285
+	1360.10.14={
+		birth=yes
+	}
+	1431.1.30={
+		death=yes
+	}
+}
+#D'Este
+800285 = { #Elisa d'Este, wife of Guido III
+	name = "Elisa"
+	dynasty = 679
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 463200
+	mother = 463201
+	
+	1334.4.23 = {
+		birth = yes
+	}
+	1350.1.1 = {
+		add_spouse = 73555
+	}
+	1402.8.12 = {
+		death = yes
+	}
+}
+800286 = { #Bernardino da Polenta
+	name = "Bernardino"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	father=73555
+	mother = 800285
+	1350.10.14={
+		birth=yes
+	}
+	1400.1.1 ={
+		death=yes
+	}
+}
+800287 = { #Leta da Polenta
+	name = "Leta"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=73555
+	mother = 800285
+	1352.2.24={
+		birth=yes
+	}
+	1402.1.30={
+		death=yes
+	}
+}
+800288 = { #Ostasio da Polenta
+	name = "Ostasio"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	father=73555
+	mother = 800285
+	1352.12.25={
+		birth=yes
+	}
+	1396.10.17 ={
+		death=yes
+	}
+}
+800289 = { #Alda da Polenta
+	name = "Alda"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=73555
+	mother = 800285
+	1356.4.3={
+		birth=yes
+	}
+	1402.1.30={
+		death=yes
+	}
+}
+800290 = { #Azzo da Polenta
+	name = "Azzo"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	father=73555
+	mother = 800285
+	1357.1.5={
+		birth=yes
+	}
+	1394.2.4={
+		death=yes
+	}
+}
+800291 = { #Beatrice da Polenta
+	name = "Beatrice"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=73555
+	mother = 800285
+	1361.12.17={
+		birth=yes
+	}
+	1402.1.30={
+		death=yes
+	}
+}
+800292 = { #Aldobrandino da Polenta
+	name = "Aldobrandino"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	father=73555
+	mother = 800285
+	1364.4.15={
+		birth=yes
+	}
+	1406.1.1={
+		death=yes
+	}
+}
+800293 = { #Anglico da Polenta
+	name = "Aldobrandino"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	father=73555
+	mother = 800285
+	1368.10.25={
+		birth=yes
+	}
+	1406.1.1={
+		death=yes
+	}
+}
+800294 = { #Eletta da Polenta
+	name = "Eletta"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=73555
+	mother = 800285
+	1369.11.7={
+		birth=yes
+	}
+	1405.2.20={
+		death=yes
+	}
+}
+800295 = { #Pietro da Polenta
+	name = "Pietro"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	father=73555
+	mother = 800285
+	1372.1.6={
+		birth=yes
+	}
+	1403.10.30={
+		death=yes
+	}
+}
+800296 = { #Licinia da Polenta
+	name = "Licinia"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=73555
+	mother = 800285
+	1373.4.22={
+		birth=yes
+	}
+	1405.2.28={
+		death=yes
+	}
+}
+800297 = { #Samaritana da Polenta
+	name = "Samaritana"
+	dynasty=101835
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=73555
+	mother = 800285
+	1375.9.12={
+		birth=yes
+	}
+	1398.1.16={
+		death=yes
+	}
+}
+800301 = { #Mother of Carlo Malatesta
+	name = "Elisabetta"
+	dynasty = 3000025
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {
+		add_spouse = 73603
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+800305 = { #Frederick the Simple of Sicily (Trinacria)
+	name="Federigo"
+	dynasty=100204
+	religion="catholic"
+	culture="italian"
+	father=461502
+	mother=462715
+	1341.9.1 = {
+		birth=yes
+	}
+	1361.1.1 = {
+		add_spouse = 800307
+	}
+	1372.1.17 = {
+		add_spouse = 800315
+	}
+	1377.1.27 = {
+		give_nickname = nick_the_simple
+		death=yes
+	}
+}
+800306 = { #Maria, Queen of Sicily (Trinacria)
+	name="Maria"
+	dynasty=100204
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=800305
+	mother=800307
+	1363.6.2 = {
+		birth=yes
+	}
+	1390.1.1 = {
+		add_spouse = 800316
+	}
+	1401.5.25 = {
+		death=yes
+	}
+}
+800317 = { #Peter of Aragon, son of Maria
+	name = "Pietro"
+	dynasty = 100204
+	culture = italian
+	religion = catholic
+	mother = 800306
+	father = 800316
+	
+	1398.11.17 = {
+		birth = yes
+	}
+	1400.8.16 = {
+		death = yes
+	}
+}
+800318 = { #Guido Ventimiglia, Count of Malta 1360-66
+	name = "Guido"
+	dynasty = 67
+	culture = italian
+	religion = catholic
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1388.1.1 = {
+		death = yes
+	}
+}
+800319 = { #Guglielmo d'Aragona, bastard son of Frederick the Simple
+	name = "Guglielmo"
+	dynasty = 100204
+	religion="catholic"
+	culture="italian"
+	father=800305
+	
+	trait = bastard
+	
+	1357.3.12 = {
+		birth=yes
+	}
+	1401.5.25 = {
+		death=yes
+	}
+}
+800320 = { #Elizabetta Peralta Chiaramonte, daughter of 800185, Manfredi
+	name = "Elisabetta"
+	dynasty = 65
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800185
+	1338.2.4 = {
+		birth = yes
+	}
+	1400.11.1 = {
+		death = yes
+	}
+}
+800321 = { #Andrea Chiaramonte
+	name = "Andrea"
+	dynasty = 65
+	culture = italian
+	religion = catholic
+	father = 800185
+	1340.2.4 = {
+		birth = yes
+	}
+	1392.11.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 800316
+		}
+	}
+}
+800323 = { #(Fictional) local Maltese noble elected, loyal to Crown of Aragon
+	name = "Mario"
+	culture = italian
+	religion = catholic
+	
+	1350.1.3 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+#Albizzi Family
+800324 = { #Luca Albizzi
+	name = "Luca"
+	dynasty = 3000027
+	culture = italian
+	religion = catholic
+	
+	1297.2.13 = {
+		birth = yes
+	}
+	1348.1.1 = {
+		death = yes
+	}
+}
+800325 = { #Maso Albizzi, ruler of Florence
+	name = "Maso"
+	dynasty = 3000027
+	culture = italian
+	religion = catholic
+	father = 800324
+	
+	1343.6.1 = {
+		birth = yes
+	}
+	1367.1.1 = {
+		add_spouse = 800326
+	}
+	1417.1.1 = {
+		death = yes
+	}
+}
+800326 = { #Bartolomea Baldesi
+	name = "Bartolomea"
+	dynasty = 3000028
+	culture = italian
+	religion = catholic
+	female = yes
+	1349.1.1 = {
+		birth = yes
+	}
+	1399.4.5 = {
+		death = yes
+	}
+}
+800327 = { #Rinaldo Albizzi
+	name = "Rinaldo"
+	dynasty = 3000027
+	culture = italian
+	religion = catholic
+	father = 800325
+	mother = 800326
+	1370.4.15 = {
+		birth = yes
+	}
+	1442.1.1 = {
+		death = yes
+	}
+}
+800328 = { #Ridolfo Albizzi
+	name = "Ridolfo"
+	dynasty = 3000027
+	culture = italian
+	religion = catholic
+	father = 800325
+	mother = 800326
+	1375.12.11 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		death = yes
+	}
+}
+800329 = { #Luca Albizzi
+	name = "Luca"
+	dynasty = 3000027
+	culture = italian
+	religion = catholic
+	father = 800325
+	mother = 800326
+	1382.2.5 = {
+		birth = yes
+	}
+	1458.1.1 = {
+		death = yes
+	}
+}
+800330 = { #Giovanni Albizzi
+	name = "Giovanni"
+	dynasty = 3000027
+	culture = italian
+	religion = catholic
+	father = 800325
+	mother = 800326
+	1385.5.26 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+800331 = { #Luisa Albizzi
+	name = "Luisa"
+	dynasty = 3000027
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800325
+	mother = 800326
+	1383.10.6 = {
+		birth = yes
+	}
+	1439.1.1 = {
+		death = yes
+	}
+}
+800332 = { #Marietta Albizzi
+	name = "Marietta"
+	dynasty = 3000027
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800325
+	mother = 800326
+	1387.1.6 = {
+		birth = yes
+	}
+	1469.1.1 = {
+		death = yes
+	}
+}
+800333 = { #Selvaggia Albizzi
+	name = "Selvaggia"
+	dynasty = 3000027
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800325
+	mother = 800326
+	1390.7.29 = {
+		birth = yes
+	}
+	1469.1.1 = {
+		death = yes
+	}
+}
+###
+800334 = { #Fictional son for Gerardo della Gherardesca, Count of Pisa
+	name = "Romano"
+	dynasty = 13031
+	culture = italian
+	religion = catholic
+	father = 180086
+	
+	1355.5.31 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+#d'Appiano dynasty
+800335 = {
+	name = "Gherardo"
+	dynasty = 13026
+	culture = italian
+	religion = catholic
+	father = 167404
+	
+	1370.2.13 = {
+		birth = yes
+	}
+	1396.6.18 = {
+		add_spouse = 800336
+	}
+	1405.5.1 = {
+		death = yes
+	}
+}
+800336 = { #Paola Colonna, wife of Gherardo
+	name = "Paola"
+	dynasty = 13026
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	trait = pregnant
+	
+	1378.10.9 = {
+		birth = yes
+	}
+	1450.11.3 = {
+		death = yes
+	}
+}
+#Fictional rulers of Siena
+800337 = {
+	name = "Antonio"
+	culture = italian
+	religion = catholic
+	
+	1312.6.6 = {
+		birth = yes
+	}
+	1391.9.17 = {
+		death = yes
+	}
+}
+800338 = {
+	name = "Alfonso"
+	culture = italian
+	religion = catholic
+	
+	1358.6.6 = {
+		birth = yes
+	}
+	1410.9.17 = {
+		death = yes
+	}
+}
+#Fictional Lord mayors of Lucca
+800339 = {
+	name = "Mastino"
+	culture = italian
+	religion = catholic
+	
+	1324.1.1 = {
+		birth = yes
+	}
+	1389.4.16 = {
+		death = yes
+	}
+}
+800340 = {
+	name = "Pietro"
+	culture = italian
+	religion = catholic
+	
+	1354.1.1 = {
+		birth = yes
+	}
+	1405.4.16 = {
+		death = yes
+	}
+}
+##Pepoli family
+800343 = { #Taddeo Pepoli, Singore di Bologna
+	name = "Taddeo"
+	dynasty = 8674
+	culture = italian
+	religion = catholic
+	
+	1290.1.1 = {
+		birth = yes
+	}
+	1347.10.13 = {
+		death = yes
+	}
+}
+800344 = {
+	name = "Giacomo"
+	dynasty = 8674
+	culture = italian
+	religion = catholic
+	father = 800343
+	1310.4.21 = {
+		birth = yes
+	}
+	1347.10.13 = {
+		death = yes
+	}
+}
+800345 = {
+	name = "Giovanni"
+	dynasty = 8674
+	culture = italian
+	religion = catholic
+	father = 800343
+	1310.4.21 = {
+		birth = yes
+	}
+	1347.10.13 = {
+		death = yes
+	}
+}
+##Fictional ruler of Bologna
+800346 = {
+	name = "Federigo"
+	culture = italian
+	religion = catholic
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1400.3.3 = {
+		death = yes
+	}
+}
+#d'Este rulers of Ferrara
+800347 = { #Niccolò II d'Este
+	name = "Niccolò"
+	dynasty = 679
+	culture = italian
+	religion = catholic
+	father = 463200
+	mother = 463201
+	
+	1338.6.30 = {
+		birth = yes
+	}
+	1388.3.26 = {
+		death = yes
+	}
+}
+800348 = { #Alberto d'Este
+	name = "Alberto"
+	dynasty = 679
+	culture = italian
+	religion = catholic
+	father = 463200
+	mother = 463199
+	
+	1347.2.27 = {
+		birth = yes
+	}
+	1393.1.1 = {
+		add_spouse = 800349
+	}
+	1393.7.30 = {
+		death = yes
+	}
+}
+800485 = { #Niccolò d'Este
+	name = "Niccolò"
+	dynasty = 679
+	culture = italian
+	religion = catholic
+	father = 800348
+	mother = 800349
+	trait = legit_bastard
+	1383.11.9 = {
+		birth = yes
+	}
+	1441.12.26 = {
+		death = yes
+	}
+}
+800349 = { #Isotta Albaresani
+	name = "Isotta"
+	dynasty = 3000029
+	culture = italian
+	religion = catholic
+	female = yes
+	1355.3.3 = {
+		birth = yes
+	}
+	1425.5.17 = {
+		death = yes
+	}
+}
+800350 = { #Francesco Gonzaga, Captain of the People of Mantua
+	name="Francesco"
+	dynasty=13052
+	religion="catholic"
+	culture="italian"
+	father=70823
+	mother=463206
+	1366.1.1 = {
+		birth=yes
+	}
+	1393.1.1 = {
+		add_spouse = 800351
+	}
+	1407.3.7 = {
+		death=yes
+	}
+}
+800351 = { #Margherita Malatesta, wife of Francesco Gonzaga
+	name="CarMargheritalo"
+	dynasty=13059
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=73603
+	mother=800301
+	1370.6.3={
+		birth=yes
+	}
+	1399.2.28={
+		death=yes
+	}
+}
+800352 = { #Gianfrancesco Gonzaga
+	name="Gianfrancesco"
+	dynasty=13052
+	religion="catholic"
+	culture="italian"
+	father=800350
+	mother=800351
+	1395.4.19 = {
+		birth=yes
+	}
+	1444.9.7 = {
+		death=yes
+	}
+}
+800353 = { #Susanna Gonzaga
+	name="Susanna"
+	dynasty=13052
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=800350
+	mother=800351
+	1397.1.26 = {
+		birth=yes
+	}
+	1404.9.7 = {
+		death=yes
+	}
+}
+###House da Carrara, lords of Padua
+800354 = {
+	name = "Ubertino"
+	dynasty=101823
+	culture = italian
+	religion = catholic
+	father = 70809
+	
+	1288.3.4 = {
+		birth = yes
+	}
+	1344.3.29 = {
+		death = yes
+	}
+}
+800355 = {
+	name = "Francesco"
+	dynasty=101823
+	culture = italian
+	religion = catholic
+	father = 412074
+	mother = 412077
+	
+	1359.3.19 = {
+		birth = yes
+	}
+	1378.1.1 = {
+		add_spouse = 800356
+	}
+	1406.1.16 = {
+		death = yes
+	}
+}
+802566 = {
+	name = "Cecilia" # 
+	dynasty = 101823 #
+	female=yes
+
+	culture = italian
+	religion = catholic
+	
+	father = 412074
+	mother = 412077
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1376.1.1 = {add_spouse = 462109} #Otto of Saxony
+	1435.1.1 = {
+		death = yes
+	}
+}
+800356 = { #Taddea, daughter of Niccolò II d'Este
+	name = "Taddea"
+	dynasty = 679
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800347
+	
+	1360.7.12 = {
+		birth = yes
+	}
+	1444.1.1 = {
+		death = yes
+	}
+}
+800357 = { #Gigliola da Carra
+	name = "Gigliola"
+	dynasty=101823
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800355
+	mother = 800356
+	
+	1379.4.8 = {
+		birth = yes
+	}
+	1393.1.1 = {
+		add_spouse = 800348
+	}
+	1416.1.16 = {
+		death = yes
+	}
+}
+##della Scala of Verona
+800358 = { #Bartolomeo II della Scala, son of Canisignorio
+	name = "Bartolomeo"
+	dynasty = 13032
+	culture = italian
+	religion = catholic
+	father = 412084
+	trait = bastard
+	
+	1350.2.23 = {
+		birth = yes
+	}
+	1381.7.12 = {
+		death = yes
+	}
+}
+800359 = { #Bartolomeo II della Scala, son of Canisignorio
+	name = "Bartolomeo"
+	dynasty = 13032
+	culture = italian
+	religion = catholic
+	father = 412084
+	
+	1362.2.23 = {
+		birth = yes
+	}
+	1388.9.3 = {
+		death = yes
+	}
+}
+##Palaiologoi of Monferrato
+800360 = { #Secondotto/Otto III Palaiologos
+	name = "Secondotto"
+	dynasty = 48
+	culture = italian
+	religion = catholic
+	father = 465523
+	mother = 800363
+	
+	1358.5.5 = {
+		birth = yes
+	}
+	1378.12.16 = {
+		death = yes
+	}
+}
+800361 = { #Giovanni III Palaiologos
+	name = "Giovanni"
+	dynasty = 48
+	culture = italian
+	religion = catholic
+	father = 465523
+	mother = 800363
+	
+	1362.7.20 = {
+		birth = yes
+	}
+	1381.8.25 = {
+		death = yes
+	}
+}
+800362 = { #Theodore II Palaiologos
+	name = "Teodoro"
+	dynasty = 48
+	culture = italian
+	religion = catholic
+	father = 465523
+	mother = 800363
+	1364.12.10 = {
+		birth = yes
+	}
+	1418.4.16 = {
+		death = yes
+	}
+}
+800364 = { #Margherita Palaiologos
+	name = "Margherita"
+	dynasty = 48
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 465523
+	mother = 800363
+	1365.9.29 = {
+		birth = yes
+	}
+	1420.4.16 = {
+		death = yes
+	}
+}
+800365 = { #Guglielmo Palaiologos
+	name = "Guglielmo"
+	dynasty = 48
+	culture = italian
+	religion = catholic
+	father = 465523
+	mother = 800363
+	1367.5.10 = {
+		birth = yes
+	}
+	1418.4.16 = {
+		death = yes
+	}
+}
+800370 = { #Thomas III of Saluzzo
+	name = "Tommaso"
+	dynasty=206
+	religion="catholic"
+	culture="frankish"
+	father=420305
+	
+	1356.4.27 = {
+		birth=yes
+	}
+	1416.5.7 = {
+		death=yes
+	}
+}
+##Doges of Genoa
+800371 = {
+	name = "Giovanni"
+	dynasty = 13069
+	culture = italian
+	religion = catholic
+	
+	1298.4.16 = {
+		birth = yes
+	}
+	1350.1.6 = {
+		death = yes
+	}
+}
+800372 = {
+	name = "Giovanni"
+	dynasty = 13072
+	culture = italian
+	religion = catholic
+	
+	1307.8.5 = {
+		birth = yes
+	}
+	1360.1.1 = {
+		death = yes
+	}
+}
+800373 = {
+	name = "Gabriele"
+	dynasty = 13003
+	culture = italian
+	religion = catholic
+	
+	1320.12.30 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		death = yes
+	}
+}
+800374 = {
+	name = "Domenico"
+	dynasty = 13004
+	culture = italian
+	religion = catholic
+	father = 800381
+	
+	1325.9.23 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+800375 = {
+	name = "Antoniotto"
+	dynasty = 13003
+	culture = italian
+	religion = catholic
+	
+	1325.9.23 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+800376 = {
+	name = "Nicolò"
+	dynasty = 3000030
+	culture = italian
+	religion = catholic
+	
+	1325.3.23 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		death = yes
+	}
+}
+800377 = {
+	name = "Leonardo"
+	dynasty = 3000031
+	culture = italian
+	religion = catholic
+	
+	1319.5.3 = {
+		birth = yes
+	}
+	1384.6.14 = {
+		death = yes
+	}
+}
+800378 = {
+	name = "Giacomo"
+	dynasty = 13004
+	culture = italian
+	religion = catholic
+	father = 800381
+	
+	1340.9.13 = {
+		birth = yes
+	}
+	1420.1.14 = {
+		death = yes
+	}
+}
+800379 = {
+	name = "Antoniotto"
+	dynasty = 3000031
+	culture = italian
+	religion = catholic
+	father = 800377
+	
+	1368.11.3 = {
+		birth = yes
+	}
+	1398.7.25 = {
+		death = yes
+	}
+}
+800380 = {
+	name = "Pietro"
+	dynasty = 13004
+	culture = italian
+	religion = catholic
+	father = 800381
+	1330.9.13 = {
+		birth = yes
+	}
+	1404.1.14 = {
+		death = yes
+	}
+}
+800381 = { #Father of Pietro, Domenico and Giacomo
+	name = "Ronaldo"
+	dynasty = 13004
+	culture = italian
+	religion = catholic
+	
+	1287.1.1 = {
+		birth = yes
+	}
+	1350.1.1 = {
+		death = yes
+	}
+}
+800382 = {
+	name = "Clemente"
+	dynasty = 101837
+	culture = italian
+	religion = catholic
+	
+	1348.7.10 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+800383 = {
+	name = "Francesco"
+	dynasty = 3000032
+	culture = italian
+	religion = catholic
+	
+	1352.12.24 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+800384 = {
+	name = "Niccolò"
+	dynasty = 101856
+	culture = italian
+	religion = catholic
+	
+	1350.5.4 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+800385 = {
+	name = "Antonio"
+	dynasty = 3000030
+	culture = italian
+	religion = catholic
+	father = 800376
+	1355.6.20 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+###House of Medici
+800386 = { #Averardo de' Medici
+	name = "Averardo"
+	dynasty = 3000035
+	culture = italian
+	religion = catholic
+	
+	1320.8.10 = {
+		birth = yes
+	}
+	1358.1.1 = {
+		add_spouse = 800387
+	}
+	1363.1.1 = {
+		death = yes
+	}
+}
+800387 = { #Jacopa Spini
+	name = "Jacopa"
+	dynasty = 3000033
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1409.1.1 = {
+		death = yes
+	}
+}
+800388 = { #Giovanni di Bicci de' Medici
+	name = "Giovanni"
+	dynasty = 3000035
+	culture = italian
+	religion = catholic
+	father = 800386
+	mother = 800387
+	martial = 5
+	diplomacy = 8
+	stewardship = 15
+	learning = 10
+	trait = midas_touched
+	trait = ambitious
+	trait = greedy
+	trait = quick
+	trait = administrator
+	trait = charitable
+	trait = gregarious
+	
+	
+	1360.3.11 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		add_spouse = 800389
+	}
+	1429.2.20 = {
+		death = yes
+	}
+}
+800389 = { #Piccarda Bueri
+	name = "Piccarda"
+	dynasty = 3000034
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	1368.6.6 = {
+		birth = yes
+	}
+	1433.1.1 = {
+		death = yes
+	}
+}
+800390 = { #Cosimo di Giovanni de' Medici
+	name = "Cosimo"
+	dynasty = 3000035
+	culture = italian
+	religion = catholic
+	father = 800388
+	mother = 800389
+	trait = twin
+	trait = shrewd
+	trait = quick
+	trait = conscientious
+	trait = fussy
+	trait = willful
+	
+	1389.3.11 = {
+		birth = yes
+	}
+	1464.8.1 = {
+		death = yes
+	}
+}
+800391 = { #Damiano di Giovanni de' Medici
+	name = "Damiano"
+	dynasty = 3000035
+	culture = italian
+	religion = catholic
+	father = 800388
+	mother = 800389
+	trait = twin
+	trait = sickly
+	
+	1389.3.11 = {
+		birth = yes
+	}
+	1389.4.3 = {
+		death = yes
+	}
+}
+800392 = { #Lorenzo di Giovanni de' Medici
+	name = "Lorenzo"
+	dynasty = 3000035
+	culture = italian
+	religion = catholic
+	father = 800388
+	mother = 800389
+	trait = quick
+	
+	1395.5.20 = {
+		birth = yes
+	}
+	1440.9.23 = {
+		death = yes
+	}
+}
+###House Strozzi
+800393 = { #Palla Strozzi
+	name = "Palla"
+	dynasty = 13084
+	culture = italian
+	religion = catholic
+	
+	diplomacy = 15
+	martial = 5
+	stewardship = 0
+	learning = 15
+	trait = groomed
+	trait = grey_eminence
+	trait = shrewd
+	trait = socializer
+	trait = charitable
+	trait = ambitious
+	trait = envious
+	trait = proud
+	father = 800394
+	mother = 800395
+	
+	1372.3.8 = {
+		birth = yes
+	}
+	1462.5.8 = {
+		death = yes
+	}
+}
+800394 = { #Onofrio Strozzi
+	name = "Onofrio"
+	dynasty = 13084
+	culture = italian
+	religion = catholic
+	
+	1345.5.10 = {
+		birth = yes
+	}
+	1370.1.1 = {
+		add_spouse = 800395
+	}
+	1417.1.1 = {
+		death = yes
+	}
+}
+800395 = { #Alessandra Cavalcanti
+	name = "Alessandra"
+	dynasty = 3000036
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	1345.5.10 = {
+		birth = yes
+	}
+	1389.1.1 = {
+		death = yes
+	}
+}
+800396 = { #Fictional ruler of Corsica
+	name = "Tommaso"
+	culture = italian
+	religion = catholic
+	
+	1329.3.8 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+##House of Gradenigo
+800403 = { #Marco Gradenigo
+	name = "Marco"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800409
+	
+	1220.3.19 = {
+		birth = yes
+	}
+	1252.1.2 = {
+		effect = {
+			c_32130 = {
+				set_father = 800403
+			}
+		}
+	}
+	1273.1.1 = {
+		death = yes
+	}
+}
+800404 = { #Giovanni Gradenigo
+	name = "Giovanni"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800403
+	1254.3.19 = {
+		birth = yes
+	}
+	1300.1.1 = {
+		death = yes
+	}
+}
+800405 = { #Bartolomeo Gradenigo
+	name = "Bartolomeo"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800403
+	1256.12.28 = {
+		birth = yes
+	}
+	1330.1.1 = {
+		death = yes
+	}
+}
+800406 = { #Nicolò Gradenigo
+	name = "Nicolò"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800403
+	1258.6.20 = {
+		birth = yes
+	}
+	1343.1.1 = {
+		death = yes
+	}
+}
+800407 = { #Marino Gradenigo
+	name = "Marino"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800403
+	1260.4.14 = {
+		birth = yes
+	}
+	1283.7.30 = {
+		death = yes
+	}
+}
+800408 = { #Frangipane Gradenigo
+	name = "Frangipane"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800403
+	1263.8.4 = {
+		birth = yes
+	}
+	1308.11.20 = {
+		death = yes
+	}
+}
+800409 = { #Bartolomeo II Gradenigo
+	name = "Bartolomeo"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	
+	1190.1.1 = {
+		birth = yes
+	}
+	1240.5.27 = {
+		death = yes
+	}
+}
+800410 = { #Niccolò Gradenigo
+	name = "Niccolò"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800409
+	1222.10.18 = {
+		birth = yes
+	}
+	1303.6.6 = {
+		death = yes
+	}
+}
+800411 = { #Angelo Gradenigo, Duke of Crete, father of Bartolomeo, Doge of Venice
+	name = "Angelo"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800409
+	1225.2.3 = {
+		birth = yes
+	}
+	1296.8.18 = {
+		death = yes
+	}
+}
+800412 = { #Bartolomeo Gradenigo, Doge of Venice
+	name = "Bartolomeo"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800411
+	
+	1263.1.20 = {
+		birth = yes
+	}
+	1342.12.28 = {
+		death = yes
+	}
+}
+800413 = { #Bertucci Gradenigo
+	name = "Bertucci"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800411
+	
+	1270.3.7 = {
+		birth = yes
+	}
+	1321.4.21 = {
+		death = yes
+	}
+}
+800414 = { #Giovanni Gradenigo, Doge of Venice
+name = "Giovanni"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800407
+	
+	1278.1.15 = {
+		birth = yes
+	}
+	1356.8.8 = {
+		death = yes
+	}
+}
+800415 = { #Luca Gradenigo
+	name = "Luca"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800407
+	
+	1279.3.1 = {
+		birth = yes
+	}
+	1360.8.8 = {
+		death = yes
+	}
+}
+800416 = { #Tommaso Gradenigo
+	name = "Tommaso"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800407
+	
+	1280.8.12 = {
+		birth = yes
+	}
+	1370.8.1 = {
+		death = yes
+	}
+}
+800417 = { #Michele Gradenigo
+	name = "Michele"
+	dynasty = 13007
+	culture = italian
+	religion = catholic
+	father = 800407
+	
+	1282.2.6 = {
+		birth = yes
+	}
+	1330.1.1 = {
+		death = yes
+	}
+}
+##
+800418 = { #Giovanni Delfino
+	name = "Giovanni"
+	dynasty = 13011
+	culture = italian
+	religion = catholic
+	
+	1298.10.17 = {
+		birth = yes
+	}
+	1361.7.12 = {
+		death = yes
+	}
+}
+800419 = { #Lorenzo Celsi
+	name = "Lorenzo"
+	dynasty = 3000037
+	culture = italian
+	religion = catholic
+	
+	1310.1.1 = {
+		birth = yes
+	}
+	1365.7.18 = {
+		death = yes
+	}
+}
+800420 = { #Marco Cornaro
+	name = "Marco"
+	dynasty = 13079
+	culture = italian
+	religion = catholic
+	
+	1286.1.1 = {
+		birth = yes
+	}
+	1368.1.13 = {
+		death = yes
+	}
+}
+800421 = { #Antonio Venier
+	name = "Antonio"
+	dynasty = 3000038
+	culture = italian
+	religion = catholic
+	
+	1330.3.23 = {
+		birth = yes
+	}
+	1400.11.23 = {
+		death = yes
+	}
+}
+###House de' Pazzi
+800422 = {
+	name = "Guglielmo"
+	dynasty = 3000039
+	culture = italian
+	religion = catholic
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1354.1.1 = {
+		add_spouse = 800423
+	}
+	1390.4.1 = {
+		death = yes
+	}
+}
+800423 = {
+	name = "Constanza"
+	dynasty = 3000040
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	1337.1.1 = {
+		birth = yes
+	}
+	1400.4.1 = {
+		death = yes
+	}
+}
+800424 = {
+	name = "Piero"
+	dynasty = 3000039
+	culture = italian
+	religion = catholic
+	father = 800422
+	mother = 800423
+	
+	1355.2.24 = {
+		birth = yes
+	}
+	1380.9.11 = {
+		death = yes
+	}
+}
+800425 = { #Domenico de' Pazzi
+	name = "Domenico"
+	dynasty = 3000039
+	culture = italian
+	religion = catholic
+	father = 800422
+	mother = 800423
+	
+	1360.12.14 = {
+		birth = yes
+	}
+	1433.1.11 = {
+		death = yes
+	}
+}
+800426 = { #Andrea de' Pazzi
+	name = "Andrea"
+	dynasty = 3000039
+	culture = italian
+	religion = catholic
+	father = 800422
+	mother = 800423
+	
+	1372.8.24 = {
+		birth = yes
+	}
+	1445.10.19 = {
+		death = yes
+	}
+}
+###House Pucci
+800427 = { #Antonio Pucci
+	name = "Antonio"
+	dynasty = 3000041
+	culture = italian
+	religion = catholic
+	trait = architect
+	1350.5.14 = {
+		birth = yes
+	}
+	1384.1.1 = {
+		add_spouse = 800428
+	}
+	1416.1.1 = {
+		death = yes
+	}
+}
+800428 = { #Bartolomea del Giocondo
+	name = "Bartolomea"
+	dynasty = 3000042
+	culture = italian
+	religion = catholic
+	female = yes
+	
+	1360.3.29 = {
+		birth = yes
+	}
+	1399.5.16 = {
+		death = yes
+	}
+}
+800429 = { #Puccio Pucci
+	name = "Puccio"
+	dynasty = 3000041
+	culture = italian
+	religion = catholic
+	
+	1389.9.1 = {
+		birth = yes
+	}
+	1449.5.7 = {
+		death = yes
+	}
+}
+800430 = { #Giovanni Pucci
+	name = "Giovanni"
+	dynasty = 3000041
+	culture = italian
+	religion = catholic
+	
+	1392.11.10 = {
+		birth = yes
+	}
+	1450.5.7 = {
+		death = yes
+	}
+}
+800431 = { #Niccolò Pucci
+	name = "Niccolò"
+	dynasty = 3000041
+	culture = italian
+	religion = catholic
+	
+	1395.11.10 = {
+		birth = yes
+	}
+	1460.1.1 = {
+		death = yes
+	}
+}
+##Patriarchs of Aquileia
+800432 = { #Ludovico della Torre
+	name="Ludovico"
+	dynasty=101849
+	religion="catholic"
+	culture="italian"
+	father=70761
+	
+	1284.1.1 = {
+		birth=yes
+	}
+	1365.7.30 = {
+		death=yes
+	}
+}
+800433 = {
+	name = "Marquardo"
+	dynasty = 3000043
+	culture = italian
+	religion = catholic
+	
+	1296.10.8 = {
+		birth = yes
+	}
+	1381.1.3 = {
+		death = yes
+	}
+}
+800434 = { #Giacomo II Caetani
+	name = "Giacomo"
+	dynasty=622 #Caetani
+	religion="catholic"
+	culture="italian"
+	father=167464
+	mother=167468
+	
+	1338.1.1 = {
+		birth=yes
+	}
+	1423.1.10 = {
+		death=yes
+	}
+}
+800435 = { #Antonio Caetani
+	name = "Antonio"
+	dynasty=622 #Caetani
+	religion="catholic"
+	culture="italian"
+	father=800434
+	
+	1359.4.21 = {
+		birth=yes
+	}
+	1412.1.10 = {
+		death=yes
+	}
+}
+800439 = { #Viridis Visconti, wife of Duke of Styria
+	name = "Viridis"
+	dynasty = 234
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 463152
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1414.1.1 = {
+		death = yes
+	}
+}
+800467 = { #Giorgio II Ghisi
+	name="Giorgio" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="italian"
+	father=31497
+	
+	1298.5.1 = {
+		birth=yes
+	}
+	1352.1.1 = {
+		death=yes
+	}
+}
+800468 = { #Bartolomeo III Ghisi
+	name="Giorgio" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="italian"
+	father=800467
+	
+	1315.12.11 = {
+		birth=yes
+	}
+	1384.1.1 = {
+		death=yes
+	}
+}
+800469 = { #Giorgio III Ghisi
+	name="Giorgio" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="italian"
+	father=800468
+	
+	1350.5.1 = {
+		birth=yes
+	}
+	1390.1.1 = {
+		death=yes
+	}
+}
+800470 = { #Januli I de Noë
+	name = Januli
+	dynasty = 3000046
+	culture = italian
+	religion = catholic
+	
+	1335.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+800471 = { #Nicolò de Noë
+	name = Nicolò
+	dynasty = 3000046
+	culture = italian
+	religion = catholic
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1425.1.1 = {
+		death = yes
+	}
+}
+800474 = {
+	name="Fiorenza"
+	dynasty=102020 #Sanudo
+	religion="catholic"
+	culture="italian"
+	female = yes
+	father=31428
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1371.1.1 = {
+		death = yes
+	}
+}
+800475 = { #Nicolò dalle Carceri
+	name = "Giovanni"
+	dynasty = 102022
+	religion="catholic"
+	culture="italian"
+	mother = 800474
+	
+	1363.4.15 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		death = yes
+	}
+}
+800476 = { #Francesco I Crispo
+	name = "Francesco"
+	dynasty = 13023
+	culture = italian
+	religion = catholic
+	
+	1338.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		add_spouse = 800477
+	}
+	1397.5.15 = {
+		death = yes
+	}
+}
+800477 = { #Fiorenza I Sanudo
+	name = "Fiorenza"
+	dynasty = 102020
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 31426
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1399.1.29 = {
+		death = yes
+	}
+}
+800478 = { #Gioacomo I Crispo
+	name = "Gioacomo"
+	dynasty = 13023
+	culture = italian
+	religion = catholic
+	father = 800476
+	mother = 800477
+	1383.9.20 = {
+		birth = yes
+	}
+	1418.5.15 = {
+		death = yes
+	}
+}
+800479 = { #Petronilla Crispo
+	name = "Petronilla"
+	dynasty = 13023
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800476
+	mother = 800477
+	1384.10.10 = {
+		birth = yes
+	}
+	1427.5.15 = {
+		death = yes
+	}
+}
+800480 = { #Agnese Crispo
+	name = "Agnese"
+	dynasty = 13023
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 800476
+	mother = 800477
+	1386.4.23 = {
+		birth = yes
+	}
+	1428.5.15 = {
+		death = yes
+	}
+}
+800481 = { #Giovanni II Crispo
+	name = "Giovanni"
+	dynasty = 13023
+	culture = italian
+	religion = catholic
+	father = 800476
+	mother = 800477
+	1387.5.30 = {
+		birth = yes
+	}
+	1433.5.15 = {
+		death = yes
+	}
+}
+800482 = { #Guglielmo II Crispo
+	name = "Guglielmo"
+	dynasty = 13023
+	culture = italian
+	religion = catholic
+	father = 800476
+	mother = 800477
+	1390.2.7 = {
+		birth = yes
+	}
+	1450.5.15 = {
+		death = yes
+	}
+}
+800483 = { #Niccolò Crispo
+	name = "Niccolò"
+	dynasty = 13023
+	culture = italian
+	religion = catholic
+	father = 800476
+	mother = 800477
+	1392.6.8 = {
+		birth = yes
+	}
+	1450.5.15 = {
+		death = yes
+	}
+}
+800484 = { #Marco Crispo
+	name = "Marco"
+	dynasty = 13023
+	culture = italian
+	religion = catholic
+	father = 800476
+	mother = 800477
+	1394.11.27 = {
+		birth = yes
+	}
+	1450.5.15 = {
+		death = yes
+	}
+}
+800486 = { #Pietro Crispo
+	name = "Pietro"
+	dynasty = 13023
+	culture = italian
+	religion = catholic
+	father = 800476
+	mother = 800477
+	1397.6.2 = {
+		birth = yes
+	}
+	1440.5.15 = {
+		death = yes
+	}
+}
+###Acciaioli Family
+800488 = { #Nerio I
+	name = "Nerio"
+	dynasty = 3000047
+	culture = italian
+	religion = catholic
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1394.9.17 = {
+		death = yes
+	}
+}
+800489 = { #Antonio I
+	name = "Antonio"
+	dynasty = 3000047
+	culture = italian
+	religion = catholic
+	father = 800488
+	trait = legit_bastard
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1435.9.17 = {
+		death = yes
+	}
+}
+800490 = {
+	name="Albano"
+	dynasty=516
+	religion="catholic"
+	culture="italian"
+	father=167607
+	1343.1.1 = {
+		birth=yes
+	}
+	1404.6.5 = {
+		death=yes
+	}
+}
+800491 = { #Lorenzo Venier
+	name = "Lorenzo"
+	dynasty = 3000038
+	culture = italian
+	religion = catholic
+	father = 800421
+	
+	1350.8.12 = {
+		birth = yes
+	}
+	1430.11.23 = {
+		death = yes
+	}
+}
+800492 = {
+	name="Ermoaldo"
+	dynasty=516
+	religion="catholic"
+	culture="italian"
+	father=167607
+	1345.4.13 = {
+		birth=yes
+	}
+	1404.6.5 = {
+		death=yes
+	}
+}
+800496 = { #Bianca d'Aragona
+	name = "Bianca"
+	dynasty = 100204
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 461502
+	mother = 462715
+	
+	1342.1.1 = {
+		birth = yes
+	}
+	1370.6.16 = {
+		death = yes
+	}
+}

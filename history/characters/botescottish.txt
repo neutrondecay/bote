@@ -1,0 +1,1207 @@
+800115 = { #Earl of March (Dunbar)
+	name = "George"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	father = 453014
+	mother = 453062
+	
+	1338.7.7 = {
+		birth = yes
+	}
+	1367.1.1 = {
+		add_spouse = 800116
+	}
+}
+800116 = { #Wife of Earl of Dunbar
+	name = "Christina"
+	dynasty = 3000010
+	culture = scottish
+	religion = catholic
+	female = yes
+	1340.2.12 = {
+		birth = yes
+	}
+}
+800117 = { #Son of Dunbar
+	name = "George"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	father = 800115
+	mother = 800116
+	
+	1370.5.6 = {
+		birth = yes
+	}
+}
+800118 = { #2nd son of Dunbar
+	name = "Columba"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	father = 800115
+	mother = 800116
+	
+	1386.2.28 = {
+		birth = yes
+	}
+}
+800119 = { #3rd son of Dunbar
+	name = "Gavin"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	father = 800115
+	mother = 800116
+	
+	1377.11.19= {
+		birth = yes
+	}
+}
+800120 = { #4th son of Dunbar
+	name = "Patrick"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	father = 800115
+	mother = 800116
+	
+	1380.6.26 = {
+		birth = yes
+	}
+}
+800121 = { #Daughter of Dunbar
+	name = "Janet"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	father = 800115
+	mother = 800116
+	female = yes
+	1378.2.28 = {
+		birth = yes
+	}
+}
+800122 = { #2nd daughter of Dunbar
+	name = "Marjory"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	father = 800115
+	mother = 800116
+	female = yes
+	
+	1382.3.10 = {
+		birth = yes
+	}
+}
+800123 = { #5th son of Dunbar
+	name = "David"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	father = 800115
+	mother = 800116
+	
+	1384.8.20 = {
+		birth = yes
+	}
+}
+800124 = { #Fictional 3rd daughter. They had 8 children, but 8th unknown
+	name = "Anne"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	father = 800115
+	mother = 800116
+	female = yes
+	
+	1387.12.11 = {
+		birth = yes
+	}
+}
+800125 = { #Rex Scotiae, Earl of Carrick, Clydesdale
+	name = "Robert"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	mother = 453035
+	1337.7.29 = {
+		birth = yes
+	}
+	1367.1.1 = {
+		add_spouse = 800157
+	}
+}
+#King of Scotland's many siblings
+800126 = {
+	name = "Walter"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	mother = 453035
+	1338.10.2 = {
+		birth = yes
+	}
+}
+800127 = { #Duke of Albany, Earl of Fife
+	name = "Robert"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	mother = 453035
+	1340.3.15 = {
+		birth = yes
+	}
+}
+800128 = { #Earl of Buchan
+	name = "Alexander"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	mother = 453035
+	1343.12.21 = {
+		birth = yes
+	}
+}
+800129 = { #Married Earl of Moray
+	name = "Marjorie"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 453034
+	mother = 453035
+	1344.10.13 = {
+		birth = yes
+	}
+}
+800130 = {
+	name = "Elizabeth"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 453034
+	mother = 453035
+	1345.8.17 = {
+		birth = yes
+	}
+}
+800131 = {
+	name = "Isabella"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 453034
+	mother = 453035
+	1347.2.14 = {
+		birth = yes
+	}
+}
+800132 = {
+	name = "Johanna"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 453034
+	mother = 453035
+	1348.5.11 = {
+		birth = yes
+	}
+}
+800133 = {
+	name = "Katherine"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 453034
+	mother = 453035
+	1350.4.25 = {
+		birth = yes
+	}
+}
+800134 = { #Daughter of Earl of Ross, 2nd wife of Robert II, stepmother of Robert III
+	name = "Euphemia"
+	dynasty = 1031011
+	culture = scottish
+	religion = catholic
+	female = yes
+	1331.2.1 = {
+		birth = yes
+	}
+	1355.1.1 = {
+		add_spouse = 453034
+	}
+	1386.10.10 = {
+		death = yes
+	}
+}
+800135 = { #Earl of Strathearn, d.1386
+	name = "David"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	mother = 800134
+	
+	1356.7.22 = {
+		birth = yes
+	}
+	1379.1.1 = {
+		add_spouse = 800154
+	}
+	1386.3.11 = {
+		death = yes
+	}
+}
+800136 = { #Earl of Atholl, but not until 1404
+	name = "Walter"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	mother = 800134
+	
+	1360.12.12 = {
+		birth = yes
+	}
+}
+800137 = { #Married Earl of Crawford
+	name = "Elizabeth"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 453034
+	mother = 800134
+	
+	1363.11.01 = {
+		birth = yes
+	}
+}
+800138 = {
+	name = "Egidia"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 453034
+	mother = 800134
+	
+	1372.4.14 = {
+		birth = yes
+	}
+}
+800139 = { #Robert II's mistress
+	name = "Mariota"
+	dynasty = 3000011 #de Cardeny
+	culture = scottish
+	religion = catholic
+	female = yes
+	
+	1328.4.13 = {
+		birth = yes
+	}
+	1348.1.1 = {
+		add_lover = 453033
+	}
+	1387.1.31 = {
+		death = yes
+	}
+}
+800140 = { 
+	name = "Alexander"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	mother = 800139
+	trait = bastard
+	
+	1349.2.24 = {
+		birth = yes
+	}
+	1399.7.3 = {
+		death = yes
+	}
+}
+800141 = { 
+	name = "John"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	mother = 800139
+	trait = bastard
+	
+	1352.12.24 = {
+		birth = yes
+	}
+}
+800142 = { 
+	name = "James"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	mother = 800139
+	trait = bastard
+	
+	1355.8.13 = {
+		birth = yes
+	}
+}
+800143 = { #Earl of Caithness
+	name = "Walter"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	mother = 800139
+	trait = bastard
+	
+	1360.1.22 = {
+		birth = yes
+	}
+}
+800144 = { #Robert II's other mistress
+	name = "Moira"
+	dynasty = 3000012
+	culture = scottish
+	religion = catholic
+	female = yes
+	1338.1.1 = {
+		birth = yes
+	}
+	1358.1.1 = {
+		add_lover = 453034
+	}
+}
+800145 = { 
+	name = "John"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	mother = 800144
+	trait = bastard
+	
+	1360.4.8 = {
+		birth = yes
+	}
+}
+800146 = { 
+	name = "John"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	trait = bastard
+	
+	1370.3.13 = {
+		birth = yes
+	}
+}
+800147 = { 
+	name = "Alexander"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	trait = bastard
+	
+	1363.6.16 = {
+		birth = yes
+	}
+}
+800148 = { 
+	name = "Alexander"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	trait = bastard
+	
+	1356.9.2 = {
+		birth = yes
+	}
+}
+800149 = { #Bishop of St. Andrews
+	name = "Thomas"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	trait = bastard
+	
+	1355.10.18 = {
+		birth = yes
+	}
+}
+800150 = { 
+	name = "James"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	trait = bastard
+	
+	1349.7.22 = {
+		birth = yes
+	}
+	1388.12.29 = {
+		death = yes
+	}
+}
+800151 = { 
+	name = "Walter"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 453034
+	trait = bastard
+	
+	1365.9.26 = {
+		birth = yes
+	}
+}
+800152 = { 
+	name = "Mary"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 453034
+	trait = bastard
+	
+	1371.4.4 = {
+		birth = yes
+	}
+}
+800153 = { #Countess of Strathearn suo iure
+	name = "Euphemia"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	female = yes
+	
+	father = 800135
+	mother = 800154
+	
+	1380.7.11 = {
+		birth = yes
+	}
+}
+800154 = { #Strathearn's mother
+	name = "Euphemia"
+	dynasty = 3122
+	culture = scottish
+	religion = catholic
+	female = yes
+	
+	father = 800155
+	
+	1359.8.20 = {
+		birth = yes
+	}
+	
+}
+800247 = { #Sir David Lindsay
+	name = "David"
+	dynasty=3122
+	religion="catholic"
+	culture="scottish"
+	father=161382
+	trait = crusader
+	trait = duelist
+	trait = pilgrim
+	trait = lustful
+	1300.1.21={
+		birth= yes
+	}
+	1355.10.24={
+		death = yes
+	}
+}
+800155 = { #Sir Alexander Lindsay
+	name="Alexander"
+	dynasty=3122
+	religion="catholic"
+	culture="scottish"
+	father=800247
+	trait = crusader
+	trait = duelist
+	trait = pilgrim
+	trait = lustful
+	1328.4.2={
+		birth= yes
+	}
+	1382.2.24={
+		death = yes
+	}
+}
+800156 = { #David Lindsay, 1st Earl of Crawford (Clydesdale)
+	name = "David"
+	dynasty=3122
+	religion="catholic"
+	culture="scottish"
+	father=800155
+	1360.2.5 = {
+		birth = yes
+	}
+}
+800157 = { #Robert III's wife
+	name = "Anabella"
+	dynasty = 3000013
+	culture = scottish
+	religion = catholic
+	female = yes
+	
+	1350.5.16 = {
+		birth = yes
+	}
+}
+800158  = { #David Stewart, Duke of Rothesay, Earl of Carrick and Atholl
+	name = "David"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	
+	father = 800125
+	mother = 800157
+	
+	1378.10.24 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		add_spouse = 800159
+	}
+}
+800159 = { #Wife of Rothesay, daughter of Earl of Douglas, Lord (Earl) of Galloway
+	name = "Mary"
+	dynasty = 3125
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 800168
+	mother = 800169
+	1379.6.1 = {
+		birth = yes
+	}
+}
+800160 = { #Mother of Earl of Argyll
+	name = "Isabella"
+	dynasty = 3000014
+	culture = scottish
+	religion = catholic
+	female = yes
+	
+	1323.4.21 = {
+		birth = yes
+	}
+	1340.12.11 = {
+		add_spouse = 453078
+	}
+	1391.1.1 = {
+		death = yes
+	}
+}
+800161 = { #Lord of Lochawe (Earl of Argyll)
+	name = "Colin"
+	dynasty = 3128
+	culture = scottish
+	religion = catholic
+	father = 453078
+	mother = 800160
+	
+	1343.8.10 = {
+		birth = yes
+	}
+	
+}
+800162 = { #Prince-Bishop of Iona
+	name = "Michael"
+	culture = scottish
+	religion = catholic
+	
+	1339.3.1 = {
+		birth = yes
+	}
+}
+800163 = { #Earl of Moray
+	name = "Thomas"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	
+	1358.10.8 = {
+		birth = yes
+	}
+}
+800164 = { #Lord of the Isles (Earl of Innse Galle)
+	name = "Domhnall"
+	dynasty = 3101
+	culture = scottish
+	religion = catholic
+	
+	1363.2.13 = {
+		birth = yes
+	}
+}
+800165 = { #Countess of Ross (to be)
+	name = "Mariota"
+	dynasty = 3101
+	culture = scottish
+	religion = catholic
+	female = yes
+	1367.12.26 = {
+		birth = yes
+	}
+	1381.1.12 = {
+		add_spouse = 800164
+	}
+}
+800166 = { #Son of Domhnall and Mariota
+	name = "Alexander"
+	dynasty = 3101
+	culture = scottish
+	religion = catholic
+	
+	1389.5.5 = {
+		birth = yes
+	}
+}
+800167 = { #Earl of Ross
+	name = "Alexander"
+	dynasty = 3000015
+	culture = scottish
+	religion = catholic
+	
+	1367.9.8 = {
+		birth = yes
+	}
+}
+800168 = { #Lord (Earl) of Galloway
+	name = "Archibald"
+	dynasty = 3125
+	culture = scottish
+	religion = catholic
+	
+	1328.4.27 = {
+		birth = yes
+	}
+	1388.1.1 = {
+		add_spouse = 800169
+	}
+}
+800169 = { #Wife of Galloway
+	name = "Joanna"
+	dynasty = 9104
+	culture = scottish
+	religion = catholic
+	father = 82036
+	female = yes
+	1340.1.9 = {
+		birth = yes
+	}
+}
+800170 = { #Son of Galloway
+	name = "Archibald"
+	dynasty = 3125
+	culture = scottish
+	religion = catholic
+	father = 800168
+	mother = 800169
+	
+	1390.2.13 = {
+		birth = yes
+	}
+}
+800171 = { #Son of Galloway
+	name = "Elizabeth"
+	dynasty = 3125
+	culture = scottish
+	religion = catholic
+	father = 800168
+	mother = 800169
+	female = yes
+	1393.6.10 = {
+		birth = yes
+	}
+}
+###
+800954 = {
+	name = "William"
+	dynasty = 3000095
+	culture = scottish
+	religion = catholic
+	
+	1315.1.1 = {
+		birth = yes
+	}
+	1345.1.1 = {
+		add_spouse = 450828
+	}
+	1358.9.30 = {
+		death = yes
+	}
+}
+800962 = {
+	name = "Henry"
+	dynasty = 3000095
+	culture = scottish
+	religion = catholic
+	father = 800954
+	mother = 450828
+	1345.11.19 = {
+		birth = yes
+	}
+	1374.1.1 = {
+		add_spouse = 800955
+	}
+	1404.9.30 = {
+		death = yes
+	}
+}
+800955 = {
+	name = "Jean"
+	dynasty = 3000096
+	culture = scottish
+	religion = catholic
+	female = yes
+	
+	1347.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+800956 = {
+	name = "Henry"
+	dynasty = 3000095
+	culture = scottish
+	religion = catholic
+	father = 800954
+	mother = 450828
+	1375.11.19 = {
+		birth = yes
+	}
+	1422.9.30 = {
+		death = yes
+	}
+}
+800957 = {
+	name = "John"
+	dynasty = 3000095
+	culture = scottish
+	religion = catholic
+	father = 800954
+	mother = 450828
+	1378.11.19 = {
+		birth = yes
+	}
+	1405.9.30 = {
+		death = yes
+	}
+}
+800958 = {
+	name = "William"
+	dynasty = 3000095
+	culture = scottish
+	religion = catholic
+	father = 800954
+	mother = 450828
+	1385.10.2 = {
+		birth = yes
+	}
+	1405.9.30 = {
+		death = yes
+	}
+}
+800959 = {
+	name = "Elizabeth"
+	dynasty = 3000095
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 800954
+	mother = 450828
+	
+	1363.4.30 = {
+		birth = yes
+	}
+	1405.9.30 = {
+		death = yes
+	}
+}
+800960 = {
+	name = "Margaret"
+	dynasty = 3000095
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 800954
+	mother = 450828
+	
+	1369.5.22 = {
+		birth = yes
+	}
+	1405.9.30 = {
+		death = yes
+	}
+}
+800961 = {
+	name = "Marjory"
+	dynasty = 3000095
+	culture = scottish
+	religion = catholic
+	female = yes
+	father = 800954
+	mother = 450828
+	
+	1384.1.2 = {
+		birth = yes
+	}
+	1405.9.30 = {
+		death = yes
+	}
+}
+
+## Stuart ##
+829617 = { # James I
+	name="James" 
+	dynasty=3134
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800125
+	mother = 800157
+	
+	1394.7.30 = {
+		birth = yes
+	}
+	1437.2.21 = {
+		death = yes
+	}
+}
+
+829618 = { # died young
+	name="Robert" 
+	dynasty=3134
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800125
+	mother = 800157
+	
+	1377.1.1 = {
+		birth = yes
+	}
+	1381.1.1 = {
+		death = yes
+	}
+}
+
+829619 = { # Countess of Douglas
+	name="Margaret" 
+	dynasty=3134
+	female=yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800125
+	mother = 800157
+	
+	1376.1.1 = {
+		birth = yes
+	}
+	1451.1.1 = {
+		death = yes
+	}
+}
+
+829619 = { # Baroness Dalkeith
+	name="Elizabeth" 
+	dynasty=3134
+	female=yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800125
+	mother = 800157
+	
+	1373.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+
+829620 = { # Countess of Angus
+	name="Mary" 
+	dynasty=3134
+	female=yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800125
+	mother = 800157
+	
+	1382.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+
+829621 = { # 
+	name="Egidia" 
+	dynasty=3134
+	female=yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800125
+	mother = 800157
+	
+	1389.1.1 = {
+		birth = yes
+	}
+	1403.1.1 = {
+		death = yes
+	}
+}
+
+829622 = { # Bastard
+	name="John" 
+	dynasty=3134
+
+	religion="catholic"
+	culture="scottish"
+
+	trait = "bastard"
+
+	father = 800125
+	
+	1364.1.1 = {
+		birth = yes
+	}
+	1412.1.1 = {
+		death = yes
+	}
+}
+
+### Duke of Albany's children ###
+
+829623 = { #
+	name="Murdoch" 
+	dynasty=3134
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800127 
+	
+	1362.1.1 = {
+		birth = yes
+	}
+	1425.5.25 = {
+		death = yes
+	}
+}
+
+829624 = { #
+	name="Janet" 
+	dynasty=3134
+	female = yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800127 
+	
+	1363.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+
+829625 = { #
+	name="Mary" 
+	dynasty=3134
+	female = yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800127 
+	
+	1364.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+
+829626 = { #
+	name="Margaret" 
+	dynasty=3134
+	female = yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800127 
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+
+829627 = { #
+	name="Joan" 
+	dynasty=3134
+	female = yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800127 
+	
+	1366.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+
+829628 = { #
+	name="Beatrice" 
+	dynasty=3134
+	female = yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800127 
+	
+	1367.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+
+829629 = { #
+	name="Isobel" 
+	dynasty=3134
+	female = yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800127 
+	
+	1368.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+
+829630 = { #
+	name="Marjory" 
+	dynasty=3134
+	female = yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800127 
+	
+	1368.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+
+829631 = { #
+	name="John" 
+	dynasty=3134
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800127 
+	
+	1381.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+
+829632 = { #
+	name="Robert" 
+	dynasty=3134
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800127 
+	
+	1382.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+
+829633 = { #
+	name="Elizabeth" 
+	dynasty=3134
+	female = yes
+
+	religion="catholic"
+	culture="scottish"
+
+	father = 800127 
+	
+	1382.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}

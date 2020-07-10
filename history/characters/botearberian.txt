@@ -1,0 +1,241 @@
+800571 = { #Pjetër Losha
+	name = "Pjetër"
+	dynasty = 3000052
+	culture = arberian
+	religion = orthodox
+	
+	1320.1.1 = {
+		birth = yes
+	}
+	1374.1.1 = {
+		death = yes
+	}
+}
+800572 = { #Gjin Bua Sphata
+	name = "Gjin"
+	dynasty = 15002
+	culture = arberian
+	religion = orthodox
+	
+	1310.12.17 = {
+		birth = yes
+	}
+	1399.10.29 = {
+		death = yes
+	}
+}
+800573 = { #Irina Bua Sphata
+	name = "Irina"
+	dynasty = 15002
+	culture = arberian
+	religion = orthodox
+	female = yes
+	father = 800572
+	
+	1375.1.17 = {
+		birth = yes
+	}
+	1444.10.29 = {
+		death = yes
+	}
+}
+800575 = { #Incognita Bua Sphata
+	name = "Oudemija"
+	dynasty = 15002
+	culture = arberian
+	religion = orthodox
+	female = yes
+	father = 800572
+	
+	1379.4.27 = {
+		birth = yes
+	}
+	1444.10.29 = {
+		death = yes
+	}
+}
+800834 = { #Incognitus Bua Sphata
+	name = "Oudeis"
+	dynasty = 15002
+	culture = arberian
+	religion = orthodox
+	father = 800572
+	
+	1381.11.2 = {
+		birth = yes
+	}
+	1444.10.29 = {
+		death = yes
+	}
+}
+800835 = { #Paul Bua Sphata
+	name = "Pal"
+	dynasty = 15002
+	culture = arberian
+	religion = orthodox
+	father = 800572
+	
+	1382.10.21 = {
+		birth = yes
+	}
+	1444.10.29 = {
+		death = yes
+	}
+}
+###Thopia family
+800541 = {
+	name="Andrea"
+	dynasty=1059955
+	religion="orthodox"
+	culture="arberian"
+	father=248843
+	1310.1.1={
+		birth=yes
+	}
+	1337.1.1={
+		religion=catholic
+	}	
+	1348.1.1={
+		death=yes
+	}
+}
+800542 = {
+	name="Karl"
+	dynasty=1059955
+	religion="catholic"
+	culture="arberian"
+	father=800541
+	1337.1.1={
+		birth=yes
+	}
+	1388.1.1={
+		death=yes
+	}
+}
+800543 = {
+	name="Gjergj"
+	dynasty=1059955
+	religion="catholic"
+	culture="arberian"
+	father=800542 #Karl Thopia
+	1350.1.1={
+		birth=yes
+	}
+	1392.9.10 ={
+		death=yes
+	}
+}
+800544 = {
+	name="Elena"
+	dynasty=1059955
+	religion="catholic"
+	culture="arberian"
+	female = yes
+	father=800542 #Karl Thopia
+	
+	1349.1.1={
+		birth=yes
+	}
+	1403.9.10 ={
+		death=yes
+	}
+}
+800545 = {
+	name="Vojsava"
+	dynasty=1059955
+	religion="catholic"
+	culture="arberian"
+	female = yes
+	father=800542 #Karl Thopia
+	1351.1.1={
+		birth=yes
+	}
+	1410.9.10 ={
+		death=yes
+	}
+}
+800546 = {
+	name="Marija"
+	dynasty=1059955
+	religion="catholic"
+	culture="arberian"
+	female = yes
+	father=800542 #Karl Thopia
+	
+	1354.1.1={
+		birth=yes
+	}
+	1403.9.10 ={
+		death=yes
+	}
+}
+800547 = {
+	name="Niketa"
+	dynasty=1059955
+	religion="catholic"
+	culture="arberian"
+	father=800542 #Karl Thopia
+	
+	1355.1.1={
+		birth=yes
+	}
+	1415.9.10 ={
+		death=yes
+	}
+}
+###Gropa family
+800548 = { #Pal I Gropa
+	name = "Pal"
+	dynasty = 3000055
+	culture = arberian
+	religion = catholic
+	
+	1250.1.1 = {
+		birth = yes
+	}
+	1330.1.1 = {
+		death = yes
+	}
+}
+800549 = { #Fictional Konstantin Gropa
+	name = "Konstantin"
+	dynasty = 3000055
+	culture = arberian
+	religion = catholic
+	father = 800548
+	
+	1285.1.1 = {
+		birth = yes
+	}
+	1350.1.1 = {
+		death = yes
+	}
+}
+800550 = { #Andrea Gropa
+	name = "Andrija"
+	dynasty = 3000055
+	culture = arberian
+	religion = catholic
+	father = 800549
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1371.1.1 = {
+		death = yes
+	}
+}
+800551 = { #Pal II Gropa
+	name = "Pal"
+	dynasty = 3000055
+	culture = arberian
+	religion = catholic
+	father = 800550
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}

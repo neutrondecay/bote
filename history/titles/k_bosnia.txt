@@ -1,0 +1,20 @@
+20.1.1={
+	active = no
+}
+1322.1.1={
+	de_jure_liege="e_byzantium"
+	active=yes
+}
+1377.10.26 = {
+	#clear_tribute_suzerain = k_hungary
+	holder = 800556
+}
+1391.3.10 = {
+	holder = 800557
+}
+1395.9.8 = {
+	holder = 800559
+}
+1398.1.1 = {
+	holder = 800558
+}

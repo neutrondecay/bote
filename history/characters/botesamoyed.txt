@@ -1,0 +1,201 @@
+800986 = {
+	name = "Kharuchi"
+	religion = orthodox
+	culture = samoyed
+	dynasty = 1062059
+	father = 260317
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1387.1.1 = {
+		death = yes
+	}
+}
+800987 = {
+	name = "Somatu"
+	religion = orthodox
+	culture = samoyed
+	dynasty = 1062059
+	father = 800986
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+800988 = {
+	name = "Syudbya"
+	dynasty = 1062057
+	religion = orthodox
+	culture = samoyed
+	father = 260296
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+800989 = {
+	name = "Yavlad"
+	dynasty = 1062056
+	religion = orthodox
+	culture = samoyed
+	father = 260288
+	
+	1358.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+800990 = {
+	name = "Kako"
+	religion = orthodox
+	culture = samoyed
+	dynasty = 1062058
+	father = 260309
+	1345.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+800991 = {
+	name = "Kharuchi"
+	religion="orthodox"
+	culture=samoyed
+	dynasty=1029141
+	father = 260301
+	1340.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		death = yes
+	}
+}
+800992 = {
+	name = "Yadne"
+	religion="orthodox"
+	culture=samoyed
+	dynasty=1029141
+	father = 800991
+	1384.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+800993 = {
+	name = "Somatu"
+	dynasty = 1062054
+	religion = finnish_pagan
+	culture = samoyed
+	father = 260273
+	1330.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
+800994 = {
+	name = "Kako"
+	dynasty = 1062054
+	religion = finnish_pagan
+	culture = samoyed
+	father = 800993
+	1370.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+800995 = {
+	name = "Hasaba"
+	dynasty = 1062055
+	religion = finnish_pagan
+	culture = samoyed
+	father = 260280
+	1330.1.1 = {
+		birth = yes
+	}
+	1368.1.1 = {
+		death = yes
+	}
+}
+800996 = {
+	name = "Panay"
+	dynasty = 1062055
+	religion = orthodox
+	culture = samoyed
+	father = 800995
+	1360.1.1 = {
+		birth = yes
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+800997 = {
+	name = "Num"
+	dynasty = 1062048
+	religion = orthodox
+	culture = samoyed
+	father = 260227
+	1339.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+800998 = {
+	name = "Nabtiko"
+	dynasty = 1062046
+	religion = finnish_pagan
+	culture = samoyed
+	father = 260112
+	1339.8.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+800999 = {
+	name = "Nenyts"
+	dynasty = 1062045
+	religion = finnish_pagan
+	culture = samoyed
+	father = 260104
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1393.1.1 = {
+		death = yes
+	}
+}
+801000 = {
+	name = "Wayngachi"
+	dynasty = 1062045
+	religion = finnish_pagan
+	culture = samoyed
+	father = 800999
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1453.1.1 = {
+		death = yes
+	}
+}

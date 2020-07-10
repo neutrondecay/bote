@@ -1,0 +1,7 @@
+1382.1.1 = {
+	holder = 800325
+	liege = 0
+	effect = {
+		insert_title_history = d_toscana
+	}
+}

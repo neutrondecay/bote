@@ -1,0 +1,271 @@
+#Philip the Bold already done
+#Albrecht of Holland already exists: 462746
+810003 = { #Wife of Albrecht
+	religion = "catholic"
+	name = "Margaretha"
+	culture = "polish"
+	dynasty = 699
+	female = yes
+	father = 471738
+	mother = 125917
+	1343.1.1 = {
+		birth = yes
+	}
+	1386.1.1 = {
+		death = yes
+	}
+	1353.1.1 = {
+		add_spouse = 462746
+	}
+}
+
+810002 = { #Frederik of Utrecht
+	religion = "catholic"
+	name = "Frederik"
+	culture = "dutch"
+	add_trait = midas_touched
+	1355.1.1 = {
+		birth = yes
+		effect = {
+			dynasty = none
+		}
+	}
+}
+
+810004 = { #Willem of Gelre
+	name = "Wilhelm"
+	culture = "german"
+	religion = "catholic"
+	dynasty= 285
+	mother = 810005 #Maria of Gelre
+	father = 462936 #William of Jülich
+	1364.3.1 = {
+		birth = yes
+	}
+	1379.1.1 = {add_spouse = 802642}
+}
+
+810005 = { #Maria of Gelre
+	name = "Maria"
+	father = 30048
+	female = yes
+	religion = "catholic"
+	culture = "dutch"
+	dynasty = 427
+	1350.1.1 = {
+		birth = yes
+	}
+	1397.11.1 = {
+		death = yes
+	}
+	1362.12.1 = {
+		add_spouse = 462936
+	}
+}
+
+487012 = { #Johanna of Brabant
+	name="Johanna"
+	female=yes
+	dynasty=7198
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=8
+	religion="catholic"
+	culture="dutch"
+	trait="thrifty_clerk"
+	father=487044
+	mother=487045
+	1322.6.24 = {
+		birth=yes
+	}
+	1354.3.1 = {
+		add_spouse = #Wenceslaus I of Luxembourg
+	}
+	1406.12.1={
+		death=yes
+	}
+}
+
+810006 = { #Nicolas Cappoci
+	name = "Nicolas"
+	culture = "italian"
+	religion = "catholic"
+	1300.1.1 = {
+		birth = yes
+		effect = {
+			dynasty = none
+		}
+	}
+	1368.7.26={
+		death=yes
+	}
+}
+
+810007={ #Jan IV van Arkel
+	name="Jan"
+	culture="dutch"
+	religion="catholic"
+	1314.1.1={
+		birth=yes
+	}
+	1378.7.1={
+		death=yes
+	}
+}
+
+810008={ #Jan V van Virneburg
+	name="Jan"
+	culture="dutch"
+	religion="catholic"
+	1310.1.1={
+		birth=yes
+		effect = {
+			dynasty = none
+		}
+	}
+	1371.6.23={
+		death=yes
+	}
+}
+
+810009={ #Arnold II van Horne
+	name="Arnold"
+	culture="dutch"
+	religion="catholic"
+	1339.1.1={
+		birth=yes
+		effect = {
+			dynasty = none
+		}
+	}
+	1389.1.1={
+		death=yes
+	}
+}
+
+810010={ #Kid 1 of Albrecht
+	female = yes
+	dynasty=217
+	father=462746
+	mother=810003
+	name="Johanna"
+	culture="dutch"
+	religion="catholic"
+	1356.1.1={
+		birth=yes
+	}
+	1376.1.1={
+		add_spouse=#Wenceslaus IV of Bohemia
+	1386.12.31={
+		death=yes
+	}
+}
+
+810011={ #Kid 2 of Albrecht
+	name="Catharina"
+	dynasty=217
+	father=462746
+	mother=810003
+	culture="dutch"
+	religion="catholic"
+	female=yes
+	1361.5.30={
+		birth=yes
+	}
+	1371.1.1={
+		add_spouse=#Eduard of Gelre
+	}
+	1379.1.1={
+		add_spouse=810004 #Willem of Gelre
+	}
+	1400.11.19={
+		death=yes
+	}
+}
+
+810012={ #Kid 3 of Albrecht
+	name="Margaretha"
+	dynasty=217
+	father=462746
+	mother=810003
+	culture="dutch"
+	religion="catholic"
+	female=yes
+	1363.1.1={
+		birth=yes
+	}
+	1385.4.11={
+		add_spouse=802041
+	}
+}
+
+810013={ #Willem VI 
+	name="Willem"
+	dynasty=217
+	father=462746
+	mother=810003
+	culture="dutch"
+	religion="catholic"
+	1365.4.5={
+		birth=yes
+	}
+	1385.4.12={
+		add_spouse=802043
+	}
+}
+
+810014={ #Albrecht II of Bavaria
+	name="Albrecht"
+	dynasty=217
+	father=462746
+	mother=810003
+	culture="dutch"
+	religion="catholic"
+	1368.1.1={
+		birth=yes
+	}
+	1397.1.21={
+		death=yes
+	}
+}
+
+810015={ #Johanna of Bavaria
+	name="Johanna"
+	dynasty=217
+	father=462746
+	mother=810003
+	culture="dutch"
+	religion="catholic"
+	1373.1.1={
+		birth=yes
+	}
+	1385.6.13={
+		add_spouse=#Albrecht IV of Austria
+	}
+}
+
+810016={ #Jan the merciless
+	name="Jan"
+	dynasty=217
+	father=462746
+	mother=810003
+	culture="dutch"
+	religion="catholic"
+	1374.1.1={
+		birth=yes
+	}
+}
+
+810017={ #Engelbert III
+	name="Engelbert"
+	religion="catholic"
+	culture="german"
+	dynasty=248
+	1304.1.1={
+		birth=yes
+	}
+	1368.8.25={
+		death=yes
+	}
+}

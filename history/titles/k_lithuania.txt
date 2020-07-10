@@ -1,0 +1,66 @@
+1253.6.30=
+{
+holder=125301
+}
+1263.9.12=
+{
+holder=125302
+}
+1264.1.2=
+{
+holder=125303
+}
+1267.4.23=
+{
+holder=125122
+}
+1269.1.2=
+{
+holder=125310
+}
+1282.1.2=
+{
+holder=125311
+}
+1285.1.2=
+{
+holder=125314
+}
+1291.1.2=
+{
+holder=472352
+}
+1295.1.2=
+{
+holder=125315
+}
+1316.1.1=
+{
+holder=473500
+}
+1341.5.2={
+	holder=473507 # Jaunutis
+}
+1345.1.1={
+	holder=473506 #Algirdas
+}
+1377.1.1={
+	holder=820010 #Jogaila
+}
+1381.1.1={
+	holder=473508 
+}
+1382.1.1={
+	holder=820010 #Jogaila
+}
+1392.1.1={
+	holder=820011 #Vytautas
+	effect = {
+		d_lithuania = {
+			activate_title = {
+				title = d_lithuania
+				status = no
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+BM_BOOTE_ERA;Beginning of the End;;;;;;;;x
+BM_BOOTE_ERA_INFO;The medieval era is nearing its end, as the first cracks start to show in the Italian peninsula, but medieval traditions hold strong in much of Europe. A last Welsh effort is being mounted against the weakened English, in an attempt to establish a truly independent Welsh Principality.;;;;;;;;x
+#Culture
+navarro_aragonese;Navarro-Aragonese;;;;;;;;x
+#CBs
+owains_war_desc;Welsh war for independence;;;;;;;;x
+CB_OWAIN;Welsh Independence;;;;;;;;x
+WELSH_WAR_INDEPENDENCE;War for Welsh Independence;;;;;;;;x
+#Titles
+wallia_pura;Wallia Pura;;;;;;;;x
+wallia_pura_adj;Welsh;;;;;;;;x
+prince_wales;Welsh Principality;;;;;;;;x
+prince_wales-adj;Welsh;;;;;;;;x
+northern_england;Northern England;;;;;;;;x
+northern_england_adj;North English;;;;;;;;x
+southern_england_adj;South English;;;;;;;;x
+southern_england;Southern England;;;;;;;;x
+d_durham_palatine;Durham Palatinate;;;;;;;;x
+d_arborea;Arborea;;;;;;;;x
+d_arborea_adj;Arborean;;;;;;;;x
+e_serbia;Serbia;;;;;;;;x
+e_serbia_adj;Serbian;;;;;;;;x
+k_muscovy;Muscovy;;;;;;;;x
+k_muscovy_adj;Muscovite;;;;;;;;x
+d_realnovgorodseversky;Novgorod-Seversky;;;;;;;;x
+d_realnovgorodseversky_adj;Novgorod-Seversky;;;;;;;;x
+#Patrician Houses
+b_di_ancona;House di Ancona;;;;;;;;x
+b_medici;House de' Medici;;;;;;;;x
+d_firenze;Firenze;;;;;;;;x
+#Keys
+PRINCE;Prince;;;;;;;;x
+PRINCESS;Princess;;;;;;;;x
+FLORENCE_RULER;Gonfaloniere;;;;;;;;x
+GRAND_DUCHY;Grand Duchy of;;;;;;;;x
+GRAND_DUKE;Grand Duke;;;;;;;;x
+GRAND_DUCHESS;Grand Duchess;;;;;;;;x
+REPUBLIC;Republic of;;;;;;;;x
+title_queen_mother_russian;Princess Mother;;;;;;;;;;;;;x
+#Bloodlines
+welshbloodofowain;Welsh Blood of [This.GetName];;;;;;;;x
+welshbloodofowain_desc;[This.GetName] successfully freed Wales from the tyranny of English rule in a spectacular display of valour and courage;;;;;;;;x
+#Events
+EVTDESCbote.00001;You are Owain Glyndwr, a descendent of the Princes of Powys and a proud Welshman. And yet the English, who have no claim to these lands, continue to oppress your people. You have only ever served the Crown, but it affords you no respect. You refuse to put up with this for much longer.;;;;;;;;x
+EVTOPTAbote.00001;It is time for Wales to seize her own destiny.;;;;;;;;x
+EVTDESCbote.00002;As you are attending to a few administrative matters one morning, a servant bursts into your chambers, and announces that [c_powys.Holder.GetTitledName] has seized control of Aberystwyth! At once, you order the servant to prepare your horse. You plan to appeal to the English parliament.;;;;;;;;x
+EVTOPTAbote.00002;[c_powys.Holder.GetFullName] will pay for this!;;;;;;;;x
+EVTDESCbote.00003;Your appeal has been made to Parliament, but after very little consideration, it appears that the Members of Parliament have entirely dismissed your concerns. This is an outrage!;;;;;;;;x
+EVTOPTAbote.00003;That was the last straw.;;;;;;;;x
+EVTDESCbote.00004;Since Parliament has disregarded your appeal, you decide to take matters into your own hands. You sent a furious letter to [c_powys.Holder.GetFullName], reeling off a list of insults and threats. Perhaps it was a bit too much?;;;;;;;;x
+#Nicknames
+bote_nick_the_elder;the Elder;;;;;;;;x
+bote_nick_nevsky;Nevsky;;;;;;;;x
+bote_nick_donskoy;Donskoy;;;;;;;;x

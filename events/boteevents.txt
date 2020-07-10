@@ -1,0 +1,66 @@
+namespace = bote
+
+character_event = { #I am Owain Glyndwr
+	id = bote.00001
+	desc = EVTDESCbote.00001
+	only_playable = yes
+	
+	trigger = {
+		has_character_flag = glyndwr
+		culture = welsh
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = EVTOPTAbote.00001
+		clr_character_flag = glyndwr
+		
+		character_event = { id = bote.00002 days = 55 }
+	}
+}
+character_event = { #Earl of Powys seizes control of land
+	id = bote.00002
+	desc = EVTDESCbote.00002
+	
+	is_triggered_only = yes
+	portrait = c_powys
+	
+	option = {
+		name = EVTOPTAbote.00002
+		c_powys = {
+			holder_scope = {
+				b_aberystwyth = { 
+					usurp_title = PREV
+				}
+			}
+		}
+		character_event = { id = bote.00003 days = 10 }
+	}
+}
+character_event = { #Owain appeals to the English Parliament
+	id = bote.00003
+	desc = EVTDESCbote.00003
+	
+	is_triggered_only = yes
+	portrait = k_england
+	
+	option = {
+		name = EVTOPTAbote.00003
+		opinion = { modifier = opinion_hate who = k_england years = 50 }
+		character_event = { id = bote.00004 days = 30 }
+	}
+}
+character_event = { #Owain's retaliation to Earl of Powys
+	id = bote.00004
+	desc = EVTDESCbote.00004
+	
+	is_triggered_only = yes
+	portrait = k_england
+	
+	option = {
+		name = EVTOPTAbote.00004
+		opinion = { modifier = opinion_hate who = k_england years = 50 }
+		#character_event = { id = bote.00005 days = 55 }
+	}
+}

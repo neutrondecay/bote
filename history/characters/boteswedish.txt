@@ -1,0 +1,1082 @@
+800817 = {
+	name = "Ingefred"
+	dynasty = 3000081
+	culture = swedish
+	religion = catholic
+	female = yes
+	1312.1.1 = {
+		birth = yes
+	}
+	1388.1.1 = {
+		death = yes
+	}
+}
+800822 = {
+	name = Elsebeth
+	dynasty = 3000082
+	culture = swedish
+	religion = catholic
+	female = yes
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		effect = {
+			add_betrothal = 800821
+		}
+	}
+	1448.1.1 = {
+		death = yes
+	}
+}
+###Bielke
+800836 = {
+	name="Ture"
+	dynasty=153
+	religion="catholic"
+	culture="swedish"
+	#female = yes
+	father=450620
+	
+	1351.1.2={
+		birth=yes
+	}
+	1358.3.1={
+		death=yes
+	}
+}
+800837 = {
+	name="Sestrid"
+	dynasty=153
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father=450620
+	
+	1365.1.2={ #Father dies too early in vanilla files. Tough.
+		birth=yes
+	}
+	1398.1.1 = {
+		add_spouse = 800838
+	}
+	1417.8.14={
+		death=yes
+	}
+}
+800838 = {
+	name = "Knut"
+	dynasty = 130
+	culture = swedish
+	religion = catholic
+	#female = yes
+	
+	1370.1.1 = {
+		birth = yes
+		employer = 802720
+	}
+	1395.1.1 = {
+		give_minor_title  = title_seneschal
+	}
+	1423.1.1 = {
+		death = yes
+	}
+}
+800898 = {
+	name="Ture"
+	dynasty=153
+	religion="catholic"
+	culture="swedish"
+	
+	father=450610
+	mother = 800899
+	1335.1.2={
+		birth=yes
+	}
+	1355.1.1 = {
+		add_spouse = 800903
+	}
+	1414.11.20={
+		death=yes
+	}
+}
+800899 = {
+	name="Ingeborg"
+	dynasty=143
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father = 800900
+	1327.1.1={
+		birth=yes
+	}
+	1357.1.1={
+		add_spouse=450610
+	}
+	1390.1.1={
+		death=yes
+	}
+}
+800900 = {
+	name="Magnus"
+	dynasty=143
+	religion="catholic"
+	culture="swedish"
+	father = 800900
+	1269.1.1={
+		birth=yes
+	}
+	1267.1.1 = {
+		effect_even_if_dead = {
+			c_450691 = {
+				set_father = 800900
+			}
+		}
+	}
+	1363.1.1={
+		death=yes
+	}
+}
+800901 = {
+	name="Sten"
+	dynasty=153
+	religion="catholic"
+	culture="swedish"
+	
+	father=450610
+	mother = 800899
+	1343.1.2={
+		birth=yes
+	}
+	1408.7.20={
+		death=yes
+	}
+}
+800902 = {
+	name="Kristina"
+	dynasty=153
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father=450610
+	mother = 800899
+	1360.1.2={
+		birth=yes
+	}
+	1386.5.20={
+		death=yes
+	}
+}
+800903 = {
+	name = "Margareta"
+	dynasty = 3000089
+	culture = swedish
+	religion = catholic
+	female = yes
+	1345.1.1 = {
+		birth = yes
+	}
+	1415.4.9 = {
+		death = yes
+	}
+}
+800904 = {
+	name="Sten"
+	dynasty=153
+	religion="catholic"
+	culture="swedish"
+	
+	father=800898
+	mother = 800903
+	1380.1.2={
+		birth=yes
+	}
+	1431.6.27={
+		death=yes
+	}
+}
+###
+800839 = {
+	name = "Carin"
+	dynasty = 3000083
+	culture = swedish
+	religion = catholic
+	female = yes
+	
+	1321.1.1 = {
+		birth = yes
+	}
+	1342.1.1 = {
+		add_spouse = 800838
+	}
+	1398.1.1 = {
+		death = yes
+	}
+}
+###Natt och dag- strangest dynasty name ever
+800840 = {
+	name="Märta"
+	dynasty=148
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father=450649
+	mother=800839
+	1347.1.2={
+		birth=yes
+	}
+	1389.1.1 = {
+		add_spouse = 800841
+	}
+	1414.1.2={
+		death=yes
+	}
+}
+800843 = {
+	name="Sten"
+	dynasty=148
+	religion="catholic"
+	culture="swedish"
+	#female = yes
+	father=450649
+	mother=800839
+	1351.1.2={
+		birth=yes
+	}
+	1375.1.1 = {
+		add_spouse = 800845
+	}
+	1411.3.2={
+		death=yes
+	}
+}
+800844 = {
+	name="Katarina"
+	dynasty=148
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father=450649
+	mother=800839
+	1353.1.2={
+		birth=yes
+	}
+	1414.1.2={
+		death=yes
+	}
+}
+800846 = {
+	name="Birgitta"
+	dynasty=148
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father=800843
+	mother=800845
+	1377.1.2={
+		birth=yes
+	}
+	1417.10.10={
+		death=yes
+	}
+}
+800847 = {
+	name="Bengt"
+	dynasty=148
+	religion="catholic"
+	culture="swedish"
+	#female = yes
+	father=450649
+	mother=800839
+	1361.1.2={
+		birth=yes
+	}
+	1450.3.2={
+		death=yes
+	}
+}
+800848 = {
+	name="Knut"
+	dynasty=148
+	religion="catholic"
+	culture="swedish"
+	#female = yes
+	father=450649
+	mother=800839
+	
+	1355.1.2={
+		birth=yes
+	}
+	1436.3.2={
+		death=yes
+	}
+}
+800849 = {
+	name="Bo"
+	dynasty=148
+	religion="catholic"
+	culture="swedish"
+	#female = yes
+	father=450649
+	mother=800839
+	
+	1359.1.2={
+		birth=yes
+	}
+	1436.3.2={
+		death=yes
+	}
+}
+800850 = {
+	name="Ingeborg"
+	dynasty=148
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father=450649
+	mother=800839
+	
+	1363.1.2={
+		birth=yes
+	}
+	1436.3.2={
+		death=yes
+	}
+}
+800851 = {
+	name="Bengta"
+	dynasty=148
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father=450649
+	mother=800839
+	
+	1365.1.2={
+		birth=yes
+	}
+	1420.3.2={
+		death=yes
+	}
+}
+800852 = {
+	name="Nils"
+	dynasty=148
+	religion="catholic"
+	culture="swedish"
+	#female = yes
+	father=450649
+	mother=800839
+	
+	1370.1.2={
+		birth=yes
+	}
+	1432.3.2={
+		death=yes
+	}
+}
+###Vinäsätten
+800845 = {
+	name = "Ingeborg"
+	dynasty = 3000084
+	culture = swedish
+	religion = catholic
+	female = yes
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1412.1.1 = {
+		death = yes
+	}
+}
+###Bishops of Skara
+800853 = {
+	name = "Sigge"
+	culture = swedish
+	religion = catholic
+	
+	1297.1.1 = {
+		birth = yes
+	}
+	1352.1.1 = {
+		death = yes
+	}
+}
+800854 = {
+	name = "Lars"
+	culture = swedish
+	religion = catholic
+	
+	1300.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {
+		death = yes
+	}
+}
+800855 = {
+	name = "Nils"
+	culture = swedish
+	religion = catholic
+	
+	1310.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+800856 = {
+	name = "Rudolf"
+	culture = swedish
+	religion = catholic
+	
+	1315.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+800857 = {
+	name = "Torsten"
+	culture = swedish
+	religion = catholic
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+###
+800858 = {
+	name="Ulf"
+	dynasty=143
+	religion="catholic"
+	culture="swedish"
+	father=450695
+	
+	1363.1.2={
+		birth=yes
+	}
+	1399.1.2={
+		death=yes
+	}
+}
+800859 = {
+	name="Karl"
+	dynasty=143
+	religion="catholic"
+	culture="swedish"
+	father=450695
+	
+	1365.1.2={
+		birth=yes
+	}
+	1390.1.1 = {
+		add_spouse = 800860
+	}
+	1398.9.17={
+		death=yes
+	}
+}
+800861 = {
+	name="Birgitta"
+	dynasty=143
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father=800859
+	mother = 800860
+	
+	1395.1.2 = {
+		birth = yes
+	}
+	1408.9.17 = {
+		death = yes
+	}
+}
+####
+450640 = {
+	name="Birgitte"
+	# AKA: Birgitte Knutsdotter
+	female = yes
+	dynasty=150
+	martial=4
+	diplomacy=7
+	intrigue=7
+	stewardship=6
+	religion="catholic"
+	culture="swedish"
+	trait="deceitful"
+	trait="just"
+	trait="thrifty_clerk"
+	father=450630
+	mother=450633
+	1316.1.2={
+		birth="1316.1.2"
+	}
+	1390.1.2={
+		death=yes
+	}
+}
+###Sjöblad
+800878 = {
+	name = "Magnus"
+	dynasty = 144
+	culture = swedish
+	religion = catholic
+	father = 450682
+	mother = 450615
+	
+	1324.1.1 = {
+		birth = yes
+	}
+	1352.1.1 = {
+		add_spouse = 800879
+	}
+	1391.10.14 = {
+		death = yes
+	}
+}
+800879 = {
+	name = "Karin"
+	dynasty = 3000087
+	culture = swedish
+	religion = catholic
+	female = yes
+	
+	1320.1.1 = {
+		birth = yes
+	}
+	1379.9.14 = {
+		death = yes
+	}
+}
+800880 = {
+	name = "Ingegärd"
+	dynasty = 144
+	culture = swedish
+	religion = catholic
+	female = yes
+	father = 800878
+	mother = 800879
+	
+	1353.1.1 = {
+		birth = yes
+	}
+	# 1352.1.1 = {
+		# add_spouse = 800879
+	# }
+	1388.7.17 = {
+		death = yes
+	}
+}
+800841 = {
+	name = "Algot"
+	dynasty = 144
+	culture = swedish
+	religion = catholic
+	father = 800878
+	mother = 800879
+	1355.1.1 = {
+		birth = yes
+	}
+	1426.3.7 = {
+		death = yes
+	}
+}
+800842 = {
+	name = "Gustaf"
+	dynasty = 144
+	culture = swedish
+	religion = catholic
+	#female = yes
+	father = 800841
+	mother = 800840
+	1390.1.1 = {
+		birth = yes
+	}
+	1440.3.7 = {
+		death = yes
+	}
+}
+800895 = {
+	name = "Katarina"
+	dynasty = 144
+	culture = swedish
+	religion = catholic
+	female = yes
+	father = 800841
+	mother = 800840
+	1374.1.1 = {
+		birth = yes
+	}
+	1413.3.7 = {
+		death = yes
+	}
+}
+800879 = {
+	name="Jon"
+	dynasty=121
+	religion="catholic"
+	culture="swedish"
+	father=450840
+	mother = 800884
+	1360.1.1={
+		birth=yes
+	}
+	1360.1.2={
+		death=yes
+	}
+}
+###Grip
+800886 = {
+	name="Knut"
+	dynasty=121
+	religion="catholic"
+	culture="swedish"
+	father = 450840
+	mother = 800885
+	
+	1377.1.2={
+		birth = yes
+	}
+	1390.1.1 = {
+		add_spouse = 800889
+	}
+	1406.1.2={
+		death = yes
+	}
+}
+800887 = {
+	name="Margareta"
+	dynasty=121
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father = 450840
+	mother = 800885
+	
+	1379.1.2={
+		birth = yes
+	}
+	1415.1.2={
+		death = yes
+	}
+}
+800888 = {
+	name="Katarina"
+	dynasty=121
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father = 450840
+	mother = 800885
+	
+	1380.5.2={
+		birth = yes
+	}
+	1415.1.2={
+		death = yes
+	}
+}
+800889 = {
+	name = "Ermegård"
+	dynasty = 100457
+	culture = swedish
+	religion = catholic
+	female = yes
+	1378.1.1 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+800890 = {
+	name="Katarina"
+	dynasty=121
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	father = 800886
+	mother = 800889
+	
+	1390.11.2={
+		birth = yes
+	}
+	1450.1.2={
+		death = yes
+	}
+}
+800896 = {
+	name="Bo"
+	dynasty=121
+	religion="catholic"
+	culture="swedish"
+	father = 800886
+	mother = 800889
+	
+	1393.4.2={
+		birth = yes
+	}
+	1442.1.2={
+		death = yes
+	}
+}
+800891 = {
+	name="Erik" #Fictional continuation of Ekeblad dynastys
+	dynasty=100283
+	religion="catholic"
+	culture="swedish"
+	father = 487072
+	
+	1340.1.1={
+		birth="1300.1.1"
+	}
+	1400.2.2 = {
+		death = yes
+	}
+}
+800892 = {
+	name="Olaf"
+	dynasty=100281
+	religion="catholic"
+	culture="swedish"
+	father = 487071
+	1340.1.1={
+		birth="1300.1.1"
+	}
+	1400.2.2 = {
+		death = yes
+	}
+}
+800893 = {
+	name="Magnus"
+	dynasty=100280
+	religion="catholic"
+	culture="swedish"
+	father = 487070
+	
+	1345.1.1={
+		birth="1300.1.1"
+	}
+	1403.1.1={
+		death="1350.1.1"
+	}
+}
+###Ivaring
+800918 = {
+	name = "Nils"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	
+	1310.1.1 = {
+		birth = yes
+	}
+	1368.8.15 = {
+		death = yes
+	}
+}
+800919 = {
+	name = "Ivar"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	father = 800918
+	mother = 800917
+	
+	1351.1.1 = {
+		birth = yes
+	}
+	1375.1.1 = {
+		add_spouse = 800929
+	}
+	1417.4.18 = {
+		death = yes
+	}
+}
+800920 = {
+	name = "Sissel"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	female = yes
+	father = 800918
+	mother = 800917
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1415.4.26 = {
+		death = yes
+	}
+}
+800921 = {
+	name = "Nils"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	father = 800918
+	mother = 800917
+	
+	1353.1.1 = {
+		birth = yes
+	}
+	1417.4.18 = {
+		death = yes
+	}
+}
+800922 = {
+	name = "Gustaf"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	father = 800918
+	mother = 800917
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1417.4.18 = {
+		death = yes
+	}
+}
+800923 = {
+	name = "Pål"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	father = 800918
+	mother = 800917
+	
+	1357.1.1 = {
+		birth = yes
+	}
+	1417.4.18 = {
+		death = yes
+	}
+}
+800924 = {
+	name = "Alfred"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	father = 800918
+	mother = 800917
+	
+	1358.1.1 = {
+		birth = yes
+	}
+	1417.4.18 = {
+		death = yes
+	}
+}
+800925 = {
+	name = "Anton"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	father = 800918
+	mother = 800917
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1417.4.18 = {
+		death = yes
+	}
+}
+800926 = {
+	name = "Folke"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	father = 800918
+	mother = 800917
+	
+	1361.1.1 = {
+		birth = yes
+	}
+	1417.4.18 = {
+		death = yes
+	}
+}
+800927 = {
+	name = "Tilda"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	female = yes
+	father = 800918
+	mother = 800917
+	
+	1362.1.1 = {
+		birth = yes
+	}
+	1417.4.18 = {
+		death = yes
+	}
+}
+800928 = {
+	name = "Sigrid"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	female = yes
+	father = 800918
+	mother = 800917
+	
+	1362.1.1 = {
+		birth = yes
+	}
+	1417.4.18 = {
+		death = yes
+	}
+}
+800929 = {
+	name = "Margareta"
+	dynasty = 3811
+	culture = swedish
+	religion = catholic
+	female = yes
+	
+	1370.1.1 = {
+		birth = yes
+		effect_even_if_dead = { #This is MY dynasty now
+			any_dynasty_member_even_if_dead = {
+				limit = {
+					NOT = {
+						character = 800929
+					}
+				}
+				dynasty = 137
+			}
+		}
+	}
+	1401.4.18 = {
+		death = yes
+	}
+}
+800930 = {
+	name = "Ingeborg"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	female = yes
+	father = 800919
+	mother = 800929
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1466.7.26 = {
+		death = yes
+	}
+}
+800931 = {
+	name = "Kristina"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	female = yes
+	father = 800919
+	mother = 800929
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1426.7.26 = {
+		death = yes
+	}
+}
+800932 = {
+	name = "Birgitta"
+	dynasty = 3000091
+	culture = swedish
+	religion = catholic
+	female = yes
+	
+	1354.1.1 = {
+		birth = yes
+	}
+	1374.1.1 = {
+		death = yes
+	}
+}
+800933 = {
+	name = "Kristina"
+	dynasty = 3000092
+	culture = swedish
+	religion = catholic
+	female = yes
+	father = 800919
+	mother = 800932
+	trait = bastard
+	
+	1373.1.1 = {
+		birth = yes
+	}
+	1427.7.26 = {
+		death = yes
+	}
+}
+### Bjelbo ###
+
+802721 = { #
+	name = "Erik"
+	dynasty = 155 # Bjelbo
+
+	culture = "swedish"
+	religion = "catholic"
+
+	father = 450500 # 
+	mother = 455942 # 
+
+	1339.1.1 = {
+		birth = yes
+	}
+	1359.6.21 = {
+		death = yes
+	}
+}
+802722 = { #
+	name = "Håkan"
+	dynasty = 155 # Bjelbo
+
+	culture = "swedish"
+	religion = "catholic"
+
+	father = 450500 # 
+	mother = 455942 # 
+
+	1340.1.1 = {
+		birth = yes
+	}
+	1363.1.1 = {add_spouse = 802720}
+	1380.1.1 = {
+		death = yes
+	}
+}
+802723 = { #
+	name = "Olaf"
+	dynasty = 155 # Bjelbo
+
+	culture = "swedish"
+	religion = "catholic"
+
+	father = 802722 # Haakon of Norway
+	mother = 802720 # Margaret of Denmark
+
+	1370.12.1 = {
+		birth = yes
+	}
+	1387.8.3 = {
+		death = yes
+	}
+}

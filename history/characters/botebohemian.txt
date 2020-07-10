@@ -1,0 +1,161 @@
+821700 = { #
+	name = "Jan" #
+	dynasty = 10110 #of Opava
+
+	culture = bohemian
+	religion = catholic
+
+	father=96054
+	mother=820126
+
+	1366.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+821701 = { #
+	name = "Mikulás" #
+	dynasty = 10110 #of Opava
+
+	culture = bohemian
+	religion = catholic
+
+	father=96054
+	mother=820126
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+821702 = { #
+	name = "Margaréta" #
+	dynasty = 10110 #of Opava
+	female=yes
+
+	culture = bohemian
+	religion = catholic
+
+	father=96054
+	mother=820126
+
+	1380.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+
+## Luxembourg ##
+
+802502 = { #Jobst
+	name = "Jošt"
+	dynasty = 61
+
+	culture = bohemian
+	religion = catholic
+	
+	father=462616 #Johann-Heinrich de Luxembourg
+	mother=96065 #Margaret of Opava
+	
+	1351.1.1 = {
+		birth = yes
+	}
+	1374.1.1 = {add_spouse = 820104}
+	1411.1.18 = {
+		death = yes
+	}
+}
+802503 = { #Katharina
+	name = "Katerina"
+	dynasty = 61
+	female=yes
+
+	culture = bohemian
+	religion = catholic
+	
+	father=462616 #Johann-Heinrich de Luxembourg
+	mother=96065 #Margaret of Opava
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1378.1.1 = {
+		death = yes
+	}
+}
+802504 = {
+	name = "Prokop"
+	dynasty = 61
+
+	culture = bohemian
+	religion = catholic
+	
+	father=462616 #Johann-Heinrich de Luxembourg
+	mother=96065 #Margaret of Opava
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}
+802505 = {
+	name = "Jan Sobieslav"
+	dynasty = 61
+
+	culture = german
+	religion = catholic
+	
+	father=462616 #Johann-Heinrich de Luxembourg
+	mother=96065 #Margaret of Opava
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+802506 = {
+	name = "Eliska"
+	dynasty = 61
+	female=yes
+
+	culture = bohemian
+	religion = catholic
+	
+	father=462616 #Johann-Heinrich de Luxembourg
+	mother=96065 #Margaret of Opava
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+802507 = {
+	name = "Anna"
+	dynasty = 61
+	female=yes
+
+	culture = bohemian
+	religion = catholic
+	
+	father=462616 #Johann-Heinrich de Luxembourg
+	mother=96065 #Margaret of Opava
+	
+	1357.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}

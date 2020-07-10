@@ -1,0 +1,5 @@
+1382.1.1 = {
+	holding_dynasty = 3000035
+	holder = 800388
+	liege = d_firenze
+}

@@ -1,0 +1,41 @@
+800620 = {
+	name="Nuño"
+	dynasty=778
+	religion="catholic"
+	culture="basque"
+	father=457581
+	mother=457610
+	1348.1.1 = {
+		birth=yes
+	}
+	1352.1.1 = {
+		death=yes
+	}
+}
+800622 = {
+	name = "Juan" #Ramirez de Arellano
+	dynasty = 3000069
+	culture = basque
+	religion = catholic
+	
+	1337.5.15 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		death = yes
+	}
+}
+800623 = {
+	name = "Carlos" #Ramirez de Arellano
+	dynasty = 3000069
+	culture = basque
+	religion = catholic
+	father = 800622
+	
+	1377.5.5 = {
+		birth = yes
+	}
+	1412.8.26 = {
+		death = yes
+	}
+}

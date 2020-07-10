@@ -1,0 +1,14 @@
+1300.1.1 = {
+	holder = 850019 # Alexander Semenovich Novosilsky
+}
+1326.1.1 = {
+	holder = 850020 # Semyon Alexandrovich Novosilsky
+}
+1345.1.1 = {
+	holder = 850021 # Roman Semenovich
+	liege=0
+	set_tribute_suzerain = {
+		who = e_golden_horde
+		type = golden_horde
+	}
+}

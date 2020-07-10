@@ -1,0 +1,112 @@
+800075 = { #Owain Glyndŵr
+	name = "Owain Glyndwr"
+	dynasty = 548
+	culture = welsh
+	religion = catholic
+	father = 184087
+	mother = 800076
+	
+	martial = 12
+	stewardship = 8
+	diplomacy = 10
+	intrigue = 7
+	learning = 8
+	
+	trait = ambitious
+	trait = proud
+	trait = inspiring_leader
+	trait = unyielding_leader
+	trait = mountain_terrain_leader
+	trait = patient
+	trait = envious
+	trait = stubborn
+	
+	1359.3.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = glyndwr
+		}
+	}
+	
+}
+800076 = { #Owain's mother
+	name = "Elen"
+	dynasty = 3000005
+	culture = welsh
+	religion = catholic
+	female = yes
+	1323.1.1={
+		birth= yes
+	}
+	1355.2.9 = {
+		add_spouse = 184087
+	}
+	1381.4.5 = {
+		death = yes
+	}
+}
+800077 = {
+	name = "Madog" #Owain's brother
+	dynasty = 548
+	culture = welsh
+	religion = catholic
+	trait = sickly
+	father = 184087
+	mother = 800076
+	1356.1.18 = {
+		birth = yes
+	}
+	1358.03.01 = {
+		death = yes
+	}
+}
+800078 = { 
+	name = "Lowry" #Owain's sister
+	dynasty = 548
+	culture = welsh
+	religion = catholic
+	female = yes
+	father = 184087
+	mother = 800076
+	1357.3.19 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		add_spouse = 800079
+	}
+}
+
+800081 = {
+	name = "Isabel"
+	dynasty = 548
+	culture = welsh
+	religion = catholic
+	female = yes
+	father = 184087
+	mother = 800076
+	1358.12.10 = {
+		birth = yes
+	}
+}
+800082 = {
+	name = "Gruffudd"
+	dynasty = 548
+	culture = welsh
+	religion = catholic
+	father = 184087
+	mother = 800076
+	1362.2.08 = {
+		birth = yes
+	}
+}
+800083 = {
+	name = "Tudur"
+	dynasty = 548
+	culture = welsh
+	religion = catholic
+	father = 184087
+	mother = 800076
+	1359.12.16 = {
+		birth = yes
+	}
+}

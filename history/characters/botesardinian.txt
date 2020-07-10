@@ -1,0 +1,89 @@
+800398 = {
+	name = Ugu
+	dynasty = 1040108
+	culture = sardinian
+	religion = catholic
+	father = 235163
+	
+	1345.12.13 = {
+		birth = yes
+	}
+	1383.3.3 = {
+		death = yes
+	}
+}
+800399 = {
+	name = Elianora
+	dynasty = 1040108
+	culture = sardinian
+	religion = catholic
+	female = yes
+	father = 235163
+	
+	diplomacy = 10
+	martial = 4
+	stewardship = 10
+	intrigue = 5
+	trait = just
+	trait = falconer
+	trait = administrator
+	trait = diligent
+	trait = midas_touched
+	trait = shrewd
+	
+	1347.5.31 = {
+		birth = yes
+	}
+	1376.1.1 = {
+		add_spouse = 71160
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+800400 = {
+	name = Nulla
+	dynasty = 1040108
+	culture = sardinian
+	religion = catholic
+	female = yes
+	father = 235163
+	trait = sickly
+	
+	1342.1.1 = {
+		birth = yes
+	}
+	1343.6.6 = {
+		death = yes
+	}
+}
+800401 = { #Federigo of Arborea
+	name = "Federigo"
+	dynasty = 13041
+	culture = sardinian
+	religion = catholic
+	mother = 800399
+	father = 71160
+	
+	1377.4.15 = {
+		birth = yes
+	}
+	1387.1.1 = {
+		death = yes
+	}
+}
+800402 = { #Marianu of Arborea
+	name = "Marianu"
+	dynasty = 13041
+	culture = sardinian
+	religion = catholic
+	mother = 800399
+	father = 71160
+	
+	1379.8.3 = {
+		birth = yes
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}

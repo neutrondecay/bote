@@ -1,0 +1,4061 @@
+800174 = { #Anne of Bohemia
+	name = "Anna"
+	dynasty = 61
+	culture = german
+	religion = catholic
+	female = yes
+
+	father = 462614 #Charles IV
+	mother = 820501 #Elizabeth of Pomerania
+
+	trait = gregarious
+	
+	1366.05.11 = {
+		birth = yes
+	}
+	1394.8.3 = {
+		death = yes
+	}
+}
+800194 = {
+	name = "Otto" #The real Otto. His brother's a fraud
+	dynasty = 650
+	martial = 8
+	diplomacy = 3
+	intrigue = 4
+	stewardship = 3
+	religion = "catholic"
+	culture = "german"
+	trait = "slothful"
+	trait = "tough_soldier"
+	father = 462808
+	mother = 462809
+	1320.1.2 = {
+		birth = "1320.1.2"
+	}
+	1376.1.1 = {
+		add_spouse = 461703
+	}
+	1398.12.1 = {
+		death = yes
+	}
+}
+800436 = { #Dukes of Steiermark/Styria
+	name = "Rudolf"
+	dynasty = 51
+	culture = german
+	religion = catholic
+	father = 462020
+	mother = 462033
+	1339.11.1 = {
+		birth = yes
+	}
+	1365.7.27 = {
+		death = yes
+	}
+}
+800437 = {
+	name = "Albrecht"
+	dynasty = 51
+	culture = german
+	religion = catholic
+	father = 462020
+	mother = 462033
+	1349.9.9 = {
+		birth = yes
+	}
+	1395.8.29 = {
+		death = yes
+	}
+}
+800438 = {
+	name = "Leopold"
+	dynasty = 51
+	culture = german
+	religion = catholic
+	father = 462020
+	mother = 462033
+	1351.11.1 = {
+		birth = yes
+	}
+	1365.2.23 = {
+		add_spouse = 800439
+	}
+	1386.7.9 = {
+		death = yes
+	}
+}
+800440 = { #William the Courteous, Duke of Styria
+	name = "Wilhelm"
+	dynasty = 51
+	culture = german
+	religion = catholic
+	father = 800438
+	mother = 800439
+	
+	1370.8.15 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+800441 = { #Leopold the Fat
+	name = "Leopold"
+	dynasty = 51
+	culture = german
+	religion = catholic
+	father = 800438
+	mother = 800439
+	
+	1371.10.23 = {
+		birth = yes
+	}
+	1411.6.3 = {
+		death = yes
+	}
+}
+800442 = { #Ernest the Iron
+	name = "Ernst"
+	dynasty = 51
+	culture = german
+	religion = catholic
+	father = 800438
+	mother = 800439
+	
+	1377.1.5 = {
+		birth = yes
+	}
+	1424.6.10 = {
+		death = yes
+	}
+}
+800443 = { #Frederick of the Empty Pockets
+	name = "Friedrich"
+	dynasty = 51
+	culture = german
+	religion = catholic
+	father = 800438
+	mother = 800439
+	
+	1382.7.20 = {
+		birth = yes
+	}
+	1439.6.24 = {
+		death = yes
+	}
+}
+800444 = { #Elisabeth von Habsburg
+	name = "Elisabeth"
+	dynasty = 51
+	culture = german
+	religion = catholic
+	female = yes
+	father = 800438
+	mother = 800439
+	
+	1378.1.1 = {
+		birth = yes
+	}
+	1392.3.20 = {
+		death = yes
+	}
+}
+800445 = { #Margaretha von Habsburg
+	name = "Margaretha"
+	dynasty = 51
+	culture = german
+	religion = catholic
+	female = yes
+	father = 800438
+	mother = 800439
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1400.3.20 = {
+		death = yes
+	}
+}
+800446 = { #Katarine von Habsburg
+	name = "Katarine"
+	dynasty = 51
+	culture = german
+	religion = catholic
+	female = yes
+	father = 800438
+	mother = 800439
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1400.3.20 = {
+		death = yes
+	}
+}
+800447 = {	# Hartnid IV von Pettau
+	name = "Hartnid"
+	dynasty = 1062031
+	religion = "catholic"
+	culture = "german"
+	father = 260072
+	1328.1.1 = {
+		birth = yes
+	}
+	1382.1.1 = {
+		death = yes
+	}
+}
+800448 = { #Anna von Pettau
+	name = "Anna"
+	dynasty = 1062031
+	religion = "catholic"
+	culture = "german"
+	female = yes
+	father = 800447
+	1380.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+###House of Celje
+800594 = { #Frederick I of Cilli
+	name = "Friedrich"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	
+	1300.1.1 = {
+		birth = yes
+	}
+	1330.1.1 = {
+		add_spouse = 800595
+	}
+	1359.1.1 = {
+		death = yes
+	}
+}
+800595 = { #Diemut von Walsee
+	name = "Diemut"
+	dynasty = 3000066
+	culture = german
+	religion = catholic
+	female = yes
+	
+	1298.1.1 = {
+		birth = yes
+	}
+	1357.5.14 = {
+		death = yes
+	}
+}
+800596 = { #Ulrich I of Cilli
+	name = "Ulrich"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	father = 800594
+	
+	1331.1.1 = {
+		birth = yes
+	}
+	1355.1.1 = {
+		add_spouse = 800600
+	}
+	1368.1.1 = {
+		death = yes
+	}
+}
+800597 = { #Hermann I of Cilli
+	name = "Hermann"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	father = 800594
+	
+	1334.1.1 = {
+		birth = yes
+	}
+	1350.1.1 = {
+		add_spouse = 468801
+	}
+	1385.1.1 = {
+		death = yes
+	}
+}
+800598 = { #Katharina of Cilli
+	name = "Katharina"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	female = yes
+	father = 800594
+	
+	1336.12.13 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+800599 = { #Anna of Cilli
+	name = "Anna"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	female = yes
+	father = 800594
+	
+	1338.1.1 = {
+		birth = yes
+	}
+	1354.1.1 = {
+		death = yes
+	}
+}
+800600 = { #Adelheid von Ortenburg
+	name = "Adelheid"
+	dynasty = 3000067
+	culture = german
+	religion = catholic
+	female = yes
+	
+	1338.3.14 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+800601 = { #Wilhelm I of Cilli
+	name = "Wilhelm"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	father = 800596
+	mother = 800600
+	
+	1361.1.1 = {
+		birth = yes
+	}
+	1375.1.1 = {
+		add_spouse = 820130
+	}
+	1392.1.1 = {
+		death = yes
+	}
+}
+800602 = { #Anna of Cilli
+	name = "Anna"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	female = yes
+	father = 800601
+	mother = 820130
+	
+	1381.1.1 = {
+		birth = yes
+	}
+	1416.5.21 = {
+		death = yes
+	}
+}
+800603 = { #Hans I of Cilli
+	name = "Hans"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	father = 800597
+	mother = 468801
+	
+	1363.1.1 = {
+		birth = yes
+	}
+	1372.1.1 = {
+		death = yes
+	}
+}
+800604 = { #Hermann II of Cilli
+	name = "Hermann"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	father = 800597
+	mother = 468801
+	
+	1361.1.1 = {
+		birth = yes
+	}
+	1377.1.1 = {
+		add_spouse = 800605
+	}
+	1435.10.13 = {
+		death = yes
+	}
+}
+800605 = {
+	name = "Anna"
+	dynasty = 3000068
+	culture = german
+	religion = catholic
+	female = yes
+	
+	1363.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+800606 = { #Friedrich II of Cilli
+	name = "Friedrich"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	father = 800604
+	mother = 800605
+	
+	1379.1.17 = {
+		birth = yes
+	}
+	1454.6.13 = {
+		death = yes
+	}
+}
+800607 = { #Hermann III of Cilli
+	name = "Hermann"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	father = 800604
+	mother = 800605
+	
+	1380.3.17 = {
+		birth = yes
+	}
+	1426.7.30 = {
+		death = yes
+	}
+}
+800608 = { #Ludwig I of Cilli
+	name = "Ludwig"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	father = 800604
+	mother = 800605
+	
+	1385.6.27 = {
+		birth = yes
+	}
+	1417.7.30 = {
+		death = yes
+	}
+}
+800609 = { #Anna of Cilli
+	name = "Anna"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	female = yes
+	father = 800604
+	mother = 800605
+	
+	1384.10.22 = {
+		birth = yes
+	}
+	1417.7.30 = {
+		death = yes
+	}
+}
+800610 = { #Barbara of Cilli
+	name = "Barbara"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	female = yes
+	father = 800604
+	mother = 800605
+	
+	1392.5.2 = {
+		birth = yes
+	}
+	1451.7.30 = {
+		death = yes
+	}
+}
+800611 = { #Elisabeth of Cilli
+	name = "Elisabeth"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	female = yes
+	father = 800604
+	mother = 800605
+	
+	1393.4.12 = {
+		birth = yes
+	}
+	1426.7.30 = {
+		death = yes
+	}
+}
+800612 = { #Hermann of Cilli
+	name = "Hermann"
+	dynasty = 101881
+	culture = german
+	religion = catholic
+	father = 800604
+	
+	trait = legit_bastard
+	
+	1383.1.12 = {
+		birth = yes
+	}
+	1421.7.30 = {
+		death = yes
+	}
+}
+###
+800885 = {
+	name = "Margareta"
+	dynasty = 3000088
+	culture = german
+	religion = catholic
+	female = yes
+	trait = attractive
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1373.1.1 = {
+		add_spouse = 450840
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+####
+802508 = {
+	name = "Katharina"
+	dynasty = 61
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462614 #Charles IV
+	mother = 455537 #Blanche de Valois
+	1327.1.1 = {
+		effect_even_if_dead = {
+			c_462614 = {
+				set_name = "Charles" # Her father's birth name was Wenzel, but on confirmation he took his wife's uncle's name - hence the French form
+			}
+		}
+	}
+	1342.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+802509 = {
+	name = "Wenzel"
+	dynasty = 61
+
+	culture = german
+	religion = catholic
+	
+	father = 462614 #Charles IV
+	mother = 462752 #Anna of Bavaria
+	1349.1.1 = {
+		effect = {
+			c_462614 = {
+				add_spouse = 462752
+			}
+		}
+	}
+	1350.1.1 = {
+		birth = yes
+	}
+	1351.1.1 = {
+		death = yes
+	}
+}
+802510 = { # This block will also contain items for Emperor Wenzel and his uncle of the same name
+	name = "Elisabeth"
+	dynasty = 61
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462614 #Charles IV
+	mother = 820175 #Anna von Schweidnitz
+	1334.12.1 = {
+		effect = {
+			c_462610 = { # # John the Blind
+				add_spouse = 455657 # Beatrice of Bourbon
+			}
+		}
+	}
+	1337.2.25 = {
+		effect_even_if_dead = {
+			c_462605 = {
+				set_father = 462610
+				set_mother = 455657
+			}
+		}
+	}
+	1352.1.1 = {
+		effect_even_if_dead = {
+			c_462605 = {
+				add_spouse = 487012 # Johanna of Brabant
+			}
+		}
+	}
+	1353.5.27 = {
+		effect_even_if_dead = {
+			c_462614 = {
+				add_spouse = 820175
+			}
+		}
+	}
+	1358.1.1 = {
+		birth = yes
+	}
+	1360.2.26 = {
+		effect_even_if_dead = {
+			c_462606 = {
+				set_father = 462614
+				set_mother = 820175
+			}
+		}
+	}
+	1370.1.1 = {
+		effect_even_if_dead = {
+			c_462606 = {
+				add_spouse = 802647 # Joanna of Bavaria
+			}
+		}
+	}
+	1373.1.1 = {
+		death = yes
+	}
+
+	1376.6.10 = {
+		 effect = {
+			c_462606 = {
+				capital = b_praha
+			}
+		}
+	}
+	1389.1.1 = {
+		effect_even_if_dead = {
+			c_462606 = {
+				add_spouse = 802627 # Sofia of Bavaria
+			}
+		}
+	}		
+}
+# 802511 = { # commented out as a duplicate of 462606
+	# name = "Wenzel"
+	# dynasty = 61
+
+	# culture = german
+	# religion = catholic
+	
+	# father = 462614 #Charles IV
+	# mother = 820175 #Anna von Schweidnitz
+	
+	# 1361.2.26 = {
+		# birth = yes
+	# }
+	# 1370.1.1 = {add_spouse = 802647} #Joanna of Bavaria
+	# 1376.6.10 = {
+		 # effect = {
+			# c_802511 = {
+				# capital = b_praha
+			# }
+		# }
+	# }
+	# 1389.1.1 = {add_spouse = 802627} #Sofia of Bavaria
+	# 1419.8.16 = {
+		# death = yes
+	# }
+# }
+802512 = {
+	name = "Sigismund" #King of Hungary
+	dynasty = 61
+
+	culture = german
+	religion = catholic
+	
+	father = 462614 #Charles IV
+	mother = 820501 #Elizabeth of Pomerania
+	
+	1368.2.15 = {
+		birth = yes
+	}
+	1385.1.1 = {add_spouse = 820033} #Mary of Hungary
+	1437.1.1 = {
+		death = yes
+	}
+}
+802513 = {
+	name = "Johann" #Duke of Gorlitz
+	dynasty = 61
+
+	culture = german
+	religion = catholic
+	
+	father = 462614 #Charles IV
+	mother = 820501 #Elizabeth of Pomerania
+	
+	1370.6.22 = {
+		birth = yes
+	}
+	1388.1.1 = {add_spouse = 802537} #Richardis of Mecklenburg
+	1396.3.1 = {
+		death = yes
+	}
+}
+802514 = {
+	name = "Karl" #
+	dynasty = 61
+
+	culture = german
+	religion = catholic
+	
+	father = 462614 #Charles IV
+	mother = 820501 #Elizabeth of Pomerania
+	
+	1372.3.13 = {
+		birth = yes
+	}
+	1373.7.24 = {
+		death = yes
+	}
+}
+802515 = {
+	name = "Margarete" #
+	dynasty = 61
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462614 #Charles IV
+	mother = 820501 #Elizabeth of Pomerania
+	
+	1373.9.29 = {
+		birth = yes
+	}
+	1410.6.4 = {
+		death = yes
+	}
+}
+802516 = {
+	name = "Heinrich" #
+	dynasty = 61
+
+	culture = german
+	religion = catholic
+	
+	father = 462614 #Charles IV
+	mother = 820501 #Elizabeth of Pomerania
+	
+	1377.1.1 = {
+		birth = yes
+	}
+	1378.1.1 = {
+		death = yes
+	}
+}
+802517 = {
+	name = "Elisabeth" #Duchess of Gorlitz
+	dynasty = 61
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802513
+	mother = 802537
+	
+	1390.11.1 = {
+		birth = yes
+	}
+	1451.8.2 = {
+		death = yes
+	}
+}
+
+802502 = { #Jobst
+	name = "Jobst"
+	dynasty = 61
+
+	culture = german
+	religion = catholic
+	
+	father = 462616 #Johann-Heinrich de Luxembourg
+	mother = 96065 #Margaret of Opava
+	
+	1351.1.1 = {
+		birth = yes
+	}
+	1374.1.1 = {add_spouse = 820104}
+	1411.1.18 = {
+		death = yes
+	}
+}
+802503 = { #Katharina
+	name = "Katharina"
+	dynasty = 61
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462616 #Johann-Heinrich de Luxembourg
+	mother = 96065 #Margaret of Opava
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1378.1.1 = {
+		death = yes
+	}
+}
+802504 = {
+	name = "Prokop"
+	dynasty = 61
+
+	culture = german
+	religion = catholic
+	
+	father = 462616 #Johann-Heinrich de Luxembourg
+	mother = 96065 #Margaret of Opava
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}
+802505 = {
+	name = "Johann"
+	dynasty = 61
+
+	culture = german
+	religion = catholic
+	
+	father = 462616 #Johann-Heinrich de Luxembourg
+	mother = 96065 #Margaret of Opava
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+802506 = {
+	name = "Elisabeth"
+	dynasty = 61
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462616 #Johann-Heinrich de Luxembourg
+	mother = 96065 #Margaret of Opava
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+802507 = {
+	name = "Anna"
+	dynasty = 61
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462616 #Johann-Heinrich de Luxembourg
+	mother = 96065 #Margaret of Opava
+	
+	1357.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}
+
+## Welf ##
+## Brunswick-Luneberg ##
+802662 = {
+	name = "Katharina Elisabeth" # Duchess of Holstein
+	dynasty = 650 # Welf
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462828
+	mother = 462397
+
+	1367.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+802663 = {
+	name = "Friedrich" # Duke of Brunswick-Luneburg
+	dynasty = 650 # Welf
+
+	culture = german
+	religion = catholic
+	
+	father = 462828
+	mother = 462397
+
+	1357.1.1 = {
+		birth = yes
+	}
+	1388.1.1 = {add_spouse = 802570}
+	1400.6.5 = {
+		death = yes
+	}
+}
+802664 = {
+	name = "Katharina" # 
+	dynasty = 650 # Welf
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802663
+	mother = 802570
+
+	1389.1.1 = {
+		birth = yes
+	}
+	1438.1.1 = {
+		death = yes
+	}
+}
+802665 = {
+	name = "Anna" # 
+	dynasty = 650 # Welf
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802663
+	mother = 802570
+
+	1390.1.1 = {
+		birth = yes
+	}
+	1432.1.1 = {
+		death = yes
+	}
+}
+802666 = {
+	name = "Bernard" #
+	dynasty = 650 # Welf
+
+	culture = german
+	religion = catholic
+	
+	father = 462828
+	mother = 462397
+
+	1358.1.1 = {
+		birth = yes
+	}
+	1434.6.11 = {
+		death = yes
+	}
+}
+802667 = {
+	name = "Otto" #
+	dynasty = 650 # Welf
+
+	culture = german
+	religion = catholic
+	
+	father = 462828
+	mother = 462397
+
+	1364.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+802668 = {
+	name = "Heinrich" #
+	dynasty = 650 # Welf
+
+	culture = german
+	religion = catholic
+	
+	father = 462828
+	mother = 462397
+
+	1365.1.1 = {
+		birth = yes
+	}
+	1388.1.1 = {add_spouse = 820512}
+	1416.10.14 = {
+		death = yes
+	}
+}
+802669 = {
+	name = "Wilhelm" #
+	dynasty = 650 # Welf
+
+	culture = german
+	religion = catholic
+	
+	father = 802668 
+	mother = 820512
+
+	1392.1.1 = {
+		birth = yes
+	}
+	1482.1.1 = {
+		death = yes
+	}
+}
+802670 = {
+	name = "Katharina" #
+	dynasty = 650 # Welf
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802668 
+	mother = 820512
+
+	1395.1.1 = {
+		birth = yes
+	}
+	1442.1.1 = {
+		death = yes
+	}
+}
+802671 = {
+	name = "Agnes" # Duchess of Brunswick-Grubenhagen
+	dynasty = 650 # Welf
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462828
+	mother = 462397
+
+	1366.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+802672 = {
+	name = "Helene" # Countess of Hoya
+	dynasty = 650 # Welf
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462828
+	mother = 462397
+
+	1367.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+802673 = {
+	name = "Elisabeth" # Countess of Oldenburg
+	dynasty = 650 # Welf
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462828
+	mother = 462397
+
+	1368.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+802674 = {
+	name = "Agnes" # Duchess of Pomerania
+	dynasty = 650 # Welf
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462828
+	mother = 462397
+
+	1355.1.1 = {
+		birth = yes
+	}
+	1416.1.1 = {
+		death = yes
+	}
+}
+802675 = {
+	name = "Sofie" # Duchess of Saxe-Lauenberg
+	dynasty = 650 # Welf
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462828
+	mother = 462397
+
+	1358.1.1 = {
+		birth = yes
+	}
+	1416.5.28 = {
+		death = yes
+	}
+}
+802676 = {
+	name = "Mechthild" # Countess of Hoya
+	dynasty = 650 # Welf
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462828
+	mother = 462397
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1428.1.1 = {
+		death = yes
+	}
+}
+## Brunswick-Grubenhagen ##
+802518 = {
+	name = "Otto" # died young
+	dynasty = 650
+
+	culture = german
+	religion = catholic
+	
+	father = 462816 #Ernest I, Duke of Brunswick-Grubenhagen
+	mother = 462817 #Adelheid of Everstein-Polle
+	
+	1337.1.1 = {
+		birth = yes
+	}
+	1340.1.1 = {
+		death = yes
+	}
+}
+802519 = {
+	name = "Albrecht" # 
+	dynasty = 650
+
+	culture = german
+	religion = catholic
+	
+	father = 462816 #Ernest I, Duke of Brunswick-Grubenhagen
+	mother = 462817 #Adelheid of Everstein-Polle
+	
+	1339.1.1 = {
+		birth = yes
+	}
+	1382.1.1 = {add_spouse = 802671}
+	1383.1.1 = {
+		death = yes
+	}
+}
+802520 = {
+	name = "Johann" # 
+	dynasty = 650
+
+	culture = german
+	religion = catholic
+	
+	father = 462816 #Ernest I, Duke of Brunswick-Grubenhagen
+	mother = 462817 #Adelheid of Everstein-Polle
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+802521 = {
+	name = "Adelheid" # 
+	dynasty = 650
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462816 #Ernest I, Duke of Brunswick-Grubenhagen
+	mother = 462817 #Adelheid of Everstein-Polle
+	
+	1341.1.1 = {
+		birth = yes
+	}
+	1362.1.1 = {add_spouse = 471655} #Bogislaw of Pomerania
+	1406.1.1 = {
+		death = yes
+	}
+}
+802522 = {
+	name = "Agnes" # 
+	dynasty = 650
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462816 #Ernest I, Duke of Brunswick-Grubenhagen
+	mother = 462817 #Adelheid of Everstein-Polle
+	
+	1342.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+802523 = {
+	name = "Anna" # 
+	dynasty = 650
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462816 #Ernest I, Duke of Brunswick-Grubenhagen
+	mother = 462817 #Adelheid of Everstein-Polle
+	
+	1343.1.1 = {
+		birth = yes
+	}
+	1409.1.1 = {
+		death = yes
+	}
+}
+802524 = {
+	name = "Ernst" # 
+	dynasty = 650
+
+	culture = german
+	religion = catholic
+	
+	father = 462816 #Ernest I, Duke of Brunswick-Grubenhagen
+	mother = 462817 #Adelheid of Everstein-Polle
+	
+	1346.1.1 = {
+		birth = yes
+	}
+	1362.1.1 = {add_trait = monk}
+	1402.1.1 = {
+		death = yes
+	}
+}
+802525 = {
+	name = "Friedrich" # 
+	dynasty = 650
+
+	culture = german
+	religion = catholic
+	
+	father = 462816 #Ernest I, Duke of Brunswick-Grubenhagen
+	mother = 462817 #Adelheid of Everstein-Polle
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+802526 = {
+	name = "Anna" # 
+	dynasty = 650
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462816 #Ernest I, Duke of Brunswick-Grubenhagen
+	mother = 462817 #Adelheid of Everstein-Polle
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1376.1.1 = {add_trait = nun}
+	1437.1.1 = {
+		death = yes
+	}
+}
+## Niklotid ##
+802527 = {
+	name = "Heinrich" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 451980
+	mother = 450508
+	
+	1337.1.1 = {
+		birth = yes
+	}
+	1362.1.1 = {add_spouse = 802717} # Ingeborg of Denmark
+	1377.1.1 = {add_spouse = 802554} #Mathilda of Werle
+	1383.4.24 = {
+		death = yes
+	}
+}
+802528 = {
+	name = "Albrecht" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 451980
+	mother = 450508
+	
+	1338.1.1 = {
+		birth = yes
+	}
+	1396.1.1 = {add_spouse = 802674} #Agnes of Brunswick
+	1412.4.1 = {
+		death = yes
+	}
+}
+802529 = {
+	name = "Magnus" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 451980
+	mother = 450508
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1384.9.1 = {
+		death = yes
+	}
+}
+802530 = {
+	name = "Ingeborg" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 451980
+	mother = 450508
+	
+	1343.1.1 = {
+		birth = yes
+	}
+	1366.1.1 = {add_spouse = 451941} #Henry II of Holstein
+	1395.7.25 = {
+		death = yes
+	}
+}
+802531 = {
+	name = "Anna" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 451980
+	mother = 450508
+	
+	1346.1.1 = {
+		birth = yes
+	}
+	1415.1.1 = {
+		death = yes
+	}
+}
+802532 = {
+	name = "Albrecht" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 802527
+	mother = 802717
+	
+	1363.1.1 = {
+		birth = yes
+	}
+	1387.1.1 = {add_spouse = 802564}
+	1388.1.1 = {
+		death = yes
+	}
+}
+802533 = {
+	name = "Euphemia" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802527
+	mother = 802717
+	
+	1362.1.1 = {
+		birth = yes
+	}
+	1408.1.1 = {
+		death = yes
+	}
+}
+802534 = {
+	name = "Maria" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802527
+	mother = 802717
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+802535 = {
+	name = "Ingeborg" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802527
+	mother = 802717
+	
+	1366.1.1 = {
+		birth = yes
+	}
+	1382.1.1 = {add_trait = nun}
+	1410.1.1 = {
+		death = yes
+	}
+}
+802536 = {
+	name = "Erich" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 802528
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1397.7.26 = {
+		death = yes
+	}
+}
+802537 = {
+	name = "Richardis" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802528
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+802538 = {
+	name = "Albrecht" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 802528
+	mother = 802674
+	
+	1397.6.1 = {
+		birth = yes
+	}
+	1423.12.6 = {
+		death = yes
+	}
+}
+
+802539 = {
+	name = "Johann" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 802529
+	
+	1369.1.1 = {
+		birth = yes
+	}
+	1422.1.1 = {
+		death = yes
+	}
+}
+802540 = {
+	name = "Euphemia" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802529
+	
+	1379.1.1 = {
+		birth = yes
+	}
+	1417.10.16 = {
+		death = yes
+	}
+}
+### Niklotid - Werle ###
+802541 = {
+	name = "Lorenz" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 30580
+	mother = 451985
+	
+	1338.1.1 = {
+		birth = yes
+	}
+	1373.1.1 = {add_spouse = 802547}
+	1394.1.1 = {
+		death = yes
+	}
+}
+802542 = {
+	name = "Johann" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 30580
+	mother = 451985
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1378.1.1 = {
+		death = yes
+	}
+}
+802543 = {
+	name = "Balthasar" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 802541
+	mother = 802547
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1397.1.1 = {add_spouse = 802540}
+	1421.4.5 = {
+		death = yes
+	}
+}
+802544 = {
+	name = "Johann" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 802541
+	mother = 802547
+	
+	1376.1.1 = {
+		birth = yes
+	}
+	1414.1.2 = {
+		death = yes
+	}
+}
+802545 = {
+	name = "Wilhelm" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 802541
+	mother = 802547
+	
+	1392.1.1 = {
+		birth = yes
+	}
+	1436.1.1 = {
+		death = yes
+	}
+}
+802546 = {
+	name = "Johann" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 451994
+	
+	1349.1.1 = {
+		birth = yes
+	}
+	1374.1.1 = {
+		death = yes
+	}
+}
+802547 = {
+	name = "Mechthild" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 451994
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+802548 = {
+	name = "Johann" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 33293
+	
+	1341.1.1 = {
+		birth = yes
+	}
+	1386.1.1 = {
+		death = yes
+	}
+}
+802549 = {
+	name = "Nikolaus" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 802548
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1408.1.21 = {
+		death = yes
+	}
+}
+802550 = {
+	name = "Christoph" # 
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father = 802548
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1425.1.1 = {
+		death = yes
+	}
+}
+802551 = {
+	name = "Agnes" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802548
+	
+	1377.1.1 = {
+		birth = yes
+	}
+	1397.1.1 = {add_trait = nun}
+	1430.1.1 = {
+		death = yes
+	}
+}
+802552 = {
+	name = "Mirislava" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802548
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+802553 = {
+	name = "Mirislava" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 33293
+	
+	1346.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {add_trait = nun}
+	1401.1.1 = {
+		death = yes
+	}
+}
+802554 = {
+	name = "Mechthild" # 
+	dynasty = 101893
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 33293
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+## Holstein ##
+802555 = {
+	name = "Elisabeth" # 
+	dynasty = 12463
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 451940
+	mother = 451992
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1356.1.1 = {add_trait = nun}
+	1402.1.1 = {
+		death = yes
+	}
+}
+802556 = {
+	name = "Mechthild" # 
+	dynasty = 12463
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 451941
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+802557 = {
+	name = "Gerhard" # 
+	dynasty = 12463
+
+	culture = german
+	religion = catholic
+	
+	father = 451941
+	mother = 802530 #Ingeborg of Mecklenburg
+	
+	1367.1.1 = {
+		birth = yes
+	}
+	1391.1.1 = {add_spouse = 802662}
+	1400.1.1 = {
+		 effect = {
+ c_802557 = {
+ capital = b_buxtehude
+ }
+ }
+}
+	1404.1.1 = {
+		death = yes
+	}
+}
+802558 = {
+	name = "Albrecht" # 
+	dynasty = 12463
+
+	culture = german
+	religion = catholic
+	
+	father = 451941
+	mother = 802530 #Ingeborg of Mecklenburg
+	
+	1369.1.1 = {
+		birth = yes
+	}
+	1403.9.28 = {
+		death = yes
+	}
+}
+802559 = {
+	name = "Heinrich" # 
+	dynasty = 12463
+
+	culture = german
+	religion = catholic
+	
+	father = 451941
+	mother = 802530 #Ingeborg of Mecklenburg
+	
+	1371.1.1 = {
+		birth = yes
+	}
+	1421.2.1 = {
+		death = yes
+	}
+}
+802560 = {
+	name = "Sofie" # 
+	dynasty = 12463
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 451941
+	mother = 802530 #Ingeborg of Mecklenburg
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+802561 = {
+	name = "Heinrich" # 
+	dynasty = 12463
+
+	culture = german
+	religion = catholic
+	
+	father = 802557 #Gerhard of Holstein
+	mother = 802662
+	
+	1397.1.1 = {
+		birth = yes
+	}
+	1427.1.1 = {
+		death = yes
+	}
+}
+802562 = {
+	name = "Ingeborg" # 
+	dynasty = 12463
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802557 #Gerhard of Holstein
+	mother = 802662
+	
+	1398.1.1 = {
+		birth = yes
+	}
+	1465.1.1 = {
+		death = yes
+	}
+}
+802563 = {
+	name = "Helvig" # 
+	dynasty = 12463
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802557 #Gerhard of Holstein
+	mother = 802662
+	
+	1400.1.1 = {
+		birth = yes
+	}
+	1436.1.1 = {
+		death = yes
+	}
+}
+802564 = {
+	name = "Elisabeth" # 
+	dynasty = 12463
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 451942 #Gerhard of Holstein
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1416.1.25 = {
+		death = yes
+	}
+}
+## Wittelsbach ##
+### Brandenburg ###
+802565 = {
+	name = "Otto" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462740 #Louis IV
+	mother = 462741 #Margaret of Avesnes
+
+	
+	1346.1.1 = {
+		birth = yes
+	}
+	1366.3.19 = {add_spouse = 802508} #Katharine of Bohemia
+	1379.11.15 = {
+		death = yes
+	}
+}
+802616 = {
+	name = "Beatrix" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462740 #Louis IV
+	mother = 462741 #Margaret of Avesnes
+	
+	1344.1.1 = {
+		birth = yes
+	}
+	1359.12.25 = {
+		death = yes
+	}
+}
+###Pfalz###
+802596 = {
+	name = "Anna" # Duchess of Julich
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462739 #Rupert II, Elector Palatine
+	mother = 461506 #Beatrice of Sicily
+	
+	1346.1.1 = {
+		birth = yes
+	}
+	1415.11.30 = {
+		death = yes
+	}
+}
+802597 = {
+	name = "Friedrich" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462739 #Rupert II, Elector Palatine
+	mother = 461506 #Beatrice of Sicily
+	
+	1347.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+802598 = {
+	name = "Johann" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462739 #Rupert II, Elector Palatine
+	mother = 461506 #Beatrice of Sicily
+	
+	1349.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+802599 = {
+	name = "Mechthild" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462739 #Rupert II, Elector Palatine
+	mother = 461506 #Beatrice of Sicily
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}
+802600 = {
+	name = "Elisabeth" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462739 #Rupert II, Elector Palatine
+	mother = 461506 #Beatrice of Sicily
+	
+	1351.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {
+		death = yes
+	}
+}
+802601 = {
+	name = "Ruprecht" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462739 #Rupert II, Elector Palatine
+	mother = 461506 #Beatrice of Sicily
+	
+	1352.5.5 = {
+		birth = yes
+	}
+	1374.1.1 = {add_spouse = 802652}
+	1410.5.18 = {
+		death = yes
+	}
+}
+802602 = {
+	name = "Adolf" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462739 #Rupert II, Elector Palatine
+	mother = 461506 #Beatrice of Sicily
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1358.5.1 = {
+		death = yes
+	}
+}
+
+802603 = {
+	name = "Margarete" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802601 #Ruprecht, King of Germany
+	mother = 802652 #Elisabeth of Nuremberg
+	
+	1376.1.1 = {
+		birth = yes
+	}
+	1434.8.27 = {
+		death = yes
+	}
+}
+
+802604 = {
+	name = "Ruprecht" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 802601 #Ruprecht, King of Germany
+	mother = 802652 #Elisabeth of Nuremberg
+	
+	1375.2.20 = {
+		birth = yes
+	}
+	1397.1.25 = {
+		death = yes
+	}
+}
+
+802605 = {
+	name = "Friedrich" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 802601 #Ruprecht, King of Germany
+	mother = 802652 #Elisabeth of Nuremberg
+	
+	1377.1.1 = {
+		birth = yes
+	}
+	1401.3.7 = {
+		death = yes
+	}
+}
+
+802606 = {
+	name = "Ludwig" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 802601 #Ruprecht, King of Germany
+	mother = 802652 #Elisabeth of Nuremberg
+	
+	1378.1.23 = {
+		birth = yes
+	}
+	1436.12.30 = {
+		death = yes
+	}
+}
+
+802607 = {
+	name = "Agnes" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802601 #Ruprecht, King of Germany
+	mother = 802652 #Elisabeth of Nuremberg
+	
+	1379.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+
+802608 = {
+	name = "Elisabeth" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802601 #Ruprecht, King of Germany
+	mother = 802652 #Elisabeth of Nuremberg
+	
+	1381.10.27 = {
+		birth = yes
+	}
+	1408.12.31 = {
+		death = yes
+	}
+}
+
+802609 = {
+	name = "Johann" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 802601 #Ruprecht, King of Germany
+	mother = 802652 #Elisabeth of Nuremberg
+	
+	1383.1.1 = {
+		birth = yes
+	}
+	1443.3.13 = {
+		death = yes
+	}
+}
+
+802610 = {
+	name = "Stefan" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 802601 #Ruprecht, King of Germany
+	mother = 802652 #Elisabeth of Nuremberg
+	
+	1385.6.23 = {
+		birth = yes
+	}
+	1459.2.14 = {
+		death = yes
+	}
+}
+
+802611 = {
+	name = "Otto" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 802601 #Ruprecht, King of Germany
+	mother = 802652 #Elisabeth of Nuremberg
+	
+	1390.8.24 = {
+		birth = yes
+	}
+	1461.7.5 = {
+		death = yes
+	}
+}
+###Bavaria###
+802612 = {
+	name = "Hermann" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462731 #Ludwig of Bavaria
+	mother = 462710 #Margaret of Tyrol
+	
+	1343.1.1 = {
+		birth = yes
+	}
+	1461.7.5 = {
+		death = yes
+	}
+}
+802613 = {
+	name = "Meinhard" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462731 #Ludwig of Bavaria
+	mother = 462710 #Margaret of Tyrol
+	
+	1344.1.1 = {
+		birth = yes
+	}
+	1359.1.1 = {add_spouse = 802637}
+	1363.1.1 = {
+		death = yes
+	}
+}
+802614 = {
+	name = "Margarete" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462731 #Ludwig of Bavaria
+	mother = 462710 #Margaret of Tyrol
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1364.1.1 = {
+		death = yes
+	}
+}
+
+802615 = {
+	name = "Beatrix" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462731 #Ludwig of Bavaria
+	mother = 462710 #Margaret of Tyrol
+	
+	1346.1.1 = {
+		birth = yes
+	}
+	1363.1.1 = {
+		death = yes
+	}
+}
+802617 = {
+	name = "Stefan" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462730 # Stephen of Bavaria
+	mother = 71754 # Elisabetta of Sicily
+	
+	1337.1.1 = {
+		birth = yes
+	}
+	1367.1.1 = {add_spouse = 802622} #Taddea Visconti
+	1413.9.26 = {
+		death = yes
+	}
+}
+802618 = {
+	name = "Agnes" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462730 # Stephen of Bavaria
+	mother = 71754 # Elisabetta of Sicily
+	
+	1338.1.1 = {
+		birth = yes
+	}
+	1363.1.1 = {add_spouse = 461912} #James I of Cyprus
+	1364.1.1 = {
+		death = yes
+	}
+}
+802619 = {
+	name = "Friedrich" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462730 # Stephen of Bavaria
+	mother = 71754 # Elisabetta of Sicily
+	
+	1339.1.1 = {
+		birth = yes
+	}
+	1381.1.1 = {add_spouse = 802633} # Maddalena Visconti
+	1393.12.4 = {
+		death = yes
+	}
+}
+802620 = {
+	name = "Johann" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462730 # Stephen of Bavaria
+	mother = 71754 # Elisabetta of Sicily
+	
+	1341.1.1 = {
+		birth = yes
+	}
+	1397.1.1 = {
+		death = yes
+	}
+}
+802623 = {
+	name = "Ludwig" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 802617 # Stefan III
+	mother = 802622 # Taddea Visconti
+	
+	1368.1.1 = {
+		birth = yes
+	}
+	1447.5.2 = {
+		death = yes
+	}
+}
+802624 = {
+	name = "Elisabeth" # Queen of France
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802617 # Stefan III
+	mother = 802622 # Taddea Visconti
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1435.9.24 = {
+		death = yes
+	}
+}
+802625 = {
+	name = "Ernst" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 802620 #Johann
+	
+	1373.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {add_spouse = 802628}
+	1438.7.2 = {
+		death = yes
+	}
+}
+802626 = {
+	name = "Wilhelm" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 802620 #Johann
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+802627 = {
+	name = "Sofie" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802620 #Johann
+	
+	1376.1.1 = {
+		birth = yes
+	}
+	1425.9.26 = {
+		death = yes
+	}
+}
+802629 = {
+	name = "Heinrich" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 802619
+	mother = 802633
+
+	1386.1.1 = {
+		birth = yes
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+802630 = {
+	name = "Johann" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 802619
+	mother = 802633
+
+	1387.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+802631 = {
+	name = "Elisabeth" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802619
+	mother = 802633
+
+	1383.1.1 = {
+		birth = yes
+	}
+	1442.11.13 = {
+		death = yes
+	}
+}
+802632 = {
+	name = "Margarete" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802619
+	mother = 802633
+
+	1384.1.1 = {
+		birth = yes
+	}
+	1391.1.1 = {
+		death = yes
+	}
+}
+802634 = {
+	name = "Magdalena" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802619
+	mother = 802633
+
+	1388.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+##Holland##
+802639 = {
+	name = "Johanna Sofie" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462746
+	mother = 810003
+
+	1373.1.1 = {
+		birth = yes
+	}
+	1410.11.10 = {
+		death = yes
+	}
+}
+802642 = {
+	name = "Katharina" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462746
+	mother = 810003
+
+	1361.1.1 = {
+		birth = yes
+	}
+	1400.11.11 = {
+		death = yes
+	}
+}
+802643 = {
+	name = "Margarete" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462746
+	mother = 810003
+
+	1363.1.1 = {
+		birth = yes
+	}
+	1423.1.23 = {
+		death = yes
+	}
+}
+802644 = {
+	name = "Wilhelm" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462746
+	mother = 810003
+
+	1365.4.3 = {
+		birth = yes
+	}
+	1417.5.31 = {
+		death = yes
+	}
+}
+802645 = {
+	name = "Albrecht" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462746
+	mother = 810003
+
+	1369.1.1 = {
+		birth = yes
+	}
+	1410.11.15 = {
+		death = yes
+	}
+}
+802646 = {
+	name = "Johann" # 
+	dynasty = 217 #von Wittelsbach
+
+	culture = german
+	religion = catholic
+	
+	father = 462746
+	mother = 810003
+
+	1374.1.1 = {
+		birth = yes
+	}
+	1425.1.1 = {
+		death = yes
+	}
+}
+802647 = {
+	name = "Johanna" # 
+	dynasty = 217 #von Wittelsbach
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462746
+	mother = 810003
+
+	1362.1.1 = {
+		birth = yes
+	}
+	1386.1.1 = {
+		death = yes
+	}
+}
+##Hohenzollern##
+802648 = {
+	name = "Margarete" # 
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 487021
+	mother = 487030
+
+	1341.1.1 = {
+		birth = yes
+	}
+	1359.1.1 = {add_spouse = 462730} #Stephen of Bavaria
+	1377.1.1 = {
+		death = yes
+	}
+}
+802649 = {
+	name = "Elisabeth" # 
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 487021
+	mother = 487030
+
+	1343.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		death = yes
+	}
+}
+802650 = {
+	name = "Anna" # 
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 487021
+	mother = 487030
+
+	1345.1.1 = {
+		birth = yes
+	}
+	1361.1.1 = {add_trait = nun}
+	1383.1.1 = {
+		death = yes
+	}
+}
+802651 = {
+	name = "Adelheid" # 
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 487021
+	mother = 487030
+
+	1346.1.1 = {
+		birth = yes
+	}
+	1361.1.1 = {add_trait = nun}
+	1370.1.1 = {
+		death = yes
+	}
+}
+802652 = {
+	name = "Elisabeth" # Queen of Germany
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 487031
+	mother = 462401 
+
+	1358.1.1 = {
+		birth = yes
+	}
+	1409.7.26 = {
+		death = yes
+	}
+}
+802653 = {
+	name = "Beatrix" # Duchess of Austria
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 487031
+	mother = 462401 
+
+	1362.1.1 = {
+		birth = yes
+	}
+	1414.6.10 = {
+		death = yes
+	}
+}
+802654 = {
+	name = "Anna" # 
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 487031
+	mother = 462401 
+
+	1364.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {add_trait = nun}
+	1393.1.1 = {
+		death = yes
+	}
+}
+802655 = {
+	name = "Agnes" # 
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 487031
+	mother = 462401 
+
+	1366.1.1 = {
+		birth = yes
+	}
+	1382.1.1 = {add_trait = nun}
+	1432.1.1 = {
+		death = yes
+	}
+}
+802656 = {
+	name = "Johann" # 
+	dynasty = 12476 #von Hohenzollern
+
+	culture = german
+	religion = catholic
+	
+	father = 487031
+	mother = 462401 
+
+	1369.1.1 = {
+		birth = yes
+	}
+	1381.1.1 = {add_spouse = 802515} #Margaret of Luxembourg
+	1420.6.11 = {
+		death = yes
+	}
+}
+802657 = {
+	name = "Friedrich" # 
+	dynasty = 12476 #von Hohenzollern
+
+	culture = german
+	religion = catholic
+	
+	father = 487031
+	mother = 462401 
+
+	1371.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+802658 = {
+	name = "Margarete" # Landgravine of Hesse
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 487031
+	mother = 462401 
+
+	1367.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+802659 = {
+	name = "Katharina" # 
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 487031
+	mother = 462401 
+
+	1372.1.1 = {
+		birth = yes
+	}
+	1388.1.1 = {add_trait = nun}
+	1409.1.1 = {
+		death = yes
+	}
+}
+802660 = {
+	name = "Veronika" # Countess of Rugen
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 487031
+	mother = 462401 
+
+	1374.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+802661 = {
+	name = "Elisabeth" # 
+	dynasty = 12476 #von Hohenzollern
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802656
+	mother = 802515
+
+	1391.1.1 = {
+		birth = yes
+	}
+	1429.1.1 = {
+		death = yes
+	}
+}
+##Askanien##
+802567 = {
+	name = "Rudolf" # 
+	dynasty = 226 #Askanien
+
+	culture = german
+	religion = catholic
+	
+	father = 462109 #Wenzel Askanien
+	mother = 802566 #Cecilia da Carrara
+
+	
+	1378.1.1 = {
+		birth = yes
+	}
+	1387.1.1 = {add_spouse = 802595}
+	1419.1.1 = {
+		death = yes
+	}
+}
+
+802568 = {
+	name = "Wenzel" # 
+	dynasty = 226 #Askanien
+
+	culture = german
+	religion = catholic
+	
+	father = 462109 #Wenzel Askanien
+	mother = 802566 #Cecilia da Carrara
+
+	
+	1379.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+
+
+802569 = {
+	name = "Erich" # 
+	dynasty = 226 #Askanien
+
+	culture = german
+	religion = catholic
+	
+	father = 462109 #Wenzel Askanien
+	mother = 802566 #Cecilia da Carrara
+
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1384.1.1 = {
+		death = yes
+	}
+}
+
+802570 = {
+	name = "Anna" # 
+	dynasty = 226 #Askanien
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462109 #Wenzel Askanien
+	mother = 802566 #Cecilia da Carrara
+
+	
+	1374.1.1 = {
+		birth = yes
+	}
+	1426.1.1 = {
+		death = yes
+	}
+}
+802571 = {
+	name = "Albrecht" # 
+	dynasty = 226 #Askanien
+
+	culture = german
+	religion = catholic
+	
+	father = 462109 #Wenzel Askanien
+	mother = 802566 #Cecilia da Carrara
+
+	
+	1383.1.1 = {
+		birth = yes
+	}
+	1422.1.1 = {
+		death = yes
+	}
+}
+802572 = {
+	name = "Margarete" # 
+	dynasty = 226 #Askanien
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462109 #Wenzel Askanien
+	mother = 802566 #Cecilia da Carrara
+
+	
+	1384.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+802573 = {
+	name = "Scholastica" # 
+	dynasty = 226 #Askanien
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802567 #Rudolf Askanien
+	mother = 802595
+
+	
+	1393.1.1 = {
+		birth = yes
+	}
+	1463.1.1 = {
+		death = yes
+	}
+}
+802574 = {
+	name = "Rudolf" # 
+	dynasty = 226 #Askanien
+
+	culture = german
+	religion = catholic
+	
+	father = 802567 #Rudolf Askanien
+	mother = 802595
+
+	
+	1394.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+802575 = {
+	name = "Wenzel" # 
+	dynasty = 226 #Askanien
+
+	culture = german
+	religion = catholic
+	
+	father = 802567 #Rudolf Askanien
+	mother = 802595
+
+	
+	1395.1.1 = {
+		birth = yes
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}
+802576 = {
+	name = "Siegmund" # 
+	dynasty = 226 #Askanien
+
+	culture = german
+	religion = catholic
+	
+	father = 802567 #Rudolf Askanien
+
+	
+	1399.1.1 = {
+		birth = yes
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}
+
+## Reginar ##
+802577 = {
+	name = "Otto" # 
+	dynasty = 7198 #Reginar
+
+	culture = german
+	religion = catholic
+	
+	father = 33403 #Ludwig Reginar
+	
+	1341.1.1 = {
+		birth = yes
+	}
+	1357.1.1 = {
+		death = yes
+	}
+}
+802578 = {
+	name = "Hermann" # 
+	dynasty = 7198 #Reginar
+
+	culture = german
+	religion = catholic
+	
+	father = 33403 #Ludwig Reginar
+	
+	1342.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {add_spouse = 802658} #Margarete von Hohenzollern
+	1413.1.1 = {
+		death = yes
+	}
+}
+802579 = {
+	name = "Anna" # 
+	dynasty = 7198 #Reginar
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802578 #Hermann Reginar
+	mother = 802658 #Margarete von Hohenzollern
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1386.1.1 = {
+		death = yes
+	}
+}
+802580 = {
+	name = "Heinrich" # 
+	dynasty = 7198 #Reginar
+
+	culture = german
+	religion = catholic
+	
+	father = 802578 #Hermann Reginar
+	mother = 802658 #Margarete von Hohenzollern
+	
+	1387.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+802581 = {
+	name = "Elisabeth" # 
+	dynasty = 7198 #Reginar
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802578 #Hermann Reginar
+	mother = 802658 #Margarete von Hohenzollern
+	
+	1388.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+802582 = {
+	name = "Margarete" # 
+	dynasty = 7198 #Reginar
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802578 #Hermann Reginar
+	mother = 802658 #Margarete von Hohenzollern
+	
+	1389.1.1 = {
+		birth = yes
+	}
+	1446.1.1 = {
+		death = yes
+	}
+}
+802583 = {
+	name = "Agnes" # 
+	dynasty = 7198 #Reginar
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802578 #Hermann Reginar
+	mother = 802658 #Margarete von Hohenzollern
+	
+	1391.1.1 = {
+		birth = yes
+	}
+	1471.1.1 = {
+		death = yes
+	}
+}
+802584 = {
+	name = "Hermann" # 
+	dynasty = 7198 #Reginar
+
+	culture = german
+	religion = catholic
+	
+	father = 802578 #Hermann Reginar
+	mother = 802658 #Margarete von Hohenzollern
+	
+	1396.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+802585 = {
+	name = "Friedrich" # 
+	dynasty = 7198 #Reginar
+
+	culture = german
+	religion = catholic
+	
+	father = 802578 #Hermann Reginar
+	mother = 802658 #Margarete von Hohenzollern
+	
+	1398.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+
+## Wettin ##
+
+802586 = {
+	name = "Beatrix" # 
+	dynasty = 528 # Wettin
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462400 #Friedrich von Wettin
+	mother = 462732 #Mechthild von Wittelsbach
+	
+	1339.9.1 = {
+		birth = yes
+	}
+	1355.1.1 = {add_trait = nun}
+	1399.7.15 = {
+		death = yes
+	}
+}
+
+802587 = {
+	name = "Ludwig" # 
+	dynasty = 528 # Wettin
+
+	culture = german
+	religion = catholic
+	
+	father = 462400 #Friedrich von Wettin
+	mother = 462732 #Mechthild von Wittelsbach
+	
+	1340.2.25 = {
+		birth = yes
+	}
+	1382.2.17 = {
+		death = yes
+	}
+}
+
+802588 = {
+	name = "Wilhelm" # 
+	dynasty = 528 # Wettin
+
+	culture = german
+	religion = catholic
+	
+	father = 462400 #Friedrich von Wettin
+	mother = 462732 #Mechthild von Wittelsbach
+	
+	1343.12.19 = {
+		birth = yes
+	}
+	1380.1.1 = {add_spouse = 802506} #Elisabeth of Moravia
+	1407.2.9 = {
+		death = yes
+	}
+}
+
+802589 = {
+	name = "Anna" # 
+	dynasty = 528 # Wettin
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462400 #Friedrich von Wettin
+	mother = 462732 #Mechthild von Wittelsbach
+
+	trait = "twin"
+	
+	1345.8.7 = {
+		birth = yes
+	}
+	1361.8.7 = {add_trait = nun}
+	1363.3.22 = {
+		death = yes
+	}
+}
+
+802590 = {
+	name = "Klara" # 
+	dynasty = 528 # Wettin
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462400 #Friedrich von Wettin
+	mother = 462732 #Mechthild von Wittelsbach
+
+	trait = "twin"
+	
+	1345.8.7 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+
+802591 = {
+	name = "Friedrich" # 
+	dynasty = 528 # Wettin
+
+	culture = german
+	religion = catholic
+	
+	father = 462403 #Friedrich III
+	
+	1370.4.11 = {
+		birth = yes
+	}
+	1428.1.4 = {
+		death = yes
+	}
+}
+802592 = {
+	name = "Wilhelm" # 
+	dynasty = 528 # Wettin
+
+	culture = german
+	religion = catholic
+	
+	father = 462403 #Friedrich III
+	
+	1371.4.23 = {
+		birth = yes
+	}
+	1425.3.30 = {
+		death = yes
+	}
+}
+802593 = {
+	name = "Georg" # 
+	dynasty = 528 # Wettin
+
+	culture = german
+	religion = catholic
+	
+	father = 462403 #Friedrich III
+	
+	1380.1.1 = {
+		birth = yes
+	}
+	1401.12.9 = {
+		death = yes
+	}
+}
+802594 = {
+	name = "Friedrich" # 
+	dynasty = 528 # Wettin
+
+	culture = german
+	religion = catholic
+	
+	father = 462402
+	
+	1384.10.30 = {
+		birth = yes
+	}
+	1440.5.7 = {
+		death = yes
+	}
+}
+802595 = {
+	name = "Anna" # 
+	dynasty = 528 # Wettin
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 462402
+	
+	1376.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+## Neuchatel ##
+
+802500 = { #Elisabeth of Neuchatel
+	name = "Elisabeth"
+	dynasty = 87
+	culture = german
+	religion = catholic
+	female = yes
+	
+	father = 32772
+	
+	1335.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = yes
+	}
+}
+
+802501 = { #Konrad III
+	name = "Konrad"
+	dynasty = 101718
+	culture = german
+	religion = catholic
+	
+	mother = 802500
+	
+	1372.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+
+## von Nassau ##
+802687 = {
+	name = "Johanna" # 
+	dynasty = 263 # von Nassau
+	female = yes
+
+	culture = german
+	religion = catholic
+
+	father = 462366
+	mother = 802689
+
+	1362.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		death = yes
+	}
+}
+802688 = {
+	name = "Philipp" # 
+	dynasty = 263 # von Nassau
+
+	culture = german
+	religion = catholic
+
+	father = 462366
+	mother = 802689
+
+	1368.1.1 = {
+		birth = yes
+	}
+	1429.7.2 = {
+		death = yes
+	}
+}
+802690 = {
+	name = "Walram" # 
+	dynasty = 263 # von Nassau
+
+	culture = german
+	religion = catholic
+
+	father = 462364
+	mother = 487027
+
+	1354.1.1 = {
+		birth = yes
+	}
+	1393.11.7 = {
+		death = yes
+	}
+}
+802691 = {
+	name = "Margarete" # 
+	dynasty = 263 # von Nassau
+	female = yes
+
+	culture = german
+	religion = catholic
+
+	father = 802690
+
+	1380.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+802692 = {
+	name = "Adolf" # 
+	dynasty = 263 # von Nassau
+
+	culture = german
+	religion = catholic
+
+	father = 802690
+
+	1386.1.1 = {
+		birth = yes
+	}
+	1426.7.16 = {
+		death = yes
+	}
+}
+### Saarbrucken ##
+802689 = {
+	name = "Johanna" # 
+	dynasty = 1062191 # von Nassau
+	female = yes
+
+	culture = german
+	religion = catholic
+
+	father = 260475
+
+	1341.1.1 = {
+		birth = yes
+	}
+	1361.1.1 = {add_spouse = 462366}
+	1390.1.1 = {
+		death = yes
+	}
+}
+### Trier ### 
+802693 = {
+	name = "Werner" # 
+
+	culture = german
+	religion = catholic
+
+	1458.1.1 = {
+		birth = yes
+	}
+	1418.1.1 = {
+		death = yes
+	}
+}
+
+### von der Mark ###
+802694 = {
+	name = "Adolf" # 
+	dynasty = 7117 #von der Mark
+
+	culture = german
+	religion = catholic
+
+	1334.1.1 = {
+		birth = yes
+	}
+	1370.1.1 = {add_spouse = 802704}
+	1394.9.7 = {
+		death = yes
+	}
+}
+802695 = {
+	name = "Adolf" # 
+	dynasty = 7117 #von der Mark
+
+	culture = german
+	religion = catholic
+
+	father = 802694
+	mother = 802704
+
+	1373.8.2 = {
+		birth = yes
+	}
+	1400.1.1 = {add_spouse = 802607}
+	1448.9.23 = {
+		death = yes
+	}
+}
+802696 = {
+	name = "Dietrich" # 
+	dynasty = 7117 #von der Mark
+
+	culture = german
+	religion = catholic
+
+	
+	father = 802694
+	mother = 802704
+
+	1374.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		death = yes
+	}
+}
+802697 = {
+	name = "Gerhard" # 
+	dynasty = 7117 #von der Mark
+
+	culture = german
+	religion = catholic
+
+	
+	father = 802694
+	mother = 802704
+
+	1378.1.1 = {
+		birth = yes
+	}
+	1461.1.1 = {
+		death = yes
+	}
+}
+802698 = {
+	name = "Margarete" # 
+	dynasty = 7117 #von der Mark
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802694
+	mother = 802704
+
+	1375.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {add_spouse = 462746}
+	1411.5.14 = {
+		death = yes
+	}
+}
+802699 = {
+	name = "Elisabeth" # 
+	dynasty = 7117 #von der Mark
+	female = yes
+
+	culture = german
+	religion = catholic
+	
+	father = 802694
+	mother = 802704
+
+	1378.1.1 = {
+		birth = yes
+	}
+	1439.1.1 = {
+		death = yes
+	}
+}
+
+### von Julich ###
+802700 = { #
+	name = "Wilhelm"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty = 285
+	mother = 810005 #Maria of Gelre
+	father = 462936 #William of Jülich
+
+	1365.1.1 = {
+		birth = yes
+	}
+	1423.6.25 = {
+		death = yes
+	}
+}
+802701 = { #
+	name = "Johanna"
+	female = yes
+	culture = "german"
+	religion = "catholic"
+
+	dynasty = 285
+	mother = 810005 #Maria of Gelre
+	father = 462936 #William of Jülich
+
+	1366.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+802702 = { #
+	name = "Elisabeth"
+	female = yes
+	culture = "german"
+	religion = "catholic"
+
+	dynasty = 285
+
+	father = 462932
+
+	1346.1.1 = {
+		birth = yes
+	}
+	1389.1.1 = {
+		death = yes
+	}
+}
+802703 = { #
+	name = "Wilhelm"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty = 285
+
+	father = 462932
+
+	1348.6.25 = {
+		birth = yes
+	}
+	1363.1.1 = {add_spouse = 802596}
+	1408.1.1 = {
+		death = yes
+	}
+}
+802704 = { #
+	name = "Margarete"
+	female = yes
+	culture = "german"
+	religion = "catholic"
+
+	dynasty = 285
+
+	father = 462932
+
+	1350.1.1 = {
+		birth = yes
+	}
+	1425.10.10 = {
+		death = yes
+	}
+}
+802705 = { #
+	name = "Beatrix"
+	culture = "german"
+	religion = "catholic"
+	female = yes
+
+	dynasty = 285
+
+	father = 802703
+	mother = 802596
+
+	1364.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {add_spouse = 462753}
+	1395.5.16 = {
+		death = yes
+	}
+}
+802706 = { #
+	name = "Margarete"
+	culture = "german"
+	religion = "catholic"
+	female = yes
+
+	dynasty = 285
+
+	father = 802703
+	mother = 802596
+
+	1365.1.1 = {
+		birth = yes
+	}
+	1442.7.18 = {
+		death = yes
+	}
+}
+802707 = { #
+	name = "Ruprecht"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty = 285
+
+	father = 802703
+	mother = 802596
+
+	1366.1.1 = {
+		birth = yes
+	}
+	1394.7.29 = {
+		death = yes
+	}
+}
+802708 = { #
+	name = "Adolf"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty = 285
+
+	father = 802703
+	mother = 802596
+
+	1371.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {add_spouse = 802308} #Yolande of Bar
+	1437.7.14 = {
+		death = yes
+	}
+}
+802709 = { #
+	name = "Gerhard"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty = 285
+
+	father = 802703
+	mother = 802596
+
+	1373.1.1 = {
+		birth = yes
+	}
+	1435.10.22 = {
+		death = yes
+	}
+}
+802710 = { #
+	name = "Wilhelm"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty = 285
+
+	father = 802703
+	mother = 802596
+
+	1382.1.1 = {
+		birth = yes
+	}
+	1428.1.1 = {
+		death = yes
+	}
+}
+### Bishop of Cologne ###
+802711 = { #
+	name = "Friedrich"
+	culture = "german"
+	religion = "catholic"
+
+	father = 802703
+	mother = 802596
+
+	1339.1.1 = {
+		birth = yes
+	}
+	1414.1.1 = {
+		death = yes
+	}
+}
+### Freistadt ###
+802712 = { #
+	name = "Friedrich"
+	culture = "german"
+	religion = "catholic"
+
+	1360.1.1 = {
+		birth = yes
+	}
+	1414.1.1 = {
+		death = yes
+	}
+}
+### Salzburg ###
+802713 = { #
+	name = "Gregor"
+	culture = "german"
+	religion = "catholic"
+
+	1362.1.1 = {
+		birth = yes
+	}
+	1403.1.1 = {
+		death = yes
+	}
+}

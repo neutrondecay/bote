@@ -1,0 +1,600 @@
+#Prince-Bishops of Aarhus
+800798 = {
+	name = "Poul"
+	religion="catholic"
+	culture="danish"
+	1297.1.1 = {
+		birth = yes
+	}
+	1369.1.1 = {
+		death = yes
+	}
+}
+800799 = {
+	name = "Oluf"
+	religion="catholic"
+	culture="danish"
+	1303.1.1 = {
+		birth = yes
+	}
+	1386.1.1 = {
+		death = yes
+	}
+}
+800800 = {
+	name = "Peder"
+	religion="catholic"
+	culture="danish"
+	1320.1.1 = {
+		birth = yes
+	}
+	1416.1.1 = {
+		death = yes
+	}
+}
+800801 = {
+	name = "Bo Mogensen"
+	religion="catholic"
+	culture="danish"
+	1350.1.1 = {
+		birth = yes
+		effect = {
+			dynasty = none
+		}
+	}
+	1423.1.1 = {
+		death = yes
+	}
+}
+###Galen
+800802 = {
+	name="Anders" #Jensen
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 151011
+	1290.1.2={
+		birth=yes
+	}
+	1310.1.1 = {
+		add_spouse = 800816
+	}
+	1360.4.16={
+		death=yes
+	}
+}
+800803 = {
+	name="Ingeborg" #Jensen
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	female = yes
+	father = 151011
+	1295.1.2={
+		birth = yes
+	}
+	1351.4.16={
+		death = yes
+	}
+}
+800804 = {
+	name="Jep" #Jensen
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	#female = yes
+	father = 151011
+	1298.1.2 = {
+		birth = yes
+	}
+	1366.4.16 = {
+		death = yes
+	}
+}
+800805 = {
+	name="Cecilia" #Jensen
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	female = yes
+	father = 151011
+	1310.4.2 = {
+		birth = yes
+	}
+	1320.4.16 = {
+		death = yes
+	}
+}
+800806 = {
+	name="Truid" #Jensen
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	#female = yes
+	father = 151011
+	1304.1.2 = {
+		birth = yes
+	}
+	1335.4.16 = {
+		death = yes
+	}
+}
+800807 = {
+	name="Truid" #Jensen
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	#female = yes
+	father = 151011
+	1304.1.2 = {
+		birth = yes
+	}
+	1335.4.16 = {
+		death = yes
+	}
+}
+800808 = {
+	name="Peder" #Jensen
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	#female = yes
+	father = 151011
+	1279.1.2 = {
+		birth = yes
+	}
+	1307.4.16 = {
+		death = yes
+	}
+}
+800809 = {
+	name="Tuve"
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 800802
+	mother = 800816
+	1312.1.2={
+		birth=yes
+	}
+	1338.1.1 = {
+		add_spouse = 800817
+	}
+	1401.4.16={
+		death=yes
+	}
+}
+800810 = { #Erland's father, name unknown
+	name = "Anders"
+	dynasty = 760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 800811
+	
+	1150.1.2={
+		birth=yes
+	}
+	1173.1.1 = {
+		effect_even_if_dead = {
+			c_151005 = {
+				set_father = 800810
+			}
+		}
+	}
+	1180.4.16={
+		death=yes
+	}
+}
+800811 = { #Erland's grandfather
+	name = "Sune"
+	dynasty = 760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 800811
+	
+	1115.1.2={
+		birth=yes
+	}
+	1186.4.16={
+		death=yes
+	}
+}
+800812 = {
+	name = "Ebbe"
+	dynasty = 760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 800811
+	
+	1143.1.2={
+		birth=yes
+	}
+	1208.4.16={
+		death=yes
+	}
+}
+800813 = {
+	name = "Jens"
+	dynasty = 760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 800812
+	
+	1180.1.2={
+		birth=yes
+	}
+	1275.4.16={
+		death=yes
+	}
+}
+800814 = {
+	name = "Jens"
+	dynasty = 760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 800813
+	
+	1230.1.2={
+		birth=yes
+	}
+	1307.4.16={
+		death=yes
+	}
+}
+800815 = {
+	name = "Torbern"
+	dynasty = 760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 800814
+	
+	1265.1.2={
+		birth=yes
+	}
+	1307.4.16={
+		death=yes
+	}
+}
+800816 = {
+	name = "Margrete"
+	dynasty = 760 #Galen
+	religion="catholic"
+	culture="danish"
+	female = yes
+	father = 800815
+	
+	1296.1.2={
+		birth=yes
+	}
+	1320.4.16={
+		death=yes
+	}
+}
+800818 = {
+	name="Anders"
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 800809
+	mother = 800817
+	1339.8.1 = {
+		birth=yes
+	}
+	1360.1.1 = {
+		add_spouse = 800820
+	}
+	1400.4.16={
+		death=yes
+	}
+}
+800819 = {
+	name="Ingefrid"
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	female = yes
+	father = 800809
+	mother = 800817
+	1365.8.1 = {
+		birth=yes
+	}
+	# 1338.1.1 = {
+		# add_spouse = 800817
+	# }
+	1396.10.31 ={
+		death=yes
+	}
+}
+800820 = {
+	name="Cecilia" 
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	female = yes
+	mother = 800804
+	1340.4.2 = {
+		birth = yes
+	}
+	1400.4.16 = {
+		death = yes
+	}
+}
+800821 = {
+	name="Thue"
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 800818
+	mother = 800820
+	1365.8.1 = {
+		birth=yes
+	}
+	1448.4.16={
+		death=yes
+	}
+}
+800823 = {
+	name="Jens"
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 800818
+	mother = 800820
+	1367.10.1 = {
+		birth=yes
+	}
+	1448.4.16={
+		death=yes
+	}
+}
+800824 = {
+	name="Peder"
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	father = 800818
+	mother = 800820
+	1370.4.1 = {
+		birth=yes
+	}
+	1448.4.16={
+		death=yes
+	}
+}
+800825 = { #Unknown name
+	name="Sofie"
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	female = yes
+	father = 800818
+	mother = 800820
+	1373.9.21 = {
+		birth=yes
+	}
+	1448.4.16={
+		death=yes
+	}
+}
+###
+800826 = { #Fictional ruler of Bornholm
+	name = "Magnus"
+	dynasty = 7298
+	culture = danish
+	religion = catholic
+	father = 34177
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1409.1.1 = {
+		death = yes
+	}
+}
+###Porse
+800880 = {
+	name="Knud"
+	dynasty=118
+	religion="catholic"
+	culture="danish"
+	1229.1.2={
+		birth=yes
+	}
+	1251.1.1 = {
+		effect_even_if_dead = {
+			c_451804 = {
+				set_father = 800880 #Niels Knudsen Porse
+			}
+		}
+	}
+	1295.1.2={
+		death=yes
+	}
+}
+800881 = {
+	name="Peder"
+	dynasty=118
+	religion="catholic"
+	culture="danish"
+	father = 800880
+	
+	1240.1.2={
+		birth=yes
+	}
+	1287.1.2={
+		death=yes
+	}
+}
+800882 = {
+	name="Christoffer" #NN
+	dynasty=118
+	religion="catholic"
+	culture="danish"
+	father = 800881
+	
+	1260.1.2={
+		birth=yes
+	}
+	1340.1.2={
+		death=yes
+	}
+}
+800883 = {
+	name="Peder"
+	dynasty=118
+	religion="catholic"
+	culture="danish"
+	father = 800882
+	
+	1280.1.2={
+		birth=yes
+	}
+	1344.1.2={
+		death=yes
+	}
+}
+800884 = {
+	name="Margareta"
+	dynasty=118
+	religion="catholic"
+	culture="danish"
+	female = yes
+	father = 800883
+	
+	1331.1.2={
+		birth=yes
+	}
+	1355.1.1 = {
+		add_spouse = 450840
+	}
+	1360.1.2={
+		death={
+			death_reason = death_childbirth
+		}
+	}
+}
+### Estrid ###
+
+802715 = { #
+	name = "Christoffer"
+	dynasty = 487 # Estrid
+
+	culture = "danish"
+	religion = "catholic"
+
+	father = 451500 # Valdemar IV of Denmark
+	mother = 451531 # Helvig of Schleswig
+
+	1341.1.1 = {
+		birth = yes
+	}
+	1363.6.11 = {
+		death = yes
+	}
+}
+802716 = { #
+	name = "Margrethe"
+	dynasty = 487 # Estrid
+	female = yes
+
+	culture = "danish"
+	religion = "catholic"
+
+	father = 451500 # Valdemar IV of Denmark
+	mother = 451531 # Helvig of Schleswig
+
+	1345.1.1 = {
+		birth = yes
+	}
+	1350.1.1 = {
+		death = yes
+	}
+}
+802717 = { #
+	name = "Ingeborg"
+	dynasty = 487 # Estrid
+	female = yes
+
+	culture = "danish"
+	religion = "catholic"
+
+	father = 451500 # Valdemar IV of Denmark
+	mother = 451531 # Helvig of Schleswig
+
+	1347.1.4 = {
+		birth = yes
+	}
+	1370.6.16 = {
+		death = yes
+	}
+}
+802718 = { #
+	name = "Katarina"
+	dynasty = 487 # Estrid
+	female = yes
+
+	culture = "danish"
+	religion = "catholic"
+
+	father = 451500 # Valdemar IV of Denmark
+	mother = 451531 # Helvig of Schleswig
+
+	1349.1.1 = {
+		birth = yes
+	}
+	1352.1.1 = {
+		death = yes
+	}
+}
+802719 = { #
+	name = "Valdemar"
+	dynasty = 487 # Estrid
+	female = yes
+
+	culture = "danish"
+	religion = "catholic"
+
+	father = 451500 # Valdemar IV of Denmark
+	mother = 451531 # Helvig of Schleswig
+
+	1350.1.1 = {
+		birth = yes
+	}
+	1363.6.11 = {
+		death = yes
+	}
+}
+802720 = { #
+	name = "Margrethe"
+	dynasty = 487 # Estrid
+	female = yes
+
+	culture = "danish"
+	religion = "catholic"
+
+	father = 451500 # Valdemar IV of Denmark
+	mother = 451531 # Helvig of Schleswig
+	
+	trait = shrewd
+	trait = administrator
+	trait = diligent
+	trait = ambitious
+	trait = just
+	trait = cynical
+	trait = grey_eminence
+	
+	1353.3.15 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		capital = c_sjaelland
+		effect = {
+			k_denmark = {
+				make_primary_title = yes
+			}
+		}
+	}
+	1412.10.28 = {
+		death = yes
+	}
+}

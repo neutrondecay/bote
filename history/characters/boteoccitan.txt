@@ -1,0 +1,833 @@
+800308 = {
+	name="Bertrand" #Prince of Orange
+	dynasty=5117
+	religion="catholic"
+	culture="occitan"
+	father=32516
+	mother=32539
+	1165.1.1 = {
+		birth=yes
+	}
+	1201.7.30 = {
+		death=yes
+	}
+}
+800309 = {
+	name="Raimond"
+	dynasty=5117
+	religion="catholic"
+	culture="occitan"
+	father=800308
+
+	1195.1.1 = {
+		birth=yes
+	}
+	1237.11.25 = {
+		death=yes
+	}
+}
+800310 = {
+	name="Guilhèm"
+	dynasty=5117
+	religion="catholic"
+	culture="occitan"
+	father=800309
+
+	1212.1.1 = {
+		birth=yes
+	}
+	1266.1.21 = {
+		death=yes
+	}
+}
+800311 = {
+	name="Bertrand" #II des Baux
+	dynasty=5117
+	religion="catholic"
+	culture="occitan"
+	father=800310
+
+	1245.1.1 = {
+		birth=yes
+	}
+	1309.4.17 = {
+		death=yes
+	}
+}
+800313 = {
+	name="Bertrand" #III des Baux
+	dynasty=5117
+	religion="catholic"
+	culture="occitan"
+	father=800311
+
+	1295.8.1 = {
+		birth=yes
+	}
+	1347.9.15 = {
+		death=yes
+	}
+}
+800314 = {
+	name="Francés" #III des Baux
+	dynasty=5117
+	religion="catholic"
+	culture="occitan"
+	father=800313
+
+	1330.5.1 = {
+		birth=yes
+	}
+	1422.4.23 = {
+		death=yes
+	}
+}
+800315 = { #Antonia des Baux, Queen Consort of Sicily
+	name = "Antonia"
+	dynasty=5117
+	religion="catholic"
+	culture="occitan"
+	female = yes
+	father=800314
+
+	1355.5.13 = {
+		birth=yes
+	}
+	1374.1.23 = {
+		death=yes
+	}
+}
+800638 = { #Brunissende de Narbonne
+	name = "Brunissende"
+	dynasty = 776
+	culture = occitan
+	religion = catholic
+	female = yes
+	father = 72440
+	mother = 138153
+	
+	1275.1.1 = {
+		birth = yes
+	}
+	1350.1.1 = {
+		death = yes
+	}
+}
+8001003 = { #Grandmaster of the Knights Hospitaliers
+	name = "Roger"
+	dynasty = 3000103
+	culture = occitan
+	religion = catholic
+	
+	1294.1.1 = {
+		birth = yes
+	}
+	1365.5.28 = {
+		death = yes
+	}
+}
+### House of Armagnac ###
+802032 = {
+	name="Joana" # Duchess of Berry
+	dynasty=5100
+	female=yes
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=455640 #John I of Armagnac
+	mother=455725 #Beatrice of Clermont
+
+	1346.6.24 = {
+		birth=yes
+	}
+	1387.1.1 = {
+		death=yes
+	}
+}
+
+802221 = {
+	name="Joan" # Count of Armagnac
+	dynasty=5100
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=455646 # John
+
+	1359.1.1 = {
+		birth=yes
+	}
+	1391.1.1 = {
+		death=yes
+	}
+}
+
+802222 = {
+	name="Bérard" # Count of Armagnac, Constable of France
+	dynasty=5100
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=455646 # John
+
+	1363.1.1 = {
+		birth=yes
+	}
+	1395.1.1 = {add_spouse=802033} # Bonne of Berry
+	1418.1.1 = {
+		death=yes
+	}
+}
+
+802223 = {
+	name="Beatritz" # Lady of Parma
+	dynasty=5100
+	female=yes
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=455646 # John
+
+	1365.1.1 = {
+		birth=yes
+	}
+	1379.1.1 = {add_spouse=802209}
+	1402.1.1 = {
+		death=yes
+	}
+}
+
+802224 = {
+	name="Joan" # Bishop of Gevaudan
+	dynasty=5100
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=455646 # John
+
+	add_trait=bastard
+
+	1370.1.1 = {
+		birth=yes
+	}
+	1409.1.1 = {
+		death=yes
+	}
+}
+
+802225 = {
+	name="Bertrand" # 
+	dynasty=5100
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=455646 # John
+
+	add_trait=bastard
+
+	1372.1.1 = {
+		birth=yes
+	}
+	1403.1.1 = {
+		death=yes
+	}
+}
+
+802226 = {
+	name="Joan" # Count of Armagnac
+	dynasty=5100
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802222 # Bernard of Armagnac
+	mother=802033 # Bonne of Berry
+
+	1396.1.1 = {
+		birth=yes
+	}
+	1450.1.1 = {
+		death=yes
+	}
+}
+
+802227 = {
+	name="Bòna" # Duchess of Orleans
+	dynasty=5100
+	female=yes
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802222 # Bernard of Armagnac
+	mother=802033 # Bonne of Berry
+
+	1399.1.1 = {
+		birth=yes
+	}
+	1430.1.1 = {
+		death=yes
+	}
+}
+### House of Gramont ###
+802200 = {
+	name="Arnaut-Raimond" # owns c_dax
+	dynasty=5003
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=93823
+
+	1345.1.1 = {
+		birth=yes
+	}
+	1398.1.1 = {
+		death=yes
+	}
+}
+802201 = {
+	name="Joan" # owns c_dax
+	dynasty=5003
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802200
+
+	1375.1.1 = {
+		birth=yes
+	}
+	1429.1.1 = {
+		death=yes
+	}
+}
+
+### Bishops of Agen ###
+802202 = {
+	name="Déodat" # 
+	
+	religion="catholic"
+	culture="occitan"
+
+	1300.1.1 = {
+		birth=yes
+	}
+	1363.1.1 = {
+		death=yes
+	}
+}
+802203 = {
+	name="Raimond" # 
+	
+	religion="catholic"
+	culture="occitan"
+
+	1304.1.1 = {
+		birth=yes
+	}
+	1374.1.1 = {
+		death=yes
+	}
+}
+802204 = {
+	name="Joan" # 
+	
+	religion="catholic"
+	culture="occitan"
+
+	1319.1.1 = {
+		birth=yes
+	}
+	1382.1.1 = {
+		death=yes
+	}
+}
+802206 = {
+	name="Joan" # 
+	
+	religion="catholic"
+	culture="occitan"
+
+	1334.1.1 = {
+		birth=yes
+	}
+	1395.1.1 = {
+		death=yes
+	}
+}
+802207 = {
+	name="Bérard" # 
+	
+	religion="catholic"
+	culture="occitan"
+
+	1350.1.1 = {
+		birth=yes
+	}
+	1398.1.1 = {
+		death=yes
+	}
+}
+802208 = {
+	name="Imbert" # 
+	
+	religion="catholic"
+	culture="occitan"
+
+	1370.1.1 = {
+		birth=yes
+	}
+	1438.1.1 = {
+		death=yes
+	}
+}
+
+### House of Foix ###
+802209 = {
+	name="Gaston" # 
+	dynasty = 684 # de Foix
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=455541
+	mother=455815
+
+	1361.1.1 = {
+		birth=yes
+	}
+	1382.1.1 = {
+		death=yes
+	}
+}
+
+802210 = {
+	name="Rogier-Bernard" # 
+	dynasty = 684 # de Foix
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=455544
+	mother=455545
+
+	1310.1.1 = {
+		birth=yes
+	}
+	1351.1.1 = {
+		death=yes
+	}
+}
+
+
+802211 = {
+	name="Rogier-Bernard" # 
+	dynasty = 684 # de Foix
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802210 # Roger Bernard de Foix
+
+	1334.1.1 = {
+		birth=yes
+	}
+	1371.1.1 = {
+		death=yes
+	}
+}
+
+802212 = {
+	name="Matias" # 
+	dynasty = 684 # de Foix
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802211 # Roger Bernard de Foix
+
+	1363.1.1 = {
+		birth=yes
+	}
+	1398.1.1 = {
+		death=yes
+	}
+}
+802213 = {
+	name="Isabèla" # 
+	dynasty = 684 # de Foix
+	female=yes
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802211 # Roger Bernard de Foix
+
+	1361.11.2 = {
+		birth=yes
+	}
+	1380.1.1 = {add_matrilineal_spouse=802214}
+	1428.1.1 = {
+		death=yes
+	}
+}
+802214 = {
+	name="Archambaud" # 
+	dynasty=3200003 # de Grailly
+	
+	religion="catholic"
+	culture="frankish"
+
+	1330.1.1 = {
+		birth=yes
+	}
+	1412.1.1 = {
+		death=yes
+	}
+}
+802215 = {
+	name="Rogier-Bernard" # 
+	dynasty = 684 # de Foix
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802211 # Roger Bernard de Foix
+
+	1358.1.1 = {
+		birth=yes
+	}
+	1374.1.1 = {
+		death=yes
+	}
+}
+802216 = {
+	name="Joan" # 
+	dynasty = 684 # de Foix
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802214 # Archambaud
+	mother=802213 # Isabella of Foix
+
+	1382.1.1 = {
+		birth=yes
+	}
+	1436.5.4 = {
+		death=yes
+	}
+}
+802217 = {
+	name="Gaston" # 
+	dynasty = 684 # de Foix
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802214 # Archambaud
+	mother=802213 # Isabella of Foix
+
+	1383.1.1 = {
+		birth=yes
+	}
+	1456.1.1 = {
+		death=yes
+	}
+}
+802218 = {
+	name="Archambaut" # 
+	dynasty = 684 # de Foix
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802214 # Archambaud
+	mother=802213 # Isabella of Foix
+
+	1384.1.1 = {
+		birth=yes
+	}
+	1419.1.1 = {
+		death=yes
+	}
+}
+802219 = {
+	name="Matias" # 
+	dynasty = 684 # de Foix
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802214 # Archambaud
+	mother=802213 # Isabella of Foix
+
+	1385.1.1 = {
+		birth=yes
+	}
+	1454.1.1 = {
+		death=yes
+	}
+}
+802220 = {
+	name="Pèire" # 
+	dynasty = 684 # de Foix
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802214 # Archambaud
+	mother=802213 # Isabella of Foix
+
+	1386.1.1 = {
+		birth=yes
+	}
+	1464.1.1 = {
+		death=yes
+	}
+}
+
+### Viscounts of Narbonne - House of Lara ### 
+802228 = {
+	name="Aimeric" # Viscount of Narbonne
+	dynasty=776
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=72453
+	mother=72466
+
+	1340.1.1 = {
+		birth=yes
+	}
+	1388.1.1 = {
+		death=yes
+	}
+}
+802229 = {
+	name="Guilhèm" # Viscount of Narbonne
+	dynasty=776
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802228 
+
+	1360.1.1 = {
+		birth=yes
+	}
+	1397.1.1 = {
+		death=yes
+	}
+}
+802230 = {
+	name="Guilhèm" # Viscount of Narbonne
+	dynasty=776
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802229
+
+	1380.1.1 = {
+		birth=yes
+	}
+	1424.1.1 = {
+		death=yes
+	}
+}
+## Bishop of Maguelone ##
+802231 = {
+	name="Anton" #
+	
+	religion="catholic"
+	culture="occitan"
+
+	1353.1.1 = {
+		birth=yes
+	}
+	1405.1.1 = {
+		death=yes
+	}
+}
+## Bishop of Viviers##
+802232 = {
+	name="Guilhèm" #
+	
+	religion="catholic"
+	culture="occitan"
+
+	1344.1.1 = {
+		birth=yes
+	}
+	1406.1.1 = {
+		death=yes
+	}
+}
+## Bishop of Lyon##
+802233 = {
+	name="Filip" #
+	
+	religion="catholic"
+	culture="occitan"
+
+	1360.1.1 = {
+		birth=yes
+	}
+	1415.1.1 = {
+		death=yes
+	}
+}
+
+### House of Auvergne ###
+802234 = {
+	name="Joan" #
+	dynasty=733
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=7471
+
+	1324.1.1 = {
+		birth=yes
+	}
+	1386.1.1 = {
+		death=yes
+	}
+}
+
+802235 = {
+	name="Joan" #
+	dynasty=733
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802234
+
+	1354.1.1 = {
+		birth=yes
+	}
+	1394.1.1 = {
+		death=yes
+	}
+}
+802250 = {
+	name="Joana" #
+	dynasty=733
+	female=yes
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802235
+
+	1378.1.1 = {
+		birth=yes
+	}
+	1389.1.1 = {add_spouse=802003} #John I, Duke of Berry
+	1424.1.1 = {
+		death=yes
+	}
+}
+
+802236 = {
+	name="Godafres" #
+	dynasty=733
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802234
+
+	1355.1.1 = {
+		birth=yes
+	}
+	1399.1.1 = {
+		death=yes
+	}
+}
+
+802237 = {
+	name="Maria" #
+	dynasty=733
+	female=yes
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802236
+
+	1376.1.1 = {
+		birth=yes
+	}
+	1437.1.1 = {
+		death=yes
+	}
+}
+
+802238 = {
+	name="Ana" #
+	dynasty=733
+	female=yes
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=802239
+	mother=802240
+
+	1358.1.1 = {
+		birth=yes
+	}
+	1417.1.1 = {
+		death=yes
+	}
+}
+
+802239 = {
+	name="Bernard" #
+	dynasty=733
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=7471
+
+	1325.1.1 = {
+		birth=yes
+	}
+	1356.1.1 = {add_spouse=802240}
+	1370.1.1 = {
+		death=yes
+	}
+}
+
+### House of Forez
+
+802240 = {
+	name="Joana" #
+	dynasty=232
+	female=yes
+	
+	religion="catholic"
+	culture="occitan"
+
+	father=455670
+	mother=455652
+
+	1340.1.1 = {
+		birth=yes
+	}
+	1358.1.1 = {
+		death=yes
+	}
+}

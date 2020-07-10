@@ -1,0 +1,5 @@
+1350.5.14 = {
+	holding_dynasty = 3000038
+	holder = 800421
+	liege = k_venice
+}

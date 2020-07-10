@@ -1,0 +1,14 @@
+801060 = {
+	name="Yilbugha"
+	dynasty=100691
+	religion="sunni"
+	culture="cuman"
+	father = 34993
+	
+	1320.1.1={
+		birth = yes
+	}
+	1393.1.1={
+		death = yes
+	}
+}

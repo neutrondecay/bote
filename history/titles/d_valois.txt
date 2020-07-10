@@ -1,0 +1,7 @@
+936.1.1 = {
+	holder = 6444 
+	liege = k_france
+}
+1392.1.1={
+	holder=802016 # Louis I, Duke of Orleans
+}

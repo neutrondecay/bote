@@ -1,0 +1,17 @@
+welshbloodofowain = {
+	allow_bastards = yes
+	combat_rating = 5
+	welsh_opinion = 10
+	english_opinion = -5
+	siege_defence = 0.5
+	picture = GFX_bloodlines_symbol_war_knight
+	active = {
+		culture = welsh
+	}
+	command_modifier = {
+		morale_defence = 0.2
+		defence = 0.2
+		terrain = mountain
+		terrain = hills
+	}
+}

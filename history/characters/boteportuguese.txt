@@ -1,0 +1,685 @@
+800650 = { 
+	name = "Pedro"
+	dynasty = 3000073
+	culture = portuguese
+	religion = catholic
+	father = 800760
+	trait = legit_bastard
+	1336.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		death_reason = death_battle
+	}
+}
+###de Castro family
+800786 = { #Fernán de Castro
+	name = "Fernán"
+	dynasty = 7016
+	culture = castillan
+	religion = catholic
+	father = 457670
+	mother = 458023
+	
+	1338.1.1 = {
+		birth = yes
+	}
+	1354.1.1 = {
+		add_spouse = 800689
+	}
+	1377.1.1 = {
+		death = yes
+	}
+}
+800787 = { #Juana de Castro
+	name = "Juana"
+	dynasty = 7016
+	culture = castillan
+	religion = catholic
+	female = yes
+	father = 457670
+	mother = 458023
+	
+	1339.1.1 = {
+		birth = yes
+	}
+	1354.1.1 = {
+		add_spouse = 457501
+	}
+	1374.1.1 = {
+		death = yes
+	}
+}
+800690 = { #Pedro de Castro
+	name = "Pedro"
+	dynasty = 7016
+	culture = castillan
+	religion = catholic
+	father = 800687
+	mother = 800689
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+800691 = { #Guterre de Castro
+	name = "Guterre"
+	dynasty = 7016
+	culture = castillan
+	religion = catholic
+	father = 800687
+	mother = 800689
+	
+	1357.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+#Kings of Portugal
+800743 = {
+	name="Fernando" #Fernando I of Portugal
+	dynasty=741 #de Bourgogne
+	religion="catholic"
+	culture="portuguese"
+	father=459501
+	
+	1345.10.31={
+		birth=yes
+	}
+	1372.1.1 = {
+		add_spouse = 800744
+	}
+	1383.10.22={
+		death=yes
+	}
+}
+800744 = {
+	name="Leonor" #Leonor Teles de Meneses, wife of Fernando
+	dynasty=3000076
+	religion="catholic"
+	culture="portuguese"
+	female = yes
+	father = 800756
+	
+	1350.1.1={
+		birth=yes
+	}
+	1405.10.22={
+		death=yes
+	}
+}
+800745 = {
+	name="Beatriz" #Beatriz of Portugal
+	dynasty=741 #de Bourgogne
+	religion="catholic"
+	culture="portuguese"
+	female = yes
+	father=800743
+	mother = 800744
+	
+	1373.2.7={
+		birth=yes
+	}
+	1420.10.22={
+		death=yes
+	}
+}
+800746 = {
+	name="Afonso" #Afonso of Portugal
+	dynasty=741 #de Bourgogne
+	religion="catholic"
+	culture="portuguese"
+	father=800743
+	mother = 800744
+	
+	1382.4.20={
+		birth=yes
+	}
+	1382.4.24={
+		death=yes
+	}
+}
+800747 = {
+	name="Isabel" #Isabel of Portugal
+	dynasty=741 #de Bourgogne
+	religion="catholic"
+	culture="portuguese"
+	female = yes
+	father=800743
+	mother = 800744
+	
+	1383.11.3={
+		birth=yes
+	}
+	1383.11.4={
+		death=yes
+	}
+}
+800748 = {
+	name="Isabel" #Isabel of Portugal
+	dynasty=741 #de Bourgogne
+	religion="catholic"
+	culture="portuguese"
+	female = yes
+	father=800743
+	trait = bastard
+	
+	1364.11.3={
+		birth=yes
+	}
+	1395.11.4={
+		death=yes
+	}
+}
+800749 = {
+	name="João" #João I of Portugal
+	dynasty=7045 #de Aviz
+	religion="catholic"
+	culture="portuguese"
+	father=459501
+	trait = bastard
+	
+	1357.4.11={
+		birth=yes
+	}
+	1387.1.1 = {
+		add_spouse = 800060
+	}
+	1433.8.14 = {
+		death=yes
+	}
+}
+800750 = {
+	name="Branca" #Branca of Portugal
+	dynasty=7045 #de Aviz
+	religion="catholic"
+	culture="portuguese"
+	female = yes
+	father=800749
+	mother = 800060
+	
+	1388.7.13={
+		birth=yes
+	}
+	1389.3.6 = {
+		death=yes
+	}
+}
+800751 = {
+	name="Afonso" #Afonso of Portugal
+	dynasty=7045 #de Aviz
+	religion="catholic"
+	culture="portuguese"
+	father=800749
+	mother = 800060
+	trait = ill
+	1390.7.30={
+		birth=yes
+	}
+	1400.12.22 = {
+		death=yes
+	}
+}
+800752 = {
+	name="Duarte" #Duarte of Portugal
+	dynasty=7045 #de Aviz
+	religion="catholic"
+	culture="portuguese"
+	father=800749
+	mother = 800060
+	
+	1391.10.31={
+		birth=yes
+	}
+	1438.9.9 = {
+		death=yes
+	}
+}
+800753 = {
+	name="Pedro" #Pedro of Portugal
+	dynasty=7045 #de Aviz
+	religion="catholic"
+	culture="portuguese"
+	father=800749
+	mother = 800060
+	
+	1392.12.9 = {
+		birth=yes
+	}
+	1449.5.20 = {
+		death=yes
+	}
+}
+800754 = {
+	name="Henrique" #Henrique of Portugal
+	dynasty=7045 #de Aviz
+	religion="catholic"
+	culture="portuguese"
+	father=800749
+	mother = 800060
+	
+	1394.3.4 = {
+		birth=yes
+	}
+	1460.11.13 = {
+		death=yes
+	}
+}
+800755 = {
+	name="Isabel" #Isabel of Portugal
+	dynasty=7045 #de Aviz
+	religion="catholic"
+	culture="portuguese"
+	female = yes
+	father=800749
+	mother = 800060
+	
+	1397.2.21 = {
+		birth=yes
+	}
+	1471.12.11 = {
+		death=yes
+	}
+}
+###Teles de Meneses family
+800756 = {
+	name="Martim" #Martim Telo de Meneses
+	dynasty=3000076
+	religion="catholic"
+	culture="portuguese"
+	father = 800757
+	
+	1300.1.1={
+		birth=yes
+	}
+	1356.1.26={
+		death=yes
+	}
+}
+800757 = {
+	name="Afonso" #Afonso Teles de Meneses
+	dynasty=3000076
+	religion="catholic"
+	culture="portuguese"
+	
+	1280.1.1={
+		birth=yes
+	}
+	1340.10.30={
+		death=yes
+	}
+}
+800758 = {
+	name="João" #João Telo de Meneses
+	dynasty=3000076
+	religion="catholic"
+	culture="portuguese"
+	father = 800757
+	
+	1303.1.1={
+		birth=yes
+	}
+	1381.1.24={
+		death=yes
+	}
+}
+800759 = {
+	name="João" #João Telo de Meneses
+	dynasty=3000076
+	religion="catholic"
+	culture="portuguese"
+	father = 800757
+	
+	1339.1.1={
+		birth=yes
+	}
+	1385.8.14={
+		death = yes
+	}
+}
+###Pereira
+800760 = {
+	name = "Álvaro"
+	dynasty = 3000073
+	culture = portuguese
+	religion = catholic
+	1300.1.1 = {
+		birth = yes
+	}
+	1379.1.1 = {
+		death = yes
+	}
+}
+800761 = { 
+	name = "Nuno"
+	dynasty = 3000073
+	culture = portuguese
+	religion = catholic
+	father = 800760
+	trait = legit_bastard
+	1360.6.24 = {
+		birth = yes
+	}
+	1376.1.1 = {
+		add_spouse = 800762
+	}
+	1431.11.1 = {
+		death = yes
+	}
+}
+800762 = {
+	name = "Leonor"
+	dynasty = 3000077
+	culture = portuguese
+	religion = catholic
+	female = yes
+	1356.1.1 = {
+		birth = yes
+	}
+	1388.1.1 = {
+		death = yes
+	}
+}
+800763 = { 
+	name = "Beatriz"
+	dynasty = 3000073
+	culture = portuguese
+	religion = catholic
+	female = yes
+	father = 800761
+	mother = 800762
+	
+	1380.12.3 = {
+		birth = yes
+	}
+	1414.1.1 = {
+		death = yes
+	}
+}
+###Dynasty de Sousa Chichorro
+800765 = {
+	name = "Martim"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	father = 459554
+	mother = 800764
+	
+	1341.8.13 = {
+		birth = yes
+	}
+	1410.9.20 = {
+		death = yes
+	}
+}
+800766 = {
+	name = "Beatriz"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	female = yes
+	father = 459554
+	mother = 800764
+	
+	1345.5.10 = {
+		birth = yes
+	}
+	1410.9.20 = {
+		death = yes
+	}
+}
+800767 = {
+	name = "Violante"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	female = yes
+	father = 459554
+	mother = 800764
+	
+	1350.5.10 = {
+		birth = yes
+	}
+	1410.9.20 = {
+		death = yes
+	}
+}
+800768 = {
+	name = "Isabel"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	female = yes
+	father = 459554
+	mother = 800764
+	
+	1360.5.10 = {
+		birth = yes
+	}
+	1410.9.20 = {
+		death = yes
+	}
+}
+800769 = {
+	name = "Estefânia"
+	dynasty = 3000078
+	culture = portuguese
+	religion = catholic
+	female = yes
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1369.1.1 = {
+		add_spouse = 459554
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+800770 = {
+	name = "Afonso"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	#female = yes
+	father = 459554
+	mother = 800769
+	
+	1369.5.10 = {
+		birth = yes
+	}
+	1410.9.20 = {
+		death = yes
+	}
+}
+800771 = {
+	name = "Gonçalo"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	father = 800765
+	
+	1366.10.23 = {
+		birth = yes
+	}
+	1410.9.20 = {
+		death = yes
+	}
+}
+800772 = {
+	name = "Briolanja"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	female = yes
+	father = 800765
+	
+	1368.9.30 = {
+		birth = yes
+	}
+	1441.9.20 = {
+		death = yes
+	}
+}
+800773 = {
+	name = "Inês"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	female = yes
+	father = 800765
+	
+	1369.11.30 = {
+		birth = yes
+	}
+	1441.9.20 = {
+		death = yes
+	}
+}
+800774 = {
+	name = "Catarina"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	female = yes
+	father = 800765
+	
+	1382.4.3 = {
+		birth = yes
+	}
+	1450.9.20 = {
+		death = yes
+	}
+}
+800775 = {
+	name = "Martim"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	#female = yes
+	father = 800765
+	trait = bastard
+	
+	1390.4.3 = {
+		birth = yes
+	}
+	1450.9.20 = {
+		death = yes
+	}
+}
+800776 = {
+	name = "Pedro"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	#female = yes
+	father = 800765
+	trait = bastard
+	
+	1394.4.3 = {
+		birth = yes
+	}
+	1450.9.20 = {
+		death = yes
+	}
+}
+800777 = {
+	name = "Beatriz"
+	dynasty = 1020117
+	culture = portuguese
+	religion = catholic
+	female = yes
+	father = 800765
+	trait = bastard
+	
+	1396.4.3 = {
+		birth = yes
+	}
+	1450.9.20 = {
+		death = yes
+	}
+}
+###da Maia
+800778 = { #Based on Martim da Maia, Lord of Trofa. He's probably not in the right part of the family tree, but oh well. Who cares at this point?
+	name="Martim" #Martim da Maia
+	dynasty=1020121 #da Maia
+	religion="catholic"
+	culture="portuguese"
+	father=142512
+	
+	1350.5.16 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		add_spouse = 800779
+	}
+	1434.1.1={
+		death = yes
+	}
+}
+###
+800780 = { #Fictional character. Couldn't find any offspring or living relatives, so here he is.
+	name="João" #João de Barbosa
+	dynasty=1020110 #de Barbosa
+	religion="catholic"
+	culture="portuguese"
+	father=142802
+	
+	1330.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+800781 = { #Fictional character
+	name="Pero" #Pero de Barbosa
+	dynasty=1020110 #de Barbosa
+	religion="catholic"
+	culture="portuguese"
+	father=800780
+	
+	1360.1.1={
+		birth=yes
+	}
+	1401.1.1={
+		death=yes
+	}
+}
+###
+800783 = {
+	name="Diogo" #Diogo Lopes
+	dynasty=1020118 #de Sousa Arronches
+	religion="catholic"
+	culture="portuguese"
+	father=142155
+	
+	1360.1.1={
+		birth = yes
+	}
+	1395.1.1 = {
+		add_spouse = 800784
+	}
+	1404.1.1={
+		death = yes
+	}
+}
+800784 = {
+	name="Violante" #Violante Lopes
+	religion="catholic"
+	culture="portuguese"
+	female = yes
+	
+	1375.1.1={
+		birth = yes
+	}
+	1404.1.1={
+		death = yes
+	}
+}

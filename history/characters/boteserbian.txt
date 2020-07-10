@@ -1,0 +1,290 @@
+800449 = { #Despot Uglješa Mrnjavcevic
+	name = "Uglješa"
+	dynasty = 18001
+	culture = serbian
+	religion = orthodox
+	
+	1346.2.3 = {
+		birth = yes
+	}
+	1371.9.26 = {
+		death = yes
+	}
+}
+800454 = { #Preljub
+	name = "Preljub"
+	dynasty = 3000044
+	culture = serbian
+	religion = orthodox
+	
+	1312.1.1 = {
+		birth = yes
+	}
+	1356.1.1 = {
+		death = yes
+	} 
+}
+800455 = {
+	name="Jovan"
+	dynasty=184
+	religion="orthodox"
+	culture="serbian"
+	father=468502
+	
+	1350.1.1={
+		birth=yes
+	}
+	1422.1.1={
+		death=yes
+	}
+}
+800504 = { #Thomas Preljubovic
+	name = "Toma"
+	dynasty = 3000044
+	culture = serbian
+	religion = orthodox
+	father = 800454
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1384.12.23 = {
+		death = yes
+	} 
+}
+800505 = { #Basilissa of Epirus
+	name = "Marija"
+	dynasty = 18001
+	culture = serbian
+	religion = orthodox
+	father = 468502
+	
+	1350.5.17 = {
+		birth = yes
+	}
+	1394.12.28 = {
+		death = yes
+	}
+}
+800529 = { #Vukasin of Serbia
+	name = "Vukašin"
+	dynasty = 3000053
+	culture = serbian
+	religion = orthodox
+	
+	1320.1.1 = {
+		birth = yes
+	}
+	1371.9.26 = {
+		death = yes
+	}
+}
+800530 = { #Marko of Serbia
+	name = "Marko"
+	dynasty = 3000053
+	culture = serbian
+	religion = orthodox
+	father = 800529
+	
+	1355.1.1 = {
+		birth = yes
+	}
+	1395.5.17 = {
+		death = yes
+	}
+}
+800531 = {
+	name = "Balša" #Balsic
+	dynasty = 3000054
+	culture = serbian
+	religion = orthodox
+	
+	1300.1.1 = {
+		birth = yes
+	}
+	1350.1.13 = {
+		death = yes
+	}
+}
+800532 = {
+	name = "Ðurad" #I Balsic
+	dynasty = 3000054
+	culture = serbian
+	religion = orthodox
+	father = 800531
+	
+	1320.1.1 = {
+		birth = yes
+	}
+	1368.10.19 = {
+		religion = catholic
+	}
+	1378.1.13 = {
+		death = yes
+	}
+}
+800533 = {
+	name = "Balša" #II Balsic
+	dynasty = 3000054
+	culture = serbian
+	religion = orthodox
+	father = 800531
+	
+	1323.1.1 = {
+		birth = yes
+	}
+	1368.10.19 = {
+		religion = catholic
+	}
+	1385.9.18 = {
+		death = yes
+	}
+}
+800534 = {
+	name = "Stracimir" #Balsic
+	dynasty = 3000054
+	culture = serbian
+	religion = orthodox
+	father = 800531
+	
+	1318.7.13 = {
+		birth = yes
+	}
+	1368.10.19 = {
+		religion = catholic
+	}
+	1373.1.15 = {
+		death = yes
+	}
+}
+800535 = {
+	name = "Ðurad" #II Balsic
+	dynasty = 3000054
+	culture = serbian
+	religion = catholic
+	father = 800534
+	
+	1359.5.3 = {
+		birth = yes
+	}
+	1403.4.1 = {
+		death = yes
+	}
+}
+800536 = {
+	name = "Balša" #III Balsic
+	dynasty = 3000054
+	culture = serbian
+	religion = catholic
+	father = 800535
+	
+	1387.5.3 = {
+		birth = yes
+	}
+	1421.4.28 = {
+		death = yes
+	}
+}
+###Brankovic family
+800552 = {
+	name = "Vuk"
+	dynasty = 18003
+	culture = serbian
+	religion = orthodox
+	
+	1345.6.18 = {
+		birth = yes
+	}
+	1397.10.6 = {
+		death = yes
+	}
+}
+800553 = {
+	name = "Ðurad"
+	dynasty = 18003
+	culture = serbian
+	religion = orthodox
+	father = 800552
+	
+	1377.9.11 = {
+		birth = yes
+	}
+	1456.12.24 = {
+		death = yes
+	}
+}
+###Hrebeljanovic Family
+800554 = {
+	name = "Lazar"
+	dynasty = 3000056
+	culture = serbian
+	religion = catholic
+	
+	1329.1.1 = {
+		birth = yes
+	}
+	1389.6.15 = {
+		death = yes
+	}
+}
+800555 = {
+	name = "Stefan"
+	dynasty = 3000056
+	culture = serbian
+	religion = catholic
+	father = 800554
+	
+	1377.1.1 = {
+		birth = yes
+	}
+	1427.7.19 = {
+		death = yes
+	}
+}
+###Vojinovic family
+800560 = {
+	name = "Nikola"
+	dynasty = 3000058
+	culture = serbian
+	religion = orthodox
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1389.10.10 = {
+		death = yes
+	}
+}
+###
+800455 = {
+	name="Konstantin"
+	dynasty=184
+	religion="orthodox"
+	culture="serbian"
+	father=468502
+	
+	1352.1.1 = {
+		birth=yes
+	}
+	1395.5.17 = {
+		death = yes
+	}
+}
+801055 = {
+	name="Jelena"
+	dynasty=184
+	religion="orthodox"
+	culture="serbian"
+	female = yes
+	father=800455
+	trait = scholarly_theologian
+	trait = attractive
+	trait = shrewd
+	trait = justice
+	1372.1.1 = {
+		birth=yes
+	}
+	1450.3.23 = {
+		death = yes
+	}
+}

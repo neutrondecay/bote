@@ -1,0 +1,97 @@
+#Skleros
+752.1.1={
+	holder=145806
+	liege = "d_thessalia"
+}
+794.1.1={
+	holder=145148
+}
+820.1.1={
+	holder=145149
+}
+843.1.1=
+{
+	liege="d_athens"
+}
+845.1.1={
+	holder=145150
+}
+855.1.1={
+	holder=145151
+}
+936.1.1 = {
+	holder = 145159
+}
+#Branas
+1060.1.1 = {
+	liege = d_athens
+	holder=34580
+}
+1115.1.1=
+{
+holder=34581
+}
+1155.1.1=
+{
+holder=215060
+}
+1185.9.12=
+{
+holder=215061
+}
+#lordship of Salona
+1204.5.16={
+	holder=215013 # Michael Choniates
+}
+1204.8.1=
+{
+holder=31226
+}
+1210.1.1=
+{
+holder=31227
+}
+1258.1.1=
+{
+holder=31228
+}
+1277.1.1=
+{
+holder=31229
+}
+1311.3.15=
+{
+holder=31225 #Roger
+}
+1318.1.1=
+{
+holder=461510 #Gugliemo
+}
+1338.8.22 = {
+	holder = 800462
+}
+1351.1.1 = {
+	holder = 800463
+}
+1379.1.1 = {
+	liege = d_navarrese_company
+	holder = 800465
+}
+1381.1.1 = {
+	holder = 800306
+	liege = k_trinacria
+}
+1385.1.1 = {
+	holder = 800488
+	liege = 0
+}
+1394.9.17 = {
+	holder = 800489
+}
+1395.1.1 = {
+	holder = 800491
+	liege = k_venice
+}
+1399.1.1 = {
+	holder = 800492
+}

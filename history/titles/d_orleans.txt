@@ -1,0 +1,38 @@
+# 1337.1.1=
+# {
+	# liege="k_france"
+# }
+# 1337.1.1=
+# {
+	# holder=455500
+# }
+##House of Bourbon
+1626.8.6={
+	holder=4553682
+}
+1660.2.2={
+	holder=4556618 
+}
+##House of Orléans
+1661.5.10={
+	liege="k_france"
+	holder=4556818 # Philippe I, Duke of Orléans
+}
+1701.6.9={
+	holder=4556823 # Philippe II, Duke of Orléans
+}
+1723.12.2={
+	holder=4556830 # Louis, Duke of Orléans
+}
+1752.2.4={
+	holder=4556834 # Louis Philippe I, Duke of Orléans
+}
+1785.11.18={
+	holder=4556836 # Louis Philippe II, Duke of Orléans
+}
+1793.11.6={
+	holder=4556838 # Louis Philippe I, King of the French
+}
+1848.2.24={
+	holder=0
+}

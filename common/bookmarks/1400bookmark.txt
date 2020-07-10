@@ -1,0 +1,9 @@
+bm_beginningoftheend = {
+	name = "BM_BOOTE_ERA"
+	desc = "BM_BOOTE_ERA_INFO"
+	date = 1400.1.1
+	
+	selectable_character = {
+		id = 800075
+	}
+}

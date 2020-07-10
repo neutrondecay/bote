@@ -1,0 +1,233 @@
+801052 = {
+	name = "al-Malik Az-Zahir"
+	dynasty = 3000113
+	culture = bedouin_arabic
+	religion = sunni
+	
+	1336.1.1 = {
+		birth = yes
+	}
+	1399.6.20 = {
+		death = yes
+	}
+}
+801053 = {
+	name = "an-Nasir Faraj"
+	dynasty = 3000113
+	culture = bedouin_arabic
+	religion = sunni
+	father = 801052
+	
+	1386.1.1 = {
+		birth = yes
+	}
+	1412.5.23 = {
+		death = yes
+	}
+}
+801053 = {
+	name = "Izz ad-Din Abd al-Aziz"
+	dynasty = 3000113
+	culture = bedouin_arabic
+	religion = sunni
+	father = 801052
+	
+	1386.1.1 = {
+		birth = yes
+	}
+	1412.5.23 = {
+		death = yes
+	}
+}
+801061 = {
+	name = "Sayf ad-Din"
+	dynasty = 3000114
+	culture = bedouin_arabic
+	religion = sunni
+	
+	1295.1.1 = {
+		birth = yes
+	}
+	1350.8.3 = {
+		death = yes
+	}
+}
+801062 = {
+	name = "Tash-Timur"
+	dynasty = 3000115
+	culture = bedouin_arabic
+	religion = sunni
+	
+	1295.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+801063 = {
+	name = "Sayf ad-Din"
+	dynasty = 3000116
+	culture = bedouin_arabic
+	religion = sunni
+	
+	1354.1.1 = {
+		birth = yes
+	}
+	1402.8.3 = {
+		death = yes
+	}
+}
+801064 = {
+	name = "Sudun"
+	dynasty = 12278
+	culture = bedouin_arabic
+	religion = sunni
+	
+	1359.1.1 = {
+		birth = yes
+	}
+	1402.8.3 = {
+		death = yes
+	}
+}
+801072 = {
+	name="Sayf al-Din"
+	dynasty=24000
+	religion="sunni"
+	culture=bedouin_arabic
+	
+	1367.1.1={
+		birth = yes
+	}
+	1430.1.1={
+		death = yes
+	}
+}
+801095 = {
+	name="Al-Mus'tasim"
+	dynasty=101727
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=34036
+	trait="sayyid"
+	
+	1318.1.1={
+		birth=yes
+	}
+	1389.1.1={
+		death=yes
+	}
+}
+801096 = {
+	name="Al-Mutawakkil"
+	dynasty=101727
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=34039
+	trait="sayyid"
+	1350.1.1={
+		birth = yes
+	}
+	1406.1.9={
+		death=yes
+	}
+}
+801097 = {
+	name="Al-Wathiq"
+	dynasty=101727
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=34036
+	trait="sayyid"
+	
+	1320.1.1={
+		birth=yes
+	}
+	1386.11.13={
+		death=yes
+	}
+}
+801098 = {
+	name="Kilab"
+	dynasty=101671
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=155202
+	1342.1.1={
+		birth=yes
+	}
+	1394.1.1={
+		death=yes
+	}
+}
+801099 = {
+	name="Amer"
+	dynasty=101671
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=801098
+	
+	1381.1.1={
+		birth=yes
+	}
+	1453.1.1={
+		death=yes
+	}
+}
+801100 = {
+	name="Malik"
+	dynasty=101671
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=155233
+	
+	1350.1.1={
+		birth = yes
+	}
+	1407.1.1={
+		death = yes
+	}
+}
+801101 = {
+	name="Isma'il"
+	dynasty=101671
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=155225
+	
+	1315.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+801102 = {
+	name="Sufyan"
+	dynasty=101671
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=155225
+	
+	1368.1.1={
+		birth=yes
+	}
+	1413.1.1={
+		death=yes
+	}
+}
+801103 = {
+	name="Yusuf"
+	dynasty=101671
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=155234
+	
+	1343.1.1={
+		birth=yes
+	}
+	1405.1.1={
+		death=yes
+	}
+}

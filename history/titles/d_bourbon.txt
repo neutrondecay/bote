@@ -1,0 +1,14 @@
+1327.12.27 = {
+	liege="k_france"
+	#law = cognatic_succession
+	#law = succ_primogeniture
+}
+1327.12.27 = {
+	holder = 455650
+}
+1341.1.1 = {
+	holder=455651 # Pierre I de Bourbon
+}
+1356.9.19 = {
+	holder=802105 # Louis II de Bourbon 
+}

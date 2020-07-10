@@ -1,0 +1,7 @@
+landsknecht_band_composition = {
+	levy_size = 2
+	pikemen = 2000
+	heavy_infantry = 2000
+	light_infantry = 2000
+	heavy_cavalry = 1200
+}

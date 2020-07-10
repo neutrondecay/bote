@@ -1,0 +1,21 @@
+1368.1.1 = {
+	holder = 235163
+}
+1376.1.1 = {
+	holder = 800398
+}
+1383.3.3 = {
+	holder = 800401
+}
+1388.1.1 = {
+	holder = 0
+}
+1392.1.1 = {
+	holder = 800402
+	effect = {
+		c_800399 = {
+			give_minor_title = title_appointed_regent
+			give_minor_title = title_regent
+		}
+	}
+}

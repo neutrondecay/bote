@@ -1,0 +1,313 @@
+802900 = { #Hongwu Emperor
+	name = "Yuanzhang"
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+	
+	1328.10.24 = {
+		birth = yes
+	}
+	1348.1.1 = {add_spouse=802905}
+	1398.6.24 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+802901 = { #
+	name = "Biao"
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+	
+	father=802900	
+	mother=802905
+	
+	1355.10.10 = {
+		birth = yes
+	}
+	1376.1.1 = {add_spouse=802906} #Lady Lu
+	1392.5.17 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802902 = { #
+	name = "Yunwen"
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+
+	father=802901 # Zhu Biao
+	mother=802906 # Lu Yiwen
+	
+	1377.12.5 = {
+		birth = yes
+	}	
+	1395.1.1 = {add_spouse=802904}
+	1402.7.13 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+
+802903 = { #
+	name = "Wenkui"
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+
+	father=802902 # Jianwen Emperor
+	mother=802904
+	
+	1396.11.30 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802904 = { #
+	name = "Ma"
+	female=yes
+
+	culture = han
+	religion = taoist
+	
+	1378.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+802905 = { #Empress
+	name = "Xiuying"
+	female=yes
+
+	culture = han
+	religion = taoist
+	
+	1332.8.29 = {
+		birth = yes
+	}
+	1382.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802906 = { #Lady
+	name = "Yiwen"
+	female=yes
+
+	culture = han
+	religion = taoist
+	
+	1359.1.1 = {
+		birth = yes
+	}
+	1412.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802907 = { #
+	name = "Yunjian"
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+
+	father=802901 # Zhu Biao
+	mother=802906 # Lu Yiwen
+	
+	1385.1.1 = {
+		birth = yes
+	}	
+	1402.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802908 = { #
+	name = "Yunxi"
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+
+	father=802901 # Zhu Biao
+	mother=802906 # Lu Yiwen
+	
+	1391.1.1 = {
+		birth = yes
+	}	
+	1407.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802909 = { #
+	name = "Xiongying"
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+
+	father=802901 # Zhu Biao
+
+	1374.1.1 = {
+		birth = yes
+	}	
+	1382.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802911 = { #
+	name = "Yuntong"
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+
+	father=802901 # Zhu Biao
+
+	1378.1.1 = {
+		birth = yes
+	}	
+	1417.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802912 = { #
+	name = "Shuang"
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+	
+	father=802900	
+	mother=802905
+	
+	1356.12.3 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802913 = { #
+	name = "Gang"
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+	
+	father=802900	
+	mother=802905
+	
+	1358.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802914 = { # Yongle Emperor
+	name = "Di" 
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+	
+	father=802900	
+	mother=802905
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802915 = { # 
+	name = "Su" 
+	dynasty = 1053111
+
+	culture = han
+	religion = taoist
+	
+	father=802900	
+	mother=802905
+	
+	1361.1.1 = {
+		birth = yes
+	}
+	1425.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+802916 = { # 
+	name = "Ning" 
+	dynasty = 1053111
+	female=yes
+
+	culture = han
+	religion = taoist
+	
+	father=802900	
+	mother=802905
+	
+	1364.1.1 = {
+		birth = yes
+	}
+	1434.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}
+
+
+802917 = { # 
+	name = "Anqing" 
+	dynasty = 1053111
+	female=yes
+
+	culture = han
+	religion = taoist
+	
+	father=802900	
+	mother=802905
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+	
+}

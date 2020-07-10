@@ -1,0 +1,46 @@
+1283.1.1 = {
+	holder = 472843 # Daniel Aleksandrovich
+}
+1303.3.4 = {
+	holder = 472848 # Yuri Danilovich
+}
+1325.11.21 = {
+	holder = 472840 # Ivan I
+}
+1340.1.2 = {
+	holder = 472851 # Simeon the Proud
+}
+1353.1.2 = {
+	holder = 472855 # Ivan II
+}
+1359.11.13 = {
+	holder = 820601 # Dmitry Donskoy
+}
+1389.5.19 = {
+	holder = 800975 # Vasily I
+	effect = {
+		de_jure_liege = e_russia
+		k_vladimir = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_muscovy
+			}
+			activate_title = {
+				title = k_vladimir
+				status = no
+			}
+		}
+		c_800975 = {
+			capital = c_moskva
+		}
+		d_moskva = {
+			activate_title = {
+				title = d_moskva
+				status = no
+			}
+		}
+	}
+	set_tribute_suzerain = {
+		who = e_golden_horde
+		type = golden_horde
+	}
+}

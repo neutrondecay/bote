@@ -1,0 +1,690 @@
+3000000 = {
+	name = "of Lancaster"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+        template = 0 # One layer
+        layer = {
+            texture = 0 # 
+            texture_internal = 0 # 
+            emblem = 25 # Red Rose
+            color = 3 # Red
+            color = 3 # Red
+        }
+ 	}
+}
+3000001 = {
+	name = "of York"
+	coat_of_arms = {
+        template = 0 # Per Fess, requires two layers
+        layer = {
+            texture = 0 # First pattern file, contains 27 tiles, each of two colours
+            texture_internal = 0 # The 22nd tile in the texture
+            emblem = 26 # White Rose
+            color = 1 # Argent
+            color = 1 # Argent
+        }
+ 	}
+}
+3000002 = {
+	name = "le Despenser"
+}
+3000003 = {
+	name = "Skirlaw"
+}
+3000004 = {
+	name = "Swynford"
+	culture = english
+	religion = catholic
+}
+3000005 = {
+	name = "of Ceredigion"
+}
+3000006 = {
+	name = "Puleston"
+}
+3000007 = {
+	name = "Rocheford"
+}
+3000008 = {
+	name = "Welles"
+}
+3000009 = {
+	name = "le Veel"
+}
+3000010 = {
+	name = "de Wyntoun"
+}
+3000011 = {
+	name = "de Cardeny"
+}
+3000012 = {
+	name = "Leitch"
+}
+3000013 = {
+	name = "Na Druimeanaich"
+}
+3000014 = {
+	name = "Lamont"
+}
+3000015 = {
+	name = "Leslie"
+}
+3000021 = {
+	name="de Sanseverino"
+	culture="italian"
+	religion="catholic"
+}
+3000017 = {
+	name="de Luxembourg"
+	culture="frankish"
+}
+3000018 = {
+	name = "Aubert"
+	culture = "frankish"
+}
+3000019 = {
+	name = "de Grimoard"
+	culture = frankish
+}
+3000020 = {
+	name = "Prignano"
+	culture = italian
+}
+3000022 = {
+	name = "di Sangineto"
+	culture = italian
+}
+3000023 = {
+	name = "Trinci"
+}
+3000024 = {
+	name = "di Vico"
+}
+3000025 = {
+	name = "de Varano"
+}
+3000026 = {
+	name = "di Malta"
+}
+3000027 = {
+	name = "Albizzi"
+}
+3000028 = {
+	name = "Baldesi"
+}
+3000029 = {
+	name = "Albaresani"
+}
+3000030 = {
+	name = "Guarco"
+}
+3000031 = {
+	name = "Montaldo"
+}
+3000032 = {
+	name = "di Garibaldo"
+}
+3000033 = {
+	name = "Spini"
+}
+3000034 = {
+	name = "Bueri"
+	culture = italian
+	religion = catholic
+}
+3000035 = {
+	name = "de' Medici"
+	culture = italian
+	religion = catholic
+	# coat_of_arms = {
+		# data = {
+			# template = 0
+			# layer = {
+				# texture = 2
+				# texture_internal = 1
+				# emblem = 1
+				# color = 0
+				# color = 7
+				# color = 3
+			# }
+		# }
+		# used_for_random = no
+	# }
+}
+3000036 = {
+	name = "Cavalcanti"
+	culture = italian
+	religion = catholic
+}
+3000037 = {
+	name = "Celsi"
+	culture = italian
+	religion = catholic
+}
+3000038 = {
+	name = "Venier"
+	culture = italian
+	religion = catholic
+}
+3000039 = {
+	name = "Pazzi"
+	culture = italian
+	religion = catholic
+}
+3000040 = {
+	name = "de' Bardi"
+	culture = italian
+	religion = catholic
+}
+3000041 = {
+	name = "Pucci"
+	culture = italian
+	religion = catholic
+}
+3000042 = {
+	name = "del Giocondo"
+	culture = italian
+	religion = catholic
+}
+3000043 = {
+	name = "di Randeck"
+	culture = italian
+	religion = catholic
+}
+3000044 = {
+	name = "Mariovo"
+	culture = serbian
+	religion = orthodox
+}
+3000045 = {
+	name = "de Urtúvia"
+	culture = catalan
+	religion = catholic
+}
+3000046 = {
+	name = "de Noë"
+	culture = italian
+	religion = catholic
+}
+3000047 = {
+	name = "Acciaioli"
+	culture = italian
+	religion = catholic
+}
+3000048 = {
+	name = "de Comminges"
+	culture = frankish
+	religion = catholic
+}
+3000049 = {
+	name = "de Vilanova"
+	culture = catalan
+	religion = catholic
+}
+3000050 = {
+	name = "de Boil"
+	culture = catalan
+	religion = catholic
+}
+3000051 = {
+	name = "de' Buondelmonti"
+	culture = italian
+	religion = catholic
+}
+3000052 = {
+	name = "Losha"
+	culture = arberian
+	religion = orthodox
+}
+3000053 = {
+	name = "Mrnjavcevic"
+	culture = serbian
+	religion = orthodox
+}
+3000054 = {
+	name = "Balšic"
+	culture = serbian
+	religion = orthodox
+}
+3000055 = {
+	name = "Gropa"
+	culture = arberian
+	religion = catholic
+}
+3000056 = {
+	name = "Hrebeljanovic"
+	culture = serbian
+	religion = orthodox
+}
+3000057 = {
+	name = "Gruba"
+	culture = bosnian
+	religion = catholic
+}
+3000058 = {
+	name = "Vojinovic"
+	culture = serbian
+	religion = orthodox
+}
+3000059 = {
+	name = "Bobali"
+	culture = italian
+	religion = catholic
+}
+3000060 = {
+	name = "Ivahnic"
+	culture = bosnian
+	religion = catholic
+}
+3000061 = {
+	name = "Szécsi"
+	culture = hungarian
+	religion = catholic
+}
+3000062 = {
+	name = "Bubek"
+	culture = hungarian
+	religion = catholic
+}
+3000063 = {
+	name = "Lucenca"
+	culture = hungarian
+	religion = catholic
+}
+3000064 = {
+	name = "János"
+	culture = hungarian
+	religion = catholic
+}
+3000065 = {
+	name = "Hahót"
+	culture = hungarian
+	religion = catholic
+}
+3000066 = {
+	name = "von Walsee"
+	culture = german
+	religion = catholic
+}
+3000067 = {
+	name = "von Ortenburg"
+	culture = german
+	religion = catholic
+}
+3000068 = {
+	name = "von Schaunberg"
+	culture = german
+	religion = catholic
+}
+3000069 = {
+	name = "de Arellano"
+	culture = castillan
+	religion = catholic
+}
+3000070 = {
+	name = "du Guesclin"
+	culture = breton
+	religion = catholic
+}
+3000071 = {
+	name = "de Frias"
+	culture = castillan
+	religion = catholic
+}
+3000072 = {
+	name="de Padilla"
+	culture="castillan"
+	religion="catholic"
+}
+3000073 = {
+	name="de Pereira"
+	culture="portuguese"
+	religion="catholic"
+}
+3000074 = {
+	name = "de Ayala"
+	culture = castillan
+	religion = catholic
+}
+3000075 = {
+	name = "de Baeza"
+	culture = castillan
+	religion = catholic
+}
+3000076 = {
+	name = "de Meneses"
+	culture = portuguese
+	religion = catholic
+}
+3000077 = {
+	name = "de Alvim"
+	culture = portuguese
+	religion = catholic
+}
+3000078 = {
+	name = "Caballero-Fernandez"
+	culture = portuguese
+	religion = catholic
+}
+3000079 = {
+	name = "de Teive"
+	culture = portuguese
+	religion = catholic
+}
+3000080 = {
+	name = "Gacs"
+	culture = hungarian
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer =  {
+			texture = 0
+			texture_internal = 5
+			emblem = 22
+			color = 3
+			color = 1
+			color = 0
+		}
+	}
+}
+3000081 = {
+	name = "Urup"
+	culture = swedish
+	religion = catholic
+}
+3000082 = {
+	name = "Lang"
+	culture = swedish
+	religion = catholic
+}
+3000083 = {
+	name = "Sten"
+	culture = swedish
+	religion = catholic
+}
+3000084 = {
+	name = "Vinäsätten"
+	culture = swedish
+	religion = catholic
+}
+3000085 = {
+	name = "Naustdal"
+	culture =  norwegian
+	religion = catholic
+}
+3000086 = {
+	name = "Oddsgård"
+	culture = norwegian
+	religion = catholic
+}
+3000087 = {
+	name = "Algotssönerna"
+	culture = swedish
+	religion = catholic
+}
+3000088 = {
+	name = "Dume"
+	culture = german
+	religion = catholic
+}
+3000089 = {
+	name = "Sparre av Vik"
+	culture = swedish
+	religion = catholic
+}
+3000090 = {
+	name = "Bjørkøy"
+	culture = norwegian
+	religion = catholic
+}
+3000091 = {
+	name = "Bjälboätten"
+	culture = swedish
+	religion = catholic
+}
+3000092 = {
+	name = "Ivaring"
+	culture = swedish
+	religion = catholic
+}
+3000093 = {
+	name = "Incognita"
+	culture = norwegian
+	religion = catholic
+}
+3000094 = {
+	name = "Hegled"
+	culture = norwegian
+	religion = catholic
+}
+3000095 = {
+	name = "Sinclair"
+	culture = scottish
+	religion = catholic
+}
+3000096 = {
+	name = "Haliburton"
+	culture = scottish
+	religion = catholic
+}
+3000097 = {
+	name = "Feodorovich"
+	culture = russian
+	religion = orthodox
+}
+3000098 = {
+	name = "of Polotsk"
+	culture = russian
+	religion = orthodox
+}
+3000099 = {
+	name = "of Pskov"
+	culture = russian
+	religion = orthodox
+}
+3000100 = {
+	name = "de Gozon"
+	culture = frankish
+	religion = catholic
+}
+3000101 = {
+	name = "de Corneillan"
+	culture = frankish
+	religion = catholic
+}
+3000102 = {
+	name = "des Pins"
+	culture = frankish
+	religion = catholic
+}
+3000103 = {
+	name = "Berenguer"
+	culture = catalan
+	religion = catholic
+}
+3000104 = {
+	name = "de Juilly"
+	culture = frankish
+	religion = catholic
+}
+3000105 = {
+	name = "de Heredia"
+	culture = catalan
+	religion = catholic
+}
+3000106 = {
+	name = "de Naillac"
+	culture = frankish
+	religion = catholic
+}
+3000107 = {
+	name = "Giustiniani"
+	culture = italian
+	religion = catholic
+}
+3000108 = {
+	name = "Grillo"
+	culture = italian
+	religion = catholic
+}
+3000109 = {
+	name = "de Ventimiglia"
+	culture = italian
+	religion = catholic
+}
+3000110 = {
+	name = "Karmanid"
+	culture = turkish
+	religion = sunni
+}
+3000111 = {
+	name = "Ramadanid"
+	culture = turkish
+	religion = sunni
+}
+3000112 = {
+	name = "al-Din"
+	culture = turkish
+	religion = sunni
+}
+3000113 = {
+	name = "Burji"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000114 = {
+	name = "Manjak"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000115 = {
+	name = "Chingizid"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000116 = {
+	name = "Tanibak"
+	culture = bedouin_arabic
+	religion = sunni
+}
+3000016 = {
+	name = "de Valois-Bourgogne"
+	religion = catholic
+	coat_of_arms=
+	{
+		data=
+		{
+0 7 0 32 0 0 0 			}
+		religion="catholic"
+	}
+	used_for_random=no
+}
+3200000 = {
+	name = "de Valois-Berry"
+	religion = catholic
+	coat_of_arms=
+	{
+		data=
+		{
+0 7 0 32 0 0 0 			}
+		religion="catholic"
+	}
+	used_for_random=no
+}
+3200001 = {
+	name = "de Valois-Anjou"
+	religion = catholic
+	coat_of_arms=
+	{
+		data=
+		{
+0 7 0 32 0 0 0 			}
+		religion="catholic"
+	}
+	used_for_random=no
+}
+3200002 = {
+	name = "de Montfort"
+	religion = catholic
+	coat_of_arms=
+	{
+		data=
+		{
+0 5 0 4 0 0 0 			}
+		religion="catholic"
+	}
+	used_for_random=no
+}
+
+3200003 = {
+	name = "de Grailly"
+	religion = catholic
+	culture = frankish
+}
+
+3200004 = {
+	name = "du Castel"
+	religion = catholic
+	culture = frankish
+}
+
+3200005 = {
+	name = "da Pizzano"
+	religion = catholic
+	culture = italian
+}
+
+3200006 = {
+	name = "Jagiellon"
+	religion = catholic
+	culture = lithuanian
+	coat_of_arms = {
+        template = 0 # One layer
+        layer = {
+            texture = 4 # 
+            texture_internal = 13 # 
+	    emblem = 0 # nothing
+            color = 0 # yellow
+            color = 2 # blue
+	    color = 2 # blue
+        }
+ 	}
+}
+
+3200007 = {
+	name = "de Roet"
+	culture = english
+	religion = catholic
+}
+
+3200008 = {
+	name = "Beaufort"
+	culture = english
+	religion = catholic
+}
+
+330001 = {
+	name = "Musat"
+	religion = orthodox
+}
+350010 = {
+	name = "Vesna"
+	religion = orthodox
+	culture = lithuanian
+}
+350011 = {
+	name = "Olshanski"
+	religion = orthodox
+	culture = lithuanian
+}
+350012 = {
+	name = "Velyaminov"
+	religion = orthodox
+	culture = russian
+}
+350013 = {
+	name = "Solkhomirov"
+	religion = orthodox
+	culture = russian
+}

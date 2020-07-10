@@ -1,0 +1,1374 @@
+800977 = { #
+	name = "Marija"
+	female=yes
+    dynasty=11
+	
+	culture = lithuanian
+	religion = catholic
+
+	father=473508 # Kestutis of Lithuania
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1405.10.30 = {
+		death = yes
+	}
+}
+###
+820010 = { #
+	name = "Jogaila"
+	dynasty = 11
+	historical = yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1357.1.1 = {
+		birth = yes
+	}
+	1386.1.1 = {
+		religion=catholic
+		name="Vladislovas"
+		dynasty=3200006 #Jagiellon
+		add_spouse=820100 # Jadwiga
+	}
+	1434.6.1 = {
+		death = yes
+	}
+}
+
+820011 = { #
+	name = "Vytautus"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473508 #Kestutis
+
+	1350.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		religion=catholic
+	}
+	1370.1.1 = {add_spouse=820012}
+	1430.10.27 = {
+		death = yes
+	}
+}
+
+
+820012 = { #
+	name = "Ona" #Grand Duchess
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	1351.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		religion=catholic
+	}
+	1418.7.31 = {
+		death = yes
+	}
+}
+
+820013 = { #
+	name = "Sofija"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=820011
+	mother=820012
+
+	1371.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		religion=catholic
+	}
+	1453.1.1 = {
+		death = yes
+	}
+}
+
+820014 = { #
+	name = "Skirgaila"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1353.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {religion = catholic
+		   name="Ivanas"}
+	1397.1.11 = {
+		death = yes
+	}
+}
+820015 = { #
+	name = "Aleksandra"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1368.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {religion = catholic}
+	1434.1.1 = {
+		death = yes
+	}
+}
+
+820016 = { #
+	name = "Danute"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473508 #Kestutis
+
+	1358.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		religion=catholic
+		name="Ona"
+	}
+	1424.10.27 = {
+		death = yes
+	}
+}
+
+820017 = { #
+	name = "Kaributas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1353.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {religion = catholic
+	           name="Dmitrijus"}
+	1390.1.1 = {add_spouse=820600}
+	1434.1.1 = {
+		death = yes
+	}
+}
+
+820018 = { #
+	name = "Lengvenis"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1360.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {religion = orthodox
+	           name="Simonas"}
+	1392.1.1 = {add_spouse=820602}
+	1431.1.1 = {
+		death = yes
+	}
+}
+
+820019 = { #
+	name = "Karigaila"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1363.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {religion = catholic
+	           name="Kazimieras"}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+820020 = { #
+	name = "Vygantas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1364.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {religion = catholic
+	           name="Aleksandras"}
+	1392.1.1 = {
+		death = yes
+	}
+}
+
+820022 = { #
+	name = "Kena"
+	dynasty = 11	
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1350.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {religion = orthodox
+	           name="Joana"}
+	1368.1.1 = {
+		death = yes
+	}
+}
+
+820022 = { #
+	name = "Elena"
+	dynasty = 11	
+	female=yes
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1356.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+
+820023 = { #
+	name = "Marija"
+	dynasty = 11	
+	female=yes
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1352.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+
+820024 = { #
+	name = "Vilgeide"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1366.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {religion = catholic
+	           name="Katerina"}
+	1422.1.1 = {
+		death = yes
+	}
+}
+
+820025 = { #
+	name = "Jadvyga"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = catholic
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1367.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+
+820026 = { #
+	name = "Zygimantas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = catholic
+
+	father=820017 #Kaributas
+	mother=820600 #Anastasia of Ryazan
+
+	1395.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+
+820027 = { #
+	name = "Teodoras"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = catholic
+
+	father=820017 #Kaributas
+	mother=820600 #Anastasia of Ryazan
+
+	1394.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+
+820028 = { #
+	name = "Elena"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = catholic
+
+	father=820017 #Kaributas
+	mother=820600 #Anastasia of Ryazan
+
+	1393.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+
+820029 = { #
+	name = "Ivanas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = catholic
+
+	father=820017 #Kaributas
+	mother=820600 #Anastasia of Ryazan
+
+	1397.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+
+820030 = { #
+	name = "Nastasija"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = catholic
+
+	father=820017 #Kaributas
+	mother=820600 #Anastasia of Ryazan
+
+	1396.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+
+820031 = { #
+	name = "Jurgis"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=820018 
+	mother=820602 
+
+	1395.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+
+820032 = { #
+	name = "Jaroslavas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=820018 
+	mother=820602 
+
+	1396.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}820012 = { #
+	name = "Ona" #Grand Duchess
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	1351.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		religion=catholic
+	}
+	1418.7.31 = {
+		death = yes
+	}
+}
+###
+820010 = { #
+	name = "Jogaila"
+	dynasty = 11
+	historical = yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1357.1.1 = {
+		birth = yes
+	}
+	1386.1.1 = {
+		religion=catholic
+		name="Vladislovas"
+		dynasty=3200006 #Jagiellon
+		add_spouse=820100 # Jadwiga
+	}
+	1434.6.1 = {
+		death = yes
+	}
+}
+
+820011 = { #
+	name = "Vytautus"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473508 #Kestutis
+
+	1350.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		religion=catholic
+	}
+	1370.1.1 = {add_spouse=820012}
+	1430.10.27 = {
+		death = yes
+	}
+}
+
+
+820012 = { #
+	name = "Ona" #Grand Duchess
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	1351.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		religion=catholic
+	}
+	1418.7.31 = {
+		death = yes
+	}
+}
+
+820013 = { #
+	name = "Sofija"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=820011
+	mother=820012
+
+	1371.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		religion=catholic
+	}
+	1453.1.1 = {
+		death = yes
+	}
+}
+
+820014 = { #
+	name = "Skirgaila"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1353.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {religion = catholic
+		   name="Ivanas"}
+	1397.1.11 = {
+		death = yes
+	}
+}
+820015 = { #
+	name = "Aleksandra"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1368.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {religion = catholic}
+	1434.1.1 = {
+		death = yes
+	}
+}
+
+820016 = { #
+	name = "Danute"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473508 #Kestutis
+
+	1358.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		religion=catholic
+		name="Ona"
+	}
+	1424.10.27 = {
+		death = yes
+	}
+}
+
+820017 = { #
+	name = "Kaributas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1353.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {religion = catholic
+	           name="Dmitrijus"}
+	1390.1.1 = {add_spouse=820600}
+	1434.1.1 = {
+		death = yes
+	}
+}
+
+820018 = { #
+	name = "Lengvenis"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1360.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {religion = orthodox
+	           name="Simonas"}
+	1392.1.1 = {add_spouse=820602}
+	1431.1.1 = {
+		death = yes
+	}
+}
+
+820019 = { #
+	name = "Karigaila"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1363.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {religion = catholic
+	           name="Kazimieras"}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+820020 = { #
+	name = "Vygantas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1364.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {religion = catholic
+	           name="Aleksandras"}
+	1392.1.1 = {
+		death = yes
+	}
+}
+
+820022 = { #
+	name = "Kena"
+	dynasty = 11	
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1350.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {religion = orthodox
+	           name="Joana"}
+	1368.1.1 = {
+		death = yes
+	}
+}
+
+820022 = { #
+	name = "Elena"
+	dynasty = 11	
+	female=yes
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1356.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+
+820023 = { #
+	name = "Marija"
+	dynasty = 11	
+	female=yes
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1352.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+
+820024 = { #
+	name = "Vilgeide"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1366.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {religion = catholic
+	           name="Katerina"}
+	1422.1.1 = {
+		death = yes
+	}
+}
+
+820025 = { #
+	name = "Jadvyga"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = catholic
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1367.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+
+820026 = { #
+	name = "Zygimantas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = catholic
+
+	father=820017 #Kaributas
+	mother=820600 #Anastasia of Ryazan
+
+	1395.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+
+820027 = { #
+	name = "Teodoras"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = catholic
+
+	father=820017 #Kaributas
+	mother=820600 #Anastasia of Ryazan
+
+	1394.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+
+820028 = { #
+	name = "Elena"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = catholic
+
+	father=820017 #Kaributas
+	mother=820600 #Anastasia of Ryazan
+
+	1393.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+
+820029 = { #
+	name = "Ivanas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = catholic
+
+	father=820017 #Kaributas
+	mother=820600 #Anastasia of Ryazan
+
+	1397.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+
+820030 = { #
+	name = "Nastasija"
+	dynasty = 11
+	female=yes
+
+	culture = lithuanian
+	religion = catholic
+
+	father=820017 #Kaributas
+	mother=820600 #Anastasia of Ryazan
+
+	1396.1.1 = {
+		birth = yes
+	}
+	1424.1.1 = {
+		death = yes
+	}
+}
+
+820031 = { #
+	name = "Jurgis"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=820018 
+	mother=820602 
+
+	1395.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+
+820032 = { #
+	name = "Jaroslavas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=820018 
+	mother=820602 
+
+	1396.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+855000 = {
+	name = "Svitrigaila"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {
+	    religion = catholic
+		name="Boleslaw"
+	}
+	1452.2.10 = {
+		death = yes
+	}
+}
+855001 = {
+	name = "Feodor"
+	dynasty = 350010
+
+	culture = lithuanian
+	religion = orthodox
+	trait=falconer
+
+	1340.1.1 = {
+		birth = yes
+	}
+	1393.1.1 = {
+		death = {
+		    death_reason = death_execution
+			killer = 855000 # Svitrigaila
+		}
+	}
+}
+855002 = {
+	name = "Jurgis"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=473504 # Naurimantas of Pinsk
+	mother=473511 # Naurimantas' mongol wife
+
+	1340.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+855003 = {
+	name = "Mikalojus"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=473504 # Naurimantas of Pinsk
+	mother=473511 # Naurimantas' mongol wife
+
+	1330.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {
+		death = yes
+	}
+}
+855004 = {
+	name = "Vasily"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=473504 # Naurimantas of Pinsk
+	mother=473511 # Naurimantas' mongol wife
+
+	1335.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		death = yes
+	}
+}
+855005 = {
+	name = "Teodoras"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=473510 # Dmitriy or Liubartas of Volhynia
+	mother=850068 # Agafya Konstantinovna of Rostov
+
+	1351.1.1 = {
+		birth = yes
+	}
+	1431.6.1 = {
+		death = yes
+	}
+}
+855006 = {
+	name = "Jonas" # Olshanski Prince of Kiev
+	dynasty = 350011
+
+	culture = lithuanian
+	religion = orthodox
+
+	1347.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+855007 = {
+	name = "Aleksandras"
+	dynasty = 350011
+
+	culture = lithuanian
+	religion = orthodox
+	father=855006 # Ivan Olshanski of Kiev
+	mother=850060 # Agrippina Svyatoslavovna of Smolensk
+
+	1364.1.1 = {
+		birth = yes
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+855008 = {
+	name = "Boris"
+	dynasty = 350011
+
+	culture = lithuanian
+	religion = orthodox
+	father=855006 # Ivan Olshanski of Kiev
+	mother=850060 # Agrippina Svyatoslavovna of Smolensk
+
+	1368.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+855009 = {
+	name = "Simonas"
+	dynasty = 350011
+
+	culture = lithuanian
+	religion = orthodox
+	father=855006 # Ivan Olshanski of Kiev
+	mother=850060 # Agrippina Svyatoslavovna of Smolensk
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+855010 = {
+	name = "Mykolas"
+	dynasty = 350011
+
+	culture = lithuanian
+	religion = orthodox
+	father=855006 # Ivan Olshanski of Kiev
+	mother=850060 # Agrippina Svyatoslavovna of Smolensk
+
+	1372.1.1 = {
+		birth = yes
+	}
+	1433.1.1 = {
+		death = yes
+	}
+}
+855011 = {
+	name = "Andrius"
+	dynasty = 350011
+
+	culture = lithuanian
+	religion = orthodox
+	father=855006 # Ivan Olshanski of Kiev
+	mother=850060 # Agrippina Svyatoslavovna of Smolensk
+
+	1374.1.1 = {
+		birth = yes
+	}
+    1420.1.1 = {
+		death = yes
+	}
+}
+855012 = {
+	name = "Ulyana"
+	female=yes
+	dynasty = 350011
+
+	culture = lithuanian
+	religion = orthodox
+	father=855006 # Ivan Olshanski of Kiev
+	mother=850060 # Agrippina Svyatoslavovna of Smolensk
+
+	1375.1.1 = {
+		birth = yes
+	}
+	1448.1.1 = {
+		death = yes
+	}
+}
+855013 = {
+	name = "Zygimantas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = catholic
+
+	father=473508 # Kestutis of Lithuania
+
+	1365.1.1 = {
+		birth = yes
+	}
+	1440.3.20 = {
+		death = yes
+	}
+}
+855014 = {
+	name = "Vaidotas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = catholic
+
+	father=473508 # Kestutis of Lithuania
+
+	1340.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+855015 = {
+	name = "Butautas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+
+	father=473508 # Kestutis of Lithuania
+
+	1346.1.1 = {
+		birth = yes
+	}
+	1365.7.25 = {
+	    religion = catholic
+		name="Henryk"
+	}
+	1380.5.7 = {
+		death = yes
+	}
+}
+855016 = {
+	name = "Vaiduta"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = baltic_pagan
+	
+    learning=15
+	trait=scholar
+	trait="scholarly_theologian"
+	
+	father=855015 # Butautas of Lithuania
+
+	1365.1.1 = {
+		birth = yes
+	}
+	1381.1.1 = {
+	    religion = catholic
+		name="Jonas"
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+855017 = {
+	name = "Tautvilas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = catholic
+
+	father=473508 # Kestutis of Lithuania
+
+	1352.1.1 = {
+		birth = yes
+	}
+	1390.9.1 = {
+		death = {
+		    death_reason = death_battle
+			killer = 820014 # Skirgaila
+		}
+	}
+}
+855018 = {
+	name = "Rimgaila"
+	female=yes
+	dynasty = 11
+
+	culture = lithuanian
+	religion = catholic
+
+	father=473508 # Kestutis of Lithuania
+
+	1365.1.1 = {
+		birth = yes
+	}
+	1392.2.4 = {
+	    add_spouse = 820150 # Henry Piast of Masovia
+	}
+	1433.1.1 = {
+		death = yes
+	}
+}
+855019 = {
+	name = "Jonas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=855002 # Yuri of Pinsk
+
+	1365.1.1 = {
+		birth = yes
+	}
+	1399.8.12 = {
+		death = {
+		    death_reason = death_battle
+		}
+	}
+}
+855020 = {
+	name = "Aleksandras"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=855019 # Jonas Yurievich of Pinsk
+
+	1390.1.1 = {
+		birth = yes
+	}
+	1436.1.1 = {
+		death = yes
+	}
+}
+855021 = {
+	name = "Simonas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=855019 # Jonas Yurievich of Pinsk
+
+	1395.1.1 = {
+		birth = yes
+	}
+	1452.1.1 = {
+		death = yes
+	}
+}
+855022 = {
+	name = "Dmitrijus-Joakimas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=855005 # Teodoras of Novgorod-Seversky
+
+	1390.1.1 = {
+		birth = yes
+	}
+	1455.1.1 = {
+		death = yes
+	}
+}
+855023 = {
+	name = "Simonas"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=473510 # Dmitriy or Liubartas of Volhynia
+	mother=850068 # Agafya Konstantinovna of Rostov
+
+	1360.1.1 = {
+		birth = yes
+	}
+}
+855024 = {
+	name = "Lazaras"
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=473510 # Dmitriy or Liubartas of Volhynia
+	mother=850068 # Agafya Konstantinovna of Rostov
+
+	1365.1.1 = {
+		birth = yes
+	}
+}

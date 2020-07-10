@@ -1,0 +1,10 @@
+1362.1.1={
+	holder=473514	# Dmitry Stashy
+}
+1380.1.1={
+	holder=820017 # Kaributas
+}
+1394.1.1={
+	liege=k_lithuania
+	holder=855005 # Feodor Lyubartovich
+}
