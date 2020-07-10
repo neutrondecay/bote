@@ -62,7 +62,10 @@
 		add_spouse = 800180
 	}
 	1386.2.24 = {
-		death = yes
+		death = {
+		    death_reason=death_murder
+			killer=829100 # Elizabeth of Bosnia
+		}
 	}
 }
 800180 = { #Wife of Charles III
@@ -287,7 +290,6 @@
 
 800218 = { #John of Luxembourg
 	name = "Jean"
-#	dynasty = 3000017
 	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
@@ -302,7 +304,6 @@
 }
 800219 = { #Peter I of Luxembourg, son of Margaret and Jean
 	name = "Pierre"
-#	dynasty = 3000017
 	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
@@ -315,7 +316,6 @@
 }
 800220 = { #John II of Luxembourg, son of Margaret and Jean
 	name = "Jean"
-#	dynasty = 3000017
 	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
@@ -328,7 +328,6 @@
 }
 800221 = { #Louis of Luxembourg, son of Margaret and Jean
 	name = "Louis"
-#	dynasty = 3000017
 	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
@@ -341,7 +340,6 @@
 }
 800222 = { #Catherine of Luxembourg, daughter of Margaret and Jean
 	name = "Catherine"
-#	dynasty = 3000017
 	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
@@ -355,7 +353,6 @@
 }
 800223 = { #Jeanne of Luxembourg, daughter of Margaret and Jean
 	name = "Jeanne"
-#	dynasty = 3000017
 	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
@@ -1147,6 +1144,9 @@
 
 	1392.2.6 = {
 		birth=yes
+		effect = {
+		    give_minor_title=bote_dauphinoffrance
+		}
 	}
 	1401.1.23 = {
 		death=yes
@@ -4358,6 +4358,7 @@
 	religion = catholic
 
 	father=469510 # Louis I of Hungary
+	mother=829100 # Elizabeth of Bosnia
 
 	1371.1.1 = {
 		birth = yes
@@ -4375,6 +4376,7 @@
 	religion = catholic
 
 	father=469510 # Louis I of Hungary
+	mother=829100 # Elizabeth of Bosnia
 
 	1370.1.1 = {
 		birth = yes

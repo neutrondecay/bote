@@ -8,23 +8,21 @@
 	add_trait = brave
 	add_trait = crusader
 	add_trait = indulgent_wastrel
+	trait = crowned_by_bishop
 	disallow_random_traits = yes
 	father = 800056
 	mother = 800108
 	#History
-	1367.04.15 = {
+	1367.4.15 = {
 		birth = yes
 	}
-	1381.02.05 = {
+	1381.2.5 = {
 		add_spouse = 800002
 	}
-	1399.10.13 = {
-		add_trait = crowned_by_bishop
-	}
-	1403.02.07 = {
+	1403.2.7 = {
 		add_spouse = 800004
 	}
-	1413.03.20 = {
+	1413.3.20 = {
 		death = yes
 	}
 }
@@ -35,10 +33,10 @@
 	religion = catholic
 	father = 454562
 	#History
-	1341.03.25 = {
+	1341.3.25 = {
 		birth = yes
 	}
-	1373.01.16 = {
+	1373.1.16 = {
 		death = yes
 	}
 }
@@ -50,10 +48,10 @@
 	female = yes
 	father = 800001
 	
-	1369.01.01 = {
+	1369.1.1 = {
 		birth = yes
 	}
-	1394.06.04 = {
+	1394.6.4 = {
 		death = yes
 	}
 }
@@ -65,10 +63,10 @@
 	female = yes
 	father = 800001
 	
-	1366.01.01 = {
+	1366.1.1 = {
 		birth = yes
 	}
-	1399.10.03 = {
+	1399.10.3 = {
 		death = yes
 	}
 }
@@ -77,13 +75,13 @@
 	dynasty = 365
 	culture = english
 	religion = catholic
-	1338.01.01 = {
+	1338.1.1 = {
 		birth = yes
 	}
-	1383.01.01 = {
+	1383.1.1 = {
 		add_spouse = 800006
 	}
-	1400.02.15 = {
+	1400.2.15 = {
 		death = yes
 	}
 }
@@ -93,8 +91,11 @@
 	culture = english
 	religion = catholic
 	female = yes
-	1367.01.01 = {
+	1367.1.1 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800007 = { #Earl of Oxford's son
@@ -103,7 +104,7 @@
 	father = 800005
 	culture = english
 	religion = catholic
-	1385.08.15 = {
+	1385.8.15 = {
 		birth = yes
 	}
 }
@@ -115,8 +116,11 @@
 	father = 800036
 	mother = 800037
 	female = yes
-	1385.12.01 = {
+	1385.12.1 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800010 = { #Earl of Worcester
@@ -125,8 +129,11 @@
 	culture = english
 	religion = catholic
 	
-	1343.01.01 = {
+	1343.1.1 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800011 = { #Earl of Westmorland 
@@ -134,13 +141,13 @@
 	dynasty = 4004
 	culture = english
 	religion = catholic
-	1364.01.01 = {
+	1364.1.1 = {
 		birth = yes
 	}
-	1386.01.01 = {
+	1386.1.1 = {
 		add_spouse = 800012
 	}
-	1396.11.02 = {
+	1396.11.2 = {
 		add_spouse = 800013
 	}
 }
@@ -150,10 +157,10 @@
 	culture = english
 	religion = catholic
 	female = yes
-	1364.01.01 = {
+	1364.1.1 = {
 		birth = yes
 	}
-	1396.06.09 = {
+	1396.6.9 = {
 		death = yes
 	}
 }
@@ -165,11 +172,14 @@
 	mother = 800059
 	father = 800056
 	female = yes
-	1379.01.01 = {
+	1379.1.1 = {
 		birth = yes
 	}
-	1397.01.01 = {
+	1397.1.1 = {
 		add_trait = legit_bastard
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800014 = { #Earl of Westmorland's son
@@ -179,8 +189,11 @@
 	religion = catholic
 	father = 800011
 	mother = 800012
-	1387.03.21 = {
+	1387.3.21 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800015 = { #Earl of Westmorland's son
@@ -190,8 +203,11 @@
 	religion = catholic
 	father = 800011
 	mother = 800012
-	1388.05.02 = {
+	1388.5.2 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800016 = { #Earl of Westmorland's daughter
@@ -202,8 +218,11 @@
 	female = yes
 	father = 800011
 	mother = 800012
-	1389.06.11 = {
+	1389.6.11 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800017 = { #Earl of Westmorland's daughter
@@ -214,8 +233,11 @@
 	female = yes
 	father = 800011
 	mother = 800012
-	1390.05.10 = {
+	1390.5.10 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800018 = { #Earl of Westmorland's daughter
@@ -226,8 +248,11 @@
 	female = yes
 	father = 800011
 	mother = 800012
-	1391.03.30 = {
+	1391.3.30 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800019 = { #Earl of Westmorland's daughter
@@ -238,8 +263,11 @@
 	female = yes
 	father = 800011
 	mother = 800012
-	1392.09.18 = {
+	1392.9.18 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800020 = { #Earl of Westmorland's daughter
@@ -253,6 +281,9 @@
 	1394.11.28 = {
 		birth = yes
 	}
+	1413.3.20 = {
+		death = yes
+	}
 }
 800021 = { #Earl of Westmorland's daughter
 	name = "Joan"
@@ -262,8 +293,11 @@
 	female = yes
 	father = 800011
 	mother = 800013
-	1398.01.03 = {
+	1398.1.3 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800022 = { #Earl of Westmorland's daughter
@@ -277,6 +311,9 @@
 	1398.11.24 = {
 		birth = yes
 	}
+	1413.3.20 = {
+		death = yes
+	}
 }
 800023 = { #Earl of Westmorland's daughter
 	name = "Katherine"
@@ -286,8 +323,11 @@
 	female = yes
 	father = 800011
 	mother = 800013
-	1399.08.15 = {
+	1399.8.15 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800024 = { #Henry V
@@ -306,8 +346,16 @@
 	disallow_random_traits = yes
 	father = 800000
 	mother = 800002
-	1386.09.16 = {
+	1386.9.16 = {
 		birth = yes
+	}
+	1399.9.30 = {
+	    effect = {
+		    give_minor_title=bote_princeofwales
+		}
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800025 = {  #John Talbot wasn't EoShrewsbury until 1442, but owned land in the area and was an interesting character
@@ -325,8 +373,11 @@
 	trait = brave
 	disallow_random_traits = yes
 	
-	1387.03.12 = {
+	1387.3.12 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800026 = { #Earl of Warwick
@@ -335,7 +386,7 @@
 	culture = english
 	religion = catholic
 	father = 454592
-	1338.03.16 = {
+	1338.3.16 = {
 		birth = yes
 	}
 }
@@ -345,8 +396,11 @@
 	culture = english
 	religion = catholic
 	
-	1385.09.17 = {
+	1385.9.17 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800028 = { #Earl of Suffolk
@@ -358,8 +412,11 @@
 	1367.10.10 = {
 		birth = yes
 	}
-	1383.04.11 = {
+	1383.4.11 = {
 		add_spouse = 800029
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800029 = { #Suffolk's wife
@@ -368,8 +425,11 @@
 	culture = english
 	religion = catholic
 	female = yes
-	1376.06.20 = {
+	1376.6.20 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800030 = { #Suffolk's 1st son
@@ -380,8 +440,11 @@
 	
 	father = 800028
 	mother = 800029
-	1394.02.27 = {
+	1394.2.27 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800031 = { #Suffolk's 2nd son
@@ -392,8 +455,11 @@
 	
 	father = 800028
 	mother = 800029
-	1396.09.07 = {
+	1396.9.7 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800032 = { #Suffolk's 3rd son
@@ -404,8 +470,11 @@
 	
 	father = 800028
 	mother = 800029
-	1399.12.06 = {
+	1399.12.6 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800033 = {
@@ -418,8 +487,11 @@
 	father = 800000
 	mother= 800002
 	
-	1389.06.20 = {
+	1389.6.20 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800034 = { #Duke of Surrey, Earl of Kent
@@ -431,11 +503,14 @@
 	father = 800036
 	mother = 800037
 	
-	1372.09.08 = {
+	1372.9.8 = {
 		birth = yes
 	}
 	1392.10.22 = {
 		add_spouse = 800035
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800035 = { #DoSurrey's wife
@@ -445,8 +520,11 @@
 	religion = catholic
 	female = yes
 	
-	1378.08.19 = {
+	1378.8.19 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800036 = { #DoSurrey's father
@@ -458,13 +536,16 @@
 	father = 454576 # Thomas Holland, 1st Earl of Kent
 	mother = 454515 # The Fair Maid of Kent
 	
-	1350.05.16 = {
+	1350.5.16 = {
 		birth = yes
 	}
-	1364.04.10 = {
+	1364.4.10 = {
 		add_spouse = 800037
 	}
-	1397.04.25 = {
+	1397.4.25 = {
+		death = yes
+	}
+	1413.3.20 = {
 		death = yes
 	}
 }
@@ -475,8 +556,11 @@
 	religion = catholic
 	culture = english
 	
-	1350.04.01 = {
+	1350.4.1 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800038 = { #DoSurrey's brother, deceased
@@ -488,10 +572,10 @@
 	father = 800036
 	mother = 800037
 	
-	1374.11.02 = {
+	1374.11.2 = {
 		birth = yes
 	}
-	1394.11.05 = {
+	1394.11.5 = {
 		death = yes
 	}
 }
@@ -504,10 +588,10 @@
 	father = 800036
 	mother = 800037
 	
-	1376.04.3 = {
+	1376.4.3 = {
 		birth = yes
 	}
-	1396.05.21 = {
+	1396.5.21 = {
 		death = yes
 	}
 }
@@ -520,8 +604,11 @@
 	father = 800036
 	mother = 800037
 	
-	1382.01.09 = {
+	1382.1.9 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800041 = { #Duke of York
@@ -533,14 +620,17 @@
 	father = 454500
 	mother = 455611
 	
-	1341.06.05 = {
+	1341.6.5 = {
 		birth = yes
 	}
-	1372.01.01 = {
+	1372.1.1 = {
 		add_spouse = 800042
 	}
-	1393.11.04 = {
+	1393.11.4 = {
 		add_spouse = 800046
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 
@@ -551,8 +641,11 @@
 	religion = catholic
 	father = 800041
 	mother = 800042
-	1373.08.03 = {
+	1373.8.3 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800044 = { #York's 1st daughter
@@ -563,11 +656,14 @@
 	female = yes
 	father = 800041
 	mother = 800042
-	1374.01.11 = {
+	1374.1.11 = {
 		birth = yes
 	}
-	1399.05.01 = {
+	1399.5.1 = {
 		add_trait = pregnant
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800045 = { #York's 2nd son
@@ -590,8 +686,11 @@
 	father = 800036
 	mother = 800037
 	
-	1380.02.22 = {
+	1380.2.22 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800047 = { #Surrey's 1st sister
@@ -617,8 +716,11 @@
 	father = 800036
 	mother = 800037
 	female = yes
-	1387.01.19 = {
+	1387.1.19 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800050 = { #Surrey's 5th sister
@@ -629,8 +731,11 @@
 	father = 800036
 	mother = 800037
 	female = yes
-	1386.09.25 = {
+	1386.9.25 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800051 = { #Surrey's 6th sister
@@ -641,8 +746,11 @@
 	father = 800036
 	mother = 800037
 	female = yes
-	1389.04.12 = {
+	1389.4.12 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800052 = { #Earl of Gloucester (lost title)
@@ -651,11 +759,14 @@
 	culture = english
 	religion = catholic
 	
-	1373.09.22 = {
+	1373.9.22 = {
 		birth = yes
 	}
-	1379.09.29 = {
+	1379.9.29 = {
 		add_spouse = 800044
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800053 = { #Gloucester's son
@@ -666,8 +777,11 @@
 	
 	father = 800052
 	mother = 800044
-	1396.02.02 = {
+	1396.2.2 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800054 = { #Gloucester's daughter
@@ -678,10 +792,13 @@
 	female = yes
 	father = 800052
 	mother = 800044
-	1397.05.30 = {
+	1397.5.30 = {
 		birth = yes
 	}
-	1398.09.07 = {
+	1398.9.7 = {
+		death = yes
+	}
+	1413.3.20 = {
 		death = yes
 	}
 }
@@ -691,8 +808,11 @@
 	culture = english
 	religion = catholic
 	trait = mastermind_theologian
-	1331.02.19 = {
+	1331.2.19 = {
 		birth = yes
+	}
+	1413.3.20 = {
+		death = yes
 	}
 }
 800056 = { #John of Gaunt, Duke of Lancaster
@@ -702,19 +822,19 @@
 	religion = catholic
 	father = 454500
 	mother = 455611
-	1340.03.06 = {
+	1340.3.6 = {
 		birth = yes
 	}
-	1359.05.19 = {
+	1359.5.19 = {
 		add_spouse = 800108
 	}
-	1371.09.21 = {
+	1371.9.21 = {
 		add_spouse = 800058
 	}
-	1396.01.13 = {
+	1396.1.13 = {
 		add_spouse = 800059
 	}
-	1399.02.03 = {
+	1399.2.3 = {
 		death = yes
 	}
 }
@@ -725,10 +845,10 @@
 	culture = english
 	religion = catholic
 	female = yes
-	1350.05.09 = {
+	1350.5.9 = {
 		birth = yes
 	}
-	1403.05.10 = {
+	1403.5.10 = {
 		death = yes
 	}
 }
@@ -748,7 +868,7 @@
 		death = yes
 	}
 }
-800108 = { #John of Lancaster
+801200 = { #John of Lancaster
 	name = "John"
 	dynasty = 3000000
 	culture = english
@@ -758,7 +878,7 @@
 	1362.7.28 = {
 		birth = yes
 	}
-	1365.12.08 = {
+	1365.12.8 = {
 		death = yes
 	}
 }
@@ -773,6 +893,9 @@
 	1364.9.1 = {
 		birth = yes
 	}
+	1413.3.20 = {
+		death = yes
+	}
 }
 800062 = { #Edward of Lancaster
 	name = "Edward"
@@ -782,10 +905,10 @@
 	mother = 800108
 	father = 800056
 	
-	1365.01.03 = {
+	1365.1.3 = {
 		birth = yes
 	}
-	1365.08.20 = {
+	1365.8.20 = {
 		death = yes
 	}
 }
@@ -797,7 +920,7 @@
 	mother = 800108
 	father = 800056
 	
-	1366.05.29 = {
+	1366.5.29 = {
 		birth = yes
 	}
 	1367.10.12 = {
@@ -812,10 +935,10 @@
 	mother = 800108
 	father = 800056
 	female = yes
-	1368.02.18 = {
+	1368.2.18 = {
 		birth = yes
 	}
-	1368.04.10 = {
+	1368.4.10 = {
 		death = yes
 	}
 }
@@ -827,7 +950,7 @@
 	mother = 800058
 	father = 800056
 	female = yes
-	1373.03.31 = {
+	1373.3.31 = {
 		birth = yes
 	}
 	1418.6.2 = {
@@ -841,7 +964,7 @@
 	religion = catholic
 	mother = 800058
 	father = 800056
-	1374.12.02 = {
+	1374.12.2 = {
 		birth = yes
 	}
 	1375.9.30 = {
@@ -855,13 +978,13 @@
 	religion = catholic
 	mother = 800059
 	father = 800056
-	1371.10.05 = {
+	1371.10.5 = {
 		birth = yes
 	}
-	1396.01.01 = {
+	1396.1.1 = {
 		add_spouse = 800009
 	}
-	1397.01.01 = {
+	1397.1.1 = {
 		add_trait = legit_bastard
 	}
 	1410.9.30 = {
@@ -875,13 +998,13 @@
 	religion = catholic
 	mother = 800059
 	father = 800056
-	1375.07.23 = {
+	1375.7.23 = {
 		birth = yes
 	}
 	1393.1.1 = {
 		add_lover = 800073
 	}
-	1397.01.01 = {
+	1397.1.1 = {
 		add_trait = legit_bastard
 	}
 	1447.4.11 = {
@@ -899,34 +1022,37 @@
 	1377.1.9 = {
 		birth = yes
 	}
-	1397.01.01 = {
+	1397.1.1 = {
 		add_trait = legit_bastard
 	}
 	1426.12.31 = {
 		death = yes
 	}
 }
-800109 = { #Earl (Baron) of Huntingdon 
+801201 = { #Earl (Baron) of Huntingdon 
 	name = "John"
 	dynasty = 4035
 	culture = english
 	religion = catholic
 	
-	1352.08.09 = {
+	1352.8.9 = {
 		birth = yes
 	}
-	1386.07.07 = {
+	1386.7.7 = {
 		add_spouse = 800061
 	}
-	1399.12.20 = {
-		effect = {
-			war = {
-				target = 800000
-				casus_belli = cb_install_antiking
-				thirdparty = 800173
-				tier = DUKE
-			}
-		}
+	# 1399.12.20 = {
+		# effect = {
+			# war = {
+				# target = 800000
+				# casus_belli = cb_install_antiking
+				# thirdparty = 800173
+				# tier = DUKE
+			# }
+		# }
+	# }
+	1413.3.20 = {
+		death = yes
 	}
 }
 #DE JURE WALES
@@ -955,12 +1081,12 @@
 	1391.11.6 = {
 		birth = yes
 	}
-	1399.09.30 = {
+	1399.9.30 = {
 		effect = {
 			set_guardian = 800000
 		}
 	}
-	1425.01.18 = {
+	1425.1.18 = {
 		death = yes
 	}
 }
@@ -972,10 +1098,10 @@
 	father = 454212
 	mother = 161654
 	
-	1344.04.25 = {
+	1344.4.25 = {
 		birth = yes
 	}
-	1392.02.23 = {
+	1392.2.23 = {
 		add_spouse = 800073
 	}
 }
@@ -987,10 +1113,10 @@
 	father=454570
 	mother=161670
 	female = yes
-	1346.09.01 = {
+	1346.9.1 = {
 		birth = yes
 	}
-	1397.09.21 = {
+	1397.9.21 = {
 		death = yes
 	}
 }
@@ -1058,7 +1184,7 @@
 	
 	father = 454122
 	
-	1335.09.12 = {
+	1335.9.12 = {
 		birth = yes
 	}
 	1350.1.1 = {
@@ -1075,7 +1201,7 @@
 	religion = catholic
 	female = yes
 	
-	1336.07.14 = {
+	1336.7.14 = {
 		birth = yes
 	}
 	1369.1.1 = {
@@ -1142,7 +1268,7 @@
 	1359.2.1 = {
 		birth = yes
 	}
-	1386.06.10 = {
+	1386.6.10 = {
 		add_spouse = 800091
 	}
 	1399.1.1 = {
@@ -1173,7 +1299,7 @@
 	trait = curious
 	mother = 800091
 	father = 800090
-	1392.05.23 = {
+	1392.5.23 = {
 		birth = yes
 	}
 }
@@ -1198,7 +1324,7 @@
 	female = yes
 	mother = 800091
 	father = 800090
-	1395.07.25 = {
+	1395.7.25 = {
 		birth = yes
 	}
 }
@@ -1210,7 +1336,7 @@
 	trait = curious
 	mother = 800091
 	father = 800090
-	1396.05.19 = {
+	1396.5.19 = {
 		birth = yes
 	}
 }
@@ -1260,7 +1386,7 @@
 	trait = zealous
 	trait = ambitious
 	father = 800090
-	1384.09.28 = {
+	1384.9.28 = {
 		birth = yes
 	}
 	1420.1.1 = {
@@ -1323,7 +1449,7 @@
 				add_spouse = 454501 # The Black Prince
 			}
 		}
-	}	
+	}		
 	1367.1.6 = {
 		birth = yes
 	}
@@ -1333,7 +1459,7 @@
 	1396.1.1 = {
 		add_spouse = 800175
 	}
-	1399.09.30 = {
+	1399.9.30 = {
 		effect = {
 			c_800000 = {
 				ROOT = {
@@ -1347,7 +1473,7 @@
 	}
 }
 
-## Plantagenets ##
+### Plantagenets ##
 829000 = { #Lionel of Antwerp
 	name = "Lionel"
 	dynasty = 106 # Plantagenet
@@ -1572,7 +1698,7 @@
 	father = 800000
 	mother= 800002
 	
-	1387.09.1 = {
+	1387.9.1 = {
 		birth = yes
 	}
 	1421.3.22 = {

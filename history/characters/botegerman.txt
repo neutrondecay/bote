@@ -549,13 +549,14 @@
 	
 	father = 462614 #Charles IV
 	mother = 455537 #Blanche de Valois
+
 	1327.1.1 = {
 		effect_even_if_dead = {
 			c_462614 = {
 				set_name = "Charles" # Her father's birth name was Wenzel, but on confirmation he took his wife's uncle's name - hence the French form
 			}
 		}
-	}
+	}	
 	1342.1.1 = {
 		birth = yes
 	}
@@ -572,13 +573,14 @@
 	
 	father = 462614 #Charles IV
 	mother = 462752 #Anna of Bavaria
+
 	1349.1.1 = {
 		effect = {
 			c_462614 = {
 				add_spouse = 462752
 			}
 		}
-	}
+	}	
 	1350.1.1 = {
 		birth = yes
 	}
@@ -586,6 +588,7 @@
 		death = yes
 	}
 }
+
 802510 = { # This block will also contain items for Emperor Wenzel and his uncle of the same name
 	name = "Elisabeth"
 	dynasty = 61
@@ -593,7 +596,7 @@
 
 	culture = german
 	religion = catholic
-	
+		
 	father = 462614 #Charles IV
 	mother = 820175 #Anna von Schweidnitz
 	1334.12.1 = {
@@ -624,7 +627,7 @@
 				add_spouse = 820175
 			}
 		}
-	}
+	}	
 	1358.1.1 = {
 		birth = yes
 	}
@@ -642,25 +645,24 @@
 				add_spouse = 802647 # Joanna of Bavaria
 			}
 		}
-	}
+	}	
 	1373.1.1 = {
 		death = yes
 	}
-
 	1376.6.10 = {
 		 effect = {
 			c_462606 = {
 				capital = b_praha
 			}
 		}
-	}
+	}	
 	1389.1.1 = {
 		effect_even_if_dead = {
 			c_462606 = {
 				add_spouse = 802627 # Sofia of Bavaria
 			}
 		}
-	}		
+	}	
 }
 # 802511 = { # commented out as a duplicate of 462606
 	# name = "Wenzel"
