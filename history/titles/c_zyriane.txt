@@ -105,3 +105,6 @@ liege="d_novgorod"
 {
 holder=472319
 }
+1350.1.1 = {
+	holder = 801211
+}
