@@ -290,11 +290,10 @@
 
 800218 = { #John of Luxembourg
 	name = "Jean"
-	dynasty = 61 # Luxembourg
+	dynasty = 3000017
 	culture = frankish
 	religion = catholic
-	father = 860010 # Guy I
-	mother = 860001 # Mahaut de Chatillon	
+	
 	1370.3.3 = {
 		birth = yes
 	}
@@ -304,7 +303,7 @@
 }
 800219 = { #Peter I of Luxembourg, son of Margaret and Jean
 	name = "Pierre"
-	dynasty = 61 # Luxembourg
+	dynasty = 3000017
 	culture = frankish
 	religion = catholic
 	mother = 800213
@@ -316,7 +315,7 @@
 }
 800220 = { #John II of Luxembourg, son of Margaret and Jean
 	name = "Jean"
-	dynasty = 61 # Luxembourg
+	dynasty = 3000017
 	culture = frankish
 	religion = catholic
 	mother = 800213
@@ -328,7 +327,7 @@
 }
 800221 = { #Louis of Luxembourg, son of Margaret and Jean
 	name = "Louis"
-	dynasty = 61 # Luxembourg
+	dynasty = 3000017
 	culture = frankish
 	religion = catholic
 	mother = 800213
@@ -340,7 +339,7 @@
 }
 800222 = { #Catherine of Luxembourg, daughter of Margaret and Jean
 	name = "Catherine"
-	dynasty = 61 # Luxembourg
+	dynasty = 3000017
 	culture = frankish
 	religion = catholic
 	female = yes
@@ -353,7 +352,7 @@
 }
 800223 = { #Jeanne of Luxembourg, daughter of Margaret and Jean
 	name = "Jeanne"
-	dynasty = 61 # Luxembourg
+	dynasty = 3000017
 	culture = frankish
 	religion = catholic
 	female = yes
@@ -705,6 +704,24 @@
 		birth = yes
 	}
 	1393.11.29 = {
+		death = yes
+	}
+}
+801230 = {
+	name = "Jean"
+	dynasty = 3000119
+	culture = frankish
+	religion = catholic
+	trait = ambitious
+	trait = tough_soldier
+	1362.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		employer = 800617
+		add_claim = c_canarias
+	}
+	1425.1.1 = {
 		death = yes
 	}
 }
@@ -4558,195 +4575,4 @@
 	1389.1.1 = {
 		death = yes
 	}
-}
-# Luxembourg-Ligny branch
-#
-860001 = {  #
-	name = Mahaut #
-	dynasty = 23113 # Chatillon
-	culture = frankish
-	religion = catholic
-	father = 161363
-	1335.1.1 = { birth = yes }
-	1373.1.1 = { death = yes }
-}
-860002 = {
-	name = Waleran # I of Ligny
-	dynasty = 61 # Luxembourg
-	culture = german
-	religion = catholic
-	father = 462604 # Heinrich of Luxembourg
-	mother = 7571 # Marguerite of Bar
-	1239.1.1 = {
-		effect = { 
-			c_462603 = {
-				add_spouse = 7571
-			}
-		}
-	}
-	1240.1.1 = {
-		effect_even_if_dead = {
-			c_460603 = {
-				set_mother = 7571
-			}
-		}
-	}
-	1243.1.1 = { birth = yes } # estimate
-	1250.1.1 = {
-		effect_even_if_dead = {
-			c_31119 = {
-				set_mother = 7571
-			}
-		}
-	}
-	1281.1.1 = { culture = frankish }
-	1288.6.5 = {
-		death = {
-			death_reason = death_battle
-			killer = 487040 # Jan I of Brabant
-		}
-	}
-}
-860003 = {
-	name = Henri # of Ligny
-	dynasty = 61 # Luxembourg
-	culture = frankish
-	religion = catholic
-	father = 860002 # Waleran I of Ligny
-	1273.1.1 = { birth = yes }
-	1303.1.1 = { death = yes }
-}
-860004 = {
-	name = Waleran # II of Ligny
-	dynasty = 61 # Luxembourg
-	culture = frankish
-	religion = catholic
-	father = 860002 # Waleran I of Ligny
-	1275.1.1 = { birth = yes }
-	1354.1.1 = { death = yes }
-}
-860005 = {
-	name = Jean # I of Ligny
-	dynasty = 61 # Luxembourg
-	culture = frankish
-	religion = catholic
-	father = 860004 # Waleran II of Ligny
-	1313.1.1 = { birth = yes }
-	1364.5.17 = { death = yes }
-}
-# Detour for Jean I's wife's family
-
-860006 = {
-	name = Guy
-	dynasty = 92 # Dampierre
-	culture = frankish
-	religion = catholic
-	father = 138428 # Guillaume 'sans-terre'
-	1287.1.1 = { birth = yes }
-	1345.4.30 = { death = yes }
-}
-860007 = {
-	name = Alix
-	female = yes
-	dynasty = 92 # Dampierre
-	culture = frankish
-	religion = catholic
-	father = 860006 # Guy de Dampierre
-	1317.1.1 = { birth = yes }
-	1330.7.10 = { add_spouse = 860005 } # Jean I de Luxembourg-Ligny
-	1346.5.4 = { death = yes }
-}
-860008 = {
-	name = Beatrice
-	female = yes
-	dynasty = 23113 # Chatillon
-	culture = frankish
-	religion = catholic
-	father = 455787
-	mother = 455788
-	1297.1.1 = { birth = yes }
-	1351.1.1 = { death = yes }
-}
-860009 = {
-	name = Jean
-	dynasty = 92 # Dampierre
-	culture = frankish
-	religion = catholic
-	father = 138428 # Guillaume 'sans-terre'
-	1286.1.1 = { birth = yes }
-	1315.1.1 = { add_spouse = 860008 } # Beatrice de Chatillon
-	1325.5.2 = {
-		death = {
-			death_reason = death_battle
-		}
-	}
-}
-# Back to the Ligny line
-860010 = {
-	name = Guy # I de Ligny
-	dynasty = 61 # Luxembourg
-	culture = frankish
-	religion = catholic
-	father = 860005 # Jean I de Luxembourg-Ligny
-	mother = 860007 # Alix de Dampierre
-	1332.1.1 = { birth = yes ]
-	1350.12.8 = { add_spouse = 860001 } # Mahaut de Chatillon
-	1371.1.1 = {
-		death = {
-			death_reason = death_battle
-		}
-	}
-}
-860011 = {
-	name = Waleran # III
-	dynasty = 61 # Luxembourg
-	culture = frankish
-	religion = catholic
-	father = 860010 # Guy I
-	mother = 860001 # Mahaut de Chatillon
-	1355.1.1 = { birth = yes }
-	1400.6.2 = { add_spouse = 802310 }
-	1415.4.12 = { death = yes }
-}
-860012 = {
-	name = Maud
-	dynasty = 4035 # de Holland
-	female = yes
-	culture = english
-	religion = catholic
-	father = 454576 # Thomas Holland, 1st Earl of Kent
-	mother = 454515 # The Fair Maid of Kent
-	1340.1.1 = {
-		effect = { 
-			c_454515 = {
-				add_spouse = 454576
-			}
-		}
-	}
-	1359.1.1 = { birth = yes }
-	1379.7.18 = { add_spouse = 860011 }
-	1391.1.1 = { death = yes }
-}
-860013 = {
-	name = Jeanne
-	female = yes 
-	dynasty = 61 # Luxembourg
-	culture = frankish
-	religion = catholic
-	father = 860011 # Waleran III
-	mother = 860012 # Maud Holland
-	1381.1.1 = { birth = yes }
-	1407.8.12 = { death = yes }
-}
-860014 = {
-	name = Marguerite
-	female = yes
-	dynasty = 61 # Luxembourg
-	culture = frankish
-	religion = catholic
-	father = 860010 # Guy I
-	mother = 860001 # Mahaut de Chatillon
-	1359.1.1 = { birth = yes }
-	1377.1.1 = { add_spouse = 800206 }
-	1415.4.12 = { death = yes }
 }

@@ -127,7 +127,7 @@
 }
 801171 = {
 	name="Timur"
-	dynasty=11100
+	dynasty=3000120
 	religion=sunni
 	culture="mongol"
 	diplomacy = 6
@@ -190,7 +190,7 @@
 	father=125514
 	
 	1340.1.2={
-		birthyes
+		birth=yes
 	}
 	1403.1.2={
 		death=yes
@@ -219,6 +219,19 @@
 	}
 	1405.1.1={
 		death=yes
+	}
+}
+801227 = {
+	name = "Bujeg"
+	dynasty = 1062060
+	religion = sunni
+	culture = mongol
+	father = 260329
+	1350.1.1 = {
+		birth = yes
+	}
+	1408.1.1 = {
+		death = yes
 	}
 }
 ###

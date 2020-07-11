@@ -838,6 +838,21 @@
 		death = yes
 	}
 }
+801212 = {
+	name="Koksegu"
+	dynasty=100612
+	religion="sunni"
+	culture="turkish"
+	father = 480040
+	
+	1344.1.1={
+		birth=yes
+	}
+	1405.1.1={
+		death=yes
+	}
+}
+###
 855600 = {
 	name = "Suleyman"
 	dynasty=7

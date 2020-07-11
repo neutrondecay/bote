@@ -1,0 +1,229 @@
+801211 = {
+	name = "Kuaz"
+	dynasty = 1062053
+	religion = orthodox
+	culture = komi
+	father = 260265
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+801212 = {
+	name = "Nydog"
+	dynasty = 1062053
+	religion = orthodox
+	culture = komi
+	father = 801211
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+801213 = {
+	name = "Andyamo"
+	dynasty = 1062052
+	religion = orthodox
+	culture = komi
+	father = 260257
+	1352.1.1 = {
+		birth = yes
+	}
+	1416.1.1 = {
+		death = yes
+	}
+}
+801214 = {
+	name = "Paksyut"
+	dynasty = 1062049
+	religion = finnish_pagan
+	culture = komi
+	father = 260234
+	1334.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+801215 = {
+	name = "Parush"
+	dynasty = 1062049
+	religion = orthodox
+	culture = komi
+	father = 801214
+	1364.1.1 = {
+		birth = yes
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+801216 = {
+	name = "Kichay"
+	dynasty = 1062050
+	religion = finnish_pagan
+	culture = komi
+	father = 260242
+	1343.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}
+801217 = {
+	name = "Osh"
+	dynasty = 1062050
+	religion = orthodox
+	culture = komi
+	father = 801216
+	1374.1.1 = {
+		birth = yes
+	}
+	1455.1.1 = {
+		death = yes
+	}
+}
+801218 = {
+	name = "Sarin"
+	dynasty = 1062051
+	religion = orthodox
+	culture = komi
+	father = 260249
+	1330.1.1 = {
+		birth = yes
+	}
+	1397.1.1 = {
+		death = yes
+	}
+}
+801219 = {
+	name = "Malyy"
+	dynasty = 1062051
+	religion = finnish_pagan
+	culture = komi
+	father = 801218
+	1355.1.1 = {
+		birth = yes
+	}
+	1409.1.1 = {
+		death = yes
+	}
+}
+801220 = {
+	name = "Kuaz"
+	dynasty = 1062065
+	religion = finnish_pagan
+	culture = komi
+	father = 260356 
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1388.1.1 = {
+		death = yes
+	}
+}
+801221 = {
+	name = "Gazheg"
+	dynasty = 1062065
+	religion = finnish_pagan
+	culture = komi
+	father = 801220 
+	
+	1374.1.1 = {
+		birth = yes
+	}
+	1408.1.1 = {
+		death = yes
+	}
+}
+801222 = {
+	name = "Tuhan"
+	dynasty = 1062062 
+	religion = finnish_pagan
+	culture = komi
+	father = 260336
+	1341.1.1 = {
+		birth = yes
+	}
+	1397.1.1 = {
+		death = yes
+	}
+}
+801223 = {
+	name = "Dondy"
+	dynasty = 1062062 
+	religion = sunni
+	secret_religion = finnish_pagan
+	culture = komi
+	father = 260336
+	1381.1.1 = {
+		birth = yes
+	}
+	1457.1.1 = {
+		death = yes
+	}
+}
+801224 = {
+	name = "Malyaka"
+	dynasty = 1062063
+	religion = sunni
+	secret_religion = finnish_pagan
+	culture = komi
+	father = 260343
+	1330.1.1 = {
+		birth = yes
+	}
+	1391.1.1 = {
+		death = yes
+	}
+}
+801225 = {
+	name = "Kya"
+	dynasty = 1062063
+	religion = sunni
+	secret_religion = finnish_pagan
+	culture = komi
+	father = 801224
+	1358.1.1 = {
+		birth = yes
+	}
+	1403.1.1 = {
+		death = yes
+	}
+}
+801226 = {
+	name = "Kya"
+	dynasty = 1062063
+	religion = sunni
+	secret_religion = finnish_pagan
+	culture = komi
+	father = 801225
+	1379.1.1 = {
+		birth = yes
+	}
+	1403.1.1 = {
+		death = yes
+	}
+}
+801228 = {
+	name="Burmort"
+	dynasty = 1051137
+	religion=sunni
+	culture="komi"
+	father=161729
+	1364.1.1={
+		birth=yes
+	}
+	1440.1.1={
+		death=yes
+	}
+}
