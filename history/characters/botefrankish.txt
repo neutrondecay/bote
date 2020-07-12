@@ -290,9 +290,11 @@
 
 800218 = { #John of Luxembourg
 	name = "Jean"
-	dynasty = 3000017
+	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
+	father = 860010 # Guy I
+	mother = 860001 # Mahaut de Chatillon	
 	
 	1370.3.3 = {
 		birth = yes
@@ -303,7 +305,7 @@
 }
 800219 = { #Peter I of Luxembourg, son of Margaret and Jean
 	name = "Pierre"
-	dynasty = 3000017
+	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
 	mother = 800213
@@ -315,7 +317,7 @@
 }
 800220 = { #John II of Luxembourg, son of Margaret and Jean
 	name = "Jean"
-	dynasty = 3000017
+	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
 	mother = 800213
@@ -327,7 +329,7 @@
 }
 800221 = { #Louis of Luxembourg, son of Margaret and Jean
 	name = "Louis"
-	dynasty = 3000017
+	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
 	mother = 800213
@@ -339,7 +341,7 @@
 }
 800222 = { #Catherine of Luxembourg, daughter of Margaret and Jean
 	name = "Catherine"
-	dynasty = 3000017
+	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
 	female = yes
@@ -352,7 +354,7 @@
 }
 800223 = { #Jeanne of Luxembourg, daughter of Margaret and Jean
 	name = "Jeanne"
-	dynasty = 3000017
+	dynasty = 61 # Luxembourg
 	culture = frankish
 	religion = catholic
 	female = yes
