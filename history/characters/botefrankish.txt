@@ -4596,28 +4596,7 @@
 	religion = catholic
 	father = 462604 # Heinrich of Luxembourg
 	mother = 7571 # Marguerite of Bar
-	1239.1.1 = {
-		effect = { 
-			c_462603 = {
-				add_spouse = 7571
-			}
-		}
-	}
-	1240.1.1 = {
-		effect_even_if_dead = {
-			c_460603 = {
-				set_mother = 7571
-			}
-		}
-	}
 	1243.1.1 = { birth = yes } # estimate
-	1250.1.1 = {
-		effect_even_if_dead = {
-			c_31119 = {
-				set_mother = 7571
-			}
-		}
-	}
 	1281.1.1 = { culture = frankish }
 	1288.6.5 = {
 		death = {
@@ -4735,13 +4714,6 @@
 	religion = catholic
 	father = 454576 # Thomas Holland, 1st Earl of Kent
 	mother = 454515 # The Fair Maid of Kent
-	1340.1.1 = {
-		effect = { 
-			c_454515 = {
-				add_spouse = 454576
-			}
-		}
-	}
 	1359.1.1 = { birth = yes }
 	1379.7.18 = { add_spouse = 860011 }
 	1391.1.1 = { death = yes }

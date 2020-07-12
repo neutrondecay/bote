@@ -550,13 +550,6 @@
 	father = 462614 #Charles IV
 	mother = 455537 #Blanche de Valois
 
-	1327.1.1 = {
-		effect_even_if_dead = {
-			c_462614 = {
-				set_name = "Charles" # Her father's birth name was Wenzel, but on confirmation he took his wife's uncle's name - hence the French form
-			}
-		}
-	}	
 	1342.1.1 = {
 		birth = yes
 	}
@@ -574,13 +567,6 @@
 	father = 462614 #Charles IV
 	mother = 462752 #Anna of Bavaria
 
-	1349.1.1 = {
-		effect = {
-			c_462614 = {
-				add_spouse = 462752
-			}
-		}
-	}	
 	1350.1.1 = {
 		birth = yes
 	}
@@ -589,7 +575,7 @@
 	}
 }
 
-802510 = { # This block will also contain items for Emperor Wenzel and his uncle of the same name
+802510 = { 
 	name = "Elisabeth"
 	dynasty = 61
 	female = yes
@@ -599,97 +585,17 @@
 		
 	father = 462614 #Charles IV
 	mother = 820175 #Anna von Schweidnitz
-	1334.12.1 = {
-		effect = {
-			c_462610 = { # # John the Blind
-				add_spouse = 455657 # Beatrice of Bourbon
-			}
-		}
-	}
-	1337.2.25 = {
-		effect_even_if_dead = {
-			c_462605 = {
-				set_father = 462610
-				set_mother = 455657
-			}
-		}
-	}
-	1352.1.1 = {
-		effect_even_if_dead = {
-			c_462605 = {
-				add_spouse = 487012 # Johanna of Brabant
-			}
-		}
-	}
-	1353.5.27 = {
-		effect_even_if_dead = {
-			c_462614 = {
-				add_spouse = 820175
-			}
-		}
-	}	
+
+
 	1358.1.1 = {
 		birth = yes
 	}
-	1360.2.26 = {
-		effect_even_if_dead = {
-			c_462606 = {
-				set_father = 462614
-				set_mother = 820175
-			}
-		}
-	}
-	1370.1.1 = {
-		effect_even_if_dead = {
-			c_462606 = {
-				add_spouse = 802647 # Joanna of Bavaria
-			}
-		}
-	}	
+
 	1373.1.1 = {
 		death = yes
 	}
-	1376.6.10 = {
-		 effect = {
-			c_462606 = {
-				capital = b_praha
-			}
-		}
-	}	
-	1389.1.1 = {
-		effect_even_if_dead = {
-			c_462606 = {
-				add_spouse = 802627 # Sofia of Bavaria
-			}
-		}
-	}	
 }
-# 802511 = { # commented out as a duplicate of 462606
-	# name = "Wenzel"
-	# dynasty = 61
 
-	# culture = german
-	# religion = catholic
-	
-	# father = 462614 #Charles IV
-	# mother = 820175 #Anna von Schweidnitz
-	
-	# 1361.2.26 = {
-		# birth = yes
-	# }
-	# 1370.1.1 = {add_spouse = 802647} #Joanna of Bavaria
-	# 1376.6.10 = {
-		 # effect = {
-			# c_802511 = {
-				# capital = b_praha
-			# }
-		# }
-	# }
-	# 1389.1.1 = {add_spouse = 802627} #Sofia of Bavaria
-	# 1419.8.16 = {
-		# death = yes
-	# }
-# }
 802512 = {
 	name = "Sigismund" #King of Hungary
 	dynasty = 61
