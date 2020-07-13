@@ -133,7 +133,6 @@
 	culture="catalan"
 	father=460580
 	mother=461715
-	female = yes
 	1338.1.1={
 		birth=yes
 	}

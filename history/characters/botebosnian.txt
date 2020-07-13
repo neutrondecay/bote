@@ -49,7 +49,7 @@
 	dynasty = 3000057
 	culture = bosnian
 	religion = catholic
-	
+	female = yes
 	1345.1.1 = {
 		birth = yes
 	}
@@ -259,9 +259,6 @@
 		add_spouse = 469510
 	}
 	1387.1.2={
-		death = {
-		    death_reason=death_execution
-			killer=854900 # Paul Horvat Bishop of Zagreb
-		}
+		death=yes
 	}
 }

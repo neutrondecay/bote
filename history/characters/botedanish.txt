@@ -311,7 +311,7 @@
 	religion="catholic"
 	culture="danish"
 	female = yes
-	mother = 800804
+	father = 800804
 	1340.4.2 = {
 		birth = yes
 	}

@@ -271,7 +271,7 @@
 	father = 72490
 	mother = 72492
 	
-	1321.1.1 = {
+	1324.1.1 = {
 		birth = yes
 	}
 	# 1320.1.1 = {
@@ -384,7 +384,7 @@
 		birth = yes
 	}
 	1404.1.1 = {
-		death_reason = yes
+		death = yes
 	}
 }
 ###de Guzman family
@@ -812,7 +812,7 @@
 	dynasty = 390
 	culture = castillan
 	religion = catholic
-	
+	female = yes
 	1350.1.1 = {
 		birth = yes
 	}
@@ -1211,7 +1211,7 @@
 	dynasty = 3000075
 	culture = castillan
 	religion = catholic
-	
+	female = yes
 	1340.1.1 = {
 		birth = yes
 	}

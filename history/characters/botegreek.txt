@@ -265,11 +265,11 @@
 	culture="greek"
 	father=465800
 	mother=465802
-	
+	trait = bastard
 	1338.10.5={
 		birth=yes
 	}
-	1355.1.1 = 
+	1355.1.1 = {
 		add_spouse = 801112
 	}
 	1390.3.20={
@@ -379,7 +379,7 @@
 	father=465800
 	mother=465514
 	
-	1333.1.2={
+	1335.1.2={
 		birth=yes
 	}
 	1366.1.1={

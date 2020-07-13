@@ -728,7 +728,6 @@
 	female = yes
 	father=463151
 	mother = 462156
-	trait = legit_bastard
 	1350.3.1 = {
 		birth = yes
 	}
@@ -3715,7 +3714,7 @@ name = "Giovanni"
 	dynasty=13029
 	religion="catholic"
 	culture="italian"
-	father = 800792
+	father = 801204
 	mother = 465512
 	
 	1356.1.1 = {
@@ -3730,7 +3729,7 @@ name = "Giovanni"
 	dynasty=13029
 	religion="catholic"
 	culture="italian"
-	father = 800792
+	father = 801204
 	mother = 465512
 	
 	1358.1.1 = {
@@ -3745,7 +3744,7 @@ name = "Giovanni"
 	dynasty=13029
 	religion="catholic"
 	culture="italian"
-	father = 800792
+	father = 801204
 	mother = 465512
 	
 	1365.1.1 = {

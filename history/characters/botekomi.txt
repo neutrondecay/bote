@@ -1,4 +1,4 @@
-801211 = {
+801231 = {
 	name = "Kuaz"
 	dynasty = 1062053
 	religion = orthodox
@@ -12,12 +12,12 @@
 		death = yes
 	}
 }
-801212 = {
+801232 = {
 	name = "Nydog"
 	dynasty = 1062053
 	religion = orthodox
 	culture = komi
-	father = 801211
+	father = 801231
 	
 	1352.1.1 = {
 		birth = yes

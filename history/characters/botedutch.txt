@@ -79,9 +79,9 @@
 	1322.6.24 = {
 		birth=yes
 	}
-	1354.3.1 = {
-		add_spouse = #Wenceslaus I of Luxembourg
-	}
+	# 1354.3.1 = {
+		# add_spouse = #Wenceslaus I of Luxembourg
+	# }
 	1406.12.1={
 		death=yes
 	}
@@ -155,8 +155,8 @@
 	1356.1.1={
 		birth=yes
 	}
-	1376.1.1={
-		add_spouse=#Wenceslaus IV of Bohemia
+	# 1376.1.1={
+		# add_spouse=#Wenceslaus IV of Bohemia
 	1386.12.31={
 		death=yes
 	}
@@ -173,9 +173,9 @@
 	1361.5.30={
 		birth=yes
 	}
-	1371.1.1={
-		add_spouse=#Eduard of Gelre
-	}
+	# 1371.1.1={
+		# add_spouse=#Eduard of Gelre
+	# }
 	1379.1.1={
 		add_spouse=810004 #Willem of Gelre
 	}
@@ -240,9 +240,9 @@
 	1373.1.1={
 		birth=yes
 	}
-	1385.6.13={
-		add_spouse=#Albrecht IV of Austria
-	}
+	# 1385.6.13={
+		# add_spouse=#Albrecht IV of Austria
+	# }
 }
 
 810016={ #Jan the merciless

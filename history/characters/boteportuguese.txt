@@ -9,13 +9,15 @@
 		birth = yes
 	}
 	1385.1.1 = {
-		death_reason = death_battle
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 ###de Castro family
 800786 = { #Fernán de Castro
 	name = "Fernán"
-	dynasty = 7016
+	dynasty = 279
 	culture = castillan
 	religion = catholic
 	father = 457670
@@ -33,7 +35,7 @@
 }
 800787 = { #Juana de Castro
 	name = "Juana"
-	dynasty = 7016
+	dynasty = 279
 	culture = castillan
 	religion = catholic
 	female = yes
@@ -52,10 +54,10 @@
 }
 800690 = { #Pedro de Castro
 	name = "Pedro"
-	dynasty = 7016
+	dynasty = 279
 	culture = castillan
 	religion = catholic
-	father = 800687
+	father = 800786
 	mother = 800689
 	
 	1355.1.1 = {
@@ -67,10 +69,10 @@
 }
 800691 = { #Guterre de Castro
 	name = "Guterre"
-	dynasty = 7016
+	dynasty = 279
 	culture = castillan
 	religion = catholic
-	father = 800687
+	father = 800786
 	mother = 800689
 	
 	1357.1.1 = {

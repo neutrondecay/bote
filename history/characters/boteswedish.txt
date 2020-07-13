@@ -110,7 +110,7 @@
 	1327.1.1={
 		birth=yes
 	}
-	1357.1.1={
+	1335.1.1={
 		add_spouse=450610
 	}
 	1390.1.1={
@@ -207,7 +207,7 @@
 		birth = yes
 	}
 	1342.1.1 = {
-		add_spouse = 800838
+		add_spouse = 450649
 	}
 	1398.1.1 = {
 		death = yes
@@ -225,7 +225,7 @@
 	1347.1.2={
 		birth=yes
 	}
-	1389.1.1 = {
+	1370.1.1 = {
 		add_spouse = 800841
 	}
 	1414.1.2={
@@ -483,6 +483,19 @@
 		death=yes
 	}
 }
+800860 = {
+	name="Meter"
+	religion="catholic"
+	culture="swedish"
+	female = yes
+	
+	1368.1.2 = {
+		birth = yes
+	}
+	1408.9.17 = {
+		death = yes
+	}
+}
 800861 = {
 	name="Birgitta"
 	dynasty=143
@@ -733,7 +746,7 @@
 	father = 487072
 	
 	1340.1.1={
-		birth="1300.1.1"
+		birth=yes
 	}
 	1400.2.2 = {
 		death = yes
@@ -746,7 +759,7 @@
 	culture="swedish"
 	father = 487071
 	1340.1.1={
-		birth="1300.1.1"
+		birth=yes
 	}
 	1400.2.2 = {
 		death = yes
@@ -760,10 +773,10 @@
 	father = 487070
 	
 	1345.1.1={
-		birth="1300.1.1"
+		birth=yes
 	}
 	1403.1.1={
-		death="1350.1.1"
+		death=yes
 	}
 }
 ###Ivaring

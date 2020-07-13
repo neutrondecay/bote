@@ -325,7 +325,7 @@
 
 	culture = polish
 	religion = catholic
-
+	trait = legit_bastard
 	father=471737
 	mother=125949
 
@@ -1083,19 +1083,6 @@
 	}
 	1353.5.27 = {add_spouse=462614} 
 	1362.7.11 = {
-		death = yes
-	}
-}
-854300 = {
-	name = "Scibor" # Ostoja
-	dynasty=350023
-	culture = polish
-	religion = catholic
-	
-	1348.1.1 = {
-		birth = yes
-	}
-	1414.2.1 = {
 		death = yes
 	}
 }

@@ -1007,7 +1007,7 @@
 
 	culture = lithuanian
 	religion = orthodox
-
+	trait = bastard
 	father=473504 # Naurimantas of Pinsk
 	mother=473511 # Naurimantas' mongol wife
 
@@ -1061,6 +1061,9 @@
 
 	1347.1.1 = {
 		birth = yes
+	}
+	1363.1.1 = {
+		add_spouse = 850060
 	}
 	1402.1.1 = {
 		death = yes

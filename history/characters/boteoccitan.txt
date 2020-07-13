@@ -97,7 +97,7 @@
 		death=yes
 	}
 }
-800638 = { #Brunissende de Narbonne
+801233 = { #Brunissende de Narbonne
 	name = "Brunissende"
 	dynasty = 776
 	culture = occitan
@@ -105,9 +105,10 @@
 	female = yes
 	father = 72440
 	mother = 138153
-	
+	trait = bastard
 	1275.1.1 = {
 		birth = yes
+		remove_trait = bastard
 	}
 	1350.1.1 = {
 		death = yes
