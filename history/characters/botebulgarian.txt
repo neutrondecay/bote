@@ -205,7 +205,7 @@
 	father=467511 # Ivan Sratzimir of Vidin
 	mother=855101 # Anna of Wallachia
 	
-	1350.1.1 = {
+	1357.1.1 = {
 		birth = yes
 	}
 	1374.12.1 = {

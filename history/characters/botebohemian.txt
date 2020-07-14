@@ -82,7 +82,7 @@
 	father=462616 #Johann-Heinrich de Luxembourg
 	mother=96065 #Margaret of Opava
 	
-	1352.1.1 = {
+	1353.3.1 = {
 		birth = yes
 	}
 	1378.1.1 = {
@@ -116,7 +116,7 @@
 	father=462616 #Johann-Heinrich de Luxembourg
 	mother=96065 #Margaret of Opava
 	
-	1352.1.1 = {
+	1357.10.1 = {
 		birth = yes
 	}
 	1394.1.1 = {

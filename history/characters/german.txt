@@ -24499,6 +24499,9 @@
 	1342.1.1 = {
 		remove_spouse = 462710
 	}
+	1353.1.1 = {
+		add_spouse = 96065 # Margaret of Opava
+	}
 	1375.11.12 = {
 		death = "1375.11.12"
 	}
