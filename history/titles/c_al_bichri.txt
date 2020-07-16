@@ -60,3 +60,7 @@ holder=93475
 {
 holder=93476
 }
+1360.1.1 = {
+	holder = 801171
+	liege = e_timurid
+}
