@@ -20,8 +20,3 @@
 	holder=0
 	active = no
 }
-1370.1.1 = {
-	active = yes
-	law = succ_feudal_elective
-	holder = 801171
-}
