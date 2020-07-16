@@ -1,0 +1,6 @@
+1370.1.1 = {
+	law = succ_feudal_elective
+	law = centralization_0
+	law = revoke_title_law_2
+	holder = 801171
+}
