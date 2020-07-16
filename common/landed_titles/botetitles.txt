@@ -233,3 +233,10 @@ d_rumelia = {
 	culture = turkish
 	capital = c_serdica
 }
+e_timurid = {
+	color = { 176 176 250 }
+	color2 = { 200 200 255 }
+	
+	title = duke_arabic
+	title_female = duke_female_arabic
+}
