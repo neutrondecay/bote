@@ -23,11 +23,14 @@ e_serbia_adj;Serbian;;;;;;;;x
 k_muscovy;Muscovy;;;;;;;;x
 k_muscovy_adj;Muscovite;;;;;;;;x
 d_realnovgorodseversky;Novgorod-Seversky;;;;;;;;x
+d_realnovgorodseversky_adj;Novgorod-Seversky;;;;;;;;x
 k_vidin;Vidin;;;;;;;;x
 k_vidin_adj;Vidinite;;;;;;;;x
 k_tarnovo;Tarnovo;;;;;;;;x
 d_rumelia;Rumelia;;;;;;;;x
 d_rumelia_adj;Rumelian;;;;;;;;x
+e_timurid;Gurkaniya;;;;;;;;x
+e_timurid_adj;Gurkaniyan;;;;;;;;x
 #Patrician Houses
 b_di_ancona;House di Ancona;;;;;;;;x
 b_medici;House de' Medici;;;;;;;;x
