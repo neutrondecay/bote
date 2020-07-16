@@ -104,7 +104,7 @@
 	1254.1.1={
 		birth=yes
 	}
-	1319.1={
+	1319.1.1 ={
 		death=yes
 	}
 }
@@ -231,6 +231,101 @@
 		birth = yes
 	}
 	1408.1.1 = {
+		death = yes
+	}
+}
+#Jalayirids
+801234 = {
+	name="Hasan"
+	dynasty=101914
+	religion="shiite"
+	culture="mongol"
+	father=34520
+	
+	1356.1.1={
+		birth = yes
+		culture = persian
+	}
+	1374.10.9={
+		death = yes
+	}
+}
+801235 = {
+	name="Hussain"
+	dynasty=101914
+	religion="shiite"
+	culture="mongol"
+	father=34520
+	
+	1357.1.1={
+		birth = yes
+		culture = persian
+	}
+	1382.1.19={
+		death = yes
+	}
+}
+801239 = {
+	name="Bayazid"
+	dynasty=101914
+	religion="shiite"
+	culture="mongol"
+	father=34520
+	
+	1360.1.1={
+		birth = yes
+		culture = persian
+	}
+	1402.1.19={
+		death = yes
+	}
+}
+801236 = {
+	name="Ahmad"
+	dynasty=101914
+	religion="shiite"
+	culture="mongol"
+	father=34520
+	
+	1363.1.1={
+		birth = yes
+		culture = persian
+	}
+	1410.1.19={
+		death = yes
+	}
+}
+801237 = {
+	name="Ali"
+	dynasty=101914
+	religion="shiite"
+	culture="mongol"
+	father=34520
+	
+	1363.1.1={
+		birth = yes
+		culture = persian
+	}
+	1410.1.19={
+		death = yes
+	}
+}
+801238 = {
+	name="Tandu"
+	dynasty=101914
+	religion="shiite"
+	culture="mongol"
+	female = yes
+	father=34520
+	trait = fair
+	1370.1.1={
+		birth = yes
+		culture = persian
+	}
+	1375.1.1 = {
+		add_spouse = 801052
+	}
+	1419.1.19={
 		death = yes
 	}
 }
