@@ -40,3 +40,6 @@
 1324.9.4={
 	holder=460620 #Jacques III de Majorque
 }
+1344.1.1 = {
+	holder = 455500
+}
