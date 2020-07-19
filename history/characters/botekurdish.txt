@@ -1,0 +1,40 @@
+#Hazaraspid
+801242 = {
+	name="Nawar al-Ward"
+	dynasty=7333
+	religion="sunni"
+	culture="kurdish"
+	father=93208
+	1340.1.1={
+		birth=yes
+	}
+	1359.1.1={
+		death=yes
+	}
+}
+801243 = {
+	name="Efrasiyab"
+	dynasty=7333
+	religion="sunni"
+	culture="kurdish"
+	father=93207
+	1325.1.1={
+		birth=yes
+	}
+	1378.1.1={
+		death=yes
+	}
+}
+801244 = {
+	name="Pir Ahmad"
+	dynasty=7333
+	religion="sunni"
+	culture="kurdish"
+	father=801242
+	1360.1.1={
+		birth=yes
+	}
+	1408.1.1={
+		death=yes
+	}
+}
