@@ -15,8 +15,21 @@
 	1351.1.1 = {
 		birth = yes
 	}
+	1369.1.1 = {
+	    add_spouse=820148 # Margaret of Mazovia
+	}
+	1350.1.1 = {
+	    effect_even_if_dead = {
+		    c_471536 = {
+			    give_nickname=bote_nick_the_white # giving his killer his distinguishing nickname
+			}
+		}
+	}
 	1377.2.1 = {
-		death = yes
+		death = {
+		    death_reason=death_battle
+			killer=471536 # Wladislaw Piast the White
+		}
 	}
 }
 820501 = { #
@@ -105,6 +118,9 @@
 	1366.1.1 = {
 		birth = yes
 	}
+	1392.1.14 = {
+	    add_spouse=800442 # Ernst Habsburg of Austria
+	}
 	1410.1.1 = {
 		death = yes
 	}
@@ -156,9 +172,17 @@
 	religion = catholic
 
 	father=471653
+	mother=30582 # Sophie of Mecklenburg
 
 	1345.1.1 = {
 		birth = yes
+	}
+	1344.1.1 = {
+	    effect_even_if_dead = {
+		    c_471653 = {
+			    add_spouse=30582 # Sophie of Mecklenburg
+			}
+		}
 	}
 	1394.6.13 = {
 		death = yes
@@ -173,6 +197,7 @@
 	religion = catholic
 
 	father=820507 
+	mother=857200 # Anna of Mecklenburg
 
 	1365.1.1 = {
 		birth = yes
@@ -191,6 +216,7 @@
 	religion = catholic
 
 	father=820507 
+	mother=857200 # Anna of Mecklenburg
 
 	1373.1.1 = {
 		birth = yes
@@ -208,6 +234,7 @@
 	religion = catholic
 
 	father=820510 
+	mother=857209 # Agnes Askanien
 
 	1398.1.1 = {
 		birth = yes
@@ -226,6 +253,7 @@
 	religion = catholic
 
 	father=820507 
+	mother=857200 # Anna of Mecklenburg
 
 	1370.1.1 = {
 		birth = yes
@@ -244,9 +272,13 @@
 	religion = catholic
 
 	father=471653
+	mother=30582 # Sophie of Mecklenburg
 
 	1350.1.1 = {
 		birth = yes
+	}
+	1376.1.1 = {
+	    add_spouse=857220 # Jutta Askanien of Saxe-Lauenburg
 	}
 	1389.1.1 = {add_spouse = 802674}
 	1393.1.1 = {
@@ -263,11 +295,15 @@
 	religion = catholic
 
 	father=471653
+	mother=30582 # Sophie of Mecklenburg
 
-	1355.1.1 = {
+	1353.1.1 = {
 		birth = yes
 	}
-	1401.1.1 = {
+	1369.7.7 = {
+	    add_spouse=802529 # Magnus I Niklotid of Mecklenburg
+	}
+	1388.12.31 = {
 		death = yes
 	}
 }
@@ -305,6 +341,176 @@
 		birth = yes
 	}
 	1457.4.17 = {
+		death = yes
+	}
+}
+856100 = {
+	name = "Anna"
+	female=yes
+	dynasty = 177
+
+	culture = pommeranian
+	religion = catholic
+
+	father=820504 # Barnim V
+	mother=855026 # Jadvyga of Lithuania
+
+	1397.1.1 = {
+		birth = yes
+	}
+}
+856101 = {
+	name = "Kazimierz"
+	dynasty = 177
+
+	culture = pommeranian
+	religion = catholic
+
+	father=451952 # Barnim III of Pomerania
+	mother=462813 # Agnes Welf of Brunswick-Grubenhagen
+
+	1348.1.1 = {
+		birth = yes
+	}
+	1372.8.24 = {
+		death = {
+		    death_reason=death_battle
+			killer=802565 # Otto Wittelsbach of Brandenburg
+		}
+	}
+}
+856102 = {
+	name = "Swantibor"
+	dynasty = 177
+
+	culture = pommeranian
+	religion = catholic
+
+	father=451952 # Barnim III of Pomerania
+	mother=462813 # Agnes Welf of Brunswick-Grubenhagen
+
+	1351.1.1 = {
+		birth = yes
+	}
+	1413.6.21 = {
+		death = yes
+	}
+}
+856103 = {
+	name = "Bogislaw"
+	dynasty = 177
+
+	culture = pommeranian
+	religion = catholic
+
+	father=451952 # Barnim III of Pomerania
+	mother=462813 # Agnes Welf of Brunswick-Grubenhagen
+
+	1355.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+856104 = {
+	name = "Otton"
+	dynasty = 177
+
+	culture = pommeranian
+	religion = catholic
+
+	father=856102 # Swantibor III of Pomerania
+	mother=857216 # Anna von Hohenzollern
+
+	1380.1.1 = {
+		birth = yes
+	}
+	1397.1.1 = {
+	    effect = {
+		    add_claim=c_riga
+		}
+	}
+	1428.3.27 = {
+		death = yes
+	}
+}
+856105 = {
+	name = "Kazimierz"
+	dynasty = 177
+
+	culture = pommeranian
+	religion = catholic
+
+	father=856102 # Swantibor III of Pomerania
+	mother=857216 # Anna von Hohenzollern
+
+	1381.1.1 = {
+		birth = yes
+	}
+	1435.4.13 = {
+		death = yes
+	}
+}
+856106 = {
+	name = "Albert"
+	dynasty = 177
+
+	culture = pommeranian
+	religion = catholic
+
+	father=856102 # Swantibor III of Pomerania
+	mother=857216 # Anna von Hohenzollern
+
+	1385.1.1 = {
+		birth = yes
+	}
+	1412.5.29 = {
+		death = yes
+	}
+}
+856107 = {
+	name = "Malgorzata"
+	female=yes
+	dynasty = 177
+
+	culture = pommeranian
+	religion = catholic
+
+	father=856102 # Swantibor III of Pomerania
+	mother=857216 # Anna von Hohenzollern
+
+	1375.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+	    add_spouse=857204 # Ulrich I of Mecklenburg-Stargard
+	}
+	1467.1.1 = {
+		death = yes
+	}
+}
+856108 = {
+	name = "Zofia"
+	female=yes
+	dynasty = 177
+
+	culture = pommeranian
+	religion = catholic
+
+	father=820513 # Bogislaw VI of Pomerania
+	mother=802674 # Agnes of Mecklenburg
+
+	1380.1.1 = {
+		birth = yes
+	}
+	1396.2.1 = {
+	    add_spouse=802536 # Eric I of Mecklenburg
+	}
+	1398.4.1 = {
+	    add_spouse=802549 # Nikolaus V of Werle
+	}
+	1408.1.1 = {
 		death = yes
 	}
 }
