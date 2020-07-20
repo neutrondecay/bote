@@ -35,6 +35,9 @@ e_timurid_adj;Gurkaniyan;;;;;;;;x
 b_di_ancona;House di Ancona;;;;;;;;x
 b_medici;House de' Medici;;;;;;;;x
 d_firenze;Firenze;;;;;;;;x
+b_pleskow;House Pleskow;;;;;;;;x
+b_rentelen;House von Rentelen;;;;;;;;x
+b_klingenberg;House Klingenberg;;;;;;;;x
 #Keys
 PRINCE;Prince;;;;;;;;x
 PRINCESS;Princess;;;;;;;;x
@@ -73,3 +76,4 @@ EVTDESCbote.00004;Since Parliament has disregarded your appeal, you decide to ta
 bote_nick_the_elder;the Elder;;;;;;;;x
 bote_nick_nevsky;Nevsky;;;;;;;;x
 bote_nick_donskoy;Donskoy;;;;;;;;x
+bote_nick_the_white;The White;;;;;;;;x
