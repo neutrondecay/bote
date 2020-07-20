@@ -1375,3 +1375,46 @@
 		birth = yes
 	}
 }
+855025 = {
+	name = "Kena"
+	female=yes
+	dynasty = 11
+
+	culture = lithuanian
+	religion = orthodox
+
+	father=473506 #Grand Duke Algirdas
+	mother=472879 #Ulyana of Tver
+
+	1347.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {
+	    religion = catholic
+		name="Joana"
+		add_spouse=820500 # Casimir IV of Pomerania
+	}
+	1368.4.27 = {
+		death = yes
+	}
+}
+855026 = {
+	name = "Jadvyga"
+	female=yes
+	dynasty = 11
+
+	culture = lithuanian
+	religion = catholic
+
+	father=855017 # Tautvilas brother of Vytautas
+
+	1380.1.1 = {
+		birth = yes
+	}
+	1396.9.27 = {
+	    add_spouse=820504 # Barnim V of Pomerania
+	}
+	1408.1.1 = {
+	    death = yes
+	}
+}
