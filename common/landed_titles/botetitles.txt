@@ -94,7 +94,7 @@ k_muscovy = {
 	german = "Moskau"
 	roman = "Moscovia"
 	french = "Moscou"
-	castillan = "Moscú"
+	castillan = "MoscÃº"
 	greek = "Moschovia"
 	italian = "Mosca"
 }
@@ -239,4 +239,16 @@ e_timurid = {
 	
 	title = duke_arabic
 	title_female = duke_female_arabic
+}
+b_pleskow = {
+	culture = german
+	religion = catholic
+}
+b_rentelen = {
+	culture = german
+	religion = catholic
+}
+b_klingenberg = {
+	culture = german
+	religion = catholic
 }
