@@ -568,6 +568,26 @@
 	culture = bedouin_arabic
 	religion = sunni
 }
+3000117 = {
+	name = "Aq Koyunlu"
+	culture = turkish
+	religion = sunni
+}
+3000118 = {
+	name = "Kara Koyunlu"
+	culture = turkish
+	religion = sunni
+}
+3000119 = {
+	name = "de Bethencourt"
+	culture = frankish
+	religion = catholic
+}
+3000120 = {
+	name = "Timurid"
+	culture = mongol
+	religion = sunni
+}
 3000016 = {
 	name = "de Valois-Bourgogne"
 	religion = catholic
@@ -757,10 +777,4 @@
 	name = "Horvat"
 	religion = catholic
 	culture = croatian
-}
-
-3600000 = {
-	name = "Druel"
-	religion = catholic
-	culture = english
 }
