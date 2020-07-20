@@ -23,3 +23,11 @@
 {
 	holder=167242 #Johann Lüneburg
 }
+1342.1.1=
+{
+	holder=857236 #Johann Lüneburg
+}
+1373.4.2=
+{
+	holder=857237 #Johann Lüneburg
+}

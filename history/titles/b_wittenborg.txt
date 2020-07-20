@@ -27,3 +27,7 @@
 {
 	holder=167265 #Waldemar Wittenborg
 }
+1345.1.1=
+{
+	holder=0
+}

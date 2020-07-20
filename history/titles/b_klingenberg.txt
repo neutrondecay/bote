@@ -1,0 +1,5 @@
+1350.1.1 = {
+	holding_dynasty = 350033 #Klingenberg- makes this a FAMILY_PALACE type Holding
+	liege="k_hansa"
+	holder=857243 # Goswin Klingenberg
+}

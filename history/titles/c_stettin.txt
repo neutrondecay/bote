@@ -59,9 +59,8 @@ holder=451950 #Otton
 holder=451952
 }
 1368.8.24={
-	holder=471655
+	holder=856101 # Casimir III of Pommerania
 }
-1373.12.7={
-	holder=820504 #Barnim
+1372.8.24={
+	holder=856102 # Swantibor III of Pommerania
 }
-

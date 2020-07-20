@@ -19,3 +19,7 @@
 {
 	holder=167224 #Hermann Vorrade
 }
+1339.1.1=
+{
+	holder=0
+}

@@ -1,0 +1,5 @@
+1380.1.1 = {
+	holding_dynasty = 350032 #Von Rentelen- makes this a FAMILY_PALACE type Holding
+	liege="k_hansa"
+	holder=857239 # Henning von Rentelen
+}

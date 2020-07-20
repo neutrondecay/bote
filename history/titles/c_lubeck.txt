@@ -125,3 +125,15 @@ holder=168583
 {
 	holder=167168 #Bruno Warendorp
 }
+1341.5.29=
+{
+	holder=167171 # Gottschalk Warendorp
+}
+1365.1.1=
+{
+	holder=167173 # Bruno Warendorp the Younger
+}
+1372.1.1=
+{
+	holder=857222 # Jordan Pleskow
+}

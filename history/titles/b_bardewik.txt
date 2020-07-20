@@ -15,3 +15,7 @@
 {
 	holder=167158 #Adolf von Bardewik
 }
+1340.1.1=
+{
+	holder=0
+}
