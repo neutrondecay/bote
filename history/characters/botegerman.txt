@@ -1057,6 +1057,9 @@
 	1358.1.1 = {
 		birth = yes
 	}
+	1373.4.8 = {
+	    add_spouse=857208 # Eric IV Askanien of Saxe-Lauenburg
+	}
 	1416.5.28 = {
 		death = yes
 	}
@@ -1586,6 +1589,7 @@
 	religion = catholic
 	
 	father = 451994
+	mother=857201 # Agnes von Lindow-Ruppin
 	
 	1349.1.1 = {
 		birth = yes
@@ -1603,6 +1607,7 @@
 	religion = catholic
 	
 	father = 451994
+	mother=857201 # Agnes von Lindow-Ruppin
 	
 	1352.1.1 = {
 		birth = yes
@@ -1618,7 +1623,8 @@
 	culture = german
 	religion = catholic
 	
-	father = 33293
+	father=857218 # Bernhard II of Werle
+	mother=451965 # Elisabeth of Schauenburg
 	
 	1341.1.1 = {
 		birth = yes
@@ -1635,6 +1641,7 @@
 	religion = catholic
 	
 	father = 802548
+	mother=857219 # Agnes of Werle
 	
 	1370.1.1 = {
 		birth = yes
@@ -1651,6 +1658,7 @@
 	religion = catholic
 	
 	father = 802548
+	mother=857219 # Agnes of Werle
 	
 	1375.1.1 = {
 		birth = yes
@@ -1668,6 +1676,7 @@
 	religion = catholic
 	
 	father = 802548
+	mother=857219 # Agnes of Werle
 	
 	1377.1.1 = {
 		birth = yes
@@ -1686,6 +1695,7 @@
 	religion = catholic
 	
 	father = 802548
+	mother=857219 # Agnes of Werle
 	
 	1380.1.1 = {
 		birth = yes
@@ -1702,7 +1712,8 @@
 	culture = german
 	religion = catholic
 	
-	father = 33293
+	father=857218 # Bernhard II of Werle
+	mother=451965 # Elisabeth of Schauenburg
 	
 	1346.1.1 = {
 		birth = yes
@@ -1720,7 +1731,8 @@
 	culture = german
 	religion = catholic
 	
-	father = 33293
+	father=857218 # Bernhard II of Werle
+	mother=451965 # Elisabeth of Schauenburg
 	
 	1350.1.1 = {
 		birth = yes
@@ -3446,6 +3458,7 @@
 	religion = catholic
 	
 	father = 462402
+	mother=857217 # Margarethe von Hohenzollern
 	
 	1384.10.30 = {
 		birth = yes
@@ -3463,6 +3476,7 @@
 	religion = catholic
 	
 	father = 462402
+	mother=857217 # Margarethe von Hohenzollern
 	
 	1376.1.1 = {
 		birth = yes
@@ -3742,7 +3756,7 @@
 
 	dynasty = 285
 	mother = 810005 #Maria of Gelre
-	father = 462936 #William of J�lich
+	father = 462936 #William of Jülich
 
 	1365.1.1 = {
 		birth = yes
@@ -3759,7 +3773,7 @@
 
 	dynasty = 285
 	mother = 810005 #Maria of Gelre
-	father = 462936 #William of J�lich
+	father = 462936 #William of Jülich
 
 	1366.1.1 = {
 		birth = yes
@@ -3965,5 +3979,756 @@
 	}
 	1403.1.1 = {
 		death = yes
+	}
+}
+857200 = {
+	name = "Anna"
+	female=yes
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 101893
+
+	father = 451983 # Johann I of Mecklenburg-Stargard
+	mother=857202 # Anna von Schauenburg
+
+	1345.1.1 = {
+		birth = yes
+	}
+	1363.4.4 = {
+	    add_spouse=820507 # Wartislaw VI of Pomerania
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+857201 = {
+	name = "Agnes" # von Lindow-Ruppin
+	female=yes
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 350028
+
+	1333.1.1 = {
+		birth = yes
+	}
+	1349.1.1 = {
+	    add_spouse=451994 # Nicholas IV of Werle
+	}
+	1358.1.1 = {
+	    add_spouse=451983 # Johann I of Mecklenburg-Stargard
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+857202 = {
+	name = "Anna"
+	female=yes
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 12463
+	father=31761 # Adolf VII of Pinneberg and Schauenburg
+
+	1325.1.1 = {
+		birth = yes
+	}
+	1346.1.1 = {
+	    add_spouse=451983 # Johann I of Mecklenburg-Stargard
+	}
+	1358.1.1 = {
+		death = yes
+	}
+}
+857203 = {
+	name = "Johann"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 101893
+
+	father = 451983 # Johann I of Mecklenburg-Stargard
+	mother=857201 # Agnes von Lindow-Ruppin
+
+	1370.1.1 = {
+		birth = yes
+	}
+	1416.10.9 = {
+		death = yes
+	}
+}
+857204 = {
+	name = "Ulrich"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 101893
+
+	father = 451983 # Johann I of Mecklenburg-Stargard
+	mother=857201 # Agnes von Lindow-Ruppin
+
+	1382.1.1 = {
+		birth = yes
+	}
+	1417.4.8 = {
+		death = yes
+	}
+}
+857205 = {
+	name = "Rudolf"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 101893
+
+	father = 451983 # Johann I of Mecklenburg-Stargard
+	mother=857201 # Agnes von Lindow-Ruppin
+
+	1380.1.1 = {
+		birth = yes
+	}
+	1415.7.28 = {
+		death = yes
+	}
+}
+857206 = {
+	name = "Albert"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 101893
+
+	father = 451983 # Johann I of Mecklenburg-Stargard
+	mother=857201 # Agnes von Lindow-Ruppin
+
+	1367.1.1 = {
+		birth = yes
+	}
+	1397.7.1 = {
+		death = yes
+	}
+}
+857207 = {
+	name = "Constance"
+	female=yes
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 101893
+
+	father = 451983 # Johann I of Mecklenburg-Stargard
+	mother=857201 # Agnes von Lindow-Ruppin
+
+	1373.1.1 = {
+		birth = yes
+	}
+	1408.1.1 = {
+		death = yes
+	}
+}
+857208 = {
+	name = "Erich"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 226
+
+	father = 33346 # Eric II Askanien of Saxe-Lauenburg
+	mother=451966 # Agnes of Schauenburg
+
+	1354.1.1 = {
+		birth = yes
+	}
+	1412.6.21 = {
+		death = yes
+	}
+}
+857209 = {
+	name = "Agnes"
+	female=yes
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 226
+
+	father = 857208 # Eric IV Askanien of Saxe-Lauenburg
+	mother=802675 # Sofie Welf of Brunswick
+
+	1375.1.1 = {
+		birth = yes
+	}
+	1397.1.1 = {
+	    add_spouse=820510 # Wartislaw VIII of Pomerania
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+857210 = {
+	name = "Erich"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 226
+
+	father = 857208 # Eric IV Askanien of Saxe-Lauenburg
+	mother=802675 # Sofie Welf of Brunswick
+
+	1374.1.1 = {
+		birth = yes
+	}
+	1436.1.1 = {
+		death = yes
+	}
+}
+857211 = {
+	name = "Johann"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 226
+
+	father = 857208 # Eric IV Askanien of Saxe-Lauenburg
+	mother=802675 # Sofie Welf of Brunswick
+
+	1376.1.1 = {
+		birth = yes
+	}
+	1414.1.1 = {
+		death = yes
+	}
+}
+857212 = {
+	name = "Magnus"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 226
+
+	father = 857208 # Eric IV Askanien of Saxe-Lauenburg
+	mother=802675 # Sofie Welf of Brunswick
+
+	1390.1.1 = {
+		birth = yes
+	}
+	1452.9.21 = {
+		death = yes
+	}
+}
+857213 = {
+	name = "Albrecht"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 226
+
+	father = 857208 # Eric IV Askanien of Saxe-Lauenburg
+	mother=802675 # Sofie Welf of Brunswick
+
+	1384.1.1 = {
+		birth = yes
+	}
+	1421.3.20 = {
+		death = yes
+	}
+}
+857214 = {
+	name = "Bernhard"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 226
+
+	father = 857208 # Eric IV Askanien of Saxe-Lauenburg
+	mother=802675 # Sofie Welf of Brunswick
+
+	1385.1.1 = {
+		birth = yes
+	}
+	1463.7.16 = {
+		death = yes
+	}
+}
+857215 = {
+	name = "Albrecht"
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 101893
+
+	father = 857204 # Ulrich I of Mecklenburg-Stargard
+	mother=856107 # Margaret of Pomerania-Stettin
+
+	1400.1.1 = {
+		birth = yes
+	}
+	1423.10.10 = {
+		death = yes
+	}
+}
+857216 = {
+	name = "Anna"
+	female=yes
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 12476
+
+	father = 487023 # Albrecht the Fair von Hohenzollern
+
+	1360.1.1 = {
+		birth = yes
+	}
+	1376.1.1 = {
+	    add_spouse=856102 # Swantibor III of Pomerania
+	}
+	1413.1.1 = {
+		death = yes
+	}
+}
+857217 = {
+	name = "Margarethe"
+	female=yes
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 12476
+
+	father = 487023 # Albrecht the Fair von Hohenzollern
+
+	1359.1.1 = {
+		birth = yes
+	}
+	1375.1.1 = {
+	    add_spouse=462402 # Balthasar Wettin of Thuringia
+	}
+	1391.1.1 = {
+		death = yes
+	}
+}
+857218 = {
+	name="Bernhard"
+	dynasty=101893 #Niklotid
+	religion="catholic"
+	culture="german"
+	father=30576
+	mother=462820
+	1322.1.1 = {
+		birth=yes
+	}
+	1322.1.1 = {
+		effect_even_if_dead = {
+		    c_33293 = {
+			    dynasty=350025 # duplicated character assigned to random dynasty
+				set_father=0
+			}
+		}
+	}
+	1340.1.1 = {
+	    add_spouse=451965 # Elisabeth of Schauenburg
+	}
+	1382.4.13 = {
+		death=yes
+	}
+}
+857219 = {
+	name = "Agnes"
+	dynasty = 101893
+	female=yes
+
+	culture = german
+	religion = catholic
+	
+	father=451994
+	mother=857201 # Agnes von Lindow-Ruppin
+	
+	1353.1.1 = {
+		birth = yes
+	}
+	1369.1.1 = {
+	    add_spouse=802548 # Johann VI of Werle
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+857220 = {
+	name = "Jutta"
+	female=yes
+	culture = "german"
+	religion = "catholic"
+
+	dynasty= 226
+
+	father = 33346 # Eric II Askanien of Saxe-Lauenburg
+	mother=451966 # Agnes of Schauenburg
+
+	1360.1.1 = {
+		birth = yes
+	}
+	1388.1.1 = {
+		death = yes
+	}
+}
+857221 = {
+	name = "Katharine"
+	female=yes
+	dynasty = 101893
+
+	culture = german
+	religion = catholic
+	
+	father=30580 # Nicholas III of Werle
+	mother=451964 # Matilda von Schauenburg
+	
+	1345.1.1 = {
+		birth = yes
+	}
+	1341.1.1 = {
+	    effect_even_if_dead = {
+		    c_30580 = {
+			    add_spouse=451964 # Matilda von Schauenburg
+			}
+		}
+	}
+	1402.12.17 = {
+		death = yes
+	}
+}
+857222 = {
+	name = "Jordan" # Pleskow
+	dynasty = 350029
+
+	culture = german
+	religion = catholic
+	
+	1357.1.1 = {
+		birth = yes
+	}
+	1425.10.25 = {
+		death = yes
+	}
+}
+857223 = {
+	name = "Wilhelm"
+	dynasty = 9512
+
+	culture = german
+	religion = catholic
+	father=167168 # Bruno Warendorp the Older
+	
+	1300.1.1 = {
+		birth = yes
+	}
+	1359.1.1 = {
+		death = yes
+	}
+}
+857224 = {
+	name = "Bruno"
+	dynasty = 9512
+
+	culture = german
+	religion = catholic
+	father=857223 # Wilhelm Warendorp
+	
+	1332.1.1 = {
+		birth = yes
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+857225 = {
+	name = "Wilhelm"
+	dynasty = 9512
+
+	culture = german
+	religion = catholic
+	father=857223 # Wilhelm Warendorp
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1358.1.1 = {
+		death = yes
+	}
+}
+857226 = {
+	name = "Gottschalk"
+	dynasty = 9512
+
+	culture = german
+	religion = catholic
+	father=857223 # Wilhelm Warendorp
+	
+	1342.1.1 = {
+		birth = yes
+	}
+	1358.9.1 = {
+		death = yes
+	}
+}
+857227 = {
+	name = "Dietrich"
+	dynasty = 9512
+
+	culture = german
+	religion = catholic
+	father=857223 # Wilhelm Warendorp
+	
+	1344.1.1 = {
+		birth = yes
+	}
+	1359.1.1 = {
+		death = yes
+	}
+}
+857228 = {
+	name = "Hermann"
+	dynasty = 9512
+
+	culture = german
+	religion = catholic
+	father=857223 # Wilhelm Warendorp
+	
+	1346.1.1 = {
+		birth = yes
+	}
+	1360.3.28 = {
+		death = yes
+	}
+}
+857229 = {
+	name = "Bruno"
+	dynasty = 9512
+
+	culture = german
+	religion = catholic
+	father=857224 # Bruno Warendorp dead in 1411
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1457.1.1 = {
+		death = yes
+	}
+}
+857230 = {
+	name = "Hildegard"
+	female=yes
+	dynasty = 9512
+
+	culture = german
+	religion = catholic
+	father=857224 # Bruno Warendorp dead in 1411
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}
+857231 = {
+	name = "Tidermann"
+	dynasty = 350030
+
+	culture = german
+	religion = catholic
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+	    add_spouse=857230 # Hildegard Warendorp
+	}
+	1422.1.1 = {
+		death = yes
+	}
+}
+857232 = {
+	name = "Elisabeth"
+	female=yes
+	dynasty = 9512
+
+	culture = german
+	religion = catholic
+	father=857224 # Bruno Warendorp dead in 1411
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1416.1.1 = {
+		death = yes
+	}
+}
+857233 = {
+	name = "Heinrich"
+	dynasty = 350031
+
+	culture = german
+	religion = catholic
+	
+	1354.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {
+	    add_spouse=857232 # Elisabeth Warendorp
+	}
+	1433.1.1 = {
+		death = yes
+	}
+}
+857234 = {
+	name = "Jordan" # Pleskow II
+	dynasty = 350029
+
+	culture = german
+	religion = catholic
+	father=857222
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1451.8.5 = {
+		death = yes
+	}
+}
+857235 = {  	
+	name="Johann"
+	dynasty=9513
+	religion="catholic"
+	culture="german"
+	father=167237 # Alexander von Lüneburg
+	mother=167238
+	
+	1290.1.1={
+		birth=yes
+	}
+	1335.1.1={
+		death=yes
+	}
+}
+857236 = {  	
+	name="Johann"
+	dynasty=9513
+	religion="catholic"
+	culture="german"
+	father=857235 # Johann von Lüneburg
+	
+	1325.1.1={
+		birth=yes
+	}
+	1373.4.2={
+		death=yes
+	}
+}
+857237 = {  	
+	name="Johann"
+	dynasty=9513
+	religion="catholic"
+	culture="german"
+	father=857236 # Johann II von Lüneburg
+	
+	1350.1.1={
+		birth=yes
+	}
+	1406.1.1={
+		death=yes
+	}
+}
+857238 = {  	
+	name="Johann"
+	dynasty=9513
+	religion="catholic"
+	culture="german"
+	father=857237 # Johann III von Lüneburg
+	
+	1394.1.1={
+		birth=yes
+	}
+	1461.11.15={
+		death=yes
+	}
+}
+857239 = {  	
+	name="Henning" # von Rentelen
+	dynasty=350032
+	religion="catholic"
+	culture="german"
+	
+	1360.1.1={
+		birth=yes
+	}
+	1406.10.6={
+		death=yes
+	}
+}
+857240 = {  	
+	name="Christian" # von Rentelen
+	dynasty=350032
+	religion="catholic"
+	culture="german"
+	father=857239 # Henning von Rentelen
+	
+	1380.1.1={
+		birth=yes
+	}
+	1431.6.1={
+		death=yes
+	}
+}
+857241 = {  	
+	name="Elisabeth" # von Rentelen
+	female=yes
+	dynasty=350032
+	religion="catholic"
+	culture="german"
+	father=857239 # Henning von Rentelen
+	
+	1382.1.1={
+		birth=yes
+	}
+}
+857242 = {  	
+	name="Adelheid" # von Rentelen
+	female=yes
+	dynasty=350032
+	religion="catholic"
+	culture="german"
+	father=857239 # Henning von Rentelen
+	
+	1385.1.1={
+		birth=yes
+	}
+}
+857243 = {  	
+	name="Goswin" # Klingenberg
+	dynasty=350033
+	religion="catholic"
+	culture="german"
+	
+	1349.1.1={
+		birth=yes
+	}
+	1416.3.16={
+		death=yes
+	}
+}
+857244 = {  	
+	name="Johann" # Klingenberg
+	dynasty=350033
+	religion="catholic"
+	culture="german"
+	father=857243 # Goswin Klingenberg
+	
+	1390.1.1={
+		birth=yes
+	}
+	1455.10.10={
+		death=yes
 	}
 }
