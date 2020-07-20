@@ -455,7 +455,7 @@
 	1090.1.2={
 		birth="1090.1.2"
 	}
-	1125.1.1={
+	1122.1.1={
 		add_spouse=100554 # Ingrid Ragnvaldsdotter
 	}
 	1134.6.4={
@@ -1062,7 +1062,7 @@
 	1096.1.15={
 		birth="1096.1.15"
 	}
-	1127.1.1={
+	1120.1.1={
 		add_spouse=222593
 	}
 	1131.1.13={
@@ -1149,7 +1149,6 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
 	trait="tough_soldier"
 	father=201517 # Erik Emune
 	mother=222594
@@ -1465,7 +1464,7 @@
 	1153.1.2={
 		birth="1153.1.2"
 	}
-	1170.1.2={
+	1168.1.2={
 		add_spouse=201544
 	}
 	1203.1.2={
@@ -3086,6 +3085,9 @@
 	1212.1.1 = {
 		birth="1212.1.1" 
 	}
+	1249.1.1 = {
+		add_spouse = 151007
+	}
 	1272.12.25 = {
 		death="1272.12.25"
 	}
@@ -3727,7 +3729,7 @@
 	1170.1.1={
 		birth="1170.1.1"
 	}
-	1210.1.1={
+	1199.1.1={
 		add_spouse = 201525 # Ingeborg Esbernsdatter
 	}
 	1242.1.1={
@@ -3743,6 +3745,7 @@
 	culture="danish"
 	father=170022 # Peder Strangesen
 	mother=201525 # Ingeborg Esbernsdatter
+	
 	1200.1.1 = {
 		birth=yes
 	}
@@ -3971,6 +3974,9 @@
 	dynasty = 1062000
 	1115.1.1 = {
 		birth = yes
+	}
+	1135.1.1 = {
+		add_spouse = 310017
 	}
 	1165.1.1 = {
 		death = yes

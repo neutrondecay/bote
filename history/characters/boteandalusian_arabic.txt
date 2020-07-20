@@ -116,18 +116,18 @@
 		death = yes
 	}
 }
-801129 = {
-	name="Ahmad"
-	dynasty=101904
-	religion="sunni"
-	culture="andalusian_arabic"
-	father=800682
-	mother = 800686
+# 801129 = {
+	# name="Ahmad"
+	# dynasty=101904
+	# religion="sunni"
+	# culture="andalusian_arabic"
+	# father=800682
+	# mother = 800686
 	
-	1383.6.1 = {
-		birth = yes
-	}
-	1450.5.13 ={
-		death = yes
-	}
-}
+	# 1383.6.1 = {
+		# birth = yes
+	# }
+	# 1450.5.13 ={
+		# death = yes
+	# }
+# }

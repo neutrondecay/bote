@@ -2290,9 +2290,9 @@
 	1288.1.1={
 		birth="1288.1.1"
 	}
-	#1318.1.1={
-		#add_spouse = Anna Raciborska
-	#}
+	1318.1.1={
+		add_spouse = 125972
+	}
 	1365.12.8={
 		death="1365.12.8"
 	}
@@ -2304,7 +2304,7 @@
 	religion = catholic
 	culture = bohemian
 	father = 96053
-	#mother = Anna Raciborska
+	mother = 125972
 	1332.1.1={
 		birth="1332.1.1"
 	}
@@ -2485,7 +2485,7 @@
 	religion = catholic
 	culture = bohemian
 	father = 96053
-	#mother = Anna Raciborska
+	mother = 125972
 	1325.1.1={
 		birth="1325.1.1"
 	}

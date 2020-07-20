@@ -1482,24 +1482,24 @@
 		death=yes
 	}
 }
-802043 = {
-	name="Marguerite" # Duchess of Bavaria
-	dynasty=3000016
-	female=yes
+# 802043 = {
+	# name="Marguerite" # Duchess of Bavaria
+	# dynasty=3000016
+	# female=yes
 	
-	religion="catholic"
-	culture="frankish"
+	# religion="catholic"
+	# culture="frankish"
 
-	father=802004 # Philip the Bold
-	mother=802040 # Margaret III of Flanders
+	# father=802004 # Philip the Bold
+	# mother=802040 # Margaret III of Flanders
 
-	1374.10.1 = {
-		birth=yes
-	}
-	1441.3.8 = {
-		death=yes
-	}
-}
+	# 1374.10.1 = {
+		# birth=yes
+	# }
+	# 1441.3.8 = {
+		# death=yes
+	# }
+# }
 802044 = {
 	name="Louis" # died young
 	dynasty=3000016
@@ -2945,7 +2945,7 @@
 	1360.3.1 = {
 		birth=yes
 	}
-	1385.1.1 = {add_spouse=802033} # Bonne of Berry
+	1381.1.1 = {add_spouse=802033} # Bonne of Berry
 	1391.11.1 = {
 		death=yes
 	}
@@ -3616,7 +3616,7 @@
 	1344.1.1 = {
 		birth=yes
 	}
-	1364.1.1 = {add_spouse = 802006}
+	1362.1.1 = {add_spouse = 802006}
 	1411.1.1 = {
 		death=yes
 	}
