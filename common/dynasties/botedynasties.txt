@@ -778,3 +778,33 @@
 	religion = catholic
 	culture = croatian
 }
+350028 = {
+	name = "von Lindow-Ruppin"
+	religion = catholic
+	culture = german
+}
+350029 = {
+	name = "Pleskow"
+	religion = catholic
+	culture = german
+}
+350030 = {
+	name = "Morkerke"
+	religion = catholic
+	culture = german
+}
+350031 = {
+	name = "Meteler"
+	religion = catholic
+	culture = german
+}
+350032 = {
+	name = "von Rentelen"
+	religion = catholic
+	culture = german
+}
+350033 = {
+	name = "Klingenberg"
+	religion = catholic
+	culture = german
+}
