@@ -13,7 +13,7 @@
 	}
 }
 800557 = {
-	name="Dabiöa"
+	name="Dabi≈°a"
 	dynasty=34
 	religion="catholic"
 	culture="bosnian"
@@ -216,7 +216,7 @@
 	}
 }
 800574 = {
-	name="Dragiöa"
+	name="Dragi≈°a"
 	dynasty=18006
 	religion="bogomilist"
 	culture="bosnian"
@@ -259,6 +259,9 @@
 		add_spouse = 469510
 	}
 	1387.1.2={
-		death=yes
+		death = {
+			death_reason=death_execution
+			killer=854900 # Paul Horvat Bishop of Zagreb
+		}
 	}
 }
