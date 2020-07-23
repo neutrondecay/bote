@@ -1086,3 +1086,16 @@
 		death = yes
 	}
 }
+854300 = {
+	name = "Scibor" # Ostoja
+	dynasty=350023
+	culture = polish
+	religion = catholic
+	
+	1348.1.1 = {
+		birth = yes
+	}
+	1414.2.1 = {
+		death = yes
+	}
+}
