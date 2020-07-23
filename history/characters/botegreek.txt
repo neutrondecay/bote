@@ -50,9 +50,6 @@
 	1350.6.27 = {
 		birth = yes
 	}
-	1392.1.1 = {
-		add_spouse = 801055
-	}
 	1425.7.21 = {
 		death = yes
 	}
@@ -181,7 +178,7 @@
 	female = yes
 	trait = born_in_the_purple
 	father = 800452
-	mother = 801055
+	mother = 855107
 	
 	1392.1.1 = {
 		birth = yes
@@ -198,7 +195,7 @@
 	#female = yes
 	trait = born_in_the_purple
 	father = 800452
-	mother = 801055
+	mother = 855107
 	
 	1392.12.18 = {
 		birth = yes
@@ -215,7 +212,7 @@
 	#female = yes
 	trait = born_in_the_purple
 	father = 800452
-	mother = 801055
+	mother = 855107
 	
 	1393.8.30 = {
 		birth = yes
@@ -232,7 +229,7 @@
 	#female = yes
 	trait = born_in_the_purple
 	father = 800452
-	mother = 801055
+	mother = 855107
 	
 	1394.10.31 = {
 		birth = yes
@@ -249,7 +246,7 @@
 	#female = yes
 	trait = born_in_the_purple
 	father = 800452
-	mother = 801055
+	mother = 855107
 	
 	1398.3.25 = {
 		birth = yes

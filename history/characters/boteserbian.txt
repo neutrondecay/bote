@@ -245,38 +245,38 @@
 	}
 }
 ###
-800455 = {
-	name="Konstantin"
-	dynasty=184
-	religion="orthodox"
-	culture="serbian"
-	father=468502
+# 800455 = {
+	# name="Konstantin"
+	# dynasty=184
+	# religion="orthodox"
+	# culture="serbian"
+	# father=468502
 	
-	1352.1.1 = {
-		birth=yes
-	}
-	1395.5.17 = {
-		death = yes
-	}
-}
-801055 = {
-	name="Jelena"
-	dynasty=184
-	religion="orthodox"
-	culture="serbian"
-	female = yes
-	father=800455
-	trait = scholarly_theologian
-	trait = fair
-	trait = shrewd
-	trait = just
-	1372.1.1 = {
-		birth=yes
-	}
-	1450.3.23 = {
-		death = yes
-	}
-}
+	# 1352.1.1 = {
+		# birth=yes
+	# }
+	# 1395.5.17 = {
+		# death = yes
+	# }
+# }
+# 801055 = {
+	# name="Jelena"
+	# dynasty=184
+	# religion="orthodox"
+	# culture="serbian"
+	# female = yes
+	# father=800455
+	# trait = scholarly_theologian
+	# trait = fair
+	# trait = shrewd
+	# trait = just
+	# 1372.1.1 = {
+		# birth=yes
+	# }
+	# 1450.3.23 = {
+		# death = yes
+	# }
+# }
 855100 = {
 	name = "Dragana"
 	female=yes
@@ -411,7 +411,10 @@
 	dynasty = 350014
 	culture = serbian
 	religion = orthodox
-	
+	trait = scholarly_theologian
+	trait = fair
+	trait = shrewd
+	trait = just
 	father=855102 # Konstantin Dejanovic
 	
 	1372.1.1 = {
