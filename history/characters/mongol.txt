@@ -3532,6 +3532,7 @@
    }
    1198.1.1={
      effect = {add_rival = 125502 } #Becomes rivals with Jochi
+	 add_spouse = 166899
    }
    1242.1.1={
      death=yes
@@ -4316,7 +4317,6 @@
    culture="mongol"
    father=172005
    mother=166909
-   add_trait="child_of_consort"
    1210.1.1={
      birth=yes
    }
@@ -7317,7 +7317,6 @@
 	culture="mongol"
 	father=172005
 	mother=166909
-	add_trait="child_of_consort"
 	1215.1.1={
 		birth=yes
 	}

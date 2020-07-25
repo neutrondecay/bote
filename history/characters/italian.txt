@@ -61,7 +61,7 @@
 	899.1.1 = {
 		add_spouse=167929
 	}
-	920.1.1 = {
+	915.1.1 = {
 		add_spouse=167907
 	}
 	924.10.8 = {
@@ -3075,7 +3075,6 @@
 	stewardship=8
 	religion="catholic"
 	culture="italian"
-	trait="bastard"
 	trait="lustful"
 	trait="temperate"
 	trait="thrifty_clerk"
@@ -3129,7 +3128,6 @@
 	stewardship=6
 	religion="catholic"
 	culture="italian"
-	trait="bastard"
 	trait="deceitful"
 	trait="wroth"
 	trait="naive_appeaser"
@@ -3247,7 +3245,6 @@
 	stewardship=6
 	religion="catholic"
 	culture="italian"
-	trait="bastard"
 	trait="thrifty_clerk"
 	father=412078
 	1327.1.1 = {
@@ -3268,7 +3265,6 @@
 	stewardship=6
 	religion="catholic"
 	culture="italian"
-	trait="bastard"
 	trait="thrifty_clerk"
 	father=412078
 	mother=412079
@@ -5333,6 +5329,9 @@
 	mother=184067
 	927.1.2 = {
 		birth="927.1.2"
+	}
+	960.1.1 = {
+		add_spouse = 540
 	}
 	981.1.2 = {
 		death="981.1.2"
@@ -40008,7 +40007,7 @@
 	873.1.1 = {
 		birth = yes
 	}
-	899.1.1={
+	889.1.1={
 		add_spouse=190540
 	}	
 	945.3.29 = {
@@ -40197,6 +40196,7 @@
 	culture="italian"
 	father=1106
 	mother=167907
+	trait = bastard
 	900.1.1 = {
 		birth = yes
 	}

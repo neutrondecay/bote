@@ -1818,6 +1818,9 @@
 	900.1.1 = {
 		birth="900.1.1"
 	}
+	950.1.1 = {
+		add_spouse = 40263
+	}
 	944.1.1 = {
 		death="944.1.1"
 	}
@@ -2176,6 +2179,9 @@
 	mother=7922
 	957.1.2 = {
 		birth="957.1.2"
+	}
+	975.1.1 = {
+		add_spouse = 373
 	}
 	993.1.2 = {
 		death="993.1.2"
@@ -3518,7 +3524,7 @@
 	culture="occitan"
 	father=40070 #Boson I
 	mother=40083 #Emma de Périgord
-	trait = legit_bastard
+	#trait = legit_bastard
 	946.1.1 = {
 		birth="946.1.1"
 	}
@@ -5736,7 +5742,7 @@
 	culture="frankish"
 	father=40202 #Bernard Aton III Trencavel
 	mother=40071 #Rangearde de la marche
-	trait = legit_bastard
+	#trait = legit_bastard
 	1033.1.2 = {
 		birth="1033.1.2"
 	}
@@ -11222,7 +11228,7 @@
 	985.1.1 = {
 		birth="985.1.1" #unknown
 	}
-	1020.1.1 = {
+	999.1.1 = {
 		add_spouse=40235 #Ermengarde de Toulouse
 	}
 	1032.1.1 = {
@@ -14293,10 +14299,10 @@
 	913.1.1 = {
 	 	add_spouse=7983 # Willa
 	}
-	924.1.1 = {
+	919.1.1 = {
 	 	remove_spouse=7983 # Willa
 	}
-	924.1.1 = {
+	919.1.1 = {
 	 	add_spouse=190532 # Hilda
 	}
 	931.1.1 = {

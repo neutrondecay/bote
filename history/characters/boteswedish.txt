@@ -513,29 +513,29 @@
 	}
 }
 ####
-450640 = {
-	name="Birgitte"
-	# AKA: Birgitte Knutsdotter
-	female = yes
-	dynasty=150
-	martial=4
-	diplomacy=7
-	intrigue=7
-	stewardship=6
-	religion="catholic"
-	culture="swedish"
-	trait="deceitful"
-	trait="just"
-	trait="thrifty_clerk"
-	father=450630
-	mother=450633
-	1316.1.2={
-		birth="1316.1.2"
-	}
-	1390.1.2={
-		death=yes
-	}
-}
+# 450640 = {
+	# name="Birgitte"
+	# # AKA: Birgitte Knutsdotter
+	# female = yes
+	# dynasty=150
+	# martial=4
+	# diplomacy=7
+	# intrigue=7
+	# stewardship=6
+	# religion="catholic"
+	# culture="swedish"
+	# trait="deceitful"
+	# trait="just"
+	# trait="thrifty_clerk"
+	# father=450630
+	# mother=450633
+	# 1316.1.2={
+		# birth="1316.1.2"
+	# }
+	# 1390.1.2={
+		# death=yes
+	# }
+# }
 ###Sjöblad
 800878 = {
 	name = "Magnus"

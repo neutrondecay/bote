@@ -5295,7 +5295,7 @@
 	culture="russian"
 	father=222579
 	mother=222581
-	trait = legit_bastard
+	#trait = legit_bastard
 	1157.1.2={
 		birth="1155.1.2"
 	}

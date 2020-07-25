@@ -773,6 +773,9 @@
 	1315.1.1={
 		birth="1315.1.1"
 	}
+	1333.1.1 = {
+		add_spouse = 457665
+	}
 	1354.1.1={
 		death="1354.1.1"
 	}
@@ -2505,6 +2508,7 @@
 	dynasty=1020111 #de Ribadouro
 	religion="catholic"
 	culture="portuguese"
+	trait = legit_bastard
 	father=142027
 	mother=142026
 	1179.1.1 = {
@@ -4192,7 +4196,7 @@
 	religion="catholic"
 	culture="portuguese"
 	father=142479
-	mother=142275
+	mother=142834
 	1228.1.1={
 		birth="1228.1.1"
 	}
@@ -6172,22 +6176,6 @@
 	}
 }
 
-142275 = {
-	name="Teresa" #Teresa Martins de Riba Vizela
-	female = yes
-	dynasty=1020116 #de Riba Vizela
-	religion="catholic"
-	culture="portuguese"
-	trait="bastard"
-	father=142269
-	1205.1.1={
-		birth="1205.1.1"
-	}
-	1255.1.1={
-		death="1255.1.1"
-	}
-}
-
 142277 = {
 	name="Constança" #Constança de Riba Vizela
 	female = yes
@@ -6621,6 +6609,9 @@
 	mother=142284
 	1100.1.1={
 		birth="1100.1.1"
+	}
+	1119.1.1 = {
+		add_spouse = 142705
 	}
 	1137.1.1={
 		death="1137.1.1"
@@ -11046,6 +11037,9 @@
 	1257.1.1={
 		birth="1257.1.1"
 	}
+	1277.1.1 = {
+		add_spouse = 142578
+	}
 	1307.1.1={
 		death="1307.1.1"
 	}
@@ -11780,6 +11774,9 @@
 	mother=142417
 	1192.1.1={
 		birth="1192.1.1"
+	}
+	1229.1.1 = {
+		add_spouse = 142272
 	}
 	1242.1.1={
 		death="1242.1.1"
@@ -21073,6 +21070,9 @@
 	1131.1.1={
 		birth=yes
 	}
+	1172.1.1 = {
+		add_spouse = 72397
+	}
 	1195.4.9={
 		death=yes
 	}
@@ -22273,7 +22273,7 @@
 		birth=yes
 	}
 	1254.1.1={
-		add_spouse=72827
+		add_spouse=72828
 	}
 	1280.1.1={
 		death=yes
@@ -22297,21 +22297,6 @@
 		add_spouse=72828
 	}
 	1289.1.1={
-		death=yes
-	}
-}
-
-72827={
-	name="Maria"
-	female=yes
-
-	religion=catholic
-	culture=portuguese
-
-	1238.1.1={
-		birth=yes
-	}
-	1300.1.1={
 		death=yes
 	}
 }

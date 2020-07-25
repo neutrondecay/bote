@@ -501,7 +501,7 @@
 	father=820513 # Bogislaw VI of Pomerania
 	mother=802674 # Agnes of Mecklenburg
 
-	1380.1.1 = {
+	1390.1.1 = {
 		birth = yes
 	}
 	1396.2.1 = {

@@ -28,6 +28,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="norman"
+	trait = legit_bastard
 	trait="underhanded_rogue"
 	trait="patient"
 	1035.1.1 = {
@@ -496,6 +497,9 @@
 		remove_spouse = 10014
 		add_spouse = 160380
 	}
+	1091.1.1 = {
+		add_spouse = 70979
+	}
 	1101.6.22 = {
 		death="1101.6.22"
 	}
@@ -756,7 +760,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="norman"
-	trait="bastard"
+	#trait="bastard"
 	trait="charitable"
 	trait="martial_cleric"
 	father=1128
@@ -870,6 +874,9 @@
 	mother=1153
 	1051.1.1 = {
 		birth="1051.1.1"
+	}
+	1078.1.1 = {
+		add_spouse = 30855
 	}
 	1091.2.1 = {
 		death="1091.2.1"
@@ -2593,6 +2600,7 @@
 	}
 	1119.1.1 = {
 		employer=127083
+		add_spouse = 73280
 	}
 	1127.7.1 = {
 		death="1127.7.1"
@@ -3599,6 +3607,9 @@
 	1070.1.1 = {
 		birth="1070.1.1"
 	}
+	1105.4.1 = {
+		add_spouse = 30898
+	}
 	1145.1.1 = {
 		death="1145.1.1"
 	}
@@ -4075,7 +4086,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="norman"
-	trait="bastard"
+	#trait="bastard"
 	trait="tough_soldier"
 	father=246
 	mother=6801
@@ -5582,7 +5593,7 @@
 	culture="norman"
 	father=41250
 	mother=156
-	trait=legit_bastard
+	#trait=legit_bastard
 	1045.1.1 = {
 		birth="1045.1.1"
 	}
@@ -5923,7 +5934,6 @@
 	trait="brilliant_strategist"
 	father=1120
 	mother=10008
-	trait=legit_bastard
 	1018.1.2 = {
 		birth=yes
 	}
