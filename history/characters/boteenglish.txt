@@ -1452,14 +1452,7 @@
 
 	father = 454501 # The Black Prince
 	mother = 454515 # The Fair Maid of Kent
-
-	1361.10.10 = {
-		effect = {
-			c_454515 = {
-				add_spouse = 454501 # The Black Prince
-			}
-		}
-	}		
+	
 	1367.1.6 = {
 		birth = yes
 	}

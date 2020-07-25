@@ -700,13 +700,6 @@
 	trait="tough_soldier"
 	father=463151
 	mother = 462156
-	1351.1.1 = { #Parents married
-		effect = {
-			c_463151 = {
-				add_spouse = 462156
-			}
-		}
-	}
 	1351.10.16 = {
 		birth = yes
 	}

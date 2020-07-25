@@ -177,13 +177,6 @@
 	1345.1.1 = {
 		birth = yes
 	}
-	1344.1.1 = {
-	    effect_even_if_dead = {
-		    c_471653 = {
-			    add_spouse=30582 # Sophie of Mecklenburg
-			}
-		}
-	}
 	1394.6.13 = {
 		death = yes
 	}
