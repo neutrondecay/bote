@@ -18,6 +18,19 @@
 	religion="catholic"
 	culture="catalan"
 	father=460500
+	1356.7.25={
+		birth=yes
+	}
+	1410.5.31={
+		death=yes
+	}
+}
+801246 = { #Martin, son of Martin of Aragon
+	name="Martí" 
+	dynasty=100204
+	religion="catholic"
+	culture="catalan"
+	father=800316
 	1374.10.26={
 		birth=yes
 	}

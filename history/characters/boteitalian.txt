@@ -1302,7 +1302,7 @@
 		birth=yes
 	}
 	1390.1.1 = {
-		add_spouse = 800316
+		add_spouse = 801246
 	}
 	1401.5.25 = {
 		death=yes
@@ -1314,7 +1314,7 @@
 	culture = italian
 	religion = catholic
 	mother = 800306
-	father = 800316
+	father = 801246
 	
 	1398.11.17 = {
 		birth = yes
@@ -1378,7 +1378,7 @@
 	1392.11.1 = {
 		death = {
 			death_reason = death_execution
-			killer = 800316
+			killer = 801246
 		}
 	}
 }
