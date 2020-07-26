@@ -773,6 +773,9 @@
 	1387.1.1 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 850036 = {
 	name = "Anastasia"
@@ -808,6 +811,9 @@
 
 	1387.1.8 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 850038 = {
@@ -1018,6 +1024,9 @@
 	1372.1.1= {
 		add_spouse=855200 # Solkhomir
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 850050 = {
 	name = "Grigory"
@@ -1080,6 +1089,9 @@
 	1395.1.1 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 850054 = {
 	name = "Lev"
@@ -1092,6 +1104,9 @@
 	
 	1399.1.1 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 850055 = {
@@ -1143,6 +1158,9 @@
 	}
 	1397.1.1 = {
 	    add_spouse = 800979 # Alexander Ivanovich of Tver
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 850058 = {
@@ -1211,6 +1229,9 @@
 	1370.1.1 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 850063 = {
 	name = "Ivan"
@@ -1223,6 +1244,9 @@
 	
 	1375.1.1 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 850064 = {
@@ -1269,6 +1293,9 @@
 	1375.1.1 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 850067 = {
 	name = "Olga"
@@ -1281,6 +1308,9 @@
 
 	1380.1.1 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 850068 = {

@@ -11,6 +11,9 @@
 	1389.11.9 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800177 = { #Margaret of Sanseverino, wife of Louis ^
 	name = "Marguerite"
@@ -176,6 +179,9 @@
 	1396.2.19 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800246 = { #Mary of Durazzo, daughter of Ladislaus II
 	name = "Marie"
@@ -188,6 +194,9 @@
 	trait = sickly 
 	1398.2.19 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800206 = { #Peter of Enghien, Count of Lecce 1380-84
@@ -216,6 +225,9 @@
 	1367.2.11 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800213 = { #Margaret, Countess of Brienne and Conversano (Barion), Dame of Enghien
 	name = "Marguerite"
@@ -232,6 +244,9 @@
 	1387.1.1 = {
 		add_spouse = 800218
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800214 = { #Yolanda of Barion
 	name = "Yolande"
@@ -245,6 +260,9 @@
 	1368.2.21 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800215 = { #Isabella of Barion
 	name = "Isabelle"
@@ -257,6 +275,9 @@
 	
 	1373.6.29 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800216 = { #Louis' only son, Antoine, died aged 16
@@ -286,6 +307,9 @@
 	1376.5.7 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 
 800218 = { #John of Luxembourg
@@ -314,6 +338,9 @@
 	1390.11.3 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800220 = { #John II of Luxembourg, son of Margaret and Jean
 	name = "Jean"
@@ -326,6 +353,9 @@
 	1392.1.31 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800221 = { #Louis of Luxembourg, son of Margaret and Jean
 	name = "Louis"
@@ -337,6 +367,9 @@
 	
 	1394.4.15 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800222 = { #Catherine of Luxembourg, daughter of Margaret and Jean
@@ -351,6 +384,9 @@
 	1393.2.3 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800223 = { #Jeanne of Luxembourg, daughter of Margaret and Jean
 	name = "Jeanne"
@@ -363,6 +399,9 @@
 	
 	1396.7.25 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800224 = { #Raymond III of Baux (Count of Foggia)
@@ -390,6 +429,9 @@
 	mother=32780
 	1367.3.20 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800226 = { #John of Baux (Count of Foggia)

@@ -397,6 +397,9 @@
 	1338.3.16 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800027 = { #Earl of Norfolk
 	name = "Thomas"
@@ -683,6 +686,9 @@
 	mother = 800042
 	1385.12.30 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800046 = { #York's 2nd Wife, DoSurrey's sister
@@ -1114,6 +1120,9 @@
 	1392.2.23 = {
 		add_spouse = 800073
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800073 = { #Wife of Lord of Powys, mistress of Cardinal Beaufort
 	name = "Alice"
@@ -1142,6 +1151,9 @@
 	1396.8.12 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800079 = { #Lowry's husband
 	name = "Robert"
@@ -1151,6 +1163,9 @@
 	
 	1365.1.9 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800080 = { #Lowry's son
@@ -1162,6 +1177,9 @@
 	mother =  800078
 	1399.5.14 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 #DE JURE IRELAND
@@ -1202,6 +1220,9 @@
 	}
 	1372.1.1 = {
 		add_spouse = 800088
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800085 = { #Kildare's wife
@@ -1244,6 +1265,9 @@
 	1365.1.1 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800088 = { #Kildare's 2nd wife
 	name = "Agnes"
@@ -1254,6 +1278,9 @@
 	
 	1359.8.3 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800089 = { #Kildare's 2nd daughter
@@ -1267,6 +1294,9 @@
 	
 	1397.12.14 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800090 = { #Earl of Ormond (Ossory + Leix)
@@ -1312,6 +1342,9 @@
 	1392.5.23 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800093 = { #Ormond's 2nd son
 	name = "Richard"
@@ -1323,6 +1356,9 @@
 	father = 800090
 	1394.10.14 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800094 = { #Ormond's daughter
@@ -1337,6 +1373,9 @@
 	1395.7.25 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800095 = { #Ormond's 3rd son
 	name = "Philip"
@@ -1348,6 +1387,9 @@
 	father = 800090
 	1396.5.19 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800096 = { #Ormond's 4th son
@@ -1361,6 +1403,9 @@
 	1397.4.1 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800097 = { #Ormond's 2nd wife
 	name = "Katherine"
@@ -1370,6 +1415,9 @@
 	female = yes
 	1368.1.1 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800098 = { #Ormond's 5th son
@@ -1382,6 +1430,9 @@
 	father = 800090
 	1399.11.13 = {
 		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
 	}
 }
 800099 = { #Ormond's bastard son, unknown mistress
@@ -1413,6 +1464,9 @@
 	
 	1353.11.10 = {
 		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
 	}
 }
 #John of Gaunt's 1st wife

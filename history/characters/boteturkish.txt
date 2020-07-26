@@ -959,6 +959,9 @@
 	1385.1.1={
 		birth=yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 855607 = {
 	name = "Pasha Melek"
@@ -971,6 +974,9 @@
 	
 	1390.1.1={
 		birth=yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 855608 = {

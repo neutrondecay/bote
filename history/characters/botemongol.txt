@@ -344,4 +344,7 @@
 	    religion = orthodox
 		name="Ivan"
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }

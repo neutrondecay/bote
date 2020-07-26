@@ -351,6 +351,9 @@
 	1397.1.1 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 856101 = {
 	name = "Kazimierz"

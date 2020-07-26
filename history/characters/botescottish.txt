@@ -12,6 +12,9 @@
 	1367.1.1 = {
 		add_spouse = 800116
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800116 = { #Wife of Earl of Dunbar
 	name = "Christina"
@@ -21,6 +24,9 @@
 	female = yes
 	1340.2.12 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800117 = { #Son of Dunbar
@@ -34,6 +40,9 @@
 	1370.5.6 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800118 = { #2nd son of Dunbar
 	name = "Columba"
@@ -45,6 +54,9 @@
 	
 	1386.2.28 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800119 = { #3rd son of Dunbar
@@ -58,6 +70,9 @@
 	1377.11.19= {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800120 = { #4th son of Dunbar
 	name = "Patrick"
@@ -70,6 +85,9 @@
 	1380.6.26 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800121 = { #Daughter of Dunbar
 	name = "Janet"
@@ -81,6 +99,9 @@
 	female = yes
 	1378.2.28 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800122 = { #2nd daughter of Dunbar
@@ -95,6 +116,9 @@
 	1382.3.10 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800123 = { #5th son of Dunbar
 	name = "David"
@@ -106,6 +130,9 @@
 	
 	1384.8.20 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800124 = { #Fictional 3rd daughter. They had 8 children, but 8th unknown
@@ -119,6 +146,9 @@
 	
 	1387.12.11 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800125 = { #Rex Scotiae, Earl of Carrick, Clydesdale
@@ -134,6 +164,9 @@
 	1367.1.1 = {
 		add_spouse = 800157
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 #King of Scotland's many siblings
 800126 = {
@@ -146,6 +179,9 @@
 	1338.10.2 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800127 = { #Duke of Albany, Earl of Fife
 	name = "Robert"
@@ -157,6 +193,9 @@
 	1340.3.15 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800128 = { #Earl of Buchan
 	name = "Alexander"
@@ -167,6 +206,9 @@
 	mother = 453035
 	1343.12.21 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800129 = { #Married Earl of Moray
@@ -180,6 +222,9 @@
 	1344.10.13 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800130 = {
 	name = "Elizabeth"
@@ -191,6 +236,9 @@
 	mother = 453035
 	1345.8.17 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800131 = {
@@ -204,6 +252,9 @@
 	1347.2.14 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800132 = {
 	name = "Johanna"
@@ -216,6 +267,9 @@
 	1348.5.11 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800133 = {
 	name = "Katherine"
@@ -227,6 +281,9 @@
 	mother = 453035
 	1350.4.25 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800134 = { #Daughter of Earl of Ross, 2nd wife of Robert II, stepmother of Robert III
@@ -274,6 +331,9 @@
 	1360.12.12 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800137 = { #Married Earl of Crawford
 	name = "Elizabeth"
@@ -287,6 +347,9 @@
 	1363.11.01 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800138 = {
 	name = "Egidia"
@@ -299,6 +362,9 @@
 	
 	1372.4.14 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800139 = { #Robert II's mistress
@@ -346,6 +412,9 @@
 	1352.12.24 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800142 = { 
 	name = "James"
@@ -358,6 +427,9 @@
 	
 	1355.8.13 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800143 = { #Earl of Caithness
@@ -372,6 +444,9 @@
 	1360.1.22 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800144 = { #Robert II's other mistress
 	name = "Moira"
@@ -384,6 +459,9 @@
 	}
 	1358.1.1 = {
 		add_lover = 453034
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800145 = { 
@@ -398,6 +476,9 @@
 	1360.4.8 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800146 = { 
 	name = "John"
@@ -409,6 +490,9 @@
 	
 	1370.3.13 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800147 = { 
@@ -422,6 +506,9 @@
 	1363.6.16 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800148 = { 
 	name = "Alexander"
@@ -434,6 +521,9 @@
 	1356.9.2 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800149 = { #Bishop of St. Andrews
 	name = "Thomas"
@@ -445,6 +535,9 @@
 	
 	1355.10.18 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800150 = { 
@@ -473,6 +566,9 @@
 	1365.9.26 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800152 = { 
 	name = "Mary"
@@ -485,6 +581,9 @@
 	
 	1371.4.4 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800153 = { #Countess of Strathearn suo iure
@@ -500,6 +599,9 @@
 	1380.7.11 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800154 = { #Strathearn's mother
 	name = "Euphemia"
@@ -513,7 +615,9 @@
 	1359.8.20 = {
 		birth = yes
 	}
-	
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800247 = { #Sir David Lindsay
 	name = "David"
@@ -558,6 +662,9 @@
 	1360.2.5 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800157 = { #Robert III's wife
 	name = "Anabella"
@@ -568,6 +675,9 @@
 	
 	1350.5.16 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800158  = { #David Stewart, Duke of Rothesay, Earl of Carrick and Atholl
@@ -585,6 +695,9 @@
 	1395.1.1 = {
 		add_spouse = 800159
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800159 = { #Wife of Rothesay, daughter of Earl of Douglas, Lord (Earl) of Galloway
 	name = "Mary"
@@ -596,6 +709,9 @@
 	mother = 800169
 	1379.6.1 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800160 = { #Mother of Earl of Argyll
@@ -626,7 +742,9 @@
 	1343.8.10 = {
 		birth = yes
 	}
-	
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800162 = { #Prince-Bishop of Iona
 	name = "Michael"
@@ -635,6 +753,9 @@
 	
 	1339.3.1 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800163 = { #Earl of Moray
@@ -646,6 +767,9 @@
 	1358.10.8 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800164 = { #Lord of the Isles (Earl of Innse Galle)
 	name = "Domhnall"
@@ -655,6 +779,9 @@
 	
 	1363.2.13 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800165 = { #Countess of Ross (to be)
@@ -669,6 +796,9 @@
 	1381.1.12 = {
 		add_spouse = 800164
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800166 = { #Son of Domhnall and Mariota
 	name = "Alexander"
@@ -679,6 +809,9 @@
 	1389.5.5 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800167 = { #Earl of Ross
 	name = "Alexander"
@@ -688,6 +821,9 @@
 	
 	1367.9.8 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800168 = { #Lord (Earl) of Galloway
@@ -702,6 +838,9 @@
 	1378.1.1 = {
 		add_spouse = 800169
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800169 = { #Wife of Galloway
 	name = "Joanna"
@@ -712,6 +851,9 @@
 	female = yes
 	1340.1.9 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800170 = { #Son of Galloway
@@ -725,6 +867,9 @@
 	1390.2.13 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800171 = { #Son of Galloway
 	name = "Elizabeth"
@@ -736,6 +881,9 @@
 	female = yes
 	1393.6.10 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 ###
@@ -933,7 +1081,7 @@
 	}
 }
 
-829619 = { # Baroness Dalkeith
+801258 = { # Baroness Dalkeith
 	name="Elizabeth" 
 	dynasty=3134
 	female=yes

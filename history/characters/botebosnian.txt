@@ -191,13 +191,6 @@
 	1340.1.1={
 		birth=yes
 	}
-	1378.4.10 = {
-		effect = {
-			c_260480 = { #Father dies
-				death = yes
-			}
-		}
-	}
 	1416.1.1 = {
 		death = yes
 	}

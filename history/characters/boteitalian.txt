@@ -65,6 +65,9 @@
 	1386.1.1 = {
 		add_spouse = 800191
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800191 = { #Random Italian wife for Antonio ^
 	name = "Gloriana"
@@ -75,6 +78,9 @@
 	
 	1369.2.12 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800192 = { #Random son for Antonio ^
@@ -87,6 +93,9 @@
 	
 	1390.3.4 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800195 = { #Gentile Orsini
@@ -225,6 +234,9 @@
 	1352.1.18 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800204 = { #Justine Sueva Orsini
 	name = "Justine"
@@ -237,6 +249,9 @@
 	
 	1365.5.8 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800205 = { #Caterina Orsini
@@ -251,6 +266,9 @@
 	1370.3.30 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800208 = { #Giovanni Antonio, later Prince of Taranto, Duke of Bari, Count of Lecce, Acerra, Soleto, Conversano, 1443 count of Matera, 1453 Ugento
 	name = "Giovanni"
@@ -263,6 +281,9 @@
 	
 	1386.6.19 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800209 = { #Maria del Balzo Orsini
@@ -277,6 +298,9 @@
 	1389.1.3 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800210 = { #Caterina del Balzo Orsini
 	name = "Caterina"
@@ -290,6 +314,9 @@
 	1390.8.27 = {
 		birth = yes
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 800211 = { #Gabriele del Balzo Orsini, Count of Ugento 1434, Duke of Venosa 1441, Count of Lecce
 	name = "Gabriele"
@@ -301,6 +328,9 @@
 	
 	1395.4.11 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800212 = { #Giovanna de Sanseverino
@@ -387,6 +417,9 @@
 	father = 800244
 	1359.7.20 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800238 = { #Pirro Orsini, son of Roberto Orsini
@@ -490,6 +523,9 @@
 	father = 800244
 	1355.1.22 = {
 		birth = yes
+	}
+	1401.1.1 = { #Placeholder death
+		death = yes
 	}
 }
 800249 = { #Margherita di Sangineto, wife of Venceslao

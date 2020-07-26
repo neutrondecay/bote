@@ -389,6 +389,9 @@
 	1371.1.1 = {
 		add_spouse=800532 # Durad I Balsic of Zeta
 	}
+	1401.1.1 = { #Placeholder death
+		death = yes
+	}
 }
 855106 = {
 	name = "Konstantin"

@@ -17,6 +17,9 @@
 	1353.1.1 = {
 		add_spouse = 462746
 	}
+	1401.1.1 = {
+		death = yes
+	}
 }
 
 810002 = { #Frederik of Utrecht
@@ -29,6 +32,9 @@
 		effect = {
 			dynasty = none
 		}
+	}
+	1401.1.1 = {
+		death = yes
 	}
 }
 
@@ -43,6 +49,9 @@
 		birth = yes
 	}
 	1379.1.1 = {add_spouse = 802642}
+	1401.1.1 = {
+		death = yes
+	}
 }
 
 810005 = { #Maria of Gelre
@@ -61,31 +70,34 @@
 	1362.12.1 = {
 		add_spouse = 462936
 	}
+	1401.1.1 = {
+		death = yes
+	}
 }
 
-487012 = { #Johanna of Brabant
-	name="Johanna"
-	female=yes
-	dynasty=7198
-	martial=5
-	diplomacy=5
-	intrigue=5
-	stewardship=8
-	religion="catholic"
-	culture="dutch"
-	trait="thrifty_clerk"
-	father=487044
-	mother=487045
-	1322.6.24 = {
-		birth=yes
-	}
-	# 1354.3.1 = {
-		# add_spouse = #Wenceslaus I of Luxembourg
+# 487012 = { #Johanna of Brabant
+	# name="Johanna"
+	# female=yes
+	# dynasty=7198
+	# martial=5
+	# diplomacy=5
+	# intrigue=5
+	# stewardship=8
+	# religion="catholic"
+	# culture="dutch"
+	# trait="thrifty_clerk"
+	# father=487044
+	# mother=487045
+	# 1322.6.24 = {
+		# birth=yes
 	# }
-	1406.12.1={
-		death=yes
-	}
-}
+	# # 1354.3.1 = {
+		# # add_spouse = #Wenceslaus I of Luxembourg
+	# # }
+	# 1406.12.1={
+		# death=yes
+	# }
+# }
 
 810006 = { #Nicolas Cappoci
 	name = "Nicolas"
@@ -160,6 +172,9 @@
 	1386.12.31={
 		death=yes
 	}
+	1401.1.1 = {
+		death = yes
+	}
 }
 
 810011={ #Kid 2 of Albrecht
@@ -198,6 +213,9 @@
 	1385.4.11={
 		add_spouse=802041
 	}
+	1401.1.1 = {
+		death = yes
+	}
 }
 
 810013={ #Willem VI 
@@ -212,6 +230,9 @@
 	}
 	1385.4.12={
 		add_spouse=802043
+	}
+	1401.1.1 = {
+		death = yes
 	}
 }
 
@@ -243,6 +264,9 @@
 	# 1385.6.13={
 		# add_spouse=#Albrecht IV of Austria
 	# }
+	1401.1.1 = {
+		death = yes
+	}
 }
 
 810016={ #Jan the merciless
@@ -254,6 +278,9 @@
 	religion="catholic"
 	1374.1.1={
 		birth=yes
+	}
+	1401.1.1 = {
+		death = yes
 	}
 }
 
