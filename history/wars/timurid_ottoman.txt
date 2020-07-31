@@ -1,0 +1,17 @@
+name = "Timurid Invasion of Ottoman Anatolia"
+
+casus_belli = {
+	actor = 801171
+	recipient = 800460
+	casus_belli=tribal_invasion
+	landed_title=k_anatolia
+	date=1399.1.1
+}
+1399.1.1 = {
+	add_attacker = 801171
+	add_defender = 801053
+}
+1402.10.20 = {
+	rem_attacker = 801171
+	rem_defender = 801053
+}
