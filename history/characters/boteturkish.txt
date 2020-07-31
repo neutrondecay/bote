@@ -50,7 +50,8 @@
 	trait = wroth
 	disallow_random_traits = yes
 	father=476502
-	
+	dna="bkcbh0ba0b0"
+	properties="xe0jkb0a000000000000000000000000000000"
 	1354.5.10={
 		birth=yes
 	}

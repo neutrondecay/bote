@@ -5,6 +5,8 @@
 	religion = catholic
 	father = 184087
 	mother = 800076
+	dna="allj00khba0"
+	properties="xj0gfk0a000000000000000000000000000000"
 	
 	martial = 12
 	stewardship = 8

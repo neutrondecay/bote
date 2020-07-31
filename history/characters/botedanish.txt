@@ -582,7 +582,8 @@
 	trait = just
 	trait = cynical
 	trait = grey_eminence
-	
+	dna="beegd0fche0"
+	properties="c00b0a00000000000000000000000000000000000"
 	1353.3.15 = {
 		birth = yes
 	}

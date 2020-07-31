@@ -1,5 +1,15 @@
 BM_BOOTE_ERA;Beginning of the End;;;;;;;;x
 BM_BOOTE_ERA_INFO;The medieval era is nearing its end, as the first cracks start to show in the Italian peninsula, but medieval traditions hold strong in much of Europe. A last Welsh effort is being mounted against the weakened English, in an attempt to establish a truly independent Welsh Principality.;;;;;;;;x
+ERA_CHAR_NAME_800075;Owain Glyndwr;;;;;;;;x
+ERA_CHAR_INFO_800075;Owain Glyndwr;;;;;;;;x
+ERA_CHAR_NAME_801171;Timur;;;;;;;;x
+ERA_CHAR_INFO_801171;Timur;;;;;;;;x
+ERA_CHAR_NAME_800460;Sultan Bayezid;;;;;;;;x
+ERA_CHAR_INFO_800460;Sultan Bayezid;;;;;;;;x
+ERA_CHAR_NAME_800388;Giovanni de' Medici;;;;;;;;x
+ERA_CHAR_INFO_800388;Giovanni de' Medici;;;;;;;;x
+ERA_CHAR_NAME_802720;Queen Margrethe;;;;;;;;x
+ERA_CHAR_INFO_802720;Queen Margrethe;;;;;;;;x
 #Culture
 navarro_aragonese;Navarro-Aragonese;;;;;;;;x
 #CBs

@@ -135,7 +135,8 @@
 	stewardship = 7
 	intrigue = 8
 	learning = 10
-	
+	dna="aifbc0kc000"
+	properties="jh0cda00000000000000000000000000000000"
 	trait = genius
 	trait = brilliant_strategist
 	trait = one_legged

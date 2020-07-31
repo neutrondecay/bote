@@ -2294,7 +2294,9 @@
 	trait = quick
 	trait = administrator
 	trait = charitable
-	trait = gregarious
+	trait = gregarious  
+	dna="addfa0ebee0"
+	properties="ce00af00000000000000000000000000000000"
 	
 	
 	1360.3.11 = {

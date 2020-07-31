@@ -2,8 +2,93 @@ bm_beginningoftheend = {
 	name = "BM_BOOTE_ERA"
 	desc = "BM_BOOTE_ERA_INFO"
 	date = 1400.1.1
+	era = yes
+	picture = GFX_pick_era_image_5 
 	
-	selectable_character = {
+	selectable_character = { #Owain Glyndwr
 		id = 800075
+		age = 40
+		name = ERA_CHAR_NAME_800075
+		title = d_powys
+		title_name = d_powys
+		
+		character = {
+			dna="allj00khba0"
+			properties="xj0gfk0a000000000000000000000000000000"
+			religion="catholic"
+			culture="welsh"
+			government = feudal_government
+			dynasty=548
+		}
+	}
+	selectable_character = { #Timur
+		id = 801171
+		age = 63
+		name = ERA_CHAR_NAME_801171
+		title = e_timurid
+		title_name = e_timurid
+		coa_dynasty = yes
+		dlc = "The Sword of Islam"
+		
+		character = {
+			dna="adigb0eca00"
+			properties="jk0jn00c0000000000"
+			religion="sunni"
+			culture="mongol"
+			government = muslim_government
+			dynasty=3000120
+		}
+	}
+	selectable_character = { #Sultan Bayezid
+		id = 800460
+		age = 45
+		name = ERA_CHAR_NAME_800460
+		title = k_ottoman
+		title_name = k_ottoman
+		coa_dynasty = yes
+		dlc = "The Sword of Islam"
+		
+		character = {  
+			dna="bkcbh0ba0b0"
+			properties="xe0jkb0a000000000000000000000000000000"
+			religion="sunni"
+			culture="turkish"
+			government = muslim_government
+			dynasty=7
+		}
+	}
+	selectable_character = { #Giovanni de' Medici
+		id = 800388
+		age = 39
+		name = ERA_CHAR_NAME_800388
+		title = b_medici
+		title_name = b_medici
+		dlc = "The Republic"
+		
+		character = {  
+			dna="addfa0ebee0"
+			properties="ce00af000000000000"
+			religion="catholic"
+			culture="italian"
+			government = merchant_republic_government
+			dynasty=106
+		}
+	}
+	selectable_character = { #Queen Margrethe
+		id = 802720
+		age = 46
+		name = ERA_CHAR_NAME_802720
+		title = k_denmark
+		title_name = k_denmark
+		
+		character = {
+			dna="beegd0fche0"
+			properties="c00b0a00000000000000000000000000000000000"
+			female = yes
+			religion="catholic"
+			culture="danish"
+			government = feudal_government
+			dynasty=487
+		}
 	}
 }
