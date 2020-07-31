@@ -64,3 +64,21 @@
 	liege="d_kerman"
 	holder = 478022 # Atabegs overthrown
 }
+1358.1.1 = {
+	holder = 801260
+}
+1382.1.1 = {
+	liege = e_timurid
+}
+1384.1.1 = {
+	holder = 801261
+}
+1387.1.1 = {
+	holder = 801264
+}
+1391.1.1 = {
+	holder = 801263
+}
+1393.1.1 = {
+	holder = 801171
+}

@@ -130,5 +130,5 @@
 	liege = 0
 }
 1395.1.1 = {
-	liege = e_mongol_empire
+	liege = e_timurid
 }

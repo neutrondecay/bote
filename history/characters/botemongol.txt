@@ -329,6 +329,32 @@
 		death = yes
 	}
 }
+801259 = {
+	name="Jela'u"
+	dynasty=101912
+	religion="shiite"
+	culture="mongol"
+	father=34433
+	1350.1.1={
+		birth=yes
+	}
+	1406.1.1={
+		death=yes
+	}
+}
+801265 = {
+	name="Sati Beg"
+	dynasty=101912
+	religion="shiite"
+	culture="mongol"
+	father=478035
+	1338.1.1={
+		birth=yes
+	}
+	1405.1.1={
+		death=yes
+	}
+}
 ###
 855200 = {
 	name = "Solkhomir"
