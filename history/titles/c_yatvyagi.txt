@@ -100,3 +100,21 @@ holder=125315
 {
 holder=473500
 }
+1341.5.2={
+	holder=473507 # Jaunutis
+}
+1345.1.1={
+	holder=473506 #Algirdas
+}
+1377.1.1={
+	holder=820010 #Jogaila
+}
+1381.1.1={
+	holder=473508 
+}
+1382.1.1={
+	holder=820010 #Jogaila
+}
+1392.1.1={
+	holder=820011 #Vytautas
+}

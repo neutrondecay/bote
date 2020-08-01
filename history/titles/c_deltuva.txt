@@ -113,24 +113,43 @@ holder=125315
 {
 holder=473500
 }
-1341.1.1={
-	liege=k_teutonic_state
-}
-1341.1.1={
-	holder=810018 #Ludolf König von Wattzau
+# 1341.1.1={
+	# liege=k_teutonic_state
+# }
+# 1341.1.1={
+	# holder=810018 #Ludolf König von Wattzau
+# }
+# 1345.1.1={
+	# holder=810019 #Heinrich Dusemer
+# }
+# 1351.1.1={
+	# holder=810020 #Winrich von Kniprode
+# }
+# 1382.6.24={
+	# holder=810021 #Konrad Zöllner von Rotenstein
+# }
+# 1390.8.20={
+	# holder=810022 #Konrad von Wallenrode
+# }
+# 1393.7.23={
+	# holder=810023 #Konrad von Jungingen
+# }
+1341.5.2={
+	holder=473507 # Jaunutis
+	liege = k_lithuania
 }
 1345.1.1={
-	holder=810019 #Heinrich Dusemer
+	holder=473506 #Algirdas
 }
-1351.1.1={
-	holder=810020 #Winrich von Kniprode
+1377.1.1={
+	holder=820010 #Jogaila
 }
-1382.6.24={
-	holder=810021 #Konrad Zöllner von Rotenstein
+1381.1.1={
+	holder=473508 
 }
-1390.8.20={
-	holder=810022 #Konrad von Wallenrode
+1382.1.1={
+	holder=820010 #Jogaila
 }
-1393.7.23={
-	holder=810023 #Konrad von Jungingen
+1392.1.1={
+	holder=820011 #Vytautas
 }

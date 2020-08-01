@@ -588,6 +588,22 @@
 	culture = mongol
 	religion = sunni
 }
+3000121 = {
+	name = "von Vyffhusen"
+	culture = german
+	religion = catholic
+}
+}
+3000122 = {
+	name = "von Sinten"
+	culture = german
+	religion = catholic
+}
+3000123 = {
+	name = "von Wallenrodt"
+	culture = german
+	religion = catholic
+}
 3000016 = {
 	name = "de Valois-Bourgogne"
 	religion = catholic

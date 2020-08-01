@@ -54,6 +54,9 @@ holder=30423 #Albrecht Suerbeer
 {
 holder=30424 #Johann von Lunen
 }
+1282.1.1 = {
+	liege = k_hansa #Riga joins Hanseatic League
+}
 1284.1.1=
 
 {
@@ -76,16 +79,17 @@ holder=30313 #Jens Grand
 holder=30428 #Friedrich von Pernstein
 }
 1341.1.1={
-	holder=#Engelbert von Dolen
+	holder= 30445 #Engelbert von Dolen
 }
 1348.1.1={
-	holder=#Bromhold von Vyffhusen
+	holder= 801268#Bromhold von Vyffhusen
 }
 1370.1.1={
-	holder=#Siegried Blomberg
+	holder= 801269 #Siegried Blomberg
 }
 1374.1.1={
-	holder=#Johann IV von Sinten
+	holder= 801270 #Johann IV von Sinten
 }
 1393.1.1={
-	holder={#Johann V Von Wallenrodt
+	holder= 801271 #Johann V Von Wallenrodt
+}

@@ -9,9 +9,9 @@ casus_belli = {
 }
 1399.1.1 = {
 	add_attacker = 801171
-	add_defender = 801053
+	add_defender = 800460
 }
 1402.10.20 = {
 	rem_attacker = 801171
-	rem_defender = 801053
+	rem_defender = 800460
 }
