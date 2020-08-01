@@ -593,7 +593,6 @@
 	culture = german
 	religion = catholic
 }
-}
 3000122 = {
 	name = "von Sinten"
 	culture = german
@@ -603,6 +602,11 @@
 	name = "von Wallenrodt"
 	culture = german
 	religion = catholic
+}
+3000124 = {
+	name = "Erzincanid"
+	culture = turkish
+	religion = sunni
 }
 3000016 = {
 	name = "de Valois-Bourgogne"

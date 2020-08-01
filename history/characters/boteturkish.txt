@@ -523,7 +523,7 @@
 }
 801118 = {
 	name = "Mutaharten"
-	dynasty=3000119
+	dynasty=3000124
 	religion="sunni"
 	culture="turkish"
 	
@@ -536,7 +536,7 @@
 }
 801119 = {
 	name = "Mehmed"
-	dynasty=3000119
+	dynasty=3000124
 	religion="sunni"
 	culture="turkish"
 	father = 801118
@@ -549,7 +549,7 @@
 }
 801120 = {
 	name = "Hasan"
-	dynasty=3000119
+	dynasty=3000124
 	religion="sunni"
 	culture="turkish"
 	father = 801119
