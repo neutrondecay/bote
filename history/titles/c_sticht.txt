@@ -133,5 +133,5 @@ holder=462006 #Jan van Diest
 	holder=810009 #Arnold II van Horne
 }
 1378.1.1={
-	holder=810003 #Frederik
+	holder=810002 #Frederik
 }

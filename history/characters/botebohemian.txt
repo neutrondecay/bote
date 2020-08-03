@@ -1,3 +1,17 @@
+801284 = {
+	name = "Potho"
+	religion = "catholic"
+	culture = "bohemian"
+	dynasty = 3000127
+	
+	1329.1.1 = {
+		birth = yes
+	}
+	1390.1.7 = {
+		death = yes
+	}
+}
+###
 821700 = { #
 	name = "Jan" #
 	dynasty = 10110 #of Opava

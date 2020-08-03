@@ -198,12 +198,12 @@
 	religion = orthodox
 }
 3000045 = {
-	name = "de UrtÃºvia"
+	name = "de Urtúvia"
 	culture = catalan
 	religion = catholic
 }
 3000046 = {
-	name = "de NoÃ«"
+	name = "de Noë"
 	culture = italian
 	religion = catholic
 }
@@ -243,7 +243,7 @@
 	religion = orthodox
 }
 3000054 = {
-	name = "BalÅ¡ic"
+	name = "Balšic"
 	culture = serbian
 	religion = orthodox
 }
@@ -278,7 +278,7 @@
 	religion = catholic
 }
 3000061 = {
-	name = "SzÃ©csi"
+	name = "Szécsi"
 	culture = hungarian
 	religion = catholic
 }
@@ -293,12 +293,12 @@
 	religion = catholic
 }
 3000064 = {
-	name = "JÃ¡nos"
+	name = "János"
 	culture = hungarian
 	religion = catholic
 }
 3000065 = {
-	name = "HahÃ³t"
+	name = "Hahót"
 	culture = hungarian
 	religion = catholic
 }
@@ -404,7 +404,7 @@
 	religion = catholic
 }
 3000084 = {
-	name = "VinÃ¤sÃ¤tten"
+	name = "Vinäsätten"
 	culture = swedish
 	religion = catholic
 }
@@ -414,12 +414,12 @@
 	religion = catholic
 }
 3000086 = {
-	name = "OddsgÃ¥rd"
+	name = "Oddsgård"
 	culture = norwegian
 	religion = catholic
 }
 3000087 = {
-	name = "AlgotssÃ¶nerna"
+	name = "Algotssönerna"
 	culture = swedish
 	religion = catholic
 }
@@ -434,12 +434,12 @@
 	religion = catholic
 }
 3000090 = {
-	name = "BjÃ¸rkÃ¸y"
+	name = "Bjørkøy"
 	culture = norwegian
 	religion = catholic
 }
 3000091 = {
-	name = "BjÃ¤lboÃ¤tten"
+	name = "Bjälboätten"
 	culture = swedish
 	religion = catholic
 }
@@ -607,6 +607,91 @@
 	name = "Erzincanid"
 	culture = turkish
 	religion = sunni
+}
+3000125 = {
+	name = "van Virneburg"
+	culture = dutch
+	religion = catholic
+}
+3000126 = {
+	name = "van Wevelinkhoven"
+	culture = dutch
+	religion = catholic
+}
+3000127 = {
+	name = "von Pottenstein"
+	culture = bohemian
+	religion = catholic
+}
+3000128 = {
+	name = "von Lüdinghausen"
+	culture = german
+	religion = catholic
+}
+3000129 = {
+	name="von Hoya"
+	culture="german"
+	religion="catholic"
+}
+3000130 = {
+	name="von Bardeleben"
+	culture="german"
+	religion="catholic"
+}
+3000131 = {
+	name="Man"
+	culture="german"
+	religion="catholic"
+}
+3000132 = {
+	name="Wöplitz"
+	culture="german"
+	religion="catholic"
+}
+3000133 = {
+	name="von Meißen"
+	culture="german"
+	religion="catholic"
+}
+3000134 = {
+	name="von Weinsberg"
+	culture="german"
+	religion="catholic"
+}
+3000135 = {
+	name="von Hohenberg"
+	culture="german"
+	religion="catholic"
+}
+3000136 = {
+	name = "von Schwarzburg"
+	culture = german
+	religion = catholic
+}
+3000137 = {
+	name = "von Egloffstein"
+	culture = german
+	religion = catholic
+}
+3000138 = {
+	name = "Jelito"
+	culture = hungarian
+	religion = catholic
+}
+3000139 = {
+	name = "von Erdingen"
+	culture = hungarian
+	religion = catholic
+}
+3000140 = {
+	name = "Ammann"
+	culture = german
+	religion = catholic
+}
+3000141 = {
+	name = "Werdenberg-Sargans"
+	culture = german
+	religion = catholic
 }
 3000016 = {
 	name = "de Valois-Bourgogne"
@@ -784,7 +869,7 @@
 	culture = hungarian
 }
 350025 = {
-	name = "SzentgyÃ¶rgyi"
+	name = "Szentgyörgyi"
 	religion = catholic
 	culture = hungarian
 }

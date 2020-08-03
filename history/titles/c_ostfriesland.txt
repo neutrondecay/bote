@@ -91,3 +91,9 @@ holder=30364 #Sitat II Cirksena
 {
 holder=462171 #Enno II Cirksena
 }
+1343 = {
+	holder = 30363
+}
+1397.1.1 = {
+	holder = 801284
+}

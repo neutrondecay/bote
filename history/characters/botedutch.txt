@@ -1,3 +1,43 @@
+801282 = {
+	name = "Jan"
+	dynasty = 3000125
+	culture = dutch
+	religion = catholic
+	
+	1318.1.1 = {
+		birth = yes
+	}
+	1371.6.23 = {
+		death = yes
+	}
+}
+801283 = {
+	name = "Floris"
+	dynasty = 3000125
+	culture = dutch
+	religion = catholic
+	
+	1330.1.1 = {
+		birth = yes
+	}
+	1393.4.4 = {
+		death = yes
+	}
+}
+####
+801284 = {
+	name="Enno"
+	dynasty=7128 #Cirksena
+	religion="catholic"
+	culture="dutch"
+	father=30363
+	1360.1.1={
+		birth=yes
+	}
+	1405.1.1={
+		death=yes
+	}
+}
 #Philip the Bold already done
 #Albrecht of Holland already exists: 462746
 810003 = { #Wife of Albrecht

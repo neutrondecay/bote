@@ -66,3 +66,13 @@
 1330.4.10={
 	holder=462835
 }
+1346.1.2 = {
+	holder = 462838
+}
+1347.1.2 = {
+	holder = 462828
+}
+1372.1.1 = {
+	holder = 801272 #Princes expelled from the city
+	liege = k_hansa
+}

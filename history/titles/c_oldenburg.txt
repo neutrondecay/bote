@@ -77,3 +77,12 @@ holder=30083 #Christian IV
 {
 holder=462917 #Johann III
 }
+1344.1.1 = {
+	holder = 161562
+}
+1347.1.1 = {
+	holder = 801275
+}
+1356.1.1 = {
+	holder = 801276
+}

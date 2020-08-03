@@ -106,3 +106,15 @@ holder=30313 #Jens Grand
 {
 holder=420251 #Burchard Grelle
 }
+1344.8.13 = {
+	holder = 30086
+}
+1344.1.1 = {
+	holder = 801273
+}
+1360.1.1 = {
+	holder = 801274
+}
+1395.4.14 = {
+	holder = 802667
+}

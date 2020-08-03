@@ -123,3 +123,12 @@ holder=33568
 {
 holder=33569
 }
+1342.1.1 = {
+	holder=462302 #Sold to Württemberg
+}
+1344.6.11 = {
+	holder = 462304
+}
+1392.1.1 = {
+	holder = 801304
+}

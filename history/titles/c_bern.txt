@@ -73,3 +73,7 @@ holder = 33637
 {
 holder = 33638
 }
+1353.1.1 = {
+	liege = k_switzerland #Joins Swiss Confederacy
+	holder = 801314
+}

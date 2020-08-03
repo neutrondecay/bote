@@ -142,5 +142,15 @@ holder=30689 #Jacob van Oudshoorn
 {
 holder=462006 #Jan van Diest
 }
-
-
+1347.1.1 = {
+	810007 #Jan IV van Arkel
+}
+1364.1.1={
+	holder=810008 #Jan V van Virneburg
+}
+1371.1.1={
+	holder=810009 #Arnold II van Horne
+}
+1378.1.1={
+	holder=810002 #Frederik
+}

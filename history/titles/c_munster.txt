@@ -121,3 +121,21 @@ holder=30334 #Konrad von Berg
 {
 holder=462003 #Ludwig von Hessen
 }
+1357.8.18 = {
+	holder = 801281
+}
+1363.1.1 = {
+	holder = 801282
+}
+1364.1.1 = {
+	holder= 801283
+}
+1378.1.1 = {
+	holder = 801284
+}
+1382.10.11 = {
+	holder= 801285
+}
+1392.1.1 = {
+	holder = 801286
+}

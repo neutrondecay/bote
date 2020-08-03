@@ -7,3 +7,12 @@ de_jure_liege = "k_switzerland"
 {
 holder=462085
 }
+1338.1.1 = {
+	holder = 801311
+}
+1354.1.1 = {
+	holder = 801312
+}
+1389.1.1 = {
+	holder = 801313
+}
