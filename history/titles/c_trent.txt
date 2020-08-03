@@ -86,3 +86,18 @@
 1336.1.1={
 	holder=33594
 }
+1347.1.1 = {
+	holder = 462731
+}
+1361.9.18 = {
+	holder = 462710
+}
+1363.1.1 = {
+	holder = 800436
+}
+1365.7.27={
+	holder = 800437 # Albrecht von Habsburg
+}
+1395.8.29={
+	holder = 802638 # Albrecht von Habsburg
+}

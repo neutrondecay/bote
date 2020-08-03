@@ -4568,6 +4568,18 @@
 		death = yes
 	}
 }
+801316 = {
+	name = "Leopold"
+	culture = "german"
+	religion = "catholic"
+
+	1328.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
 ### Salzburg ###
 802713 = { #
 	name = "Gregor"
