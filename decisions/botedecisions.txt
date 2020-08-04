@@ -1,23 +1,36 @@
 decisions = {
 	
-	welsh_independence = {
-		ai = no
+	# welsh_independence = {
+		# ai = no
+		# potential = {
+			# character = 800075
+		# }
+		# effect = {
+			# k_england = {
+				# holder_scope = {
+					# ROOT = {
+						# war = {
+							# target = PREV
+							# casus_belli = owains_war
+						# }
+					# }
+				# }
+			# }
+			
+		# }
+	# }
+	embrace_renaissance = {
 		potential = {
-			character = 800075
-		}
-		effect = {
-			k_england = {
-				holder_scope = {
-					ROOT = {
-						war = {
-							target = PREV
-							casus_belli = owains_war
-						}
+			OR = {
+				any_neighbor_independent_ruler = {
+					realm = {
+						has_title_flag = renaissance_realm
 					}
 				}
+				realm = {
+					has_title_flag = renaissance_realm
+				}
 			}
-			
 		}
 	}
-	
 }

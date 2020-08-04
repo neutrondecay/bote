@@ -44,3 +44,6 @@
 		type = golden_horde
 	}
 }
+1395.1.1 = {
+	clear_tribute_suzeraine = e_golden_horde #Stops paying tribute
+}

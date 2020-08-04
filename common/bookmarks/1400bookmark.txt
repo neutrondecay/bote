@@ -9,8 +9,8 @@ bm_beginningoftheend = {
 		id = 800075
 		age = 40
 		name = ERA_CHAR_NAME_800075
-		title = d_powys
-		title_name = d_powys
+		title = c_perfeddwlad
+		title_name = c_perfeddwlad
 		
 		character = {
 			dna="allj00khba0"
@@ -87,6 +87,22 @@ bm_beginningoftheend = {
 			female = yes
 			religion="catholic"
 			culture="danish"
+			government = feudal_government
+			dynasty=487
+		}
+	}
+	selectable_character = { #Vasily of Muscovy
+		id = 800975
+		age = 28
+		name = ERA_CHAR_NAME_800975
+		title = k_muscovy
+		title_name = k_muscovy
+		
+		character = {
+			dna="0cddh0babd0"
+			properties="kb0ci000000000000000000000000000000000"
+			religion="catholic"
+			culture="russian"
 			government = feudal_government
 			dynasty=487
 		}

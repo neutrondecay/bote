@@ -98,15 +98,26 @@
 
 	culture = russian
 	religion = orthodox
-	
+	diplomacy = 8
+	intrigue = 7
+	martial = 7
+	stewardship = 6
 	father=820601
 	mother=850027
-	
+	trait = charismatic_negotiator
+	trait = ambitious
+	trait = diligent
 	1371.12.30 = {
 		birth = yes
 	}
 	1391.1.9 = {
 		add_spouse = 820013 # Sofija of Lithuania
+		effect = {
+			add_alliance = {
+				who = 820011
+				days = -1
+			}
+		}
 	}
 	1425.2.27 = {
 		death = yes
@@ -273,6 +284,50 @@
 	}
 	1421.1.1={
 		death=yes
+	}
+}
+###
+801319 = {
+	name="Tvorimir"
+	dynasty=100402
+	religion="orthodox"
+	culture="russian"
+	father = 472318
+	1340.1.1={
+		birth=yes
+	}
+	1404.1.1={
+		death=yes
+	}
+}
+801320 = {
+	name="Gleb"
+	dynasty=100402
+	religion="orthodox"
+	culture="russian"
+	father = 801319
+	1384.1.1={
+		birth=yes
+	}
+	1454.1.1={
+		death=yes
+	}
+}
+###
+801321 = { 
+	name = "Anna"
+	dynasty = 705
+	female = yes
+	culture = russian
+	religion = orthodox
+	father=800975
+	mother=820013
+	
+	1393.12.30 = {
+		birth = yes
+	}
+	1417.8.20 = {
+		death = yes
 	}
 }
 ###
