@@ -393,7 +393,7 @@
 		death=yes
 	}
 }
-801155 = {
+801317 = {
 	name="Abdullah"
 	dynasty=1030012
 	religion="west_african_pagan"
@@ -406,7 +406,7 @@
 		death=yes
 	}
 }
-801156 = {
+801318 = {
 	name="Hafs-Umar"
 	dynasty=1030012
 	religion="west_african_pagan"
