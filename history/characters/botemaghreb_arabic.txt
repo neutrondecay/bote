@@ -393,3 +393,29 @@
 		death=yes
 	}
 }
+801155 = {
+	name="Abdullah"
+	dynasty=1030012
+	religion="west_african_pagan"
+	culture="maghreb_arabic"
+	father=161111
+	1335.1.1 = {
+		birth=yes
+	}
+	1405.1.1 = {
+		death=yes
+	}
+}
+801156 = {
+	name="Hafs-Umar"
+	dynasty=1030012
+	religion="west_african_pagan"
+	culture="maghreb_arabic"
+	father=801155
+	1365.1.1 = {
+		birth=yes
+	}
+	1445.1.1 = {
+		death=yes
+	}
+}
