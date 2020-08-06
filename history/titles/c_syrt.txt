@@ -79,3 +79,10 @@ holder=480000
 {
 holder=480010
 }
+1350.1.1={
+	holder=855624 # Halim Uvarov
+}
+1395.1.1={
+	liege=d_kazan
+}
+

@@ -92,3 +92,10 @@ holder=480000
 {
 holder=480270
 }
+1350.1.1={
+	holder=855620 # Feza Guclu
+}
+1395.1.1={
+	liege=d_kazan
+}
+

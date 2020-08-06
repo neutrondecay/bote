@@ -106,3 +106,9 @@ holder=34944
 {
 holder=480080
 }
+1350.1.1={
+	holder=855621 # Giray Uzengi
+}
+1395.1.1={
+	liege=d_kazan
+}
