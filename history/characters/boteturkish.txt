@@ -313,7 +313,7 @@
 	}
 }
 801031 = {
-	name = "Süleyman"
+	name = "SÃ¼leyman"
 	dynasty = 3000110
 	culture = turkish
 	religion = sunni
@@ -327,7 +327,7 @@
 	}
 }
 801032 = {
-	name = "Süleyman"
+	name = "SÃ¼leyman"
 	dynasty = 3000110
 	culture = turkish
 	religion = sunni
@@ -606,7 +606,7 @@
 	}
 }
 801124 = {
-	name="Süleyman"
+	name="SÃ¼leyman"
 	dynasty=20089
 	religion="sunni"
 	culture="turkish"
@@ -1055,5 +1055,263 @@
 	}
 	1414.1.23 = {
 	    death = yes
+	}
+}
+855613 = {
+	name = "Edigu" # Golden Horde warlord
+	dynasty=350034
+	religion="sunni"
+	culture="turkish"
+	father=855629 # Baltychak Manghit
+	martial=16
+	trait=cruel
+	trait=zealous
+	trait=skilled_tactician
+	trait=siege_leader
+	
+	1352.1.1={
+		birth=yes
+	}
+	1379.1.1 = {
+	    effect = {
+		    add_rival = 855203 # Tokhtamysh khan
+		}
+	}
+	1419.1.1 = {
+	    death = yes
+	}
+}
+855614 = {
+	name = "Mansur"
+	dynasty=350034
+	religion="sunni"
+	culture="turkish"
+	father=855613 # Edigu khan
+	
+	1372.1.1={
+		birth=yes
+	}
+	1427.1.1 = {
+	    death = yes
+	}
+}
+855615 = {
+	name = "Nuraddin"
+	dynasty=350034
+	religion="sunni"
+	culture="turkish"
+	father=855613 # Edigu khan
+	
+	1385.1.1={
+		birth=yes
+	}
+	1440.1.1 = {
+	    death = yes
+	}
+}
+855616 = {
+	name = "Gazi"
+	dynasty=350034
+	religion="sunni"
+	culture="turkish"
+	father=855613 # Edigu khan
+	
+	1375.1.1={
+		birth=yes
+	}
+	1428.1.1 = {
+	    death = yes
+	}
+}
+855617 = {
+	name = "Naurus"
+	dynasty=350034
+	religion="sunni"
+	culture="turkish"
+	father=855613 # Edigu khan
+	
+	1380.1.1={
+		birth=yes
+	}
+	1440.1.1 = {
+	    death = yes
+	}
+}
+855618 = {
+	name = "Mubarak"
+	dynasty=350034
+	religion="sunni"
+	culture="turkish"
+	father=855613 # Edigu khan
+	
+	1377.1.1={
+		birth=yes
+	}
+	1241.1.1 = {
+	    effect_even_if_dead = {
+		    c_34913 = {
+			    set_father=34921 # Sartaqtay son of Orda khan
+			}
+		}
+	}
+	1415.1.1 = {
+	    death = yes
+	}
+}
+855619 = {
+	name = "Mamai" # Golden Horde warlord
+	dynasty=350035
+	religion="sunni"
+	culture="turkish"
+	martial=13
+	trait=strong
+	trait=hunter
+	
+	1335.1.1={
+		birth=yes
+	}
+	1380.1.1 = {
+	    death = {
+		    death_reason=death_execution
+			killer=855203 # Tokhtamysh khan
+		}
+	}
+}
+855620 = {
+	name = "Feza" # placeholder
+	dynasty=1053010
+	religion="sunni"
+	culture="turkish"
+	father=480270 # Chief Ertan of Kerzhenets
+	
+	1345.1.1={
+		birth=yes
+	}
+	1405.1.1 = {
+	    death = yes
+	}
+}
+855621 = {
+	name = "Giray" # placeholder
+	dynasty=1053012
+	religion="sunni"
+	culture="turkish"
+	father=480080 # Chief Koksegu of Mari
+	
+	1347.1.1={
+		birth=yes
+	}
+	1405.1.1 = {
+	    death = yes
+	}
+}
+855622 = {
+	name = "Kadir" # placeholder
+	dynasty=5062098
+	religion="sunni"
+	culture="turkish"
+	father=480090 # Chief Alchi of Chuvash
+	
+	1344.1.1={
+		birth=yes
+	}
+	1405.1.1 = {
+	    death = yes
+	}
+}
+855623 = {
+	name = "Mahmut" # placeholder
+	dynasty=1053007
+	religion="sunni"
+	culture="turkish"
+	father=480100 # Chief Jurchedei of Cheremisa
+	
+	1346.1.1={
+		birth=yes
+	}
+	1405.1.1 = {
+	    death = yes
+	}
+}
+855624 = {
+	name = "Halim" # placeholder
+	dynasty=100609
+	religion="sunni"
+	culture="turkish"
+	father=480010 # Chief Horkhudagh of Syrt
+	
+	1349.1.1={
+		birth=yes
+	}
+	1405.1.1 = {
+	    death = yes
+	}
+}
+855625 = {
+	name = "Idris" # placeholder from historical Tatar dynasty, Argyn
+	dynasty=350036
+	religion="sunni"
+	culture="turkish"
+	
+	1351.1.1={
+		birth=yes
+	}
+	1420.1.1 = {
+	    death = yes
+	}
+}
+855626 = {
+	name = "Kamil" # placeholder from historical Tatar dynasty, Barin
+	dynasty=350037
+	religion="sunni"
+	culture="turkish"
+	
+	1353.1.1={
+		birth=yes
+	}
+	1420.1.1 = {
+	    death = yes
+	}
+}
+855627 = {
+	name = "Ural" # placeholder from historical Tatar dynasty, Qipchaq
+	dynasty=350038
+	religion="sunni"
+	culture="turkish"
+	
+	1351.1.1={
+		birth=yes
+	}
+	1420.1.1 = {
+	    death = yes
+	}
+}
+855628 = {
+	name = "Bulat" # placeholder from historical Tatar dynasty, Shirin
+	dynasty=350039
+	religion="sunni"
+	culture="turkish"
+	
+	1352.1.1={
+		birth=yes
+	}
+	1420.1.1 = {
+	    death = yes
+	}
+}
+855629 = {
+	name = "Baltychak" # Manghit ancestor
+	dynasty=350034
+	religion="sunni"
+	culture="turkish"
+	
+	1320.1.1={
+		birth=yes
+	}
+	1379.1.1 = {
+	    death = {
+		    death_reason=death_execution
+			killer=855203 # Tokhtamysh khan
+		}
 	}
 }
