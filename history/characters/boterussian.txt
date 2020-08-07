@@ -107,6 +107,8 @@
 	trait = charismatic_negotiator
 	trait = ambitious
 	trait = diligent
+	dna="0cddh0babd0"
+	properties="kb0ci000000000000000000000000000000000"
 	1371.12.30 = {
 		birth = yes
 	}

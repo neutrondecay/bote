@@ -1,66 +1,422 @@
 namespace = bote
 
-character_event = { #I am Owain Glyndwr
+# character_event = { #I am Owain Glyndwr
+	# id = bote.00001
+	# desc = EVTDESCbote.00001
+	# only_playable = yes
+	
+	# trigger = {
+		# has_character_flag = glyndwr
+		# culture = welsh
+	# }
+	# mean_time_to_happen = {
+		# days = 1
+	# }
+	# option = {
+		# name = EVTOPTAbote.00001
+		# clr_character_flag = glyndwr
+		
+		# character_event = { id = bote.00002 days = 55 }
+	# }
+# }
+# character_event = { #Earl of Powys seizes control of land
+	# id = bote.00002
+	# desc = EVTDESCbote.00002
+	
+	# is_triggered_only = yes
+	# portrait = c_powys
+	
+	# option = {
+		# name = EVTOPTAbote.00002
+		# c_powys = {
+			# holder_scope = {
+				# b_aberystwyth = { 
+					# usurp_title = PREV
+				# }
+			# }
+		# }
+		# character_event = { id = bote.00003 days = 10 }
+	# }
+# }
+# character_event = { #Owain appeals to the English Parliament
+	# id = bote.00003
+	# desc = EVTDESCbote.00003
+	
+	# is_triggered_only = yes
+	# portrait = k_england
+	
+	# option = {
+		# name = EVTOPTAbote.00003
+		# opinion = { modifier = opinion_hate who = k_england years = 50 }
+		# character_event = { id = bote.00004 days = 30 }
+	# }
+# }
+# character_event = { #Owain's retaliation to Earl of Powys
+	# id = bote.00004
+	# desc = EVTDESCbote.00004
+	
+	# is_triggered_only = yes
+	# portrait = k_england
+	
+	# option = {
+		# name = EVTOPTAbote.00004
+		# opinion = { modifier = opinion_hate who = k_england years = 50 }
+		# #character_event = { id = bote.00005 days = 55 }
+	# }
+# }
+character_event = { #Embrace the Renaissance
 	id = bote.00001
 	desc = EVTDESCbote.00001
-	only_playable = yes
 	
-	trigger = {
-		has_character_flag = glyndwr
-		culture = welsh
-	}
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
+	
 	option = {
 		name = EVTOPTAbote.00001
-		clr_character_flag = glyndwr
-		
-		character_event = { id = bote.00002 days = 55 }
+		prestige = 50
 	}
 }
-character_event = { #Earl of Powys seizes control of land
+character_event = { #Commission painting
 	id = bote.00002
 	desc = EVTDESCbote.00002
 	
 	is_triggered_only = yes
-	portrait = c_powys
 	
 	option = {
-		name = EVTOPTAbote.00002
-		c_powys = {
-			holder_scope = {
-				b_aberystwyth = { 
-					usurp_title = PREV
+		name = EVTOPTAbote.00002 #Portrait of Caesar
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				is_feudal = yes
+			}
+			modifier = {
+				factor = 0.5
+				is_republic = yes
+			}
+		}
+		trigger = {
+			NOT = {
+				has_artifact = portrait_caesar
+			}
+		}
+		wealth = -100
+		hidden_tooltip = {
+			
+			c_899999 = {
+				add_artifact = portrait_caesar
+				new_artifact = {
+					log_scopes = yes
+					ROOT = {
+						log_scopes = yes
+						save_persistent_event_target = {
+							name = commissioned_painting
+							scope = PREV
+						}
+					}
 				}
 			}
 		}
-		character_event = { id = bote.00003 days = 10 }
+		custom_tooltip = {
+			text = COMMISSION_PAINTING
+			character_event = { id = bote.00004 days = 182 }
+		}
+	}
+	option = {
+		name = EVTOPTBbote.00002 #Portrait of Cicero
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				is_feudal = yes
+			}
+			modifier = {
+				factor = 2
+				is_republic = yes
+			}
+		}
+		trigger = {
+			NOT = {
+				has_artifact = portrait_cicero
+			}
+		}
+		wealth = -100
+		hidden_tooltip = {
+			
+			c_899999 = {
+				add_artifact = portrait_cicero
+				new_artifact = {
+					log_scopes = yes
+					ROOT = {
+						log_scopes = yes
+						save_persistent_event_target = {
+							name = commissioned_painting
+							scope = PREV
+						}
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = COMMISSION_PAINTING
+			character_event = { id = bote.00004 days = 182 }
+		}
+	}
+	option = {
+		name = EVTOPTCbote.00002 #Other options
+		character_event = { id = bote.00003 }
+		ai_chance = {
+			factor = 30
+		}
+	}
+	option = {
+		name = EVTOPTDbote.00002 #On second thoughts...
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				wealth <= 150
+			}
+			modifier = {
+				factor = 0.5
+				wealth >= 300
+			}
+		}
 	}
 }
-character_event = { #Owain appeals to the English Parliament
+character_event = { #Commission painting 2
 	id = bote.00003
 	desc = EVTDESCbote.00003
 	
 	is_triggered_only = yes
-	portrait = k_england
-	
 	option = {
-		name = EVTOPTAbote.00003
-		opinion = { modifier = opinion_hate who = k_england years = 50 }
-		character_event = { id = bote.00004 days = 30 }
+		name = EVTOPTAbote.00003 #Portrait of Sokrates
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_dlc = "Way of Life"
+				has_focus = focus_scholarship
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					trait = detached_priest
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+		}
+		trigger = {
+			NOT = {
+				has_artifact = portrait_sokrates
+			}
+		}
+		wealth = -100
+		hidden_tooltip = {
+			
+			c_899999 = {
+				add_artifact = portrait_sokrates
+				new_artifact = {
+					log_scopes = yes
+					ROOT = {
+						log_scopes = yes
+						save_persistent_event_target = {
+							name = commissioned_painting
+							scope = PREV
+						}
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = COMMISSION_PAINTING
+			character_event = { id = bote.00004 days = 182 }
+		}
+	}
+	option = {
+		name = EVTOPTBbote.00003 #Portrait of Archimedes
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_dlc = "Way of Life"
+				has_focus = focus_scholarship
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					trait = detached_priest
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+		}
+		trigger = {
+			NOT = {
+				has_artifact = portrait_archimedes
+			}
+		}
+		wealth = -100
+		hidden_tooltip = {
+			
+			c_899999 = {
+				add_artifact = portrait_archimedes
+				new_artifact = {
+					log_scopes = yes
+					ROOT = {
+						log_scopes = yes
+						save_persistent_event_target = {
+							name = commissioned_painting
+							scope = PREV
+						}
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = COMMISSION_PAINTING
+			character_event = { id = bote.00004 days = 182 }
+		}
+	}
+	option = {
+		name = EVTOPTCbote.00003 #Portrait of Alexander the Great
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_dlc = "Way of Life"
+				has_focus = focus_war
+			}
+		}
+		modifier = {
+				factor = 1.5
+				OR = {
+					trait = misguided_warrior
+					trait = tough_soldier
+					trait = skilled_tactician
+					trait = brilliant_strategist
+				}
+			}
+		trigger = {
+			NOT = {
+				has_artifact = portrait_alexander
+			}
+		}
+		wealth = -100
+		hidden_tooltip = {
+			c_899999 = {
+				add_artifact = portrait_alexander
+				new_artifact = {
+					log_scopes = yes
+					ROOT = {
+						log_scopes = yes
+						save_persistent_event_target = {
+							name = commissioned_painting
+							scope = PREV
+						}
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = COMMISSION_PAINTING
+			character_event = { id = bote.00004 days = 182 }
+		}
+	}
+	option = {
+		name = EVTOPTDbote.00003 #Other options
+		character_event = { id = bote.00002 }
 	}
 }
-character_event = { #Owain's retaliation to Earl of Powys
+character_event = { #Commissioned painting complete
 	id = bote.00004
 	desc = EVTDESCbote.00004
 	
 	is_triggered_only = yes
-	portrait = k_england
 	
 	option = {
 		name = EVTOPTAbote.00004
-		opinion = { modifier = opinion_hate who = k_england years = 50 }
-		#character_event = { id = bote.00005 days = 55 }
+		hidden_tooltip = {
+			persistent_event_target:commissioned_painting = {
+				transfer_artifact = {
+					from = artifact_owner
+					to = ROOT
+				}
+			}
+		}
+		prestige = 25
+		clear_event_target = commissioned_painting
+	}
+}
+character_event = { #Independent power embraces Renaissance
+	id = bote.00005
+	only_playable = yes
+	only_independent = yes
+	has_global_flag = renaissance_started
+	hide_window = yes
+	
+	immediate = { #Get 25% of total number of vassals
+		set_variable = {
+			which = local_count
+			value = 1
+		}
+		any_realm_character = {
+				limit = {
+					is_playable = yes
+				}
+				change_variable = {
+					which = local_count
+					value = 1
+				}
+		}
+		divide_variable = {
+			which = local_count
+			value = 4
+		}
+		log = "[local_count.GetValue]"
+	}
+	trigger = {
+		NOT = {
+			primary_title = {
+				has_title_flag = renaissance_realm
+			}
+		}
+		any_realm_lord = {
+			has_character_flag = renaissance_ruler
+			count >= local_count
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	option = {
+		any_realm_lord = {
+			limit = {
+				ai = no
+			}
+			narrative_event = {
+				id = bote.00006
+			}
+		}
+		narrative_event = {
+			id = bote.00006
+		}
+		primary_title = {
+			set_title_flag = renaissance_realm
+		}
+	}
+}
+narrative_event = { #Flavour event- [Realm adjective] Renaissance
+	id = bote.00006
+	desc = EVTDESCbote.00006
+	title = REALM_RENAISSANCE
+	picture = GFX_evt_hellenic_temple
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAbote.00006
 	}
 }

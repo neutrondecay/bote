@@ -1,0 +1,42 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_cicero"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\portrait_cicero.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_cicero_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\portrait_cicero_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_caesar"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\portrait_caesar.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_caesar_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\portrait_caesar_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_sokrates"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\portrait_sokrates.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_sokrates_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\portrait_sokrates_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_archimedes"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\portrait_archimedes.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_archimedes_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\portrait_archimedes_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_alexander"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\portrait_alexander.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_alexander_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\portrait_alexander_small.dds"
+	}
+}

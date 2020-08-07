@@ -1,5 +1,6 @@
+#Bookmark
 BM_BOOTE_ERA;Beginning of the End;;;;;;;;x
-BM_BOOTE_ERA_INFO;The medieval era is nearing its end, and the world is undergoing considerable change. In Europe, the grip of medieval thought is loosening within the Italian Republics, as groundbreaking discoveries and rediscoveries are made. Interest in Europe's Roman heritage is growing once again, which is introducing floods of radical ideas. Advancements in architecture, philosophy, art, politics and even language are all happening at an alarming rate. ;;;;;;;x
+BM_BOOTE_ERA_INFO;The medieval era is nearing its end, and the world is undergoing considerable change. In Europe, the grip of medieval thought is loosening within the Italian Republics, as groundbreaking discoveries and rediscoveries are made. Interest in Europe's Roman heritage is growing once again, which is introducing floods of radical ideas. Advancements in architecture, philosophy, art, politics and even language are all happening at an alarming rate. Meanwhile, in the east, the last great Mongol conqueror, Timur, has carved out a huge empire for himself, sending the Golden Horde into chaos and threatening other great Muslim powers with destruction. Both the Ottomans and Mamluks are under attack from the Timurid forces, as he shows no sign of stopping his rapacious conquests. It would take death itself to put an end to that man...;;;;;;;x
 ERA_CHAR_NAME_800075;Owain Glyndwr;;;;;;;;x
 ERA_CHAR_INFO_800075;Owain Glyndwr was the last Welsh ruler to be crowned Prince of Wales. After decades of mistreatment by his English overlords, Owain had had enough. In 1400, he launched a rebellion against the English crown in order to gain independence for once and for all. Initially, he was highly successful, as the rebellion swfitly seized most of Wales. However, as time progressed, it was clear that the rebels could not be victorious. A lack of foreign allies and modern weaponry meant that the Welsh were finally defeated after a struggle which lasted until 1416. Nevertheless, Owain Glyndwr, or Glendower, was never found or betrayed by his fellow Welshmen, and he became a symbol of Welsh pride for centuries to come.;;;;;;;;x
 ERA_CHAR_NAME_801171;Emir Timur;;;;;;;;x
@@ -13,7 +14,7 @@ ERA_CHAR_INFO_802720;Queen Margrethe ruled over the kingdoms of Denmark, Sweden 
 ERA_CHAR_NAME_800975;Grand Duke Vasily of Muscovy;;;;;;;;x
 ERA_CHAR_INFO_800975;Vasily continued the cosolidation of Muscovite power, ceasing to pay tribute to the Golden Horde for a few years while Timur wrought havoc among his Mongol rivals. He used a combination of diplomacy, warfare and intrigue to advance the Muscovite cause, forging alliances and conquering territories. Although he was unable to decisively rid himself of Mongol vassalage forever, the lands of the Rus' were closer to being united under Russian rule once again, as they had been many years ago. The journey towards Russian freedom continues.;;;;;;;;x
 #Culture
-navarro_aragonese;Navarro-Aragonese;;;;;;;;x
+#navarro_aragonese;Navarro-Aragonese;;;;;;;;x
 #CBs
 owains_war_desc;Welsh war for independence;;;;;;;;x
 CB_OWAIN;Welsh Independence;;;;;;;;x
@@ -43,6 +44,8 @@ d_rumelia;Rumelia;;;;;;;;x
 d_rumelia_adj;Rumelian;;;;;;;;x
 e_timurid;Gurkaniya;;;;;;;;x
 e_timurid_adj;Gurkaniyan;;;;;;;;x
+e_plane;Outer Plane;;;;;;;;x
+e_plane_adj;Outer;;;;;;;;x
 #Patrician Houses
 b_di_ancona;House di Ancona;;;;;;;;x
 b_medici;House de' Medici;;;;;;;;x
@@ -77,15 +80,51 @@ bote_palatineofhungary_desc;The King of Hungary's right hand man on earthly affa
 welshbloodofowain;Welsh Blood of [This.GetName];;;;;;;;x
 welshbloodofowain_desc;[This.GetName] successfully freed Wales from the tyranny of English rule in a spectacular display of valour and courage;;;;;;;;x
 #Events
-EVTDESCbote.00001;You are Owain Glyndwr, a descendent of the Princes of Powys and a proud Welshman. And yet the English, who have no claim to these lands, continue to oppress your people. You have only ever served the Crown, but it affords you no respect. You refuse to put up with this for much longer.;;;;;;;;x
-EVTOPTAbote.00001;It is time for Wales to seize her own destiny.;;;;;;;;x
-EVTDESCbote.00002;As you are attending to a few administrative matters one morning, a servant bursts into your chambers, and announces that [c_powys.Holder.GetTitledName] has seized control of Aberystwyth! At once, you order the servant to prepare your horse. You plan to appeal to the English parliament.;;;;;;;;x
-EVTOPTAbote.00002;[c_powys.Holder.GetFullName] will pay for this!;;;;;;;;x
-EVTDESCbote.00003;Your appeal has been made to Parliament, but after very little consideration, it appears that the Members of Parliament have entirely dismissed your concerns. This is an outrage!;;;;;;;;x
-EVTOPTAbote.00003;That was the last straw.;;;;;;;;x
-EVTDESCbote.00004;Since Parliament has disregarded your appeal, you decide to take matters into your own hands. You sent a furious letter to [c_powys.Holder.GetFullName], reeling off a list of insults and threats. Perhaps it was a bit too much?;;;;;;;;x
+# EVTDESCbote.00001;You are Owain Glyndwr, a descendent of the Princes of Powys and a proud Welshman. And yet the English, who have no claim to these lands, continue to oppress your people. You have only ever served the Crown, but it affords you no respect. You refuse to put up with this for much longer.;;;;;;;;x
+# EVTOPTAbote.00001;It is time for Wales to seize her own destiny.;;;;;;;;x
+# EVTDESCbote.00002;As you are attending to a few administrative matters one morning, a servant bursts into your chambers, and announces that [c_powys.Holder.GetTitledName] has seized control of Aberystwyth! At once, you order the servant to prepare your horse. You plan to appeal to the English parliament.;;;;;;;;x
+# EVTOPTAbote.00002;[c_powys.Holder.GetFullName] will pay for this!;;;;;;;;x
+# EVTDESCbote.00003;Your appeal has been made to Parliament, but after very little consideration, it appears that the Members of Parliament have entirely dismissed your concerns. This is an outrage!;;;;;;;;x
+# EVTOPTAbote.00003;That was the last straw.;;;;;;;;x
+# EVTDESCbote.00004;Since Parliament has disregarded your appeal, you decide to take matters into your own hands. You sent a furious letter to [c_powys.Holder.GetFullName], reeling off a list of insults and threats. Perhaps it was a bit too much?;;;;;;;;x
+EVTDESCbote.00001;The world is changing, and along with it, so must its people. You have noticed a rise in interest in the Classical word and the rich cultures of the ancient Romans and Greeks. This has opened up a whole new range of ideas which are waiting to be explored by both learnèd and aspiring classicists. Who knows where this journey will take you?;;;;;;;;x
+EVTOPTAbote.00001;This is where it all begins!;;;;;;;;x
+EVTDESCbote.00002;A portrait of an important classical figure will surely enhance your prestige, demonstrating how cultured you are, as well as sending a message about the classical ideals you believe in. The question is: who would be most suitable?;;;;;;;;x
+EVTOPTAbote.00002;Caesar, an outstanding military leader, politician and symbol of the Empire;;;;;;;;x
+EVTOPTBbote.00002;Cicero, the great defender of the Roman Republic;;;;;;;;x
+EVTOPTCbote.00002;There must be other options...;;;;;;;;x
+EVTOPTDbote.00002;On second thoughts, I can't afford this right now.;;;;;;;;x
+EVTDESCbote.00003;A portrait of an important classical figure will surely enhance your prestige, demonstrating how cultured you are, as well as sending a message about the classical ideals you believe in. The question is: who would be most suitable?;;;;;;;;x
+EVTOPTAbote.00003;Sokrates, the famous philosopher;;;;;;;;x
+EVTOPTBbote.00003;Archimedes, the greatest mathematician of the ancient world;;;;;;;;x
+EVTOPTCbote.00003;Alexander the Great, an excellent general and conqueror;;;;;;;;x
+EVTOPTDbote.00003;Who else is there..?;;;;;;;;x
+EVTDESCbote.00004;At long last, the [commissioned_painting.GetName] is ready! The artist excitedly enters your room for an audience, and two servants carefully carry the painting in. "[Root.PrimaryTitle.GetFOA], it is my privilege to reveal the [commissioned_painting.GetName]," he announces in a grandiose fashion, before removing the curtain covering the canvas. And what a painting it is! It is sure to impress your peers and enhance your image.;;;;;;;;x
+EVTOPTAbote.00004;I will go down in the history books as a wise and cultured ruler;;;;;;;;x
+EVTDESCbote.00006;The increase in interest in the classical world in  [Root.PrimaryTitle.GetName] has definitely been noticeable recently. As more and more members of society, from wealthy merchants to learnèd academics, are looking to the past, it is clear that this is not just some passing phase. The ancient Romans and Greeks laid the foundations for many aspects of your culture, but it seems that much has been forgotten, and much is yet to be rediscovered. Armed with knowledge from the ancient world, society will change drastically, but only time will tell how this will play out. What you can decide, however, is how you yourself will change during this unprecedented time. Even in this early stage, it is clear that everything, from art and architecture to the way the world is perceived and the machinations of government will be effected. It is up to you to turn lead society in the right direction... or in the one that benefits you most.;;;;;;;;x
+EVTOPTAbote.00006;Time to get reading!;;;;;;;;x
+#Event titles
+REALM_RENAISSANCE;[Root.PrimaryTitle.GetAdjective] Renaissance;;;;;;;;x
+#Decisions
+embrace_renaissance;Embrace the Renaissance;;;;;;;;x
+embrace_renaissance_desc;Around you, more and more people are taking an interest in the culture of the classical world. It has a lot to offer, and embracing it yourself would offer many new options.;;;;;;;;x
+commission_painting;Commission a Classical Portrait;;;;;;;;x
+commission_painting_desc;A portrait of a classical figure would be a fine way to enhance your prestige;;;;;;;;x
 #Nicknames
 bote_nick_the_elder;the Elder;;;;;;;;x
 bote_nick_nevsky;Nevsky;;;;;;;;x
 bote_nick_donskoy;Donskoy;;;;;;;;x
 bote_nick_the_white;The White;;;;;;;;x
+#Artifacts
+portrait_cicero;Portrait of Cicero;;;;;;;;x
+portrait_cicero_desc;An exquisite portrait of the famous Roman orator and defender of the Republic, Cicero. He is an eternal symbol of Roman Republican values and well-respected by the patricians of the current day.;;;;;;;;x
+portrait_caesar;Portrait of Caesar;;;;;;;;x
+portrait_caesar_desc;A splendid portrait of Julius Caesar, conqueror of Gaul and Dictator of Rome. His name lives on to this day as a title of Imperial symbolism, inspiring many eager nobles to emulate his conquests and supreme rule.;;;;;;;;x
+portrait_sokrates;Portrait of Sokrates;;;;;;;;x
+portrait_sokrates_desc;This piece beautifully depicts Sokrates, the famous Greek thinker whose dedication to his philosophical beliefs ultimately led to his demise.;;;;;;;;x
+portrait_archimedes;Portrait of Archimedes;;;;;;;;x
+portrait_archimedes_desc;An excellent portrait of Archimedes, the greatest ancient scientist. Not only did he achieve breakthroughs in theory, but he also applied said theory, such as in the machines used to defend Syracuse from the Romans.;;;;;;;;x
+portrait_alexander;Portrait of Alexander the Great;;;;;;;;x
+portrait_alexander_desc;Alexander the Great is depicted in his prime, wearing his general's attire and looking to the east, towards Persia. The face alone is enough to instill martial vigour into the gentlest of souls.;;;;;;;;x
+#Tooltipes
+COMMISSION_PAINTING;The painter will begin work right away;;;;;;;;x

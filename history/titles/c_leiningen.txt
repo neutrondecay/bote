@@ -101,5 +101,6 @@ liege=k_germany
 	holder= 462730 # Stefan II
 }
 1375.5.19={
+	liege = d_bavaria
 	holder=802617 # Stefan III
 }

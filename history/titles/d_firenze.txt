@@ -1,7 +1,13 @@
 1382.1.1 = {
 	holder = 800325
 	liege = 0
+	# effect = {
+		# insert_title_history = d_toscana
+	# }
+}
+1385.1.1 = {
 	effect = {
-		insert_title_history = d_toscana
+		set_global_flag = renaissance_started
+		set_title_flag = renaissance_realm
 	}
 }

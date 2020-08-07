@@ -123,5 +123,5 @@ holder=70709
 	holder = 800348 #Alberto d'Este
 }
 1393.7.30 = {
-	holder = 800348 #Niccolò d'Este
+	holder = 800485 #Niccolò d'Este
 }

@@ -1434,3 +1434,40 @@
 		death = yes
 	}
 }
+801323 ={
+	name="Martín"
+	dynasty=7033
+
+	father=200106
+	mother=200107
+
+	religion=catholic
+	culture=castillan
+
+	1295.1.1={
+		birth=yes
+	}
+	1352.1.1={
+		death=yes
+	}
+}
+801324 ={
+	name="Pedro"
+	dynasty=7033
+
+	father=801323
+
+	religion=catholic
+	culture=castillan
+
+	1328.11.25={
+		birth=yes
+	}
+	1394.9.16 = {
+		set_name = "Benedictus"
+		add_claim = k_papal_state
+	}
+	1423.4.23={
+		death=yes
+	}
+}

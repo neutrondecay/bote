@@ -458,6 +458,9 @@
 	1291.4.12 = {
 		birth = yes
 	}
+	1342.4.25 = {
+		capital = c_venaissin
+	}
 	1352.12.6 = {
 		death = yes
 	}
@@ -470,6 +473,9 @@
 	
 	1282.7.18 = {
 		birth = yes
+	}
+	1352.12.6 = {
+		capital = c_venaissin
 	}
 	1362.9.12 = {
 		death = yes
@@ -484,6 +490,9 @@
 	1310.3.8 = {
 		birth = yes
 	}
+	1362.9.12 = {
+		capital = c_venaissin
+	}
 	1370.12.19 = {
 		death = yes
 	}
@@ -496,6 +505,12 @@
 	father = 800232
 	1329.1.28 = {
 		birth = yes
+	}
+	1370.12.19 = {
+		capital = c_venaissin
+	}
+	1376.9.13 = {
+		capital = c_roma
 	}
 	1378.3.27 = {
 		death = yes
@@ -767,6 +782,24 @@
 	}
 	1425.1.1 = {
 		death = yes
+	}
+}
+801322 = {
+	name="Robert" 
+	dynasty=100239
+	religion="catholic"
+	culture="frankish"
+	father=32754
+	mother=32756
+	1342.1.1 = {
+		birth=yes
+	}
+	1378.9.20 = {
+		set_name = "Clemens"
+		add_claim = k_papal_state
+	}
+	1394.9.16 = {
+		death=yes
 	}
 }
 ### House de Valois ##

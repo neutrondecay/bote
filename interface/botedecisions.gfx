@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_embrace_renaissance"
+		texturefile = "gfx\\interface\\embrace_renaissance.dds"
+	}
+	spriteType = {
+		name = "GFX_commission_painting"
+		texturefile = "gfx\\interface\\commission_painting.dds"
+	}
+}

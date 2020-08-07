@@ -137,20 +137,17 @@
 	name = "de' Medici"
 	culture = italian
 	religion = catholic
-	# coat_of_arms = {
-		# data = {
-			# template = 0
-			# layer = {
-				# texture = 2
-				# texture_internal = 1
-				# emblem = 1
-				# color = 0
-				# color = 7
-				# color = 3
-			# }
-		# }
-		# used_for_random = no
-	# }
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 15
+			emblem = 0
+			color = 3
+			color = 0
+			color = 12
+		}
+    }
 }
 3000036 = {
 	name = "Cavalcanti"
@@ -692,6 +689,11 @@
 	name = "Werdenberg-Sargans"
 	culture = german
 	religion = catholic
+}
+3000142 = {
+	name = "Arkhe"
+	culture = greek
+	religion = hellenic_pagan
 }
 3000016 = {
 	name = "de Valois-Bourgogne"

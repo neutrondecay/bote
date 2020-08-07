@@ -252,3 +252,12 @@ b_klingenberg = {
 	culture = german
 	religion = catholic
 }
+###Title for Kronos
+e_plane = {
+	color={ 100 255 184 }
+	landless = yes
+	culture = greek
+	can_be_claimed = no
+	can_be_usurped = no
+	short_name = yes
+}

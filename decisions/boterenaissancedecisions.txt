@@ -1,0 +1,159 @@
+decisions = {
+	
+	# welsh_independence = {
+		# ai = no
+		# potential = {
+			# character = 800075
+		# }
+		# effect = {
+			# k_england = {
+				# holder_scope = {
+					# ROOT = {
+						# war = {
+							# target = PREV
+							# casus_belli = owains_war
+						# }
+					# }
+				# }
+			# }
+			
+		# }
+	# }
+	embrace_renaissance = {
+		is_high_prio = yes
+		ai_check_interval = 30
+		only_rulers = yes
+		capable_only = yes
+		has_global_flag = renaissance_started
+		potential = {
+			OR = { #Current realm is part of the Renaissance or neighbouring realm has been for a while
+				any_neighbor_independent_ruler = {
+					realm = {
+						had_title_flag = {
+							flag = renaissance_realm
+							months >= 6
+						}
+						has_title_flag = renaissance_realm
+					}
+				}
+				realm = {
+					has_title_flag = renaissance_realm
+				}
+			}
+			religion_group = christian
+			capital_scope = {
+				region = world_europe
+			}
+			NOT = {
+				has_character_flag = renaissance_ruler
+			}
+			OR = { #Allows normal (non-playable) republics to participate
+				is_patrician = yes
+				higher_real_tier_than = BARON
+			}
+		}
+		allow = {
+			learning >= 8
+			is_adult = yes
+		}
+		effect = {
+			set_character_flag = renaissance_ruler
+			character_event = { id = bote.00001 }
+		}
+		ai_will_do = {
+			factor = 0.3
+			
+			###Traits
+			additive_modifier = {
+				value = -0.3
+				trait = stubborn
+			}
+			additive_modifier = {
+				value = 0.1
+				trait = poet
+			}
+			additive_modifier = {
+				value = 0.1
+				OR = {
+					trait = envious
+					trait = ambitious
+				}
+				any_liege = {
+					has_character_flag = renaissance_ruler
+				}
+			}
+			additive_modifier = {
+				value = 0.1
+				trait = sympathy_pagans
+			}
+			additive_modifier = {
+				value = 0.1
+				trait = varangian
+			}
+			###Cultural links
+			additive_modifier = {
+				value = 0.5
+				OR = {
+					###Strongest link
+					culture_group = latin
+					culture_group = byzantine
+				}
+			}
+			additive_modifier = {
+				value = 0.3
+				OR = {
+					###Medium link
+					culture_group = west_germanic
+					culture = breton
+					culture = welsh
+				}
+			}
+			additive_modifier = {
+				value = 0.1
+				OR = {
+					###Weak link for border cultures
+					culture = nubian
+					culture = scottish
+					culture = pictish
+					culture = ethiopian
+				}
+			}
+			additive_modifier = {
+				value = 0.1
+				any_liege = {
+					has_character_flag = renaissance_ruler
+				}
+			}
+			
+		}
+	}
+	commission_painting = {
+		only_rulers = yes
+		capable_only = yes
+		ai_check_interval = 24
+		war = no
+		has_global_flag = renaissance_started
+		potential = {
+			has_character_flag = renaissance_ruler
+			OR = {
+				NOT = {
+					has_character_flag = recently_commissioned
+				}
+				had_character_flag = {
+					flag = recently_commissioned
+					years >= 1
+				}
+			}
+		}
+		allow = {
+			is_adult = yes
+			wealth >= 125
+		}
+		effect = {
+			#Commission painting
+			character_event = { id = bote.00002 }
+			remove_character_flag = recently_commissioned
+			set_character_flag = recently_commissioned
+		}
+	}
+}
