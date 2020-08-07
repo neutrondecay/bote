@@ -1181,6 +1181,7 @@
 	1399.8.12= {
 		death = {
 		    death_reason=death_battle
+			killer=855613 # Edigu Manghit
 		}
 	}
 }

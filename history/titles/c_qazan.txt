@@ -81,3 +81,22 @@ holder=34944
 {
 holder=480250
 }
+1350.1.1=
+{
+holder=125515 # Janibeg Borjigin
+liege=e_golden_horde
+}
+1359.1.1=
+{
+holder=855619 # Mamai Kiyat
+liege=d_kazan
+}
+1380.1.1={
+	holder=855203 # Tokhtamysh Borjigin
+	liege=e_golden_horde
+}
+1395.1.1={
+	liege=d_kazan
+	holder=855613 # Edigu Manghit
+}
+

@@ -90,3 +90,11 @@ holder=34944
 {
 holder=480100
 }
+1350.1.1={
+	holder=855623 # Mahmut Gok
+}
+1395.1.1={
+	liege=d_kazan
+}
+
+

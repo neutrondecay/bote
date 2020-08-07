@@ -135,8 +135,7 @@
 	stewardship = 7
 	intrigue = 8
 	learning = 10
-	dna="bkcbh0ba0b0"
-	properties="xe0jkb0a000000000000000000000000000000"
+	
 	trait = genius
 	trait = brilliant_strategist
 	trait = one_legged
@@ -330,32 +329,6 @@
 		death = yes
 	}
 }
-801259 = {
-	name="Jela'u"
-	dynasty=101912
-	religion="shiite"
-	culture="mongol"
-	father=34433
-	1350.1.1={
-		birth=yes
-	}
-	1406.1.1={
-		death=yes
-	}
-}
-801265 = {
-	name="Sati Beg"
-	dynasty=101912
-	religion="shiite"
-	culture="mongol"
-	father=478035
-	1338.1.1={
-		birth=yes
-	}
-	1405.1.1={
-		death=yes
-	}
-}
 ###
 855200 = {
 	name = "Solkhomir"
@@ -371,7 +344,183 @@
 	    religion = orthodox
 		name="Ivan"
 	}
-	1401.1.1 = { #Placeholder death
-		death = yes
+}
+855201 = {
+	name = "Urus"
+	dynasty = 11100
+
+	culture = mongol
+	religion = sunni
+	father=34918 # Chimtai Borjigin
+	
+	1335.1.1 = {
+		birth = yes
+	}
+	1377.1.1 = {
+	    death=yes
+	}
+}
+855202 = {
+	name = "Tuli-Kwadja"
+	dynasty = 11100
+
+	culture = mongol
+	religion = sunni
+	father=34918 # Chimtai Borjigin
+	
+	1333.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+	    death=yes
+	}
+}
+855203 = {
+	name = "Tokhtamysh"
+	dynasty = 11100
+
+	culture = mongol
+	religion = sunni
+	father=855202 # Tuli-Kwadja Borjigin
+	martial=13
+	trait=aggressive_leader
+	trait=quick
+	trait=cruel
+	trait=brave
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1397.1.1 = {
+	    effect = {
+			move_character=820011 # Vytautas of Lithuania
+			add_claim=e_golden_horde
+		}
+	}
+	1406.1.1 = {
+	    death=yes
+	}
+}
+855204 = {
+	name = "Timur-Malik"
+	dynasty = 11100
+
+	culture = mongol
+	religion = sunni
+	father=855201 # Urus Borjigin
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1378.1.1 = {
+	    death = {
+		    death_reason=death_execution
+			killer=855203 # Tokhtamysh khan
+		}
+	}
+}
+855205 = {
+	name = "Timur-Qutlugh"
+	dynasty = 11100
+
+	culture = mongol
+	religion = sunni
+	father=855204 # Timur-Malik Borjigin
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1399.10.1 = {
+	    death = {
+		    death_reason=death_murder
+			killer=855613 # Edigu khan
+		}
+	}
+}
+855206 = {
+	name = "Shadibeg"
+	dynasty = 11100
+
+	culture = mongol
+	religion = sunni
+	father=855204 # Timur-Malik Borjigin
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1407.1.1 = {
+	    death = yes
+	}
+}
+855207 = {
+	name = "Berdibeg"
+	dynasty = 11100
+
+	culture = mongol
+	religion = sunni
+	father=125515 # Janibeg Borjigin
+	
+	1317.1.1 = {
+		birth = yes
+	}
+	1359.1.1 = {
+	    death = {
+		    death_reason=death_murder
+			killer=855208 # Qulpa Borjigin
+		}
+	}
+}
+855208 = {
+	name = "Qulpa"
+	dynasty = 11100
+
+	culture = mongol
+	religion = sunni
+	father=125515 # Janibeg Borjigin
+	
+	1320.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {
+	    death = {
+		    death_reason=death_murder
+			killer=855209 # Nawruz Borjigin
+		}
+	}
+}
+855209 = {
+	name = "Nawruz"
+	dynasty = 11100
+
+	culture = mongol
+	religion = sunni
+	father=125515 # Janibeg Borjigin
+	
+	1322.1.1 = {
+		birth = yes
+	}
+	1361.1.1 = {
+	    death = {
+		    death_reason=death_murder_unknown
+		}
+	}
+}
+855210 = {
+	name = "Tulunbeg"
+	female=yes
+	dynasty = 11100
+
+	culture = mongol
+	religion = sunni
+	father=855207 # Berdibeg Borjigin
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1360.1.1 = {
+	    add_spouse=855619 # Mamai Kiyat
+	}
+	1380.1.1 = {
+	    death = yes
 	}
 }

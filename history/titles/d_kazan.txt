@@ -1,0 +1,11 @@
+1359.1.1={
+	holder=855619 # Mamai Kiyat
+	liege=0
+}
+1380.1.1={
+	holder=0
+}
+1395.1.1={
+	holder=855613 # Edigu Manghit
+	liege=e_golden_horde
+}

@@ -64,3 +64,25 @@ holder=34906
 {
 holder=34910
 }
+1341.1.1={
+	holder=125515 # Janibeg Borjigin
+	liege=e_golden_horde
+}
+1357.1.1={
+	holder=855207 # Berdibeg Borjigin
+}
+1357.1.1={
+	holder=855207 # Berdibeg Borjigin
+}
+1359.1.1={
+	holder=855619 # Mamai Kiyat
+}
+1380.1.1={
+	holder=855203 # Tokhtamysh Borjigin
+}
+1397.1.1={
+	holder=855205 # Timur-Qutlugh Borjigin
+}
+1399.1.1={
+	holder=855206 # Shadibeg Borjigin, puppet khan under Edigu Manghit
+}

@@ -767,6 +767,10 @@
 	1302.1.2={
 		birth="1302.1.2"
 	}
+	1349.1.1 = {
+	    name=Mykolas
+		religion=catholic
+	}
 	1363.1.2={
 		death="1363.1.2"
 	}
@@ -808,8 +812,11 @@
 	1320.1.2={
 		birth="1320.1.2"
 	}
-	1399.1.2={
-		death="1399.1.2"
+	1399.8.12={
+		death = {
+		    death_reason=death_battle
+			killer=855613 # Edigu Manghit
+		}
 	}
 }
 
@@ -823,8 +830,11 @@
 	1327.1.2={
 		birth="1327.1.2"
 	}
-	1399.1.2={
-		death="1399.1.2"
+	1399.8.12={
+		death = {
+		    death_reason=death_battle
+			killer=855613 # Edigu Manghit
+		}
 	}
 }
 

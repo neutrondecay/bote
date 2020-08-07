@@ -195,12 +195,12 @@
 	religion = orthodox
 }
 3000045 = {
-	name = "de Urtúvia"
+	name = "de UrtÃºvia"
 	culture = catalan
 	religion = catholic
 }
 3000046 = {
-	name = "de Noë"
+	name = "de NoÃ«"
 	culture = italian
 	religion = catholic
 }
@@ -240,7 +240,7 @@
 	religion = orthodox
 }
 3000054 = {
-	name = "Balšic"
+	name = "BalÅ¡ic"
 	culture = serbian
 	religion = orthodox
 }
@@ -275,7 +275,7 @@
 	religion = catholic
 }
 3000061 = {
-	name = "Szécsi"
+	name = "SzÃ©csi"
 	culture = hungarian
 	religion = catholic
 }
@@ -290,12 +290,12 @@
 	religion = catholic
 }
 3000064 = {
-	name = "János"
+	name = "JÃ¡nos"
 	culture = hungarian
 	religion = catholic
 }
 3000065 = {
-	name = "Hahót"
+	name = "HahÃ³t"
 	culture = hungarian
 	religion = catholic
 }
@@ -401,7 +401,7 @@
 	religion = catholic
 }
 3000084 = {
-	name = "Vinäsätten"
+	name = "VinÃ¤sÃ¤tten"
 	culture = swedish
 	religion = catholic
 }
@@ -411,12 +411,12 @@
 	religion = catholic
 }
 3000086 = {
-	name = "Oddsgård"
+	name = "OddsgÃ¥rd"
 	culture = norwegian
 	religion = catholic
 }
 3000087 = {
-	name = "Algotssönerna"
+	name = "AlgotssÃ¶nerna"
 	culture = swedish
 	religion = catholic
 }
@@ -431,12 +431,12 @@
 	religion = catholic
 }
 3000090 = {
-	name = "Bjørkøy"
+	name = "BjÃ¸rkÃ¸y"
 	culture = norwegian
 	religion = catholic
 }
 3000091 = {
-	name = "Bjälboätten"
+	name = "BjÃ¤lboÃ¤tten"
 	culture = swedish
 	religion = catholic
 }
@@ -621,7 +621,7 @@
 	religion = catholic
 }
 3000128 = {
-	name = "von Lüdinghausen"
+	name = "von LÃ¼dinghausen"
 	culture = german
 	religion = catholic
 }
@@ -641,12 +641,12 @@
 	religion="catholic"
 }
 3000132 = {
-	name="Wöplitz"
+	name="WÃ¶plitz"
 	culture="german"
 	religion="catholic"
 }
 3000133 = {
-	name="von Meißen"
+	name="von MeiÃŸen"
 	culture="german"
 	religion="catholic"
 }
@@ -871,7 +871,7 @@
 	culture = hungarian
 }
 350025 = {
-	name = "Szentgyörgyi"
+	name = "SzentgyÃ¶rgyi"
 	religion = catholic
 	culture = hungarian
 }
@@ -914,4 +914,39 @@
 	name = "Klingenberg"
 	religion = catholic
 	culture = german
+}
+350034 = {
+	name = "Manghit"
+	religion = sunni
+	culture = turkish
+}
+350035 = {
+	name = "Kiyat"
+	religion = sunni
+	culture = turkish
+}
+350036 = {
+	name = "Argyn"
+	religion = sunni
+	culture = turkish
+}
+350037 = {
+	name = "Barin"
+	religion = sunni
+	culture = turkish
+}
+350038 = {
+	name = "Qipchaq"
+	religion = sunni
+	culture = turkish
+}
+350039 = {
+	name = "Shirin"
+	religion = sunni
+	culture = turkish
+}
+350040 = {
+	name = "Czartoryski"
+	religion = orthodox
+	culture = lithuanian
 }

@@ -134,4 +134,13 @@ holder=34943
 {
 holder=34944
 }
-
+1345.1.1=
+{
+holder=125515 # Janibeg Borjigin
+liege=e_golden_horde
+}
+1357.1.1=
+{
+holder=855625 # Idris Argyn
+liege=d_kazan
+}

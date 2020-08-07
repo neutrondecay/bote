@@ -91,9 +91,6 @@
 	1370.1.1 = {
 		birth = yes
 	}
-	1401.1.1 = { #Placeholder death
-		death = yes
-	}
 }
 830006 = { #Brata/Vassal of Mircea
 	name = "Brata"
@@ -101,9 +98,6 @@
 	religion = orthodox
 	1375.1.1 = {
 		birth = yes
-	}
-	1401.1.1 = { #Placeholder death
-		death = yes
 	}
 }
 830008 = { #Roman/Father of Alexander
@@ -176,9 +170,6 @@
 	1380.1.1 = {
 		birth = yes
 	}
-	1401.1.1 = { #Placeholder death
-		death = yes
-	}
 }
 830013 = { #Vasile/Vassal of Alexandru
 	name = "Vasile"
@@ -186,9 +177,6 @@
 	religion = orthodox
 	1375.1.1 = {
 		birth = yes
-	}
-	1401.1.1 = { #Placeholder death
-		death = yes
 	}
 }
 855101 = {
@@ -205,11 +193,8 @@
 	    add_spouse = 467511 # Ivan Sratzimir of Vidin
 		religion = orthodox
 	}
-	1401.1.1 = { #Placeholder death
-		death = yes
-	}
 }
-855201 = {
+855150 = {
 	name = "Voicu"
 	dynasty = 350026
 	culture = romanian
@@ -223,8 +208,8 @@
 		birth = yes
 	}
 	1400.1.1 = {
-		effect = {
-		    force_host=802512 # Sigismund of Hungary
+	    effect = {
+			move_character=802512 # Sigismund of Hungary
 		}
 	}
 	1419.2.12 = {
