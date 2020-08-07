@@ -147,7 +147,7 @@ decisions = {
 		}
 		allow = {
 			is_adult = yes
-			wealth >= 125
+			wealth >= 100
 		}
 		effect = {
 			#Commission painting

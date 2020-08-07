@@ -390,7 +390,7 @@ character_event = { #Independent power embraces Renaissance
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 24
 	}
 	option = {
 		any_realm_lord = {
