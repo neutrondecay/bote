@@ -46,10 +46,11 @@ e_timurid;Gurkaniya;;;;;;;;x
 e_timurid_adj;Gurkaniyan;;;;;;;;x
 e_plane;Outer Plane;;;;;;;;x
 e_plane_adj;Outer;;;;;;;;x
+d_firenze;Firenze;;;;;;;;x
+d_firenze_adj;Florentine;;;;;;;;x
 #Patrician Houses
 b_di_ancona;House di Ancona;;;;;;;;x
 b_medici;House de' Medici;;;;;;;;x
-d_firenze;Firenze;;;;;;;;x
 b_pleskow;House Pleskow;;;;;;;;x
 b_rentelen;House von Rentelen;;;;;;;;x
 b_klingenberg;House Klingenberg;;;;;;;;x
@@ -103,6 +104,9 @@ EVTDESCbote.00004;At long last, the [commissioned_painting.GetName] is ready! Th
 EVTOPTAbote.00004;I will go down in the history books as a wise and cultured ruler;;;;;;;;x
 EVTDESCbote.00006;The increase in interest in the classical world in  [Root.PrimaryTitle.GetName] has definitely been noticeable recently. As more and more members of society, from wealthy merchants to learnèd academics, are looking to the past, it is clear that this is not just some passing phase. The ancient Romans and Greeks laid the foundations for many aspects of your culture, but it seems that much has been forgotten, and much is yet to be rediscovered. Armed with knowledge from the ancient world, society will change drastically, but only time will tell how this will play out. What you can decide, however, is how you yourself will change during this unprecedented time. Even in this early stage, it is clear that everything, from art and architecture to the way the world is perceived and the machinations of government will be effected. It is up to you to turn lead society in the right direction... or in the one that benefits you most.;;;;;;;;x
 EVTOPTAbote.00006;Time to get reading!;;;;;;;;x
+EVTDESCbote.00007;Your contributions to the Renaissance have not gone unnoticed. All around you, you are recognised as a great figure in the [Root.Realm.GetAdjective] Renaissance, by both your peers and your people. They look up to you in matters regarding the ancient world, and you are only too happy to indulge them.;;;;;;;;x
+EVTOPTAbote.00007;I am glad of my reputation, but I must temper my pride;;;;;;;;x
+EVTOPTBbote.00007;Let them know that I am the most cultured of Renaissance rulers!;;;;;;;;x
 #Event titles
 REALM_RENAISSANCE;[Root.PrimaryTitle.GetAdjective] Renaissance;;;;;;;;x
 #Decisions
@@ -126,5 +130,8 @@ portrait_archimedes;Portrait of Archimedes;;;;;;;;x
 portrait_archimedes_desc;An excellent portrait of Archimedes, the greatest ancient scientist. Not only did he achieve breakthroughs in theory, but he also applied said theory, such as in the machines used to defend Syracuse from the Romans.;;;;;;;;x
 portrait_alexander;Portrait of Alexander the Great;;;;;;;;x
 portrait_alexander_desc;Alexander the Great is depicted in his prime, wearing his general's attire and looking to the east, towards Persia. The face alone is enough to instill martial vigour into the gentlest of souls.;;;;;;;;x
-#Tooltipes
+#Traits
+renaissance_ruler;Renaissance Ruler;;;;;;;;x
+renaissance_ruler_desc;This character has show [Root.GetHerHis] cultured spirit, bringing great contributions to the Renaissance. Through patronage of the arts and intellectual engagement, [Root.GetFullName] has enhanced [Root.GetHerHis] image and driven [Root.Realm.GetAdjective] society forward.;;;;;;;;x
+#Tooltips
 COMMISSION_PAINTING;The painter will begin work right away;;;;;;;;x

@@ -1,0 +1,7 @@
+renaissance_ruler = {
+	customizer = no
+	
+	monthly_character_prestige = 1
+	learning = 2
+	general_opinion = 10
+}

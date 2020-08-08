@@ -73,6 +73,12 @@ character_event = { #Embrace the Renaissance
 	option = {
 		name = EVTOPTAbote.00001
 		prestige = 50
+		hidden_tooltip = {
+			set_variable = {
+				which = renaissance_score
+				value = 1
+			}
+		}
 	}
 }
 character_event = { #Commission painting
@@ -345,6 +351,10 @@ character_event = { #Commissioned painting complete
 					to = ROOT
 				}
 			}
+			change_variable = {
+				which = renaissance_score
+				value = 1
+			}
 		}
 		prestige = 25
 		clear_event_target = commissioned_painting
@@ -418,5 +428,67 @@ narrative_event = { #Flavour event- [Realm adjective] Renaissance
 	
 	option = {
 		name = EVTOPTAbote.00006
+	}
+}
+character_event = {
+	id = bote.00007
+	desc = EVTDESCbote.00007
+	picture = GFX_evt_prospering_province
+	only_playable = yes
+	has_character_flag = renaissance_ruler
+	
+	trigger = {
+		check_variable = {
+			which = renaissance_score
+			value >= 6
+		}
+		NOT = {
+			trait = renaissance_ruler
+		}
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	option = {
+		name = EVTOPTAbote.00007
+		random = {
+			chance = 50
+			if = {
+				limit = {
+					NOT = {
+						trait = proud
+					}
+				}
+				add_trait = humble
+			}
+			else_if = {
+				limit = {
+					trait = proud
+				}
+				remove_trait = proud
+			}
+		}
+		add_trait = renaissance_ruler
+	}
+	option = {
+		name = EVTOPTBbote.00007
+		random = {
+			chance = 50
+			if = {
+				limit = {
+					NOT = {
+						trait = humble
+					}
+				}
+				add_trait = proud
+			}
+			else_if = {
+				limit = {
+					trait = humble
+				}
+				remove_trait = humble
+			}
+		}
+		add_trait = renaissance_ruler
 	}
 }
