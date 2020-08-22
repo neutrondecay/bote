@@ -1,4 +1,4 @@
-801284 = {
+857246 = { # fixed duplicate ID
 	name = "Potho"
 	religion = "catholic"
 	culture = "bohemian"

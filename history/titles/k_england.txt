@@ -108,11 +108,13 @@
 	holder = 454510 #Edward II of England
 }
 1327.2.1={
-	holder=454500 #Edward III
+	holder = 454500 #Edward III
+	effect = { set_coa = k_england_france }
 }
 1377.7.22 = {
-	holder = 800173
+	holder = 800173 #Richard II
+	effect = { set_coa = k_england_france_trinity }
 }
 1399.09.30 = {
-	holder = 800000
+	holder = 800000 #Henry IV
 }

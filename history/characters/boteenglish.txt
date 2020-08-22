@@ -7,7 +7,7 @@
 	add_trait = ambitious
 	add_trait = brave
 	add_trait = crusader
-	add_trait = indulgent_wastrel
+	add_trait = tough_soldier
 	trait = crowned_by_bishop
 	disallow_random_traits = yes
 	father = 800056
@@ -22,6 +22,9 @@
 	}
 	1403.2.7 = {
 		add_spouse = 800004
+	}
+	1410.1.1 = {
+		add_trait = leper
 	}
 	1413.3.20 = {
 		death = yes
@@ -73,9 +76,10 @@
 }
 800005 = { #Earl of Oxford
 	name = "Aubrey"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	culture = english
 	religion = catholic
+	father = 454586
 	1338.1.1 = {
 		birth = yes
 	}
@@ -101,8 +105,9 @@
 }
 800007 = { #Earl of Oxford's son
 	name = "Richard"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	father = 800005
+	mother = 800006
 	culture = english
 	religion = catholic
 	1385.8.15 = {
@@ -114,7 +119,7 @@
 }
 800009 = { #Somerset's wife
 	name = "Margaret"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	culture = english
 	religion = catholic
 	father = 800036
@@ -129,10 +134,11 @@
 }
 800010 = { #Earl of Worcester
 	name = "Thomas"
-	dynasty = 4000
+	dynasty = 370016 # Percy
 	culture = english
 	religion = catholic
-	
+	father = 183080
+	mother = 454534
 	1343.1.1 = {
 		birth = yes
 	}
@@ -142,9 +148,10 @@
 }
 800011 = { #Earl of Westmorland 
 	name = "Ralph"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	culture = english
 	religion = catholic
+	father = 183103
 	1364.1.1 = {
 		birth = yes
 	}
@@ -160,7 +167,7 @@
 }
 800012 = { #1st wife of Westmorland
 	name = "Margaret"
-	dynasty = 25063
+	#dynasty = 25063
 	culture = english
 	religion = catholic
 	female = yes
@@ -193,7 +200,7 @@
 }
 800014 = { #Earl of Westmorland's son
 	name = "John"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	culture = english
 	religion = catholic
 	father = 800011
@@ -207,7 +214,7 @@
 }
 800015 = { #Earl of Westmorland's son
 	name = "Ralph"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	culture = english
 	religion = catholic
 	father = 800011
@@ -221,7 +228,7 @@
 }
 800016 = { #Earl of Westmorland's daughter
 	name = "Maud"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	culture = english
 	religion = catholic
 	female = yes
@@ -236,7 +243,7 @@
 }
 800017 = { #Earl of Westmorland's daughter
 	name = "Alice"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	culture = english
 	religion = catholic
 	female = yes
@@ -251,7 +258,7 @@
 }
 800018 = { #Earl of Westmorland's daughter
 	name = "Philippa"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	culture = english
 	religion = catholic
 	female = yes
@@ -266,7 +273,7 @@
 }
 800019 = { #Earl of Westmorland's daughter
 	name = "Elizabeth"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	culture = english
 	religion = catholic
 	female = yes
@@ -281,7 +288,7 @@
 }
 800020 = { #Earl of Westmorland's daughter
 	name = "Margaret"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	culture = english
 	religion = catholic
 	female = yes
@@ -296,7 +303,7 @@
 }
 800021 = { #Earl of Westmorland's daughter
 	name = "Joan"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	culture = english
 	religion = catholic
 	female = yes
@@ -311,7 +318,7 @@
 }
 800022 = { #Earl of Westmorland's daughter
 	name = "Eleanor"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	culture = english
 	religion = catholic
 	female = yes
@@ -326,7 +333,7 @@
 }
 800023 = { #Earl of Westmorland's daughter
 	name = "Katherine"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	culture = english
 	religion = catholic
 	female = yes
@@ -391,10 +398,11 @@
 }
 800026 = { #Earl of Warwick
 	name = "Thomas"
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	culture = english
 	religion = catholic
 	father = 454592
+	mother = 161647
 	1338.3.16 = {
 		birth = yes
 	}
@@ -404,7 +412,7 @@
 }
 800027 = { #Earl of Norfolk
 	name = "Thomas"
-	dynasty = 558
+	dynasty = 370008
 	culture = english
 	religion = catholic
 	
@@ -417,10 +425,10 @@
 }
 800028 = { #Earl of Suffolk
 	name = "Michael"
-	dynasty = 200069
+	dynasty = 370023 # de la Pole
 	culture = english
 	religion = catholic
-	
+	father = 183204
 	1367.10.10 = {
 		birth = yes
 	}
@@ -433,7 +441,7 @@
 }
 800029 = { #Suffolk's wife
 	name = "Katherine"
-	dynasty = 25063
+	#dynasty = 25063
 	culture = english
 	religion = catholic
 	female = yes
@@ -446,7 +454,7 @@
 }
 800030 = { #Suffolk's 1st son
 	name = "Michael"
-	dynasty = 200069
+	dynasty = 370023 # de la Pole
 	culture = english
 	religion = catholic
 	
@@ -461,7 +469,7 @@
 }
 800031 = { #Suffolk's 2nd son
 	name = "William"
-	dynasty = 200069
+	dynasty = 370023 # de la Pole
 	culture = english
 	religion = catholic
 	
@@ -476,7 +484,7 @@
 }
 800032 = { #Suffolk's 3rd son
 	name = "Alexander"
-	dynasty = 200069
+	dynasty = 370023 # de la Pole
 	culture = english
 	religion = catholic
 	
@@ -508,7 +516,7 @@
 }
 800034 = { #Duke of Surrey, Earl of Kent
 	name = "Thomas"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	culture = english
 	religion = catholic
 	
@@ -527,7 +535,7 @@
 }
 800035 = { #DoSurrey's wife
 	name = "Joan"
-	dynasty = 25063
+	#dynasty = 25063
 	culture = english
 	religion = catholic
 	female = yes
@@ -541,7 +549,7 @@
 }
 800036 = { #DoSurrey's father
 	name = "Thomas"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	culture = english
 	religion = catholic
 
@@ -567,6 +575,8 @@
 	female = yes
 	religion = catholic
 	culture = english
+	father=454570
+	mother=454533
 	
 	1350.4.1 = {
 		birth = yes
@@ -577,7 +587,7 @@
 }
 800038 = { #DoSurrey's brother, deceased
 	name = "John"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	culture = english
 	religion = catholic
 	
@@ -593,7 +603,7 @@
 }
 800039 = { #DoSurrey's brother, deceased
 	name = "Richard"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	culture = english
 	religion = catholic
 	
@@ -609,7 +619,7 @@
 }
 800040 = { #DoSurrey's brother, deceased
 	name = "John"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	culture = english
 	religion = catholic
 	
@@ -694,7 +704,7 @@
 }
 800046 = { #York's 2nd Wife, DoSurrey's sister
 	name = "Joan"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	culture = english
 	religion = catholic
 	female = yes
@@ -710,7 +720,7 @@
 }
 800047 = { #Surrey's 1st sister
 	name = "Eleanor"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	culture = english
 	religion = catholic
 	female = yes
@@ -725,7 +735,7 @@
 }
 800049 = { #Surrey's 4th sister
 	name = "Elizabeth"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	culture = english
 	religion = catholic
 	father = 800036
@@ -740,7 +750,7 @@
 }
 800050 = { #Surrey's 5th sister
 	name = "Eleanor"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	culture = english
 	religion = catholic
 	father = 800036
@@ -755,7 +765,7 @@
 }
 800051 = { #Surrey's 6th sister
 	name = "Bridget"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	culture = english
 	religion = catholic
 	father = 800036
@@ -770,10 +780,10 @@
 }
 800052 = { #Earl of Gloucester (lost title)
 	name = "Thomas"
-	dynasty = 3000002
+	dynasty = 370020 # le Despenser
 	culture = english
 	religion = catholic
-	
+	father = 860017
 	1373.9.22 = {
 		birth = yes
 	}
@@ -786,7 +796,7 @@
 }
 800053 = { #Gloucester's son
 	name = "Richard"
-	dynasty = 3000002
+	dynasty = 370020 # le Despenser
 	culture = english
 	religion = catholic
 	
@@ -801,7 +811,7 @@
 }
 800054 = { #Gloucester's daughter
 	name = "Elizabeth"
-	dynasty = 3000002
+	dynasty = 370020 # le Despenser
 	culture = english
 	religion = catholic
 	female = yes
@@ -853,7 +863,7 @@
 
 800059 = { #Katherine Swynford
 	name = "Katherine"
-	dynasty = 3200007
+	dynasty = 3200008 # making her a Beaufort to fix her family tree; do not change this or it breaks
 	culture = english
 	religion = catholic
 	female = yes
@@ -1046,36 +1056,11 @@
 		death = yes
 	}
 }
-801201 = { #Earl (Baron) of Huntingdon 
-	name = "John"
-	dynasty = 4035
-	culture = english
-	religion = catholic
-	
-	1352.8.9 = {
-		birth = yes
-	}
-	1386.7.7 = {
-		add_spouse = 800061
-	}
-	# 1399.12.20 = {
-		# effect = {
-			# war = {
-				# target = 800000
-				# casus_belli = cb_install_antiking
-				# thirdparty = 800173
-				# tier = DUKE
-			# }
-		# }
-	# }
-	1413.3.20 = {
-		death = yes
-	}
-}
+#801201 John de Holland - removed; duplicate of #829020
 #DE JURE WALES
 800070 = { #Earl of Devon
 	name = "Edward"
-	dynasty = 9301 #de Courtenay
+	dynasty = 370009 # de Courtenay, but disconnected until the family are filled out
 	culture = english
 	religion = catholic
 	
@@ -1109,19 +1094,16 @@
 }
 800072 = { #Baron Cherleton, Lord of Powys (Baron of Rhuddalt, Earl of Powys)
 	name = "John"
-	dynasty = 4042
+	dynasty = 370024 # Cherleton
 	culture = english
 	religion = catholic
 	father = 454212
 	mother = 161654
 	
-	1344.4.25 = {
+	1338.1.1 = {
 		birth = yes
 	}
-	1392.2.23 = {
-		add_spouse = 800073
-	}
-	1401.1.1 = { #Placeholder death
+	1374.1.1 = {
 		death = yes
 	}
 }
@@ -1130,13 +1112,12 @@
 	dynasty = 101899 #FitzAlan
 	culture = english
 	religion = catholic
-	father=454570
-	mother=161670
+	father = 860023
 	female = yes
-	1346.9.1 = {
+	1378.1.1 = {
 		birth = yes
 	}
-	1397.9.21 = {
+	1415.1.1 = {
 		death = yes
 	}
 }
@@ -1207,7 +1188,7 @@
 # }
 800084 = { #Earl of Kildare
 	name = "Gerald"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	culture = english
 	religion = catholic
 	
@@ -1242,7 +1223,7 @@
 }
 800086 = { #Kildare's son
 	name = "Thomas"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	culture = english
 	religion = catholic
 	father = 800084
@@ -1257,7 +1238,7 @@
 }
 800087 = { #Kildare's 1st daughter
 	name = "Joan"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	culture = english
 	religion = catholic
 	father = 800084
@@ -1286,7 +1267,7 @@
 }
 800089 = { #Kildare's 2nd daughter
 	name = "Elizabeth"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	culture = english
 	religion = catholic
 	female = yes
@@ -1302,7 +1283,7 @@
 }
 800090 = { #Earl of Ormond (Ossory + Leix)
 	name = "James"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	culture = english
 	religion = catholic
 	father = 454113
@@ -1334,7 +1315,7 @@
 }
 800092 = { #Ormond's son
 	name = "James"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	culture = english
 	religion = catholic
 	trait = curious
@@ -1349,7 +1330,7 @@
 }
 800093 = { #Ormond's 2nd son
 	name = "Richard"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	culture = english
 	religion = catholic
 	trait = curious
@@ -1364,7 +1345,7 @@
 }
 800094 = { #Ormond's daughter
 	name = "Anne"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	culture = english
 	religion = catholic
 	trait = curious
@@ -1380,7 +1361,7 @@
 }
 800095 = { #Ormond's 3rd son
 	name = "Philip"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	culture = english
 	religion = catholic
 	trait = curious
@@ -1395,7 +1376,7 @@
 }
 800096 = { #Ormond's 4th son
 	name = "Ralph"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	culture = english
 	religion = catholic
 	trait = curious
@@ -1410,10 +1391,12 @@
 }
 800097 = { #Ormond's 2nd wife
 	name = "Katherine"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	culture = english
 	religion = catholic
 	female = yes
+	father = 800084
+	mother = 800085
 	1368.1.1 = {
 		birth = yes
 	}
@@ -1423,7 +1406,7 @@
 }
 800098 = { #Ormond's 5th son
 	name = "James"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	culture = english
 	religion = catholic
 	trait = curious
@@ -1438,7 +1421,7 @@
 }
 800099 = { #Ormond's bastard son, unknown mistress
 	name = "Thomas"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	culture = english
 	religion = catholic
 	trait = bastard
@@ -1459,21 +1442,25 @@
 #Earl of Northumberland, Lord of Mann
 800106 = {
 	name = "Henry"
-	dynasty = 4000
+	dynasty = 370016 # Percy
 	culture = english
 	religion = catholic
-	
-	1353.11.10 = {
+	father = 183080
+	mother = 454534
+	1341.1.1 = {
 		birth = yes
 	}
-	1401.1.1 = {
+	1358.1.1 = {
+		add_spouse = 183104
+	}
+	1408.1.1 = {
 		death = yes
 	}
 }
 #John of Gaunt's 1st wife
 800108 = {
 	name = "Blanche"
-	dynasty = 106
+	dynasty = 370003 # of Lancaster
 	culture = english
 	religion = catholic
 	female = yes
@@ -1486,19 +1473,7 @@
 		death = yes
 	}
 }
-800172 = { #Earl of March (Gwent and Builth)
-	name = "Edmund"
-	dynasty = 4001 #Mortimer
-	culture = english
-	religion = catholic
-	
-	1376.12.10 = {
-		birth = yes
-	}
-	1409.1.1 = {
-		death = yes
-	}
-}
+#800172 Edmund Mortimer - removed; duplicate of #829005
 800173 = { #Richard II of England
 	name = "Richard"
 	dynasty = 106
@@ -1828,7 +1803,7 @@
 829002 = { #Earl of March
 	name = "Edmund"
 	dynasty = 4001 #Mortimer
-
+	father = 161643
 	culture = english
 	religion = catholic
 	
@@ -1900,7 +1875,7 @@
 829006 = { #
 	name = "Philippa" #Countess of Pembroke and Arundel, Baroness St John of Basing
 	dynasty = 4001 #Mortimer
-
+	female = yes
 	culture = english
 	religion = catholic
 
@@ -1974,7 +1949,7 @@
 ### Holland ###
 829019 = { # Duchess of Brittany
 	name = "Joan"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	female = yes
 
 	culture = english
@@ -1996,7 +1971,7 @@
 
 829020 = { # Duke of Exeter
 	name = "John"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 
 	culture = english
 	religion = catholic
@@ -2017,7 +1992,7 @@
 
 829021 = { # Duke of Exeter (c_northampton)
 	name = "Richard"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 
 	culture = english
 	religion = catholic
@@ -2035,7 +2010,7 @@
 
 829022 = { # Duke of Exeter (c_northampton)
 	name = "John"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 
 	culture = english
 	religion = catholic
@@ -2053,7 +2028,7 @@
 
 829023 = { #
 	name = "Edward"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 
 	culture = english
 	religion = catholic
@@ -2071,7 +2046,7 @@
 
 829024 = { #Countess of Norfolk
 	name = "Constance"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	female = yes 
 
 	culture = english
@@ -2090,7 +2065,7 @@
 
 829025 = { #
 	name = "Elizabeth"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	female = yes 
 
 	culture = english
@@ -2109,7 +2084,7 @@
 
 829026 = { # Countess of Oxford
 	name = "Alice"
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	female = yes 
 
 	culture = english
@@ -2222,4 +2197,190 @@
 	1322.1.1 = { birth = yes }
 	1344.1.1 = { add_spouse = 860015 }
 	1367.1.1 = { death = yes }
+}
+## le Despenser ##
+860017 = {
+	name = "Edward" 
+	dynasty = 370020 # le Despenser
+
+	culture = english
+	religion = catholic
+
+	father=161672
+	
+	1336.3.24 = {
+		birth = yes
+	}
+	1375.11.11 = {
+		death = yes
+	}
+}
+## de Beauchamp ##
+860018 = {
+	name = "Richard" 
+	dynasty = 370018 # de Beauchamp
+
+	culture = english
+	religion = catholic
+
+	father=800026
+	
+	1382.1.25 = {
+		birth = yes
+	}
+	1439.4.29 = {
+		death = yes
+	}
+}
+## de Courtenay ##
+860019 = {
+	name = "Edward" 
+	dynasty = 370009 # de Courtenay
+
+	culture = english
+	religion = catholic
+
+	father=800070
+	
+	1385.1.1 = {
+		birth = yes
+	}
+	1418.1.1 = {
+		death = yes
+	}
+}
+860020 = {
+	name = "Hugh" 
+	dynasty = 370009 # de Courtenay
+
+	culture = english
+	religion = catholic
+
+	father=800070
+	
+	1389.1.1 = {
+		birth = yes
+	}
+	1422.1.1 = {
+		death = yes
+	}
+}
+## Cherleton ##
+860021 = {
+	name = "John" 
+	dynasty = 370024 # Cherleton
+
+	culture = english
+	religion = catholic
+
+	father=800072
+	
+	1362.4.25 = {
+		birth = yes
+	}
+	1392.2.23 = {
+		add_spouse = 800073
+	}
+	1401.10.19 = {
+		death = yes
+	}
+}
+860022 = {
+	name = "Edward" 
+	dynasty = 370024 # Cherleton
+
+	culture = english
+	religion = catholic
+
+	father=800072
+	
+	1370.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		add_spouse = 800047
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+## FitzAlan ##
+860023 = {
+	name = "Richard" 
+	dynasty = 101899
+
+	culture = english
+	religion = catholic
+
+	father=454570
+	mother=454533
+	
+	1346.1.1 = {
+		birth = yes
+	}
+	1397.9.21 = {
+		death = yes
+	}
+}
+## Percy ##
+860024 = {
+	name = "Henry" # this is Harry Hotspur
+	dynasty = 370016 # Percy
+
+	culture = english
+	religion = catholic
+
+	add_trait = ambitious
+	add_trait = brave
+	add_trait = wroth
+	add_trait = proud
+	add_trait = gregarious
+	add_trait = skilled_tactician
+
+	father=800106
+	mother=183104
+	
+	1364.5.20 = {
+		birth = yes
+	}
+	1391.1.1 = {
+		add_spouse = 829003
+	}
+	1403.7.21 = {
+		death = yes
+	}
+}
+860025 = {
+	name = "Henry" 
+	dynasty = 370016 # Percy
+
+	culture = english
+	religion = catholic
+
+	father=860024
+	mother=829003
+	
+	1393.2.3 = {
+		birth = yes
+	}
+	1455.5.22 = {
+		death = yes
+	}
+}
+860026 = {
+	name = "Elizabeth" 
+	dynasty = 370016 # Percy
+	female = yes
+	culture = english
+	religion = catholic
+
+	father=860024
+	mother=829003
+	
+	1395.1.1 = {
+		birth = yes
+	}
+	1436.10.26 = {
+		death = yes
+	}
 }

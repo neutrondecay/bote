@@ -3843,7 +3843,7 @@
 
 205650 = {
 	name="Archambaud"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=4
 	diplomacy=8
 	intrigue=8
@@ -3866,7 +3866,7 @@
 
 205651 = {
 	name="Archambaud"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=5
 	diplomacy=8
 	intrigue=5
@@ -3892,7 +3892,7 @@
 205652 = {
 	name="Mahaut"
 	female=yes
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=5
 	diplomacy=7
 	intrigue=5
@@ -12150,7 +12150,7 @@
 
 40150 = {
 	name="Aymar"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=7
 	diplomacy=9
 	intrigue=9
@@ -12167,7 +12167,7 @@
 
 40152 = {
 	name="Aymon"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=5
 	diplomacy=8
 	intrigue=6
@@ -12185,7 +12185,7 @@
 
 40154 = {
 	name="Archambaud" #de Bourbon
-	dynasty=329 #Chamillart
+	dynasty=370011 # de Bourbon #Chamillart
 	religion="catholic"
 	culture="frankish"
 	father=40152 
@@ -12222,7 +12222,7 @@
 
 40156 = {
 	name="Archambaud"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=6
 	diplomacy=8
 	intrigue=6
@@ -12241,7 +12241,7 @@
 
 40158 = {
 	name="Archambaud"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=4
 	diplomacy=2
 	intrigue=2
@@ -12259,7 +12259,7 @@
 
 40160 = {
 	name="Archambaud"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=3
 	diplomacy=3
 	intrigue=6
@@ -12282,7 +12282,7 @@
 
 40162 = {
 	name="Archambaud"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=7
 	diplomacy=6
 	intrigue=6
@@ -12303,7 +12303,7 @@
 
 40164 = {
 	name="Aymon"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=9
 	diplomacy=4
 	intrigue=5
@@ -12324,7 +12324,7 @@
 40165 = {
 	name="Ermengarde"
 	female=yes
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=8
 	diplomacy=4
 	intrigue=6
@@ -12344,7 +12344,7 @@
 
 40166 = {
 	name="Pierre"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=8
 	diplomacy=8
 	intrigue=5
@@ -12363,7 +12363,7 @@
 
 40168 = {
 	name="Aymon"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=5
 	diplomacy=4
 	intrigue=6
@@ -12384,7 +12384,7 @@
 40170 = {
 	name="Géraud"
 	# AKA: Geraud
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=3
 	diplomacy=8
 	intrigue=7
@@ -12402,7 +12402,7 @@
 
 40172 = {
 	name="Ugues"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=2
 	diplomacy=6
 	intrigue=5
@@ -12421,7 +12421,7 @@
 40174 = {
 	name="Géraud"
 	# AKA: Geraud
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=9
 	diplomacy=9
 	intrigue=10
@@ -12439,7 +12439,7 @@
 
 40176 = {
 	name="Bernard"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=10
 	diplomacy=6
 	intrigue=3
@@ -12458,7 +12458,7 @@
 
 40178 = {
 	name="Guillaume"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	martial=6
 	diplomacy=6
 	intrigue=4
@@ -15056,7 +15056,7 @@
 454524 = {
 	name="Blanche"
 	female=yes
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=5
 	diplomacy=7
 	intrigue=8
@@ -15569,7 +15569,7 @@
 
 455405 = {
 	name="Robert"
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=7
 	diplomacy=6
 	intrigue=5
@@ -15596,7 +15596,7 @@
 
 455406 = {
 	name="Charles"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=7
 	diplomacy=6
 	intrigue=5
@@ -16771,7 +16771,7 @@
 
 455513 = {
 	name="Charles"
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	martial=4
 	diplomacy=7
 	intrigue=4
@@ -16795,7 +16795,7 @@
 
 455514 = {
 	name="Charles"
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	martial=7
 	diplomacy=7
 	intrigue=6
@@ -16814,7 +16814,7 @@
 
 455515 = {
 	name="Robert"
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=4
 	diplomacy=6
 	intrigue=5
@@ -16838,7 +16838,7 @@
 
 455516 = {
 	name="Philippe"
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=4
 	diplomacy=4
 	intrigue=4
@@ -16887,7 +16887,7 @@
 455518 = {
 	name="Catherine"
 	female=yes
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=5
 	diplomacy=4
 	intrigue=8
@@ -16907,7 +16907,7 @@
 
 455519 = {
 	name="Louis"
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=6
 	diplomacy=7
 	intrigue=8
@@ -16930,7 +16930,7 @@
 
 455520 = {
 	name="Jean"
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=4
 	diplomacy=7
 	intrigue=4
@@ -16951,7 +16951,7 @@
 455521 = {
 	name="Jeanne"
 	female=yes
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=6
 	diplomacy=5
 	intrigue=7
@@ -16972,7 +16972,7 @@
 
 455522 = {
 	name="Jacques"
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=7
 	diplomacy=8
 	intrigue=7
@@ -16992,7 +16992,7 @@
 
 455523 = {
 	name="Robert"
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=7
 	diplomacy=7
 	intrigue=5
@@ -17014,7 +17014,7 @@
 
 455524 = {
 	name="Charles"
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=6
 	diplomacy=4
 	intrigue=5
@@ -17289,7 +17289,7 @@
 455545 = {
 	name="Jeanne" #d'Artois
 	female=yes
-	dynasty=100
+	dynasty=370014 # d'Artois
 	religion="catholic"
 	culture="frankish"
 	father=455516
@@ -17305,7 +17305,7 @@
 
 455546 = {
 	name="Robert"
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=4
 	diplomacy=4
 	intrigue=4
@@ -17476,7 +17476,7 @@
 
 455650 = {
 	name="Louis"
-	dynasty=100146
+	dynasty=370012 # de Bourbon (Capet)
 	martial=6
 	diplomacy=7
 	intrigue=8
@@ -17499,7 +17499,7 @@
 
 455651 = {
 	name="Pierre"
-	dynasty=100146
+	dynasty=370012 # de Bourbon (Capet)
 	martial=6
 	diplomacy=7
 	intrigue=4
@@ -17525,7 +17525,7 @@
 455652 = {
 	name="Jeanne" #Jeanne de Clermont
 	female=yes
-	dynasty=100146 #de Bourbon should be 89
+	dynasty=370012 # de Bourbon (Capet)
 	religion="catholic"
 	culture="frankish"
 	father=455650
@@ -17542,7 +17542,7 @@
 455653 = {
 	name="Marguerite"
 	female=yes
-	dynasty=100146
+	dynasty=370012 # de Bourbon (Capet)
 	martial=5
 	diplomacy=8
 	intrigue=4
@@ -17563,7 +17563,7 @@
 455655 = {
 	name="Philippa"
 	female=yes
-	dynasty=100146
+	dynasty=370012 # de Bourbon (Capet)
 	martial=7
 	diplomacy=8
 	intrigue=5
@@ -17584,7 +17584,7 @@
 
 455656 = {
 	name="Jacques"
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	martial=8
 	diplomacy=8
 	intrigue=4
@@ -17609,7 +17609,7 @@
 455657 = {
 	name="Beatrix"
 	female=yes
-	dynasty=100146
+	dynasty=370012 # de Bourbon (Capet)
 	martial=8
 	diplomacy=5
 	intrigue=8
@@ -17628,7 +17628,7 @@
 
 455658 = {
 	name="Louis"
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	martial=5
 	diplomacy=7
 	intrigue=7
@@ -18796,7 +18796,7 @@
 455805 = {
 	name="Marguerite"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=8
 	diplomacy=4
 	intrigue=4
@@ -18817,7 +18817,7 @@
 455806 = {
 	name="Eleonore"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=7
 	diplomacy=4
 	intrigue=5
@@ -19070,7 +19070,7 @@
 455825 = {
 	name="Marguerite" #d'Artois
 	female=yes
-	dynasty=100
+	dynasty=370014 # d'Artois
 	religion="catholic"
 	culture="frankish"
 	father=455516
@@ -19374,7 +19374,7 @@
 455941 = {
 	name="Marie"
 	female=yes
-	dynasty=100
+	dynasty=370014 # d'Artois
 	martial=8
 	diplomacy=7
 	intrigue=6
@@ -19588,7 +19588,7 @@
 
 461700 = {
 	name="Robert"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=8
 	diplomacy=8
 	intrigue=8
@@ -19613,7 +19613,7 @@
 
 461701 = {
 	name="Charles"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=8
 	diplomacy=5
 	intrigue=5
@@ -19664,7 +19664,7 @@
 461703 = {
 	name="Giovanna"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=6
 	diplomacy=6
 	intrigue=8
@@ -19685,7 +19685,7 @@
 461704 = {
 	name="Marie"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=5
 	diplomacy=5
 	intrigue=5
@@ -19707,7 +19707,7 @@
 461705 = {
 	name="Fiametta"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=5
 	diplomacy=5
 	intrigue=5
@@ -19727,7 +19727,7 @@
 
 461710 = {
 	name="Charles"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=4
 	diplomacy=8
 	intrigue=6
@@ -19751,7 +19751,7 @@
 
 461712 = {
 	name="Philippe"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=4
 	diplomacy=8
 	intrigue=6
@@ -19779,7 +19779,7 @@
 461714 = {
 	name="Béatrice"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=4
 	diplomacy=5
 	intrigue=7
@@ -19801,7 +19801,7 @@
 461715 = {
 	name="Blanche"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=4
 	diplomacy=5
 	intrigue=5
@@ -19823,7 +19823,7 @@
 461716 = {
 	name="Marie"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=3
 	diplomacy=7
 	intrigue=5
@@ -19866,7 +19866,7 @@
 
 461718 = {
 	name="Robert"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=8
 	diplomacy=8
 	intrigue=6
@@ -19887,7 +19887,7 @@
 
 461719 = {
 	name="Louis"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=7
 	diplomacy=8
 	intrigue=6
@@ -19910,7 +19910,7 @@
 
 461720 = {
 	name="Philippe"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=7
 	diplomacy=5
 	intrigue=6
@@ -19931,7 +19931,7 @@
 
 461721 = {
 	name="Jean"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=8
 	diplomacy=7
 	intrigue=5
@@ -19962,7 +19962,7 @@
 
 461723 = {
 	name="Charles"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=8
 	diplomacy=7
 	intrigue=7
@@ -19984,7 +19984,7 @@
 
 461724 = {
 	name="Louis"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=8
 	diplomacy=7
 	intrigue=7
@@ -20005,7 +20005,7 @@
 
 461725 = {
 	name="Robert"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=8
 	diplomacy=5
 	intrigue=7
@@ -20026,7 +20026,7 @@
 461726 = {
 	name="Stéphane"
 	# AKA: Stephane
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=3
 	diplomacy=7
 	intrigue=7
@@ -20047,7 +20047,7 @@
 461727 = {
 	name="Blanche"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=3
 	diplomacy=5
 	intrigue=5
@@ -21371,8 +21371,8 @@
 }
 
 469500 = {
-	name="Charles"
-	dynasty=81
+	name="Charles Robert"
+	dynasty=370015 # d'Anjou
 	martial=6
 	diplomacy=6
 	intrigue=5
@@ -21388,6 +21388,11 @@
 	1288.1.2 = {
 		birth="1288.1.2"
 	}
+	1307.10.10 = {
+		name="Károly Róbert"
+		dynasty=370007 # Anjouk
+		culture="hungarian"
+	}
 	1321.1.2 = {
 		add_spouse=471501
 	}
@@ -21397,80 +21402,80 @@
 }
 
 469510 = {
-	name="Louis"
+	name="Lajos"
 	# AKA: Louis 
-	dynasty=81
+	dynasty=370007 # Anjouk
 	martial=5
 	diplomacy=4
 	intrigue=8
 	stewardship=8
 	religion="catholic"
-	culture="frankish"
+	culture="hungarian"
 	trait="greedy"
 	trait="just"
 	trait="martial_cleric"
 	father=469500
 	mother=471501
 	1326.1.2 = {
-		birth="1326.1.2"
+		birth=yes
 	}
-	1376.1.2 = {
-		death="1376.1.2"
+	1382.9.10 = {
+		death=yes
 	}
 }
 
 469511 = {
-	name="Ladislaus"
-	dynasty=81
+	name="László"
+	dynasty=370007 # Anjouk
 	martial=4
 	diplomacy=4
 	intrigue=4
 	stewardship=5
 	religion="catholic"
-	culture="frankish"
+	culture="hungarian"
 	trait="thrifty_clerk"
 	father=469500
 	mother=471501
-	1322.1.2 = {
-		birth="1322.1.2"
+	1324.1.2 = {
+		birth=yes
 	}
-	1329.1.2 = {
-		death="1329.1.2"
+	1329.2.24 = {
+		death=yes
 	}
 }
 
 469512 = {
-	name="Charles"
-	dynasty=81
+	name="Károly"
+	dynasty=370007 # Anjouk
 	martial=5
 	diplomacy=6
 	intrigue=4
 	stewardship=5
 	religion="catholic"
-	culture="frankish"
+	culture="hungarian"
 	trait="kind"
 	trait="honest"
 	trait="hunchback"
 	trait="scholarly_theologian"
 	father=469500
 	mother=471501
-	1321.1.3 = {
-		birth="1321.1.3"
+	1321.1.2 = {
+		birth=yes
 	}
-	1371.1.3 = {
-		death="1371.1.3"
+	1323.6.3 = {
+		death=yes
 	}
 }
 
 469513 = {
-	name="Andre"
-	dynasty=81
+	name="András"
+	dynasty=370007 # Anjouk
 	martial=8
 	diplomacy=4
 	intrigue=5
 	stewardship=8
 	religion="catholic"
-	culture="frankish"
+	culture="hungarian"
 	trait="wroth"
 	trait="humble"
 	#trait="patient"
@@ -21478,60 +21483,60 @@
 	father=469500
 	mother=471501
 	1327.1.2 = {
-		birth="1327.1.2"
+		birth=yes
 	}
-	1377.1.2 = {
-		death="1377.1.2"
+	1345.9.18 = {
+		death=yes
 	}
 }
 
 469514 = {
-	name="Étienne"
-	dynasty=81
+	name="István"
+	dynasty=370007 # Anjouk
 	martial=4
 	diplomacy=7
 	intrigue=7
 	stewardship=5
 	religion="catholic"
-	culture="frankish"
+	culture="hungarian"
 	trait="kind"
 	trait="martial_cleric"
 	father=469500
 	mother=471501
 	1332.1.2 = {
-		birth="1332.1.2"
+		birth=yes
 	}
-	1382.1.2 = {
-		death="1382.1.2"
+	1354.8.9 = {
+		death=yes
 	}
 }
 
 469515 = {
-	name="Katharina"
+	name="Katalin"
 	female=yes
-	dynasty=81
+	dynasty=370007 # Anjouk
 	martial=7
 	diplomacy=8
 	intrigue=5
 	stewardship=4
 	religion="catholic"
-	culture="frankish"
+	culture="hungarian"
 	trait="wroth"
 	trait="martial_cleric"
 	father=469500
 	mother=471501
-	1329.1.2 = {
-		birth="1329.1.2"
+	1323.1.2 = {
+		birth=yes
 	}
-	1379.1.2 = {
-		death="1379.1.2"
+	1355.1.2 = {
+		death=yes
 	}
 }
 
 469520 = {
 	name="Charles"
 	# AKA: Charles Martell
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=7
 	diplomacy=5
 	intrigue=8
@@ -25102,7 +25107,7 @@
 
 7484 = {
 	name="Archambaud"
-	dynasty=329
+	dynasty=370011 # de Bourbon
 	religion="catholic"
 	culture="frankish"
 	father=40162
@@ -25168,7 +25173,7 @@
 7494 = {
 	name="Beatrix"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	religion="catholic"
 	culture="frankish"
 	father=469520
@@ -29419,7 +29424,7 @@
 	name="Mahaut" #Mahaut d'Artois
 	# AKA: Mahaut d'Artois
 	female=yes
-	dynasty=100 #Capetian dynasty of Artois
+	dynasty=370014 # d'Artois
 	religion="catholic"
 	culture="frankish"
 	trait="ambitious"
@@ -31947,7 +31952,7 @@
 455654 = {
 	name="Marie" #de Bourbon
 	female=yes
-	dynasty=100146
+	dynasty=370012 # de Bourbon (Capet)
 	religion="catholic"
 	culture="frankish"
 	father=455650
@@ -32988,7 +32993,7 @@
 98048 = {
 	name="Elizabeth"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	martial=3
 	diplomacy=4
 	intrigue=6
@@ -33982,7 +33987,7 @@
 #d'Anjou characters
 32785 = {
 	name="Philippe"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	religion="catholic"
 	culture="frankish"
 	father=455406
@@ -34000,7 +34005,7 @@
 
 32786 = {
 	name="Robert"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	religion="catholic"
 	culture="frankish"
 	father=455406
@@ -34016,7 +34021,7 @@
 32787 = {
 	name="Blanche"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	religion="catholic"
 	culture="frankish"
 	father=455406
@@ -34033,7 +34038,7 @@
 32788 = {
 	name="Beatrice"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	religion="catholic"
 	culture="frankish"
 	father=455406
@@ -34050,7 +34055,7 @@
 32789 = {
 	name="Elizabeth"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	religion="catholic"
 	culture="frankish"
 	father=455406
@@ -38962,7 +38967,7 @@
 461729 = {
 	name="Marguerite"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	religion="catholic"
 	culture="frankish"
 	trait="bastard"
@@ -46249,7 +46254,7 @@
 	name="Clémence"
 	# AKA: Clémence de Hongrie
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	religion="catholic"
 	culture="frankish"
 	father=469520
@@ -46301,7 +46306,7 @@
 200108={
 	name="Marie"
 	female=yes
-	dynasty=81
+	dynasty=370015 # d'Anjou
 
 	father=461710
 	mother=461711

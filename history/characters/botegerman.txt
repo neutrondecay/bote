@@ -932,7 +932,7 @@
 		death = yes
 	}
 }
-801299 = {
+857245 = { # fixed duplicate ID
 	name = "Gerhard"
 	dynasty = 3000136
 	culture = german
@@ -5344,3 +5344,5 @@
 		death=yes
 	}
 }
+#Note: IDs 857245 & 857246 taken; used to replace duplicate IDs
+#Next free ID: 857247

@@ -266,3 +266,37 @@ e_plane = {
 	can_be_usurped = no
 	short_name = yes
 }
+###Titles for CoAs
+k_england_france = { # required for the custom CoA
+	color = { 202 26 26 }
+	
+	capital = 32 # Middlesex
+	
+	culture = english
+	
+	allow = {
+		always = no
+	}
+}
+k_england_france_trinity = { # required for the custom CoA
+	color = { 202 26 26 }
+	
+	capital = 32 # Middlesex
+	
+	culture = english
+	
+	allow = {
+		always = no
+	}
+}
+k_france_trinity = { # required for the custom CoA
+	color = { 15 27 187 }
+	
+	capital = 112 # Ile de France
+	
+	culture = frankish
+	
+	allow = {
+		always = no
+	}
+}

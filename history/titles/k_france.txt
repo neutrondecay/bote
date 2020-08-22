@@ -200,4 +200,5 @@
 }
 1380.9.16={
 	holder=802014 # Charles VI
+	effect = { set_coa = k_france_trinity }
 }

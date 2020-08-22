@@ -24499,7 +24499,7 @@
 		birth = "1316.5.14"
 	}
 	1327.1.1 = {
-		set_name = "Charles" # on confirmation he took his wife's uncle's name - hence the French form
+		name = "Karl" # on confirmation he took his wife's uncle's name - hence the French form
 	}		
 	1328.1.2 = {
 		add_spouse = 455537

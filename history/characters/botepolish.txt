@@ -1,11 +1,11 @@
-## Anjou - Jagiellon ##
+## Anjouk - Jagiellon ##
 
 820100 = { #
-	name = "Hedwige" #Saint Jadwiga
-	dynasty = 81 #Capetian House of Anjou
+	name = "Hedwig" #Saint Jadwiga
+	dynasty = 370007 # Anjouk
 	female=yes
 
-	culture = frankish
+	culture = hungarian
 	religion = catholic
 
 	father=469510 # Louis I of Hungary
@@ -17,7 +17,7 @@
 	1384.1.1 = {
 		culture=polish
 		name="Jadwiga"
-		}
+	}
 	1399.7.19 = {
 		death = yes
 	}

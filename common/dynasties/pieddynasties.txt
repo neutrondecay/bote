@@ -1,0 +1,413 @@
+370001 = {
+	name = "de Valois-Orléans"
+	culture = frankish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370002 = {
+	name = "d'Alençon"
+	culture = frankish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370003 = { # Original (Crouchback)
+	name = "of Lancaster"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370004 = {
+	name = "of Norfolk"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370005 = {
+	name = "of Kent"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370006 = {
+	name = "of Cornwall"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370007 = {
+	name = "Anjouk"
+	culture = hungarian
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370008 = {
+	name = "de Mowbray"
+	culture = english
+	religion = catholic
+}
+
+370009 = {
+	name = "de Courtenay"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 45
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370010 = {
+	name = "de Cognac"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370011 = { # Original
+	name = "de Bourbon"
+	culture = frankish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370012 = { # Capet
+	name = "de Bourbon"
+	culture = frankish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370013 = {
+	name = "de Bourbon-La Marche"
+	culture = frankish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370014 = {
+	name = "d'Artois"
+	culture = frankish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370015 = {
+	name = "d'Anjou"
+	culture = frankish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370016 = {
+	name = "Percy"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370017 = {
+	name = "Neville"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370018 = {
+	name = "de Beauchamp"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370019 = {
+	name = "Butler"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370020 = {
+	name = "le Despenser"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370021 = {
+	name = "de Holland"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370022 = {
+	name = "FitzGerald"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370023 = {
+	name = "de la Pole"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370024 = {
+	name = "Cherleton"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370025 = {
+	name = "de Vere"
+	culture = english
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

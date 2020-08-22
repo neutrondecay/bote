@@ -203,3 +203,10 @@ custom_EVTOPTAbote.00026;Renaissance rulers can now commission stunning pieces o
 #Great Work/Wonder Features
 upgrade_renaissance_dome;Renaissance Dome;;;;;;;;x
 upgrade_renaissance_dome_desc;An enormous dome in the Renaissance style. It is able to be so large because of the complex design which allows it to support itself. All other cathedrals will pale in comparison to one boasting such an impressive dome.;;;;;;;;x
+#CoAs
+k_england_france;England;;;;;;;;;;;;;x
+k_england_france_adj;English;;;;;;;;;;;;;x
+k_england_france_trinity;England;;;;;;;;;;;;;x
+k_england_france_trinity_adj;English;;;;;;;;;;;;;x
+k_france_trinity;France;;;;;;;;;;;;;x
+k_france_trinity_adj;French;;;;;;;;;;;;;x

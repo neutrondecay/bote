@@ -763,11 +763,12 @@
 	dynasty = 370
 	culture = scottish
 	religion = catholic
+	father = 801201
 	
 	1358.10.8 = {
 		birth = yes
 	}
-	1401.1.1 = { #Placeholder death
+	1422.1.1 = {
 		death = yes
 	}
 }
@@ -1350,6 +1351,38 @@
 		birth = yes
 	}
 	1424.1.1 = {
+		death = yes
+	}
+}
+## Dunbar ## (missing characters; using duplicate IDs from boteenglish.txt)
+
+801201 = {
+	name = "John"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	father = 453014
+	mother = 453062
+	
+	1341.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+
+800172 = {
+	name = "Thomas"
+	dynasty = 370
+	culture = scottish
+	religion = catholic
+	father = 800163
+	
+	1382.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
 		death = yes
 	}
 }
