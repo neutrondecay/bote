@@ -234,6 +234,19 @@
 		death = yes
 	}
 }
+801327 = {
+	name = "Pavle"
+	dynasty = 5062106
+	culture = bosnian
+	religion = bogomilist
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1415.1.1 = {
+		death = yes
+	}
+}
 829100 = {
 	name="Elizabeta"
 	dynasty=34

@@ -435,7 +435,10 @@ character_event = { #Independent power embraces Renaissance
 			}
 		}
 		any_realm_lord = {
-			has_character_flag = renaissance_ruler
+			limit = {
+				has_character_flag = renaissance_ruler
+			}
+			log = "[This.GetFullName]"
 			count >= local_count
 		}
 	}

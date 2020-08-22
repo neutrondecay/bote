@@ -8,39 +8,38 @@ decisions = {
 		has_global_flag = renaissance_started
 		potential = {
 			OR = { #Current realm is part of the Renaissance or neighbouring realm has been for a while
-				any_neighbor_independent_ruler = {
-					realm = {
-						had_title_flag = {
-							flag = renaissance_realm
-							months >= 6
+				AND = {
+					any_neighbor_independent_ruler = {
+						realm = {
+							had_title_flag = {
+								flag = renaissance_realm
+								months >= 12
+							}
 						}
+					}
+					capital_scope = {
 						OR = {
 							empire = { #Italians can do it without restriction
 								title = e_italy
 							}
+						}
+						OR = {
 							OR = {
-								ROOT = {
-									capital_scope = {
-										OR = {
-											TECH_MAJESTY >= 6
-											TECH_CULTURE_FLEX >= 6
-											TECH_LEGALISM >= 6
-										}
-									}
-								}
-								ROOT = { #Do it earlier if you're Italian
-									culture = italian
-									capital_scope = {
-										OR = {
-											TECH_MAJESTY >= 5
-											TECH_CULTURE_FLEX >= 5
-											TECH_LEGALISM >= 5
-										}
+								TECH_MAJESTY >= 6
+								TECH_CULTURE_FLEX >= 6
+								TECH_LEGALISM >= 6
+							}
+							AND = {
+								culture = italian
+								capital_scope = {
+									OR = {
+										TECH_MAJESTY >= 5
+										TECH_CULTURE_FLEX >= 5
+										TECH_LEGALISM >= 5
 									}
 								}
 							}
 						}
-						has_title_flag = renaissance_realm
 					}
 				}
 				realm = {
