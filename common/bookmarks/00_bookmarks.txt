@@ -771,7 +771,7 @@ bm_100_years_war = {
 		id = 454500 # Edward III of England
 		age = 24
 		name = ERA_CHAR_NAME_454500
-		title = k_england
+		title = k_england_france
 		title_name = k_england
 		
 		character = {

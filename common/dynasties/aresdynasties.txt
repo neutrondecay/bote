@@ -1,6 +1,7 @@
 310001 = {
-	name = "Valois-Burgundy"
-	religion = "catholic"
+	name = "de Valois-Bourgogne"
+	religion="catholic"
+	culture="frankish"
 }
 
 310002={

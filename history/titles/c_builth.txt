@@ -147,17 +147,16 @@
 {
 	holder=454211 #Hawise de la Pole
 }
-1313.7.26=
-{
+1313.7.26={
+	liege = k_england
 	holder=454210 #John Charleton
 }
-1360.1.1={
-	holder=829002
+1353.12.27={
+	holder=454212 #John Charleton
 }
-1381.12.17={
-	holder=829004 
+1369.1.1={
+	holder=800072 #John Charleton
 }
-1398.07.20 = {
-	liege = k_england
-	holder = 800071
+1374.1.1 = {
+	holder=860021 #John Charleton
 }

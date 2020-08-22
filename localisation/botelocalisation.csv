@@ -23,7 +23,7 @@ WELSH_WAR_INDEPENDENCE;War for Welsh Independence;;;;;;;;x
 wallia_pura;Wallia Pura;;;;;;;;x
 wallia_pura_adj;Welsh;;;;;;;;x
 prince_wales;Welsh Principality;;;;;;;;x
-prince_wales-adj;Welsh;;;;;;;;x
+prince_wales_adj;Welsh;;;;;;;;x
 northern_england;Northern England;;;;;;;;x
 northern_england_adj;North English;;;;;;;;x
 southern_england_adj;South English;;;;;;;;x
@@ -135,3 +135,10 @@ renaissance_ruler;Renaissance Ruler;;;;;;;;x
 renaissance_ruler_desc;This character has show [Root.GetHerHis] cultured spirit, bringing great contributions to the Renaissance. Through patronage of the arts and intellectual engagement, [Root.GetFullName] has enhanced [Root.GetHerHis] image and driven [Root.Realm.GetAdjective] society forward.;;;;;;;;x
 #Tooltips
 COMMISSION_PAINTING;The painter will begin work right away;;;;;;;;x
+#CoAs
+k_england_france;England;;;;;;;;;;;;;x
+k_england_france_adj;English;;;;;;;;;;;;;x
+k_england_france_trinity;England;;;;;;;;;;;;;x
+k_england_france_trinity_adj;English;;;;;;;;;;;;;x
+k_france_trinity;France;;;;;;;;;;;;;x
+k_france_trinity_adj;French;;;;;;;;;;;;;x

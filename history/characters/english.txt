@@ -456,7 +456,7 @@
 
 204038 = {
 	name = "Theobald"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 7
 	diplomacy = 5
 	intrigue = 4
@@ -480,7 +480,7 @@
 204039 = {
 	name = "Hervey"
 	# AKA: Hervey Walter
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 5
 	diplomacy = 5
 	intrigue = 4
@@ -518,7 +518,7 @@
 
 204041 = {
 	name = "Theobald"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 6
 	diplomacy = 6
 	intrigue = 4
@@ -541,7 +541,7 @@
 204042 = {
 	name = "Maud"
 	female = yes
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 5
 	diplomacy = 4
 	intrigue = 4
@@ -1228,7 +1228,7 @@
 
 204550 = {
 	name = "Aubrey" 
-	dynasty = 365 #de Vere
+	dynasty = 370025 # de Vere
 	martial = 4
 	diplomacy = 8
 	intrigue = 7
@@ -1257,7 +1257,7 @@
 
 204551 = {
 	name = "Robert"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 7
 	diplomacy = 4
 	intrigue = 8
@@ -1281,7 +1281,7 @@
 
 204552 = {
 	name = "Ralph"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 8
 	diplomacy = 4
 	intrigue = 7
@@ -1303,7 +1303,7 @@
 
 204553 = {
 	name = "Henry"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 4
 	diplomacy = 4
 	intrigue = 7
@@ -1326,7 +1326,7 @@
 204554 = {
 	name = "Alice"
 	female = yes
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 8
 	diplomacy = 5
 	intrigue = 4
@@ -1347,7 +1347,7 @@
 
 204555 = {
 	name = "Aubrey"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 7
 	diplomacy = 7
 	intrigue = 5
@@ -1368,7 +1368,7 @@
 
 204560 = {
 	name = "Aubrey"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 4
 	diplomacy = 5
 	intrigue = 5
@@ -1412,7 +1412,7 @@
 204563 = {
 	name = "Rohesia"
 	female = yes
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -1433,7 +1433,7 @@
 
 204573 = {
 	name = "Edmund"
-	dynasty = 106
+	dynasty = 370006 # of Cornwall
 	martial = 5
 	diplomacy = 4
 	intrigue = 6
@@ -2840,7 +2840,7 @@
 204736 = {
 	name = "Julianna"
 	female = yes
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 6
 	diplomacy = 7
 	intrigue = 8
@@ -3645,7 +3645,7 @@
 
 232000 = {
 	name = "Philip"
-	dynasty = 40016
+	dynasty = 370010 # de Cognac
 	martial = 5
 	diplomacy = 6
 	intrigue = 7
@@ -3706,7 +3706,7 @@
 
 232680 = {
 	name = "Hubert"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 4
 	diplomacy = 9
 	intrigue = 4
@@ -3742,6 +3742,9 @@
 	mother = 205648
 	1209.1.5 = {
 		birth = "1209.1.5"
+	}
+	1227.5.30 = {
+		dynasty = 370006 # of Cornwall
 	}
 	1231.1.1 = {
 		add_spouse = 203544 #Isabelle Marshal
@@ -5062,7 +5065,7 @@
 
 454110 = {
 	name = "James"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 7
 	diplomacy = 7
 	intrigue = 4
@@ -5086,7 +5089,7 @@
 
 454111 = {
 	name = "Edmund" #earl of Carrick
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 3
 	diplomacy = 7
 	intrigue = 4
@@ -5110,7 +5113,7 @@
 454112 = {
 	name = "Joan"
 	female = yes
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	martial = 4
 	diplomacy = 5
 	intrigue = 4
@@ -5129,7 +5132,7 @@
 
 454113 = {
 	name = "James"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 7
 	diplomacy = 3
 	intrigue = 3
@@ -5150,7 +5153,7 @@
 454114 = {
 	name = "Petronilla"
 	female = yes
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 5
 	diplomacy = 3
 	intrigue = 4
@@ -5170,7 +5173,7 @@
 
 454120 = {
 	name = "John"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	martial = 7
 	diplomacy = 5
 	intrigue = 5
@@ -5189,7 +5192,7 @@
 
 454121 = {
 	name = "Thomas"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	martial = 4
 	diplomacy = 5
 	intrigue = 4
@@ -5211,7 +5214,7 @@
 
 454122 = {
 	name = "Maurice"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	martial = 4
 	diplomacy = 5
 	intrigue = 4
@@ -5233,7 +5236,7 @@
 
 454123 = {
 	name = "Thomas"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	religion = "catholic"
 	culture = "english"
 	father = 454124
@@ -5247,7 +5250,7 @@
 
 454124 = {
 	name = "Maurice"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	religion = "catholic"
 	culture = "english"
 	father = 454125
@@ -5261,7 +5264,7 @@
 
 454125 = {
 	name = "Gerald"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	religion = "catholic"
 	culture = "english"
 	father = 454126
@@ -5275,7 +5278,7 @@
 
 454126 = {
 	name = "Maurice"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	religion = "catholic"
 	culture = "english"
 	father = 204056
@@ -5413,7 +5416,7 @@
 
 454210 = {
 	name = "John" #Charleton
-	dynasty = 4042 #de Cherleton
+	dynasty = 370024 # Cherleton
 	religion = "catholic"
 	culture = "english"
 	father = 454214
@@ -5430,7 +5433,7 @@
 
 454212 = {
 	name = "John"
-	dynasty = 4042
+	dynasty = 370024 # Cherleton
 	martial = 6
 	diplomacy = 4
 	intrigue = 4
@@ -5456,7 +5459,7 @@
 454213 = {
 	name = "Isabel"
 	female = yes
-	dynasty = 4042
+	dynasty = 370024 # Cherleton
 	martial = 5
 	diplomacy = 4
 	intrigue = 5
@@ -5476,7 +5479,7 @@
 
 454214 = {
 	name = "John"
-	dynasty = 4042
+	dynasty = 370024 # Cherleton
 	martial = 4
 	diplomacy = 4
 	intrigue = 8
@@ -5697,7 +5700,7 @@
 
 454511 = {
 	name = "Edmund"
-	dynasty = 106
+	dynasty = 370005 # of Kent
 	martial = 7
 	diplomacy = 8
 	intrigue = 4
@@ -5741,7 +5744,7 @@
 
 454513 = {
 	name = "John"
-	dynasty = 106
+	dynasty = 370005 # of Kent
 	martial = 8
 	diplomacy = 8
 	intrigue = 4
@@ -5762,7 +5765,7 @@
 454514 = {
 	name = "Margaret"
 	female = yes
-	dynasty = 106
+	dynasty = 370005 # of Kent
 	martial = 7
 	diplomacy = 7
 	intrigue = 4
@@ -5783,7 +5786,7 @@
 454515 = {
 	name = "Joan"
 	female = yes
-	dynasty = 100073
+	dynasty = 370005 # of Kent
 	martial = 3
 	diplomacy = 9
 	intrigue = 4
@@ -5905,6 +5908,9 @@
 	1245.1.16 = {
 		birth = yes
 	}
+	1265.8.4 = {
+		dynasty = 370003 # of Lancaster
+	}
 	1271.1.1 = {
 		add_trait = "crusader"
 	}
@@ -5918,7 +5924,7 @@
 
 454525 = {
 	name = "Henry"
-	dynasty = 106
+	dynasty = 370003 # of Lancaster
 	martial = 7
 	diplomacy = 7
 	intrigue = 5
@@ -5942,7 +5948,7 @@
 
 454527 = {
 	name = "Henry"
-	dynasty = 106
+	dynasty = 370003 # of Lancaster
 	martial = 7
 	diplomacy = 7
 	intrigue = 6
@@ -5953,21 +5959,21 @@
 	trait = "tough_soldier"
 	father = 454525
 	mother = 454526
-	1314.1.2 = {
-		birth = "1314.1.2"
+	1301.1.2 = {
+		birth = yes
 	}
 	1334.1.2 = {
 		add_spouse = 454528
 	}
 	1364.1.2 = {
-		death = "1364.1.2"
+		death = yes
 	}
 }
 
 454529 = {
 	name = "Matilda"
 	female = yes
-	dynasty = 106
+	dynasty = 370003 # of Lancaster
 	martial = 5
 	diplomacy = 7
 	intrigue = 6
@@ -5987,7 +5993,7 @@
 454530 = {
 	name = "Blanche"
 	female = yes
-	dynasty = 106
+	dynasty = 370003 # of Lancaster
 	martial = 7
 	diplomacy = 7
 	intrigue = 6
@@ -5998,18 +6004,18 @@
 	trait = "naive_appeaser"
 	father = 454525
 	mother = 454526
-	1305.1.2 = {
-		birth = "1305.1.2"
+	1305.1.1 = {
+		birth = yes
 	}
-	1355.1.2 = {
-		death = "1355.1.2"
+	1380.1.1 = {
+		death = yes
 	}
 }
 
 454531 = {
 	name = "Maud"
 	female = yes
-	dynasty = 106
+	dynasty = 370003 # of Lancaster
 	martial = 7
 	diplomacy = 7
 	intrigue = 6
@@ -6020,18 +6026,18 @@
 	trait = "amateurish_plotter"
 	father = 454525
 	mother = 454526
-	1310.1.2 = {
-		birth = "1310.1.2"
+	1310.1.1 = {
+		birth = yes
 	}
-	1360.1.2 = {
-		death = "1360.1.2"
+	1377.1.1 = {
+		death = yes
 	}
 }
 
 454532 = {
 	name = "Joan"
 	female = yes
-	dynasty = 106
+	dynasty = 370003 # of Lancaster
 	martial = 7
 	diplomacy = 7
 	intrigue = 6
@@ -6042,18 +6048,18 @@
 	trait = "amateurish_plotter"
 	father = 454525
 	mother = 454526
-	1312.1.2 = {
-		birth = "1312.1.2"
+	1312.1.1 = {
+		birth = yes
 	}
-	1362.1.2 = {
-		death = "1362.1.2"
+	1345.1.1 = {
+		death = yes
 	}
 }
 
 454533 = {
-	name = "Eleonor"
+	name = "Eleanor"
 	female = yes
-	dynasty = 106
+	dynasty = 370003 # of Lancaster
 	martial = 7
 	diplomacy = 7
 	intrigue = 6
@@ -6064,18 +6070,18 @@
 	trait = "amateurish_plotter"
 	father = 454525
 	mother = 454526
-	1317.1.2 = {
-		birth = "1317.1.2"
+	1318.1.1 = {
+		birth = yes
 	}
-	1367.1.2 = {
-		death = "1367.1.2"
+	1372.1.1 = {
+		death = yes
 	}
 }
 
 454534 = {
 	name = "Mary"
 	female = yes
-	dynasty = 106
+	dynasty = 370003 # of Lancaster
 	martial = 5
 	diplomacy = 7
 	intrigue = 7
@@ -6086,17 +6092,17 @@
 	trait = "amateurish_plotter"
 	father = 454525
 	mother = 454526
-	1310.1.2 = {
-		birth = "1310.1.2"
+	1320.1.1 = {
+		birth = yes
 	}
-	1377.5.5 = {
-		death = "1377.5.5"
+	1362.9.1 = {
+		death = yes
 	}
 }
 
 454550 = {
 	name = "Thomas"
-	dynasty = 106
+	dynasty = 370004 # of Norfolk
 	martial = 8
 	diplomacy = 8
 	intrigue = 4
@@ -6141,7 +6147,7 @@
 454552 = {
 	name = "Margaret"
 	female = yes
-	dynasty = 106
+	dynasty = 370004 # of Norfolk
 	martial = 4
 	diplomacy = 6
 	intrigue = 6
@@ -6164,7 +6170,7 @@
 454553 = {
 	name = "Alice"
 	female = yes
-	dynasty = 106
+	dynasty = 370004 # of Norfolk
 	martial = 7
 	diplomacy = 6
 	intrigue = 5
@@ -6401,7 +6407,7 @@
 454576 = {
 	name = "Thomas"
 	# AKA: Thomas de Holland
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	martial = 7
 	diplomacy = 7
 	intrigue = 5
@@ -6423,7 +6429,7 @@
 454577 = {
 	name = "Robert"
 	# AKA: Robert de Holland
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	martial = 5
 	diplomacy = 8
 	intrigue = 5
@@ -6487,7 +6493,7 @@
 454580 = {
 	name = "Joan"
 	female = yes
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 6
 	diplomacy = 7
 	intrigue = 5
@@ -6547,7 +6553,7 @@
 
 454583 = {
 	name = "Robert"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 7
 	diplomacy = 5
 	intrigue = 5
@@ -6570,7 +6576,7 @@
 
 454584 = {
 	name = "Alphonso"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -6611,7 +6617,7 @@
 
 454586 = {
 	name = "John"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -6653,7 +6659,7 @@
 454590 = {
 	name = "Guy"
 	# AKA: Guy Beauchamp
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -6677,7 +6683,7 @@
 454592 = {
 	name = "Thomas"
 	# AKA: Thomas Beauchamp
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -7604,7 +7610,7 @@
 
 7446 = {
 	name = "William"
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	religion = "catholic"
 	culture = "english"
 	father = 161652
@@ -7719,7 +7725,7 @@
 
 7453 = {
 	name = "William"
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	religion = "catholic"
 	culture = "english"
 	father = 7446
@@ -8227,7 +8233,7 @@
 32510 = {
 	name = "Margaret" 
 	female = yes
-	#dynasty = 4041 #not FitzGerald but FitzGerold
+	#FitzGerold?
 	religion = "catholic"
 	culture = "english"
 	1200.1.1 = {
@@ -8464,7 +8470,7 @@
 
 129037 = {
 	name = "Thomas"
-	dynasty = 106
+	dynasty = 370003 # of Lancaster
 	religion = "catholic"
 	culture = "english"
 	father = 454523
@@ -8572,7 +8578,7 @@
 
 129044 = {
 	name = "Hugh" #Hugh de Vere
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	religion = "catholic"
 	culture = "english"
 	father = 204551
@@ -8619,7 +8625,7 @@
 
 129047 = {
 	name = "Robert"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	religion = "catholic"
 	culture = "english"
 	father = 454583
@@ -9590,7 +9596,7 @@
 
 83375 = {
 	name = "Osbert" 
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 4
 	diplomacy = 7
 	intrigue = 5
@@ -9610,7 +9616,7 @@
 
 83376 = {
 	name = "Theobald"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 6
 	diplomacy = 7
 	intrigue = 5
@@ -9630,7 +9636,7 @@
 
 83377 = {
 	name = "Theobald"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 6
 	diplomacy = 4
 	intrigue = 6
@@ -9649,7 +9655,7 @@
 
 83378 = {
 	name = "Theobald"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 5
 	diplomacy = 6
 	intrigue = 6
@@ -9668,7 +9674,7 @@
 
 83379 = {
 	name = "Thomas"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 5
 	diplomacy = 4
 	intrigue = 6
@@ -9687,7 +9693,7 @@
 
 83380 = {
 	name = "Lawrence"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 5
 	diplomacy = 4
 	intrigue = 6
@@ -9707,7 +9713,7 @@
 
 83381 = {
 	name = "Thomas"
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	martial = 5
 	diplomacy = 4
 	intrigue = 6
@@ -10510,7 +10516,7 @@
 
 161453 = {
 	name = "William"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	religion = "catholic"
 	culture = "english"
 	father = 454126
@@ -10524,7 +10530,7 @@
 
 161454 = {
 	name = "Thomas"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	religion = "catholic"
 	culture = "english"
 	father = 454126
@@ -10539,7 +10545,7 @@
 
 161455 = {
 	name = "Gerald"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	religion = "catholic"
 	culture = "english"
 	father = 454124
@@ -10553,7 +10559,7 @@
 
 161456 = {
 	name = "Maurice"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	religion = "catholic"
 	culture = "english"
 	father = 454124
@@ -10586,7 +10592,7 @@
 161458 = {
 	name = "Juliana"
 	female = yes
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	religion = "catholic"
 	culture = "english"
 	father = 454124
@@ -10600,7 +10606,7 @@
 
 161459 = {
 	name = "Richard"
-	dynasty = 4041
+	dynasty = 370022 # FitzGerald
 	religion = "catholic"
 	culture = "english"
 	trait = "diligent"
@@ -11090,7 +11096,7 @@
 
 161634 = {
 	name = "Thomas"
-	dynasty = 365
+	dynasty = 370025 # de Vere
 	religion = "catholic"
 	culture = "english"
 	father = 129047
@@ -11320,7 +11326,7 @@
 
 161650 = {
 	name = "Guy"
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	religion = "catholic"
 	culture = "english"
 	father = 454592
@@ -11349,7 +11355,7 @@
 
 161652 = {
 	name = "Walter"
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	religion = "catholic"
 	culture = "english"
 	1195.1.1 = {
@@ -11399,7 +11405,7 @@
 
 161660 = {
 	name = "John"
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	religion = "catholic"
 	culture = "english"
 	father = 7446
@@ -11414,7 +11420,7 @@
 
 161661 = {
 	name = "Walter"
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	religion = "catholic"
 	culture = "english"
 	father = 7446
@@ -11430,7 +11436,7 @@
 161662 = {
 	name = "Joan"
 	female = yes
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	religion = "catholic"
 	culture = "english"
 	father = 7446
@@ -11446,7 +11452,7 @@
 161663 = {
 	name = "Isabel"
 	female = yes
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	religion = "catholic"
 	culture = "english"
 	father = 7453
@@ -11460,7 +11466,7 @@
 
 161664 = {
 	name = "John"
-	dynasty = 102008
+	dynasty = 370018 # de Beauchamp
 	religion = "catholic"
 	culture = "english"
 	father = 454590
@@ -11477,7 +11483,7 @@
 
 161665 = {
 	name = "Hugh"
-	dynasty = 4002
+	dynasty = 370020 # le Despenser
 	religion = "catholic"
 	culture = "english"
 	1223.1.1 = {
@@ -11490,7 +11496,7 @@
 
 161666 = {
 	name = "Hugh"
-	dynasty = 4002
+	dynasty = 370020 # le Despenser
 	religion = "catholic"
 	culture = "english"
 	father = 161665
@@ -11508,7 +11514,7 @@
 161667 = {
 	name = "Eleanor"
 	female = yes
-	dynasty = 4002
+	dynasty = 370020 # le Despenser
 	religion = "catholic"
 	culture = "english"
 	father = 161665
@@ -11522,7 +11528,7 @@
 
 161668 = {
 	name = "Hugh"
-	dynasty = 4002
+	dynasty = 370020 # le Despenser
 	religion = "catholic"
 	culture = "english"
 	father = 161666
@@ -11541,7 +11547,7 @@
 
 161669 = {
 	name = "Hugh"
-	dynasty = 4002
+	dynasty = 370020 # le Despenser
 	religion = "catholic"
 	culture = "english"
 	trait = "ambitious"
@@ -11558,7 +11564,7 @@
 161670 = {
 	name = "Isabelle"
 	female = yes
-	dynasty = 4002
+	dynasty = 370020 # le Despenser
 	religion = "catholic"
 	culture = "english"
 	father = 161668
@@ -11574,7 +11580,7 @@
 161671 = {
 	name = "Elizabeth"
 	female = yes
-	dynasty = 4002
+	dynasty = 370020 # le Despenser
 	religion = "catholic"
 	culture = "english"
 	father = 161668
@@ -11589,7 +11595,7 @@
 
 161672 = {
 	name = "Edward"
-	dynasty = 4002
+	dynasty = 370020 # le Despenser
 	religion = "catholic"
 	culture = "english"
 	father = 161668
@@ -11604,7 +11610,7 @@
 
 161673 = {
 	name = "Gilbert"
-	dynasty = 4002
+	dynasty = 370020 # le Despenser
 	religion = "catholic"
 	culture = "english"
 	father = 161668
@@ -11965,7 +11971,7 @@
 
 161697 = {
 	name = "Henry"
-	dynasty = 106
+	dynasty = 370006 # of Cornwall
 	religion = "catholic"
 	culture = "english"
 	father = 232682
@@ -11986,7 +11992,7 @@
 
 161698 = {
 	name = "Richard"
-	dynasty = 106
+	dynasty = 370006 # of Cornwall
 	religion = "catholic"
 	culture = "english"
 	father = 232682
@@ -12001,7 +12007,7 @@
 
 161699 = {
 	name = "Richard"
-	dynasty = 106
+	dynasty = 370006 # of Cornwall
 	religion = "catholic"
 	culture = "english"
 	trait = "bastard"
@@ -12018,7 +12024,7 @@
 	name = "Joan"
 	# AKA: Joan de Holland
 	female = yes
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	father = 454577
@@ -12035,7 +12041,7 @@
 	name = "Margery"
 	# AKA: Margery de Holland
 	female = yes
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	father = 454577
@@ -12051,7 +12057,7 @@
 183213 = {
 	name = "Robert"
 	# AKA: Robert de Holland
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	father = 454577
@@ -12067,7 +12073,7 @@
 183214 = {
 	name = "Otho"
 	# AKA: Otho de Holland
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	father = 454577
@@ -12083,7 +12089,7 @@
 183215 = {
 	name = "John"
 	# AKA: John de Holland
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	father = 454577
@@ -12100,7 +12106,7 @@
 	name = "Maud"
 	# AKA: Maud de Holland
 	female = yes
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	father = 454577
@@ -12116,7 +12122,7 @@
 183217 = {
 	name = "Alan"
 	# AKA: Alan de Holland
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	trait = "twin"
@@ -12134,7 +12140,7 @@
 	name = "Elizabeth"
 	# AKA: Elizabeth de Holland
 	female = yes
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	trait = "twin"
@@ -12152,7 +12158,7 @@
 	name = "Margaret"
 	# AKA: Margaret de Holland
 	female = yes
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	father = 454577
@@ -12169,7 +12175,7 @@
 	name = "Jane"
 	# AKA: Jane de Holland
 	female = yes
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	father = 454577
@@ -12186,7 +12192,7 @@
 	name = "Eleanor"
 	# AKA: Eleanor de Holland
 	female = yes
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	father = 454577
@@ -12203,7 +12209,7 @@
 	name = "Isabella"
 	# AKA: Isabella de Holland
 	female = yes
-	dynasty = 4035
+	dynasty = 370021 # de Holland
 	religion = "catholic"
 	culture = "english"
 	father = 454577
@@ -12256,7 +12262,7 @@
 183199 = {
 	name = "William"
 	# AKA: William de la Pole
-	dynasty = 1042610
+	dynasty = 370023 # de la Pole
 	religion = "catholic"
 	culture = "english"
 	1268.1.1 = {
@@ -12273,7 +12279,7 @@
 183200 = {
 	name = "Richard"
 	# AKA: Richard de la Pole
-	dynasty = 1042610
+	dynasty = 370023 # de la Pole
 	religion = "catholic"
 	culture = "english"
 	father = 183199 #William de la Pole
@@ -12292,7 +12298,7 @@
 183201 = {
 	name = "William"
 	# AKA: William de la Pole
-	dynasty = 1042610
+	dynasty = 370023 # de la Pole
 	religion = "catholic"
 	culture = "english"
 	father = 183200 #Richard de la Pole
@@ -12308,7 +12314,7 @@
 183202 = {
 	name = "William"
 	# AKA: William de la Pole
-	dynasty = 1042610
+	dynasty = 370023 # de la Pole
 	religion = "catholic"
 	culture = "english"
 	father = 183199 #William de la Pole
@@ -12327,7 +12333,7 @@
 183203 = {
 	name = "John"
 	# AKA: John de la Pole
-	dynasty = 1042610
+	dynasty = 370023 # de la Pole
 	religion = "catholic"
 	culture = "english"
 	father = 183199 #William de la Pole
@@ -12343,7 +12349,7 @@
 183204 = {
 	name = "Michael"
 	# AKA: Michael de la Pole
-	dynasty = 1042610
+	dynasty = 370023 # de la Pole
 	religion = "catholic"
 	culture = "english"
 	father = 183202 #William de la Pole
@@ -12359,7 +12365,7 @@
 183205 = {
 	name = "Edmund"
 	# AKA: Edmund de la Pole
-	dynasty = 1042610
+	dynasty = 370023 # de la Pole
 	religion = "catholic"
 	culture = "english"
 	father = 183202 #William de la Pole
@@ -12376,7 +12382,7 @@
 	name = "Margaret"
 	# AKA: Margaret de la Pole
 	female = yes
-	dynasty = 1042610
+	dynasty = 370023 # de la Pole
 	religion = "catholic"
 	culture = "english"
 	father = 183202 #William de la Pole
@@ -12393,7 +12399,7 @@
 	name = "Blanche"
 	# AKA: Blanche de la Pole
 	female = yes
-	dynasty = 1042610
+	dynasty = 370023 # de la Pole
 	religion = "catholic"
 	culture = "english"
 	father = 183202 #William de la Pole
@@ -12541,7 +12547,7 @@
 	name = "Maud"
 	# wife of John Fitzalan, 6th Earl of Arundel
 	female = yes
-	dynasty = 4040
+	dynasty = 370019 # Butler
 	religion = "catholic"
 	culture = "english"
 	father = 204041
@@ -13002,6 +13008,12 @@
 	1321.2.9 = {
 		add_spouse = 161670
 	}
+	1344.12.25 = {
+		remove_spouse = 161670
+	}
+	1345.2.5 = {
+		add_spouse = 454533
+	}
 	1376.1.24 = {
 		death = yes
 	}
@@ -13072,7 +13084,7 @@
 
 454573 = {
 	name = "Isabelle"
-	dynasty = 4002
+	dynasty = 370020 # le Despenser
 	female = yes
 	martial = 5
 	diplomacy = 5
@@ -13094,7 +13106,7 @@
 
 183075 = {
 	name = "Edward"
-	dynasty = 106 # or 105
+	dynasty = 370004 # of Norfolk
 	religion = "catholic"
 	culture = "english"
 	add_trait = "deceitful"
@@ -13111,7 +13123,7 @@
 
 183076 = {
 	name = "Edmund"
-	dynasty = 106 # or 100073
+	dynasty = 370005 # of Kent
 	religion = "catholic"
 	culture = "english"
 	add_trait = "ill"
@@ -13130,7 +13142,7 @@
 
 183077 = {
 	name = "Henry"
-	dynasty = 4000
+	dynasty = 370016 # Percy
 	religion = "catholic"
 	culture = "english"
 	add_trait = "strong"
@@ -13145,7 +13157,7 @@
 
 183078 = {
 	name = "Henry"
-	dynasty = 4000
+	dynasty = 370016 # Percy
 	religion = "catholic"
 	culture = "english"
 	add_trait = "cynical"
@@ -13164,7 +13176,7 @@
 
 183079 = {
 	name = "William"
-	dynasty = 4000
+	dynasty = 370016 # Percy
 	religion = "catholic"
 	culture = "english"
 	add_trait = "diligent"
@@ -13180,7 +13192,7 @@
 
 183080 = {
 	name = "Henry"
-	dynasty = 4000
+	dynasty = 370016 # Percy
 	religion = "catholic"
 	culture = "english"
 	add_trait = "brave"
@@ -13190,6 +13202,9 @@
 	1321.1.2 = {
 		birth = yes
 	}
+	1334.1.1 = {
+		add_spouse = 454534
+	}
 	1368.5.18 = {
 		death = yes
 	}
@@ -13197,7 +13212,7 @@
 
 183081 = {
 	name = "Thomas"
-	dynasty = 4000
+	dynasty = 370016 # Percy
 	religion = "catholic"
 	culture = "english"
 	add_trait = "quick"
@@ -13214,7 +13229,7 @@
 
 183082 = {
 	name = "Roger"
-	dynasty = 4000
+	dynasty = 370016 # Percy
 	religion = "catholic"
 	culture = "english"
 	add_trait = "slothful"
@@ -13232,7 +13247,7 @@
 183083 = {
 	name = "Maud"
 	female = yes
-	dynasty = 4000
+	dynasty = 370016 # Percy
 	religion = "catholic"
 	culture = "english"
 	add_trait = "fair"
@@ -13250,7 +13265,7 @@
 183084 = {
 	name = "Eleanor"
 	female = yes
-	dynasty = 4000
+	dynasty = 370016 # Percy
 	religion = "catholic"
 	culture = "english"
 	add_trait = "cruel"
@@ -13268,7 +13283,7 @@
 183085 = {
 	name = "Isabel"
 	female = yes
-	dynasty = 4000
+	dynasty = 370016 # Percy
 	religion = "catholic"
 	culture = "english"
 	add_trait = "greedy"
@@ -13287,7 +13302,7 @@
 
 183086 = {
 	name = "Ralph"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "envious"
@@ -13321,7 +13336,7 @@
 183088 = {
 	name = "Joan"
 	female = yes
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "greedy"
@@ -13339,7 +13354,7 @@
 183089 = {
 	name = "Anastasia"
 	female = yes
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "deceitful"
@@ -13356,7 +13371,7 @@
 
 183090 = {
 	name = "Robert"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "just"
@@ -13374,7 +13389,7 @@
 183091 = {
 	name = "Ida"
 	female = yes
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "temperate"
@@ -13391,7 +13406,7 @@
 
 183092 = {
 	name = "Ralph"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "twin"
@@ -13413,7 +13428,7 @@
 183093 = {
 	name = "Euphemia"
 	female = yes
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "twin"
@@ -13432,7 +13447,7 @@
 183094 = {
 	name = "Alice"
 	female = yes
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "arbitrary"
@@ -13449,7 +13464,7 @@
 
 183095 = {
 	name = "Alexander"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "wroth"
@@ -13466,7 +13481,7 @@
 
 183096 = {
 	name = "John"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "strong"
@@ -13484,7 +13499,7 @@
 183097 = {
 	name = "Mary"
 	female = yes
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "lustful"
@@ -13501,7 +13516,7 @@
 
 183098 = {
 	name = "William"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "quick"
@@ -13519,7 +13534,7 @@
 183099 = {
 	name = "Margaret"
 	female = yes
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "ambitious"
@@ -13536,7 +13551,7 @@
 
 183100 = {
 	name = "Thomas"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "craven"
@@ -13554,7 +13569,7 @@
 183101 = {
 	name = "Avelina"
 	female = yes
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "lisp"
@@ -13586,7 +13601,7 @@
 
 183103 = {
 	name = "John"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "cruel"
@@ -13604,7 +13619,7 @@
 183104 = {
 	name = "Margaret"
 	female = yes
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "quick"
@@ -13622,7 +13637,7 @@
 183105 = {
 	name = "Catherine"
 	female = yes
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "cynical"
@@ -13639,7 +13654,7 @@
 
 183106 = {
 	name = "Ralph"
-	dynasty = 4004
+	dynasty = 370017 # Neville
 	religion = "catholic"
 	culture = "english"
 	add_trait = "deceitful"

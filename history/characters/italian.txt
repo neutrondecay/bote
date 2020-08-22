@@ -6704,7 +6704,7 @@
 
 70681 = {
 	name="Beatrix"
-	dynasty=81
+	dynasty=370015 # d'Anjou
 	female=yes
 	martial=5
 	diplomacy=6

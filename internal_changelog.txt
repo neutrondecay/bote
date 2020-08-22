@@ -1,0 +1,28 @@
+just so I can keep track of what I've done; feel free to delete before updating
+
+- P.N.
+
+21/08/20:
+
+- removed two .docx files from the /dynasties folder
+- fixed a localization bug
+- fixed a floating Berber character incorrectly linked to the Bagrationi dynasty (#801318, Hafs-Umar)
+- fixed the Beaufort dynasties by making Katherine Swynford the founder
+- fixed the Percy, Neville, Mortimer and de Vere dynasties
+- fixed the de Bourbon and de la Pole dynasties being connected to the wrong versions
+- fixed Wenzel/Karl (HRE)
+- fixed some birth and death dates for members of the Anjouk dynasty
+- fixed a couple of duplicate character IDs
+- added correct CoAs for both de Bourbon dynasties
+- added a couple of missing members of the Dunbar dynasty to fix their family tree
+- added a missing member of the le Despenser dynasty to connect their two family trees
+- added some missing members of the Percy, de Beauchamp, de Courtenay and de Cherleton dynasties so they have heirs in 1400
+- removed a duplicate John de Holland
+- removed a duplicate Edmund Mortimer
+- changed a duplicate son of Pierre II d'Alençon to be a missing bastard of the same name
+- added new coats of arms for England and France during the HYW
+- added the following English cadet branches: of Lancaster, of Norfolk, of Kent, of Cornwall
+- added the following French cadet branches: de Valois-Orléans, d'Alençon, de Bourbon-La Marche, Anjouk (Hungary)
+- added CoAs for numerous English and French dynasties, plus Jagiellon (Poland)
+- added a few marriages in England
+- updated the title history for Powys/Builth

@@ -34,7 +34,7 @@
 }
 800178 = { #Louis, son of Louis and Margaret
 	name = "Louis"
-	dynasty = 81
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	
@@ -51,7 +51,7 @@
 }
 800179 = {#Charles III of Naples, son of Louis and Margaret
 	name = "Charles"
-	dynasty = 81
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	
@@ -73,7 +73,7 @@
 }
 800180 = { #Wife of Charles III
 	name = "Marguerite"
-	dynasty = 81
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	female = yes
@@ -88,7 +88,7 @@
 }
 800181 = { #Agnes, daughter of Louis and Margaret
 	name = "Agnès"
-	dynasty = 81
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	female = yes
@@ -106,7 +106,7 @@
 }
 800182 = { #Mary of Durazzo, daughter of Charles III of Naples
 	name = "Marie"
-	dynasty = 81
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	female = yes
@@ -123,7 +123,7 @@
 }
 800183 = { #Joanna II of Naples, daughter of Charles III
 	name = "Jeanne"
-	dynasty = 81
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	female = yes
@@ -139,7 +139,7 @@
 }
 800184 = { #Ladislaus I of Naples, son of Charles III
 	name = "Ladislas"
-	dynasty = 81
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	father = 800179
@@ -169,7 +169,7 @@
 }
 800302 = { #Reynold of Durazzo, "Prince of Capua", son of Ladislaus I
 	name = "Reynold"
-	dynasty = 81 
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	father = 800184
@@ -185,7 +185,7 @@
 }
 800246 = { #Mary of Durazzo, daughter of Ladislaus II
 	name = "Marie"
-	dynasty = 81 
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	father = 800184
@@ -631,7 +631,7 @@
 }
 800537 = { #Louis, Duc de Durrazzo
 	name = "Louis"
-	dynasty = 353
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	father = 461723
@@ -644,7 +644,7 @@
 }
 800538 = { #Joanna, Duchess de Durrazzo
 	name = "Jeanne"
-	dynasty = 353
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	female = yes
@@ -658,7 +658,7 @@
 }
 800539 = { #Agnes
 	name = "Agnès"
-	dynasty = 353
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	female = yes
@@ -672,7 +672,7 @@
 }
 800540 = { #Clementia
 	name = "Clémence"
-	dynasty = 353
+	dynasty = 370015 # d'Anjou
 	culture = frankish
 	religion = catholic
 	female = yes
@@ -1097,7 +1097,7 @@
 
 802016 = {
 	name="Louis" # Louis I, Duke of Orleans
-	dynasty=101
+	dynasty=370001 # de Valois-Orléans
 	
 	religion="catholic"
 	culture="frankish"
@@ -1774,7 +1774,7 @@
 ### House of Valois-Orleans ###
 802055 = {
 	name="Louis" # died young
-	dynasty=101
+	dynasty=370001 # de Valois-Orléans
 	
 	religion="catholic"
 	culture="frankish"
@@ -1791,7 +1791,7 @@
 }
 802056 = {
 	name="Jean" # died young
-	dynasty=101
+	dynasty=370001 # de Valois-Orléans
 	
 	religion="catholic"
 	culture="frankish"
@@ -1808,7 +1808,7 @@
 }
 802057 = {
 	name="Charles" # future Duke of Orleans
-	dynasty=101
+	dynasty=370001 # de Valois-Orléans
 	
 	religion="catholic"
 	culture="frankish"
@@ -1825,7 +1825,7 @@
 }
 802058 = {
 	name="Philippe" # future Count of Vertus
-	dynasty=101
+	dynasty=370001 # de Valois-Orléans
 	
 	religion="catholic"
 	culture="frankish"
@@ -1842,7 +1842,7 @@
 }
 802059 = {
 	name="Jean" # future Count of Angouleme
-	dynasty=101
+	dynasty=370001 # de Valois-Orléans
 	
 	religion="catholic"
 	culture="frankish"
@@ -2130,7 +2130,7 @@
 
 802010 = {
 	name="Jeanne" # Joanna of Bourbon, Queen of France
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	female=yes
 	
 	religion="catholic"
@@ -2148,7 +2148,7 @@
 }
 802082 = {
 	name="Blanche" # Queen of Castile
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	female=yes
 	
 	religion="catholic"
@@ -2167,7 +2167,7 @@
 
 802083 = {
 	name="Bonne" # Countess of Savoy
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	female=yes
 	
 	religion="catholic"
@@ -2186,7 +2186,7 @@
 }
 802084 = {
 	name="Catherine" #
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	female=yes
 	
 	religion="catholic"
@@ -2204,7 +2204,7 @@
 }
 802085 = {
 	name="Marguerite" #
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	female=yes
 	
 	religion="catholic"
@@ -2222,7 +2222,7 @@
 }
 802086 = {
 	name="Isabelle" #
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	female=yes
 	
 	religion="catholic"
@@ -2240,7 +2240,7 @@
 }
 802087 = {
 	name="Marie" #
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	female=yes
 	
 	religion="catholic"
@@ -2260,7 +2260,7 @@
 
 802088 = {
 	name="Catherine" # died young
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	female=yes
 	
 	religion="catholic"
@@ -2279,7 +2279,7 @@
 
 802089 = {
 	name="Jean" # Duke of Bourbon
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	
 	religion="catholic"
 	culture="frankish"
@@ -2298,7 +2298,7 @@
 
 802090 = {
 	name="Louis" # Sieur de Beaujeu
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	
 	religion="catholic"
 	culture="frankish"
@@ -2316,7 +2316,7 @@
 
 802091 = {
 	name="Isabelle" # 
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	female=yes
 	
 	religion="catholic"
@@ -2335,7 +2335,7 @@
 
 802105 = {
 	name="Louis" # Louis II, Duke of Bourbon
-	dynasty=329
+	dynasty=370012 # de Bourbon (Capet)
 	martial=5
 	diplomacy=7
 	intrigue=7
@@ -2414,7 +2414,7 @@
 }
 802073 = {
 	name="Jeanne" # Joan of Brittany, Baroness of Drayton
-	dynasty=3200002
+	dynasty=86
 	female=yes
 	
 	religion="catholic"
@@ -2813,7 +2813,7 @@
 ### House of Bourbon-La Marche ###
 802106 = {
 	name="Isabelle" # Countess of Vendome
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	female=yes
 	
 	religion="catholic"
@@ -2831,7 +2831,7 @@
 }
 802107 = {
 	name="Pierre" # Count of La Marche
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	
 	religion="catholic"
 	culture="frankish"
@@ -2848,7 +2848,7 @@
 }
 802108 = {
 	name="Jean" # Count of La Marche
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	
 	religion="catholic"
 	culture="frankish"
@@ -2866,7 +2866,7 @@
 }
 802109 = {
 	name="Jacques" # Baron de Thury
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	
 	religion="catholic"
 	culture="frankish"
@@ -2883,7 +2883,7 @@
 }
 802110 = {
 	name="Jacques" # Count of La Marche
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	
 	religion="catholic"
 	culture="frankish"
@@ -2900,7 +2900,7 @@
 }
 802111 = {
 	name="Isabelle" # nun
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	female=yes
 	
 	religion="catholic"
@@ -2919,7 +2919,7 @@
 }
 802112 = {
 	name="Louis" # Count of Vendome
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	
 	religion="catholic"
 	culture="frankish"
@@ -2936,7 +2936,7 @@
 }
 802113 = {
 	name="Jean" # Lord of Carency
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	
 	religion="catholic"
 	culture="frankish"
@@ -2953,7 +2953,7 @@
 }
 802114 = {
 	name="Anne" # 
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	female=yes
 	
 	religion="catholic"
@@ -2971,7 +2971,7 @@
 }
 802800 = {
 	name="Marie" # Lady of Brehencourt
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	female=yes
 	
 	religion="catholic"
@@ -2989,7 +2989,7 @@
 }
 802180 = {
 	name="Charlotte" # Queen of Cyprus
-	dynasty=100146
+	dynasty=370013 # de Bourbon-La Marche
 	female=yes
 	
 	religion="catholic"
@@ -3097,7 +3097,7 @@
 ### House of Artois ###
 802119 = {
 	name="Jeanne" # Countess of Dreux
-	dynasty=100
+	dynasty=370014 # d'Artois
 	female=yes
 	
 	religion="catholic"
@@ -3115,7 +3115,7 @@
 }
 802120 = {
 	name="Jean" # Lord of Peronne
-	dynasty=100
+	dynasty=370014 # d'Artois
 	
 	religion="catholic"
 	culture="frankish"
@@ -3132,7 +3132,7 @@
 }
 802121 = {
 	name="Robert" # Count of Eu
-	dynasty=100
+	dynasty=370014 # d'Artois
 	
 	religion="catholic"
 	culture="frankish"
@@ -3149,7 +3149,7 @@
 }
 802122 = {
 	name="Philippe" # Count of Eu
-	dynasty=100
+	dynasty=370014 # d'Artois
 	
 	religion="catholic"
 	culture="frankish"
@@ -3166,7 +3166,7 @@
 }
 802123 = {
 	name="Charles" #
-	dynasty=100
+	dynasty=370014 # d'Artois
 	
 	religion="catholic"
 	culture="frankish"
@@ -3183,7 +3183,7 @@
 }
 802124 = {
 	name="Isabeau" #
-	dynasty=100
+	dynasty=370014 # d'Artois
 	female=yes
 	
 	religion="catholic"
@@ -3217,7 +3217,7 @@
 }
 802126 = {
 	name="Philippe" # 
-	dynasty=100
+	dynasty=370014 # d'Artois
 	
 	religion="catholic"
 	culture="frankish"
@@ -3234,7 +3234,7 @@
 }
 802127 = {
 	name="Charles" # Count of Eu
-	dynasty=100
+	dynasty=370014 # d'Artois
 	
 	religion="catholic"
 	culture="frankish"
@@ -3251,7 +3251,7 @@
 }
 802128 = {
 	name="Bonne" # Countess of Nevers
-	dynasty=100
+	dynasty=370014 # d'Artois
 	female=yes
 	
 	religion="catholic"
@@ -3269,7 +3269,7 @@
 }
 802129 = {
 	name="Catherine" # 
-	dynasty=100
+	dynasty=370014 # d'Artois
 	female=yes
 	
 	religion="catholic"
@@ -3364,7 +3364,7 @@
 
 802138 = {
 	name="Philippe" # Bishop of Beauvais
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	
 	religion="catholic"
 	culture="frankish"
@@ -3381,7 +3381,7 @@
 }
 802139 = {
 	name="Pierre" # Count of Alencon
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	
 	religion="catholic"
 	culture="frankish"
@@ -3398,7 +3398,7 @@
 }
 802140 = {
 	name="Isabelle" # Nun
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	female=yes
 	
 	religion="catholic"
@@ -3417,7 +3417,7 @@
 }
 802141 = {
 	name="Robert" # Count of Perche
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	
 	religion="catholic"
 	culture="frankish"
@@ -3450,7 +3450,7 @@
 }
 802143 = {
 	name="Marie" #
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	female=yes
 	
 	religion="catholic"
@@ -3468,7 +3468,7 @@
 }
 802144 = {
 	name="Pierre" #
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	
 	religion="catholic"
 	culture="frankish"
@@ -3485,24 +3485,24 @@
 }
 802145 = {
 	name="Pierre" #
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	
 	religion="catholic"
 	culture="frankish"
 
 	father=802139 #Peter II 
-	mother=802142
+	trait=bastard
 
-	1374.1.1 = {
+	1379.1.1 = {
 		birth=yes
 	}
-	1375.1.1 = {
+	1423.1.1 = {
 		death=yes
 	}
 }
 802146 = {
 	name="Jean" #
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	
 	religion="catholic"
 	culture="frankish"
@@ -3519,7 +3519,7 @@
 }
 802147 = {
 	name="Marie" #
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	female=yes
 	
 	religion="catholic"
@@ -3537,7 +3537,7 @@
 }
 802148 = {
 	name="Jeanne" #
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	female=yes
 	
 	religion="catholic"
@@ -3555,7 +3555,7 @@
 }
 802149 = {
 	name="Catherine" #
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	female=yes
 	
 	religion="catholic"
@@ -3573,7 +3573,7 @@
 }
 802150 = {
 	name="Marguerite" #
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	female=yes
 	
 	religion="catholic"
@@ -3592,7 +3592,7 @@
 }
 802151 = {
 	name="Jean" #
-	dynasty=101
+	dynasty=370002 # d'Alençon
 	
 	religion="catholic"
 	culture="frankish"
@@ -4442,13 +4442,13 @@
 		death = yes
 	}
 }
-## d'Anjou ##
+## Anjouk ##
 820033 = { #
-	name = "Marie"
+	name = "Mária"
 	female = yes
-	dynasty = 81
+	dynasty = 370007 # Anjouk
 
-	culture = frankish
+	culture = hungarian
 	religion = catholic
 
 	father=469510 # Louis I of Hungary
@@ -4462,11 +4462,11 @@
 	}
 }
 820021 = { #
-	name = "Catherine"
+	name = "Katalin"
 	female = yes
-	dynasty = 81
+	dynasty = 370007 # Anjouk
 
-	culture = frankish
+	culture = hungarian
 	religion = catholic
 
 	father=469510 # Louis I of Hungary
@@ -4796,7 +4796,7 @@
 }
 860012 = {
 	name = Maud
-	dynasty = 4035 # de Holland
+	dynasty = 370021 # de Holland
 	female = yes
 	culture = english
 	religion = catholic

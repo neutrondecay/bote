@@ -131,7 +131,10 @@
 {
 	holder=184087 #Gruffydd Fychan II
 }
-1374.1.1 = {
-	holder = 800072
+1369.1.1={
 	liege = k_england
+	holder=800072 #John Charleton
+}
+1374.1.1 = {
+	holder=860021 #John Charleton
 }

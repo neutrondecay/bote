@@ -3,28 +3,32 @@
 	culture = english
 	religion = catholic
 	coat_of_arms = {
-        template = 0 # One layer
-        layer = {
-            texture = 0 # 
-            texture_internal = 0 # 
-            emblem = 25 # Red Rose
-            color = 3 # Red
-            color = 3 # Red
-        }
- 	}
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 3000001 = {
 	name = "of York"
+	culture = english
+	religion = catholic
 	coat_of_arms = {
-        template = 0 # Per Fess, requires two layers
-        layer = {
-            texture = 0 # First pattern file, contains 27 tiles, each of two colours
-            texture_internal = 0 # The 22nd tile in the texture
-            emblem = 26 # White Rose
-            color = 1 # Argent
-            color = 1 # Argent
-        }
- 	}
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 3000002 = {
 	name = "le Despenser"
@@ -195,12 +199,12 @@
 	religion = orthodox
 }
 3000045 = {
-	name = "de UrtÃºvia"
+	name = "de Urtúvia"
 	culture = catalan
 	religion = catholic
 }
 3000046 = {
-	name = "de NoÃ«"
+	name = "de Noë"
 	culture = italian
 	religion = catholic
 }
@@ -240,7 +244,7 @@
 	religion = orthodox
 }
 3000054 = {
-	name = "BalÅ¡ic"
+	name = "Balšic"
 	culture = serbian
 	religion = orthodox
 }
@@ -275,7 +279,7 @@
 	religion = catholic
 }
 3000061 = {
-	name = "SzÃ©csi"
+	name = "Szécsi"
 	culture = hungarian
 	religion = catholic
 }
@@ -290,12 +294,12 @@
 	religion = catholic
 }
 3000064 = {
-	name = "JÃ¡nos"
+	name = "János"
 	culture = hungarian
 	religion = catholic
 }
 3000065 = {
-	name = "HahÃ³t"
+	name = "Hahót"
 	culture = hungarian
 	religion = catholic
 }
@@ -401,7 +405,7 @@
 	religion = catholic
 }
 3000084 = {
-	name = "VinÃ¤sÃ¤tten"
+	name = "Vinäsätten"
 	culture = swedish
 	religion = catholic
 }
@@ -411,12 +415,12 @@
 	religion = catholic
 }
 3000086 = {
-	name = "OddsgÃ¥rd"
+	name = "Oddsgård"
 	culture = norwegian
 	religion = catholic
 }
 3000087 = {
-	name = "AlgotssÃ¶nerna"
+	name = "Algotssönerna"
 	culture = swedish
 	religion = catholic
 }
@@ -431,12 +435,12 @@
 	religion = catholic
 }
 3000090 = {
-	name = "BjÃ¸rkÃ¸y"
+	name = "Bjørkøy"
 	culture = norwegian
 	religion = catholic
 }
 3000091 = {
-	name = "BjÃ¤lboÃ¤tten"
+	name = "Bjälboätten"
 	culture = swedish
 	religion = catholic
 }
@@ -621,7 +625,7 @@
 	religion = catholic
 }
 3000128 = {
-	name = "von LÃ¼dinghausen"
+	name = "von Lüdinghausen"
 	culture = german
 	religion = catholic
 }
@@ -641,12 +645,12 @@
 	religion="catholic"
 }
 3000132 = {
-	name="WÃ¶plitz"
+	name="Wöplitz"
 	culture="german"
 	religion="catholic"
 }
 3000133 = {
-	name="von MeiÃŸen"
+	name="von Meißen"
 	culture="german"
 	religion="catholic"
 }
@@ -697,39 +701,51 @@
 }
 3000016 = {
 	name = "de Valois-Bourgogne"
+	culture = frankish
 	religion = catholic
-	coat_of_arms=
-	{
-		data=
-		{
-0 7 0 32 0 0 0 			}
-		religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
 	}
-	used_for_random=no
 }
 3200000 = {
 	name = "de Valois-Berry"
+	culture = frankish
 	religion = catholic
-	coat_of_arms=
-	{
-		data=
-		{
-0 7 0 32 0 0 0 			}
-		religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
 	}
-	used_for_random=no
 }
 3200001 = {
 	name = "de Valois-Anjou"
+	culture = frankish
 	religion = catholic
-	coat_of_arms=
-	{
-		data=
-		{
-0 7 0 32 0 0 0 			}
-		religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
 	}
-	used_for_random=no
 }
 3200002 = {
 	name = "de Montfort"
@@ -767,16 +783,16 @@
 	religion = catholic
 	culture = lithuanian
 	coat_of_arms = {
-        template = 0 # One layer
-        layer = {
-            texture = 4 # 
-            texture_internal = 13 # 
-	    emblem = 0 # nothing
-            color = 0 # yellow
-            color = 2 # blue
-	    color = 2 # blue
-        }
- 	}
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 3200007 = {
@@ -789,6 +805,17 @@
 	name = "Beaufort"
 	culture = english
 	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 330001 = {
@@ -871,7 +898,7 @@
 	culture = hungarian
 }
 350025 = {
-	name = "SzentgyÃ¶rgyi"
+	name = "Szentgyörgyi"
 	religion = catholic
 	culture = hungarian
 }
