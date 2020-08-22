@@ -66,3 +66,18 @@
 1335.1.20={
 	holder=454560 #Humphrey de Bohun
 }
+1359.1.2= {
+	holder = 801325 #Humphrey de Bohun II
+}
+1359.1.2= {
+	holder = 801325 #Humphrey de Bohun II
+}
+1373.1.16 = {
+	holder = 801326
+}
+1373.1.16 = {
+	holder = 801326
+}
+1397.9.7 = {
+	holder = 800028
+}

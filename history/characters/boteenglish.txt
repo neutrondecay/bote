@@ -1505,7 +1505,33 @@
 		death = yes
 	}
 }
-
+801325 = {
+	name = "Humphrey"
+	dynasty = 359
+	religion = "catholic"
+	culture = "english"
+	father = 454560
+	1341.3.25 = {
+		birth = yes
+	}
+	1373.1.16 = {
+		death = yes
+	}
+}
+801326 = {
+	name = "Edward" # Edward III
+	dynasty = 106
+	religion = "catholic"
+	culture = "english"
+	father = 454500
+	mother = 455611
+	1355.1.7 = {
+		birth = "1312.11.13"
+	}
+	1397.9.7 = {
+		death = yes
+	}
+}
 ### Plantagenets ##
 829000 = { #Lionel of Antwerp
 	name = "Lionel"
