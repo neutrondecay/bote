@@ -77,6 +77,7 @@
 	holder=802134
 	liege=k_england
 }
+1377.1.1 = {liege = k_france)
 1397.1.1={
 	holder=802135 # Marie, Lady of Coucy
 }

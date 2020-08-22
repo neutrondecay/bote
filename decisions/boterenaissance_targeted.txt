@@ -1,0 +1,46 @@
+targeted_decisions = {
+	offer_roman_protection = {
+		filter = independent_rulers
+		
+		from_potential = {
+			has_character_flag = false_emperor
+			OR = {
+				NOT = {
+					has_character_flag = asking_to_submit
+				}
+				OR = {
+					had_character_flag = {
+						flag = asking_to_submit
+						months = 1
+					}
+				}
+			}
+		}
+		potential = {
+			OR = {
+				NOT = {
+					has_character_flag = asked_to_submit
+				}
+				had_character_flag = {
+					flag = asked_to_submit
+					months = 12
+				}
+			}
+			lower_real_tier_than = EMPEROR
+			capital_scope = {
+				region = world_europe_south_italy
+			}
+		}
+		effect = {
+			letter_event = {
+				id = bote.00013
+				days = 4
+			}
+			set_character_flag = asked_to_submit
+			FROM = {
+				clr_character_flag = asking_to_submit
+				set_character_flag = asking_to_submit
+			}
+		}
+	}
+}

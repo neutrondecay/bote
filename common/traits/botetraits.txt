@@ -5,3 +5,12 @@ renaissance_ruler = {
 	learning = 2
 	general_opinion = 10
 }
+renaissance_man = {
+	customizer = no
+	lifestyle = yes
+	can_hold_titles = no
+	cannot_inherit = yes
+	monthly_character_prestige = 4
+	learning = 8
+	general_opinion = 20
+}

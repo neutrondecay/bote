@@ -15,6 +15,7 @@
 	#History
 	1367.4.15 = {
 		birth = yes
+		add_claim = k_france
 	}
 	1381.2.5 = {
 		add_spouse = 800002

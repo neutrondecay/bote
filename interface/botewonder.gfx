@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_upgrade_renaissance_dome"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_upgrades\\wonder_upgrade_renaissance_dome.dds"
+	}
+}

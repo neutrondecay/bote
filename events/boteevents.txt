@@ -345,18 +345,59 @@ character_event = { #Commissioned painting complete
 	option = {
 		name = EVTOPTAbote.00004
 		hidden_tooltip = {
-			persistent_event_target:commissioned_painting = {
+			persistent_event_target:commissioned_painting = { #In case someone else has commissioned the same painting at the same time
+				if = {
+					limit = {
+						NOT = {
+							artifact_type_owned_by  = 899999
+						}
+					}
+					c_899999 = {
+						add_artifact = PREV
+					}
+				}
 				transfer_artifact = {
 					from = artifact_owner
 					to = ROOT
 				}
+				set_original_owner = ROOT
+				save_persistent_event_target = {
+					name = its_original_owner
+					scope = ROOT
+				}
+				log = "[its_original_owner.GetFullName]"
+				log_scopes = yes
 			}
 			change_variable = {
 				which = renaissance_score
 				value = 1
 			}
+			if = {
+				limit = {
+					quality == 2
+				}
+				ROOT = {
+					prestige = 25
+				}
+			}
+			else_if = {
+				limit = {
+					quality == 3
+				}
+				ROOT = {
+					prestige = 50
+				}
+			}
+			else_if = {
+				limit = {
+					quality == 4
+				}
+				ROOT = {
+					prestige = 100
+				}
+			}
 		}
-		prestige = 25
+		
 		clear_event_target = commissioned_painting
 	}
 }
@@ -440,7 +481,7 @@ character_event = {
 	trigger = {
 		check_variable = {
 			which = renaissance_score
-			value >= 6
+			value >= 12
 		}
 		NOT = {
 			trait = renaissance_ruler
@@ -490,5 +531,1043 @@ character_event = {
 			}
 		}
 		add_trait = renaissance_ruler
+	}
+}
+###Uprising claiming to want to restore Rome
+province_event = {
+	id = bote.00008
+	desc = EVTDESCbote.00008
+	picture = GFX_evt_peasants
+	border = GFX_event_normal_frame_war
+	
+	only_rulers = yes
+	trigger = {
+		NOT = {
+			has_global_flag = false_roman_rising
+			e_false_rome = {
+				holder_scope = {
+					always = yes
+				}
+			}
+		}
+		empire = {
+			title = e_italy
+		}
+		culture = italian
+		holder_scope = {
+			realm = {
+				has_title_flag = renaissance_realm
+			}
+		}
+	}
+	mean_time_to_happen = {
+		years = 2000
+	}
+	immediate = {
+		create_character  = {
+			trait = grey_eminence
+			trait = proud
+			trait = peasant_leader
+			diplomacy = 8
+			martial = 8
+			learning = 8
+			dynasty = none
+			random_traits = yes
+			culture = italian
+			religion = ROOT
+			female = 10
+		}
+		new_character = {
+			create_title = {
+				tier = DUKE
+				landless = yes
+				temporary = yes
+				rebel = yes
+				culture = ROOT
+				name = "ROMAN_REVOLT"
+				holder = THIS
+			}
+			save_event_target_as = roman_revolt_leader
+			new_title = {
+				save_persistent_event_target = {
+					name = roman_revolt_title
+					scope = THIS
+				}
+				set_title_flag = false_rome_revolt
+			}
+			
+			wealth = 100
+			
+			spawn_peasant_army_effect = yes
+			
+			if = {
+				limit = {
+					has_game_rule = {
+						name = provincial_revolt_strength
+						value = powerful
+					}
+				}
+				spawn_peasant_army_effect = yes
+				spawn_peasant_army_effect = yes
+				wealth = 150
+			}
+			
+			if = {
+				limit = {
+					has_game_rule = {
+						name = provincial_revolt_strength
+						value = very_powerful
+					}
+				}
+				spawn_peasant_army_effect = yes
+				spawn_peasant_army_effect = yes
+				spawn_peasant_army_effect = yes
+				spawn_peasant_army_effect = yes
+				wealth = 250
+			}
+			
+			if = {
+				limit = {
+					has_game_rule = {
+						name = provincial_revolt_strength
+						value = extremely_powerful
+					}
+				}
+				spawn_peasant_army_effect = yes
+				spawn_peasant_army_effect = yes
+				spawn_peasant_army_effect = yes
+				spawn_peasant_army_effect = yes
+				spawn_peasant_army_effect = yes
+				spawn_peasant_army_effect = yes
+				wealth = 350
+			}
+			
+			# Target lower tier than primary title to make game over less likely
+			if = {
+				limit = {
+					ROOT = {
+						holder_scope = {
+							realm = {
+								lower_tier_than = KING
+							}
+						}
+					}
+				}
+				ROOT = {
+					holder_scope = {
+						top_liege = {
+							log_scopes = yes
+							reverse_war = {
+								target = event_target:roman_revolt_leader
+								casus_belli = roman_revolt
+								thirdparty_title = ROOT
+							}
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						holder_scope = {
+							realm = {
+								tier = KING
+							}
+						}
+					}
+				}
+				ROOT = {
+					duchy = {
+						ROOT = {
+							holder_scope = {
+								top_liege = {
+									log_scopes = yes
+									reverse_war = {
+										target = event_target:roman_revolt_leader
+										casus_belli = roman_revolt
+										thirdparty_title = ROOT
+										tier = DUKE
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				ROOT = {
+					kingdom = {
+						ROOT = {
+							holder_scope = {
+								top_liege = {
+									log_scopes = yes
+									reverse_war = {
+										target = event_target:roman_revolt_leader
+										casus_belli = roman_revolt
+										thirdparty_title = PREVPREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			# ROOT = {
+				# realm = {
+					# if = {
+						# limit = {
+							# lower_tier_than = KING
+						# }
+						# holder_scope = {
+							# reverse_war = {
+								# target = PREVPREVPREV
+								# casus_belli = roman_revolt
+								# thirdparty_title = ROOT
+							# }
+							# log_scopes = yes
+						# }
+					# }
+					# else_if = {
+						# limit = {
+							# tier = KING
+						# }
+						# ROOT = {
+							# duchy = {
+								# save_event_target_as = target_title
+							# }
+						# }
+						# holder_scope = {
+							# reverse_war = {
+								# target = PREVPREVPREV
+								# casus_belli = roman_revolt
+								# thirdparty_title = event_target:target_title
+							# }
+							# log_scopes = yes
+						# }
+					# }
+					# else = {
+						# ROOT = {
+							# kingdom = {
+								# save_event_target_as = target_title
+							# }
+						# }
+						# holder_scope = {
+							# reverse_war = {
+								# target = PREVPREVPREV
+								# casus_belli = roman_revolt
+								# thirdparty_title = event_target:target_title
+							# }
+							# log_scopes = yes
+						# }
+					# }
+				# }
+			# }
+		}
+		
+		# owner = {
+			# any_liege = { # Inform the lieges
+				# character_event = {
+					# id = TOG.1001
+				# }
+			# }
+		# }
+		event_target:target_title = {
+			save_persistent_event_target = {
+				name = false_rome_base
+				scope = THIS
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTAbote.00008
+		set_global_flag = false_roman_rising
+	}
+}
+character_event = { #Roman Revolt successful, gains Roman title + claim on Rome
+	id = bote.00010
+	is_triggered_only = yes
+	only_rulers = yes
+	hide_window = yes
+	trigger = {
+		FROM = {
+			primary_title = {
+				has_title_flag = false_rome_revolt
+			}
+		}
+		NOT = {
+			c_roma = {
+				holder_scope = {
+					character = FROM
+				}
+			}
+		}
+	}
+	option = {
+		primary_title = {
+			clr_title_flag = false_rome_revolt
+		}
+		# e_false_rome = { NOT YET
+			# gain_title = FROM
+		# }
+		FROM = {
+			if = {
+				limit = {
+					is_feudal = yes
+					female = no
+				}
+				set_special_character_title = ROMAN_EMPEROR_FALSE
+			}
+			else_if = {
+				limit = {
+					is_feudal = yes
+					female = yes
+				}
+				set_special_character_title = ROMAN_EMPEROR_FALSE_FEM
+			}
+			else_if = {
+				limit = {
+					female = no
+				}
+				set_special_character_title = RECTOR_TITLE
+			}
+			else = {
+				set_special_character_title = RECTOR_TITLE_FEMALE
+			}
+			save_event_target_as = false_emperor
+			
+			add_claim = c_roma
+			set_character_flag = false_emperor
+		}
+		any_player = {
+			limit = {
+				capital_scope = {
+					region = world_europe_south_italy
+				}
+			}
+			narrative_event = { id = bote.00011 days = 7 }
+		}
+		FROM = {
+			spawn_unit = {
+				owner = FROM
+				province = FROM
+				home = FROM
+				
+				troops = {
+					heavy_infantry = { 750 750 }
+					heavy_infantry = { 750 750 }
+					heavy_infantry = { 750 750 }
+					heavy_infantry = { 750 750 }
+				}
+				attrition = 1.0
+				scaled_by_biggest_garrison = 2.0
+				reinforces = no
+				maintenance = no
+			}
+		}
+	}
+}
+narrative_event = { #Flavour event- rise of False Rome 
+	id = bote.00011
+	title = ROMAN_REVOLT_SUCCESS
+	desc = EVTDESCbote.00011
+	picture = GFX_evt_emissary
+	is_triggered_only = yes
+	portrait = event_target:false_emperor
+	option = {
+		name = EVTOPTAbote.00011
+	}
+}
+character_event = { #Failure of False Rome 
+	id = bote.00012
+	hide_window = yes
+	
+	is_triggered_only = yes
+	only_rulers = yes
+	trigger = {
+		FROM = {
+			primary_title = {
+				has_title_flag = false_rome_revolt
+			}
+		}
+	}
+	option = {
+		name = EVTOPTAbote.00012
+		clr_global_flag = false_roman_rising
+		ROOT = {
+			any_title = {
+				clear_persistent_event_target = false_rome_base
+			}
+		}
+	}
+}
+letter_event = {
+	id = bote.00013
+	desc = EVTDESCbote.00013
+	is_triggered_only = yes
+	
+	option = { #Accept "Roman Protection"
+		name = EVTOPTAbote.00013
+		FROMFROM = {
+			make_tributary = {
+				who = ROOT
+				percentage = 0.10
+				tributary_type = permanent
+			}
+		}
+	}
+	option = { #Reject "Roman Protection"
+		name = EVTOPTBbote.00013
+	}
+}
+letter_event = { #Accepted "Roman Protection"
+	id = bote.00014
+	desc = EVTDESCbote.00014
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTAbote.00014
+	}
+}
+letter_event = { #Rejected "Roman Protection"
+	id = bote.00015
+	desc = EVTDESCbote.00015
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTAbote.00015
+	}
+}
+character_event = { #False Romans have taken Rome
+	id = bote.00016
+	is_triggered_only = yes
+	hide_window = yes
+	has_character_flag = false_emperor
+	trigger = {
+		log = "[From.GetName]"
+		log = "[Root.GetFullName]"
+		FROM = {
+			title = c_roma
+		}
+	}
+	option = {
+		e_false_rome = {
+			gain_title = ROOT
+		}
+		prestige = 500
+		clr_character_flag = false_emperor
+		if = {
+			limit = {
+				is_feudal = yes
+			}
+			add_trait = crowned_by_priest
+		}
+		remove_special_character_title = ROMAN_EMPEROR_FALSE 
+		remove_special_character_title = ROMAN_EMPEROR_FALSE_FEM
+		remove_special_character_title = RECTOR_TITLE
+		remove_special_character_title = RECTOR_TITLE_FEMALE
+
+		c_roma = { #Matches government type of false emperor, unless theocratic.
+			capital_holding = {
+				if = {
+					limit = {
+						ROOT = {
+							is_feudal = yes
+						}
+					}
+					convert_to = castle
+				}
+				else = {
+					convert_to = city
+				}
+			}
+		}
+		capital = c_roma
+		
+		any_player = {
+			limit = {
+				capital_scope = {
+					region = world_europe_south_italy
+				}
+			}
+			narrative_event = { id = bote.00017 days = 1 }
+		}
+		any_tributary = {
+			letter_event = { id = bote.00018 days = 7 }
+		}
+	}
+}
+narrative_event = { #Flavour Event- False Romans no more?
+	id = bote.00017
+	title = FALSE_ROMANS_IN_ROME
+	desc = {
+		trigger = {
+			FROM = {
+				is_feudal = yes
+			}
+		}
+		text = EVTDESCAbote.00017
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				is_feudal = no
+			}
+		}
+		text = EVTDESCBbote.00017
+	}
+	is_triggered_only = yes
+	portrait = FROM
+	
+	option = { 
+		name = EVTOPTAbote.00017
+	}
+}
+letter_event = { #Join false Romans
+	id = bote.00018
+	desc = EVTDESCbote.00018
+	is_triggered_only = yes
+	
+	option = { #Yes
+		name = EVTOPTAbote.00018
+		ROOT = {
+			set_defacto_liege = FROM
+		}
+	}
+	option = { #No
+		name = EVTOPTBbote.00018
+	}
+	after = {
+		remove_tributary = FROM
+	}
+}
+####Patronise Renaissance research
+###Deciding what to research
+character_event = {
+	id = bote.00019
+	desc = EVTDESCbote.00019
+	is_triggered_only = yes
+	
+	option = { #Research architecture
+		trigger = {
+			NOT = {
+				has_global_flag = renaissance_advancement_dome
+			}
+		}
+		name = EVTOPTAbote.00019
+		character_event = { id = bote.00020 days = 1 }
+	}
+	option = { #Research fine art
+		trigger = {
+			NOT = {
+				has_global_flag = renaissance_advancement_perspective
+			}
+		}
+		name = EVTOPTBbote.00019
+		character_event = { id = bote.00021 days = 1 }
+	}
+	# option = { #Research scultping
+		# name = EVTOPTCbote.00019
+		# character_event = { id = bote.00021 days = 1 }
+	# }
+	# option = { #Research literature
+		# name = EVTOPTDbote.00019
+		# character_event = { id = bote.00022 days = 1 }
+	# }
+	after = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					NOT = {
+						any_courtier = {
+							trait = renaissance_man
+						}
+					}
+				}
+				create_character = { #Create a Renaissance Man if not already
+					culture = ROOT
+					religion = ROOT
+					female = no
+					
+					attributes = {
+						learning = 8
+					}
+					trait = renaissance_man
+					trait = genius
+					historical = yes
+				}
+			}
+		}
+	}
+}
+character_event = { #Patronise architect
+	id = bote.00020
+	desc = EVTDESCbote.00020
+	portrait = event_target:patronised_researcher
+	is_triggered_only = yes
+	immediate = {
+		any_courtier = {
+			limit = {
+				trait = renaissance_man
+			}
+			save_event_target_as = patronised_researcher
+		}
+	}
+	
+	option = { #Agree
+		name = EVTOPTAbote.00020
+		event_target:patronised_researcher = {
+			trait = travelling
+		}
+		wealth = -200
+		set_character_flag = researching_architecture
+		random_list = {
+			50 = {
+				character_event = { id = bote.00024 days = 6 } #Need more time
+			}
+			50 = { #Architecture success
+				trigger = { has_character_flag = researching_architecture }
+				any_player = {
+					limit = {
+						capital_scope = {
+							region = world_europe
+						}
+					}
+					narrative_event = { id = bote.00025 days = 6 }
+				}
+			}
+		}
+	}
+	option = { #Refuse
+		name = EVTOPTBbote.00020
+	}
+}
+character_event = { #Patronise artist
+	id = bote.00021
+	desc = EVTDESCbote.00021
+	portrait = event_target:patronised_researcher
+	is_triggered_only = yes
+	immediate = {
+		any_courtier = {
+			limit = {
+				trait = renaissance_man
+			}
+			save_event_target_as = patronised_researcher
+		}
+	}
+	
+	option = { #Agree
+		name = EVTOPTAbote.00020
+		event_target:patronised_researcher = {
+			trait = travelling
+		}
+		wealth = -200
+		set_character_flag = researching_art
+		random_list = {
+			50 = {
+				character_event = { id = bote.00024 days = 6 } #Need more time
+			}
+			50 = { #Art success
+				trigger = { has_character_flag = researching_art }
+				any_player = {
+					limit = {
+						capital_scope = {
+							region = world_europe
+						}
+					}
+					narrative_event = { id = bote.00026 days = 6 }
+				}
+			}
+		}
+	}
+	option = { #Refuse
+		name = EVTOPTBbote.00020
+	}
+}
+character_event = { #Patronise scultpor
+	id = bote.00022
+	desc = EVTDESCbote.00022
+	portrait = event_target:patronised_researcher
+	is_triggered_only = yes
+	immediate = {
+		any_courtier = {
+			limit = {
+				trait = renaissance_man
+			}
+			save_event_target_as = patronised_researcher
+		}
+	}
+	
+	option = { #Agree
+		name = EVTOPTAbote.00020
+		event_target:patronised_researcher = {
+			trait = travelling
+		}
+		wealth = -200
+		set_character_flag = researching_sculpting
+		random_list = {
+			50 = {
+				character_event = { id = bote.00024 days = 6 } #Need more time
+			}
+			50 = { #Sculpting success
+				trigger = { has_character_flag = researching_sculpting }
+				any_player = {
+					limit = {
+						capital_scope = {
+							region = world_europe
+						}
+					}
+					narrative_event = { id = bote.00027 days = 6 }
+				}
+			}
+		}
+	}
+	option = { #Refuse
+		name = EVTOPTBbote.00020
+	}
+}
+character_event = { #Patronise writer
+	id = bote.00023
+	desc = EVTDESCbote.00023
+	portrait = event_target:patronised_researcher
+	is_triggered_only = yes
+	immediate = {
+		any_courtier = {
+			limit = {
+				trait = renaissance_man
+			}
+			save_event_target_as = patronised_researcher
+		}
+	}
+	
+	option = { #Agree
+		name = EVTOPTAbote.00020
+		event_target:patronised_researcher = {
+			trait = travelling
+		}
+		wealth = -200
+		set_character_flag = researching_literature
+		random_list = {
+			50 = {
+				character_event = { id = bote.00024 days = 6 } #Need more time
+			}
+			50 = { #Literature success
+				trigger = { has_character_flag = researching_literature }
+				any_player = {
+					limit = {
+						capital_scope = {
+							region = world_europe
+						}
+					}
+					narrative_event = { id = bote.00028 days = 6 }
+				}
+			}
+		}
+	}
+	option = { #Refuse
+		name = EVTOPTBbote.00020
+	}
+}
+character_event = { #Need more funding
+	id = bote.00024
+	desc = EVTDESCbote.00024
+	portrait = event_target:patronised_researcher
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAbote.00024
+		wealth = -50
+		random_list = {
+			50 = {
+				character_event = { id = bote.00024 days = 6 } #Need more time
+			}
+			50 = { #Architecture success
+				trigger = { has_character_flag = researching_architecture }
+				any_player = {
+					limit = {
+						capital_scope = {
+							region = world_europe
+						}
+					}
+					narrative_event = { id = bote.00025 days = 6 }
+				}
+			}
+			50 = { #Art success
+				trigger = { has_character_flag = researching_art }
+				any_player = {
+					limit = {
+						capital_scope = {
+							region = world_europe
+						}
+					}
+					narrative_event = { id = bote.00026 days = 6 }
+				}
+			}
+			50 = { #Sculpting success
+				trigger = { has_character_flag = researching_sculpting }
+				any_player = {
+					limit = {
+						capital_scope = {
+							region = world_europe
+						}
+					}
+					narrative_event = { id = bote.00027 days = 6 }
+				}
+			}
+			50 = { #Literature success
+				trigger = { has_character_flag = researching_literature }
+				any_player = {
+					limit = {
+						capital_scope = {
+							region = world_europe
+						}
+					}
+					narrative_event = { id = bote.00028 days = 6 }
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBbote.00024
+	}
+}
+###Renaissance advancement
+narrative_event = { #Architectural advancement- self-supporting hemispherical domes
+	id = bote.00025
+	desc = EVTDESCbote.00025
+	title = ADVANCEMENT_DOME
+	portrait = event_target:patronised_researcher
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAbote.00025
+		if = { #If you were responsible
+			limit = {
+				event_target:patronised_researcher = {
+					employer = {
+						character = ROOT
+					}
+				}
+			}
+			prestige = 500
+			event_target:patronised_researcher = {
+				prestige = 100
+				remove_trait = travelling
+			}
+			culture_techpoints = 300
+			custom_tooltip = {
+				text = custom_EVTOPTAbote.00024
+				set_global_flag = renaissance_advancement_dome
+			}
+			clr_character_flag = researching_architecture
+		}
+	}
+}
+narrative_event = { #Artistic advancement- linear perspective
+	id = bote.00026
+	desc = EVTDESCbote.00026
+	title = ADVANCEMENT_PERSPECTIVE
+	portrait = event_target:patronised_researcher
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAbote.00026
+		if = { #If you were responsible
+			limit = {
+				event_target:patronised_researcher = {
+					employer = {
+						character = ROOT
+					}
+				}
+			}
+			prestige = 500
+			event_target:patronised_researcher = {
+				prestige = 100
+				remove_trait = travelling
+			}
+			culture_techpoints = 300
+			custom_tooltip = {
+				text = custom_EVTOPTAbote.00026
+				set_global_flag = renaissance_advancement_perspective
+			}
+			clr_character_flag = researching_art
+			change_variable = {
+				which = renaissance_score
+				value = 5
+			}
+		}
+	}
+}
+character_event = { #Commission renaissance painting- LINEAR PERSPECTIVE
+	id = bote.00027
+	desc = EVTDESCbote.00027
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAbote.00027 #A famous Biblical scene
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.5
+				trait = cynical
+			}
+		}
+		trigger = {
+			NOT = {
+				has_artifact = painting_biblical
+			}
+			religion_group = christian
+		}
+		wealth = -200
+		hidden_tooltip = {
+			c_899999 = {
+				add_artifact = painting_biblical
+				new_artifact = {
+					ROOT = {
+						save_persistent_event_target = {
+							name = commissioned_painting
+							scope = PREV
+						}
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = COMMISSION_PAINTING
+			character_event = { id = bote.00004 days = 182 }
+		}
+	}
+	option = {
+		name = EVTOPTBbote.00027 #Dynastic painting- biblical
+		ai_chance = {
+			factor = 10
+		}
+		trigger = {
+			NOT = {
+				has_artifact = painting_biblical_dynastic
+			}
+			religion_group = christian
+		}
+		wealth = -200
+		hidden_tooltip = {
+			
+			c_899999 = {
+				add_artifact = painting_biblical_dynastic
+				new_artifact = {
+					log_scopes = yes
+					ROOT = {
+						log_scopes = yes
+						save_persistent_event_target = {
+							name = commissioned_painting
+							scope = PREV
+						}
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = COMMISSION_PAINTING
+			character_event = { id = bote.00004 days = 182 }
+		}
+	}
+	option = {
+		name = EVTOPTCbote.00027 #Other options
+		character_event = { id = bote.00028 }
+		ai_chance = {
+			factor = 30
+		}
+	}
+	option = {
+		name = EVTOPTDbote.00002 #On second thoughts...
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				wealth <= 250
+			}
+			modifier = {
+				factor = 0.25
+				wealth >= 400
+			}
+		}
+	}
+}
+character_event = { #Commission painting 2
+	id = bote.00028
+	desc = EVTDESCbote.00028
+	
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTAbote.00028 #Painting of Ancient World
+		ai_chance = {
+			factor = 10
+		}
+		trigger = {
+			NOT = {
+				has_artifact = painting_rome
+			}
+		}
+		wealth = -200
+		hidden_tooltip = {
+			
+			c_899999 = {
+				add_artifact = painting_rome
+				new_artifact = {
+					log_scopes = yes
+					ROOT = {
+						log_scopes = yes
+						save_persistent_event_target = {
+							name = commissioned_painting
+							scope = PREV
+						}
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = COMMISSION_PAINTING
+			character_event = { id = bote.00004 days = 182 }
+		}
+	}
+	option = {
+		name = EVTOPTBbote.00028 #Painting of Graeco-Roman mythology
+		ai_chance = {
+			factor = 10
+		}
+		trigger = {
+			NOT = {
+				has_artifact = painting_mythology
+			}
+		}
+		wealth = -200
+		hidden_tooltip = {
+			
+			c_899999 = {
+				add_artifact = painting_mythology
+				new_artifact = {
+					log_scopes = yes
+					ROOT = {
+						log_scopes = yes
+						save_persistent_event_target = {
+							name = commissioned_painting
+							scope = PREV
+						}
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = COMMISSION_PAINTING
+			character_event = { id = bote.00004 days = 182 }
+		}
+	}
+	option = {
+		name = EVTOPTDbote.00003 #Other options
+		character_event = { id = bote.00027 }
 	}
 }

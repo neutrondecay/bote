@@ -1,0 +1,31 @@
+on_war_ended_victory = {
+	events = {
+		bote.00010
+	}
+}
+on_new_holder_usurpation = {
+	events = {
+		bote.00016
+	}
+}
+on_war_ended_defeat = {
+	events = {
+		bote.00012
+	}
+}
+on_war_ended_whitepeace = {
+	events = {
+		bote.00012
+	}
+}
+on_outbreak = {
+	effect = {
+		if = {
+			limit = {
+				start_date = 1400.1.1
+				disease = bubonic_plague
+			}
+			reduce_disease = 1.00
+		}
+	}
+}

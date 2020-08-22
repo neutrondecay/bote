@@ -39,4 +39,36 @@ spriteTypes = {
 		name = "GFX_portrait_alexander_small"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\portrait_alexander_small.dds"
 	}
+	spriteType = {
+		name = "GFX_painting_biblical"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\painting_biblical.dds"
+	}
+	spriteType = {
+		name = "GFX_painting_biblical_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\painting_biblical_small.dds"
+	}
+	spriteType = {
+		name = "GFX_painting_biblical_dynastic"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\painting_biblical_dynastic.dds"
+	}
+	spriteType = {
+		name = "GFX_painting_biblical_dynastic_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\painting_biblical_dynastic_small.dds"
+	}
+	spriteType = {
+		name = "GFX_painting_rome"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\painting_rome.dds"
+	}
+	spriteType = {
+		name = "GFX_painting_rome_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\painting_rome_small.dds"
+	}
+	spriteType = {
+		name = "GFX_painting_mythology"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\painting_mythology.dds"
+	}
+	spriteType = {
+		name = "GFX_painting_mythology_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\painting_mythology_small.dds"
+	}
 }

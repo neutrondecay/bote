@@ -92,4 +92,5 @@
 1350.12.31={holder=802130}
 1365.1.1={holder=802134
 	liege=k_england}
+1377.1.1 = {liege = k_france)
 1397.1.1={holder=802135}

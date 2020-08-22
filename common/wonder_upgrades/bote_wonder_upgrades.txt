@@ -1,0 +1,34 @@
+upgrade_renaissance_dome = {
+	picture = GFX_upgrade_renaissance_dome
+
+	potential = { 
+		religion_group = christian 
+		has_global_flag = renaissance_advancement_dome
+		FROMFROM = {
+			
+		}
+	}
+	allow = {
+		trigger_if = {
+			limit = { NOT = { religion_group = christian } }
+			religion_group = christian
+		}
+	}
+	active = { religion_group = christian }
+
+	flags = {
+		is_singular
+	}
+	build_time = 192
+	gold_cost_flat = 1000
+	gold_cost_ticking = 5
+	local_modifier = {
+		local_tax_modifier = 0.1
+	}
+	owner_modifier = {
+		christian_opinion = 10
+		church_opinion = 10
+		monthly_character_prestige = 4
+		monthly_character_piety = 4
+	}
+}

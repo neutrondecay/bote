@@ -7,4 +7,12 @@ spriteTypes = {
 		name = "GFX_commission_painting"
 		texturefile = "gfx\\interface\\commission_painting.dds"
 	}
+	spriteType = {
+		name = "GFX_patronise_renaissance_research"
+		texturefile = "gfx\\interface\\patronise_renaissance_research.dds"
+	}
+	spriteType = {
+		name = "GFX_commission_renaissance_painting"
+		texturefile = "gfx\\interface\\commission_renaissance_painting.dds"
+	}
 }

@@ -1,0 +1,17 @@
+name = "Crusade"
+
+casus_belli = {
+	actor = 800796
+	recipient = 899999
+	casus_belli=crusade
+	landed_title=k_germany
+	date=1397.1.1
+}
+1397.1.1 = {
+	add_attacker = 800796
+	add_defender = 899999
+}
+1402.1.1 = {
+	rem_attacker = 800796
+	rem_defender = 899999
+}

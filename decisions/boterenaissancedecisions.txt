@@ -1,24 +1,5 @@
 decisions = {
-	
-	# welsh_independence = {
-		# ai = no
-		# potential = {
-			# character = 800075
-		# }
-		# effect = {
-			# k_england = {
-				# holder_scope = {
-					# ROOT = {
-						# war = {
-							# target = PREV
-							# casus_belli = owains_war
-						# }
-					# }
-				# }
-			# }
-			
-		# }
-	# }
+
 	embrace_renaissance = {
 		is_high_prio = yes
 		ai_check_interval = 30
@@ -32,6 +13,32 @@ decisions = {
 						had_title_flag = {
 							flag = renaissance_realm
 							months >= 6
+						}
+						OR = {
+							empire = { #Italians can do it without restriction
+								title = e_italy
+							}
+							OR = {
+								ROOT = {
+									capital_scope = {
+										OR = {
+											TECH_MAJESTY >= 6
+											TECH_CULTURE_FLEX >= 6
+											TECH_LEGALISM >= 6
+										}
+									}
+								}
+								ROOT = { #Do it earlier if you're Italian
+									culture = italian
+									capital_scope = {
+										OR = {
+											TECH_MAJESTY >= 5
+											TECH_CULTURE_FLEX >= 5
+											TECH_LEGALISM >= 5
+										}
+									}
+								}
+							}
 						}
 						has_title_flag = renaissance_realm
 					}
@@ -152,6 +159,72 @@ decisions = {
 		effect = {
 			#Commission painting
 			character_event = { id = bote.00002 }
+			remove_character_flag = recently_commissioned
+			set_character_flag = recently_commissioned
+		}
+	}
+	patronise_renaissance_research = {
+		only_rulers = yes
+		capable_only = yes
+		ai_check_interval = 24
+		war = no
+		has_global_flag = renaissance_started
+		potential = {
+			has_character_flag = renaissance_ruler
+			OR = {
+				NOT = {
+					has_character_flag = recently_patronised_research
+				}
+				had_character_flag = {
+					flag = recently_patronised_research
+					years >= 1
+				}
+			}
+			NOT = {
+				any_courtier = { #None currently researching
+					limit = {
+						trait = renaissance_man
+						trait = travelling
+					}
+				}
+				has_global_flag = renaissance_advancement_dome
+				has_global_flag = renaissance_advancement_perspective
+			}
+		}
+		allow = {
+			wealth = 200
+		}
+		effect = {
+			character_event = { id = bote.00019 }
+			clr_character_flag = recently_patronised_research
+			set_character_flag = recently_patronised_research
+		}
+	}
+	commission_renaissance_painting = {
+		only_rulers = yes
+		capable_only = yes
+		ai_check_interval = 24
+		war = no
+		has_character_flag = renaissance_ruler
+		potential = {
+			has_global_flag = renaissance_advancement_perspective
+			OR = {
+				NOT = {
+					has_character_flag = recently_commissioned
+				}
+				had_character_flag = {
+					flag = recently_commissioned
+					years >= 1
+				}
+			}
+		}
+		allow = {
+			is_adult = yes
+			wealth >= 200
+		}
+		effect = {
+			#Commission painting
+			character_event = { id = bote.00027 }
 			remove_character_flag = recently_commissioned
 			set_character_flag = recently_commissioned
 		}

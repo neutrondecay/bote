@@ -26,7 +26,7 @@ portrait_archimedes = {
 	stacking = no
 	picture = "GFX_portrait_archimedes"
 	monthly_character_prestige = 0.1
-	tech_growth_modifier = 0.15
+	tech_growth_modifier = 0.05
 	learning = 1
 }
 portrait_alexander = {
@@ -35,4 +35,46 @@ portrait_alexander = {
 	picture = "GFX_portrait_alexander"
 	monthly_character_prestige = 0.1
 	martial = 2
+}
+painting_biblical = {
+	quality = 3
+	stacking = no
+	picture = "GFX_painting_biblical"
+	monthly_character_prestige = 0.3
+	monthly_character_piety = 0.3
+	church_opinion = 5
+}
+painting_biblical_dynastic = {
+	active = {
+		FROM = {
+			original_owner = {
+				dynasty = ROOT
+			}
+		}
+	}
+	quality = 3
+	stacking = no
+	picture = "GFX_painting_biblical_dynastic"
+	monthly_character_prestige = 0.4
+	monthly_character_piety = 0.2
+	dynasty_opinion = 5
+	
+}
+painting_rome = {
+	quality = 3
+	stacking = no
+	picture = "GFX_painting_rome"
+	monthly_character_prestige = 0.3
+	learning = 2
+	tech_growth_modifier = 0.15
+}
+painting_mythology = {
+	quality = 3
+	stacking = no
+	picture = "GFX_painting_mythology"
+	monthly_character_prestige = 0.3
+	learning = 2
+	hellenic_pagan_opinion = 5
+	hellenic_pagan_reformed_opinion = 5
+	christian_church_opinion = -5
 }
