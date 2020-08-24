@@ -37,6 +37,6 @@ terrain = plains
 }
 1237.12.21 = {
 	capital = b_pereyaslavl_ryazanski
-	b_pereyaslavl_ryazanski = feudal
+	b_pereyaslavl_ryazanski = castle
 	remove_settlement = b_ryazan	#sacked by Batu Khan
 }
