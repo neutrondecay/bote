@@ -310,3 +310,14 @@ k_netherlands = {
 	german = "Niederlande"
 	latin = "Nederlandia"
 }
+k_moldova = {
+	color = { 200 130 100 }
+	capital = 545
+	culture = vlach
+	religion = orthodox
+
+	title = "principality_title"
+	title_female = "principality_title_female"
+	foa = "principality_foa"
+	title_prefix = "principality_prefix"
+}

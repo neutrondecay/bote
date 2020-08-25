@@ -119,6 +119,6 @@ holder=850314 #Balik Terterid
 	holder=850313 # Ivanko Terterid
 }
 1386.9.23 = {
-	holder = 830000
-	liege = "k_dacia"
+	holder = 800460
+	liege = k_ottoman
 }

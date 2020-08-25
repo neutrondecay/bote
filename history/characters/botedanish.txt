@@ -584,7 +584,7 @@
 	trait = grey_eminence
 	dna="beegd0fche0"
 	properties="c00b0a00000000000000000000000000000000000"
-	1343.3.15 = {
+	1363.3.15 = {
 		birth = yes
 	}
 	1390.1.1 = {

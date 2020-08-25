@@ -67,11 +67,12 @@
 {
 	holder=34831
 }
-
-
+1340.1.1 = {
+	de_jure_liege = k_moldova
+}
 1391.1.1 = {
 	holder = 830008
-	liege = k_poland
+	liege = k_moldova
 }
 1394.1.1 = {
 	holder = 830009

@@ -1,0 +1,17 @@
+1391.1.1 = {
+	holder = 830008
+	de_jure_liege = e_carpathia
+	set_tribute_suzerain = {
+		who = k_poland
+		type = permanent
+	}
+}
+1394.1.1 = {
+	holder = 830009
+}
+1399.11.28 = {
+	holder = 830011
+}
+1400.1.1 = {
+	holder = 830010
+}

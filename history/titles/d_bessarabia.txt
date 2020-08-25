@@ -37,8 +37,9 @@
 	liege = e_bulgaria
 	holder = 260690
 }
-
-
+1340.1.1 = {
+	de_jure_liege = k_moldova
+}
 1391.1.1 = {
 	holder = 0
 }

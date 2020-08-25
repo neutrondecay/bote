@@ -124,6 +124,9 @@
 1309.5.5={
 	holder=461700
 }
+1350.1.1 = {
+	de_jure_liege = k_france
+}
 1382.7.27={
 	holder=802002 # Louis I of Anjou
 	liege=k_france

@@ -75,6 +75,9 @@ holder=462154
 1343.6.22={
 	holder=462155 # Amadeus VI
 }
+1350.1.1 = {
+	de_jure_liege = k_france
+}
 1383.3.1={
 	holder=802115 # Amadeus VII
 }
