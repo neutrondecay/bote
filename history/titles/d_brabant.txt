@@ -15,6 +15,9 @@ liege="e_hre"
 {
 	holder=206852 #Hendrik I
 }
+1200.1.1 = {
+	de_jure_liege = k_frisia
+}
 1235.9.5=
 {
 	holder=487057 #Hendrik II

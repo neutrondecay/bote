@@ -18,6 +18,7 @@ decisions = {
 						}
 					}
 					capital_scope = {
+						region = world_europe
 						OR = {
 							empire = { #Italians can do it without restriction
 								title = e_italy
@@ -46,7 +47,11 @@ decisions = {
 					has_title_flag = renaissance_realm
 				}
 			}
-			religion_group = christian
+			OR = {
+				religion_group = christian
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+			}
 			capital_scope = {
 				region = world_europe
 			}
@@ -186,8 +191,10 @@ decisions = {
 						trait = travelling
 					}
 				}
-				has_global_flag = renaissance_advancement_dome
-				has_global_flag = renaissance_advancement_perspective
+				AND = {
+					has_global_flag = renaissance_advancement_dome
+					has_global_flag = renaissance_advancement_perspective
+				}
 			}
 		}
 		allow = {

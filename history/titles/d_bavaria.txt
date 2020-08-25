@@ -91,6 +91,9 @@
 1183.7.11={
 	holder=212950
 }
+1200.1.1 = {
+	de_jure_liege = k_germany
+}
 1231.9.15 = {
 	holder = 462756
 }

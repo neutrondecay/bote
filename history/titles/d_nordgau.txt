@@ -163,6 +163,7 @@ holder=212393
 1200.1.1=
 {
 holder=462356
+de_jure_liege = k_germany
 }
 1255.1.1=
 {

@@ -123,3 +123,6 @@
 923.1.1={
 	holder = 0
 }
+1200.1.1 = {
+	activate_title = no
+}

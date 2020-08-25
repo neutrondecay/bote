@@ -99,7 +99,7 @@ EVTOPTAbote.00003;Sokrates, the famous philosopher;;;;;;;;x
 EVTOPTBbote.00003;Archimedes, the greatest mathematician of the ancient world;;;;;;;;x
 EVTOPTCbote.00003;Alexander the Great, an excellent general and conqueror;;;;;;;;x
 EVTOPTDbote.00003;Who else is there..?;;;;;;;;x
-EVTDESCbote.00004;At long last, the [commissioned_painting.GetName] is ready! The artist excitedly enters your room for an audience, and two servants carefully carry the painting in. "[Root.PrimaryTitle.GetFOA], it is my privilege to reveal the [commissioned_painting.GetName]," he announces in a grandiose fashion, before removing the curtain covering the canvas. And what a painting it is! It is sure to impress your peers and enhance your image.;;;;;;;;x
+EVTDESCbote.00004;At long last, the [commissioned_painting.GetName] is ready! The artist excitedly enters your room for an audience, and two servants carefully carry the painting in. "[Root.PrimaryTitle.GetFOA], it is my privilege to reveal the [commissioned_painting.GetName]," he announces in a grandiose fashion, before removing the curtain covering the canvas. And what a painting it is!;;;;;;;;x
 EVTOPTAbote.00004;I will go down in the history books as a wise and cultured ruler;;;;;;;;x
 EVTDESCbote.00006;The increase in interest in the classical world in  [Root.PrimaryTitle.GetName] has definitely been noticeable recently. As more and more members of society, from wealthy merchants to learnèd academics, are looking to the past, it is clear that this is not just some passing phase. The ancient Romans and Greeks laid the foundations for many aspects of your culture, but it seems that much has been forgotten, and much is yet to be rediscovered. Armed with knowledge from the ancient world, society will change drastically, but only time will tell how this will play out. What you can decide, however, is how you yourself will change during this unprecedented time. Even in this early stage, it is clear that everything, from art and architecture to the way the world is perceived and the machinations of government will be effected. It is up to you to turn lead society in the right direction... or in the one that benefits you most.;;;;;;;;x
 EVTOPTAbote.00006;Time to get reading!;;;;;;;;x
@@ -192,7 +192,7 @@ painting_rome_desc;A striking painting of the ancient world which evokes the gra
 painting_mythology;Painting of Ancient Mythology;;;;;;;;x
 painting_mythology_desc;This beautiful piece conveys respect for the ancient world which speaks to us even now. Although many do not worship the Hellenic gods, they are revered by many as archetypes, a concept which is perfectly mirrored here.;;;;;;;;x
 #Traits
-renaissance_ruler;Renaissance Ruler;;;;;;;;x
+renaissance_ruler;Renowned Renaissance Ruler;;;;;;;;x
 renaissance_ruler_desc;This character has show [Root.GetHerHis] cultured spirit, bringing great contributions to the Renaissance. Through patronage of the arts and intellectual engagement, [Root.GetFullName] has enhanced [Root.GetHerHis] image and driven [Root.Realm.GetAdjective] society forward.;;;;;;;;x
 renaissance_man;Renaissance Man;;;;;;;;x
 renaissance_man_adj;This character is has mastered a wide range of fields with incredible genius. He stands out in the worlds of both Art and Science, earning him widespread renoun. However, a patron who puts him to good use will be able to enhance his own prestige through the works of this man's hand.;;;;;;;;x

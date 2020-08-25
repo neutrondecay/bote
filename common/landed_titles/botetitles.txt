@@ -300,3 +300,13 @@ k_france_trinity = { # required for the custom CoA
 		always = no
 	}
 }
+k_netherlands = {
+	color = { 117 211 250 }
+	color2 = { 20 140 189 }
+	capital = 80
+	culture = dutch
+	religion = catholic
+	
+	german = "Niederländer"
+	latin = "Nederlandia"
+}
