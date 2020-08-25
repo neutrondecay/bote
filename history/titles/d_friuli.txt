@@ -88,3 +88,6 @@
 924.4.7 = {
 	holder = 0
 }
+1200.1.1 = {
+	liege = k_austria
+}

@@ -86,7 +86,35 @@ character_event = { #Commission painting
 	desc = EVTDESCbote.00002
 	
 	is_triggered_only = yes
-	
+	immediate = {
+		if = {
+			limit = {
+				NOT = {
+					any_courtier = {
+						trait = artist
+					}
+				}
+			}
+			create_character = {
+				culture = ROOT
+				religion = ROOT
+				female = no
+				trait = artist
+				random_traits = yes
+			}
+		}
+		any_courtier = {
+			limit = {
+				trait = artist
+			}
+			ROOT = {
+				save_persistent_event_target = {
+					name = my_artist
+					scope = THIS
+				}
+			}
+		}
+	}
 	option = {
 		name = EVTOPTAbote.00002 #Portrait of Caesar
 		ai_chance = {
@@ -106,9 +134,10 @@ character_event = { #Commission painting
 			}
 		}
 		wealth = -100
+		
 		hidden_tooltip = {
 			
-			c_899999 = {
+			persistent_event_target:my_artist = {
 				add_artifact = portrait_caesar
 				new_artifact = {
 					log_scopes = yes
@@ -148,7 +177,7 @@ character_event = { #Commission painting
 		wealth = -100
 		hidden_tooltip = {
 			
-			c_899999 = {
+			persistent_event_target:my_artist = {
 				add_artifact = portrait_cicero
 				new_artifact = {
 					log_scopes = yes
@@ -221,7 +250,7 @@ character_event = { #Commission painting 2
 		wealth = -100
 		hidden_tooltip = {
 			
-			c_899999 = {
+			persistent_event_target:my_artist = {
 				add_artifact = portrait_sokrates
 				new_artifact = {
 					log_scopes = yes
@@ -267,7 +296,7 @@ character_event = { #Commission painting 2
 		wealth = -100
 		hidden_tooltip = {
 			
-			c_899999 = {
+			persistent_event_target:my_artist = {
 				add_artifact = portrait_archimedes
 				new_artifact = {
 					log_scopes = yes
@@ -312,7 +341,7 @@ character_event = { #Commission painting 2
 		}
 		wealth = -100
 		hidden_tooltip = {
-			c_899999 = {
+			persistent_event_target:my_artist = {
 				add_artifact = portrait_alexander
 				new_artifact = {
 					log_scopes = yes
@@ -339,35 +368,23 @@ character_event = { #Commission painting 2
 character_event = { #Commissioned painting complete
 	id = bote.00004
 	desc = EVTDESCbote.00004
-	
+	portrait = persistent_event_target:my_artist
 	is_triggered_only = yes
-	
+	immediate = {
+		persistent_event_target:commissioned_painting = {
+			transfer_artifact = {
+				from = artifact_owner
+				to = ROOT
+			}
+			save_persistent_event_target = {
+				name = its_original_owner
+				scope = ROOT
+			}
+		}
+	}
 	option = {
 		name = EVTOPTAbote.00004
 		hidden_tooltip = {
-			persistent_event_target:commissioned_painting = { #In case someone else has commissioned the same painting at the same time
-				if = {
-					limit = {
-						NOT = {
-							artifact_type_owned_by  = 899999
-						}
-					}
-					c_899999 = {
-						add_artifact = PREV
-					}
-				}
-				transfer_artifact = {
-					from = artifact_owner
-					to = ROOT
-				}
-				set_original_owner = ROOT
-				save_persistent_event_target = {
-					name = its_original_owner
-					scope = ROOT
-				}
-				log = "[its_original_owner.GetFullName]"
-				log_scopes = yes
-			}
 			change_variable = {
 				which = renaissance_score
 				value = 1
@@ -435,11 +452,9 @@ character_event = { #Independent power embraces Renaissance
 			}
 		}
 		any_realm_lord = {
-			limit = {
-				has_character_flag = renaissance_ruler
-			}
-			log = "[This.GetFullName]"
+			has_character_flag = renaissance_ruler
 			count >= local_count
+			log = "[This.GetFullName]"
 		}
 	}
 	
@@ -471,6 +486,7 @@ narrative_event = { #Flavour event- [Realm adjective] Renaissance
 	is_triggered_only = yes
 	
 	option = {
+		log = "[Root.Realm.GetAdjective] Renaissance"
 		name = EVTOPTAbote.00006
 	}
 }
@@ -1091,7 +1107,7 @@ character_event = {
 					culture = ROOT
 					religion = ROOT
 					female = no
-					
+					random_traits = yes
 					attributes = {
 						learning = 8
 					}
@@ -1126,7 +1142,7 @@ character_event = { #Patronise architect
 		set_character_flag = researching_architecture
 		random_list = {
 			50 = {
-				character_event = { id = bote.00024 days = 6 } #Need more time
+				character_event = { id = bote.00024 months = 6 } #Need more time
 			}
 			50 = { #Architecture success
 				trigger = { has_character_flag = researching_architecture }
@@ -1136,7 +1152,7 @@ character_event = { #Patronise architect
 							region = world_europe
 						}
 					}
-					narrative_event = { id = bote.00025 days = 6 }
+					narrative_event = { id = bote.00025 months = 6 }
 				}
 			}
 		}
@@ -1162,13 +1178,13 @@ character_event = { #Patronise artist
 	option = { #Agree
 		name = EVTOPTAbote.00020
 		event_target:patronised_researcher = {
-			trait = travelling
+			add_trait = travelling
 		}
 		wealth = -200
 		set_character_flag = researching_art
 		random_list = {
 			50 = {
-				character_event = { id = bote.00024 days = 6 } #Need more time
+				character_event = { id = bote.00024 months = 6 } #Need more time
 			}
 			50 = { #Art success
 				trigger = { has_character_flag = researching_art }
@@ -1178,7 +1194,7 @@ character_event = { #Patronise artist
 							region = world_europe
 						}
 					}
-					narrative_event = { id = bote.00026 days = 6 }
+					narrative_event = { id = bote.00026 months = 6 }
 				}
 			}
 		}
@@ -1210,7 +1226,7 @@ character_event = { #Patronise scultpor
 		set_character_flag = researching_sculpting
 		random_list = {
 			50 = {
-				character_event = { id = bote.00024 days = 6 } #Need more time
+				character_event = { id = bote.00024 months = 6 } #Need more time
 			}
 			50 = { #Sculpting success
 				trigger = { has_character_flag = researching_sculpting }
@@ -1220,7 +1236,7 @@ character_event = { #Patronise scultpor
 							region = world_europe
 						}
 					}
-					narrative_event = { id = bote.00027 days = 6 }
+					narrative_event = { id = bote.00027 months = 6 }
 				}
 			}
 		}
@@ -1252,7 +1268,7 @@ character_event = { #Patronise writer
 		set_character_flag = researching_literature
 		random_list = {
 			50 = {
-				character_event = { id = bote.00024 days = 6 } #Need more time
+				character_event = { id = bote.00024 months = 6 } #Need more time
 			}
 			50 = { #Literature success
 				trigger = { has_character_flag = researching_literature }
@@ -1262,7 +1278,7 @@ character_event = { #Patronise writer
 							region = world_europe
 						}
 					}
-					narrative_event = { id = bote.00028 days = 6 }
+					narrative_event = { id = bote.00028 months = 6 }
 				}
 			}
 		}
@@ -1282,7 +1298,7 @@ character_event = { #Need more funding
 		wealth = -50
 		random_list = {
 			50 = {
-				character_event = { id = bote.00024 days = 6 } #Need more time
+				character_event = { id = bote.00024 months = 6 } #Need more time
 			}
 			50 = { #Architecture success
 				trigger = { has_character_flag = researching_architecture }
@@ -1292,7 +1308,7 @@ character_event = { #Need more funding
 							region = world_europe
 						}
 					}
-					narrative_event = { id = bote.00025 days = 6 }
+					narrative_event = { id = bote.00025 months = 6 }
 				}
 			}
 			50 = { #Art success
@@ -1303,7 +1319,7 @@ character_event = { #Need more funding
 							region = world_europe
 						}
 					}
-					narrative_event = { id = bote.00026 days = 6 }
+					narrative_event = { id = bote.00026 months = 6 }
 				}
 			}
 			50 = { #Sculpting success
@@ -1314,7 +1330,7 @@ character_event = { #Need more funding
 							region = world_europe
 						}
 					}
-					narrative_event = { id = bote.00027 days = 6 }
+					narrative_event = { id = bote.00027 months = 6 }
 				}
 			}
 			50 = { #Literature success
@@ -1325,7 +1341,7 @@ character_event = { #Need more funding
 							region = world_europe
 						}
 					}
-					narrative_event = { id = bote.00028 days = 6 }
+					narrative_event = { id = bote.00028 months = 6 }
 				}
 			}
 		}
@@ -1406,7 +1422,35 @@ character_event = { #Commission renaissance painting- LINEAR PERSPECTIVE
 	desc = EVTDESCbote.00027
 	
 	is_triggered_only = yes
-	
+	immediate = {
+		if = {
+			limit = {
+				NOT = {
+					any_courtier = {
+						trait = artist
+					}
+				}
+			}
+			create_character = {
+				culture = ROOT
+				religion = ROOT
+				female = no
+				trait = artist
+				random_traits = yes
+			}
+		}
+		any_courtier = {
+			limit = {
+				trait = artist
+			}
+			ROOT = {
+				save_persistent_event_target = {
+					name = my_artist
+					scope = PREV
+				}
+			}
+		}
+	}
 	option = {
 		name = EVTOPTAbote.00027 #A famous Biblical scene
 		ai_chance = {
@@ -1428,7 +1472,7 @@ character_event = { #Commission renaissance painting- LINEAR PERSPECTIVE
 		}
 		wealth = -200
 		hidden_tooltip = {
-			c_899999 = {
+			persistent_event_target:my_artist = {
 				add_artifact = painting_biblical
 				new_artifact = {
 					ROOT = {
@@ -1459,9 +1503,10 @@ character_event = { #Commission renaissance painting- LINEAR PERSPECTIVE
 		wealth = -200
 		hidden_tooltip = {
 			
-			c_899999 = {
+			persistent_event_target:my_artist = {
 				add_artifact = painting_biblical_dynastic
 				new_artifact = {
+					set_original_owner = ROOT
 					log_scopes = yes
 					ROOT = {
 						log_scopes = yes
@@ -1518,7 +1563,7 @@ character_event = { #Commission painting 2
 		wealth = -200
 		hidden_tooltip = {
 			
-			c_899999 = {
+			persistent_event_target:my_artist = {
 				add_artifact = painting_rome
 				new_artifact = {
 					log_scopes = yes
@@ -1550,7 +1595,7 @@ character_event = { #Commission painting 2
 		wealth = -200
 		hidden_tooltip = {
 			
-			c_899999 = {
+			persistent_event_target:my_artist = {
 				add_artifact = painting_mythology
 				new_artifact = {
 					log_scopes = yes

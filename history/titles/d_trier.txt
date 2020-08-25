@@ -2,6 +2,9 @@
 	holder=33118 #Johann
 	liege = "e_hre"
 }
+1200.1.1 = {
+	de_jure_liege = k_germany
+}
 1212.7.15={
 	holder=33119 #Theodorich
 }

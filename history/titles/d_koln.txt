@@ -14,6 +14,9 @@ holder=30345 #Bruno von Berg
 {
 holder=30347 #Adolf von Berg
 }
+1200.1.1 = {
+	de_jure_liege = k_germany
+}
 1205.1.1=
 {
 holder=33166

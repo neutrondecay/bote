@@ -14,3 +14,9 @@ renaissance_man = {
 	learning = 8
 	general_opinion = 20
 }
+artist = {
+	customizer = no
+	lifestyle = yes
+	can_hold_titles = no
+	cannot_inherit = yes
+}

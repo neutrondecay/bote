@@ -108,6 +108,7 @@
 liege="k_england"
 #law = agnatic_succession
 #law = succ_primogeniture
+de_jure_liege = k_england
 }
 1328.9.6={ 
 holder = 454507

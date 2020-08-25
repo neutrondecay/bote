@@ -1,6 +1,6 @@
 portrait_cicero = {
 	quality = 2
-	stacking = no
+	stacking = yes
 	picture = "GFX_portrait_cicero"
 	monthly_character_prestige = 0.1
 	diplomacy = 1
@@ -8,7 +8,7 @@ portrait_cicero = {
 }
 portrait_caesar = {
 	quality = 2
-	stacking = no
+	stacking = yes
 	picture = "GFX_portrait_caesar"
 	monthly_character_prestige = 0.1
 	martial = 1
@@ -16,14 +16,14 @@ portrait_caesar = {
 }
 portrait_sokrates = {
 	quality = 2
-	stacking = no
+	stacking = yes
 	picture = "GFX_portrait_sokrates"
 	monthly_character_prestige = 0.1
 	learning = 2
 }
 portrait_archimedes = {
 	quality = 2
-	stacking = no
+	stacking = yes
 	picture = "GFX_portrait_archimedes"
 	monthly_character_prestige = 0.1
 	tech_growth_modifier = 0.05
@@ -31,14 +31,14 @@ portrait_archimedes = {
 }
 portrait_alexander = {
 	quality = 2
-	stacking = no
+	stacking = yes
 	picture = "GFX_portrait_alexander"
 	monthly_character_prestige = 0.1
 	martial = 2
 }
 painting_biblical = {
 	quality = 3
-	stacking = no
+	stacking = yes
 	picture = "GFX_painting_biblical"
 	monthly_character_prestige = 0.3
 	monthly_character_piety = 0.3
@@ -53,7 +53,7 @@ painting_biblical_dynastic = {
 		}
 	}
 	quality = 3
-	stacking = no
+	stacking = yes
 	picture = "GFX_painting_biblical_dynastic"
 	monthly_character_prestige = 0.4
 	monthly_character_piety = 0.2
@@ -62,7 +62,7 @@ painting_biblical_dynastic = {
 }
 painting_rome = {
 	quality = 3
-	stacking = no
+	stacking = yes
 	picture = "GFX_painting_rome"
 	monthly_character_prestige = 0.3
 	learning = 2
@@ -70,7 +70,7 @@ painting_rome = {
 }
 painting_mythology = {
 	quality = 3
-	stacking = no
+	stacking = yes
 	picture = "GFX_painting_mythology"
 	monthly_character_prestige = 0.3
 	learning = 2
