@@ -85,6 +85,9 @@
 1285.5.20={
 	holder= 138024 # Henri II of Cyprus
 }
+1292.5.3 = {
+	de_jure_liege = k_cyprus
+}
 1306.4.26={
 	holder= 461916 #Amaury II Prince of Tyr Regent of Cyprus and Titular Regent of Jerusalem 
 }
