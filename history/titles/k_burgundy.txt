@@ -45,3 +45,9 @@ holder=1148
 {
 holder=0
 }
+1350.1.1 = {
+	effect = {
+		set_name = ""
+		adjective = ""
+	}
+}
