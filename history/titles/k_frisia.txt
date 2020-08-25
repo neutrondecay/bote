@@ -31,6 +31,11 @@
 867.1.1 = {
 	de_jure_liege = e_hre
 }
-1200.1.1 = {
-	activate_title = no
+1350.1.1 = {
+	effect = {
+		activate_title = {
+			title = k_frisia
+			status = no
+		}
+	}
 }

@@ -15,9 +15,6 @@ liege="e_hre"
 {
 	holder=206852 #Hendrik I
 }
-1200.1.1 = {
-	de_jure_liege = k_netherlands
-}
 1235.9.5=
 {
 	holder=487057 #Hendrik II
@@ -41,6 +38,9 @@ liege="e_hre"
 1312.10.27=
 {
 	holder=487044 #Jan III
+}
+1350.1.1 = {
+	de_jure_liege = k_netherlands
 }
 1355.12.5 = {
 	holder=487012 #Johanna of Brabant

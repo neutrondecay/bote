@@ -129,6 +129,9 @@
 1343.9.26={
 	holder=455541
 }
+1350.1.1 = {
+	de_jure_liege = k_france
+}
 1391.8.1={
 	holder=802212 #Matthew
 	law = succ_primogeniture

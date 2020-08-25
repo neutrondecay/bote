@@ -68,9 +68,6 @@
 {
 	holder=205523 #Boudewijn IX
 }
-1200.1.1 = {
-	de_jure_liege = k_netherlands
-}
 1204.5.16=
 {
 	holder=94021 #Joanna I
@@ -91,6 +88,9 @@
 }
 1346.8.25={
 	holder=455712 #Louis II
+}
+1350.1.1 = {
+	de_jure_liege = k_netherlands
 }
 1384.11.9={
 	holder=802004 #Philip the Bold

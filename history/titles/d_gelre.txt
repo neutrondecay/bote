@@ -7,9 +7,6 @@
 	reset_adjective = yes
 	set_global_flag = hamaland_renamed
 }
-1200.1.1 = {
-	de_jure_liege = k_netherlands
-}
 1337.1.1 = {
 	liege = "e_hre"
 	#law = agnatic_succession
@@ -20,6 +17,9 @@
 }
 1343.10.12={
 	holder=30048
+}
+1350.1.1 = {
+	de_jure_liege = k_netherlands
 }
 1371.12.4={
 	holder=810004

@@ -100,6 +100,10 @@
 1216.10.28 = {
 	holder = 454522 #Henry III
 }
+1259.12.4 = { # Treaty of Paris
+    name = GUYENNE
+    adjective = GUYENNE_ADJ
+}
 1272.11.16 = {
 	holder = 454520 #Edward I
 }

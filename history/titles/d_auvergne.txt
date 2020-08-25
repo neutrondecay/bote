@@ -6,6 +6,9 @@
 1337.1.1={
 	holder=455500
 }
+1350.1.1 = {
+	de_jure_liege = k_france
+}
 1360.1.1={
 	holder=802003 # Jean de Berry
 	law = succ_primogeniture

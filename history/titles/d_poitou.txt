@@ -101,6 +101,9 @@
 1341.1.1 = {
 	holder=455651 # Pierre I de Bourbon
 }
+1350.1.1 = {
+	de_jure_liege = k_france
+}
 1356.9.19 = {
 	holder=802105 # Louis II de Bourbon 
 	law = succ_primogeniture
