@@ -210,3 +210,27 @@ k_england_france_trinity;England;;;;;;;;;;;;;x
 k_england_france_trinity_adj;English;;;;;;;;;;;;;x
 k_france_trinity;France;;;;;;;;;;;;;x
 k_france_trinity_adj;French;;;;;;;;;;;;;x
+Printingpress_convince_priest;My Liege, I am working on a project that I believe will be of great use to pious men such as yourself. It will help spread the word of [Root.Religion.GetHighGodName] far and wide. The only issue is of funding, and it would be a great honor to receive patronage from a learned ruler the likes of you. If you are interested, you can meet me in my workshop.;;;;;;;;x
+Printingpress_convince_poet;My Liege, I am working on a project that I think you will greatly enjoy. It will help not only with publishing your own works, but reading and writing in the first place. The only issue as it stands is funding, as such an undertaking can be quite expensive. It would be a great honor to receive patronage from one as learned as you. If you are interested, we can further discuss the matter in my workshop.;;;;;;;;x
+Printingpress_convince_steward;My Liege, I am working on a project which, in my eyes, will greatly benefit you. It will make managing contracts and documents much easier. The only issue as it stands is funding. I'm sure there's many other things you're thinking of spending your money on, but I do not believe you will be regretting this investment.;;;;;;;;x
+Printingpress_convince_diplomat;My Liege, I am working on a project which I believe will be of great benefit to you. Gone will be the days of spending great deals of money on scribes that can write well to maintain and establish diplomatic relations with other nobles. My invention will allow you to write diplomatic agreements and letters legibly in your own bedroom! If you are interested, we can further discuss the matter in my workshop.;;;;;;;;x
+Printingpress_convince_seducer;My Liege, I am working on a project which I believe will be of great benefit to you. It will certainly help with all those private letters you keep on sending. My invention will allow you to write anything legibly within minutes! The only problem as it stands is funding, though I guarantee you, the investment will make life that much easier for you. If you are interested, meet me in my workshop.;;;;;;;;x
+Printingpress_convince_shy;My Liege, I am working on a project which I believe will be of great benefit to you. It will certainly reduce the amount of human interaction you are forced to go through. I know you don't particularly enjoy it so I will keep this letter short. I only require funding, if you're interested, please meet me at my workshop!;;;;;;;;;;;;;x
+Printingpress_convince_generic;My Liege, I am working on a project which I believe will greatly benefit research, taxation, diplomacy, and every step of managing a realm. The only obstacle as it stands is funding, and it would be a great honor to receive patronage from a noble and honorable ruler such as you. If you are interested, please meet me in my workshop.;;;;;;;;;;;;;x
+bote_pp_1_a;I would like to hear more about this.;;;;;;;;;;;;;x
+bote_pp_1_b;No.;;;;;;;;;;;;;x
+bote_pp_2_desc;I visited [From.GetFirstName]'s workshop to learn more about his invention. It's a sort of machine with the letters of the alphabet forged and inked, which are then pressed on a sheet of paper, allowing sentences to be written at incredible speeds. The script is very neat and legible, not at all difficult to follow. If all books were written this way, there would be no need for expensive scribes!;;;;;;;;;;;;;x
+bote_pp_2_a;I will offer you patronage.;;;;;;;;;;;;;x
+bote_pp_2_b;A good idea, but I can't afford it at the moment.;;;;;;;;;;;;;x
+bote_pp_3_desc;My liege, the letter you are reading right now is written using my press!;;;;;;;;;;;;;x
+bote_pp_3_a;So legible!;;;;;;;;;;;;;x
+bote_pp_4_title;The Printing Press;;;;;;;;;;;;;x
+bote_pp_4_desc;idk;;;;;;;;;;;;;x
+bote_pp_4_a;Amazing.;;;;;;;;;;;;;x
+bote_pp_4_b;We have no use for such conveniences.;;;;;;;;;;;;;x
+bote_pp_4_c;Amazing.;;;;;;;;;;;;;x
+bote_pp_5_desc;The use of the Printing Press is starting to spread around [Root.GetName], and it would help the administration of the county a great deal.;;;;;;;;;;;;;x
+bote_pp_5_a;I will invest the money.;;;;;;;;;;;;;x
+bote_pp_6_b;It's too expensive.;;;;;;;;;;;;;x
+Printingpress_meet_inventor;You will meet up with the inventor.;;;;;;;;;;;;;x
+printingpress_modifier;Printing Press;;;;;;;;;;;;;x

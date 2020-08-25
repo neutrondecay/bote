@@ -177,7 +177,7 @@ character_event = { #Meet up with inventor
 		}
 	}
 	option = { #No
-		name = bote_pp.2_b
+		name = bote_pp_2_b
 		clr_global_flag = printingpress_in_progress
 	}
 }
@@ -329,8 +329,14 @@ province_event = {
 	}
 	
 	trigger = {
-		any_neighbor_province = {
-			has_province_modifier = printing_press_modifier
+		OR = {
+			any_connected_province = {
+				sea_gap = yes
+				has_province_modifier = printing_press_modifier
+			}
+			any_neighbor_province = {
+				has_province_modifier = printing_press_modifier
+			}
 		}
 		TECH_CONSTRUCTION >= 4
 		NOR = {
@@ -359,7 +365,7 @@ province_event = {
 		holder_scope = {
 			scaled_wealth = {
 				value = -0.25
-				max = 100
+				min = -100
 			}
 		}
 	}
