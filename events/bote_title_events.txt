@@ -1,0 +1,19 @@
+namespace = botetitles
+
+narrative_event = { #Return of Serbian Empire
+	id = botetitles.00001
+	desc = EVTDESCbotetitles.00001
+	picture = GFX_evt_victory_arch_byzantine
+	title = RESTORE_SERBIA
+	is_triggered_only = yes
+	
+	immediate = {
+		e_serbia = {
+			gain_title = ROOT
+		}
+	}
+	option = {
+		name = EVTOPTAbotetitles.00001
+		prestige = 250
+	}
+}

@@ -15,4 +15,8 @@ spriteTypes = {
 		name = "GFX_commission_renaissance_painting"
 		texturefile = "gfx\\interface\\commission_renaissance_painting.dds"
 	}
+	spriteType = {
+		name = "GFX_restore_serbian_empire"
+		texturefile = "gfx\\interface\\restore_serbian_empire.dds"
+	}
 }
