@@ -89,5 +89,5 @@
 	holder = 0
 }
 1200.1.1 = {
-	liege = k_austria
+	de_jure_liege = k_austria
 }

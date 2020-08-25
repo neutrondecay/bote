@@ -72,9 +72,6 @@
 1176.5.13={
 	holder=212580 #Simon Chatenois (667)
 }
-1200.1.1 = {
-	de_jure_liege = k_germany
-}
 1206.4.1={
 	holder=212583 #Ferry Chatenois (667)
 }
