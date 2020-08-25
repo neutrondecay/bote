@@ -1,0 +1,370 @@
+namespace = bote_pp
+
+character_event = {	 #Create Printing Press Inventor
+	id = bote_pp.0
+	hide_window = yes
+	
+	is_triggered_only = no
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	trigger = {
+		OR = {
+			tier = KING
+			tier = EMPEROR
+			independent = yes
+		}
+		is_adult = yes
+		calc_true_if = {
+			amount >= 3
+			trait = erudite
+			trait = quick
+			trait = genius
+			trait = theologian
+			trait = scholar
+			trait = faqih
+			trait = mutazilite
+		}
+		capital_scope = {
+			TECH_CONSTRUCTION >= 7
+		}
+		NOT = {
+			has_global_flag = printingpress_in_progress
+		}
+	}
+	
+	immediate = {
+		create_random_priest = {
+			religion = ROOT
+			culture = ROOT
+			learning = 30
+			female = 5
+			historical = yes
+			add_trait = genius
+			add_trait = scholar
+			add_trait = theologian
+			add_trait = erudite
+		}
+		new_character = {
+			save_event_target_as = printingpress_inventor
+		}
+		ROOT = {
+			save_event_target_as = printingpress_liege
+			primary_title = {
+				save_event_target_as = printingpress_liege_title
+			}
+		}
+		character_event = {
+				id = bote_pp.1
+			}
+	}
+	
+	option = {
+	}
+}
+	
+
+letter_event = { #Inventor sends a letter to liege
+	id = bote_pp.1
+	portrait = event_target:printingpress_inventor
+	desc = {
+		trigger = {
+			OR = {
+				trait = detached_priest
+				trait = martial_cleric
+				trait = scholarly_theologian
+				trait = mastermind_theologian
+				trait = zealous
+				trait = theologian
+			}
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+				religion_group = jewish_group
+			}
+		}
+		text = Printingpress_convince_priest
+	}
+	desc = {
+		trigger = {
+			OR = {
+				trait = poet
+				trait = erudite
+			}
+		}
+		text = Printingpress_convince_poet
+	}
+	desc = {
+		trigger = {
+			OR = {
+				trait = indulgent_wastrel
+				trait = thrifty_clerk
+				trait = fortune_builder
+				trait = midas_touched
+				trait = greedy
+				trait = administrator
+			}
+		}
+		text = Printingpress_convince_steward
+	}
+	desc = {
+		trigger = {
+			OR = {
+				trait = naive_appeaser
+				trait = underhanded_rogue
+				trait = charismatic_negotiator
+				trait = grey_eminence
+			}
+		}
+		text = Printingpress_convince_diplomat
+	}
+	desc = {
+		trigger = {
+			OR = {
+				trait = seducer
+				trait = seductress
+			}
+		}
+		text = Printingpress_convince_seducer
+	}
+	desc = {
+		trigger = {
+			trait = shy
+		}
+		text = Printingpress_convince_shy
+	}
+	desc = {
+		text = Printingpress_convince_generic
+	}
+	
+	is_triggered_only = yes
+	
+	option = { #I would like to hear more about this
+		name = bote_pp_1_a
+		hidden_effect = {
+			set_global_flag = printingpress_in_progress 
+		}
+		character_event = {
+			id = bote_pp.2
+			tooltip = Printingpress_meet_inventor
+			days = 12
+		}
+	}
+	option = { #No
+		name = bote_pp_1_b
+	}
+}
+
+character_event = { #Meet up with inventor
+	id = bote_pp.2
+	desc = bote_pp_2_desc
+	portrait = event_target:printingpress_inventor
+	portrait = event_target:printingpress_liege
+	
+	is_triggered_only = yes
+	
+	option = { #Offer him patronage
+		name = bote_pp_2_a
+		scaled_wealth = {
+			value = -0.5
+		}
+		event_target:printingpress_inventor = {
+			character_event = {
+				id = bote_pp.5
+				months = 60
+			}
+		}
+	}
+	option = { #No
+		name = bote_pp.2_b
+		clr_global_flag = printingpress_in_progress
+	}
+}
+
+letter_event = { #Inventor sends letter to liege with the printing press
+	id = bote_pp.3
+	desc = bote_pp_3_desc
+	portrait = event_target:printingpress_inventor
+	
+	is_triggered_only = yes
+	
+	option = { #Amazing!
+		name = bote_pp_3_a
+		any_player = {
+			limit = {
+				NOT = {
+					character = event_target:printingpress_liege
+				}
+			}
+			narrative_event = {
+				id = bote_pp.4
+				days = 5
+			}
+		}
+		event_target:printingpress_liege = {
+			narrative_event = {
+				id = bote_pp.4
+				days = 5
+			}
+		}
+		religion_head = {
+			character_event = {
+				id = bote_pp.1
+				months = 12
+			}
+		}
+		set_global_flag = printingpress_invented
+	}
+}
+
+narrative_event = { #Global Event
+	id = bote_pp.4
+	title = bote_pp_4_title
+	desc = bote_pp_4_desc
+	portrait = event_target:printingpress_inventor
+	portrait = event_target:printingpress_liege
+	sound = sfx_event_reformation
+	
+	is_triggered_only = yes
+	
+	option = { #Amazing
+		name = bote_pp_4_a
+		trigger = {
+			NOR = {
+				government = nomadic_government
+				government = tribal_government
+				character = event_target:printingpress_liege
+			}
+		}
+	}
+	option = { #...Okay?
+		name = bote_pp_4_b
+		trigger = {
+			OR = {
+				government = nomadic_government
+				government = tribal_government
+			}
+			NOT = {
+				character = event_target:printingpress_liege
+			}
+		}
+	}
+	option = { #liege option
+		name = bote_pp_4_c
+		trigger = {
+			character = event_target:printingpress_liege
+		}
+		prestige = 1000
+		culture_techpoints = 250
+		economy_techpoints = 250
+		military_techpoints = 250
+		capital_scope = {
+			save_persistent_event_target = {  name = home_of_the_printing_press scope = ROOT }
+			add_province_modifier = {
+				name = printing_press_modifier
+				duration = -1
+			}
+		}
+	}
+}
+
+character_event = {
+	id = bote_pp.5
+	hide_window = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				event_target:printingpress_liege_title = {
+					has_holder = yes
+				}
+			}
+			event_target:printingpress_liege_title = {
+				holder_scope = {
+					save_event_target_as = printingpress_liege
+					letter_event = {
+						id = bote_pp.3
+					}
+				}
+			}
+		}
+		else = {
+			clr_global_flag = printingpress_in_progress
+		}
+	}
+	
+	option = {}
+}
+
+province_event = {
+	id = bote_pp.6
+	desc = bote_pp_6_desc
+	is_triggered_only = no
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 2
+			holder_scope = {
+				OR = {
+					trait = scholar
+					trait = theologian
+					trait = erudite
+					trait = administrator
+					trait = poet
+					trait = mutazilite
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			TECH_CONSTRUCTION >= 6
+		}
+		modifier = {
+			factor = 2
+			holder_scope = {
+				religion = persistent_event_target:home_of_the_printing_press
+			}
+		}
+	}
+	
+	trigger = {
+		any_neighbor_province = {
+			has_province_modifier = printing_press_modifier
+		}
+		TECH_CONSTRUCTION >= 4
+		NOR = {
+			government = tribal_government
+			government = nomadic_government
+		}
+		has_global_flag = printingpress_invented
+		NOT = {
+			had_province_flag = { flag = refused_printingpress months = 60 }
+		}
+		NOT = {
+			has_province_modifier = printing_press_modifier
+		}
+	}
+	
+	immediate = {
+		clr_province_flag = refused_printingpress
+	}
+	
+	option = {
+		name = bote_pp_6_a
+		add_province_modifier = {
+			name = printing_press_modifier
+			duration = -1
+		}
+		holder_scope = {
+			scaled_wealth = {
+				value = -0.25
+				max = 100
+			}
+		}
+	}
+	option = {
+		name = bote_pp_6_b
+		set_province_flag = refused_printingpress
+	}
+}

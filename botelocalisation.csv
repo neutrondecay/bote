@@ -1,0 +1,234 @@
+#Bookmark
+BM_BOOTE_ERA;Beginning of the End;;;;;;;;x
+BM_BOOTE_ERA_INFO;The medieval era is nearing its end, and the world is undergoing considerable change. In Europe, the grip of medieval thought is loosening within the Italian Republics, as groundbreaking discoveries and rediscoveries are made. Interest in Europe's Roman heritage is growing once again, which is introducing floods of radical ideas. Advancements in architecture, philosophy, art, politics and even language are all happening at an alarming rate. Meanwhile, in the east, the last great Mongol conqueror, Timur, has carved out a huge empire for himself, sending the Golden Horde into chaos and threatening other great Muslim powers with destruction. Both the Ottomans and Mamluks are under attack from the Timurid forces, as he shows no sign of stopping his rapacious conquests. It would take death itself to put an end to that man...;;;;;;;x
+ERA_CHAR_NAME_800075;Owain Glyndwr;;;;;;;;x
+ERA_CHAR_INFO_800075;Owain Glyndwr was the last Welsh ruler to be crowned Prince of Wales. After decades of mistreatment by his English overlords, Owain had had enough. In 1400, he launched a rebellion against the English crown in order to gain independence for once and for all. Initially, he was highly successful, as the rebellion swfitly seized most of Wales. However, as time progressed, it was clear that the rebels could not be victorious. A lack of foreign allies and modern weaponry meant that the Welsh were finally defeated after a struggle which lasted until 1416. Nevertheless, Owain Glyndwr, or Glendower, was never found or betrayed by his fellow Welshmen, and he became a symbol of Welsh pride for centuries to come.;;;;;;;;x
+ERA_CHAR_NAME_801171;Emir Timur;;;;;;;;x
+ERA_CHAR_INFO_801171;Emir Timur (known as 'the Lame' due to his injuries) began life as the son of a prominent man in the Mongol Chagatai Khanate. Early on, he proved himself a talented commander in the service of the Chagatai Khan. After conquering and inheriting his own land, he consolidated power and reduced his liege to a figurehead, before expanding his empire rapidly. At its height, his empire encompassed lands in Persia, Anatolia, the Steppe and India. As a commander, he was undefeated, and is regarded as one of the greatest generals in history. He brought the Ottoman Empire to its knees, and only held off from destroying it completely because he chose to invade China before he died. By the time of his death, the last great nomadic conqueror had succeeded in uniting most of the Muslim world, and proved himself worthy of the title "heir of Genghis Khan".;;;;;;;;x
+ERA_CHAR_NAME_800460;Sultan Bayezid of the Ottomans;;;;;;;;x
+ERA_CHAR_INFO_800460;Sultan Bayezid 'the Thunderbolt' continued the Ottoman expansion across Anatolia and into Europe, striking fear into the Christian world and coming close to capturing Constantinople itself. He raised one of the largest known armies in the world at the time, but ultimately failed to take the City of the World's Desire. Although he was a talented commander, he was unfortunate enough to become a target for Timur, who reduced his Anatolian holdings to the disparate array of Turkish beyliks that it had been after the collapse of the Seljuk Sultanate. He was also known as a worldly man, engaging in debauchery and gluttony, but equally he spent much time dedicated to religious affairs, and kept theologians in his circle.;;;;;;;;x
+ERA_CHAR_NAME_800388;Giovanni de' Medici;;;;;;;;x
+ERA_CHAR_INFO_800388;Giovanni de' Medici was an Italian banker who began his family's rise to power in Florence. Having founded the Medici bank, his family became incredibly wealthy, despite Giovanni himself having only a modestly wealthy background. Through his financial prowess, his power in Florence increased, rivalling the leading families and driving the Florentine Renaissance forward. He was a patron of both the arts and the Papacy, which promoted the status of the Medici even further, the latter proving an invaluable ally. Nevertheless, Giovanni strove to maintain a positive public image by remaining humble and abiding to the law, which was key to the political success of the Medici- other families made the mistake of alienating the Florentine citizens. By his death, his son was well-placed to become the single most powerful man in all of Florence.;;;;;;;;x
+ERA_CHAR_NAME_802720;Queen Margrethe of Denmark;;;;;;;;x
+ERA_CHAR_INFO_802720;Queen Margrethe ruled over the kingdoms of Denmark, Sweden and Norway with great competence and ambition, often known as "Lady King", indicating that she was the equal of any male ruler. Her reign saw the union of the Nordic kingdoms under the Kalmar Union, which became by far the most powerful force in the Baltic. Although the Union was unpopular among many of Margrethe's rivals, her indomitable spirit and steadfast vision were formidable, and the unity of the Scandinavian kingdoms lasted for over a century. ;;;;;;;;x
+ERA_CHAR_NAME_800975;Grand Duke Vasily of Muscovy;;;;;;;;x
+ERA_CHAR_INFO_800975;Vasily continued the cosolidation of Muscovite power, ceasing to pay tribute to the Golden Horde for a few years while Timur wrought havoc among his Mongol rivals. He used a combination of diplomacy, warfare and intrigue to advance the Muscovite cause, forging alliances and conquering territories. Although he was unable to decisively rid himself of Mongol vassalage forever, the lands of the Rus' were closer to being united under Russian rule once again, as they had been many years ago. The journey towards Russian freedom continues.;;;;;;;;x
+#Culture
+#CBs
+owains_war_desc;Welsh war for independence;;;;;;;;x
+CB_OWAIN;Welsh Independence;;;;;;;;x
+WELSH_WAR_INDEPENDENCE;War for Welsh Independence;;;;;;;;x
+ROMAN_REVOLT_FOR;Roman Revolt;;;;;;;;x
+#Titles
+wallia_pura;Wallia Pura;;;;;;;;x
+wallia_pura_adj;Welsh;;;;;;;;x
+prince_wales;Welsh Principality;;;;;;;;x
+prince_wales_adj;Welsh;;;;;;;;x
+northern_england;Northern England;;;;;;;;x
+northern_england_adj;North English;;;;;;;;x
+southern_england_adj;South English;;;;;;;;x
+southern_england;Southern England;;;;;;;;x
+d_durham_palatine;Durham Palatinate;;;;;;;;x
+d_arborea;Arborea;;;;;;;;x
+d_arborea_adj;Arborean;;;;;;;;x
+e_serbia;Serbia;;;;;;;;x
+e_serbia_adj;Serbian;;;;;;;;x
+k_muscovy;Muscovy;;;;;;;;x
+k_muscovy_adj;Muscovite;;;;;;;;x
+d_realnovgorodseversky;Novgorod-Seversky;;;;;;;;x
+d_realnovgorodseversky_adj;Novgorod-Seversky;;;;;;;;x
+k_vidin;Vidin;;;;;;;;x
+k_vidin_adj;Vidinite;;;;;;;;x
+k_tarnovo;Tarnovo;;;;;;;;x
+d_rumelia;Rumelia;;;;;;;;x
+d_rumelia_adj;Rumelian;;;;;;;;x
+e_timurid;Gurkaniya;;;;;;;;x
+e_timurid_adj;Gurkaniyan;;;;;;;;x
+e_plane;Outer Plane;;;;;;;;x
+e_plane_adj;Outer;;;;;;;;x
+d_firenze;Firenze;;;;;;;;x
+d_firenze_adj;Florentine;;;;;;;;x
+e_false_rome;Rome;;;;;;;;x
+e_false_rome_adj;Roman;;;;;;;;x
+#Patrician Houses
+b_di_ancona;House di Ancona;;;;;;;;x
+b_medici;House de' Medici;;;;;;;;x
+b_pleskow;House Pleskow;;;;;;;;x
+b_rentelen;House von Rentelen;;;;;;;;x
+b_klingenberg;House Klingenberg;;;;;;;;x
+#Dynamic Titles
+ROMAN_REVOLT;Roman Revolt;;;;;;;;x
+#Keys
+ROMAN_EMPEROR_FALSE;Roman Emperor;;;;;;;;x
+ROMAN_EMPEROR_FALSE_FEM;Roman Empress;;;;;;;;x
+PRINCE;Prince;;;;;;;;x
+PRINCESS;Princess;;;;;;;;x
+FLORENCE_RULER;Gonfaloniere;;;;;;;;x
+GRAND_DUCHY;Grand Duchy of;;;;;;;;x
+GRAND_DUKE;Grand Duke;;;;;;;;x
+GRAND_DUCHESS;Grand Duchess;;;;;;;;x
+REPUBLIC;Republic of;;;;;;;;x
+title_queen_mother_russian;Princess Mother;;;;;;;;;;;;;x
+title_queen_mother_lithuanian;Princess Mother;;;;;;;;;;;;;x
+TSARDOM;Tsardom of;;;;;;;;x
+TSAR;Tsar;;;;;;;;x
+TSARINA;Tsarina;;;;;;;;x
+KINGDOM_HUNGARY;Hungary;;;;;;;;x
+KINGDOM_HUNGARY_ADJ;Hungarian;;;;;;;;x
+VOIVODE;Voivode;;;;;;;;x
+VOIVODESHIP;Voivodeship of;;;;;;;;x
+bote_princeofwales;Prince of Wales;;;;;;;;;;;;;x
+bote_princeofwales_desc;The heir apparent to the Kingdom of England.;;;;;;;;;;;;;x
+bote_dauphinoffrance;Dauphin of France;;;;;;;;;;;;;x
+bote_dauphinoffrance_desc;The heir apparent to the Kingdom of France.;;;;;;;;;;;;;x
+bote_palatineofhungary;Palatine of Hungary;;;;;;;;;;;;;x
+bote_palatineofhungary_desc;The King of Hungary's right hand man on earthly affairs.;;;;;;;;;;;;;x
+#Bloodlines
+welshbloodofowain;Welsh Blood of [This.GetName];;;;;;;;x
+welshbloodofowain_desc;[This.GetName] successfully freed Wales from the tyranny of English rule in a spectacular display of valour and courage;;;;;;;;x
+#Events
+EVTDESCbote.00001;The world is changing, and along with it, so must its people. You have noticed a rise in interest in the Classical word and the rich cultures of the ancient Romans and Greeks. This has opened up a whole new range of ideas which are waiting to be explored by both learnèd and aspiring classicists. Who knows where this journey will take you?;;;;;;;;x
+EVTOPTAbote.00001;This is where it all begins!;;;;;;;;x
+EVTDESCbote.00002;A portrait of an important classical figure will surely enhance your prestige, demonstrating how cultured you are, as well as sending a message about the classical ideals you believe in. The question is: who would be most suitable?;;;;;;;;x
+EVTOPTAbote.00002;Caesar, an outstanding military leader, politician and symbol of the Empire;;;;;;;;x
+EVTOPTBbote.00002;Cicero, the great defender of the Roman Republic;;;;;;;;x
+EVTOPTCbote.00002;There must be other options...;;;;;;;;x
+EVTOPTDbote.00002;On second thoughts, I can't afford this right now.;;;;;;;;x
+EVTDESCbote.00003;A portrait of an important classical figure will surely enhance your prestige, demonstrating how cultured you are, as well as sending a message about the classical ideals you believe in. The question is: who would be most suitable?;;;;;;;;x
+EVTOPTAbote.00003;Sokrates, the famous philosopher;;;;;;;;x
+EVTOPTBbote.00003;Archimedes, the greatest mathematician of the ancient world;;;;;;;;x
+EVTOPTCbote.00003;Alexander the Great, an excellent general and conqueror;;;;;;;;x
+EVTOPTDbote.00003;Who else is there..?;;;;;;;;x
+EVTDESCbote.00004;At long last, the [commissioned_painting.GetName] is ready! The artist excitedly enters your room for an audience, and two servants carefully carry the painting in. "[Root.PrimaryTitle.GetFOA], it is my privilege to reveal the [commissioned_painting.GetName]," he announces in a grandiose fashion, before removing the curtain covering the canvas. And what a painting it is! It is sure to impress your peers and enhance your image.;;;;;;;;x
+EVTOPTAbote.00004;I will go down in the history books as a wise and cultured ruler;;;;;;;;x
+EVTDESCbote.00006;The increase in interest in the classical world in  [Root.PrimaryTitle.GetName] has definitely been noticeable recently. As more and more members of society, from wealthy merchants to learnèd academics, are looking to the past, it is clear that this is not just some passing phase. The ancient Romans and Greeks laid the foundations for many aspects of your culture, but it seems that much has been forgotten, and much is yet to be rediscovered. Armed with knowledge from the ancient world, society will change drastically, but only time will tell how this will play out. What you can decide, however, is how you yourself will change during this unprecedented time. Even in this early stage, it is clear that everything, from art and architecture to the way the world is perceived and the machinations of government will be effected. It is up to you to turn lead society in the right direction... or in the one that benefits you most.;;;;;;;;x
+EVTOPTAbote.00006;Time to get reading!;;;;;;;;x
+EVTDESCbote.00007;Your contributions to the Renaissance have not gone unnoticed. All around you, you are recognised as a great figure in the [Root.Realm.GetAdjective] Renaissance, by both your peers and your people. They look up to you in matters regarding the ancient world, and you are only too happy to indulge them.;;;;;;;;x
+EVTOPTAbote.00007;I am glad of my reputation, but I must temper my pride;;;;;;;;x
+EVTOPTBbote.00007;Let them know that I am the most cultured of Renaissance rulers!;;;;;;;;x
+EVTDESCbote.00008;The citizens of [Root.GetName] have risen up under [roman_revolt_leader.GetFullName], a remarkable [roman_revolt_leader.GetManWoman] and a great orator. [roman_revolt_leader.GetSheHeCap] has managed to convince the populace of [Root.GetName] that it is their destiny to restore the Roman state- of course, with [roman_revolt_leader.GetFirstName] as its head. [roman_revolt_leader.GetSheHeCap] decries the ruling elite, calling them "False Latins", claiming his followers to be the true Romans. The people were quick to take up arms and are now seizing the surrounding land, calling it their Roman birthright.;;;;;;;;x
+EVTOPTAbote.00008;This is what happens when peasants try to educate themselves.;;;;;;;;x
+EVTDESCbote.00011;After a difficult struggle, the self-proclaimed "Romans" of [false_emperor.PrimaryTitle.GetName] have managed to fulfil their destiny so far. [false_emperor.GetTitledFirstName], as [false_emperor.GetSheHe] is now known, has worked quickly to restore ordered government, but it seems the zeal of the peasants will be difficult to direct. They roam the countryside, ravaging small villages and forcing them to submit to "Roman" rule. He has also drawn up a band of devoted warriors, calling themselves the "New Praetorian Guard". However, as an established ruler, [false_emperor.GetFirstName] seems eager to legitimise [false_emperor.GetHerHis] rule in the eyes of neighbouring rulers, lest anyone should come and "liberate" the land from its new oppressors. A marriage alliance will probably be [false_emperor.GetHerHis] priority, but an upstart might find this difficult...;;;;;;;;x
+EVTOPTAbote.00011;How long until their government collapses?;;;;;;;;x
+EVTDESCbote.00013;To the [GetFromFromRootCompliment] [Root.GetFullName], As [From.From.GetTitle], it is our honour to offer you the protection of the might of Rome to those who were once under its guidance and have since been cast aside. The State has recently been restored, and we would graciously accept you back into proper Roman rule.;;;;;;x
+EVTOPTAbote.00013;Very well! Let's see where this leads...;;;;;;;;x
+EVTOPTBbote.00013;This pretender is most wearisome. Such arrogance.;;;;;;;;x
+EVTDESCbote.00014;To the [GetFromFromRootCompliment] [Root.GetFullName], 
+We would be most grateful for the protection of the true Romans. We will support your endeavour to restore Italia to its rightful rulers.;;;;;;;;x
+EVTOTPAbote.00014;Excellent news!;;;;;;;;x
+EVTDESCbote.00015;To the [GetFromRootInsult] [Root.GetFullName], Your arrogance is typical of peasant upstarts such as yourself. Please refrain from pestering us any further.;;;;;;;;x
+EVTOTPAbote.00015;This is an outrage!;;;;;;;;x
+EVTDESCAbote.00017;Against all odds, these false Romans have managed to take Rome. [From.GetFullName] has forced the local clergy to crown [From.GetHerHim] as [From.GetTitle], and [From.GetSheHe] has issued invitations for Rome's tributaries to join the Empire as permanent subjects, working together to restore the long lost glory of Rome. Though others have claimed to restore it, that right is only granted to true Romans. At [From.GetHerHis] coronation ceremony, [From.GetSheHe] delivered a stirring speech, the first part of which was in eloquent classical Latin, and perfect according to all reports. The crowds before [From.GetHerHim] were thoroughly impressed, although most of them probably understood little, and cheered when [From.GetHerHis] procession through the city began. [From.GetTitledFirstName] stopped at the sites of many ruins along the way, promising to restore them to their former glory. Having reach the Colosseum, free bread was handed out to the crowds in the manner of Roman games all those centuries ago, as if the popular opinion of the [From.GetTitle] wasn't high enough already. All in all, it was a great success for [From.GetFirstName], who has declared to the whole world that it shall know the might of Rome again.;;;;;;;;x
+EVTDESCBbote.00017;Against all odds, these false Romans have managed to take Rome. [From.GetSheHe] has issued invitations for Rome's tributaries to join the New Republic as permanent subjects, working together to restore the long lost glory of Rome. Though others have claimed to restore it, that right is only granted to true Romans. With the city entirely under [From.GetHerHis] control, [From.GetSheHe] delivered a stirring speech, the first part of which was in eloquent classical Latin, and perfect according to all reports. The crowds before [From.GetHerHim] were thoroughly impressed, although most of them probably understood little, and cheered when [From.GetHerHis] procession through the city began. Having reach the Colosseum, free bread was handed out to the crowds in the manner of Roman games all those centuries ago. All in all, it was a great success for [From.GetFirstName], who has declared to the whole world that it shall know the might of Rome again.;;;;;;;;x
+EVTOPTAbote.00017;Maybe we should start taking them seriously after all...;;;;;;;;x
+EVTDESCbote.00018;To the [GetFromFromRootCompliment] [Root.GetFullName], it is my pleasure to invite you to become a permanent vassal of the [e_false_rome.GetName], under which you will play as essential role in restoring the lands of the Romans. We shall bring about a new era in Latin Europe, an era of glory and prosperity. Your personal glory shall know no bounds!;;;;;;;;x
+EVTOPTAbote.00018;I accept! For the glory of Rome!;;;;;;;;x
+EVTOPTBbote.00018;It was an interesting idea, but I should get out of this while I can.;;;;;;;;x
+EVTDESCbote.00019;As a Renaissance ruler, you have the opportunity to explore what has been lost for many centuries. New discoveries will benefit all people... and will bring you great prestige. You can patronise men who will carry out this research on your behalf, but the question is what area should you look into?;;;;;;;;x
+EVTOPTAbote.00019;Classical Architecture;;;;;;;;x
+EVTOPTBbote.00019;Classical Art;;;;;;;;x
+EVTOPTCbote.00019;Classical Sculpting;;;;;;;;x
+EVTOPTDbote.00019;Classical Literature;;;;;;;;x
+EVTDESCbote.00020;Discovering new architectural techniques will allow you to construct much more magnificent buildings. From their awe-inspiring size and unique structures to their intricate decorations, everything you build will demonstrate your power and wealth.;;;;;;;;x #Your family palace will enhance your dynastic prestige, while your cathedrals will demonstrate your unparalleled devotion to serving [Root.Religion.GetHighGodName].;;;;;;;;x
+EVTOPTAbote.00020;I shall patronise [patronised_researcher.GetFullName] to carry this out.;;;;;;;;x
+EVTOPTBbote.00020;On second thoughts, this will be too costly.;;;;;;;;x
+EVTDESCbote.00021;As you gaze upon works of art from the current age, you cannot help but feel they're somewhat lacking. There must be a way to depict the world in a more lively way. You could offer your patronage to [patronised_researcher.GetFullName], who will devote his time to contemplating this issue.;;;;;;;;x
+EVTDESCbote.00022;Although sculptures never fail to impress their admirers, their grandeur is limited by several factors. If one could rediscover the methods used by the ancient Romans and Greeks, it would surely bring about a new age in the art of sculpting.;;;;;;;;x
+EVTDESCbote.00023;The more you know, the more you know you don't know. It is with this concept in mind that you resolve to uncover more classical literature which has been forgotten and hidden away for many centuries. You have already learned a lot from the ancient Romans and Greeks, but finding more classical texts would provide more insight into the world around us.;;;;;;;;x
+EVTDESCbote.00024;A servant hands you a letter somewhat sheepishly, explaining that it is from [patronised_researcher.GetFullName], who is in your patronage. He explains that he is still waiting to make a breakthrough in his research, and requires further funding to continue.;;;;;;;;x
+EVTOPTAbote.00024;Anything you need!;;;;;;;;x
+EVTOPTBbote.00024;This is just a waste of resources. He will get nothing from me.;;;;;;;;x
+EVTDESCbote.00025;After many months of research, [patronised_researcher.GetFullName], while in the employ of [patronised_researcher.Employer.GetFullName], has made a groundbreaking discovery. By observing ancient Roman ruins and performing lengthy mathematical equations, [patronised_researcher.GetFirstName] worked out how one could theoretically construct an enormous, self-supporting dome for the top of a cathedral. Any cathedral topped with such a dome would stand tall above all others in Christendom, and would be the ultimate demonstration of the piety of its patron. Those who are cultured enough to show an interest in Renaissance architecture wait with bated breath to see what will come of this breakthrough.;;;;;;;;x
+EVTOPTAbote.00025;An incredible achievement! These are exciting times indeed...;;;;;;;;x
+EVTDESCbote.00026;After months of observing structures and experimenting with angles, [patronised_researcher.GetFullName], while in the employ of [patronised_researcher.Employer.GetFullName], has found out a way to add an extra dimension to his pictures. To demonstrate the accuracy of this new technique, he drew a picture of a landmark in [patronised_researcher.Employer.Capital.GetName] and placed it next to a mirror reflecting the building. All who have seen this technique have been amazed by the drawing's resemblence of the mirror image, claiming that the perspective is incredibly realistic. This is truly a revolution in the field of art, and from now on, paintings will be able to act as a three-dimensional window onto the world. Patrons of the arts will be delighted to see this for themselves.;;;;;;;;x
+EVTOPTAbote.00026;This is changes everything... from a certain point of view.;;;;;;;;x
+EVTDESCbote.00027;With modern techniques at their disposal, artists can now produce much more accurate and impressive depictions of the world. Such a work would make a fine addition to your collection, but you will have to decide what you want painted. With the added realism of Renaissance art, it is important to choose a subject which reflects the ideas that you wish to convey.;;;;;;;;x
+EVTOPTAbote.00027;A scene from the Bible would display my piety;;;;;;;x
+EVTOPTBbote.00027;If I could replace Biblical characters with my family...;;;;;;;x
+EVTOPTCbote.00027;Or something else...;;;;;;;;x
+EVTDESCbote.00028;There are also more secular subjects that could be painted.;;;;;;;;x
+EVTOPTAbote.00028;A painting of the ancient world would be most fitting;;;;;;;;x
+EVTOPTBbote.00028;A depiction of a scene from ancient mythology would impress fellow scholars;;;;;;;;x
+#Event titles
+REALM_RENAISSANCE;[Root.PrimaryTitle.GetAdjective] Renaissance;;;;;;;;x
+ROMAN_REVOLT_SUCCESS;Return of the Romans?;;;;;;;;x
+FALSE_ROMANS_IN_ROME;When in Rome...;;;;;;;;x
+ADVANCEMENT_DOME;Renaissance Domes;;;;;;;;x
+ADVANCEMENT_PERSPECTIVE;Linear Perspective;;;;;;;;x
+#Decisions
+embrace_renaissance;Embrace the Renaissance;;;;;;;;x
+embrace_renaissance_desc;Around you, more and more people are taking an interest in the culture of the classical world. It has a lot to offer, and embracing it yourself would offer many new options.;;;;;;;;x
+commission_painting;Commission a Classical Portrait;;;;;;;;x
+commission_painting_desc;A portrait of a classical figure would be a fine way to enhance your prestige;;;;;;;;x
+patronise_renaissance_research;Patronise Renaissance Research;;;;;;;;x
+patronise_renaissance_research_desc;By employing a talented Renaissance genius, you can research long-lost secrets which were once known to classical civilisations which will further the development of modern culture.;;;;;;;;x
+commission_renaissance_painting;Commission a Renaissance Painting;;;;;;;;x
+commission_renaissance_painting_desc;With recent advancements in art, it would be beneficial for your image to increase your collection with the most advanced art of the age.;;;;;;;;x
+#Targeted decisions
+offer_roman_protection;Offer Roman Protection;;;;;;;;x
+offer_roman_protection_desc;Should [Root.GetFullName] accept your protection, [Root.GetHerHis] state will become a tributary to yours. With the city of Rome under your control, you will be able to consolidate your tributaries into a proper Roman state.;;;;;;;;x
+#Nicknames
+bote_nick_the_elder;the Elder;;;;;;;;x
+bote_nick_nevsky;Nevsky;;;;;;;;x
+bote_nick_donskoy;Donskoy;;;;;;;;x
+bote_nick_the_white;The White;;;;;;;;x
+#Artifacts
+portrait_cicero;Portrait of Cicero;;;;;;;;x
+portrait_cicero_desc;An exquisite portrait of the famous Roman orator and defender of the Republic, Cicero. He is an eternal symbol of Roman Republican values and well-respected by the patricians of the current day.;;;;;;;;x
+portrait_caesar;Portrait of Caesar;;;;;;;;x
+portrait_caesar_desc;A splendid portrait of Julius Caesar, conqueror of Gaul and Dictator of Rome. His name lives on to this day as a title of Imperial symbolism, inspiring many eager nobles to emulate his conquests and supreme rule.;;;;;;;;x
+portrait_sokrates;Portrait of Sokrates;;;;;;;;x
+portrait_sokrates_desc;This piece beautifully depicts Sokrates, the famous Greek thinker whose dedication to his philosophical beliefs ultimately led to his demise.;;;;;;;;x
+portrait_archimedes;Portrait of Archimedes;;;;;;;;x
+portrait_archimedes_desc;An excellent portrait of Archimedes, the greatest ancient scientist. Not only did he achieve breakthroughs in theory, but he also applied said theory, such as in the machines used to defend Syracuse from the Romans.;;;;;;;;x
+portrait_alexander;Portrait of Alexander the Great;;;;;;;;x
+portrait_alexander_desc;Alexander the Great is depicted in his prime, wearing his general's attire and looking to the east, towards Persia. The face alone is enough to instill martial vigour into the gentlest of souls.;;;;;;;;x
+painting_biblical;Biblical Painting;;;;;;;;x
+painting_biblical_desc;A painting depicting a scene from the Bible, using the latest artistic techniques. As a piece of art, it is amazing. Each human figure looks almost real, which adds sincerity to its religious nature.;;;;;;;;x
+painting_biblical_dynastic;Biblical Painting of the [This.OriginalOwner.GetOnlyDynastyName] Dynasty;;;;;;;;x
+painting_biblical_dynastic_desc;This painting features a well-known scene from the Bible which every peasant should recognise. However, the figures shown in the painting are actually members of the [This.OriginalOwner.GetOnlyDynastyName] dynasty in an attempt to compare them with the people they have replaced.;;;;;;;;x
+painting_rome;Painting of the Ancient World;;;;;;;;x
+painting_rome_desc;A striking painting of the ancient world which evokes the grandeur of the height of the Classical Age. Many notable figures are visible, in remarkable detail and surrounded by opulent structures.;;;;;;;;x
+painting_mythology;Painting of Ancient Mythology;;;;;;;;x
+painting_mythology_desc;This beautiful piece conveys respect for the ancient world which speaks to us even now. Although many do not worship the Hellenic gods, they are revered by many as archetypes, a concept which is perfectly mirrored here.;;;;;;;;x
+#Traits
+renaissance_ruler;Renaissance Ruler;;;;;;;;x
+renaissance_ruler_desc;This character has show [Root.GetHerHis] cultured spirit, bringing great contributions to the Renaissance. Through patronage of the arts and intellectual engagement, [Root.GetFullName] has enhanced [Root.GetHerHis] image and driven [Root.Realm.GetAdjective] society forward.;;;;;;;;x
+renaissance_man;Renaissance Man;;;;;;;;x
+renaissance_man_adj;This character is has mastered a wide range of fields with incredible genius. He stands out in the worlds of both Art and Science, earning him widespread renoun. However, a patron who puts him to good use will be able to enhance his own prestige through the works of this man's hand.;;;;;;;;x
+#Tooltips
+COMMISSION_PAINTING;The painter will begin work right away;;;;;;;;x
+custom_EVTOPTAbote.00024;Great Cathedrals can now be upgraded with a Renaissance Dome;;;;;;;;x
+custom_EVTOPTAbote.00026;Renaissance rulers can now commission stunning pieces of Renaissance art;;;;;;;;x
+#Great Work/Wonder Features
+upgrade_renaissance_dome;Renaissance Dome;;;;;;;;x
+upgrade_renaissance_dome_desc;An enormous dome in the Renaissance style. It is able to be so large because of the complex design which allows it to support itself. All other cathedrals will pale in comparison to one boasting such an impressive dome.;;;;;;;;x
+#CoAs
+k_england_france;England;;;;;;;;;;;;;x
+k_england_france_adj;English;;;;;;;;;;;;;x
+k_england_france_trinity;England;;;;;;;;;;;;;x
+k_england_france_trinity_adj;English;;;;;;;;;;;;;x
+k_france_trinity;France;;;;;;;;;;;;;x
+k_france_trinity_adj;French;;;;;;;;;;;;;x
+Printingpress_convince_priest;My Liege, I am working on a project that I believe will be of great use to pious men such as yourself. It will help spread the word of [Root.Religion.GetHighGodName] far and wide. The only issue is of funding, and it would be a great honor to receive patronage from a learned ruler the likes of you. If you are interested, you can meet me in my workshop.;;;;;;;;x
+Printingpress_convince_poet;My Liege, I am working on a project that I think you will greatly enjoy. It will help not only with publishing your own works, but reading and writing in the first place. The only issue as it stands is funding, as such an undertaking can be quite expensive. It would be a great honor to receive patronage from one as learned as you. If you are interested, we can further discuss the matter in my workshop.;;;;;;;;x
+Printingpress_convince_steward;My Liege, I am working on a project which, in my eyes, will greatly benefit you. It will make managing contracts and documents much easier. The only issue as it stands is funding. I'm sure there's many other things you're thinking of spending your money on, but I do not believe you will be regretting this investment.;;;;;;;;x
+Printingpress_convince_diplomat;My Liege, I am working on a project which I believe will be of great benefit to you. Gone will be the days of spending great deals of money on scribes that can write well to maintain and establish diplomatic relations with other nobles. My invention will allow you to write diplomatic agreements and letters legibly in your own bedroom! If you are interested, we can further discuss the matter in my workshop.;;;;;;;;x
+Printingpress_convince_seducer;My Liege, I am working on a project which I believe will be of great benefit to you. It will certainly help with all those private letters you keep on sending. My invention will allow you to write anything legibly within minutes! The only problem as it stands is funding, though I guarantee you, the investment will make life that much easier for you. If you are interested, meet me in my workshop.;;;;;;;;x
+Printingpress_convince_shy;My Liege, I am working on a project which I believe will be of great benefit to you. It will certainly reduce the amount of human interaction you are forced to go through. I know you don't particularly enjoy it so I will keep this letter short. I only require funding, if you're interested, please meet me at my workshop!;;;;;;;;;;;;;x
+Printingpress_convince_generic;My Liege, I am working on a project which I believe will greatly benefit research, taxation, diplomacy, and every step of managing a realm. The only obstacle as it stands is funding, and it would be a great honor to receive patronage from a noble and honorable ruler such as you. If you are interested, please meet me in my workshop.;;;;;;;;;;;;;x
+bote_pp_1_a;I would like to hear more about this.;;;;;;;;;;;;;x
+bote_pp_1_b;No.;;;;;;;;;;;;;x
+bote_pp_2_desc;I visited [From.GetFirstName]'s workshop to learn more about his invention. It's a sort of machine with the letters of the alphabet forged and inked, which are then pressed on a sheet of paper, allowing sentences to be written at incredible speeds. The script is very neat and legible, not at all difficult to follow. If all books were written this way, there would be no need for expensive scribes!;;;;;;;;;;;;;x
+bote_pp_2_a;I will offer you patronage.;;;;;;;;;;;;;x
+bote_pp_2_b;A good idea, but I can't afford it at the moment.;;;;;;;;;;;;;x
+bote_pp_3_desc;My liege, the letter you are reading right now is written using my press!;;;;;;;;;;;;;x
+bote_pp_3_a;So legible!;;;;;;;;;;;;;x
+bote_pp_4_title;The Printing Press;;;;;;;;;;;;;x
+bote_pp_4_desc;idk;;;;;;;;;;;;;x
+bote_pp_4_a;Amazing.;;;;;;;;;;;;;x
+bote_pp_4_b;We have no use for such conveniences.;;;;;;;;;;;;;x
+bote_pp_4_c;Amazing.;;;;;;;;;;;;;x
+bote_pp_5_desc;The use of the Printing Press is starting to spread around [Root.GetName], and it would help the administration of the county a great deal.;;;;;;;;;;;;;x
+bote_pp_5_a;I will invest the money.;;;;;;;;;;;;;x
+bote_pp_6_b;It's too expensive.;;;;;;;;;;;;;x
