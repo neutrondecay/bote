@@ -1,0 +1,35 @@
+decisions = {
+
+	restore_serbian_empire = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		capable_only = yes
+		only_independent = yes
+		potential = {
+			start_date = 1400.1.1
+			religion_group = christian
+			culture = serbian
+			war = no
+			e_serbia = {
+				has_holder = no
+			}
+			lower_real_tier_than = EMPEROR
+		}
+		allow = {
+			primary_title = {
+				title = k_serbia
+			}
+			completely_controls = k_serbia
+			completely_controls = d_epirus
+			completely_controls = d_ohrid
+			completely_controls = d_thessalonika
+			completely_controls = d_dyrrachion
+			completely_controls = d_strymon
+			completely_controls = d_vidin
+		}
+		effect = {
+			narrative_event = { id = botetitles.00001 }
+		}
+	}
+
+}

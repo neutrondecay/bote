@@ -91,6 +91,9 @@ bote_dauphinoffrance;Dauphin of France;;;;;;;;;;;;;x
 bote_dauphinoffrance_desc;The heir apparent to the Kingdom of France.;;;;;;;;;;;;;x
 bote_palatineofhungary;Palatine of Hungary;;;;;;;;;;;;;x
 bote_palatineofhungary_desc;The King of Hungary's right hand man on earthly affairs.;;;;;;;;;;;;;x
+#Cultural Titles
+emperor_serbian;Tsar;Tsar;Zar;;Zar;;;;;;;;;x
+emperor_female_serbian;Tsaritsa;Tsarine;Zarin;;Zarina;;;;;;;;;x
 #Bloodlines
 welshbloodofowain;Welsh Blood of [This.GetName];;;;;;;;x
 welshbloodofowain_desc;[This.GetName] successfully freed Wales from the tyranny of English rule in a spectacular display of valour and courage;;;;;;;;x
@@ -157,12 +160,16 @@ EVTOPTCbote.00027;Or something else...;;;;;;;;x
 EVTDESCbote.00028;There are also more secular subjects that could be painted.;;;;;;;;x
 EVTOPTAbote.00028;A painting of the ancient world would be most fitting;;;;;;;;x
 EVTOPTBbote.00028;A depiction of a scene from ancient mythology would impress fellow scholars;;;;;;;;x
+
+EVTDESCbotetitles.00001;Serbia has risen once again. Despite powerful enemies on all sides and foreign occupation of rightful Serbian land, the Serbian people remained strong, led by [Root.GetFullName] and [Root.GetHerHis] predecessors, and, after years of fighting against the odds, now raise the Imperial banner of Serbia! After [Root.GetTitledFirstName] delivered [Root.GetHerHis] first speech as [Root.GetTitle], the assembly of nobles in [Root.Capital.GetName] gave their hearty approval. With this victory behind him, [Root.GetFirstName] must work hard to consolidate [Root.GetHerHis] power and firmly establish the boundaries of the Empire, in order to show the world that it is there to stay. While it may take a while for foreign powers to realise the permanence of Serbian power, it will soon feel as if the Serbian Empire was there all along. The glory of Serbia will never fall again!;;;;;;;;x
+EVTOPTAbotetitles.00001;The Tsardom shall rival that of the Roman Emperors of old!;;;;;;;;x
 #Event titles
 REALM_RENAISSANCE;[Root.PrimaryTitle.GetAdjective] Renaissance;;;;;;;;x
 ROMAN_REVOLT_SUCCESS;Return of the Romans?;;;;;;;;x
 FALSE_ROMANS_IN_ROME;When in Rome...;;;;;;;;x
 ADVANCEMENT_DOME;Renaissance Domes;;;;;;;;x
 ADVANCEMENT_PERSPECTIVE;Linear Perspective;;;;;;;;x
+RESTORE_SERBIA;Serbian Empire;;;;;;;;x
 #Decisions
 embrace_renaissance;Embrace the Renaissance;;;;;;;;x
 embrace_renaissance_desc;Around you, more and more people are taking an interest in the culture of the classical world. It has a lot to offer, and embracing it yourself would offer many new options.;;;;;;;;x
@@ -172,6 +179,8 @@ patronise_renaissance_research;Patronise Renaissance Research;;;;;;;;x
 patronise_renaissance_research_desc;By employing a talented Renaissance genius, you can research long-lost secrets which were once known to classical civilisations which will further the development of modern culture.;;;;;;;;x
 commission_renaissance_painting;Commission a Renaissance Painting;;;;;;;;x
 commission_renaissance_painting_desc;With recent advancements in art, it would be beneficial for your image to increase your collection with the most advanced art of the age.;;;;;;;;x
+restore_serbian_empire;Restore the Serbian Empire;;;;;;;;x
+restore_serbian_empire_desc;In the late 14th century, a mighty Serbian Empire stretched across the Balkans, founded by Tsar Uros 'the Strong'. With his borders restored, you will be able to assume the long-lost Imperial title once again!;;;;;;;;x
 #Targeted decisions
 offer_roman_protection;Offer Roman Protection;;;;;;;;x
 offer_roman_protection_desc;Should [Root.GetFullName] accept your protection, [Root.GetHerHis] state will become a tributary to yours. With the city of Rome under your control, you will be able to consolidate your tributaries into a proper Roman state.;;;;;;;;x
