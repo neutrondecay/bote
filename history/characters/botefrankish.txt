@@ -4124,12 +4124,12 @@
 }
 
 802326 = {
-	name="Héloise" # Queen of Cyprus
+	name="Helvis" # Queen of Cyprus
 	dynasty=650
 	female=yes
-
+	father=462815
 	religion="catholic"
-	culture="frankish"
+	culture="german"
 
 	1353.1.1 = {
 		birth=yes

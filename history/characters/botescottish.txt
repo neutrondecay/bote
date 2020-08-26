@@ -179,7 +179,10 @@
 	1338.10.2 = {
 		birth = yes
 	}
-	1401.1.1 = { #Placeholder death
+	1360.1.1 = {
+		add_spouse = 453068
+	}
+	1363.1.1 = {
 		death = yes
 	}
 }
@@ -207,7 +210,10 @@
 	1343.12.21 = {
 		birth = yes
 	}
-	1401.1.1 = { #Placeholder death
+	1382.7.25 = {
+		add_spouse = 829649
+	}
+	1405.6.20 = {
 		death = yes
 	}
 }
@@ -662,6 +668,9 @@
 	1360.2.5 = {
 		birth = yes
 	}
+	1385.1.1 = {
+		add_spouse = 800137
+	}
 	1401.1.1 = { #Placeholder death
 		death = yes
 	}
@@ -700,7 +709,7 @@
 	}
 }
 800159 = { #Wife of Rothesay, daughter of Earl of Douglas, Lord (Earl) of Galloway
-	name = "Mary"
+	name = "Marjory"
 	dynasty = 3125
 	culture = scottish
 	religion = catholic
@@ -742,6 +751,9 @@
 	1343.8.10 = {
 		birth = yes
 	}
+	1370.1.1 = {
+		add_spouse = 829646
+	}
 	1401.1.1 = { #Placeholder death
 		death = yes
 	}
@@ -764,7 +776,7 @@
 	culture = scottish
 	religion = catholic
 	father = 801201
-	
+	mother = 800129
 	1358.10.8 = {
 		birth = yes
 	}
@@ -773,31 +785,34 @@
 	}
 }
 800164 = { #Lord of the Isles (Earl of Innse Galle)
-	name = "Domhnall"
+	name = "Donald"
 	dynasty = 3101
 	culture = scottish
 	religion = catholic
+	father = 420019
 	
 	1363.2.13 = {
 		birth = yes
 	}
-	1401.1.1 = { #Placeholder death
+	1423.1.1 = {
 		death = yes
 	}
 }
-800165 = { #Countess of Ross (to be)
+800165 = { #Countess of Ross
 	name = "Mariota"
-	dynasty = 3101
+	dynasty = 3000015
 	culture = scottish
 	religion = catholic
 	female = yes
-	1367.12.26 = {
+	father = 829634
+	mother = 829649
+	1369.12.26 = {
 		birth = yes
 	}
 	1381.1.12 = {
 		add_spouse = 800164
 	}
-	1401.1.1 = { #Placeholder death
+	1440.1.1 = {
 		death = yes
 	}
 }
@@ -806,11 +821,13 @@
 	dynasty = 3101
 	culture = scottish
 	religion = catholic
+	father = 800164
+	mother = 800165
 	
 	1389.5.5 = {
 		birth = yes
 	}
-	1401.1.1 = { #Placeholder death
+	1449.1.1 = {
 		death = yes
 	}
 }
@@ -819,11 +836,15 @@
 	dynasty = 3000015
 	culture = scottish
 	religion = catholic
-	
+	father = 829634
+	mother = 829649
 	1367.9.8 = {
 		birth = yes
 	}
-	1401.1.1 = { #Placeholder death
+	1395.1.1 = {
+		add_spouse = 829629
+	}
+	1402.1.1 = {
 		death = yes
 	}
 }
@@ -832,11 +853,13 @@
 	dynasty = 3125
 	culture = scottish
 	religion = catholic
+	father = 453603
+	trait = bastard
 	
 	1328.4.27 = {
 		birth = yes
 	}
-	1378.1.1 = {
+	1362.1.1 = {
 		add_spouse = 800169
 	}
 	1401.1.1 = { #Placeholder death
@@ -865,25 +888,30 @@
 	father = 800168
 	mother = 800169
 	
-	1390.2.13 = {
+	1369.1.1 = {
 		birth = yes
 	}
-	1401.1.1 = { #Placeholder death
+	1390.1.1 = {
+		add_spouse = 829619
+	}
+	1424.1.1 = {
 		death = yes
 	}
 }
 800171 = { #Son of Galloway
-	name = "Elizabeth"
+	name = "James"
 	dynasty = 3125
 	culture = scottish
 	religion = catholic
 	father = 800168
 	mother = 800169
-	female = yes
-	1393.6.10 = {
+	1371.1.1 = {
 		birth = yes
 	}
-	1401.1.1 = { #Placeholder death
+	1395.1.1 = {
+		add_spouse = 829628
+	}
+	1443.1.1 = {
 		death = yes
 	}
 }
@@ -914,7 +942,7 @@
 	1345.11.19 = {
 		birth = yes
 	}
-	1374.1.1 = {
+	1362.1.1 = {
 		add_spouse = 800955
 	}
 	1404.9.30 = {
@@ -928,7 +956,7 @@
 	religion = catholic
 	female = yes
 	
-	1347.1.1 = {
+	1343.1.1 = {
 		birth = yes
 	}
 	1402.1.1 = {
@@ -940,8 +968,8 @@
 	dynasty = 3000095
 	culture = scottish
 	religion = catholic
-	father = 800954
-	mother = 450828
+	father = 800962
+	mother = 800955
 	1375.11.19 = {
 		birth = yes
 	}
@@ -954,8 +982,8 @@
 	dynasty = 3000095
 	culture = scottish
 	religion = catholic
-	father = 800954
-	mother = 450828
+	father = 800962
+	mother = 800955
 	1378.11.19 = {
 		birth = yes
 	}
@@ -968,8 +996,8 @@
 	dynasty = 3000095
 	culture = scottish
 	religion = catholic
-	father = 800954
-	mother = 450828
+	father = 800962
+	mother = 800955
 	1385.10.2 = {
 		birth = yes
 	}
@@ -983,8 +1011,8 @@
 	culture = scottish
 	religion = catholic
 	female = yes
-	father = 800954
-	mother = 450828
+	father = 800962
+	mother = 800955
 	
 	1363.4.30 = {
 		birth = yes
@@ -999,8 +1027,8 @@
 	culture = scottish
 	religion = catholic
 	female = yes
-	father = 800954
-	mother = 450828
+	father = 800962
+	mother = 800955
 	
 	1369.5.22 = {
 		birth = yes
@@ -1015,8 +1043,8 @@
 	culture = scottish
 	religion = catholic
 	female = yes
-	father = 800954
-	mother = 450828
+	father = 800962
+	mother = 800955
 	
 	1384.1.2 = {
 		birth = yes
@@ -1367,6 +1395,9 @@
 	1341.1.1 = {
 		birth = yes
 	}
+	1355.1.1 = {
+		add_spouse = 800129
+	}
 	1390.1.1 = {
 		death = yes
 	}
@@ -1383,6 +1414,303 @@
 		birth = yes
 	}
 	1420.1.1 = {
+		death = yes
+	}
+}
+## Leslie ##
+
+829634 = {
+	name = "Walter"
+	dynasty = 3000015
+	culture = scottish
+	religion = catholic
+	
+	1324.1.1 = {
+		birth = yes
+	}
+	1366.9.13 = {
+		add_spouse = 829649
+	}
+	1382.2.27 = {
+		death = yes
+	}
+}
+
+829635 = { #Countess of Ross (1402)
+	name = "Euphemia"
+	female = yes
+	dynasty = 3000015
+	culture = scottish
+	religion = catholic
+	father = 800167
+	mother = 829629
+	trait = hunchback
+	
+	1396.1.1 = {
+		birth = yes
+	}
+	1415.1.1 = {
+		death = yes
+	}
+}
+
+## Douglas ##
+
+829636 = {
+	name = "James"
+	dynasty = 3125
+	culture = scottish
+	religion = catholic
+	father = 453611
+	
+	1358.1.1 = {
+		birth = yes
+	}
+	1367.1.1 = {
+		add_spouse = 800131
+	}
+	1388.8.14 = {
+		death = yes
+	}
+}
+
+829637 = {
+	name = "William"
+	dynasty = 3125
+	culture = scottish
+	religion = catholic
+	father = 829636
+	trait = bastard
+	
+	1378.1.1 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+
+829638 = {
+	name = "Archibald"
+	dynasty = 3125
+	culture = scottish
+	religion = catholic
+	father = 829636
+	trait = bastard
+	
+	1382.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+
+829639 = {
+	name = "Isobel"
+	female = yes
+	dynasty = 3125
+	culture = scottish
+	religion = catholic
+	father = 453611
+	
+	1360.1.1 = {
+		birth = yes
+	}
+	1408.1.1 = {
+		death = yes
+	}
+}
+
+829640 = {
+	name = "George"
+	dynasty = 3125
+	culture = scottish
+	religion = catholic
+	father = 453611
+	trait = bastard
+	
+	1364.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		add_spouse = 829620
+	}
+	1403.1.1 = {
+		death = yes
+	}
+}
+
+829641 = {
+	name = "William"
+	dynasty = 3125
+	culture = scottish
+	religion = catholic
+	father = 829640
+	mother = 829620
+	
+	1398.2.24 = {
+		birth = yes
+	}
+	1437.1.1 = {
+		death = yes
+	}
+}
+
+## de Lindsay ##
+
+829642 = {
+	name = "Alexander"
+	dynasty = 3122
+	culture = scottish
+	religion = catholic
+	father = 800156
+	mother = 800137
+	
+	1387.1.1 = {
+		birth = yes
+	}
+	1438.1.1 = {
+		death = yes
+	}
+}
+
+829643 = {
+	name = "Gerard"
+	dynasty = 3122
+	culture = scottish
+	religion = catholic
+	father = 800156
+	mother = 800137
+	
+	1394.1.1 = {
+		birth = yes
+	}
+	1415.1.1 = {
+		death = yes
+	}
+}
+
+## Campbell ##
+
+829644 = {
+	name = "Duncan"
+	dynasty = 3128
+	culture = scottish
+	religion = catholic
+	father = 453078
+	mother = 800160
+	
+	1351.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+
+829645 = {
+	name = "Helena"
+	female = yes
+	dynasty = 3128
+	culture = scottish
+	religion = catholic
+	father = 453078
+	mother = 800160
+	
+	1359.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+
+829646 = {
+	name = "Mariota"
+	female = yes
+	dynasty = 3128
+	culture = scottish
+	religion = catholic
+	father = 188944
+	
+	1352.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+
+829647 = {
+	name = "John"
+	dynasty = 3128
+	culture = scottish
+	religion = catholic
+	father = 800161
+	mother = 829646
+	trait = weak
+	trait = inbred
+	
+	1372.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+
+829648 = {
+	name = "Duncan"
+	dynasty = 3128
+	culture = scottish
+	religion = catholic
+	father = 800161
+	mother = 829646
+	
+	1390.1.1 = {
+		birth = yes
+	}
+	1453.1.1 = {
+		death = yes
+	}
+}
+
+## Mac in tSagairt ##
+
+829649 = {
+	name = "Euphemia"
+	female = yes
+	dynasty = 100039
+	culture = scottish
+	religion = catholic
+	father = 453003
+	mother = 453054
+	1341.1.1 = {
+		birth = yes
+	}
+	1398.1.1 = {
+		death = yes
+	}
+}
+
+## Stewart ##
+
+829650 = {
+	name = "Alexander"
+	dynasty = 3134
+	culture = scottish
+	religion = catholic
+	father = 800128
+	trait = bastard
+
+	1375.1.1 = {
+		birth = yes
+	}
+	1395.1.1 = {
+		add_spouse = 829639
+	}
+	1435.1.1 = {
 		death = yes
 	}
 }

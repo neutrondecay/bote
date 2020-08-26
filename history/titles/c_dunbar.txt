@@ -90,3 +90,6 @@ liege="d_lothian"
 	holder = 800115
 	liege = k_scotland
 }
+1398.1.1 = {
+	liege = d_albany
+}

@@ -59,4 +59,5 @@
 }
 1357.1.1 = {
 	holder = 800962
+	liege = k_norway
 }

@@ -67,3 +67,6 @@ liege="d_western_isles"
 1369.11.17 = {
 	holder = 800168
 }
+1398.1.1 = {
+	liege = d_rothesay
+}

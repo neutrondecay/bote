@@ -321,3 +321,9 @@ k_moldova = {
 	foa = "principality_foa"
 	title_prefix = "principality_prefix"
 }
+d_rothesay = {
+	color = { 77 116 208 }
+	capital = 47
+	culture = scottish
+	religion = catholic
+}
