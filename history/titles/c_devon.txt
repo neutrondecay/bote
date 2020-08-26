@@ -134,10 +134,12 @@ holder=32512 #Baldwin IV de Redvers
 {
 holder=32513 #Isabel de Redvers
 }
-1293.11.10=
-{
+1293.11.10={
 holder=31004 #Hugh de Courtenay
 }
-1377.05.02 = {
-	holder = 800070
+1340.12.23 = {
+holder = 454594 #Hugh de Courtenay
+}
+1377.5.2 = {
+holder = 800070 #Edward de Courtenay
 }

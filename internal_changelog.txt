@@ -34,3 +34,11 @@ just so I can keep track of what I've done; feel free to delete before updating
 - fixes and additions to various Scottish dynasties
 - title history improvements in Scotland
 - fixed a floating member of the Welf dynasty
+- added CoAs for numerous Scottish dynasties, plus de Mowbray (England)
+- added CoAs for Palemonaitis and Gediminaitis (Lithuania), plus von Jungingen (Teutonic Order)
+- fixes and additions to the de Mowbray, FitzAlan and de Beauchamp dynasties
+- split off the Albany Stewarts as a cadet branch
+- added various marriages in England and Scotland
+- added Harry Hotspur's nickname
+- removed a couple of duplicate characters in Scotland
+- updated the title history for Norfolk and Devon

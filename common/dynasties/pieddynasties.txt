@@ -121,6 +121,17 @@
 	name = "de Mowbray"
 	culture = english
 	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 370009 = {
@@ -404,6 +415,176 @@
 		layer = {
 			texture = 14
 			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370026 = {
+	name = "Leslie"
+	culture = scottish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370027 = {
+	name = "de Lindsay"
+	culture = scottish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370028 = {
+	name = "Caimbeul"
+	culture = scottish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370029 = {
+	name = "Mac in tSagairt"
+	culture = scottish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370030 = {
+	name = "Douglas"
+	culture = scottish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370031 = {
+	name = "Sinclair"
+	culture = scottish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370032 = {
+	name = "Mac Domnaill"
+	culture = scottish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370033 = {
+	name = "de la Haya"
+	culture = scottish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370034 = {
+	name = "Stewart-Albany"
+	culture = scottish
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 14
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+370035 = {
+	name = "von Jungingen"
+	culture = german
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 3
 			emblem = 0
 			color = 0
 			color = 0

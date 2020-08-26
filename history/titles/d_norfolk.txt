@@ -91,9 +91,9 @@
 1066.10.14={
 	holder=0
 }
-1362.1.1={
-	holder=829000
+1397.9.29={
+	holder = 860033 #Thomas de Mowbray
 }
-1368.10.17={
-	holder=0
+1399.9.22 = {
+	holder = 0
 }

@@ -188,7 +188,7 @@
 }
 800127 = { #Duke of Albany, Earl of Fife
 	name = "Robert"
-	dynasty = 3134
+	dynasty = 370034 # Stewart-Albany
 	culture = scottish
 	religion = catholic
 	father = 453034
@@ -218,7 +218,7 @@
 	}
 }
 800129 = { #Married Earl of Moray
-	name = "Marjorie"
+	name = "Marjory"
 	dynasty = 3134
 	culture = scottish
 	religion = catholic
@@ -611,7 +611,7 @@
 }
 800154 = { #Strathearn's mother
 	name = "Euphemia"
-	dynasty = 3122
+	dynasty = 370027 # de Lindsay
 	culture = scottish
 	religion = catholic
 	female = yes
@@ -627,7 +627,7 @@
 }
 800247 = { #Sir David Lindsay
 	name = "David"
-	dynasty=3122
+	dynasty = 370027 # de Lindsay
 	religion="catholic"
 	culture="scottish"
 	father=161382
@@ -644,7 +644,7 @@
 }
 800155 = { #Sir Alexander Lindsay
 	name="Alexander"
-	dynasty=3122
+	dynasty = 370027 # de Lindsay
 	religion="catholic"
 	culture="scottish"
 	father=800247
@@ -661,7 +661,7 @@
 }
 800156 = { #David Lindsay, 1st Earl of Crawford (Clydesdale)
 	name = "David"
-	dynasty=3122
+	dynasty = 370027 # de Lindsay
 	religion="catholic"
 	culture="scottish"
 	father=800155
@@ -710,7 +710,7 @@
 }
 800159 = { #Wife of Rothesay, daughter of Earl of Douglas, Lord (Earl) of Galloway
 	name = "Marjory"
-	dynasty = 3125
+	dynasty = 370030 # Douglas
 	culture = scottish
 	religion = catholic
 	female = yes
@@ -742,7 +742,7 @@
 }
 800161 = { #Lord of Lochawe (Earl of Argyll)
 	name = "Colin"
-	dynasty = 3128
+	dynasty = 370028 # Caimbeul
 	culture = scottish
 	religion = catholic
 	father = 453078
@@ -786,11 +786,11 @@
 }
 800164 = { #Lord of the Isles (Earl of Innse Galle)
 	name = "Donald"
-	dynasty = 3101
+	dynasty = 370032 # Mac Domnaill
 	culture = scottish
 	religion = catholic
 	father = 420019
-	
+	mother = 453036
 	1363.2.13 = {
 		birth = yes
 	}
@@ -800,7 +800,7 @@
 }
 800165 = { #Countess of Ross
 	name = "Mariota"
-	dynasty = 3000015
+	dynasty = 370026 # Leslie
 	culture = scottish
 	religion = catholic
 	female = yes
@@ -818,7 +818,7 @@
 }
 800166 = { #Son of Domhnall and Mariota
 	name = "Alexander"
-	dynasty = 3101
+	dynasty = 370032 # Mac Domnaill
 	culture = scottish
 	religion = catholic
 	father = 800164
@@ -833,7 +833,7 @@
 }
 800167 = { #Earl of Ross
 	name = "Alexander"
-	dynasty = 3000015
+	dynasty = 370026 # Leslie
 	culture = scottish
 	religion = catholic
 	father = 829634
@@ -850,7 +850,7 @@
 }
 800168 = { #Lord (Earl) of Galloway
 	name = "Archibald"
-	dynasty = 3125
+	dynasty = 370030 # Douglas
 	culture = scottish
 	religion = catholic
 	father = 453603
@@ -882,7 +882,7 @@
 }
 800170 = { #Son of Galloway
 	name = "Archibald"
-	dynasty = 3125
+	dynasty = 370030 # Douglas
 	culture = scottish
 	religion = catholic
 	father = 800168
@@ -900,7 +900,7 @@
 }
 800171 = { #Son of Galloway
 	name = "James"
-	dynasty = 3125
+	dynasty = 370030 # Douglas
 	culture = scottish
 	religion = catholic
 	father = 800168
@@ -918,7 +918,7 @@
 ###
 800954 = {
 	name = "William"
-	dynasty = 3000095
+	dynasty = 370031 # Sinclair
 	culture = scottish
 	religion = catholic
 	
@@ -934,7 +934,7 @@
 }
 800962 = {
 	name = "Henry"
-	dynasty = 3000095
+	dynasty = 370031 # Sinclair
 	culture = scottish
 	religion = catholic
 	father = 800954
@@ -965,7 +965,7 @@
 }
 800956 = {
 	name = "Henry"
-	dynasty = 3000095
+	dynasty = 370031 # Sinclair
 	culture = scottish
 	religion = catholic
 	father = 800962
@@ -979,7 +979,7 @@
 }
 800957 = {
 	name = "John"
-	dynasty = 3000095
+	dynasty = 370031 # Sinclair
 	culture = scottish
 	religion = catholic
 	father = 800962
@@ -993,7 +993,7 @@
 }
 800958 = {
 	name = "William"
-	dynasty = 3000095
+	dynasty = 370031 # Sinclair
 	culture = scottish
 	religion = catholic
 	father = 800962
@@ -1007,7 +1007,7 @@
 }
 800959 = {
 	name = "Elizabeth"
-	dynasty = 3000095
+	dynasty = 370031 # Sinclair
 	culture = scottish
 	religion = catholic
 	female = yes
@@ -1023,7 +1023,7 @@
 }
 800960 = {
 	name = "Margaret"
-	dynasty = 3000095
+	dynasty = 370031 # Sinclair
 	culture = scottish
 	religion = catholic
 	female = yes
@@ -1039,7 +1039,7 @@
 }
 800961 = {
 	name = "Marjory"
-	dynasty = 3000095
+	dynasty = 370031 # Sinclair
 	culture = scottish
 	religion = catholic
 	female = yes
@@ -1190,7 +1190,7 @@
 
 829623 = { #
 	name="Murdoch" 
-	dynasty=3134
+	dynasty = 370034 # Stewart-Albany
 
 	religion="catholic"
 	culture="scottish"
@@ -1207,7 +1207,7 @@
 
 829624 = { #
 	name="Janet" 
-	dynasty=3134
+	dynasty = 370034 # Stewart-Albany
 	female = yes
 
 	religion="catholic"
@@ -1225,7 +1225,7 @@
 
 829625 = { #
 	name="Mary" 
-	dynasty=3134
+	dynasty = 370034 # Stewart-Albany
 	female = yes
 
 	religion="catholic"
@@ -1243,7 +1243,7 @@
 
 829626 = { #
 	name="Margaret" 
-	dynasty=3134
+	dynasty = 370034 # Stewart-Albany
 	female = yes
 
 	religion="catholic"
@@ -1261,7 +1261,7 @@
 
 829627 = { #
 	name="Joan" 
-	dynasty=3134
+	dynasty = 370034 # Stewart-Albany
 	female = yes
 
 	religion="catholic"
@@ -1279,7 +1279,7 @@
 
 829628 = { #
 	name="Beatrice" 
-	dynasty=3134
+	dynasty = 370034 # Stewart-Albany
 	female = yes
 
 	religion="catholic"
@@ -1296,8 +1296,8 @@
 }
 
 829629 = { #
-	name="Isobel" 
-	dynasty=3134
+	name="Isabel" 
+	dynasty = 370034 # Stewart-Albany
 	female = yes
 
 	religion="catholic"
@@ -1315,7 +1315,7 @@
 
 829630 = { #
 	name="Marjory" 
-	dynasty=3134
+	dynasty = 370034 # Stewart-Albany
 	female = yes
 
 	religion="catholic"
@@ -1333,7 +1333,7 @@
 
 829631 = { #
 	name="John" 
-	dynasty=3134
+	dynasty = 370034 # Stewart-Albany
 
 	religion="catholic"
 	culture="scottish"
@@ -1350,7 +1350,7 @@
 
 829632 = { #
 	name="Robert" 
-	dynasty=3134
+	dynasty = 370034 # Stewart-Albany
 
 	religion="catholic"
 	culture="scottish"
@@ -1367,7 +1367,7 @@
 
 829633 = { #
 	name="Elizabeth" 
-	dynasty=3134
+	dynasty = 370034 # Stewart-Albany
 	female = yes
 
 	religion="catholic"
@@ -1421,7 +1421,7 @@
 
 829634 = {
 	name = "Walter"
-	dynasty = 3000015
+	dynasty = 370026 # Leslie
 	culture = scottish
 	religion = catholic
 	
@@ -1439,7 +1439,7 @@
 829635 = { #Countess of Ross (1402)
 	name = "Euphemia"
 	female = yes
-	dynasty = 3000015
+	dynasty = 370026 # Leslie
 	culture = scottish
 	religion = catholic
 	father = 800167
@@ -1458,7 +1458,7 @@
 
 829636 = {
 	name = "James"
-	dynasty = 3125
+	dynasty = 370030 # Douglas
 	culture = scottish
 	religion = catholic
 	father = 453611
@@ -1476,7 +1476,7 @@
 
 829637 = {
 	name = "William"
-	dynasty = 3125
+	dynasty = 370030 # Douglas
 	culture = scottish
 	religion = catholic
 	father = 829636
@@ -1492,7 +1492,7 @@
 
 829638 = {
 	name = "Archibald"
-	dynasty = 3125
+	dynasty = 370030 # Douglas
 	culture = scottish
 	religion = catholic
 	father = 829636
@@ -1507,9 +1507,9 @@
 }
 
 829639 = {
-	name = "Isobel"
+	name = "Isabel"
 	female = yes
-	dynasty = 3125
+	dynasty = 370030 # Douglas
 	culture = scottish
 	religion = catholic
 	father = 453611
@@ -1524,7 +1524,7 @@
 
 829640 = {
 	name = "George"
-	dynasty = 3125
+	dynasty = 370030 # Douglas
 	culture = scottish
 	religion = catholic
 	father = 453611
@@ -1543,7 +1543,7 @@
 
 829641 = {
 	name = "William"
-	dynasty = 3125
+	dynasty = 370030 # Douglas
 	culture = scottish
 	religion = catholic
 	father = 829640
@@ -1561,7 +1561,7 @@
 
 829642 = {
 	name = "Alexander"
-	dynasty = 3122
+	dynasty = 370027 # de Lindsay
 	culture = scottish
 	religion = catholic
 	father = 800156
@@ -1577,7 +1577,7 @@
 
 829643 = {
 	name = "Gerard"
-	dynasty = 3122
+	dynasty = 370027 # de Lindsay
 	culture = scottish
 	religion = catholic
 	father = 800156
@@ -1595,7 +1595,7 @@
 
 829644 = {
 	name = "Duncan"
-	dynasty = 3128
+	dynasty = 370028 # Caimbeul
 	culture = scottish
 	religion = catholic
 	father = 453078
@@ -1612,7 +1612,7 @@
 829645 = {
 	name = "Helena"
 	female = yes
-	dynasty = 3128
+	dynasty = 370028 # Caimbeul
 	culture = scottish
 	religion = catholic
 	father = 453078
@@ -1629,7 +1629,7 @@
 829646 = {
 	name = "Mariota"
 	female = yes
-	dynasty = 3128
+	dynasty = 370028 # Caimbeul
 	culture = scottish
 	religion = catholic
 	father = 188944
@@ -1644,7 +1644,7 @@
 
 829647 = {
 	name = "John"
-	dynasty = 3128
+	dynasty = 370028 # Caimbeul
 	culture = scottish
 	religion = catholic
 	father = 800161
@@ -1662,7 +1662,7 @@
 
 829648 = {
 	name = "Duncan"
-	dynasty = 3128
+	dynasty = 370028 # Caimbeul
 	culture = scottish
 	religion = catholic
 	father = 800161
@@ -1681,7 +1681,7 @@
 829649 = {
 	name = "Euphemia"
 	female = yes
-	dynasty = 100039
+	dynasty = 370029 # Mac in tSagairt
 	culture = scottish
 	religion = catholic
 	father = 453003
@@ -1711,6 +1711,148 @@
 		add_spouse = 829639
 	}
 	1435.1.1 = {
+		death = yes
+	}
+}
+
+## de la Haya ##
+
+829651 = {
+	name = "Gilbert"
+	dynasty = 370033 # de la Haya
+	culture = scottish
+	religion = catholic
+	father = 332020
+	mother = 82029
+
+	1215.1.1 = {
+		birth = yes
+	}
+	1263.1.1 = {
+		death = yes
+	}
+}
+
+829652 = {
+	name = "Nicholas"
+	dynasty = 370033 # de la Haya
+	culture = scottish
+	religion = catholic
+	father = 829651
+
+	1250.1.1 = {
+		birth = yes
+	}
+	1312.1.1 = {
+		death = yes
+	}
+}
+
+829653 = {
+	name = "Gilbert"
+	dynasty = 370033 # de la Haya
+	culture = scottish
+	religion = catholic
+	father = 829652
+
+	1281.1.1 = {
+		birth = yes
+	}
+	1333.1.1 = {
+		death = yes
+	}
+}
+
+829654 = {
+	name = "Nicholas"
+	dynasty = 370033 # de la Haya
+	culture = scottish
+	religion = catholic
+	father = 829653
+
+	1300.1.1 = {
+		birth = yes
+	}
+	1332.1.1 = {
+		death = yes
+	}
+}
+
+829655 = {
+	name = "David"
+	dynasty = 370033 # de la Haya
+	culture = scottish
+	religion = catholic
+	father = 829654
+
+	1318.1.1 = {
+		birth = yes
+	}
+	1346.1.1 = {
+		death = yes
+	}
+}
+
+829656 = {
+	name = "Thomas"
+	dynasty = 370033 # de la Haya
+	culture = scottish
+	religion = catholic
+	father = 829655
+
+	1342.1.1 = {
+		birth = yes
+	}
+	1370.1.1 = {
+		add_spouse = 800130
+	}
+	1406.1.1 = {
+		death = yes
+	}
+}
+
+829657 = {
+	name = "William"
+	dynasty = 370033 # de la Haya
+	culture = scottish
+	religion = catholic
+	father = 829656
+	mother = 800130
+	1378.1.1 = {
+		birth = yes
+	}
+	1436.1.1 = {
+		death = yes
+	}
+}
+
+829658 = {
+	name = "Gilbert"
+	dynasty = 370033 # de la Haya
+	culture = scottish
+	religion = catholic
+	father = 829656
+	mother = 800130
+	1381.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+
+829659 = {
+	name = "Elizabeth"
+	female = yes
+	dynasty = 370033 # de la Haya
+	culture = scottish
+	religion = catholic
+	father = 829656
+	mother = 800130
+	1384.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
 		death = yes
 	}
 }

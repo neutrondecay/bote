@@ -415,7 +415,8 @@
 	dynasty = 370008
 	culture = english
 	religion = catholic
-	
+	father = 860033
+	mother = 860036
 	1385.9.17 = {
 		birth = yes
 	}
@@ -1060,10 +1061,10 @@
 #DE JURE WALES
 800070 = { #Earl of Devon
 	name = "Edward"
-	dynasty = 370009 # de Courtenay, but disconnected until the family are filled out
+	dynasty = 23100
 	culture = english
 	religion = catholic
-	
+	father = 31007
 	1357.11.19 = {
 		birth = yes
 	}
@@ -2261,7 +2262,7 @@
 ## de Courtenay ##
 860019 = {
 	name = "Edward" 
-	dynasty = 370009 # de Courtenay
+	dynasty = 23100
 
 	culture = english
 	religion = catholic
@@ -2277,7 +2278,7 @@
 }
 860020 = {
 	name = "Hugh" 
-	dynasty = 370009 # de Courtenay
+	dynasty = 23100
 
 	culture = english
 	religion = catholic
@@ -2350,7 +2351,7 @@
 }
 ## Percy ##
 860024 = {
-	name = "Henry" # this is Harry Hotspur
+	name = "Henry"
 	dynasty = 370016 # Percy
 
 	culture = english
@@ -2362,6 +2363,7 @@
 	add_trait = proud
 	add_trait = gregarious
 	add_trait = skilled_tactician
+	give_nickname = bote_nick_hotspur
 
 	father=800106
 	mother=183104
@@ -2407,6 +2409,230 @@
 		birth = yes
 	}
 	1436.10.26 = {
+		death = yes
+	}
+}
+## de Mowbray ##
+860027 = {
+	name = "Roger" 
+	dynasty = 370008 # de Mowbray
+
+	culture = english
+	religion = catholic
+
+	father = 204803
+	
+	1205.1.1 = {
+		birth = yes
+	}
+	1272.1.1 = {
+		death = yes
+	}
+}
+860028 = {
+	name = "Roger" 
+	dynasty = 370008 # de Mowbray
+
+	culture = english
+	religion = catholic
+
+	father = 860027
+	
+	1254.1.1 = {
+		birth = yes
+	}
+	1297.1.1 = {
+		death = yes
+	}
+}
+860029 = {
+	name = "John" 
+	dynasty = 370008 # de Mowbray
+
+	culture = english
+	religion = catholic
+
+	father = 860028
+	
+	1286.1.1 = {
+		birth = yes
+	}
+	1322.1.1 = {
+		death = yes
+	}
+}
+860030 = {
+	name = "John" 
+	dynasty = 370008 # de Mowbray
+
+	culture = english
+	religion = catholic
+
+	father = 860029
+	
+	1310.1.1 = {
+		birth = yes
+	}
+	1361.1.1 = {
+		death = yes
+	}
+}
+860031 = {
+	name = "John" 
+	dynasty = 370008 # de Mowbray
+
+	culture = english
+	religion = catholic
+
+	father = 860030
+	
+	1340.1.1 = {
+		birth = yes
+	}
+	1368.1.1 = {
+		death = yes
+	}
+}
+860032 = {
+	name = "John" 
+	dynasty = 370008 # de Mowbray
+
+	culture = english
+	religion = catholic
+
+	father = 860031
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1383.1.1 = {
+		death = yes
+	}
+}
+860033 = {
+	name = "Thomas" 
+	dynasty = 370008 # de Mowbray
+
+	culture = english
+	religion = catholic
+
+	father = 860031
+	
+	1366.1.1 = {
+		birth = yes
+	}
+	1384.1.1 = {
+		add_spouse = 860036
+	}
+	1399.9.22 = {
+		death = yes
+	}
+}
+860034 = {
+	name = "John" 
+	dynasty = 370008 # de Mowbray
+
+	culture = english
+	religion = catholic
+
+	father = 860033
+	mother = 860036
+	
+	1392.1.1 = {
+		birth = yes
+	}
+	1432.1.1 = {
+		death = yes
+	}
+}
+860035 = {
+	name = "Elizabeth" 
+	female = yes
+	dynasty = 370008 # de Mowbray
+
+	culture = english
+	religion = catholic
+
+	father = 860033
+	mother = 860036
+	
+	1394.1.1 = {
+		birth = yes
+	}
+	1415.1.1 = {
+		death = yes
+	}
+}
+## FitzAlan ##
+860036 = {
+	name = "Elizabeth" 
+	female = yes
+	dynasty = 101899 # FitzAlan
+
+	culture = english
+	religion = catholic
+
+	father = 860023
+	
+	1366.1.1 = {
+		birth = yes
+	}
+	1425.1.1 = {
+		death = yes
+	}
+}
+860037 = {
+	name = "Joan" 
+	female = yes
+	dynasty = 101899 # FitzAlan
+
+	culture = english
+	religion = catholic
+
+	father = 860023
+	
+	1375.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+## de Beauchamp ##
+860038 = {
+	name = "William"
+	dynasty = 370018 # de Beauchamp
+
+	culture = english
+	religion = catholic
+
+	father = 454592
+	mother = 161647
+	
+	1343.1.1 = {
+		birth = yes
+	}
+	1392.1.1 = {
+		add_spouse = 860037
+	}
+	1411.1.1 = {
+		death = yes
+	}
+}
+860039 = {
+	name = "Richard"
+	dynasty = 370018 # de Beauchamp
+
+	culture = english
+	religion = catholic
+
+	father = 860038
+	mother = 860037
+	
+	1394.1.1 = {
+		birth = yes
+	}
+	1422.1.1 = {
 		death = yes
 	}
 }

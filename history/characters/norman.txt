@@ -3889,7 +3889,7 @@
 
 332019 = {
 	name="William"
-	dynasty=25054
+	dynasty=370033 # de la Haya
 	martial=8
 	diplomacy=8
 	intrigue=5
@@ -5710,7 +5710,7 @@
 82065 = {
 	name="Nigel"
 	# AKA: Nigel 'd'Aubigny'
-	dynasty=9115 
+	dynasty=370008 # de Mowbray
 	martial=8
 	diplomacy=5
 	intrigue=7
@@ -5810,13 +5810,13 @@
 
 82071 = {
 	name="Robert"
-	dynasty=9115
+	dynasty=370008 # de Mowbray
 	martial=6
 	diplomacy=5
 	intrigue=6
 	stewardship=8
 	religion="catholic"
-	culture="norman"
+	culture="english"
 	father=82065
 	mother=82075
 	1126.1.1 = {
@@ -5827,33 +5827,17 @@
 	}
 }
 
-82072 = {
-	name="Roger"
-	dynasty=9115
-	martial=8
-	diplomacy=5
-	intrigue=7
-	stewardship=5
-	religion="catholic"
-	culture="norman"
-	father=204803
-	1201.1.1 = {
-		birth="1201.1.1"
-	}
-	1266.11.1 = {
-		death="1266.11.1"
-	}
-}
+# 82072 removed; duplicate
 
 82074 = {
 	name="Roger" # died on 3rd Crusade
-	dynasty=9115
+	dynasty=370008 # de Mowbray
 	martial=8
 	diplomacy=6
 	intrigue=5
 	stewardship=3
 	religion="catholic"
-	culture="norman"
+	culture="english"
 	father=82065
 	mother=82075
 	1124.1.1 = {

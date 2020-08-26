@@ -3323,7 +3323,7 @@
 
 204800 = {
 	name = "Nigel"
-	dynasty = 9115
+	dynasty=370008 # de Mowbray
 	martial = 8
 	diplomacy = 7
 	intrigue = 5
@@ -3387,7 +3387,7 @@
 
 204803 = {
 	name = "William"
-	dynasty = 9115
+	dynasty=370008 # de Mowbray
 	martial = 5
 	diplomacy = 7
 	intrigue = 5
@@ -3409,7 +3409,7 @@
 
 204804 = {
 	name = "Robert"
-	dynasty = 9115
+	dynasty=370008 # de Mowbray
 	martial = 6
 	diplomacy = 5
 	intrigue = 5
@@ -3431,7 +3431,7 @@
 
 204805 = {
 	name = "Philip"
-	dynasty = 9115
+	dynasty=370008 # de Mowbray
 	martial = 5
 	diplomacy = 7
 	intrigue = 5
@@ -3453,7 +3453,7 @@
 
 204806 = {
 	name = "Roger"
-	dynasty = 9115
+	dynasty=370008 # de Mowbray
 	martial = 5
 	diplomacy = 7
 	intrigue = 5
