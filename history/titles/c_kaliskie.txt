@@ -183,9 +183,6 @@
 1370.11.5={
 	holder=469510 #Louis d'Anjou
 }
-1382.9.10={
-	holder=820100 #Jadwiga
-}
-1399.7.17={
-	holder=820010 #Wladyslaw II
+1381.1.1={
+	holder=880002 #Sedziwoj Paluka
 }

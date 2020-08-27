@@ -79,15 +79,8 @@ holder=471533
 1339.1.2={
 	holder=471500 #Casimir III
 }
-1370.11.5={
-	holder=820500 
+1370.1.1={
+	holder=880003 
+ 	liege="d_kuyavia"
 }
-1377.1.2={
-	holder=471725
-}
-1392.1.1={
-	holder=820100 #Jadwiga
-}
-1399.7.19={
-	holder=820010 #Wladyslaw
-}
+

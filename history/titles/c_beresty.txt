@@ -132,5 +132,6 @@ liege=k_poland
 	holder=820100 #Jadwiga
 }
 1399.7.17={
-	holder=820010 #Wladyslaw II
+        liege = k_poland
+	holder=880008
 }

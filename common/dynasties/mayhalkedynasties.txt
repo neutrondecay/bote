@@ -3,3 +3,33 @@
 	religion="catholic"
 	culture="german"
 }
+380000 = {
+	name="Paluka"
+	religion="catholic"
+	culture="polish"
+}
+380001 = {
+	name="of Bogdaniec"
+	religion="catholic"
+	culture="polish"
+}
+380002 = {
+	name="Paczkowski"
+	religion="catholic"
+	culture="polish"
+}
+380003 = {
+	name="Koniecpolski"
+	religion="catholic"
+	culture="polish"
+}
+380004 = {
+	name="Kmicic"
+	religion="catholic"
+	culture="polish"
+}
+380005 = {
+	name="Sapieha"
+	religion="catholic"
+	culture="polish"
+}

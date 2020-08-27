@@ -1099,3 +1099,95 @@
 		death = yes
 	}
 }
+880002  = {
+	name = "Sedziwoj" # Ostoja
+	dynasty=380000
+	culture = polish
+	religion = catholic
+	
+	1328.1.1 = {
+		birth = yes
+	}
+	1408.5.28 = {
+		death = yes
+	}
+}
+880003  = {
+	name = "Macko" # z Bogdanca
+	dynasty=380001
+	culture = polish
+	religion = catholic
+	fertility = 0
+	
+	1358.1.1 = {
+		birth = yes
+	}
+	1430.4.21 = {
+		death = yes
+	}
+}
+880004  = {
+	name = "Zbyszko" # z Bogdanca
+	dynasty=380001
+	culture = polish
+	religion = catholic
+	
+	1381.1.1 = {
+		birth = yes
+	}
+	1450.6.23 = {
+		death = yes
+	}
+}
+880005 = {
+	name = "Jakub" # Koniecpolski
+	dynasty=380003
+	culture = polish
+	religion = catholic
+	
+	1362.1.1 = {
+		birth = yes
+	}
+	1430.8.21 = {
+		death = yes
+	}
+}
+880006 = {
+	name = "Bartosz" # Paczkowski
+	dynasty=380002
+	culture = polish
+	religion = catholic
+	
+	1383.7.15 = {
+		birth = yes
+	}
+	1433.1.4 = {
+		death = yes
+	}
+}
+880007 = {
+	name = "Andrzej" # Kmicic
+	dynasty=380004
+	culture = polish
+	religion = catholic
+	
+	1373.1.1 = {
+		birth = yes
+	}
+	1436.8.5 = {
+		death = yes
+	}
+}
+880008 = {
+	name = "Stefan" # Sapiecha
+	dynasty=380005
+	culture = polish
+	religion = catholic
+	
+	1379.1.1 = {
+		birth = yes
+	}
+	1420.2.2 = {
+		death = yes
+	}
+}

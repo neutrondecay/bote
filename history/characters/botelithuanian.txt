@@ -61,6 +61,8 @@
 	name = "Jogaila"
 	dynasty = 11
 	historical = yes
+	trait = wroth
+	trait = inspiring_leader	
 
 	culture = lithuanian
 	religion = baltic_pagan
@@ -76,6 +78,7 @@
 		name="Vladislovas"
 		dynasty=3200006 #Jagiellon
 		add_spouse=820100 # Jadwiga
+		trait = zealous
 	}
 	1434.6.1 = {
 		death = yes
