@@ -100,7 +100,7 @@
 
 1391.1.1 = {
 	holder = 830008
-	liege = k_poland
+	liege = k_moldavia
 }
 1394.1.1 = {
 	holder = 830009
