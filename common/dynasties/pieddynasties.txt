@@ -592,3 +592,21 @@
 		}
 	}
 }
+
+370036 = {
+	name = "Dolci di Orvieto"
+	culture = italian
+	religion = catholic
+}
+
+370037 = {
+	name = "Bentivoglio"
+	culture = italian
+	religion = catholic
+}
+
+370038 = {
+	name = "di Cino"
+	culture = italian
+	religion = catholic
+}

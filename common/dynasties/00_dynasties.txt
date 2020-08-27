@@ -823,7 +823,7 @@
 	{
 		data=
 		{
-0 3 0 34 0 0 0 			}
+0 10 0 0 0 0 0 			}
 		religion="catholic"
 	}
 	used_for_random=no
@@ -9866,6 +9866,17 @@
 	name="des Baux"
 	culture="occitan"
 	religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 6000=
 {
@@ -15706,6 +15717,17 @@
 	name="d'Enghien"
 	culture="frankish"
 	religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 12236=
 {
@@ -16797,6 +16819,17 @@
 	name="Farnese"
 	culture="italian"
 	religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 13048=
 {
@@ -16826,6 +16859,17 @@
 	name="Gonzaga"
 	culture="italian"
 	religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 13053=
 {
@@ -16864,6 +16908,17 @@
 	name="Malatesta"
 	culture="italian"
 	religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 13060=
 {
@@ -16975,6 +17030,17 @@
 	name="Ruffo"
 	culture="italian"
 	religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 13078=
 {
@@ -30406,6 +30472,17 @@
 	name="da Carrara"
 	culture="italian"
 	religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 101824=
 {
@@ -30473,6 +30550,17 @@
 	name="Polentano"
 	culture="italian"
 	religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 101836=
 {

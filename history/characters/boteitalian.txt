@@ -31,7 +31,7 @@
 	dynasty = 13077
 	culture = italian
 	religion = catholic
-	
+	father = 32580
 	1369.10.13 = {
 		birth = yes
 	}
@@ -392,7 +392,7 @@
 }
 800236= { #Roberto Orsini, Count of Nola (Orvieto) 
 	name = "Roberto"
-	dynasty = 7215
+	dynasty = 2
 	culture = italian
 	religion = catholic
 	
@@ -424,7 +424,7 @@
 }
 800238 = { #Pirro Orsini, son of Roberto Orsini
 	name = "Pirro"
-	dynasty = 7215
+	dynasty = 2
 	culture = italian
 	religion = catholic
 	father = 800236
@@ -1603,7 +1603,6 @@
 }
 800336 = { #Paola Colonna, wife of Gherardo
 	name = "Paola"
-	dynasty = 13026
 	culture = italian
 	religion = catholic
 	female = yes
@@ -1800,7 +1799,7 @@
 	}
 }
 800351 = { #Margherita Malatesta, wife of Francesco Gonzaga
-	name="CarMargheritalo"
+	name="Margheritalo"
 	dynasty=13059
 	religion="catholic"
 	culture="italian"
@@ -3919,6 +3918,252 @@ name = "Giovanni"
 		birth = yes
 	}
 	1450.3.1 = {
+		death = yes
+	}
+}
+## Farnese ##
+803000 = {
+	name = "Pietro"
+	dynasty = 13047
+	culture = italian
+	religion = catholic
+	father = 73566
+	
+	trait = zealous
+	trait = diligent
+	trait = adventurer
+	trait = tough_soldier
+	
+	1350.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		add_spouse = 803007
+	}
+	1400.1.1 = {
+		employer = 803008
+		effect = {
+			give_job_title = job_marshal
+		}
+	}
+	1415.1.1 = {
+		death = yes
+	}
+}
+803001 = {
+	name = "Ranuccio"
+	dynasty = 13047
+	culture = italian
+	religion = catholic
+	father = 803000
+	mother = 803007
+	1390.1.1 = {
+		birth = yes
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+803002 = {
+	name = "Bartolomeo"
+	dynasty = 13047
+	culture = italian
+	religion = catholic
+	father = 803000
+	mother = 803007
+	1395.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+803003 = {
+	name = "Giovanni"
+	dynasty = 13047
+	culture = italian
+	religion = catholic
+	father = 803000
+	mother = 803007
+	1385.1.1 = {
+		birth = yes
+	}
+	1390.1.1 = {
+		death = yes
+	}
+}
+803004 = {
+	name = "Sciarra"
+	female = yes
+	dynasty = 13047
+	culture = italian
+	religion = catholic
+	father = 803000
+	mother = 803007
+	1392.1.1 = {
+		birth = yes
+	}
+	1401.1.1 = {
+		death = yes
+	}
+}
+803005 = {
+	name = "Emilia"
+	female = yes
+	dynasty = 13047
+	culture = italian
+	religion = catholic
+	father = 803000
+	mother = 803007
+	1393.1.1 = {
+		birth = yes
+	}
+	1404.1.1 = {
+		death = yes
+	}
+}
+803006 = {
+	name = "Pepone"
+	dynasty = 13047
+	culture = italian
+	religion = catholic
+	father = 803000
+	mother = 803007
+	1387.1.1 = {
+		birth = yes
+	}
+	1394.1.1 = {
+		death = yes
+	}
+}
+803007 = {
+	name = "Pentesilea"
+	female = yes
+	dynasty = 370036
+	culture = italian
+	religion = catholic
+	
+	1365.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+## Bentivoglio ##
+803008 = {
+	name = "Giovanni"
+	dynasty = 370037
+	culture = italian
+	religion = catholic
+	
+	1358.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		add_spouse = 803012
+	}
+	1402.6.26 = {
+		death = yes
+	}
+}
+803009 = {
+	name = "Antongaleazzo"
+	dynasty = 370037
+	culture = italian
+	religion = catholic
+	father = 803008
+	mother = 803012
+	1385.1.1 = {
+		birth = yes
+	}
+	1435.12.23 = {
+		death = yes
+	}
+}
+803010 = {
+	name = "Ercole"
+	dynasty = 370037
+	culture = italian
+	religion = catholic
+	father = 803008
+	mother = 803012
+	1388.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+803011 = {
+	name = "Giovanna"
+	female = yes
+	dynasty = 370037
+	culture = italian
+	religion = catholic
+	father = 803008
+	mother = 803012
+	1391.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+803012 = {
+	name = "Elisabetta"
+	female = yes
+	dynasty = 370038
+	culture = italian
+	religion = catholic
+
+	1360.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}
+## Trinci ##
+803013 = {
+	name = "Niccolò"
+	dynasty = 3000023
+	culture = italian
+	religion = catholic
+	father = 800262
+	mother = 800258
+	1375.1.1 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+803014 = {
+	name = "Bartolomeo"
+	dynasty = 3000023
+	culture = italian
+	religion = catholic
+	father = 800262
+	mother = 800258
+	1380.1.1 = {
+		birth = yes
+	}
+	1421.1.1 = {
+		death = yes
+	}
+}
+803015 = {
+	name = "Corrado"
+	dynasty = 3000023
+	culture = italian
+	religion = catholic
+	father = 800262
+	mother = 800258
+	1382.1.1 = {
+		birth = yes
+	}
+	1441.1.1 = {
 		death = yes
 	}
 }

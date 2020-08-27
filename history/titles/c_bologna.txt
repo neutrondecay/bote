@@ -126,3 +126,6 @@ liege=0
 	holder = 800346
 	liege = 0
 }
+1400.1.1 = {
+	holder = 803008 # Giovanni I Bentivoglio (actually 1401)
+}

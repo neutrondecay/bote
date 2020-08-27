@@ -78,6 +78,17 @@
 	name="de Sanseverino"
 	culture="italian"
 	religion="catholic"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 3000017 = {
 	name="de Luxembourg"
@@ -101,6 +112,19 @@
 }
 3000023 = {
 	name = "Trinci"
+	culture = italian
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 3000024 = {
 	name = "di Vico"
@@ -113,6 +137,19 @@
 }
 3000027 = {
 	name = "Albizzi"
+	culture = italian
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 3000028 = {
 	name = "Baldesi"
@@ -144,12 +181,12 @@
 	coat_of_arms = {
 		template = 0
 		layer = {
-			texture = 4
-			texture_internal = 15
+			texture = 16
+			texture_internal = 0
 			emblem = 0
-			color = 3
 			color = 0
-			color = 12
+			color = 0
+			color = 0
 		}
     }
 }

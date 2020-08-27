@@ -42,3 +42,12 @@ just so I can keep track of what I've done; feel free to delete before updating
 - added Harry Hotspur's nickname
 - removed a couple of duplicate characters in Scotland
 - updated the title history for Norfolk and Devon
+
+27/08/20:
+
+- added the Bentivoglio dynasty in Bologna
+- added CoAs for numerous Italian dynasties, plus Plantagenet (England)
+- fixes and additions to the Farnese and Trinci dynasties
+- fixed a few floating dynasties in Italy
+- fixed a naming issue with a few Greek characters (Manouel)
+- updated the title history for Bologna
