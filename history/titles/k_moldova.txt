@@ -1,5 +1,6 @@
 1391.1.1 = {
 	holder = 830008
+	liege = 0
 	de_jure_liege = e_carpathia
 	set_tribute_suzerain = {
 		who = k_poland
