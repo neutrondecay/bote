@@ -29,7 +29,7 @@
 	}
 }
 800452 = { #Manuel II Palaiologos
-	name = "Manouel"
+	name = "Manuel"
 	dynasty = 48
 	culture = greek
 	religion = orthodox
@@ -83,7 +83,7 @@
 	}
 }
 800457 = { #Manuel Philanthropenos
-	name="Manouel"
+	name="Manuel"
 	dynasty=101126
 	religion="orthodox"
 	culture="greek"
@@ -170,7 +170,7 @@
 		death = yes
 	}
 }
-801054 = { #Unnamed daughter of Basileus Manouel
+801054 = { #Unnamed daughter of Basileus Manuel
 	name = "Anna"
 	dynasty = 48
 	culture = greek
@@ -321,7 +321,7 @@
 	}
 }
 801115 = {
-	name="Manouel" #III of Trebizond
+	name="Manuel" #III of Trebizond
 	dynasty=634
 	religion="orthodox"
 	culture="greek"
