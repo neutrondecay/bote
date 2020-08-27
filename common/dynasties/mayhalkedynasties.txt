@@ -1,0 +1,5 @@
+370035 = {
+	name="von Jungingen"
+	religion="catholic"
+	culture="german"
+}

@@ -95,3 +95,6 @@ holder=474000 #Dietrich von Altenburg
 1393.7.23={
 	holder=810023 #Konrad von Jungingen
 }
+1404.1.1={
+	holder=880000 #Ulrich von Jungingen
+}

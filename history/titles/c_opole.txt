@@ -107,4 +107,5 @@
 }
 1382.1.2={
 	holder=471725
+	liege = d_silesia
 }

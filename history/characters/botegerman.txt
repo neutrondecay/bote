@@ -5344,5 +5344,46 @@
 		death=yes
 	}
 }
+810023 = {  	
+	name="Konrad" # Klingenberg
+	dynasty=370035
+	religion="catholic"
+	culture="german"
+	father=880001
+	
+	1355.1.1={
+		birth=yes
+	}
+	1455.3.30={
+		death=yes
+	}
+}
+880000 = {  	
+	name="Ulrich" # Klingenberg
+	dynasty=370035
+	religion="catholic"
+	culture="german"
+	father=880001
+	
+	1360.1.1={
+		birth=yes
+	}
+	1410.7.15={
+		death=yes
+	}
+}
+880001 = {  	
+	name="Adrian" # Klingenberg
+	dynasty=370035
+	religion="catholic"
+	culture="german"
+	
+	1310.1.1={
+		birth=yes
+	}
+	1378.7.15={
+		death=yes
+	}
+}
 #Note: IDs 857245 & 857246 taken; used to replace duplicate IDs
 #Next free ID: 857247

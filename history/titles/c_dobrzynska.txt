@@ -53,3 +53,10 @@
 1287.1.2={
 	holder=471534 #leszek
 }
+1379.1.1={
+	holder=471725 #Władyslaw Opolczyk
+}
+1392.5.1={
+	liege = k_teutonic_state
+	holder=810023 #Teutons
+}

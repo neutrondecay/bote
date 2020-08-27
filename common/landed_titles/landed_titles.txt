@@ -995,6 +995,8 @@ k_teutonic_state = {
 	holy_order = yes
 	mercenary_type = teutonic_order_composition
 
+	capital = 370 # Marienburg
+
 	short_name = yes
 
 	assimilate = no
