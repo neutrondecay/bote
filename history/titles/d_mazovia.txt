@@ -76,6 +76,12 @@
 1345.2.18={
 	holder = 471518
 }
+1351.1.1={
+	set_tribute_suzerain = {
+		who = k_poland
+		type = permanent
+	}
+}
 1364.1.2={
 	holder=820149
 }
