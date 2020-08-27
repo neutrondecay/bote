@@ -5350,6 +5350,9 @@
 	religion="catholic"
 	culture="german"
 	father=880001
+	trait = just
+	trait = gregarious
+	trait = kind
 	
 	1355.1.1={
 		birth=yes
@@ -5365,8 +5368,8 @@
 	culture="german"
 	father=880001
 	trait = just
-	trait = gregarious
-	trait = kind
+	trait = wrath
+	trait = proud
 	
 	
 	1360.1.1={
@@ -5381,9 +5384,7 @@
 	dynasty=370035
 	religion="catholic"
 	culture="german"
-	trait = just
-	trait = wrath
-	trait = proud
+
 	
 	1310.1.1={
 		birth=yes
