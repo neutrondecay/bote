@@ -51,3 +51,8 @@ just so I can keep track of what I've done; feel free to delete before updating
 - fixed a few floating dynasties in Italy
 - fixed a naming issue with a few Greek characters (Manouel)
 - updated the title history for Bologna
+
+28/08/20:
+
+- added CoAs for some Polish dynasties
+- fixed a floating member of a Polish dynasty

@@ -1131,7 +1131,7 @@
 	dynasty=380001
 	culture = polish
 	religion = catholic
-	
+	father = 880003
 	1381.1.1 = {
 		birth = yes
 	}

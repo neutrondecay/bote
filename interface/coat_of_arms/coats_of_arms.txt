@@ -195,6 +195,13 @@ culture =
 			color = 0
 			random = no # Do not use for random CoAs
 		}
+		texture = {
+			file = "gfx\\coats_of_arms\\bote_poland.tga"
+			size = { x = 3 y = 1 }
+			noOfFrames = 3
+			color = 0
+			random = no # Do not use for random CoAs
+		}
 		
 		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
 	}

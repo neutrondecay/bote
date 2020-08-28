@@ -1,17 +1,34 @@
-370035 = {
-	name="von Jungingen"
-	religion="catholic"
-	culture="german"
-}
 380000 = {
 	name="Paluka"
 	religion="catholic"
 	culture="polish"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 380001 = {
 	name="of Bogdaniec"
 	religion="catholic"
 	culture="polish"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 380002 = {
 	name="Paczkowski"
@@ -22,6 +39,17 @@
 	name="Koniecpolski"
 	religion="catholic"
 	culture="polish"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 17
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 380004 = {
 	name="Kmicic"
