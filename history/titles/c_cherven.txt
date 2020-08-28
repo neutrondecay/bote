@@ -142,7 +142,7 @@ holder=471500 #Casimir the Great
 1382.9.10={
 	holder=820100 #Jadwiga
 }
-1399.7.17={
-        liege = k_poland
-	holder=820010 #Wladyslaw II
+1387.1.1={
+        liege = d_mazovia
+	holder=820149 
 }

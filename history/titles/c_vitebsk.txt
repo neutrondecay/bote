@@ -92,8 +92,11 @@ holder=472879 # Ulyana of Tver
 {
 holder=855001 # Feodor Vesna
 }
-1393.1.2=
-{
+1393.1.2 ={
 liege=d_polotsk
 holder=855000 # Svitrigaila
+}
+1399.7.17={
+        liege=k_lithuania
+	holder=820011
 }

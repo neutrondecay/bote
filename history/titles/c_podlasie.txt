@@ -131,6 +131,6 @@ liege=k_poland
 	holder=820100 #Jadwiga
 }
 1399.7.17={
-        liege = k_poland
+	liege=k_lithuania
 	holder=880008
 }

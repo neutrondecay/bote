@@ -115,5 +115,6 @@ holder=471500 #Casimir the Great
 	holder=820100 #Jadwiga
 }
 1399.7.17={
-	holder=880007 
+        liege = k_poland
+	holder=855000 #Svitrigaila
 }

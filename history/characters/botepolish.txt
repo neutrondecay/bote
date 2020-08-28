@@ -1178,16 +1178,4 @@
 		death = yes
 	}
 }
-880008 = {
-	name = "Stefan" # Sapiecha
-	dynasty=380005
-	culture = polish
-	religion = catholic
-	
-	1379.1.1 = {
-		birth = yes
-	}
-	1420.2.2 = {
-		death = yes
-	}
-}
+

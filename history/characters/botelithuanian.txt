@@ -25,7 +25,7 @@
 	religion = baltic_pagan
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1360.1.1 = {
 		birth = yes
@@ -47,7 +47,7 @@
 	religion = orthodox
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1356.1.1 = {
 		birth = yes
@@ -68,7 +68,7 @@
 	religion = baltic_pagan
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1357.1.1 = {
 		birth = yes
@@ -155,7 +155,7 @@
 	religion = baltic_pagan
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1353.1.1 = {
 		birth = yes
@@ -175,7 +175,7 @@
 	religion = baltic_pagan
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1368.1.1 = {
 		birth = yes
@@ -216,7 +216,7 @@
 	religion = baltic_pagan
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1353.1.1 = {
 		birth = yes
@@ -237,7 +237,7 @@
 	religion = baltic_pagan
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1363.1.1 = {
 		birth = yes
@@ -257,7 +257,7 @@
 	religion = baltic_pagan
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1364.1.1 = {
 		birth = yes
@@ -278,7 +278,7 @@
 	religion = baltic_pagan
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1350.1.1 = {
 		birth = yes
@@ -299,7 +299,7 @@
 	religion = orthodox
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1356.1.1 = {
 		birth = yes
@@ -318,7 +318,7 @@
 	religion = orthodox
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1352.1.1 = {
 		birth = yes
@@ -337,7 +337,7 @@
 	religion = baltic_pagan
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1366.1.1 = {
 		birth = yes
@@ -358,7 +358,7 @@
 	religion = catholic
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1367.1.1 = {
 		birth = yes
@@ -503,7 +503,7 @@
 	religion = baltic_pagan
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1370.1.1 = {
 		birth = yes
@@ -941,7 +941,7 @@
 	religion = orthodox
 
 	father=473506 #Grand Duke Algirdas
-	mother=472879 #Ulyana of Tver
+	mother=473512 #Ulyana of Tver
 
 	1347.1.1 = {
 		birth = yes
@@ -1106,5 +1106,18 @@
 		    death_reason=death_battle
 			killer=855613 # Edigu Manghit
 		}
+	}
+}
+880008 = {
+	name = "Stefan" # Sapiecha
+	dynasty=380005
+	culture = lithuanian
+	religion = catholic
+	
+	1379.1.1 = {
+		birth = yes
+	}
+	1420.2.2 = {
+		death = yes
 	}
 }
