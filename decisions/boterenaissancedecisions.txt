@@ -3,8 +3,7 @@ decisions = {
 	embrace_renaissance = {
 		is_high_prio = yes
 		ai_check_interval = 30
-		only_rulers = yes
-		capable_only = yes
+		only_playable = yes
 		has_global_flag = renaissance_started
 		potential = {
 			OR = { #Current realm is part of the Renaissance or neighbouring realm has been for a while
@@ -139,10 +138,8 @@ decisions = {
 		}
 	}
 	commission_painting = {
-		only_rulers = yes
-		capable_only = yes
+		only_playable = yes
 		ai_check_interval = 24
-		war = no
 		has_global_flag = renaissance_started
 		potential = {
 			has_character_flag = renaissance_ruler
@@ -159,6 +156,7 @@ decisions = {
 		allow = {
 			is_adult = yes
 			wealth >= 100
+			war = no
 		}
 		effect = {
 			#Commission painting
@@ -168,10 +166,8 @@ decisions = {
 		}
 	}
 	patronise_renaissance_research = {
-		only_rulers = yes
-		capable_only = yes
+		only_playable = yes
 		ai_check_interval = 24
-		war = no
 		has_global_flag = renaissance_started
 		potential = {
 			has_character_flag = renaissance_ruler
@@ -199,6 +195,7 @@ decisions = {
 		}
 		allow = {
 			wealth = 200
+			war = no
 		}
 		effect = {
 			character_event = { id = bote.00019 }
@@ -207,10 +204,8 @@ decisions = {
 		}
 	}
 	commission_renaissance_painting = {
-		only_rulers = yes
-		capable_only = yes
+		only_playable = yes
 		ai_check_interval = 24
-		war = no
 		has_character_flag = renaissance_ruler
 		potential = {
 			has_global_flag = renaissance_advancement_perspective
@@ -227,6 +222,7 @@ decisions = {
 		allow = {
 			is_adult = yes
 			wealth >= 200
+			war = no
 		}
 		effect = {
 			#Commission painting
