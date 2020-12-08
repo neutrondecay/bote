@@ -93,7 +93,7 @@
 	holder=460620 # Jaume III de Barcelona
 }
 1344.1.1 = {
-	holder = =460500 # Pere IV de Barcelona
+	holder =460500 # Pere IV de Barcelona
 }
 1387.1.5 = {
 	holder = 800397 #Joan I d'Aragó

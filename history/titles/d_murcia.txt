@@ -110,7 +110,7 @@
 	holder=457630 # Juan Manuel de Villena
 }
 1346.1.1 = {
-	older=457500 # Alfonso XI de Borgoña
+	holder=457500 # Alfonso XI de Borgoña
 }
 1350.3.26 = {
 	holder = 457501 #Pedro de Castile

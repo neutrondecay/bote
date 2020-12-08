@@ -211,7 +211,7 @@ k_vidin = {
 	title_prefix = TSARDOM
 	
 	culture = bulgarian
-	capital = c_vidin
+	capital = 506
 }
 k_tarnovo = {
 	color={ 103 14 0 }
@@ -223,7 +223,7 @@ k_tarnovo = {
 	title_prefix = TSARDOM
 	
 	culture = bulgarian
-	capital = c_tyrnovo
+	capital = 499
 }
 d_rumelia = {
 	color={ 208 184 124 }
@@ -231,7 +231,7 @@ d_rumelia = {
 	color2={ 255 100 125 }
 	
 	culture = turkish
-	capital = c_serdica
+	capital = 500
 }
 e_timurid = {
 	color = { 176 176 250 }

@@ -45,5 +45,5 @@
 	}
 }
 1395.1.1 = {
-	clear_tribute_suzeraine = e_golden_horde #Stops paying tribute
+	clear_tribute_suzerain = e_golden_horde #Stops paying tribute
 }

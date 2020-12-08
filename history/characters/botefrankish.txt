@@ -4762,7 +4762,7 @@
 	religion = catholic
 	father = 860005 # Jean I de Luxembourg-Ligny
 	mother = 860007 # Alix de Dampierre
-	1332.1.1 = { birth = yes ]
+	1332.1.1 = { birth = yes }
 	1350.12.8 = { add_spouse = 860001 } # Mahaut de Chatillon
 	1371.1.1 = {
 		death = {
@@ -4777,7 +4777,7 @@
 	religion = catholic
 	father = 860005 # Jean I de Luxembourg-Ligny
 	mother = 860007 # Alix de Dampierre
-	1342.1.1 = { birth = yes ]
+	1342.1.1 = { birth = yes }
 	#1350.12.8 = { add_spouse = 860001 } # Mahaut de Chatillon
 	1373.4.4 = {
 		death = yes
