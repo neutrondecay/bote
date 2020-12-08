@@ -1,6 +1,6 @@
 850300 = {
 	name = "Sarah"
-
+	female = yes
 	culture = bulgarian
 	religion = jewish
 

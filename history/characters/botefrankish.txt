@@ -4657,6 +4657,7 @@
 #
 860001 = {  #
 	name = Mahaut #
+	female = yes
 	dynasty = 23113 # Chatillon
 	culture = frankish
 	religion = catholic
