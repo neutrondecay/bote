@@ -8772,7 +8772,7 @@
 	}
 }
 
-170299 = {
+860040 = {
 	name="Muhammad Shah"
 	dynasty=1040208
 	religion="sunni"
@@ -8786,12 +8786,12 @@
 	}
 }
 
-170300 = {
+860041 = {
 	name="Nasir-ud-Din"
 	dynasty=1040208
 	religion="sunni"
 	culture="turkish"
-	father=170299
+	father=860040
 	1380.1.1={
 		birth="1380.1.1"
 	}
