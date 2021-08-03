@@ -159,6 +159,15 @@
 	holder = 74723
 	liege = e_rajastan
 }
-1330.1.1={
-	liege = k_maharastra
+1358.1.1={
+	holder=74724
+}
+1375.1.1={
+	holder = 170261 #Firuz
+}
+1388.9.20={
+	holder = 860040 # Muhammad Shah
+}
+1394.1.20={
+	holder = 860041 # Nasir-ud-Din
 }
