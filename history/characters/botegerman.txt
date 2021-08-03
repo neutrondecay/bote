@@ -2888,7 +2888,8 @@
 	1344.1.1 = {
 		birth = yes
 	}
-	1359.1.1 = {add_spouse = 802637}
+	#missing wife ID
+	#1359.1.1 = {add_spouse = 802637}
 	1363.1.1 = {
 		death = yes
 	}

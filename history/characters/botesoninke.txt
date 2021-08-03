@@ -73,7 +73,7 @@
 	religion="sunni"
 	culture="soninke"
 
-	father = 829613
+	father = 829612
 	
 	1380.1.1 = {
 		birth = yes
