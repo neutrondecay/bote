@@ -10593,3 +10593,16 @@
 		death = yes
 	}
 }
+# Sayyid dynasty (Delhi Sultanate)
+860042 = {
+	name = "Khizr Khan"
+	dynasty = 350041
+	religion = sunni
+	culture = panjabi
+	1368.1.1 = {
+		birth = yes
+	}
+	1421.5.20 = {
+		death = yes
+	}
+}

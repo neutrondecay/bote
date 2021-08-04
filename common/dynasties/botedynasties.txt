@@ -1014,3 +1014,8 @@
 	religion = orthodox
 	culture = lithuanian
 }
+350041 = {
+	name = "Sayyid"
+	religion = sunni
+	culture = panjabi
+}
