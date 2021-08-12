@@ -75,3 +75,6 @@
 	holder = 191927 # Ain-ul-Mulk Multani
 	liege = e_rajastan
 }
+1378.1.1={
+	holder = 860043 # Jam Fath Khan (Samma)
+}

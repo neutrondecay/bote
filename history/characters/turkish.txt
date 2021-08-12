@@ -10606,3 +10606,31 @@
 		death = yes
 	}
 }
+# Samma dynasty (Delhi Sultanate)
+860043 = {
+	name="Jam Fath Khan"
+	dynasty=1042086 # Samma
+	religion="sunni"
+	culture="sindhi"
+	1378.1.1={
+		birth=yes
+	}
+	1420.1.1={
+		death=yes
+	}
+}
+# Bahmanid dynasty (Delhi Sultante)
+860044 = {
+	name="Taj ud-Din Firuz Shah"
+	dynasty=12334
+	religion="sunni"
+	culture="afghan"
+	father=74724
+
+	1365.1.1={
+		birth=yes
+	}
+	1422.10.1={
+		death=yes
+	}
+}

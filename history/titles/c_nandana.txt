@@ -73,3 +73,6 @@
 1341.1.1={
 	holder = 191984 #Haydar Han
 }
+1368.1.1={
+	holder = 860042 # Khizr Khan (Sayyid)
+}

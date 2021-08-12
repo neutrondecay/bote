@@ -61,3 +61,6 @@
 1313.1.1={
 	holder=170241 #Jaspal
 }
+1368.1.1={
+	holder = 860042 # Khizr Khan (Sayyid)
+}

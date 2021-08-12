@@ -87,3 +87,6 @@
 1333.1.1={
 	holder = 188371 # Doda IV
 }
+1378.1.1={
+	holder = 860043 # Jam Fath Khan (Samma)
+}

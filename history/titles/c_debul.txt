@@ -57,3 +57,6 @@
 	liege = 0
 	holder = 242020 # Unar Samma
 }
+1378.1.1={
+	holder = 860043 # Jam Fath Khan (Samma)
+}

@@ -129,6 +129,3 @@
 1368.1.1={
 	holder = 860042 # Khizr Khan (Sayyid)
 }
-1398.1.1={
-	liege=0
-}

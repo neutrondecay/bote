@@ -26,3 +26,6 @@
 914.1.1={
 	holder = 0
 }
+1375.1.1={
+	holder = 860044 # Taj ud-Din Firuz Shah
+}

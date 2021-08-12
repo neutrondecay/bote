@@ -5,3 +5,7 @@
 1000.1.1 = {
 	holder = 0 # Shahis destroyed
 }
+
+1368.1.1={
+	holder = 860042 # Khizr Khan (Sayyid)
+}
