@@ -104,7 +104,7 @@
 	holder=455910 #Eudes IV
 }
 1349.4.3={
-	holder= #Philippe I
+	holder=4559120 #Philippe I
 }
 ##Valois
 1361.11.21={

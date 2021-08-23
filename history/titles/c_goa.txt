@@ -87,3 +87,6 @@
 1325.1.1={
 	holder = 74557
 }
+1375.1.1={
+	holder = 860044 # Taj ud-Din Firuz Shah
+}
