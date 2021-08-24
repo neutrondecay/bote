@@ -124,6 +124,6 @@
 1388.9.20={
 	holder = 860040 # Muhammad Shah
 }
-1394.1.20={
-	holder = 860041 # Nasir-ud-Din
+1394.1.1={
+	holder = 860045 # Mubarak Shah
 }

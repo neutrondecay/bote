@@ -1019,3 +1019,8 @@
 	religion = sunni
 	culture = panjabi
 }
+350042 = {
+	name = "Sharqi"
+	religion = sunni
+	culture = persian
+}

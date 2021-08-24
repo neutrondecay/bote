@@ -9,14 +9,14 @@ iberian = {
 		color = { 0.8 0.2 0.1 }
 		male_names = {
 			Alfons_Alphonse Arnau_Arnold Artau_Artal Berenguer_Berengar Berenguer-Ramon Bernat_Bernard Bernat-Guillem Dalmau Ermengol_Ermengaud Felip_Philip
-			Ferran_Ferdinand Frederic_Frederick Gausfred_Godfrey Gerard_Gerard Gombau Guerau_Gerald GuifrÃ©_Wilfred Guillem_William Guillem-Ramon Guislabert_Gilbert
-			Hug_Hugh Jaume_Jacob Joan_John JofrÃ©_Godfrey Ott_Otto Pere_Peter PonÃ§_Pons PonÃ§-Hug Ramon_Raymond Ramon-Berenguer_Raymond-Berengar
-			Ramon-Folc Roger_Roger SanÃ§_Sancho Sunyer_Sunyer Udalard
+			Ferran_Ferdinand Frederic_Frederick Gausfred_Godfrey Gerard_Gerard Gombau Guerau_Gerald Guifré_Wilfred Guillem_William Guillem-Ramon Guislabert_Gilbert
+			Hug_Hugh Jaume_Jacob Joan_John Jofré_Godfrey Ott_Otto Pere_Peter Ponç_Pons Ponç-Hug Ramon_Raymond Ramon-Berenguer_Raymond-Berengar
+			Ramon-Folc Roger_Roger Sanç_Sancho Sunyer_Sunyer Udalard
 		}
 		female_names = {
-			Adelaida_Adelaide AgnÃ¨s_Agnes Alamanda Arsenda_Arsenda Beatriu_Beatrice Blanca_Blanche Brunisenda ConstanÃ§a_Constance DolÃ§a_Douce Elionor_Eleanor
+			Adelaida_Adelaide Agnès_Agnes Alamanda Arsenda_Arsenda Beatriu_Beatrice Blanca_Blanche Brunisenda Constança_Constance Dolça_Douce Elionor_Eleanor
 			Elisenda Ermessenda_Ermesinda Estefania_Stephania Gueraua Guillelma_Willhelmina Guisla_Gisela Isabel_Elizabeth Margarida_Margaret Maria_Maria Marquesa_Marquise
-			SanÃ§a_Sancha Sibila_Sibylla Teresa_Teresa Toda_Toda Violant_Yolanda
+			Sança_Sancha Sibila_Sibylla Teresa_Teresa Toda_Toda Violant_Yolanda
         }
 		from_dynasty_prefix = "de "
 		grammar_transform = french

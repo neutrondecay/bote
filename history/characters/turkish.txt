@@ -10634,3 +10634,17 @@
 		death=yes
 	}
 }
+# Sharqi dynasty (Jaunpur Sultante)
+860045 = {
+	name="Mubarak Shah"
+	dynasty=350042
+	religion="sunni"
+	culture="persian"
+
+	1376.1.1={
+		birth=yes
+	}
+	1420.10.1={
+		death=yes
+	}
+}
