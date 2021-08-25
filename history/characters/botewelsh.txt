@@ -60,9 +60,6 @@
 	1356.1.18 = {
 		birth = yes
 	}
-	1358.03.01 = {
-		death = yes
-	}
 	1401.1.1 = { #Placeholder death
 		death = yes
 	}

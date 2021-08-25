@@ -5453,8 +5453,10 @@
 		effect = {add_friend = 125501 } #Becomes blood brothers with Temüjin
 	}
 	1201.1.1={
-		effect = {remove_friend = 125501}
-		effect = {add_rival = 125501 } #Becomes rivals with Temüjin
+		effect = {
+			remove_friend = 125501
+			add_rival = 125501 
+		} #Becomes rivals with Temüjin
 	}
 	1206.1.1={
 		death=yes
@@ -6783,8 +6785,10 @@
 		effect = {add_friend = 125501} #Wang Khan gives patronage to Temüjin
 	}
 	1201.1.1={
-		effect = {add_rival = 125501 } #Becomes rivals with Genghis Khan
-		effect = {remove_friend = 125501}
+		effect = {
+			add_rival = 125501 
+			remove_friend = 125501
+		} #Becomes rivals with Genghis Khan
 	}
 	1203.1.1={
 		death=yes
@@ -8997,7 +9001,7 @@
 		birth=yes
 	}
 	1310.1.1={
-		add_claim = d_kabulistan
+		add_claim = d_zabulistan
 		add_claim = e_chagatai
 	}
 	1358.1.1={

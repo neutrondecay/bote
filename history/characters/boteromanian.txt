@@ -91,6 +91,9 @@
 	1370.1.1 = {
 		birth = yes
 	}
+	1419.2.12 = {
+	    death=yes
+	}
 }
 830006 = { #Brata/Vassal of Mircea
 	name = "Brata"
@@ -98,6 +101,9 @@
 	religion = orthodox
 	1375.1.1 = {
 		birth = yes
+	}
+	1419.2.12 = {
+	    death=yes
 	}
 }
 830008 = { #Roman/Father of Alexander
@@ -170,6 +176,9 @@
 	1380.1.1 = {
 		birth = yes
 	}
+	1419.2.12 = {
+	    death=yes
+	}
 }
 830013 = { #Vasile/Vassal of Alexandru
 	name = "Vasile"
@@ -177,6 +186,9 @@
 	religion = orthodox
 	1375.1.1 = {
 		birth = yes
+	}
+	1419.2.12 = {
+	    death=yes
 	}
 }
 855101 = {
@@ -192,6 +204,9 @@
 	1356.1.1 = {
 	    add_spouse = 467511 # Ivan Sratzimir of Vidin
 		religion = orthodox
+	}
+	1419.2.12 = {
+	    death=yes
 	}
 }
 855150 = {
